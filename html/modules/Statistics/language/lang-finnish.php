@@ -19,18 +19,18 @@
 
 define("_HITS","Lukukertoja");
 define("_BROWSERS","Selaimet");
-define("_OPERATINGSYS","K‰yttˆj‰rjestelm‰t");
+define("_OPERATINGSYS","K√§ytt√∂j√§rjestelm√§t");
 define("_UNKNOWN","tuntematon");
 define("_OTHER","Muu / Tuntematon");
 define("_MISCSTATS","Sekalaista statiikkaa");
-define("_REGUSERS","Rekisterˆityneit‰ k‰ytt‰ji‰:");
-define("_ACTIVEAUTHORS","Aktiivisia yll‰pit‰ji‰:");
+define("_REGUSERS","Rekister√∂ityneit√§ k√§ytt√§ji√§:");
+define("_ACTIVEAUTHORS","Aktiivisia yll√§pit√§ji√§:");
 define("_STORIESPUBLISHED","Uutista julkaistu:");
 define("_SACTIVETOPICS","Aktiivista kanavaa:");
 define("_COMMENTSPOSTED","Kommentteja:");
-define("_SSPECIALSECT","Opetuksien aihepiirej‰:");
-define("_ARTICLESSEC","Opetuksia aihepiireiss‰:");
-define("_LINKSINLINKS","Linkkej‰ kannassa:");
+define("_SSPECIALSECT","Opetuksien aihepiirej√§:");
+define("_ARTICLESSEC","Opetuksia aihepiireiss√§:");
+define("_LINKSINLINKS","Linkkej√§ kannassa:");
 define("_LINKSCAT","Linkkien kategorioita:");
 define("_NEWSWAITING","Uutista odottaa julkaisemista:");
 define("_NUKEVERSION","Versio:");

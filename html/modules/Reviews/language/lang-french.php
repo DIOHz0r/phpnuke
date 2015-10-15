@@ -100,7 +100,7 @@ define("_COVERIMAGE","Image de couverture:");
 define("_PREMODS","Pr&eacute;visualisation des modifications");
 define("_PAGE","Page");
 define("_PAGEBREAK","Si vous voulez plusieurs pages, vous pouvez &eacute;crire <b>[--pagebreak--]</b> l&agrave; o&ugrave; vous voulez un saut de page.");
-define("_PREVIEW","Prévisualisation");
+define("_PREVIEW","PrÃ©visualisation");
 define("_LANGUAGE","Langue");
 
 

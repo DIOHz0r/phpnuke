@@ -1,20 +1,20 @@
 // CZ lang variables
 
-tinyMCELang['lang_insert_link_target_same'] = 'Otevøít ve stejném oknì/rámu';
-tinyMCELang['lang_insert_link_target_parent'] = 'Otevøít v rodièovském oknì/rámu';
-tinyMCELang['lang_insert_link_target_top'] = 'Otevøít v nejvyšším rámu (pøepíše všechny rámy)';
-tinyMCELang['lang_insert_link_target_blank'] = 'Otevøít v novém oknì';
-tinyMCELang['lang_insert_link_target_named'] = 'Otevøít v oknì';
+tinyMCELang['lang_insert_link_target_same'] = 'OtevÃ¸Ã­t ve stejnÃ©m oknÃ¬/rÃ¡mu';
+tinyMCELang['lang_insert_link_target_parent'] = 'OtevÃ¸Ã­t v rodiÃ¨ovskÃ©m oknÃ¬/rÃ¡mu';
+tinyMCELang['lang_insert_link_target_top'] = 'OtevÃ¸Ã­t v nejvyÅ¡Å¡Ã­m rÃ¡mu (pÃ¸epÃ­Å¡e vÅ¡echny rÃ¡my)';
+tinyMCELang['lang_insert_link_target_blank'] = 'OtevÃ¸Ã­t v novÃ©m oknÃ¬';
+tinyMCELang['lang_insert_link_target_named'] = 'OtevÃ¸Ã­t v oknÃ¬';
 tinyMCELang['lang_insert_link_popup'] = 'JS-Popup';
 tinyMCELang['lang_insert_link_popup_url'] = 'Popup URL';
-tinyMCELang['lang_insert_link_popup_name'] = 'Název okna';
+tinyMCELang['lang_insert_link_popup_name'] = 'NÃ¡zev okna';
 tinyMCELang['lang_insert_link_popup_return'] = 'insert \'return false\'';
-tinyMCELang['lang_insert_link_popup_scrollbars'] = 'Ukázat posuvníky';
-tinyMCELang['lang_insert_link_popup_statusbar'] = 'Ukázat stavovı øádek';
-tinyMCELang['lang_insert_link_popup_toolbar'] = 'Ukázat ovl. lištu';
-tinyMCELang['lang_insert_link_popup_menubar'] = 'Ukázat menu';
-tinyMCELang['lang_insert_link_popup_location'] = 'Ukázat lištu umístìní';
-tinyMCELang['lang_insert_link_popup_resizable'] = 'Promìnná velikost okna';
+tinyMCELang['lang_insert_link_popup_scrollbars'] = 'UkÃ¡zat posuvnÃ­ky';
+tinyMCELang['lang_insert_link_popup_statusbar'] = 'UkÃ¡zat stavovÃ½ Ã¸Ã¡dek';
+tinyMCELang['lang_insert_link_popup_toolbar'] = 'UkÃ¡zat ovl. liÅ¡tu';
+tinyMCELang['lang_insert_link_popup_menubar'] = 'UkÃ¡zat menu';
+tinyMCELang['lang_insert_link_popup_location'] = 'UkÃ¡zat liÅ¡tu umÃ­stÃ¬nÃ­';
+tinyMCELang['lang_insert_link_popup_resizable'] = 'PromÃ¬nnÃ¡ velikost okna';
 tinyMCELang['lang_insert_link_popup_size'] = 'Velikost';
-tinyMCELang['lang_insert_link_popup_position'] = 'Umístìní (X/Y)';
-tinyMCELang['lang_insert_link_popup_missingtarget'] = 'Vlote název cíle nebo vyberte jinou volbu.';
+tinyMCELang['lang_insert_link_popup_position'] = 'UmÃ­stÃ¬nÃ­ (X/Y)';
+tinyMCELang['lang_insert_link_popup_missingtarget'] = 'VloÅ¾te nÃ¡zev cÃ­le nebo vyberte jinou volbu.';

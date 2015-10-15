@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Tere {USERNAME},
 
-Teie kasutajakonto "{SITENAME}" foorumil on deaktiveeritud, kıige tıen‰olisemaks pıhjuseks on profiilis tehtud muutused. Et taasavada oma kontot vajutage j‰rgnevat linki:
+Teie kasutajakonto "{SITENAME}" foorumil on deaktiveeritud, k√µige t√µen√§olisemaks p√µhjuseks on profiilis tehtud muutused. Et taasavada oma kontot vajutage j√§rgnevat linki:
 
 {U_ACTIVATE}
 

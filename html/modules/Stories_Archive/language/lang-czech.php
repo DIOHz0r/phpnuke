@@ -17,10 +17,10 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Vytisknout str·nku");
-define("_FRIEND","Poslat tento Ël·nek zn·m˝m");
-define("_ARTICLES","»l·nky");
-define("_USCORE","HodnocenÌ");
+define("_PRINTER","Vytisknout str√°nku");
+define("_FRIEND","Poslat tento ƒçl√°nek zn√°m√Ωm");
+define("_ARTICLES","ƒål√°nky");
+define("_USCORE","Hodnocen√≠");
 define("_DATE","Datum");
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");
 define("_SHOWALLSTORIES","Show ALL Stories");

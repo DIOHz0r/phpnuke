@@ -22,19 +22,19 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","ùìç");
-define("_YOURNAME","ùîê");
-define("_MESSAGE","äåãòúê");
-define("_YOUREMAIL","ãåàø àì÷èøåðé");
-define("_FEEDBACKNOTE","ëì äîùåáéí ùúùìçå ìðå éú÷áìå ááøëä");
-define("_FEEDBACKTITLE","îùåá îàú ");
-define("_FEEDBACK","îùåá");
-define("_FBENTERNAME","ùâéàä: àðà äëðñ àú ùîê!");
-define("_FBENTEREMAIL","ùâéàä: àðà äëðñ àú ãåàø äàì÷èøåðé ùìê!");
-define("_FBENTERMESSAGE","ùâéàä: àðà øùåí àú äåãòúê!");
-define("_SENDEREMAIL","ãåàø àì÷èøåðé");
-define("_SENDERNAME","ùí äùåìç");
-define("_FBMAILSENT","äîùåá ðùìç!");
-define("_FBTHANKSFORCONTACT","úåãä àùø ùéöøú òîðå ÷ùø, àðå ðéöåø òéîê ÷ùø áä÷ãí äàôùøé.");
+define("_SEND","Ã¹Ã¬Ã§");
+define("_YOURNAME","Ã¹Ã®Ãª");
+define("_MESSAGE","Ã¤Ã¥Ã£Ã²ÃºÃª");
+define("_YOUREMAIL","Ã£Ã¥Ã Ã¸ Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã©");
+define("_FEEDBACKNOTE","Ã«Ã¬ Ã¤Ã®Ã¹Ã¥Ã¡Ã©Ã­ Ã¹ÃºÃ¹Ã¬Ã§Ã¥ Ã¬Ã°Ã¥ Ã©ÃºÃ·Ã¡Ã¬Ã¥ Ã¡Ã¡Ã¸Ã«Ã¤");
+define("_FEEDBACKTITLE","Ã®Ã¹Ã¥Ã¡ Ã®Ã Ãº ");
+define("_FEEDBACK","Ã®Ã¹Ã¥Ã¡");
+define("_FBENTERNAME","Ã¹Ã¢Ã©Ã Ã¤: Ã Ã°Ã  Ã¤Ã«Ã°Ã± Ã Ãº Ã¹Ã®Ãª!");
+define("_FBENTEREMAIL","Ã¹Ã¢Ã©Ã Ã¤: Ã Ã°Ã  Ã¤Ã«Ã°Ã± Ã Ãº Ã£Ã¥Ã Ã¸ Ã¤Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã© Ã¹Ã¬Ãª!");
+define("_FBENTERMESSAGE","Ã¹Ã¢Ã©Ã Ã¤: Ã Ã°Ã  Ã¸Ã¹Ã¥Ã­ Ã Ãº Ã¤Ã¥Ã£Ã²ÃºÃª!");
+define("_SENDEREMAIL","Ã£Ã¥Ã Ã¸ Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã©");
+define("_SENDERNAME","Ã¹Ã­ Ã¤Ã¹Ã¥Ã¬Ã§");
+define("_FBMAILSENT","Ã¤Ã®Ã¹Ã¥Ã¡ Ã°Ã¹Ã¬Ã§!");
+define("_FBTHANKSFORCONTACT","ÃºÃ¥Ã£Ã¤ Ã Ã¹Ã¸ Ã¹Ã©Ã¶Ã¸Ãº Ã²Ã®Ã°Ã¥ Ã·Ã¹Ã¸, Ã Ã°Ã¥ Ã°Ã©Ã¶Ã¥Ã¸ Ã²Ã©Ã®Ãª Ã·Ã¹Ã¸ Ã¡Ã¤Ã·Ã£Ã­ Ã¤Ã Ã´Ã¹Ã¸Ã©.");
 
 ?>

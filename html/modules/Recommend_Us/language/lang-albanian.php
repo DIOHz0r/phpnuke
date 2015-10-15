@@ -17,20 +17,20 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Dërgoje");
+define("_SEND","DÃ«rgoje");
 define("_FYOURNAME","Emri Juaj:");
 define("_FYOUREMAIL","E-mail Juaj:");
 define("_FFRIENDNAME","Emri i Mikut Tuaj:");
 define("_FFRIENDEMAIL","E-mail i Mikut Tuaj:");
-define("_HELLO","Përshëndetje");
+define("_HELLO","PÃ«rshÃ«ndetje");
 define("_YOURFRIEND","Miku Juaj");
-define("_RECOMMEND","Rakomandoja këtë Sit një Miku");
+define("_RECOMMEND","Rakomandoja kÃ«tÃ« Sit njÃ« Miku");
 define("_INTSITE","Sit Interesant:");
-define("_OURSITE","ka konsideruar sitin tonë");
-define("_INTSENT","interesant dhe ka dashur t'jua dërgojë.");
+define("_OURSITE","ka konsideruar sitin tonÃ«");
+define("_INTSENT","interesant dhe ka dashur t'jua dÃ«rgojÃ«.");
 define("_FSITENAME","Emri i Sitit:");
 define("_FSITEURL","URL e Sitit:");
-define("_FREFERENCE","Referimet e sitit tonë u dërguan tek");
+define("_FREFERENCE","Referimet e sitit tonÃ« u dÃ«rguan tek");
 define("_THANKSREC","Faleminderit!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 

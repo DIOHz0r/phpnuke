@@ -20,7 +20,7 @@
 define("_PDATE","Data:");
 define("_PTOPIC","Argomenti:");
 define("_COMESFROM","Ky Artikull vjen nga");
-define("_THEURL","URL e këtij Artikulli është:");
+define("_THEURL","URL e kÃ«tij Artikulli Ã«shtÃ«:");
 define("_DATE","Data");
 define("_TITLE","Titulli");
 

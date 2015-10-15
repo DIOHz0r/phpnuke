@@ -18,40 +18,40 @@
 /**************************************************************************/
 
 
-define("_SEND","Gönder");
+define("_SEND","GÃ¶nder");
 define("_FUNCTIONS","Fonksiyonlar");
 define("_YES","Evet");
-define("_NO","Hayýr");
-define("_SAVECHANGES","Deðiþiklikleri Kaydet");
-define("_PAGEBREAK","Birden fazla sayfa kullanmak için kesmek istediðiniz yere <b>[--pagebreak--]</b> yazabilirsiniz.");
-define("_DESCRIPTION","Taným");
+define("_NO","HayÄ±r");
+define("_SAVECHANGES","DeÄŸiÅŸiklikleri Kaydet");
+define("_PAGEBREAK","Birden fazla sayfa kullanmak iÃ§in kesmek istediÄŸiniz yere <b>[--pagebreak--]</b> yazabilirsiniz.");
+define("_DESCRIPTION","TanÄ±m");
 define("_TO","Kime");
-define("_TITLE","Baþlýk");
+define("_TITLE","BaÅŸlÄ±k");
 define("_ACTIVE","Aktif");
-define("_DEACTIVATE","Pasifleþtir");
+define("_DEACTIVATE","PasifleÅŸtir");
 define("_INACTIVE","Pasif");
-define("_ACTIVATE","Etkinleþtir");
+define("_ACTIVATE","EtkinleÅŸtir");
 define("_ADD","Ekle");
 define("_LANGUAGE","Dil");
 define("_ENCYCLOPEDIA","Ansiklopedi");
-define("_ENCYCLOPEDIAMANAGER","Ansiklopedi Yöneticisi");
+define("_ENCYCLOPEDIAMANAGER","Ansiklopedi YÃ¶neticisi");
 define("_DELENCYCLOPEDIA","Ansiklopedi Sil");
-define("_DELENCYCONTWARNING","Bu ansiklopediyi ve TÜM içeriðini silmek istediðinizden emin misiniz?");
+define("_DELENCYCONTWARNING","Bu ansiklopediyi ve TÃœM iÃ§eriÄŸini silmek istediÄŸinizden emin misiniz?");
 define("_DELENCYCLOPEDIATEXT","Ansiklopedi Terimi Sil");
-define("_DELENCYTEXTWARNING","Bu terimi silmek istediðinizden emin misiniz?");
-define("_CURRENTSTATUS","Geçerli Durum");
-define("_ACTIVATEPAGE","Bu sayfayý etkinleþtir?");
+define("_DELENCYTEXTWARNING","Bu terimi silmek istediÄŸinizden emin misiniz?");
+define("_CURRENTSTATUS","GeÃ§erli Durum");
+define("_ACTIVATEPAGE","Bu sayfayÄ± etkinleÅŸtir?");
 define("_TERMS","Terim");
 define("_ADDNEWENCYCLOPEDIA","Yeni Ansiklopedi Ekle");
 define("_ADDNEWENCYTERM","Yeni Ansiklopedi Terimi Ekle");
 define("_TERMTEXT","Terim Metni");
-define("_MOVETERMS","Terimleri Taþý");
-define("_MOVEALLTERMSFROM","Buradaki TÜM terimleri");
-define("_EDITENCYCLOPEDIA","Ansiklopedi Düzenle");
-define("_ENCYTERMSEDIT","Ansiklopedi Terimi Düzenle");
-define("_SELECTONETERM","Lütfen aþaðýdaki listeden bir terim seçin:");
-define("_NOCONTENTFORLETTER","Üzgünüm, bu harf için içerik mevcut deðil");
-define("_CHANGETOENCY","Ansiklopedi Deðiþtir");
+define("_MOVETERMS","Terimleri TaÅŸÄ±");
+define("_MOVEALLTERMSFROM","Buradaki TÃœM terimleri");
+define("_EDITENCYCLOPEDIA","Ansiklopedi DÃ¼zenle");
+define("_ENCYTERMSEDIT","Ansiklopedi Terimi DÃ¼zenle");
+define("_SELECTONETERM","LÃ¼tfen aÅŸaÄŸÄ±daki listeden bir terim seÃ§in:");
+define("_NOCONTENTFORLETTER","ÃœzgÃ¼nÃ¼m, bu harf iÃ§in iÃ§erik mevcut deÄŸil");
+define("_CHANGETOENCY","Ansiklopedi DeÄŸiÅŸtir");
 
 
 ?>

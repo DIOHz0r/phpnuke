@@ -18,24 +18,24 @@
 /**************************************************************************/
 
 define("_PREVIOUS","Eelmine leht");
-define("_NEXT","J‰rgmine leht");
+define("_NEXT","J√§rgmine leht");
 define("_SEARCHRESULTS","Otsingu tulemused");
 define("_PAGE","Leht");
 define("_RETURNTO","Mine tagasi");
 define("_DEACTIVATE","Deaktiviseer");
 define("_ACTIVATE","Aktiviseeri");
-define("_ENCYCLOPEDIA","Sınastik");
-define("_NOCONTENTFORLETTER","Vabandame, sellel t‰hel sisu puudub");
-define("_ENCYSELECTLETTER","Palun vali t‰ht j‰rgnevast nimekirjast et mıisteid leida:");
-define("_COPYRIGHT","Autoriıigused");
-define("_YOURADMINENCY","Sa oled administraator, see ents¸klopeedia ei ole aktiivne!");
-define("_ENCYNOTACTIVE","Vabandame, see ents¸klopeedia ei ole hetkel kahjuks aktiivne.");
-define("_AVAILABLEENCYLIST","Nimekiri olemasolevastest ents¸klopeediatest");
-define("_YOURADMININACTIVELIST","Sa oled administraator: j‰rgnev nimekiri on mitte aktiivsetest ents¸klopeediatest:");
+define("_ENCYCLOPEDIA","S√µnastik");
+define("_NOCONTENTFORLETTER","Vabandame, sellel t√§hel sisu puudub");
+define("_ENCYSELECTLETTER","Palun vali t√§ht j√§rgnevast nimekirjast et m√µisteid leida:");
+define("_COPYRIGHT","Autori√µigused");
+define("_YOURADMINENCY","Sa oled administraator, see ents√ºklopeedia ei ole aktiivne!");
+define("_ENCYNOTACTIVE","Vabandame, see ents√ºklopeedia ei ole hetkel kahjuks aktiivne.");
+define("_AVAILABLEENCYLIST","Nimekiri olemasolevastest ents√ºklopeediatest");
+define("_YOURADMININACTIVELIST","Sa oled administraator: j√§rgnev nimekiri on mitte aktiivsetest ents√ºklopeediatest:");
 define("_NORESULTSTEXT","Termini tekstile ei leidunud tulemusi...");
 define("_NORESULTSTITLE","Termini pealkirjale ei leidunud tulemusi...");
 define("_SEARCHRESULTSFOR","Otsingu tulemused:");
-define("_SEARCHNOTCOMPLETE","Otsingu valikud ei ole lıplikud. Palun proovi uuesti.");
+define("_SEARCHNOTCOMPLETE","Otsingu valikud ei ole l√µplikud. Palun proovi uuesti.");
 define("_RESULTSINTERMTITLE","Tulemused termini pealkirjale:");
 define("_RESULTSINTERMTEXT","Tulemused termini tekstile:");
 

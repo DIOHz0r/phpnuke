@@ -17,27 +17,27 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","ÑÇÈØ");
-define("_EMAIL","ÈÑíÏ ÇáßÊÑæäí");
-define("_REALNAME","ÇáÅÓã ÇáÍÞíÞí");
-define("_FUNCTIONS","ÇáÏæÇá");
-define("_PREVIOUS","ÇáÕÝÍÉ ÇáÓÇÈÞÉ");
-define("_MEMBERSLIST","ÞÇÆãÉ ÇáÃÚÖÇÁ");
-define("_GREETINGS","ãÑÍÈÇ ÈÇáÚÖæ ÇáÌÏíÏ:");
-define("_SORTBY","ÇáÊÑÊíÈ ÈæÇÓØÉ:");
-define("_MNICKNAME","ÇáßäíÉ");
-define("_MREALNAME","ÇáÅÓã ÇáÍÞíÞí");
-define("_MEMAIL","ÇáÈÑíÏ ÇáÅáßÊÑæäí");
-define("_MURL","ÚäæÇä ÇáÕÝÍÉ");
-define("_ONLINEREG","ÇáÃÚÖÇÁ ÇáãÓÌáíä ÍÇáíÇ:");
-define("_WEHAVE","íæÌÏ");
-define("_MREGISTERED","ÚÖæ ãÓÌá. ßãÇ íæÌÏ");
-define("_MREGONLINE","ÚÖæ íÊÕÝÍæä ÇáãæÞÚ ÍÇáíÇ.");
-define("_REGSOFAR","ãÓÌáæä áÏíäÇ ÍÇáíÇ.");
-define("_USERSFOUND","ÚÏÏ ÇáÃÚÖÇÁ á");
-define("_USERSSHOWN","ÃÚÖÇÁ ãÚÑæÖíä");
-define("_NOMEMBERS","áÇ íæÌÏ ÃÚÖÇÁ");
-define("_PAGES","ÕÝÍÇÊ");
-define("_HOMEPAGE","ÕÝÍÊå");
+define("_URL","Ø±Ø§Ø¨Ø·");
+define("_EMAIL","Ø¨Ø±ÙŠØ¯ Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ");
+define("_REALNAME","Ø§Ù„Ø¥Ø³Ù… Ø§Ù„Ø­Ù‚ÙŠÙ‚ÙŠ");
+define("_FUNCTIONS","Ø§Ù„Ø¯ÙˆØ§Ù„");
+define("_PREVIOUS","Ø§Ù„ØµÙØ­Ø© Ø§Ù„Ø³Ø§Ø¨Ù‚Ø©");
+define("_MEMBERSLIST","Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø£Ø¹Ø¶Ø§Ø¡");
+define("_GREETINGS","Ù…Ø±Ø­Ø¨Ø§ Ø¨Ø§Ù„Ø¹Ø¶Ùˆ Ø§Ù„Ø¬Ø¯ÙŠØ¯:");
+define("_SORTBY","Ø§Ù„ØªØ±ØªÙŠØ¨ Ø¨ÙˆØ§Ø³Ø·Ø©:");
+define("_MNICKNAME","Ø§Ù„ÙƒÙ†ÙŠØ©");
+define("_MREALNAME","Ø§Ù„Ø¥Ø³Ù… Ø§Ù„Ø­Ù‚ÙŠÙ‚ÙŠ");
+define("_MEMAIL","Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ");
+define("_MURL","Ø¹Ù†ÙˆØ§Ù† Ø§Ù„ØµÙØ­Ø©");
+define("_ONLINEREG","Ø§Ù„Ø£Ø¹Ø¶Ø§Ø¡ Ø§Ù„Ù…Ø³Ø¬Ù„ÙŠÙ† Ø­Ø§Ù„ÙŠØ§:");
+define("_WEHAVE","ÙŠÙˆØ¬Ø¯");
+define("_MREGISTERED","Ø¹Ø¶Ùˆ Ù…Ø³Ø¬Ù„. ÙƒÙ…Ø§ ÙŠÙˆØ¬Ø¯");
+define("_MREGONLINE","Ø¹Ø¶Ùˆ ÙŠØªØµÙØ­ÙˆÙ† Ø§Ù„Ù…ÙˆÙ‚Ø¹ Ø­Ø§Ù„ÙŠØ§.");
+define("_REGSOFAR","Ù…Ø³Ø¬Ù„ÙˆÙ† Ù„Ø¯ÙŠÙ†Ø§ Ø­Ø§Ù„ÙŠØ§.");
+define("_USERSFOUND","Ø¹Ø¯Ø¯ Ø§Ù„Ø£Ø¹Ø¶Ø§Ø¡ Ù„");
+define("_USERSSHOWN","Ø£Ø¹Ø¶Ø§Ø¡ Ù…Ø¹Ø±ÙˆØ¶ÙŠÙ†");
+define("_NOMEMBERS","Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø£Ø¹Ø¶Ø§Ø¡");
+define("_PAGES","ØµÙØ­Ø§Øª");
+define("_HOMEPAGE","ØµÙØ­ØªÙ‡");
 
 ?>

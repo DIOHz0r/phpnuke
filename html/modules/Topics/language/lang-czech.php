@@ -17,8 +17,8 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Souèasná aktivní témata");
-define("_CLICK2LIST","Pro zobrazení èlánkù, kliknìte na obrázek pro dané téma.");
+define("_ACTIVETOPICS","SouÄasnÃ¡ aktivnÃ­ tÃ©mata");
+define("_CLICK2LIST","Pro zobrazenÃ­ ÄlÃ¡nkÅ¯, kliknÄ›te na obrÃ¡zek pro danÃ© tÃ©ma.");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

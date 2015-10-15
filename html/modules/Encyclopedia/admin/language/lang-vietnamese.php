@@ -20,19 +20,19 @@
 
 define("_SEND","G&#7917;i");
 define("_FUNCTIONS","Ch&#7913;c n&#259;ng");
-define("_YES","Có");
-define("_NO","Không");
+define("_YES","CĂ³");
+define("_NO","KhĂ´ng");
 define("_SAVECHANGES","L&#432;u tr&#7919; s&#7921; thay &#273;&#7893;i");
-define("_PAGEBREAK","N&#7871;u b&#7841;n mu&#7889;n có nhi&#7873;u trang, b&#7841;n có th&#7875; vi&#7871;t <b>[--pagebreak--]</b> &#7903; ch&#7895; mà b&#7841;n mu&#7889;n c&#7855;t.");
+define("_PAGEBREAK","N&#7871;u b&#7841;n mu&#7889;n cĂ³ nhi&#7873;u trang, b&#7841;n cĂ³ th&#7875; vi&#7871;t <b>[--pagebreak--]</b> &#7903; ch&#7895; mĂ  b&#7841;n mu&#7889;n c&#7855;t.");
 define("_DESCRIPTION","Description");
 define("_TO","To");
-define("_TITLE","Tiêu &#273;&#7873;");
+define("_TITLE","TiĂªu &#273;&#7873;");
 define("_ACTIVE","Ho&#7841;t &#273;&#7897;ng");
 define("_DEACTIVATE","Ng&#7915;ng ho&#7841;t &#273;&#7897;ng");
-define("_INACTIVE","Không ho&#7841;t &#273;&#7897;ng");
-define("_ACTIVATE","Kích ho&#7841;t");
-define("_ADD","Thêm");
-define("_LANGUAGE","Ngôn ng&#7919;");
+define("_INACTIVE","KhĂ´ng ho&#7841;t &#273;&#7897;ng");
+define("_ACTIVATE","KĂ­ch ho&#7841;t");
+define("_ADD","ThĂªm");
+define("_LANGUAGE","NgĂ´n ng&#7919;");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_ENCYCLOPEDIAMANAGER","Encyclopedia Manager");
 define("_DELENCYCLOPEDIA","Delete Encyclopedia");
@@ -40,7 +40,7 @@ define("_DELENCYCONTWARNING","Are you sure you want to delete this Encyclopedia 
 define("_DELENCYCLOPEDIATEXT","Delete Encyclopedia Terms");
 define("_DELENCYTEXTWARNING","Are you sure you want to delete this Term?");
 define("_CURRENTSTATUS","Current Status");
-define("_ACTIVATEPAGE","Kích ho&#7841;t trang này?");
+define("_ACTIVATEPAGE","KĂ­ch ho&#7841;t trang nĂ y?");
 define("_TERMS","Terms");
 define("_ADDNEWENCYCLOPEDIA","Add a New Encyclopedia");
 define("_ADDNEWENCYTERM","Add a New Encyclopedia Term");

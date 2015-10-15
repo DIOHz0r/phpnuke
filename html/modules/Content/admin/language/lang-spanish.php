@@ -20,36 +20,36 @@
 
 define("_SEND","Enviar");
 define("_FUNCTIONS","Funciones");
-define("_YES","SÌ");
+define("_YES","S√≠");
 define("_NO","No");
-define("_CATEGORY","CategorÌa");
+define("_CATEGORY","Categor√≠a");
 define("_SAVECHANGES","Guardar Cambios");
-define("_PAGEBREAK","Si quieres dividir en varias p·ginas, puedes escribir <b>[--pagebreak--]</b> donde quieras cortar");
+define("_PAGEBREAK","Si quieres dividir en varias p√°ginas, puedes escribir <b>[--pagebreak--]</b> donde quieras cortar");
 define("_SIGNATURE","Firma");
-define("_DESCRIPTION","DescripciÛn");
-define("_TITLE","TÌtulo");
+define("_DESCRIPTION","Descripci√≥n");
+define("_TITLE","T√≠tulo");
 define("_ACTIVE","Activo");
 define("_DEACTIVATE","Desactivar");
 define("_INACTIVE","Inactivo");
 define("_ACTIVATE","Activar");
 define("_CONTENT","Contenido");
-define("_ADDCATEGORY","Agregar CategorÌa");
-define("_EDITCATEGORY","Editar CategorÌa");
+define("_ADDCATEGORY","Agregar Categor√≠a");
+define("_EDITCATEGORY","Editar Categor√≠a");
 define("_ADD","Agregar");
 define("_LANGUAGE","Lenguaje");
 define("_CONTENTMANAGER","Contenido");
-define("_DELCONTWARNING","øEst·s seguro de querer borrar la p·gina");
-define("_DELCONTENT","Borrar P·gina");
+define("_DELCONTWARNING","¬øEst√°s seguro de querer borrar la p√°gina");
+define("_DELCONTENT","Borrar P√°gina");
 define("_CURRENTSTATUS","Estado Actual");
-define("_ADDANEWPAGE","Agregar Nueva P·gina");
-define("_CSUBTITLE","Sub-TÌtulo");
+define("_ADDANEWPAGE","Agregar Nueva P√°gina");
+define("_CSUBTITLE","Sub-T√≠tulo");
 define("_HEADERTEXT","Texto del Encabezado");
-define("_PAGETEXT","Texto de la P·gina");
-define("_FOOTERTEXT","Texto del PiÈ de P·gina");
-define("_ACTIVATEPAGE","øActivar esta P·gina?");
-define("_EDITPAGECONTENT","Editar Contenido de P·gina");
-define("_DELCONTENTCAT","CUIDADO: øEst·s seguro que deseas borrar esta categorÌa? Las p·ginas bajo esta categorÌa, si existen, no ser·n borradas, pero no tendr·n asignada ninguna categorÌa.");
-define("_DELCATEGORY","Borrar CategorÌa");
+define("_PAGETEXT","Texto de la P√°gina");
+define("_FOOTERTEXT","Texto del Pi√© de P√°gina");
+define("_ACTIVATEPAGE","¬øActivar esta P√°gina?");
+define("_EDITPAGECONTENT","Editar Contenido de P√°gina");
+define("_DELCONTENTCAT","CUIDADO: ¬øEst√°s seguro que deseas borrar esta categor√≠a? Las p√°ginas bajo esta categor√≠a, si existen, no ser√°n borradas, pero no tendr√°n asignada ninguna categor√≠a.");
+define("_DELCATEGORY","Borrar Categor√≠a");
 
 
 ?>

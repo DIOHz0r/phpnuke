@@ -33,7 +33,7 @@ define("_BEDESCRIPTIVE","Gebruik korte, samengevatte tekst");
 define("_BADTITLES","geen titels als: 'Check This Out!' of 'Zie Dit!' e.d.");
 define("_HTMLISFINE","HTML is toegstaan, maar controleer goed evt. URLs en HTML-tags!");
 define("_AREYOUSURE","Heeft u de goede URL ingevuld, zonder tikfouten?");
-define("_SUBPREVIEW","U moet het artikel één keer controleren (voorbeeld), voordat U het kunt inzenden");
+define("_SUBPREVIEW","U moet het artikel Ã©Ã©n keer controleren (voorbeeld), voordat U het kunt inzenden");
 define("_SELECTTOPIC","Selecteer onderwerp");
 define("_NEWSUBPREVIEW","Nieuws inzending voorbeeld");
 define("_STORYLOOK","Uw inzending zal er zo uitzien:");

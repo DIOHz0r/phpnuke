@@ -19,11 +19,11 @@
 
 define("_CATEGORY","Kategorija");
 define("_CATEGORIES","Kategorije");
-define("_FAQ2","FAQ (Èesto postavljena vprašanja)");
+define("_FAQ2","FAQ (ÄŒesto postavljena vpraÂšanja)");
 define("_BACKTOTOP","Na vrh");
 define("_BACKTOFAQINDEX","Nazaj na FAQ kazalo");
 define("_MAIN","Gl. kazalo");
-define("_QUESTION","Vprašanje");
+define("_QUESTION","VpraÂšanje");
 define("_ANSWER","Odgovor");
 
 ?>

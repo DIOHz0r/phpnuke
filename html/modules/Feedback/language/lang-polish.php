@@ -16,23 +16,23 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
-define("_SEND","Wy¶lij");
-define("_YOURNAME","Twoje imiê i nazwisko");
-define("_MESSAGE","Wiadomo¶æ");
-define("_YOUREMAIL","Twój adres e-mail");
-define("_FEEDBACKNOTE","Wszystkie sugestie i komentarze dotycz±ce tej strony s± mile widziane i s± cennym ¼ród³em informacji dla nas!");
+define("_SEND","WyÅ›lij");
+define("_YOURNAME","Twoje imiÄ™ i nazwisko");
+define("_MESSAGE","WiadomoÅ›Ä‡");
+define("_YOUREMAIL","TwÃ³j adres e-mail");
+define("_FEEDBACKNOTE","Wszystkie sugestie i komentarze dotyczÄ…ce tej strony sÄ… mile widziane i sÄ… cennym ÅºrÃ³dÅ‚em informacji dla nas!");
 define("_FEEDBACKTITLE","Formularz kontaktowy");
 define("_FEEDBACK","Kontakt");
-define("_FBENTERNAME","B£¡D: Wpisz swój nick!");
-define("_FBENTEREMAIL","B£¡D: Podaj swój adres e-mail!");
-define("_FBENTERMESSAGE","B£¡D: Wpisz wiadomo¶æ!");
-define("_SENDEREMAIL","Imiê nadawcy");
+define("_FBENTERNAME","BÅÄ„D: Wpisz swÃ³j nick!");
+define("_FBENTEREMAIL","BÅÄ„D: Podaj swÃ³j adres e-mail!");
+define("_FBENTERMESSAGE","BÅÄ„D: Wpisz wiadomoÅ›Ä‡!");
+define("_SENDEREMAIL","ImiÄ™ nadawcy");
 define("_SENDERNAME","Nick nadawcy");
-define("_FBMAILSENT","E-mail zosta³ wys³any!");
-define("_FBTHANKSFORCONTACT","Dziêkujemy za po¶wiêcenie czasu i wys³anie formularza");
+define("_FBMAILSENT","E-mail zostaÅ‚ wysÅ‚any!");
+define("_FBTHANKSFORCONTACT","DziÄ™kujemy za poÅ›wiÄ™cenie czasu i wysÅ‚anie formularza");
 
 ?>

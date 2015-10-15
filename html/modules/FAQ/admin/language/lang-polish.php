@@ -26,19 +26,19 @@ define("_ID","ID");
 define("_CATEGORIES","Kategorie");
 define("_ALL","Wszystko");
 define("_FAQ","FAQ");
-define("_CONTENT","Zawarto¶æ");
-define("_FAQADMIN","Zarz±dzanie FAQ");
+define("_CONTENT","ZawartoÅ›Ä‡");
+define("_FAQADMIN","ZarzÄ…dzanie FAQ");
 define("_ACTIVEFAQS","Aktywne FAQ");
-define("_ADDCATEGORY","Dodaj now± kategoriê");
+define("_ADDCATEGORY","Dodaj nowÄ… kategoriÄ™");
 define("_QUESTIONS","Pytania i odpowiedzi");
 define("_ADDQUESTION","Dodaj nowe pytanie");
 define("_QUESTION","Pytanie");
-define("_ANSWER","Odpowied¼");
-define("_EDITCATEGORY","Edytuj kategoriê");
+define("_ANSWER","OdpowiedÅº");
+define("_EDITCATEGORY","Edytuj kategoriÄ™");
 define("_EDITQUESTIONS","Edytuj pytania i odpowiedzi");
-define("_FAQDELWARNING","OSTRZE¯ENIE: Czy na pewno chcesz skasowaæ te FAQ i ca³± jego zawarto¶æ?");
-define("_QUESTIONDEL","OSTRZE¯ENIE: Czy na pewno chcesz skasowaæ te pytanie?");
-define("_LANGUAGE","Jêzyk");
+define("_FAQDELWARNING","OSTRZEÅ»ENIE: Czy na pewno chcesz skasowaÄ‡ te FAQ i caÅ‚Ä… jego zawartoÅ›Ä‡?");
+define("_QUESTIONDEL","OSTRZEÅ»ENIE: Czy na pewno chcesz skasowaÄ‡ te pytanie?");
+define("_LANGUAGE","JÄ™zyk");
 
 
 ?>

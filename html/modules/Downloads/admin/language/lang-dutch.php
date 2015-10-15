@@ -90,11 +90,11 @@ define("_ERRORTHESUBCATEGORY","FOUT: De subcategorie");
 define("_EDITORIALADDED","Redactieartikel toegevoegd aan de databank");
 define("_EDITORIALMODIFIED","Redactieartikel gewijzigd");
 define("_EDITORIALREMOVED","Redactieartikel verwijderd uit de databank");
-define("_CHECKCATEGORIES","Controleer categorieën");
-define("_INCLUDESUBCATEGORIES","(Subcategorieën inbegrepen)");
+define("_CHECKCATEGORIES","Controleer categorieÃ«n");
+define("_INCLUDESUBCATEGORIES","(SubcategorieÃ«n inbegrepen)");
 define("_FAILED","Mislukt!");
 define("_BEPATIENT","(even geduld a.u.b.)");
-define("_VALIDATINGCAT","Categorie wordt goedgekeurd (inclusief alle subcategorieën)");
+define("_VALIDATINGCAT","Categorie wordt goedgekeurd (inclusief alle subcategorieÃ«n)");
 define("_VALIDATINGSUBCAT","Subcategorie wordt goedgekeurd");
 define("_ERRORURLEXIST","FOUT: Deze URL is reeds opgenomen in de database!");
 define("_ERRORNOTITLE","FOUT: U moet een TITEL invoeren voor uw URL!");
@@ -102,10 +102,10 @@ define("_ERRORNOURL","FOUT: U moet een URL invoeren voor uw URL!");
 define("_ERRORNODESCRIPTION","FOUT: U moet een beschrijving invoeren voor uw URL!");
 define("_EZTRANSFER","Transfereer");
 define("_EZTHEREIS","Er is");
-define("_EZSUBCAT","deel-categorieën");
+define("_EZSUBCAT","deel-categorieÃ«n");
 define("_EZATTACHEDTOCAT","in deze categorie");
 define("_EZTRANSFERDOWNLOADS","Alle downloads overzetten van categorie");
-define("_DELEZDOWNLOADSCATWARNING","WAARSCHUWING : Ben je zeker dat je deze categorie, met alle sub-categorieën en toegevoegde downloads?");
+define("_DELEZDOWNLOADSCATWARNING","WAARSCHUWING : Ben je zeker dat je deze categorie, met alle sub-categorieÃ«n en toegevoegde downloads?");
 define("_DOWNLOADTITLE","Download Titel");
 
 

@@ -16,28 +16,28 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_CATEGORY","Kategoria");
-define("_LVOTES","G³osów");
-define("_HITS","Ods³on");
+define("_LVOTES","GÅ‚osÃ³w");
+define("_HITS","OdsÅ‚on");
 define("_TOPWELCOME","Witaj na stronie NAJ w");
-define("_READSTORIES","najczê¶ciej czytanych artyku³ów");
-define("_COMMENTEDSTORIES","najczê¶ciej komentowanych artyku³ów");
+define("_READSTORIES","najczÄ™Å›ciej czytanych artykuÅ‚Ã³w");
+define("_COMMENTEDSTORIES","najczÄ™Å›ciej komentowanych artykuÅ‚Ã³w");
 define("_ACTIVECAT","najbardziej aktywnych kategorii");
-define("_READSECTION","najczê¶ciej czytanych artyku³ów w sekcji specjalnej");
-define("_NEWSSUBMITTERS","najbardziej aktywnych dostarczycieli newsów");
-define("_NEWSSENT","wys³anych newsów");
-define("_VOTEDPOLLS","ankiet w których g³osowano najczê¶ciej");
-define("_MOSTACTIVEAUTHORS","najaktywniejszych autorów");
-define("_NEWSPUBLISHED","opublikowanych newsów");
-define("_READREVIEWS","najczê¶ciej czytanych recenzji");
-define("_DOWNLOADEDFILES","najczê¶ciej ¶ci±ganych plików");
-define("_MOSTREADPAGES","najczê¶ciej czytanych stron");
-define("_MOSTVOTEDSTORIES","najczê¶ciej ocenianych newsów");
-define("_POINTS","punktów");
-define("_BESTRATEDSTORIES","najlepiej ocenianych newsów (minimum 5 punktów)");
+define("_READSECTION","najczÄ™Å›ciej czytanych artykuÅ‚Ã³w w sekcji specjalnej");
+define("_NEWSSUBMITTERS","najbardziej aktywnych dostarczycieli newsÃ³w");
+define("_NEWSSENT","wysÅ‚anych newsÃ³w");
+define("_VOTEDPOLLS","ankiet w ktÃ³rych gÅ‚osowano najczÄ™Å›ciej");
+define("_MOSTACTIVEAUTHORS","najaktywniejszych autorÃ³w");
+define("_NEWSPUBLISHED","opublikowanych newsÃ³w");
+define("_READREVIEWS","najczÄ™Å›ciej czytanych recenzji");
+define("_DOWNLOADEDFILES","najczÄ™Å›ciej Å›ciÄ…ganych plikÃ³w");
+define("_MOSTREADPAGES","najczÄ™Å›ciej czytanych stron");
+define("_MOSTVOTEDSTORIES","najczÄ™Å›ciej ocenianych newsÃ³w");
+define("_POINTS","punktÃ³w");
+define("_BESTRATEDSTORIES","najlepiej ocenianych newsÃ³w (minimum 5 punktÃ³w)");
 
 ?>

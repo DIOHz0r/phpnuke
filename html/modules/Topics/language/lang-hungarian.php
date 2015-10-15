@@ -17,8 +17,8 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Jelenleg aktÌv tÈm·k");
-define("_CLICK2LIST","Kattins egy-egy tÈma ikonj·ra a hozz· tartozÛ cikkek list·j·hoz");
+define("_ACTIVETOPICS","Jelenleg akt√≠v t√©m√°k");
+define("_CLICK2LIST","Kattins egy-egy t√©ma ikonj√°ra a hozz√° tartoz√≥ cikkek list√°j√°hoz");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

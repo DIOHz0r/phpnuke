@@ -17,24 +17,24 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Categoría");
+define("_CATEGORY","CategorÃ­a");
 define("_LVOTES","Votos");
 define("_HITS","Impresiones");
 define("_TOPWELCOME","Bienvenido al TOP de");
-define("_READSTORIES","primeras noticias más leídas");
-define("_COMMENTEDSTORIES","primeras noticias más comentadas");
-define("_ACTIVECAT","categorías más activas");
-define("_READSECTION","primeros artículos más leídos en las secciones especiales");
-define("_NEWSSUBMITTERS","primeros usuarios que más noticias envían y se publican");
+define("_READSTORIES","primeras noticias mÃ¡s leÃ­das");
+define("_COMMENTEDSTORIES","primeras noticias mÃ¡s comentadas");
+define("_ACTIVECAT","categorÃ­as mÃ¡s activas");
+define("_READSECTION","primeros artÃ­culos mÃ¡s leÃ­dos en las secciones especiales");
+define("_NEWSSUBMITTERS","primeros usuarios que mÃ¡s noticias envÃ­an y se publican");
 define("_NEWSSENT","noticia enviada");
-define("_VOTEDPOLLS","primeras encuestas más votadas");
-define("_MOSTACTIVEAUTHORS","autores más activos");
+define("_VOTEDPOLLS","primeras encuestas mÃ¡s votadas");
+define("_MOSTACTIVEAUTHORS","autores mÃ¡s activos");
 define("_NEWSPUBLISHED","noticias publicadas");
-define("_READREVIEWS","reviews más leídos");
-define("_DOWNLOADEDFILES","archivos más descargados");
-define("_MOSTREADPAGES","páginas más leídas");
-define("_MOSTVOTEDSTORIES","historias más votadas");
+define("_READREVIEWS","reviews mÃ¡s leÃ­dos");
+define("_DOWNLOADEDFILES","archivos mÃ¡s descargados");
+define("_MOSTREADPAGES","pÃ¡ginas mÃ¡s leÃ­das");
+define("_MOSTVOTEDSTORIES","historias mÃ¡s votadas");
 define("_POINTS","puntos");
-define("_BESTRATEDSTORIES","historias mejor votadas (basado en un máximo de 5 puntos)");
+define("_BESTRATEDSTORIES","historias mejor votadas (basado en un mÃ¡ximo de 5 puntos)");
 
 ?>

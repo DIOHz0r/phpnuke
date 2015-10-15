@@ -16,60 +16,60 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
-define("_YOURNAME","Twoje imiê i nazwisko");
+define("_YOURNAME","Twoje imiÄ™ i nazwisko");
 define("_OK","OK!");
 define("_COMMENT","komentarz");
 define("_CONFIGURE","Konfiguracja");
-define("_LOGINCREATE","Logowanie/Za³o¿enie konta");
-define("_THRESHOLD","Próg");
+define("_LOGINCREATE","Logowanie/ZaÅ‚oÅ¼enie konta");
+define("_THRESHOLD","PrÃ³g");
 define("_NOCOMMENTS","Bez komentarza");
-define("_NESTED","Zagnie¿d¿ony");
-define("_FLAT","P³aski");
-define("_THREAD","W±tek");
+define("_NESTED","ZagnieÅ¼dÅ¼ony");
+define("_FLAT","PÅ‚aski");
+define("_THREAD","WÄ…tek");
 define("_OLDEST","Starsze jako pierwsze");
 define("_NEWEST","Nowsze jako pierwsze");
-define("_HIGHEST","Najpierw najwy¿ej oceniane");
-define("_COMMENTSWARNING","Komentarze s± w³asno¶ci± ich twórców. Nie ponosimy odpowiedzialno¶ci za ich tre¶æ.");
+define("_HIGHEST","Najpierw najwyÅ¼ej oceniane");
+define("_COMMENTSWARNING","Komentarze sÄ… wÅ‚asnoÅ›ciÄ… ich twÃ³rcÃ³w. Nie ponosimy odpowiedzialnoÅ›ci za ich treÅ›Ä‡.");
 define("_SCORE","Wynik:");
-define("_USERINFO","Informacje o u¿ytkowniku");
-define("_READREST","Przeczytaj dalszy ci±g komentarza...");
+define("_USERINFO","Informacje o uÅ¼ytkowniku");
+define("_READREST","Przeczytaj dalszy ciÄ…g komentarza...");
 define("_REPLY","Odpowiedz na to");
 define("_REPLYMAIN","Napisz komentarz");
 define("_NOSUBJECT","Bez tematu");
-define("_NOANONCOMMENTS","Komentowanie niedozwolone dla anonimowego u¿ytkownika, proszê siê <a href=\"modules.php?name=Your_Account&amp;op=new_user&amp;op=new_user\">zarejestrowaæ</a>");
-define("_PARENT","Nadrzêdny");
-define("_ROOT","G³ówny");
+define("_NOANONCOMMENTS","Komentowanie niedozwolone dla anonimowego uÅ¼ytkownika, proszÄ™ siÄ™ <a href=\"modules.php?name=Your_Account&amp;op=new_user&amp;op=new_user\">zarejestrowaÄ‡</a>");
+define("_PARENT","NadrzÄ™dny");
+define("_ROOT","GÅ‚Ã³wny");
 define("_UCOMMENT","Komentarz");
 define("_ALLOWEDHTML","Dozwolony HTML:");
-define("_POSTANON","Wy¶lij anonimowo");
+define("_POSTANON","WyÅ›lij anonimowo");
 define("_EXTRANS","Zamiana (tagi HTML na tekst)");
 define("_HTMLFORMATED","Formatowanie HTML");
-define("_PLAINTEXT","Zwyk³y tekst bez formatowania");
+define("_PLAINTEXT","ZwykÅ‚y tekst bez formatowania");
 define("_ONN","na...");
 define("_SUBJECT","Temat");
-define("_SURVEYCOM","Wy¶lij komentarz");
+define("_SURVEYCOM","WyÅ›lij komentarz");
 define("_SURVEYCOMPRE","Przejrzyj komentarz");
-define("_NOTRIGHT","Co¶ jest nie tak ze zmienn± w tej funkcji. Ta wiadomo¶æ ma w³a¶nie ustrzec Ciê od b³êdów");
-define("_DIRECTCOM","Bezpo¶redni przegl±d komentarza...");
-define("_SENDAMSG","Wy¶lij wiadomo¶æ");
+define("_NOTRIGHT","CoÅ› jest nie tak ze zmiennÄ… w tej funkcji. Ta wiadomoÅ›Ä‡ ma wÅ‚aÅ›nie ustrzec CiÄ™ od bÅ‚Ä™dÃ³w");
+define("_DIRECTCOM","BezpoÅ›redni przeglÄ…d komentarza...");
+define("_SENDAMSG","WyÅ›lij wiadomoÅ›Ä‡");
 define("_PASTSURVEYS","Poprzednie ankiety");
-define("_LVOTES","G³osów");
-define("_TOTALVOTES","Razem g³osów:");
-define("_VOTING","Skrytka do g³osowania");
+define("_LVOTES","GÅ‚osÃ³w");
+define("_TOTALVOTES","Razem gÅ‚osÃ³w:");
+define("_VOTING","Skrytka do gÅ‚osowania");
 define("_OTHERPOLLS","Inne ankiety");
-define("_CURRENTSURVEY","Bie¿±ce g³osowanie");
-define("_CURRENTPOLLRESULTS","Aktualny rezultat g³osowania");
-define("_PREVIEW","Podgl±d");
-define("_REFRESH","Od¶wie¿");
+define("_CURRENTSURVEY","BieÅ¼Ä…ce gÅ‚osowanie");
+define("_CURRENTPOLLRESULTS","Aktualny rezultat gÅ‚osowania");
+define("_PREVIEW","PodglÄ…d");
+define("_REFRESH","OdÅ›wieÅ¼");
 define("_SURVEYS","Ankiety");
-define("_ATTACHEDTOARTICLE","- dodana do artyku³u:");
-define("_SURVEYSATTACHED","Ankiety dodane do artyku³ów");
+define("_ATTACHEDTOARTICLE","- dodana do artykuÅ‚u:");
+define("_SURVEYSATTACHED","Ankiety dodane do artykuÅ‚Ã³w");
 define("_LAST5POLLS", "Najnowsze 5 ankiet na");
-define("_MOREPOLLS", "...wiêcej ankiet");
+define("_MOREPOLLS", "...wiÄ™cej ankiet");
 define("_COMMENTSMODERATION","Comments Moderation System");
 define("_MODERATE","Moderate");
 define("_CLICKTOMODERATE","Please select your moderation values for each comment on this survey, then click on <i>Moderate</i> button bellow to save your comments moderation preferences. Be fair on each value, this will contribute and benefict all users/readers. Thank you.");

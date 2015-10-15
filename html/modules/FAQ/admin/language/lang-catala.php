@@ -27,7 +27,7 @@ define("_CATEGORIES","Categories");
 define("_ALL","Tot");
 define("_FAQ","FAQ");
 define("_CONTENT","contingut");
-define("_FAQADMIN","AdministraciÛ del FAQ");
+define("_FAQADMIN","Administraci√≥ del FAQ");
 define("_ACTIVEFAQS","FAQ Actius");
 define("_ADDCATEGORY","Afegir Categoria");
 define("_QUESTIONS","Preguntes y Respostes");
@@ -36,8 +36,8 @@ define("_QUESTION","Pregunta");
 define("_ANSWER","Resposta");
 define("_EDITCATEGORY","Editar Categoria");
 define("_EDITQUESTIONS","Editar Preguntes y Respostes");
-define("_FAQDELWARNING","ATENCI”: Est‡s segur que vols Esborrar aquest FAQ i tot el seu contingut?");
-define("_QUESTIONDEL","ATENCI”: Est‡s segur que vols Esborrar aquesta pregunta?");
+define("_FAQDELWARNING","ATENCI√ì: Est√†s segur que vols Esborrar aquest FAQ i tot el seu contingut?");
+define("_QUESTIONDEL","ATENCI√ì: Est√†s segur que vols Esborrar aquesta pregunta?");
 define("_LANGUAGE","Lenguatge");
 
 

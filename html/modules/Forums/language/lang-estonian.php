@@ -262,7 +262,7 @@ define("_FORUMPREFDESC","general preference setting, active HTML, BBCode, Post f
 define("_FORUMDESC","category gestion, add, edit and delete Forum");
 define("_FORUMRANKDESC","ranks forum system, add, edit, delete ranks");
 define("_FORUMACCDESC","users gestion, add, edit, access privilege");
-define("_FORUMMENU","Forum Administration Menù");
+define("_FORUMMENU","Forum Administration Menu");
 define("_EDITRANK","Edit rank");
 
 /* AGGIUNTE PER GESTIONE ATTACHMENT */

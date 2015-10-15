@@ -18,20 +18,20 @@
 /**************************************************************************/
 
 define("_SEND","Poslat");
-define("_FYOURNAME","Vaše jméno:");
-define("_FYOUREMAIL","Váš e-mail:");
-define("_FFRIENDNAME","Adresátovo jméno(v 5.pádì):");
-define("_FFRIENDEMAIL","Adresátùv e-mail:");
+define("_FYOURNAME","VaÂše jmÃ©no:");
+define("_FYOUREMAIL","VÃ¡Âš e-mail:");
+define("_FFRIENDNAME","AdresÃ¡tovo jmÃ©no(v 5.pÃ¡dÄ›):");
+define("_FFRIENDEMAIL","AdresÃ¡tÅ¯v e-mail:");
 define("_HELLO","Ahoj");
-define("_YOURFRIEND","Váš pøítel");
-define("_RECOMMEND","Doporuète tuto stránku známım");
-define("_INTSITE","Zajímavá stránka:");
-define("_OURSITE","povauje naši stránku");
-define("_INTSENT","za zajímavou a rozhodl se vám ji poslat.");
-define("_FSITENAME","Jméno stránky:");
+define("_YOURFRIEND","VÃ¡Âš pÅ™Ã­tel");
+define("_RECOMMEND","DoporuÄte tuto strÃ¡nku znÃ¡mÃ½m");
+define("_INTSITE","ZajÃ­mavÃ¡ strÃ¡nka:");
+define("_OURSITE","povaÂuje naÂši strÃ¡nku");
+define("_INTSENT","za zajÃ­mavou a rozhodl se vÃ¡m ji poslat.");
+define("_FSITENAME","JmÃ©no strÃ¡nky:");
 define("_FSITEURL","Adresa:");
-define("_FREFERENCE","Doporuèení na naši stránku bylo odesláno");
-define("_THANKSREC","Díky za doporuèení!");
+define("_FREFERENCE","DoporuÄenÃ­ na naÂši strÃ¡nku bylo odeslÃ¡no");
+define("_THANKSREC","DÃ­ky za doporuÄenÃ­!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

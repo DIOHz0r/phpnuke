@@ -19,27 +19,27 @@
 
 
 define("_EMAIL","Email");
-define("_SAVECHANGES","Сохранить изменения");
-define("_SCORE","Всего:");
-define("_PRODUCTTITLE","Название продукта");
-define("_RELATEDLINK","Оцениваемые Линки");
-define("_LINKTITLE","Линк вашего сайта");
-define("_REVIEWER","Ревьювер:");
-define("_REVIEWID","ID Рецензии");
-define("_REVIEWS","Рецензии");
-define("_DATE","Дата");
-define("_REVADMIN","Администрирование Рецензий");
-define("_REVTITLE","Заголовог");
-define("_REVDESC","Текст");
-define("_REVWAITING","Ждущие размещения");
-define("_REVIMGINFO","Картинка 150*150 в images/reviews");
-define("_TEXT","Текст");
-define("_IMAGE","Картинка");
-define("_NOREVIEW2ADD","Ничего не добавлено");
-define("_ADDREVIEW","Добавить");
-define("_CLICK2ADDREVIEW","Нажмите здесь чтобы  написать рецензию");
-define("_DELMODREVIEW","Удолить / Редактировать рецензию");
-define("_MODREVINFO","К примеру вы можете удалить рецензию из браузера <a href=\"reviews.php\">reviews.php</a>.");
+define("_SAVECHANGES","РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ");
+define("_SCORE","Р’СЃРµРіРѕ:");
+define("_PRODUCTTITLE","РќР°Р·РІР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р°");
+define("_RELATEDLINK","РћС†РµРЅРёРІР°РµРјС‹Рµ Р›РёРЅРєРё");
+define("_LINKTITLE","Р›РёРЅРє РІР°С€РµРіРѕ СЃР°Р№С‚Р°");
+define("_REVIEWER","Р РµРІСЊСЋРІРµСЂ:");
+define("_REVIEWID","ID Р РµС†РµРЅР·РёРё");
+define("_REVIEWS","Р РµС†РµРЅР·РёРё");
+define("_DATE","Р”Р°С‚Р°");
+define("_REVADMIN","РђРґРјРёРЅРёСЃС‚СЂРёСЂРѕРІР°РЅРёРµ Р РµС†РµРЅР·РёР№");
+define("_REVTITLE","Р—Р°РіРѕР»РѕРІРѕРі");
+define("_REVDESC","РўРµРєСЃС‚");
+define("_REVWAITING","Р–РґСѓС‰РёРµ СЂР°Р·РјРµС‰РµРЅРёСЏ");
+define("_REVIMGINFO","РљР°СЂС‚РёРЅРєР° 150*150 РІ images/reviews");
+define("_TEXT","РўРµРєСЃС‚");
+define("_IMAGE","РљР°СЂС‚РёРЅРєР°");
+define("_NOREVIEW2ADD","РќРёС‡РµРіРѕ РЅРµ РґРѕР±Р°РІР»РµРЅРѕ");
+define("_ADDREVIEW","Р”РѕР±Р°РІРёС‚СЊ");
+define("_CLICK2ADDREVIEW","РќР°Р¶РјРёС‚Рµ Р·РґРµСЃСЊ С‡С‚РѕР±С‹  РЅР°РїРёСЃР°С‚СЊ СЂРµС†РµРЅР·РёСЋ");
+define("_DELMODREVIEW","РЈРґРѕР»РёС‚СЊ / Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ СЂРµС†РµРЅР·РёСЋ");
+define("_MODREVINFO","Рљ РїСЂРёРјРµСЂСѓ РІС‹ РјРѕР¶РµС‚Рµ СѓРґР°Р»РёС‚СЊ СЂРµС†РµРЅР·РёСЋ РёР· Р±СЂР°СѓР·РµСЂР° <a href=\"reviews.php\">reviews.php</a>.");
 define("_LANGUAGE","Language");
 
 

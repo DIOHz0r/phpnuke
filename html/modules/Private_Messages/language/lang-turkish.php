@@ -4,77 +4,77 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
 define("_EMAIL","Email");
 define("_RE","Ynt");
 define("_SUBJECT","Konu");
-define("_PRIVATEMESSAGES","Özel Mesajlarýnýz");
-define("_CHECKALL","Hepsini Ýþaretle");
+define("_PRIVATEMESSAGES","Ã–zel MesajlarÄ±nÄ±z");
+define("_CHECKALL","Hepsini Ä°ÅŸaretle");
 define("_FROM","Kimden");
 define("_DATE","Tarih");
-define("_DONTHAVEMESSAGES","Mesajýnýz yok");
-define("_NOTREAD","Okunmamýþ");
+define("_DONTHAVEMESSAGES","MesajÄ±nÄ±z yok");
+define("_NOTREAD","OkunmamÄ±ÅŸ");
 define("_MSGSTATUS","Mesaj Durumu");
-define("_PRIVATEMESSAGE","Özel Mesaj");
-define("_INDEX","Ýndeks");
-define("_SENT","Gönderilme");
-define("_PREVIOUSMESSAGE","Önceki Mesaj");
+define("_PRIVATEMESSAGE","Ã–zel Mesaj");
+define("_INDEX","Ä°ndeks");
+define("_SENT","GÃ¶nderilme");
+define("_PREVIOUSMESSAGE","Ã–nceki Mesaj");
 define("_NEXTMESSAGE","Sonraki Mesaj");
 define("_PROFILE","Profil");
-define("_ABOUTPOSTING","Gönderme Hakkýnda");
-define("_ALLREGCANPOST","Tüm kayýtlý kullanýcýlar özel mesaj gönderebilir");
+define("_ABOUTPOSTING","GÃ¶nderme HakkÄ±nda");
+define("_ALLREGCANPOST","TÃ¼m kayÄ±tlÄ± kullanÄ±cÄ±lar Ã¶zel mesaj gÃ¶nderebilir");
 define("_TO","Kime");
-define("_MESSAGEICON","Mesaj Ýkonu");
+define("_MESSAGEICON","Mesaj Ä°konu");
 define("_MESSAGE","Mesaj");
 define("_HTML","HTML");
-define("_PMON","Açýk");
-define("_PMOFF","Kapalý");
+define("_PMON","AÃ§Ä±k");
+define("_PMOFF","KapalÄ±");
 define("_BBCODE","BBCode");
-define("_WROTE","yazdý");
-define("_OPTIONS","Seçenekler");
-define("_HTMLDISSABLE","HTML'i Geçersiz Kýl");
-define("_BBCODEDISSABLE","<a href=\"bbcode_ref.php\" target=\"_blank\"><i>BBCode</i></a>'u Geçersiz Kýl");
-define("_SMILEDISSABLE","<a href=\"bb_smilies.php\" target=\"_blank\"><i>Smiley</i></a>'leri Geçersiz Kýl");
-define("_CANCELREPLY","Cevap Ýptali");
-define("_CANCELSEND","Gönderme Ýptali");
+define("_WROTE","yazdÄ±");
+define("_OPTIONS","SeÃ§enekler");
+define("_HTMLDISSABLE","HTML'i GeÃ§ersiz KÄ±l");
+define("_BBCODEDISSABLE","<a href=\"bbcode_ref.php\" target=\"_blank\"><i>BBCode</i></a>'u GeÃ§ersiz KÄ±l");
+define("_SMILEDISSABLE","<a href=\"bb_smilies.php\" target=\"_blank\"><i>Smiley</i></a>'leri GeÃ§ersiz KÄ±l");
+define("_CANCELREPLY","Cevap Ä°ptali");
+define("_CANCELSEND","GÃ¶nderme Ä°ptali");
 define("_CLEAR","Temizle");
-define("_SUBMIT","Gönder");
-define("_USERNOTINDB","Vertabanýnda böyle bir kullanýcý yok.");
-define("_CHECKNAMEANDTRY","Lütfen ismi kontrol ederek tekrar deneyin.");
-define("_MSGPOSTED","Mesajýnýz gönderildi.");
-define("_RETURNTOPMSG","Özel mesajlarýnýzý yenilemek için týklayýn.");
-define("_MSGDELETED","Mesajlarýnýz silindi.");
+define("_SUBMIT","GÃ¶nder");
+define("_USERNOTINDB","VertabanÄ±nda bÃ¶yle bir kullanÄ±cÄ± yok.");
+define("_CHECKNAMEANDTRY","LÃ¼tfen ismi kontrol ederek tekrar deneyin.");
+define("_MSGPOSTED","MesajÄ±nÄ±z gÃ¶nderildi.");
+define("_RETURNTOPMSG","Ã–zel mesajlarÄ±nÄ±zÄ± yenilemek iÃ§in tÄ±klayÄ±n.");
+define("_MSGDELETED","MesajlarÄ±nÄ±z silindi.");
 define("_BBGO","git");
 define("_BBNEWPMSG","Yeni Mesaj");
 define("_BBNONEWPMSG","Yeni Mesaj Yok");
 define("_BBTOTALPMSG","Toplam Mesaj");
-define("_BBEMPTYPMSG","Mesajýnýz yok");
-define("_BBLOGIN","Özel mesajlarýnýzý kontrol etmek için giriþ yapýn");
-define("_BBPMSG","Özel Mesaj");
+define("_BBEMPTYPMSG","MesajÄ±nÄ±z yok");
+define("_BBLOGIN","Ã–zel mesajlarÄ±nÄ±zÄ± kontrol etmek iÃ§in giriÅŸ yapÄ±n");
+define("_BBPMSG","Ã–zel Mesaj");
 define("_BBINBOX","Gelen Kutusu");
-define("_BBSELECTFORUM","Bir Forum Seçin");
-define("_BBNOFORUM","Baþka Forum Yok");
-define("_BBBANNED","Yasaklandý");
-define("_CLICKSMILEBUTTONS","Mesajýnýza eklemek istediðiniz smiley'e týklayýn:");
-define("_CLICKCODEBUTTONS","Mesajýnýza eklemek istediðiniz BBCode'a týklayýn:");
-define("_PRIVMSGERROR","Özel Mesaj Hatasý!");
-define("_USERDOESNTEXIST","Üzgünüm, seçilen kullanýcý veritabanýmýzda bulunmuyor")
-define("_DELETESELECTED","Seçileni Sil");
-define("_SENDNEWMSG","Yeni Mesaj Gönder");
-define("_REPLY","Yanýtla");
-define("_NOSUBJECT","Mesajýnýzýn konusu yok.");
-define("_NOMESSAGE","Mesaj yok. Lütfen bir mesaj yazýn!");
+define("_BBSELECTFORUM","Bir Forum SeÃ§in");
+define("_BBNOFORUM","BaÅŸka Forum Yok");
+define("_BBBANNED","YasaklandÄ±");
+define("_CLICKSMILEBUTTONS","MesajÄ±nÄ±za eklemek istediÄŸiniz smiley'e tÄ±klayÄ±n:");
+define("_CLICKCODEBUTTONS","MesajÄ±nÄ±za eklemek istediÄŸiniz BBCode'a tÄ±klayÄ±n:");
+define("_PRIVMSGERROR","Ã–zel Mesaj HatasÄ±!");
+define("_USERDOESNTEXIST","ÃœzgÃ¼nÃ¼m, seÃ§ilen kullanÄ±cÄ± veritabanÄ±mÄ±zda bulunmuyor")
+define("_DELETESELECTED","SeÃ§ileni Sil");
+define("_SENDNEWMSG","Yeni Mesaj GÃ¶nder");
+define("_REPLY","YanÄ±tla");
+define("_NOSUBJECT","MesajÄ±nÄ±zÄ±n konusu yok.");
+define("_NOMESSAGE","Mesaj yok. LÃ¼tfen bir mesaj yazÄ±n!");
 
 ?>

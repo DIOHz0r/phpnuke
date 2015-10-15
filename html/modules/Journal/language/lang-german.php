@@ -106,7 +106,7 @@ define("_SEND","Senden");
 define("_INTERESTING","Interessanter Text bei");
 define("_HELLO","Hallo");
 define("_YOURFRIEND","Ihr Freund");
-define("_CONSIDERED","In Anbetracht dessen, dass der folgende Journal Eintrag unserer Seite ihren Interessen entsprechen könnte.");
+define("_CONSIDERED","In Anbetracht dessen, dass der folgende Journal Eintrag unserer Seite ihren Interessen entsprechen kÃ¶nnte.");
 define("_AREMORE","Es gibt noch mehr Journale auf unserer Seite. Sie sind eingeladen, diese anzusehen!");
 define("_FSENT","Nachricht wurde versendet. Danke!");
 define("_URL","Url");

@@ -36,11 +36,11 @@ define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Evet");
-define("_NO","Hayýr");
-define("_TOPICSMANAGER","Konu Yönetici");
+define("_NO","HayÄ±r");
+define("_TOPICSMANAGER","Konu YÃ¶netici");
 define("_DELETETOPIC","Konu Sil");
-define("_TOPICDELSURE","Konuyu silmek istediðinizden emin misiniz:");
-define("_TOPICDELSURE1","Bu iþlem TÜM haber ve yorumlarý silecek!");
+define("_TOPICDELSURE","Konuyu silmek istediÄŸinizden emin misiniz:");
+define("_TOPICDELSURE1","Bu iÅŸlem TÃœM haber ve yorumlarÄ± silecek!");
 
 
 ?>

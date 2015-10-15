@@ -1,12 +1,12 @@
 Charset: iso-8859-1
 
-Selle e-kirja saatis sulle "{SITENAME}" administraator. Kui see kiri on r‰mpspost, sisaldab ahistavat vıi muidu solvavat materjali, siis palun vıta foorumi veenimeistriga ¸hendust j‰rgneval aadressil:
+Selle e-kirja saatis sulle "{SITENAME}" administraator. Kui see kiri on r√§mpspost, sisaldab ahistavat v√µi muidu solvavat materjali, siis palun v√µta foorumi veenimeistriga √ºhendust j√§rgneval aadressil:
 
 {BOARD_EMAIL}
 
-Pane kaasa ka terve see kiri (eriti t‰htsad on 'headerid'). 
+Pane kaasa ka terve see kiri (eriti t√§htsad on 'headerid'). 
 
-Saadetud sınum:
+Saadetud s√µnum:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

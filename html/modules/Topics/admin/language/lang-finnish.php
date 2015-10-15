@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","Kyllä");
+define("_YES","KyllÃ¤");
 define("_NO","Ei");
 define("_TOPICSMANAGER","Kanavien hallinta");
 define("_DELETETOPIC","Poista kanava");
-define("_TOPICDELSURE","Oletko varma, että tahdot poistaa kanavan");
-define("_TOPICDELSURE1","Tämä poistaa kaikki kanavan artikkelit ja kommentit!");
+define("_TOPICDELSURE","Oletko varma, ettÃ¤ tahdot poistaa kanavan");
+define("_TOPICDELSURE1","TÃ¤mÃ¤ poistaa kaikki kanavan artikkelit ja kommentit!");
 
 
 ?>

@@ -19,14 +19,14 @@
 
 define("_URL","URL");
 define("_EMAIL","Email");
-define("_REALNAME","Pärisnimi");
+define("_REALNAME","PÃ¤risnimi");
 define("_FUNCTIONS","Funktsioonid");
 define("_PREVIOUS","Eelmine leht");
 define("_MEMBERSLIST","Liikmete nimekiri");
-define("_GREETINGS","Õnnitlused meie viimasele registreeritud kasutajale:");
+define("_GREETINGS","Ã•nnitlused meie viimasele registreeritud kasutajale:");
 define("_SORTBY","Sorteeri:");
 define("_MNICKNAME","kasutajanimi");
-define("_MREALNAME","pärisnimi");
+define("_MREALNAME","pÃ¤risnimi");
 define("_MEMAIL","email");
 define("_MURL","url");
 define("_ONLINEREG","Praegu portaalis registreerituid kasutajaid:");
@@ -34,10 +34,10 @@ define("_WEHAVE","Meil on");
 define("_MREGISTERED","registreerituid kasutajaid siiani");
 define("_MREGONLINE","hetkel portaalis registreerituid kasutajaid.");
 define("_REGSOFAR","registreeritud kasutajat.");
-define("_USERSFOUND","kasutaja(t) leitud päringule");
+define("_USERSFOUND","kasutaja(t) leitud pÃ¤ringule");
 define("_USERSSHOWN","kuvan kasutajaid");
-define("_NOMEMBERS","Ei ole ühtegi sellist kasutajat");
+define("_NOMEMBERS","Ei ole Ã¼htegi sellist kasutajat");
 define("_PAGES","Lehed");
-define("_HOMEPAGE","Kodulehekülg");
+define("_HOMEPAGE","KodulehekÃ¼lg");
 
 ?>

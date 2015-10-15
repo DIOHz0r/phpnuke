@@ -21,23 +21,23 @@
 define("_FUNCTIONS","Funkce");
 define("_YES","Ano");
 define("_NO","Ne");
-define("_SAVE","Uloûit");
+define("_SAVE","Ulo¬ûit");
 define("_ID","ID");
 define("_CATEGORIES","Kategorie");
-define("_ALL","Vöe");
+define("_ALL","V¬öe");
 define("_FAQ","FAQ");
 define("_CONTENT","Obsah");
 define("_FAQADMIN","FAQ administrace");
-define("_ACTIVEFAQS","AktivnÌ FAQy");
-define("_ADDCATEGORY","P¯idat novou kategorii");
-define("_QUESTIONS","Ot·zky a odpovÏdi");
-define("_ADDQUESTION","P¯idat novou ot·zku");
-define("_QUESTION","Ot·zka");
-define("_ANSWER","OdpovÏÔ");
+define("_ACTIVEFAQS","Aktivn√≠ FAQy");
+define("_ADDCATEGORY","P≈ôidat novou kategorii");
+define("_QUESTIONS","Ot√°zky a odpovƒõdi");
+define("_ADDQUESTION","P≈ôidat novou ot√°zku");
+define("_QUESTION","Ot√°zka");
+define("_ANSWER","Odpovƒõƒè");
 define("_EDITCATEGORY","Upravit kategorii");
-define("_EDITQUESTIONS","Upravit ot·zky a odpovÏdi");
-define("_FAQDELWARNING","POZOR: Opravdu chcete smazat tento FAQ a cel˝ jeho obsah?");
-define("_QUESTIONDEL","POZOR: Opravdu chcete smazat tuto ot·zku?");
+define("_EDITQUESTIONS","Upravit ot√°zky a odpovƒõdi");
+define("_FAQDELWARNING","POZOR: Opravdu chcete smazat tento FAQ a cel√Ω jeho obsah?");
+define("_QUESTIONDEL","POZOR: Opravdu chcete smazat tuto ot√°zku?");
 define("_LANGUAGE","Language");
 
 

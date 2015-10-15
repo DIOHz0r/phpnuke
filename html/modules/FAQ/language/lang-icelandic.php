@@ -19,9 +19,9 @@
 
 define("_CATEGORY","Flokkur");
 define("_CATEGORIES","Flokkar");
-define("_FAQ2","SOS (Spurningar og svör)");
+define("_FAQ2","SOS (Spurningar og svÃ¶r)");
 define("_BACKTOTOP","Fara efst");
-define("_BACKTOFAQINDEX","Aftur í SOS listann");
+define("_BACKTOFAQINDEX","Aftur Ã­ SOS listann");
 define("_MAIN","Efst");
 define("_QUESTION","Spurning");
 define("_ANSWER","Svar");

@@ -20,8 +20,8 @@
 define("_PDATE","Fecha");
 define("_PTOPIC","Tema");
 define("_COMESFROM","Este artigo proven de");
-define("_THEURL","A dirección desta noticia é:");
+define("_THEURL","A direcciÃ³n desta noticia Ã©:");
 define("_DATE","Fecha");
-define("_TITLE","Título");
+define("_TITLE","TÃ­tulo");
 
 ?>

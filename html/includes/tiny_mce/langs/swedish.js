@@ -39,4 +39,4 @@ tinyMCELang['lang_bold_img'] = 'bold_de_se.gif';
 tinyMCELang['lang_italic_img'] = 'italic_de_se.gif';
 tinyMCELang['lang_underline_img'] = "underline.gif";
 tinyMCELang['lang_clipboard_msg'] = 'Klipput/Kopiera/Klistra fungerar inte Mozilla och Firefox. Vill du veta mer om detta?';
-tinyMCELang['lang_help_desc'] = "Hj‰lp";
+tinyMCELang['lang_help_desc'] = "Hj√§lp";

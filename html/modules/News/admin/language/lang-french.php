@@ -97,7 +97,7 @@ define("_POLLTITLE","Titre du sondage");
 define("_POLLEACHFIELD","S.V.P. entrez une option disponible dans un seul champ");
 define("_ACTIVATECOMMENTS","Activer les commentaires pour cette Story?");
 define("_LANGUAGE","Langue");
-define("_ATTACHAPOLL","Attacher un sondage à cet article");
+define("_ATTACHAPOLL","Attacher un sondage Ã  cet article");
 define("_LEAVEBLANKTONOTATTACH","(Laisser vide pour poster un article sans attacher aucun sondage)");
 define("_USERPROFILE","User Profile");
 define("_EMAILUSER","Email User");

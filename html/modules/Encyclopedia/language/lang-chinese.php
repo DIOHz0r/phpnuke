@@ -20,28 +20,28 @@
 
 
 
-define("_PREVIOUS","¤W¤@­¶");
-define("_NEXT","¤U¤@­¶");
+define("_PREVIOUS","ä¸Šä¸€é ");
+define("_NEXT","ä¸‹ä¸€é ");
 
-define("_SEARCHRESULTS","·j´Mµ²ªG");
-define("_PAGE","­¶");
-define("_RETURNTO","¦^¨ì");
-define("_DEACTIVATE","ÁôÂÃ");
-define("_ACTIVATE","Åã¥Ü");
-define("_ENCYCLOPEDIA","¦Ê¬ì¥þ®Ñ/ºëµØ°Ï");
-define("_NOCONTENTFORLETTER","©êºp¡A³o­Ó¦r¥À¤¤¨S¦³¥ô¦ó¤º®e¡C");
-define("_ENCYSELECTLETTER","½Ð¥Ñ©³¤Uªº¦Cªí¤¤¿ï¾Ü­n¬d¸ßªº¶µ¥Ø:");
+define("_SEARCHRESULTS","æœå°‹çµæžœ");
+define("_PAGE","é ");
+define("_RETURNTO","å›žåˆ°");
+define("_DEACTIVATE","éš±è—");
+define("_ACTIVATE","é¡¯ç¤º");
+define("_ENCYCLOPEDIA","ç™¾ç§‘å…¨æ›¸/ç²¾è¯å€");
+define("_NOCONTENTFORLETTER","æŠ±æ­‰ï¼Œé€™å€‹å­—æ¯ä¸­æ²’æœ‰ä»»ä½•å…§å®¹ã€‚");
+define("_ENCYSELECTLETTER","è«‹ç”±åº•ä¸‹çš„åˆ—è¡¨ä¸­é¸æ“‡è¦æŸ¥è©¢çš„é …ç›®:");
 define("_COPYRIGHT","Copyright &copy; by $sitename. All Right Reserved.");
-define("_YOURADMINENCY","±z¬OºÞ²zªÌ¡A³o­Ó¦Ê¬ì¥þ®Ñ©|¥¼¶}©ñ!");
-define("_ENCYNOTACTIVE","¹ï¤£°_¡A¥Ø«e³o­Ó¦Ê¬ì¥þ®Ñ©|¥¼¶}©ñ.");
-define("_AVAILABLEENCYLIST","¥Ø«eªº¦Ê¬ì¥þ®Ñ¦Cªí");
-define("_YOURADMININACTIVELIST","±z¬OºÞ²zªÌ¡G©³¤U¬O¥¼±Ò°Êªº¦Ê¬ì¥þ®Ñ¦Cªí:");
-define("_NORESULTSTEXT","´M§ä¤º¤å¨S¦³¥ô¦ó²Å¦Xªºµ²ªG...");
-define("_NORESULTSTITLE","´M§ä¼ÐÃD¨S¦³¥ô¦ó²Å¦Xªºµ²ªG...");
-define("_SEARCHRESULTSFOR","·j´Mµ²ªG:");
-define("_SEARCHNOTCOMPLETE","·j´M¿ï¶µ¨S¦³§¹¦¨¡A½Ð¦A¸Õ¤@¦¸.");
-define("_RESULTSINTERMTITLE","²Å¦Xªº¼ÐÃD:");
-define("_RESULTSINTERMTEXT","²Å¦Xªº¤º¤å:");
+define("_YOURADMINENCY","æ‚¨æ˜¯ç®¡ç†è€…ï¼Œé€™å€‹ç™¾ç§‘å…¨æ›¸å°šæœªé–‹æ”¾!");
+define("_ENCYNOTACTIVE","å°ä¸èµ·ï¼Œç›®å‰é€™å€‹ç™¾ç§‘å…¨æ›¸å°šæœªé–‹æ”¾.");
+define("_AVAILABLEENCYLIST","ç›®å‰çš„ç™¾ç§‘å…¨æ›¸åˆ—è¡¨");
+define("_YOURADMININACTIVELIST","æ‚¨æ˜¯ç®¡ç†è€…ï¼šåº•ä¸‹æ˜¯æœªå•Ÿå‹•çš„ç™¾ç§‘å…¨æ›¸åˆ—è¡¨:");
+define("_NORESULTSTEXT","å°‹æ‰¾å…§æ–‡æ²’æœ‰ä»»ä½•ç¬¦åˆçš„çµæžœ...");
+define("_NORESULTSTITLE","å°‹æ‰¾æ¨™é¡Œæ²’æœ‰ä»»ä½•ç¬¦åˆçš„çµæžœ...");
+define("_SEARCHRESULTSFOR","æœå°‹çµæžœ:");
+define("_SEARCHNOTCOMPLETE","æœå°‹é¸é …æ²’æœ‰å®Œæˆï¼Œè«‹å†è©¦ä¸€æ¬¡.");
+define("_RESULTSINTERMTITLE","ç¬¦åˆçš„æ¨™é¡Œ:");
+define("_RESULTSINTERMTEXT","ç¬¦åˆçš„å…§æ–‡:");
 
 
 ?>

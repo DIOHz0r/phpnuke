@@ -21,26 +21,26 @@
 define("_EMAIL","Netfang");
 define("_SAVECHANGES","Vista breytingar");
 define("_SCORE","Einkunn:");
-define("_PRODUCTTITLE","Titill vöru");
-define("_RELATEDLINK","Tengd vefslóð");
-define("_LINKTITLE","Titill vefslóðar");
-define("_REVIEWER","Höfundur:");
-define("_REVIEWID","Umsögn nr.");
+define("_PRODUCTTITLE","Titill vÃ¶ru");
+define("_RELATEDLINK","Tengd vefslÃ³Ã°");
+define("_LINKTITLE","Titill vefslÃ³Ã°ar");
+define("_REVIEWER","HÃ¶fundur:");
+define("_REVIEWID","UmsÃ¶gn nr.");
 define("_REVIEWS","umsagnir");
 define("_DATE","Dags");
-define("_REVADMIN","Stjórnsíða umsagna");
-define("_REVTITLE","Titill umsagnasíðu");
-define("_REVDESC","Lengri lýsing á umsagnasíðu");
-define("_REVWAITING","Umsagnir sem býða yfirlestrar");
-define("_REVIMGINFO","Vistaðu 150*150 myndir í images/reviews");
+define("_REVADMIN","StjÃ³rnsÃ­Ã°a umsagna");
+define("_REVTITLE","Titill umsagnasÃ­Ã°u");
+define("_REVDESC","Lengri lÃ½sing Ã¡ umsagnasÃ­Ã°u");
+define("_REVWAITING","Umsagnir sem bÃ½Ã°a yfirlestrar");
+define("_REVIMGINFO","VistaÃ°u 150*150 myndir Ã­ images/reviews");
 define("_TEXT","Texti");
 define("_IMAGE","Mynd");
-define("_NOREVIEW2ADD","Engar umsagnir býða");
-define("_ADDREVIEW","Setja umsögn inn");
-define("_CLICK2ADDREVIEW","Smelltu hér til að skrifa umsögn");
-define("_DELMODREVIEW","Eyða eða breyta umsögnum");
-define("_MODREVINFO","Þú getur einfaldlega eytt/breytt umsögnum með því að fara á <a href=\"modules.php?name=Reviews\">Reviews</a> sem Kerfisstjóri.");
-define("_LANGUAGE","Tungumál");
+define("_NOREVIEW2ADD","Engar umsagnir bÃ½Ã°a");
+define("_ADDREVIEW","Setja umsÃ¶gn inn");
+define("_CLICK2ADDREVIEW","Smelltu hÃ©r til aÃ° skrifa umsÃ¶gn");
+define("_DELMODREVIEW","EyÃ°a eÃ°a breyta umsÃ¶gnum");
+define("_MODREVINFO","ÃžÃº getur einfaldlega eytt/breytt umsÃ¶gnum meÃ° Ã¾vÃ­ aÃ° fara Ã¡ <a href=\"modules.php?name=Reviews\">Reviews</a> sem KerfisstjÃ³ri.");
+define("_LANGUAGE","TungumÃ¡l");
 
 
 ?>

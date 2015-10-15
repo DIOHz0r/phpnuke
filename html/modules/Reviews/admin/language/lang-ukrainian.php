@@ -19,27 +19,27 @@
 
 
 define("_EMAIL","Email");          //
-define("_SAVECHANGES","Зберегти зміни");
-define("_SCORE","Оцінка:");
-define("_PRODUCTTITLE","Назв");
-define("_RELATEDLINK","Схожі ресурси");
-define("_LINKTITLE","Назва ресурсу");
-define("_REVIEWER","Оглядач:");
-define("_REVIEWID","ID огляду");
-define("_REVIEWS","Огляди");
-define("_DATE","Дата");
-define("_REVADMIN","Адміністрування оглядів");
-define("_REVTITLE","Назва оглядів");
-define("_REVDESC","Опис оглядів");
-define("_REVWAITING","Огляди, що очікують підтвердження");
-define("_REVIMGINFO","Збережіть малюнок 150*150 в images/reviews");
-define("_TEXT","Текст");
-define("_IMAGE","Малюнок");
-define("_NOREVIEW2ADD","Немає нових оглядів");
-define("_ADDREVIEW","Додати огляд");
-define("_CLICK2ADDREVIEW","Напишіть огляд");
-define("_DELMODREVIEW","Витерти/Змінити огляд");
-define("_MODREVINFO","Ви можете витирати/редагувати <a href=\"reviews.php\">огляди</a> переглядаючи їх як адмін..");
+define("_SAVECHANGES","Р—Р±РµСЂРµРіС‚Рё Р·РјС–РЅРё");
+define("_SCORE","РћС†С–РЅРєР°:");
+define("_PRODUCTTITLE","РќР°Р·РІ");
+define("_RELATEDLINK","РЎС…РѕР¶С– СЂРµСЃСѓСЂСЃРё");
+define("_LINKTITLE","РќР°Р·РІР° СЂРµСЃСѓСЂСЃСѓ");
+define("_REVIEWER","РћРіР»СЏРґР°С‡:");
+define("_REVIEWID","ID РѕРіР»СЏРґСѓ");
+define("_REVIEWS","РћРіР»СЏРґРё");
+define("_DATE","Р”Р°С‚Р°");
+define("_REVADMIN","РђРґРјС–РЅС–СЃС‚СЂСѓРІР°РЅРЅСЏ РѕРіР»СЏРґС–РІ");
+define("_REVTITLE","РќР°Р·РІР° РѕРіР»СЏРґС–РІ");
+define("_REVDESC","РћРїРёСЃ РѕРіР»СЏРґС–РІ");
+define("_REVWAITING","РћРіР»СЏРґРё, С‰Рѕ РѕС‡С–РєСѓСЋС‚СЊ РїС–РґС‚РІРµСЂРґР¶РµРЅРЅСЏ");
+define("_REVIMGINFO","Р—Р±РµСЂРµР¶С–С‚СЊ РјР°Р»СЋРЅРѕРє 150*150 РІ images/reviews");
+define("_TEXT","РўРµРєСЃС‚");
+define("_IMAGE","РњР°Р»СЋРЅРѕРє");
+define("_NOREVIEW2ADD","РќРµРјР°С” РЅРѕРІРёС… РѕРіР»СЏРґС–РІ");
+define("_ADDREVIEW","Р”РѕРґР°С‚Рё РѕРіР»СЏРґ");
+define("_CLICK2ADDREVIEW","РќР°РїРёС€С–С‚СЊ РѕРіР»СЏРґ");
+define("_DELMODREVIEW","Р’РёС‚РµСЂС‚Рё/Р—РјС–РЅРёС‚Рё РѕРіР»СЏРґ");
+define("_MODREVINFO","Р’Рё РјРѕР¶РµС‚Рµ РІРёС‚РёСЂР°С‚Рё/СЂРµРґР°РіСѓРІР°С‚Рё <a href=\"reviews.php\">РѕРіР»СЏРґРё</a> РїРµСЂРµРіР»СЏРґР°СЋС‡Рё С—С… СЏРє Р°РґРјС–РЅ..");
 define("_LANGUAGE","Language");
 
 

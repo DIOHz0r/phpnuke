@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Prentvænni síða");
-define("_FRIEND","Senda þessa frétt til vinar");
+define("_PRINTER","PrentvÃ¦nni sÃ­Ã°a");
+define("_FRIEND","Senda Ã¾essa frÃ©tt til vinar");
 define("_ARTICLES","greinar");
 define("_USCORE","Stig");
 define("_DATE","Dags");
-define("_SELECTMONTH2VIEW","Vinsamlegast veldu mánuðin sem þú vilt skoða:");
-define("_SHOWALLSTORIES","Sýna allar greinar");
+define("_SELECTMONTH2VIEW","Vinsamlegast veldu mÃ¡nuÃ°in sem Ã¾Ãº vilt skoÃ°a:");
+define("_SHOWALLSTORIES","SÃ½na allar greinar");
 define("_STORIESARCHIVE","Greinasafn");
-define("_ACTIONS","Aðgerðir");
+define("_ACTIONS","AÃ°gerÃ°ir");
 define("_ARCHIVESINDEX","Efnisyfirlit greinasafns");
 define("_ALLSTORIESARCH","Allar greinar");
-define("_NEXTPAGE","Næsta síða");
-define("_PREVIOUSPAGE","Fyrri síða");
+define("_NEXTPAGE","NÃ¦sta sÃ­Ã°a");
+define("_PREVIOUSPAGE","Fyrri sÃ­Ã°a");
 
 ?>

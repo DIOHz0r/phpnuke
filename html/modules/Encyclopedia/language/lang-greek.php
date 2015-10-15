@@ -17,13 +17,13 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEARCHRESULTS","Αναζήτηση Αποτελεσμάτων");
-define("_PAGE","Σελίδα");
-define("_PREVIOUS","Προηγούμενη Σελίδα");
-define("_NEXT","Επόμενη Σελίδα");
-define("_RETURNTO","Επιστροφή");
-define("_DEACTIVATE","Απενεργοποίηση");
-define("_ACTIVATE","Ενεργοποίηση");
+define("_SEARCHRESULTS","Ξ‘Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ· Ξ‘Ο€ΞΏΟ„ΞµΞ»ΞµΟƒΞΌΞ¬Ο„Ο‰Ξ½");
+define("_PAGE","Ξ£ΞµΞ»Ξ―Ξ΄Ξ±");
+define("_PREVIOUS","Ξ ΟΞΏΞ·Ξ³ΞΏΟΞΌΞµΞ½Ξ· Ξ£ΞµΞ»Ξ―Ξ΄Ξ±");
+define("_NEXT","Ξ•Ο€ΟΞΌΞµΞ½Ξ· Ξ£ΞµΞ»Ξ―Ξ΄Ξ±");
+define("_RETURNTO","Ξ•Ο€ΞΉΟƒΟ„ΟΞΏΟ†Ξ®");
+define("_DEACTIVATE","Ξ‘Ο€ΞµΞ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·");
+define("_ACTIVATE","Ξ•Ξ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_NOCONTENTFORLETTER","Sorry, there isn't any content for the letter");
 define("_ENCYSELECTLETTER","Please select a letter from the following list to consult terms:");

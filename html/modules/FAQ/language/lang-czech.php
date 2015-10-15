@@ -19,11 +19,11 @@
 
 define("_CATEGORY","Kategorie");
 define("_CATEGORIES","Kategorie");
-define("_FAQ2","FAQ (Nejèastìjší dotazy)");
-define("_BACKTOTOP","Zpìt nahoru");
-define("_BACKTOFAQINDEX","Zpìt na FAQ Index");
-define("_MAIN","Hlavní");
-define("_QUESTION","Otázka");
-define("_ANSWER","Odpovìï");
+define("_FAQ2","FAQ (NejÄastÄ›jÂšÃ­ dotazy)");
+define("_BACKTOTOP","ZpÄ›t nahoru");
+define("_BACKTOFAQINDEX","ZpÄ›t na FAQ Index");
+define("_MAIN","HlavnÃ­");
+define("_QUESTION","OtÃ¡zka");
+define("_ANSWER","OdpovÄ›Ä");
 
 ?>

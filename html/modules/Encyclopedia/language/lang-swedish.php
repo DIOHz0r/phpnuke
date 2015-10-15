@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Föregående Sida");
-define("_NEXT","Nästa Sida");
-define("_SEARCHRESULTS","Sök resultat");
+define("_PREVIOUS","FÃ¶regÃ¥ende Sida");
+define("_NEXT","NÃ¤sta Sida");
+define("_SEARCHRESULTS","SÃ¶k resultat");
 define("_PAGE","Sida");
-define("_RETURNTO","Återvänd till");
+define("_RETURNTO","Ã…tervÃ¤nd till");
 define("_DEACTIVATE","Inaktivera");
 define("_ACTIVATE","Aktivera");
 define("_ENCYCLOPEDIA","Encyclopedia");

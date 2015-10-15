@@ -31,26 +31,26 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PREVIOUS","Predchádzajúca strana");
-define("_NEXT","Nasledujúca strana");
-define("_SEARCHRESULTS","Výsledky vyh¾adávania");
+define("_PREVIOUS","PredchÃ¡dzajÃºca strana");
+define("_NEXT","NasledujÃºca strana");
+define("_SEARCHRESULTS","VÃ½sledky vyhÄ¾adÃ¡vania");
 define("_PAGE","Strana");
-define("_RETURNTO","Návrat na");
-define("_DEACTIVATE","Deaktivova");
-define("_ACTIVATE","Aktivova");
-define("_ENCYCLOPEDIA","Encyklopédia");
-define("_NOCONTENTFORLETTER","Encyklopédia neobsahuje žiadny termín pre zadané písmeno..");
-define("_ENCYSELECTLETTER","Aby sa zobrazili heslá, vyberte zodpovedajúce písmeno zo zoznamu");
+define("_RETURNTO","NÃ¡vrat na");
+define("_DEACTIVATE","DeaktivovaÅ¥");
+define("_ACTIVATE","AktivovaÅ¥");
+define("_ENCYCLOPEDIA","EncyklopÃ©dia");
+define("_NOCONTENTFORLETTER","EncyklopÃ©dia neobsahuje Å¾iadny termÃ­n pre zadanÃ© pÃ­smeno..");
+define("_ENCYSELECTLETTER","Aby sa zobrazili heslÃ¡, vyberte zodpovedajÃºce pÃ­smeno zo zoznamu");
 define("_COPYRIGHT","Copyleft:$sitename.");
-define("_YOURADMINENCY","Ste Administrátor. Táto encyklopédia nie je aktivovaná!");
-define("_ENCYNOTACTIVE","Táto encyklopédia nie je práve aktivovaná");
-define("_AVAILABLEENCYLIST","Zoznam dostupných encyklopédií v");
-define("_YOURADMININACTIVELIST","Ste Administrátor. Toto je zoznam neaktivovaných encyklopédií :");
-define("_NORESULTSTEXT","Žiadny výsledok vo vysvetleniach...");
-define("_NORESULTSTITLE","Žiadny výsledok medzi termínmy...");
-define("_SEARCHRESULTSFOR","Výsledky vyh¾adávania pre:");
-define("_SEARCHNOTCOMPLETE","Vo¾by vyh¾adávania nie sú úplné. Skúste znova.");
-define("_RESULTSINTERMTITLE","Výsledky medzi termínmy:");
-define("_RESULTSINTERMTEXT","Výsledky vo vysvetleniach:");
+define("_YOURADMINENCY","Ste AdministrÃ¡tor. TÃ¡to encyklopÃ©dia nie je aktivovanÃ¡!");
+define("_ENCYNOTACTIVE","TÃ¡to encyklopÃ©dia nie je prÃ¡ve aktivovanÃ¡");
+define("_AVAILABLEENCYLIST","Zoznam dostupnÃ½ch encyklopÃ©diÃ­ v");
+define("_YOURADMININACTIVELIST","Ste AdministrÃ¡tor. Toto je zoznam neaktivovanÃ½ch encyklopÃ©diÃ­ :");
+define("_NORESULTSTEXT","Å½iadny vÃ½sledok vo vysvetleniach...");
+define("_NORESULTSTITLE","Å½iadny vÃ½sledok medzi termÃ­nmy...");
+define("_SEARCHRESULTSFOR","VÃ½sledky vyhÄ¾adÃ¡vania pre:");
+define("_SEARCHNOTCOMPLETE","VoÄ¾by vyhÄ¾adÃ¡vania nie sÃº ÃºplnÃ©. SkÃºste znova.");
+define("_RESULTSINTERMTITLE","VÃ½sledky medzi termÃ­nmy:");
+define("_RESULTSINTERMTEXT","VÃ½sledky vo vysvetleniach:");
 
 ?>

@@ -20,26 +20,26 @@
 
 define("_EMAIL","E-Mail");
 define("_SAVECHANGES","Gardar cambios");
-define("_SCORE","Puntuación");
+define("_SCORE","PuntuaciÃ³n");
 define("_PRODUCTTITLE","Nome do Producto");
 define("_RELATEDLINK","Enlace Relacionado");
-define("_LINKTITLE","Título do Enlace");
+define("_LINKTITLE","TÃ­tulo do Enlace");
 define("_REVIEWER","Moderador:");
-define("_REVIEWID","ID Reseña");
-define("_REVIEWS","Reseñas");
+define("_REVIEWID","ID ReseÃ±a");
+define("_REVIEWS","ReseÃ±as");
 define("_DATE","Fecha");
-define("_REVADMIN","Administración de Reseñas");
-define("_REVTITLE","Título da Páxina de Reseñas");
-define("_REVDESC","Páxina de Descripción de Reseñas");
-define("_REVWAITING","Reseñas esperando a aprobación");
-define("_REVIMGINFO","Poña a súa imaxen de 150x150 en images/reviews");
+define("_REVADMIN","AdministraciÃ³n de ReseÃ±as");
+define("_REVTITLE","TÃ­tulo da PÃ¡xina de ReseÃ±as");
+define("_REVDESC","PÃ¡xina de DescripciÃ³n de ReseÃ±as");
+define("_REVWAITING","ReseÃ±as esperando a aprobaciÃ³n");
+define("_REVIMGINFO","PoÃ±a a sÃºa imaxen de 150x150 en images/reviews");
 define("_TEXT","Texto");
 define("_IMAGE","Imaxe");
-define("_NOREVIEW2ADD","Non hai Reseñas para Engadir");
-define("_ADDREVIEW","Engadir Reseña");
-define("_CLICK2ADDREVIEW","Presione aquí para escribir unha reseña");
-define("_DELMODREVIEW","Borrar / Modificar unha reseña");
-define("_MODREVINFO","Pode borrar/modificar reseñas navegando por <a href=\"modules.php?name=Reviews\">Reviews</a> como Administrador.");
+define("_NOREVIEW2ADD","Non hai ReseÃ±as para Engadir");
+define("_ADDREVIEW","Engadir ReseÃ±a");
+define("_CLICK2ADDREVIEW","Presione aquÃ­ para escribir unha reseÃ±a");
+define("_DELMODREVIEW","Borrar / Modificar unha reseÃ±a");
+define("_MODREVINFO","Pode borrar/modificar reseÃ±as navegando por <a href=\"modules.php?name=Reviews\">Reviews</a> como Administrador.");
 define("_LANGUAGE","Idioma");
 
 

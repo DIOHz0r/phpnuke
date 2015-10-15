@@ -19,39 +19,39 @@
 
 
 define("_SEND","Enviar");
-define("_FUNCTIONS","Funções");
+define("_FUNCTIONS","FunÃ§Ãµes");
 define("_YES","sim");
-define("_NO","Não");
-define("_SAVECHANGES","Salvar alterações");
-define("_PAGEBREAK","Se o texto que você for excrever for muito grande, divida-o em páginas usando <b>[--pagebreak--]</b> para cada quebra de página.");
-define("_DESCRIPTION","Descrição");
+define("_NO","NÃ£o");
+define("_SAVECHANGES","Salvar alteraÃ§Ãµes");
+define("_PAGEBREAK","Se o texto que vocÃª for excrever for muito grande, divida-o em pÃ¡ginas usando <b>[--pagebreak--]</b> para cada quebra de pÃ¡gina.");
+define("_DESCRIPTION","DescriÃ§Ã£o");
 define("_TO","Para");
-define("_TITLE","Título");
+define("_TITLE","TÃ­tulo");
 define("_ACTIVE","Ativo");
 define("_DEACTIVATE","Desativar");
 define("_INACTIVE","Inativo");
 define("_ACTIVATE","Ativar");
 define("_ADD","Adicionar");
 define("_LANGUAGE","Idioma");
-define("_ENCYCLOPEDIA","Enciclopédia");
-define("_ENCYCLOPEDIAMANAGER","Gerenciador da Enciclopédia");
-define("_DELENCYCLOPEDIA","apagar Enciclopédia");
-define("_DELENCYCONTWARNING","Você tem certeza de que quer apagar esta Enciclopédia e TODO o seu conteúdo?");
-define("_DELENCYCLOPEDIATEXT","Apagar termo da Enciclopédia");
-define("_DELENCYTEXTWARNING","Você tem certeza de que quer apagar este termo?");
+define("_ENCYCLOPEDIA","EnciclopÃ©dia");
+define("_ENCYCLOPEDIAMANAGER","Gerenciador da EnciclopÃ©dia");
+define("_DELENCYCLOPEDIA","apagar EnciclopÃ©dia");
+define("_DELENCYCONTWARNING","VocÃª tem certeza de que quer apagar esta EnciclopÃ©dia e TODO o seu conteÃºdo?");
+define("_DELENCYCLOPEDIATEXT","Apagar termo da EnciclopÃ©dia");
+define("_DELENCYTEXTWARNING","VocÃª tem certeza de que quer apagar este termo?");
 define("_CURRENTSTATUS","Status atual");
-define("_ACTIVATEPAGE","Ativar esta página?");
+define("_ACTIVATEPAGE","Ativar esta pÃ¡gina?");
 define("_TERMS","Termos");
-define("_ADDNEWENCYCLOPEDIA","Adicionar nova Enciclopédia");
-define("_ADDNEWENCYTERM","Adicionar um novo termo a Enciclopédia");
+define("_ADDNEWENCYCLOPEDIA","Adicionar nova EnciclopÃ©dia");
+define("_ADDNEWENCYTERM","Adicionar um novo termo a EnciclopÃ©dia");
 define("_TERMTEXT","Texto do termo");
 define("_MOVETERMS","Mover Termos");
 define("_MOVEALLTERMSFROM","Mover TODOS os Termos de");
-define("_EDITENCYCLOPEDIA","Editar Enciclopédia");
-define("_ENCYTERMSEDIT","Edição de termos da Enciclopédia");
+define("_EDITENCYCLOPEDIA","Editar EnciclopÃ©dia");
+define("_ENCYTERMSEDIT","EdiÃ§Ã£o de termos da EnciclopÃ©dia");
 define("_SELECTONETERM","Por favor, selecione um termo da lista a seguir:");
-define("_NOCONTENTFORLETTER","desculpe, não há conteúdo para esta letra");
-define("_CHANGETOENCY","Mover para a Enciclopédia");
+define("_NOCONTENTFORLETTER","desculpe, nÃ£o hÃ¡ conteÃºdo para esta letra");
+define("_CHANGETOENCY","Mover para a EnciclopÃ©dia");
 
 
 ?>

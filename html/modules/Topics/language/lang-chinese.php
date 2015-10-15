@@ -18,11 +18,11 @@
 /**************************************************************************/
 
 
-define("_ACTIVETOPICS","¥Ø«eªº·s»D¥DÃD");
-define("_CLICK2LIST","½ÐÂI¿ï·s»D¥DÃD¡Aª½±µ¤@Äý¤å³¹");
-define("_TOTNEWS","Á`¤å³¹¼Æ");
-define("_TOTREADS","Á`¾\Åª¼Æ");
-define("_MORE","¹î¬Ý§ó¦h");
-define("_NONEWSYET","...¥Ø«e¥»¥DÃD¤¤©|µL¥ô¦ó¤å³¹...");
+define("_ACTIVETOPICS","ç›®å‰çš„æ–°èžä¸»é¡Œ");
+define("_CLICK2LIST","è«‹é»žé¸æ–°èžä¸»é¡Œï¼Œç›´æŽ¥ä¸€è¦½æ–‡ç« ");
+define("_TOTNEWS","ç¸½æ–‡ç« æ•¸");
+define("_TOTREADS","ç¸½é–±è®€æ•¸");
+define("_MORE","å¯Ÿçœ‹æ›´å¤š");
+define("_NONEWSYET","...ç›®å‰æœ¬ä¸»é¡Œä¸­å°šç„¡ä»»ä½•æ–‡ç« ...");
 
 ?>

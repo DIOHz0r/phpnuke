@@ -36,11 +36,11 @@ define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","sim");
-define("_NO","Não");
-define("_TOPICSMANAGER","Gerenciador de Tópicos");
-define("_DELETETOPIC","Apagar Tópico");
-define("_TOPICDELSURE","Você tem certeza de que quer apagar este Tópico?");
-define("_TOPICDELSURE1","Esta ação irá apagar TODAS as notícias e seus comentários!!!");
+define("_NO","NÃ£o");
+define("_TOPICSMANAGER","Gerenciador de TÃ³picos");
+define("_DELETETOPIC","Apagar TÃ³pico");
+define("_TOPICDELSURE","VocÃª tem certeza de que quer apagar este TÃ³pico?");
+define("_TOPICDELSURE1","Esta aÃ§Ã£o irÃ¡ apagar TODAS as notÃ­cias e seus comentÃ¡rios!!!");
 
 
 ?>

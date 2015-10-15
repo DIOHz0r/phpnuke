@@ -1,12 +1,12 @@
-Subject: Teile on saabunud uus erasõnum
+Subject: Teile on saabunud uus erasÃµnum
 Charset: iso-8859-1
 
 Tere {USERNAME},
 
-Teie kontole "{SITENAME}" foorumil on saabunud uus erasõnum ning te olete palunud end sellisest sündmusest teavitada. Te saate sõnumit vaadata vajutades järgnevale lingile:
+Teie kontole "{SITENAME}" foorumil on saabunud uus erasÃµnum ning te olete palunud end sellisest sÃ¼ndmusest teavitada. Te saate sÃµnumit vaadata vajutades jÃ¤rgnevale lingile:
 
 {U_INBOX}
 
-Pea meeles, et võid vältida e-kirja saatmist uute sõnumite puhul, muutes vastavat valikut oma profiilis.
+Pea meeles, et vÃµid vÃ¤ltida e-kirja saatmist uute sÃµnumite puhul, muutes vastavat valikut oma profiilis.
 
 {EMAIL_SIG}

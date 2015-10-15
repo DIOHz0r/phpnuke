@@ -32,7 +32,7 @@ define("_BYTESMORE","bytes meer");
 define("_COMMENTSQ","Opmerkingen?");
 define("_COMMENT","Opmerkingen");
 define("_CONFIGURE","Aanpassen");
-define("_LOGINCREATE","Login/Creëer een profiel");
+define("_LOGINCREATE","Login/CreÃ«er een profiel");
 define("_THRESHOLD","Limiet");
 define("_NOCOMMENTS","Geen opmerkingen");
 define("_NESTED","Genest");

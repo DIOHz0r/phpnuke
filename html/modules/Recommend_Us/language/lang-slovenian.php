@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Poölji");
-define("_FYOURNAME","Vaöe ime:");
-define("_FYOUREMAIL","Vaö E-mail:");
-define("_FFRIENDNAME","Ime Vaöega prijatelja:");
-define("_FFRIENDEMAIL","E-mail Vaöega prijatelja:");
+define("_SEND","Po¬ölji");
+define("_FYOURNAME","Va¬öe ime:");
+define("_FYOUREMAIL","Va¬ö E-mail:");
+define("_FFRIENDNAME","Ime Va¬öega prijatelja:");
+define("_FFRIENDEMAIL","E-mail Va¬öega prijatelja:");
 define("_HELLO","Pozdravljen");
-define("_YOURFRIEND","Vaöemu prijatelju");
-define("_RECOMMEND","PriporoËi stran prijatelju");
+define("_YOURFRIEND","Va¬öemu prijatelju");
+define("_RECOMMEND","Priporoƒçi stran prijatelju");
 define("_INTSITE","Zanimiva stran:");
-define("_OURSITE","se mu zdi naöa stran");
-define("_INTSENT","zanimiva in Vam jo ûeli poslati.");
+define("_OURSITE","se mu zdi na¬öa stran");
+define("_INTSENT","zanimiva in Vam jo ¬ûeli poslati.");
 define("_FSITENAME","Naslov strani:");
 define("_FSITEURL","Naslov (URL):");
-define("_FREFERENCE","PriporoËilo za naöo stran je bilo poslano");
-define("_THANKSREC","Hvala za vaöe priporoËilo!");
+define("_FREFERENCE","Priporoƒçilo za na¬öo stran je bilo poslano");
+define("_THANKSREC","Hvala za va¬öe priporoƒçilo!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

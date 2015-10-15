@@ -16,21 +16,21 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_PRINTER","Strona gotowa do druku");
-define("_FRIEND","Wy¶lij ten artyku³ do znajomych");
-define("_ARTICLES","Artyku³y");
+define("_FRIEND","WyÅ›lij ten artykuÅ‚ do znajomych");
+define("_ARTICLES","ArtykuÅ‚y");
 define("_USCORE","Wynik");
 define("_DATE","Data");
-define("_SELECTMONTH2VIEW","Proszê wybraæ miesi±c który chcesz przejrzeæ:");
-define("_SHOWALLSTORIES","Poka¿ WSZYSTKIE artyku³y");
-define("_STORIESARCHIVE","Archiwum artyku³ów");
+define("_SELECTMONTH2VIEW","ProszÄ™ wybraÄ‡ miesiÄ…c ktÃ³ry chcesz przejrzeÄ‡:");
+define("_SHOWALLSTORIES","PokaÅ¼ WSZYSTKIE artykuÅ‚y");
+define("_STORIESARCHIVE","Archiwum artykuÅ‚Ã³w");
 define("_ACTIONS","Akcje");
-define("_ARCHIVESINDEX","Wykaz archiwum artyku³ów");
-define("_ALLSTORIESARCH","Wszystkie artyku³y");
-define("_NEXTPAGE","Nastêpna strona");
+define("_ARCHIVESINDEX","Wykaz archiwum artykuÅ‚Ã³w");
+define("_ALLSTORIESARCH","Wszystkie artykuÅ‚y");
+define("_NEXTPAGE","NastÄ™pna strona");
 define("_PREVIOUSPAGE","Poprzednia strona");
 

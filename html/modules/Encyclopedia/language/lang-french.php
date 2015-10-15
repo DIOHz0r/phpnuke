@@ -28,20 +28,20 @@ define("_PAGE","Page");
 define("_RETURNTO","Retour &agrave;");
 define("_DEACTIVATE","D&eacute;sactiver");
 define("_ACTIVATE","Activer");
-define("_ENCYCLOPEDIA","Encyclopédie");
-define("_NOCONTENTFORLETTER","Désolé, il n'y a aucun contenu pour cette lettre");
+define("_ENCYCLOPEDIA","EncyclopÃ©die");
+define("_NOCONTENTFORLETTER","DÃ©solÃ©, il n'y a aucun contenu pour cette lettre");
 define("_ENCYSELECTLETTER","Merci de choisir un lettre dans la liste suivante pour consulter son contenu:");
 define("_COPYRIGHT","Copyright");
-define("_YOURADMINENCY","Vous êtes un administrateur, cette encyclopédie n'est pas active!");
-define("_ENCYNOTACTIVE","Désolé, cette encyclopédie n'est pour le moment pas activée.");
-define("_AVAILABLEENCYLIST","Liste des encyclopédies accessible dans");
-define("_YOURADMININACTIVELIST","Vous êtes un administrateur: regardez la liste des encyclopédies inactives:");
-define("_NORESULTSTEXT","Aucun résultats dans le texte du terme...");
-define("_NORESULTSTITLE","Aucun résultats dans le titre du terme...");
-define("_SEARCHRESULTSFOR","Résultats de la recherche pour:");
-define("_SEARCHNOTCOMPLETE","Les options de la recherche sont incomplètes. Merci de recommencer.");
-define("_RESULTSINTERMTITLE","Résultats dans le titre du terme:");
-define("_RESULTSINTERMTEXT","Résultats dans le texte du terme:");
+define("_YOURADMINENCY","Vous Ãªtes un administrateur, cette encyclopÃ©die n'est pas active!");
+define("_ENCYNOTACTIVE","DÃ©solÃ©, cette encyclopÃ©die n'est pour le moment pas activÃ©e.");
+define("_AVAILABLEENCYLIST","Liste des encyclopÃ©dies accessible dans");
+define("_YOURADMININACTIVELIST","Vous Ãªtes un administrateur: regardez la liste des encyclopÃ©dies inactives:");
+define("_NORESULTSTEXT","Aucun rÃ©sultats dans le texte du terme...");
+define("_NORESULTSTITLE","Aucun rÃ©sultats dans le titre du terme...");
+define("_SEARCHRESULTSFOR","RÃ©sultats de la recherche pour:");
+define("_SEARCHNOTCOMPLETE","Les options de la recherche sont incomplÃ¨tes. Merci de recommencer.");
+define("_RESULTSINTERMTITLE","RÃ©sultats dans le titre du terme:");
+define("_RESULTSINTERMTEXT","RÃ©sultats dans le texte du terme:");
 
 
 ?>

@@ -24,20 +24,20 @@ define("_NO","Ei");
 define("_SAVE","Salvesta");
 define("_ID","ID");
 define("_CATEGORIES","Kategooria");
-define("_ALL","Kõik");
+define("_ALL","KÃµik");
 define("_FAQ","KKK");
 define("_CONTENT","Sisu");
 define("_FAQADMIN","KKK administratsioon");
 define("_ACTIVEFAQS","Aktiivsed KKK'ed");
 define("_ADDCATEGORY","Lisa uus kategooria");
-define("_QUESTIONS","Küsimused ja vastused");
-define("_ADDQUESTION","Lisa uus küsimus");
-define("_QUESTION","Küsimus");
+define("_QUESTIONS","KÃ¼simused ja vastused");
+define("_ADDQUESTION","Lisa uus kÃ¼simus");
+define("_QUESTION","KÃ¼simus");
 define("_ANSWER","Vastus");
 define("_EDITCATEGORY","Redigeeri kategooriat");
-define("_EDITQUESTIONS","Redigeeri küsimusi ja vastuseid");
+define("_EDITQUESTIONS","Redigeeri kÃ¼simusi ja vastuseid");
 define("_FAQDELWARNING","HOIATUS: Oled sa kindel, et soovid kustutada KKK ja kogu selle sisu?");
-define("_QUESTIONDEL","HOIATUS: Oled sa kindel, et soovid kustutada selle küsimuse?");
+define("_QUESTIONDEL","HOIATUS: Oled sa kindel, et soovid kustutada selle kÃ¼simuse?");
 define("_LANGUAGE","Keel");
 
 

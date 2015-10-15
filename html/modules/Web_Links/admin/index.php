@@ -938,7 +938,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
 				$db->sql_query("delete from " . $prefix . "_links_links where cid='$cid'");
 			} else {
 				$db->sql_query("delete from " . $prefix . "_links_links where cid='$cid'");
-				// suppression des liens de catégories filles
+				// suppression des liens de catÃ©gories filles
 				$result2 = $db->sql_query("SELECT cid from " . $prefix . "_links_categories where parentid='$cid'");
 				while ($row2 = $db->sql_fetchrow($result2)) {
 					$cid2 = intval($row2['cid']);

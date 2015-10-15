@@ -18,38 +18,38 @@
 /**************************************************************************/
 
 
-define("_SEND","Wy¶lij");
+define("_SEND","WyÅ›lij");
 define("_FUNCTIONS","Funkcje");
 define("_YES","Tak");
 define("_NO","Nie");
 define("_CATEGORY","Kategoria");
 define("_SAVECHANGES","Zapisz zmiany");
-define("_PAGEBREAK","Je¶li chcesz kilka stron mo¿esz napisaæ <b>[--pagebreak--]</b> w miejscu, gdzie chcesz rozdzieliæ.<BR>");
+define("_PAGEBREAK","JeÅ›li chcesz kilka stron moÅ¼esz napisaÄ‡ <b>[--pagebreak--]</b> w miejscu, gdzie chcesz rozdzieliÄ‡.<BR>");
 define("_SIGNATURE","Podpis");
 define("_DESCRIPTION","Opis");
-define("_TITLE","Tytu³");
+define("_TITLE","TytuÅ‚");
 define("_ACTIVE","Aktywny");
 define("_DEACTIVATE","Deaktywuj");
 define("_INACTIVE","Nieaktywny");
 define("_ACTIVATE","Aktywuj");
-define("_CONTENT","Zawarto¶æ");
-define("_ADDCATEGORY","Dodaj now± kategoriê");
-define("_EDITCATEGORY","Edytuj kategoriê");
+define("_CONTENT","ZawartoÅ›Ä‡");
+define("_ADDCATEGORY","Dodaj nowÄ… kategoriÄ™");
+define("_EDITCATEGORY","Edytuj kategoriÄ™");
 define("_ADD","Dodaj");
-define("_LANGUAGE","Jêzyk");
-define("_CONTENTMANAGER","Manager zawarto¶ci");
-define("_DELCONTWARNING","Jeste¶ pewien, ¿e chcesz usun±æ tê stronê?");
-define("_DELCONTENT","Usuñ stronê");
+define("_LANGUAGE","JÄ™zyk");
+define("_CONTENTMANAGER","Manager zawartoÅ›ci");
+define("_DELCONTWARNING","JesteÅ› pewien, Å¼e chcesz usunÄ…Ä‡ tÄ™ stronÄ™?");
+define("_DELCONTENT","UsuÅ„ stronÄ™");
 define("_CURRENTSTATUS","Aktualny status");
-define("_ADDANEWPAGE","Dodaj now± stronê");
-define("_CSUBTITLE","Podtytu³");
-define("_HEADERTEXT","Tekst nag³ówka");
-define("_PAGETEXT","Tekst g³ówny");
+define("_ADDANEWPAGE","Dodaj nowÄ… stronÄ™");
+define("_CSUBTITLE","PodtytuÅ‚");
+define("_HEADERTEXT","Tekst nagÅ‚Ã³wka");
+define("_PAGETEXT","Tekst gÅ‚Ã³wny");
 define("_FOOTERTEXT","Tekst stopki");
-define("_ACTIVATEPAGE","Aktywowaæ t± stronê?");
-define("_EDITPAGECONTENT","Edytuj zawarto¶æ strony");
-define("_DELCONTENTCAT","OSTRZE¯ENIE: jeste¶ pewien, ¿e chcesz usun±æ tê kategoriê? Strony w tej kategorii, je¶li istniej±, nie bêd± usuniête, ale nie bêd± do³±czone do ¿adnej kategorii.");
-define("_DELCATEGORY","Usuñ kategoriê");
+define("_ACTIVATEPAGE","AktywowaÄ‡ tÄ… stronÄ™?");
+define("_EDITPAGECONTENT","Edytuj zawartoÅ›Ä‡ strony");
+define("_DELCONTENTCAT","OSTRZEÅ»ENIE: jesteÅ› pewien, Å¼e chcesz usunÄ…Ä‡ tÄ™ kategoriÄ™? Strony w tej kategorii, jeÅ›li istniejÄ…, nie bÄ™dÄ… usuniÄ™te, ale nie bÄ™dÄ… doÅ‚Ä…czone do Å¼adnej kategorii.");
+define("_DELCATEGORY","UsuÅ„ kategoriÄ™");
 
 
 ?>

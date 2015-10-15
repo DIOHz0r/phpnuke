@@ -1,10 +1,10 @@
 Subject: Te olete liitunud selle kasutajagrupiga
 Charset: iso-8859-1
 
-Õnnitlused,
+Ã•nnitlused,
 
 Teid on lisatud "{GROUP_NAME}" gruppi {SITENAME} foorumil.
-Selle teo sooritas grupi moderaator või lehekülje administraator. Enama informatsiooni saamiseks võtke nendega ühendust.
+Selle teo sooritas grupi moderaator vÃµi lehekÃ¼lje administraator. Enama informatsiooni saamiseks vÃµtke nendega Ã¼hendust.
 
 Grupi info:
 {U_GROUPCP}

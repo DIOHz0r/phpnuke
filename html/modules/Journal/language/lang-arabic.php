@@ -17,98 +17,98 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_USERSJOURNAL","ใฬแษ วแใำสฮฯใ");
-define("_YOUMUSTBEMEMBER","ํฬศ รไ ส฿ๆไ  <a href=\"module.php?name=Your_Account\">ใำฬแ</a> แฯํไว Þศแ รไ สสใ฿ไ ใไ วึวÝษ ใฯฮแวส วแ์ วแใฬแษ.");
-define("_ADDJOURNAL","วึวÝษ แแใฬแษ");
-define("_ADDENTRY","วึวÝษ ฬฯํฯษ");
-define("_YOURLAST20","วฮั ฺิัๆไ วึวÝษ");
-define("_LISTALLENTRIES","ฺัึ ฬใํฺ วึวÝวสํ");
-define("_TITLE","วแฺไๆวไ");
-define("_BODY","วแไี");
-define("_WRAP","ํใ฿ไ฿ วำสฮฯวใ &lt;p&gt; ๆ &lt;/p&gt; . ฿ๆฯ วแๅสใแ ใำใๆอ.");
-define("_LITTLEGRAPH","วแีๆั");
-define("_OPTIONAL","(วฮสํวัํ)");
-define("_PUBLIC","ฺวใ");
-define("_TYPOS","(ๅแ สร฿ฯส ใไ สีอํอ ฬใํฺ วแรฮุวม)");
-define("_LEAVECOMMENT","฿สวศษ สฺแํÞ ฺแ์ รอฯ วึวÝวส วแใฬแษ");
-define("_COMMENTBOX","ีไฯๆÞ วแสฺแํÞวส");
-define("_POSTCOMMENT","รัำแ สฺแํÞ");
-define("_COMMENTSNOTE","ใแวอูษ: วำใ฿ ำํูๅั ศฬวไศ สฺแํÞ฿.  <i>รไส แว สัำแ</i> ศลำใ าวฦั! ใวแ฿ วแใฬแษ แฯํๅ วแีแวอํษ แอะÝ สฺแํÞวส฿.");
-define("_COMMENTDELETED","สใ อะÝ วแสฺแํÞ ใไ Þวฺฯษ วแศํวไวส");
-define("_RETURNJOURNAL","วแฺๆฯษ วแ์ วึวÝวส วแใฬแษ");
-define("_COMMENTPOSTED","สใ วึวÝษ สฺแํÞ฿ สอส วฮั สฺแํÞ Ýํ วแใฬแษ");
-define("_RETURNJOURNAL2","วแฺๆฯษ วแ์ ใฯฮแวส วแใฬแษ");
-define("_THANKS","ิ฿ัว แ฿!");
-define("_ABOUTTODELETE","รไส ฺแ์ ๆิ฿ อะÝ รอฯ ใฯฮแวส วแใฬแษ!");
-define("_SUREDELJOURNAL","ๅแ สๆฯ อะÝ ๅะๅ วแรึวÝษ ศวแสร฿ํฯฟ");
-define("_YOUCANTSAVE","<b>แว ํใ฿ไ฿</b> วำสฺวฯษ วแใฯฮแวส Ýํ วแใฬแษ ศฺฯ อะÝๅว! ฿ะแ฿ ำๆÝ ํสใ อะÝ ฬใํฺ วแสฺแํÞวส วแใัสศุษ ศๅว วํึว!");
-define("_YOUWRONG","ํศฯๆว รไๅ ํๆฬฯ ฮุร Ýํ  <a href=\"modules.php?name=Your_Account\">วำใ วแใำสฮฯใ</a> ๆวำใ วแ฿วสศ แแใÞวแ.<br>ำๆÝ แไ ํสใ อะÝ ๅะๅ วแลึวÝษ ใไ วแใฬแษ แรำศวศ รใไํษ.<br>วแัฬวม วแสร฿ฯ ใไ วไๅ สใ  <a href=\"modules.php?name=Your_Account\">สำฬํแ ฯฮๆแ฿</a> ศไÝำ วำใ วแ฿วสศ.");
-define("_ENTRYREMOVED","สใ อะÝ วแลึวÝษ ใไ วแใฬแษ");
-define("_ANERROR","อฯห ฮุร. วแัฬวม วแฺๆฯษ วแ์ <a href=\"modules.php?name=Journal\">วแีÝอษ วแยๆแ์</a> แแใฬแษ.");
-define("_ISPRIVATE","ๅะๅ วแลึวÝษ Ýํ วแใฬแษ ฮวีษ ๆแํำ แฯํ฿ วแีแวอํษ แลำสฺัวึๅว.");
-define("_LASTUPDATED","วฮั สอฯํห Ýํ");
-define("_WRITECOMMENT","ว฿สศ สฺแํÞว");
-define("_VIEWMORE","ฺัึ วแใาํฯ");
-define("_USERPROFILE","ใแÝ วแฺึๆ วแิฮีํ");
-define("_SENDMESSAGE","รัำแ ัำวแษ");
-define("_CREATEACCOUNT","วิสัว฿ ฬฯํฯ");
-define("_REGUSERSCOMM","<a href=\"modules.php?name=Your_Account\">วแใำฬแๆไ</a> ํใ฿ไๅใ ฿สวศษ วแสฺแํÞวส ๅไว");
-define("_COMMENTBY","วแสฺแํÞ ศๆวำุษ");
-define("_DELCOMMENT","อะÝ ๅะว วแสฺแํÞ");
-define("_NOTYOURS","ๅะๅ วแลึวÝษ แแใฬแษ แํำส แแฺึๆ <b>$username</b>.<br><b>แว สำสุํฺ</b> สฺฯํแ ๅะๅ วแลึวÝษ แแใฬแษ.");
-define("_UPDATEOK","สใ วแสฺฯํแ ศไฬวอ!");
-define("_UPDATED","--- สใ สอฯํห วแใฯฮแวส! ---");
-define("_JOURNALFOR","วแใฬแษ แ ");
-define("_LAST20FOR","วฮั 20 ลึวÝษ แแฺึๆ");
-define("_CLICKTOVIEW","(วึÛุ แแฺัึ)");
-define("_TIME","วแๆÞส");
-define("_COMPLETELIST","฿วใแ วแÞวฦใษ แ ");
-define("_COMMENT","วแสฺแํÞ");
-define("_PUBLICENTRIES","ใฯฮแวส ฺวใษ");
-define("_PRIVATEENTRIES","ใฯฮแวส ฮวีษ");
-define("_TOTALENTRIES","ใฬใๆฺ วแใฯฮแวส");
-define("_JOURNALDIR","ฯแํแ วแใฬแษ");
-define("_YOURJOURNAL","ใฬแส฿");
-define("_MEMBERSCAN","รฺึวม วแใๆÞฺ แๅใ วแฮํวั Ýํ วไิวม ใฬแวส ฮวีษ ศๅใ ๆวัำวแ สฺแํÞวส.");
-define("_20ACTIVE","วฮั 20 วึวÝษ ไิุษ");
-define("_VIEWJOURNAL","ฺัึ<br>วแใฬแษ");
-define("_MEMBER","วแฺึๆ");
-define("_MEMBERPROFILE","ใแÝ<br>วแฺึๆ");
-define("_CREATEACCOUNT2","วิสัว฿<br>ฬฯํฯ");
-define("_PRIVMSGJ","ัำวแษ<br>ฮวีษ");
-define("_PRIVMSGJ2","ัำวแษ ฮวีษ");
-define("_ALPHABETICAL","ฺัึ ศวแสัสํศ วแๅฬวฦํ แ฿สวศ วแใฬแษ");
-define("_VIEWJOURNAL2","ฺัึ วแใฬแษ");
-define("_USERPROFILE2","ใแÝ วแฺึๆ");
-define("_20AUTHORS","วฮั 20 ฿วสศ ไิุ");
-define("_LISTALLJOURNALS","ฺัึ ฬใํฺ วแใฬแวส");
-define("_SEARCHMEMBER","วแศอห ฺไ ฺึๆ");
-define("_EDITJOURNAL","สฺฯํแ ใฯฮแ Ýํ วแใฬแษ");
-define("_NOTYOURS2","วแลึวÝษ Ýํ วแใฬแษ แํำส ศๆวำุษ <b>$username</b>.<br> <b>แว สำสุํฺ</b> สอฯํห วแลึวÝษ Ýํ วแใฬแษ.");
-define("_MODIFYENTRY","สฺฯํแ วึวÝษ");
-define("_ENTRYADDED","สใส วแลึวÝษ Ýํ วแใฬแษ!");
-define("_JOURNALSEARCH","ศอห Ýํ วแใฬแษ");
-define("_IN","Ýํ");
-define("_SEARCHRESULTS","ไสวฦฬ วแศอห");
-define("_BODYTEXT","วแไี");
-define("_UCOMMENTS","วแสฺแํÞวส");
-define("_READ","วÞัร");
-define("_PUBLICFOR","ใฯฮแวส ฺวใษ ๆฬฯส Ýํ วแศอห ");
-define("_VIEW","ฺัึ");
-define("_PROFILE","วแใแÝ วแิฮีํ");
-define("_SENDJFRIEND","รัำแ ๅะๅ วแใฬแษ แีฯํÞ");
-define("_YOUSENDJOURNAL","ำๆÝ สัำแ ๅะๅ วแลึวÝษ Ýํ วแใฬแษ วแ์ ีฯํÞ. วแัฬวม สฺศฦษ วแศํวไวส วแสวแํษ:");
-define("_FYOURNAME","วำใ฿");
-define("_FYOUREMAIL","ศัํฯ฿");
-define("_FFRIENDNAME","วำใ ีฯํÞ฿");
-define("_FFRIENDEMAIL","ศัํฯ ีฯํÞ฿");
-define("_SEND","รัำแ");
-define("_INTERESTING","ใÞวแ ฬํฯ Ýํ ");
-define("_HELLO","ใัอศว");
-define("_YOURFRIEND","ีฯํÞ฿");
-define("_CONSIDERED","สฺสศั รๆแ วึวÝษ แแใฬแษ Ýํ ใๆÞฺไว Ýํ ๅะว วแใฬวแ.");
-define("_AREMORE","ํๆฬฯ ใฬแวส ฿หํัษ Ýํ ใๆÞฺไว ๆสำสุํฺ Þัวมสๅว.!");
-define("_FSENT","สใ วัำวแ ัำวแส฿. ิ฿ัว แ฿!");
-define("_URL","ัวศุ");
+define("_USERSJOURNAL","ู…ุฌูุฉ ุงูู…ุณุชุฎุฏู…");
+define("_YOUMUSTBEMEMBER","ูุฌุจ ุฃู ุชููู  <a href=\"module.php?name=Your_Account\">ู…ุณุฌู</a> ูุฏููุง ูุจู ุฃู ุชุชู…ูู ู…ู ุงุถุงูุฉ ู…ุฏุฎูุงุช ุงูู ุงูู…ุฌูุฉ.");
+define("_ADDJOURNAL","ุงุถุงูุฉ ููู…ุฌูุฉ");
+define("_ADDENTRY","ุงุถุงูุฉ ุฌุฏูุฏุฉ");
+define("_YOURLAST20","ุงุฎุฑ ุนุดุฑูู ุงุถุงูุฉ");
+define("_LISTALLENTRIES","ุนุฑุถ ุฌู…ูุน ุงุถุงูุงุชู");
+define("_TITLE","ุงูุนููุงู");
+define("_BODY","ุงููุต");
+define("_WRAP","ูู…ููู ุงุณุชุฎุฏุงู… &lt;p&gt; ู &lt;/p&gt; . ููุฏ ุงููุชู…ู ู…ุณู…ูุญ.");
+define("_LITTLEGRAPH","ุงูุตูุฑ");
+define("_OPTIONAL","(ุงุฎุชูุงุฑู)");
+define("_PUBLIC","ุนุงู…");
+define("_TYPOS","(ูู ุชุฃูุฏุช ู…ู ุชุตุญูุญ ุฌู…ูุน ุงูุฃุฎุทุงุก)");
+define("_LEAVECOMMENT","ูุชุงุจุฉ ุชุนููู ุนูู ุฃุญุฏ ุงุถุงูุงุช ุงูู…ุฌูุฉ");
+define("_COMMENTBOX","ุตูุฏูู ุงูุชุนูููุงุช");
+define("_POSTCOMMENT","ุฃุฑุณู ุชุนููู");
+define("_COMMENTSNOTE","ู…ูุงุญุธุฉ: ุงุณู…ู ุณูุธูุฑ ุจุฌุงูุจ ุชุนูููู.  <i>ุฃูุช ูุง ุชุฑุณู</i> ุจุฅุณู… ุฒุงุฆุฑ! ู…ุงูู ุงูู…ุฌูุฉ ูุฏูู ุงูุตูุงุญูุฉ ูุญุฐู ุชุนูููุงุชู.");
+define("_COMMENTDELETED","ุชู… ุญุฐู ุงูุชุนููู ู…ู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_RETURNJOURNAL","ุงูุนูุฏุฉ ุงูู ุงุถุงูุงุช ุงูู…ุฌูุฉ");
+define("_COMMENTPOSTED","ุชู… ุงุถุงูุฉ ุชุนูููู ุชุญุช ุงุฎุฑ ุชุนููู ูู ุงูู…ุฌูุฉ");
+define("_RETURNJOURNAL2","ุงูุนูุฏุฉ ุงูู ู…ุฏุฎูุงุช ุงูู…ุฌูุฉ");
+define("_THANKS","ุดูุฑุง ูู!");
+define("_ABOUTTODELETE","ุฃูุช ุนูู ูุดู ุญุฐู ุฃุญุฏ ู…ุฏุฎูุงุช ุงูู…ุฌูุฉ!");
+define("_SUREDELJOURNAL","ูู ุชูุฏ ุญุฐู ูุฐู ุงูุฃุถุงูุฉ ุจุงูุชุฃููุฏุ");
+define("_YOUCANTSAVE","<b>ูุง ูู…ููู</b> ุงุณุชุนุงุฏุฉ ุงูู…ุฏุฎูุงุช ูู ุงูู…ุฌูุฉ ุจุนุฏ ุญุฐููุง! ูุฐูู ุณูู ูุชู… ุญุฐู ุฌู…ูุน ุงูุชุนูููุงุช ุงูู…ุฑุชุจุทุฉ ุจูุง ุงูุถุง!");
+define("_YOUWRONG","ูุจุฏูุง ุฃูู ููุฌุฏ ุฎุทุฃ ูู  <a href=\"modules.php?name=Your_Account\">ุงุณู… ุงูู…ุณุชุฎุฏู…</a> ูุงุณู… ุงููุงุชุจ ููู…ูุงู.<br>ุณูู ูู ูุชู… ุญุฐู ูุฐู ุงูุฅุถุงูุฉ ู…ู ุงูู…ุฌูุฉ ูุฃุณุจุงุจ ุฃู…ููุฉ.<br>ุงูุฑุฌุงุก ุงูุชุฃูุฏ ู…ู ุงูู ุชู…  <a href=\"modules.php?name=Your_Account\">ุชุณุฌูู ุฏุฎููู</a> ุจููุณ ุงุณู… ุงููุงุชุจ.");
+define("_ENTRYREMOVED","ุชู… ุญุฐู ุงูุฅุถุงูุฉ ู…ู ุงูู…ุฌูุฉ");
+define("_ANERROR","ุญุฏุซ ุฎุทุฃ. ุงูุฑุฌุงุก ุงูุนูุฏุฉ ุงูู <a href=\"modules.php?name=Journal\">ุงูุตูุญุฉ ุงูุขููู</a> ููู…ุฌูุฉ.");
+define("_ISPRIVATE","ูุฐู ุงูุฅุถุงูุฉ ูู ุงูู…ุฌูุฉ ุฎุงุตุฉ ูููุณ ูุฏูู ุงูุตูุงุญูุฉ ูุฅุณุชุนุฑุงุถูุง.");
+define("_LASTUPDATED","ุงุฎุฑ ุชุญุฏูุซ ูู");
+define("_WRITECOMMENT","ุงูุชุจ ุชุนูููุง");
+define("_VIEWMORE","ุนุฑุถ ุงูู…ุฒูุฏ");
+define("_USERPROFILE","ู…ูู ุงูุนุถู ุงูุดุฎุตู");
+define("_SENDMESSAGE","ุฃุฑุณู ุฑุณุงูุฉ");
+define("_CREATEACCOUNT","ุงุดุชุฑุงู ุฌุฏูุฏ");
+define("_REGUSERSCOMM","<a href=\"modules.php?name=Your_Account\">ุงูู…ุณุฌููู</a> ูู…ูููู… ูุชุงุจุฉ ุงูุชุนูููุงุช ููุง");
+define("_COMMENTBY","ุงูุชุนููู ุจูุงุณุทุฉ");
+define("_DELCOMMENT","ุญุฐู ูุฐุง ุงูุชุนููู");
+define("_NOTYOURS","ูุฐู ุงูุฅุถุงูุฉ ููู…ุฌูุฉ ููุณุช ููุนุถู <b>$username</b>.<br><b>ูุง ุชุณุชุทูุน</b> ุชุนุฏูู ูุฐู ุงูุฅุถุงูุฉ ููู…ุฌูุฉ.");
+define("_UPDATEOK","ุชู… ุงูุชุนุฏูู ุจูุฌุงุญ!");
+define("_UPDATED","--- ุชู… ุชุญุฏูุซ ุงูู…ุฏุฎูุงุช! ---");
+define("_JOURNALFOR","ุงูู…ุฌูุฉ ู ");
+define("_LAST20FOR","ุงุฎุฑ 20 ุฅุถุงูุฉ ููุนุถู");
+define("_CLICKTOVIEW","(ุงุถุบุท ููุนุฑุถ)");
+define("_TIME","ุงูููุช");
+define("_COMPLETELIST","ูุงู…ู ุงููุงุฆู…ุฉ ู ");
+define("_COMMENT","ุงูุชุนููู");
+define("_PUBLICENTRIES","ู…ุฏุฎูุงุช ุนุงู…ุฉ");
+define("_PRIVATEENTRIES","ู…ุฏุฎูุงุช ุฎุงุตุฉ");
+define("_TOTALENTRIES","ู…ุฌู…ูุน ุงูู…ุฏุฎูุงุช");
+define("_JOURNALDIR","ุฏููู ุงูู…ุฌูุฉ");
+define("_YOURJOURNAL","ู…ุฌูุชู");
+define("_MEMBERSCAN","ุฃุนุถุงุก ุงูู…ููุน ููู… ุงูุฎูุงุฑ ูู ุงูุดุงุก ู…ุฌูุงุช ุฎุงุตุฉ ุจูู… ูุงุฑุณุงู ุชุนูููุงุช.");
+define("_20ACTIVE","ุงุฎุฑ 20 ุงุถุงูุฉ ูุดุทุฉ");
+define("_VIEWJOURNAL","ุนุฑุถ<br>ุงูู…ุฌูุฉ");
+define("_MEMBER","ุงูุนุถู");
+define("_MEMBERPROFILE","ู…ูู<br>ุงูุนุถู");
+define("_CREATEACCOUNT2","ุงุดุชุฑุงู<br>ุฌุฏูุฏ");
+define("_PRIVMSGJ","ุฑุณุงูุฉ<br>ุฎุงุตุฉ");
+define("_PRIVMSGJ2","ุฑุณุงูุฉ ุฎุงุตุฉ");
+define("_ALPHABETICAL","ุนุฑุถ ุจุงูุชุฑุชูุจ ุงููุฌุงุฆู ููุชุงุจ ุงูู…ุฌูุฉ");
+define("_VIEWJOURNAL2","ุนุฑุถ ุงูู…ุฌูุฉ");
+define("_USERPROFILE2","ู…ูู ุงูุนุถู");
+define("_20AUTHORS","ุงุฎุฑ 20 ูุงุชุจ ูุดุท");
+define("_LISTALLJOURNALS","ุนุฑุถ ุฌู…ูุน ุงูู…ุฌูุงุช");
+define("_SEARCHMEMBER","ุงูุจุญุซ ุนู ุนุถู");
+define("_EDITJOURNAL","ุชุนุฏูู ู…ุฏุฎู ูู ุงูู…ุฌูุฉ");
+define("_NOTYOURS2","ุงูุฅุถุงูุฉ ูู ุงูู…ุฌูุฉ ููุณุช ุจูุงุณุทุฉ <b>$username</b>.<br> <b>ูุง ุชุณุชุทูุน</b> ุชุญุฏูุซ ุงูุฅุถุงูุฉ ูู ุงูู…ุฌูุฉ.");
+define("_MODIFYENTRY","ุชุนุฏูู ุงุถุงูุฉ");
+define("_ENTRYADDED","ุชู…ุช ุงูุฅุถุงูุฉ ูู ุงูู…ุฌูุฉ!");
+define("_JOURNALSEARCH","ุจุญุซ ูู ุงูู…ุฌูุฉ");
+define("_IN","ูู");
+define("_SEARCHRESULTS","ูุชุงุฆุฌ ุงูุจุญุซ");
+define("_BODYTEXT","ุงููุต");
+define("_UCOMMENTS","ุงูุชุนูููุงุช");
+define("_READ","ุงูุฑุฃ");
+define("_PUBLICFOR","ู…ุฏุฎูุงุช ุนุงู…ุฉ ูุฌุฏุช ูู ุงูุจุญุซ ");
+define("_VIEW","ุนุฑุถ");
+define("_PROFILE","ุงูู…ูู ุงูุดุฎุตู");
+define("_SENDJFRIEND","ุฃุฑุณู ูุฐู ุงูู…ุฌูุฉ ูุตุฏูู");
+define("_YOUSENDJOURNAL","ุณูู ุชุฑุณู ูุฐู ุงูุฅุถุงูุฉ ูู ุงูู…ุฌูุฉ ุงูู ุตุฏูู. ุงูุฑุฌุงุก ุชุนุจุฆุฉ ุงูุจูุงูุงุช ุงูุชุงููุฉ:");
+define("_FYOURNAME","ุงุณู…ู");
+define("_FYOUREMAIL","ุจุฑูุฏู");
+define("_FFRIENDNAME","ุงุณู… ุตุฏููู");
+define("_FFRIENDEMAIL","ุจุฑูุฏ ุตุฏููู");
+define("_SEND","ุฃุฑุณู");
+define("_INTERESTING","ู…ูุงู ุฌูุฏ ูู ");
+define("_HELLO","ู…ุฑุญุจุง");
+define("_YOURFRIEND","ุตุฏููู");
+define("_CONSIDERED","ุชุนุชุจุฑ ุฃูู ุงุถุงูุฉ ููู…ุฌูุฉ ูู ู…ููุนูุง ูู ูุฐุง ุงูู…ุฌุงู.");
+define("_AREMORE","ููุฌุฏ ู…ุฌูุงุช ูุซูุฑุฉ ูู ู…ููุนูุง ูุชุณุชุทูุน ูุฑุงุกุชูุง.!");
+define("_FSENT","ุชู… ุงุฑุณุงู ุฑุณุงูุชู. ุดูุฑุง ูู!");
+define("_URL","ุฑุงุจุท");
 
 ?>

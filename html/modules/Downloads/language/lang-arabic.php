@@ -17,174 +17,174 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","ัวศุ");
-define("_PREVIOUS","วแีÝอษ วแำวศÞษ");
-define("_NEXT","วแีÝอษ วแสวแํษ");
-define("_CATEGORY","สีไํÝ");
-define("_CATEGORIES","วแสีไํÝวส");
-define("_LVOTES","รีๆวส");
-define("_TOTALVOTES","ใฬใๆฺ วแรีๆวส:");
-define("_THEREARE","ํๆฬฯ อวแํว");
-define("_NOMATCHES","แว ํๆฬฯ ไสวฦฬ แแศอห");
-define("_SCOMMENTS","สฺแํÞวส");
-define("_UNKNOWN","Ûํั ใฺัๆÝ");
-define("_DOWNLOADS","สอใํแ");
-define("_FILESIZE","อฬใ วแใแÝ");
-define("_VERSION","วแลีฯวั");
-define("_DESCRIPTION","วแๆีÝ");
-define("_AUTHOR","ีวอศ วแศัไวใฬ");
-define("_HOMEPAGE","ีÝอสๅ");
-define("_DOWNLOADNOW","สอใํแ วแใแÝ วแยไ!");
-define("_FILEURL","ัวศุ วแใแÝ");
-define("_ADDDOWNLOAD","รึÝ วแใแÝ");
-define("_DOWNLOADSMAIN","ีÝอษ วแศัวใฬ วแัฦํำํษ");
-define("_DOWNLOADCOMMENTS","สฺแํÞวส ฺแ์ วแศัวใฬ");
-define("_DOWNLOADSMAINCAT","วแสีไํÝ วแัฦํำํ แแศัวใฬ");
-define("_ADDADOWNLOAD","รึÝ ศัไวใฬ ฬฯํฯ");
-define("_DOWNLOADSNOTUSER1","รไส Ûํั ใำฬแ แฯํไว รๆ วไๅ แใ ํสใ สำฬํแ ฯฮๆแ฿.");
-define("_DOWNLOADSNOTUSER2","สำสุํฺ วึวÝษ ศัวใฬ วะว ฿ไส ใำฬแว แฯํไว.");
-define("_DOWNLOADSNOTUSER3","ฺใแํษ วแสำฬํแ ำๅแษ ๆำัํฺษ.");
-define("_DOWNLOADSNOTUSER4","แใวะว ไุแศ วแสำฬํแ แแฯฮๆแ วแ์ ศฺึ ๆูวฦÝ วแใๆÞฺฟ");
-define("_DOWNLOADSNOTUSER5","วแำศศ ๅๆ แ฿ํ ไำสุํฺ สÞฯํใ ฮฯใษ รฬๆฯ ๆรำัฺ,");
-define("_DOWNLOADSNOTUSER6","ํสใ ใัวฬฺษ ฿แ ฺไีั ศๆวำุษ ใิัÝํ วแใๆÞฺ ๆใไ หใ วแใๆวÝÞษ ฺแํๅ.");
-define("_DOWNLOADSNOTUSER7","ไรใแ รไ ไÞฯใ แ฿ ฮฯใวส ใใําษ.");
-define("_DOWNLOADSNOTUSER8","<a href=\"modules.php?name=Your_Account\">ำฬแ วแยไ</a>");
-define("_DOWNLOADALREADYEXT","ฮุร: สใ วฯฮวแ ๅะว วแัวศุ Ýํ Þวฺฯษ วแศํวไวส!");
-define("_DOWNLOADNOTITLE","ฮุร: ํฬศ ฿สวศษ วำใ รๆ ฺไๆวไ แแัวศุ!");
-define("_DOWNLOADNOURL","ฮุร: ํฬศ วฯฮวแ วแัวศุ ไÝำๅ!");
-define("_DOWNLOADNODESC","ฮุร: ํฬศ รฯฮวแ ิัอ แแัวศุ!");
-define("_DOWNLOADRECEIVED","ิ฿ัว! สใ วำสแวใ วแศัไวใฬ วแะํ รัำแส");
-define("_CHECKFORIT","แใ ส฿สศ ศัํฯ฿ วแลแ฿สัๆไํ. ำไÞๆใ ศใัวฬฺษ วแศัไวใฬ ฺแ์ รํษ อวแ.");
-define("_NEWDOWNLOADS","ศัวใฬ ฬฯํฯษ");
-define("_TOTALNEWDOWNLOADS","ใฬใๆฺ วแศัวใฬ ฬฯํฯษ");
-define("_TRATEDDOWNLOADS","ใฬใๆฺ วแศัวใฬ วแใÞํใษ");
-define("_SORTDOWNLOADSBY","สัสํศ วแศัวใฬ อำศ");
-define("_DOWNLOADPROFILE","ใฺแๆใวส วแศัไวใฬ");
-define("_DOWNLOADRATINGDET","สÝวีํแ สÞํํใ วแศัไวใฬ");
-define("_EDITTHISDOWNLOAD","สฺฯํแ ๅะว วแศัไวใฬ");
-define("_DOWNLOADRATING","สÞํํใ วแศัวใฬ");
-define("_PROMOTE02","รอฯ วแุัÞ แสÞํํใ วแศัไวใฬ ๅๆ ฺศวัษ ฺไ ัวศุ ไีํ:");
-define("_PROMOTE03","วะว ฿ไส สัํฯ ุัํÞษ Ûํั วแัวศุ วแไีํ Ýํใ฿ไ฿ วำสฮฯวใ าั แแศัไวใฬ:");
-define("_PROMOTE04","วะว Þใส ํวแสแวฺศ Ýํ วแสัิํอ ÝำๆÝ ไแÛํ ศัไวใฬ฿ ใไ Þวฺฯษ วแศํวไวส. ๆๅะว ๅๆว วแ฿ๆฯ วแฮวี ศวแสัิํอ วแฮวัฬํ.");
-define("_DOWNLOADVOTE","สีๆํส!");
-define("_REQUESTDOWNLOADMOD","ุแศ สฺฯํแ ศัไวใฬ");
-define("_DOWNLOADID","ัÞใ วแศัไวใฬ");
-define("_DATE","วแสวัํฮ");
-define("_TO","วแ์");
-define("_NEW","ฬฯํฯ");
-define("_POPULAR","ใิๅๆั");
-define("_TOPRATED","รÝึแ สÞํํใ");
-define("_ADDITIONALDET","สÝวีํแ วึวÝํษ");
-define("_EDITORREVIEW","ใัวฬฺษ วแ฿วสศ");
-define("_REPORTBROKEN","รฮศัไว ฺไ ๆีแษ แว สฺใแ");
-define("_AND","ๆ");
-define("_INDB","Ýํ Þวฺฯษ วแศํวไวส");
-define("_INSTRUCTIONS","สฺแํใวส");
-define("_USERANDIP","ํสใ สำฬํแ วำใ วแใำสฮฯใ ๆฺไๆวไ วแรํ ศํ Ýไัฬๆว ฺฯใ รำวมษ วำสฺใวแ วแศัไวใฬ.");
-define("_LDESCRIPTION","ๆีÝ: (อฯ รÞี 255 อัÝ)");
-define("_LASTWEEK","วแรำศๆฺ วแใวึํ");
-define("_LAST30DAYS","รฮั 30 ํๆใว");
-define("_1WEEK","รำศๆฺ");
-define("_2WEEKS","รำศๆฺวไ");
-define("_30DAYS","30 ํๆใว");
-define("_SHOW","ฺัึ");
-define("_DAYS","ํๆใ/รํวใ");
-define("_ADDEDON","ร๐ึํÝส");
-define("_RATING","วแสÞํํใ");
-define("_DETAILS","สÝวีํแ");
-define("_OF","ใไ");
-define("_TVOTESREQ","วแอฯ วแรฯไ์ แแสีๆํส");
-define("_SHOWTOP","รฺัึ วแรÝึแ");
-define("_MOSTPOPULAR","วแร฿หั ิํๆฺว - รÝึแๅว");
-define("_OFALL","ใไ วแ฿แ");
-define("_POPULARITY","วแิๅัๅ");
-define("_SELECTPAGE","รฮสั ีÝอษ");
-define("_MAIN","วแัฦํำํ");
-define("_NEWTODAY","ฬฯํฯ วแํๆใ");
-define("_NEWLAST3DAYS","ฬฯํฯ วแหแวห รํวใ วแใวึํษ");
-define("_NEWTHISWEEK","ฬฯํฯ ๅะว วแรำศๆฺ");
-define("_POPULARITY1","วแิๅัษ (วแรÞแ วแ์ วแร฿หั าํวัษ)");
-define("_POPULARITY2","วแิๅัษ (วแร฿หั วแ์ วแรÞแ าํวัษ)");
-define("_TITLEAZ","วแฺไๆวไ (ร วแ์ ํ)");
-define("_TITLEZA","วแฺไๆวไ (ํ วแ์ ร)");
-define("_RATING1","วแสÞํํใ (ใไ วแรฯไ์ วแ์ วแรฺแ์ สÞํํใ)");
-define("_RATING2","วแสÞํํใ (ใไ วแรฺแ์ วแ์ วแรฯไ์ สÞํํใ)");
-define("_SEARCHRESULTS4","ไสวฦฬ ศอห");
-define("_USUBCATEGORIES","สีไํÝวส Ýัฺํษ");
-define("_TRY2SEARCH","อวๆแ วแศอห");
-define("_INOTHERSENGINES","Ýํ ใอั฿วส วแศอห วแรฮั์");
-define("_EDITORIAL","วแใอััํไ");
-define("_EDITORIALBY","รัำแ ศๆวำุษ");
-define("_NOEDITORIAL","แว ํๆฬฯ ใอััํไ แๅะว วแใๆÞฺ อวแํว.");
-define("_RATETHISSITE","สÞํํใ ๅะว วแใๆÞฺ");
-define("_ISTHISYOURSITE","ๅแ ๅะว ใๆÞฺ฿ฟ");
-define("_ALLOWTORATE","สใ฿ํไ วแใำสฮฯใํไ ใไ สÞํํใ ใๆÞฺ฿!");
-define("_OVERALLRATING","วแสÞํํใ วแ฿แํ");
-define("_TOTALOF","ใฬใๆฺ");
-define("_USER","ฺึๆ");
-define("_USERAVGRATING","ใสๆำุ สÞํํใ วแรฺึวม");
-define("_NUMRATINGS","# วแสÞวํํใ");
-define("_REGISTEREDUSERS","รฺึวม ใำฬแํไ");
-define("_NUMBEROFRATINGS","ฺฯฯ วแสÞํํใ");
-define("_NOREGUSERSVOTES","แว ํๆฬฯ สีๆํส ใไ ฺึๆ ใำฬแ");
-define("_BREAKDOWNBYVAL","สÝวีํแ วแสÞํํใ ศวแÞํใ");
-define("_LTOTALVOTES","ใฬใๆฺ วแสีๆํสวส");
-define("_HIGHRATING","สÞํํใ ฺวแํ");
-define("_LOWRATING","สÞํํใ ๆวุํ");
-define("_NUMOFCOMMENTS","ฺฯฯ วแสฺแํÞวส");
-define("_WEIGHNOTE","* ใแอๆูษ: สÞํํใ วแรฺึวม วแใำฬแํไ แๅะว วแใๆÞฺ ํÝๆÞ วแรฺึวม วแÛํั ใำฬแํไ");
-define("_NOUNREGUSERSVOTES","แว ํๆฬฯ สÞํํใ แรฺึวม Ûํั ใำฬแํไ");
-define("_WEIGHOUTNOTE","* ใแอๆูษ: สÞํํใ วแใำฬแํไ ํÝๆÞ วแสÞํํใ วแใีๆสํไ วแฮวัฬํํไ");
-define("_NOOUTSIDEVOTES","แว ํๆฬฯ สีๆํส ฮวัฬํ");
-define("_OUTSIDEVOTERS","ใีๆสํไ ใไ วแฮวัฬ");
-define("_UNREGISTEREDUSERS","ใำสฮฯใํไ Ûํั ใำฬแํไ");
-define("_PROMOTEYOURSITE","แาํวฯษ ฺฯฯ าๆวั฿");
-define("_PROMOTE01","ํใ฿ไ฿ วฮสํวั รอฯ วแฮํวัวส วแสวแํษ แสัิํอ ใๆÞฺ฿. ๅะๅ ฺศวัษ ฺไ ีๆัษ แัวศุ สึฺๅ Ýํ ใๆÞฺ฿ ํÞๆใ าๆวั฿ ศสัิํอ ใๆÞฺ฿ ฺไ ุัํÞๅว. วแัฬวม ลฮสํวั รอฯ วแฮํวัวส วแสวแํษ:");
-define("_TEXTLINK","ัวศุ ไีํ");
-define("_HTMLCODE1","฿ๆฯ วแๅสใแ วแะํ สำสฮฯใๅ แะแ฿ ๅๆ:");
-define("_THENUMBER","วแัÞใ");
-define("_IDREFER","Ýํ ฿ๆฯ วแๅสใแ ํอํแ วแ์ ัÞใ ใๆÞฺ฿ Ýํ Þวฺฯษ ศํวไวส $sitename. สร฿ฯ ใไ ๆฬๆฯ ๅะว วแัÞใ.");
-define("_BUTTONLINK","าั วแัวศุ");
-define("_RATEIT","ัิอ ๅะว วแใๆÞฺ!");
-define("_HTMLCODE2","วแ฿ๆฯ แแาั Ýํ วแรฺแ์ ๅๆ:");
-define("_REMOTEFORM","ไใๆะฬ วแสัิํอ วแฮวัฬํ");
-define("_VOTE4THISSITE","ัิอ ๅะว วแใๆÞฺ!");
-define("_HTMLCODE3","ํใ฿ไ฿ วำสฮฯวใ ๅะว วแไใๆะฬ ใไ สÞํํใ ใๆÞฺ฿ แฯํไว ใไ ฮแว ใๆÞฺ฿ ไÝำๅ ๆํสใ สำฬํแ วแสÞํํใ ๅไว. วแไใๆะฬ Ýํ วแรฺแ์ ใฺุแ ๆแ฿ไ วะว ไำฮส ๆแีÞส ๅะว วแ฿ๆฯ Ýำํสใ฿ไ าๆวั฿ ใไ สÞํํใ ใๆÞฺ฿. วแ฿ๆฯ ๅๆ ฿วแสวแํ:");
-define("_PROMOTE05","ิ฿ัว แ฿ ๆไสใไ์ แ฿ วแสๆÝํÞ Ýํ สÞํํใ ใๆÞฺ฿");
-define("_STAFF","ÝัํÞ วแฺใแ");
-define("_THANKSBROKEN","ไิ฿ั฿ ฺแ์ ใำวฺฯสไว Ýํ ๅะว วแฯแํแ.");
-define("_SECURITYBROKEN","ำํสใ อÝู ฺไๆวไ วแรํ ศํ ๆวำใ วแใำสฮฯใ แÝสัษ ใฤÞสๅ ๆะแ฿ แรำศวศ รใไํษ.");
-define("_THANKSFORINFO","ิ฿ัว ฺแ์ ๅะๅ วแใฺแๆใวส.");
-define("_LOOKTOREQUEST","ำๆÝ ไไูั Ýํ ุแศ฿ Þัํศว.");
-define("_SENDREQUEST","รัำแ วแุแศ");
-define("_THANKSTOTAKETIME","ไิ฿ั฿ แสÞํํใ฿ แๅะว วแใๆÞฺ แฯํไว");
-define("_RETURNTO","ฺๆฯษ วแ์");
-define("_RATENOTE1","วแัฬวม ฺฯใ สÞํํใ ไÝำ วแใๆÞฺ ร฿หั ใไ ใัษ.");
-define("_RATENOTE2","วแสÞํํใ ํ฿ๆไ ใไ 1 - 10. ศอํห 1 ใฺไวๅว ัฯฦ ๆ10 สฺไํ ใใสวา.");
-define("_RATENOTE3","วแัฬวม รไ ส฿ๆไ ฺวฯแ Ýํ สÞํํใ฿. แๆ Þํใส วแใๆวÞฺ ฿แๅว ศๆวอฯ รๆ ฿แๅว ศฺิัษ แลลไ ๅะว วแสÞํํใ ำํ฿ๆไ ฺฯํใ วแÝวฦฯษ.");
-define("_RATENOTE5","วแัฬวม ฺฯใ สัิํอ ใๆÞฺ฿ รๆ ใๆวÞฺ ใไวÝำษ.");
-define("_YOUAREREGGED","รไส ใำฬแ แฯํไว ๆสใส ฺใแํษ ฯฮๆแ฿.");
-define("_FEELFREE2ADD","ํใ฿ไ฿ วึวÝษ สฺแํÞ ฺแ์ ๅะว วแใๆÞฺ.");
-define("_YOUARENOTREGGED","วไส Ûํั ใำฬแ แฯํไว รๆ รไ฿ แใ สÞใ ศฺใแํษ วแฯฮๆแ.");
-define("_IFYOUWEREREG","ํใ฿ไ฿ ลัำวแ สฺแํÞ฿ ฺแ์ วแใๆÞฺ วะว ฿ไส ใำฬแว แฯํไว.");
-define("_TITLE","วแฺไๆวไ");
-define("_MODIFY","สฺฯํแ");
-define("_COMPLETEVOTE1","ิ฿ัว แสีๆํส฿.");
-define("_COMPLETEVOTE2","Þใส ศวแสีๆํส ใำศÞว ฮแวแ $anonwaitdays รํวใ วแใวึํษ.");
-define("_COMPLETEVOTE3","ํใ฿ไ฿ วแสีๆํส แใัษ ๆวอฯษ ÝÞุ.<br>ฬใํฺ วแรีๆวส สำฬแ ๆสัวฬฺ.");
-define("_COMPLETEVOTE4","แว ํใ฿ไ฿ วแสีๆํส ฺแ์ ใๆÞฺ Þใส ศวฯฮวแๅ.<brฬใํฺ วแรีๆวส สำฬแ ๆสัวฬฺ.");
-define("_COMPLETEVOTE5","แใ ํฮสั สัิํอ - แใ ํฮสั สีๆํส");
-define("_COMPLETEVOTE6","สีๆํส ๆวอฯ แ฿แ ฺไๆวไ วํ ศํ ฿แ $outsidewaitdays ํๆใ/รํวใ.");
+define("_URL","ุฑุงุจุท");
+define("_PREVIOUS","ุงูุตูุญุฉ ุงูุณุงุจูุฉ");
+define("_NEXT","ุงูุตูุญุฉ ุงูุชุงููุฉ");
+define("_CATEGORY","ุชุตููู");
+define("_CATEGORIES","ุงูุชุตูููุงุช");
+define("_LVOTES","ุฃุตูุงุช");
+define("_TOTALVOTES","ู…ุฌู…ูุน ุงูุฃุตูุงุช:");
+define("_THEREARE","ููุฌุฏ ุญุงููุง");
+define("_NOMATCHES","ูุง ููุฌุฏ ูุชุงุฆุฌ ููุจุญุซ");
+define("_SCOMMENTS","ุชุนูููุงุช");
+define("_UNKNOWN","ุบูุฑ ู…ุนุฑูู");
+define("_DOWNLOADS","ุชุญู…ูู");
+define("_FILESIZE","ุญุฌู… ุงูู…ูู");
+define("_VERSION","ุงูุฅุตุฏุงุฑ");
+define("_DESCRIPTION","ุงููุตู");
+define("_AUTHOR","ุตุงุญุจ ุงูุจุฑูุงู…ุฌ");
+define("_HOMEPAGE","ุตูุญุชู");
+define("_DOWNLOADNOW","ุชุญู…ูู ุงูู…ูู ุงูุขู!");
+define("_FILEURL","ุฑุงุจุท ุงูู…ูู");
+define("_ADDDOWNLOAD","ุฃุถู ุงูู…ูู");
+define("_DOWNLOADSMAIN","ุตูุญุฉ ุงูุจุฑุงู…ุฌ ุงูุฑุฆูุณูุฉ");
+define("_DOWNLOADCOMMENTS","ุชุนูููุงุช ุนูู ุงูุจุฑุงู…ุฌ");
+define("_DOWNLOADSMAINCAT","ุงูุชุตููู ุงูุฑุฆูุณู ููุจุฑุงู…ุฌ");
+define("_ADDADOWNLOAD","ุฃุถู ุจุฑูุงู…ุฌ ุฌุฏูุฏ");
+define("_DOWNLOADSNOTUSER1","ุฃูุช ุบูุฑ ู…ุณุฌู ูุฏููุง ุฃู ุงูู ูู… ูุชู… ุชุณุฌูู ุฏุฎููู.");
+define("_DOWNLOADSNOTUSER2","ุชุณุชุทูุน ุงุถุงูุฉ ุจุฑุงู…ุฌ ุงุฐุง ููุช ู…ุณุฌูุง ูุฏููุง.");
+define("_DOWNLOADSNOTUSER3","ุนู…ููุฉ ุงูุชุณุฌูู ุณููุฉ ูุณุฑูุนุฉ.");
+define("_DOWNLOADSNOTUSER4","ูู…ุงุฐุง ูุทูุจ ุงูุชุณุฌูู ููุฏุฎูู ุงูู ุจุนุถ ูุธุงุฆู ุงูู…ููุนุ");
+define("_DOWNLOADSNOTUSER5","ุงูุณุจุจ ูู ููู ูุณุชุทูุน ุชูุฏูู… ุฎุฏู…ุฉ ุฃุฌูุฏ ูุฃุณุฑุน,");
+define("_DOWNLOADSNOTUSER6","ูุชู… ู…ุฑุงุฌุนุฉ ูู ุนูุตุฑ ุจูุงุณุทุฉ ู…ุดุฑูู ุงูู…ููุน ูู…ู ุซู… ุงูู…ูุงููุฉ ุนููู.");
+define("_DOWNLOADSNOTUSER7","ูุฃู…ู ุฃู ููุฏู… ูู ุฎุฏู…ุงุช ู…ู…ูุฒุฉ.");
+define("_DOWNLOADSNOTUSER8","<a href=\"modules.php?name=Your_Account\">ุณุฌู ุงูุขู</a>");
+define("_DOWNLOADALREADYEXT","ุฎุทุฃ: ุชู… ุงุฏุฎุงู ูุฐุง ุงูุฑุงุจุท ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช!");
+define("_DOWNLOADNOTITLE","ุฎุทุฃ: ูุฌุจ ูุชุงุจุฉ ุงุณู… ุฃู ุนููุงู ููุฑุงุจุท!");
+define("_DOWNLOADNOURL","ุฎุทุฃ: ูุฌุจ ุงุฏุฎุงู ุงูุฑุงุจุท ููุณู!");
+define("_DOWNLOADNODESC","ุฎุทุฃ: ูุฌุจ ุฃุฏุฎุงู ุดุฑุญ ููุฑุงุจุท!");
+define("_DOWNLOADRECEIVED","ุดูุฑุง! ุชู… ุงุณุชูุงู… ุงูุจุฑูุงู…ุฌ ุงูุฐู ุฃุฑุณูุช");
+define("_CHECKFORIT","ูู… ุชูุชุจ ุจุฑูุฏู ุงูุฅููุชุฑููู. ุณูููู… ุจู…ุฑุงุฌุนุฉ ุงูุจุฑูุงู…ุฌ ุนูู ุฃูุฉ ุญุงู.");
+define("_NEWDOWNLOADS","ุจุฑุงู…ุฌ ุฌุฏูุฏุฉ");
+define("_TOTALNEWDOWNLOADS","ู…ุฌู…ูุน ุงูุจุฑุงู…ุฌ ุฌุฏูุฏุฉ");
+define("_TRATEDDOWNLOADS","ู…ุฌู…ูุน ุงูุจุฑุงู…ุฌ ุงูู…ููู…ุฉ");
+define("_SORTDOWNLOADSBY","ุชุฑุชูุจ ุงูุจุฑุงู…ุฌ ุญุณุจ");
+define("_DOWNLOADPROFILE","ู…ุนููู…ุงุช ุงูุจุฑูุงู…ุฌ");
+define("_DOWNLOADRATINGDET","ุชูุงุตูู ุชูููู… ุงูุจุฑูุงู…ุฌ");
+define("_EDITTHISDOWNLOAD","ุชุนุฏูู ูุฐุง ุงูุจุฑูุงู…ุฌ");
+define("_DOWNLOADRATING","ุชูููู… ุงูุจุฑุงู…ุฌ");
+define("_PROMOTE02","ุฃุญุฏ ุงูุทุฑู ูุชูููู… ุงูุจุฑูุงู…ุฌ ูู ุนุจุงุฑุฉ ุนู ุฑุงุจุท ูุตู:");
+define("_PROMOTE03","ุงุฐุง ููุช ุชุฑูุฏ ุทุฑููุฉ ุบูุฑ ุงูุฑุงุจุท ุงููุตู ููู…ููู ุงุณุชุฎุฏุงู… ุฒุฑ ููุจุฑูุงู…ุฌ:");
+define("_PROMOTE04","ุงุฐุง ูู…ุช ูุงูุชูุงุนุจ ูู ุงูุชุฑุดูุญ ูุณูู ููุบู ุจุฑูุงู…ุฌู ู…ู ูุงุนุฏุฉ ุงูุจูุงูุงุช. ููุฐุง ููุง ุงูููุฏ ุงูุฎุงุต ุจุงูุชุฑุดูุญ ุงูุฎุงุฑุฌู.");
+define("_DOWNLOADVOTE","ุชุตููุช!");
+define("_REQUESTDOWNLOADMOD","ุทูุจ ุชุนุฏูู ุจุฑูุงู…ุฌ");
+define("_DOWNLOADID","ุฑูู… ุงูุจุฑูุงู…ุฌ");
+define("_DATE","ุงูุชุงุฑูุฎ");
+define("_TO","ุงูู");
+define("_NEW","ุฌุฏูุฏ");
+define("_POPULAR","ู…ุดููุฑ");
+define("_TOPRATED","ุฃูุถู ุชูููู…");
+define("_ADDITIONALDET","ุชูุงุตูู ุงุถุงููุฉ");
+define("_EDITORREVIEW","ู…ุฑุงุฌุนุฉ ุงููุงุชุจ");
+define("_REPORTBROKEN","ุฃุฎุจุฑูุง ุนู ูุตูุฉ ูุง ุชุนู…ู");
+define("_AND","ู");
+define("_INDB","ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_INSTRUCTIONS","ุชุนููู…ุงุช");
+define("_USERANDIP","ูุชู… ุชุณุฌูู ุงุณู… ุงูู…ุณุชุฎุฏู… ูุนููุงู ุงูุฃู ุจู ููุฑุฌูุง ุนุฏู… ุฃุณุงุกุฉ ุงุณุชุนู…ุงู ุงูุจุฑูุงู…ุฌ.");
+define("_LDESCRIPTION","ูุตู: (ุญุฏ ุฃูุต 255 ุญุฑู)");
+define("_LASTWEEK","ุงูุฃุณุจูุน ุงูู…ุงุถู");
+define("_LAST30DAYS","ุฃุฎุฑ 30 ููู…ุง");
+define("_1WEEK","ุฃุณุจูุน");
+define("_2WEEKS","ุฃุณุจูุนุงู");
+define("_30DAYS","30 ููู…ุง");
+define("_SHOW","ุนุฑุถ");
+define("_DAYS","ููู…/ุฃูุงู…");
+define("_ADDEDON","ุฃูุถููุช");
+define("_RATING","ุงูุชูููู…");
+define("_DETAILS","ุชูุงุตูู");
+define("_OF","ู…ู");
+define("_TVOTESREQ","ุงูุญุฏ ุงูุฃุฏูู ููุชุตููุช");
+define("_SHOWTOP","ุฃุนุฑุถ ุงูุฃูุถู");
+define("_MOSTPOPULAR","ุงูุฃูุซุฑ ุดููุนุง - ุฃูุถููุง");
+define("_OFALL","ู…ู ุงููู");
+define("_POPULARITY","ุงูุดูุฑู");
+define("_SELECTPAGE","ุฃุฎุชุฑ ุตูุญุฉ");
+define("_MAIN","ุงูุฑุฆูุณู");
+define("_NEWTODAY","ุฌุฏูุฏ ุงูููู…");
+define("_NEWLAST3DAYS","ุฌุฏูุฏ ุงูุซูุงุซ ุฃูุงู… ุงูู…ุงุถูุฉ");
+define("_NEWTHISWEEK","ุฌุฏูุฏ ูุฐุง ุงูุฃุณุจูุน");
+define("_POPULARITY1","ุงูุดูุฑุฉ (ุงูุฃูู ุงูู ุงูุฃูุซุฑ ุฒูุงุฑุฉ)");
+define("_POPULARITY2","ุงูุดูุฑุฉ (ุงูุฃูุซุฑ ุงูู ุงูุฃูู ุฒูุงุฑุฉ)");
+define("_TITLEAZ","ุงูุนููุงู (ุฃ ุงูู ู)");
+define("_TITLEZA","ุงูุนููุงู (ู ุงูู ุฃ)");
+define("_RATING1","ุงูุชูููู… (ู…ู ุงูุฃุฏูู ุงูู ุงูุฃุนูู ุชูููู…)");
+define("_RATING2","ุงูุชูููู… (ู…ู ุงูุฃุนูู ุงูู ุงูุฃุฏูู ุชูููู…)");
+define("_SEARCHRESULTS4","ูุชุงุฆุฌ ุจุญุซ");
+define("_USUBCATEGORIES","ุชุตูููุงุช ูุฑุนูุฉ");
+define("_TRY2SEARCH","ุญุงูู ุงูุจุญุซ");
+define("_INOTHERSENGINES","ูู ู…ุญุฑูุงุช ุงูุจุญุซ ุงูุฃุฎุฑู");
+define("_EDITORIAL","ุงูู…ุญุฑุฑูู");
+define("_EDITORIALBY","ุฃุฑุณู ุจูุงุณุทุฉ");
+define("_NOEDITORIAL","ูุง ููุฌุฏ ู…ุญุฑุฑูู ููุฐุง ุงูู…ููุน ุญุงููุง.");
+define("_RATETHISSITE","ุชูููู… ูุฐุง ุงูู…ููุน");
+define("_ISTHISYOURSITE","ูู ูุฐุง ู…ููุนูุ");
+define("_ALLOWTORATE","ุชู…ููู ุงูู…ุณุชุฎุฏู…ูู ู…ู ุชูููู… ู…ููุนู!");
+define("_OVERALLRATING","ุงูุชูููู… ุงูููู");
+define("_TOTALOF","ู…ุฌู…ูุน");
+define("_USER","ุนุถู");
+define("_USERAVGRATING","ู…ุชูุณุท ุชูููู… ุงูุฃุนุถุงุก");
+define("_NUMRATINGS","# ุงูุชูุงููู…");
+define("_REGISTEREDUSERS","ุฃุนุถุงุก ู…ุณุฌููู");
+define("_NUMBEROFRATINGS","ุนุฏุฏ ุงูุชูููู…");
+define("_NOREGUSERSVOTES","ูุง ููุฌุฏ ุชุตููุช ู…ู ุนุถู ู…ุณุฌู");
+define("_BREAKDOWNBYVAL","ุชูุงุตูู ุงูุชูููู… ุจุงูููู…");
+define("_LTOTALVOTES","ู…ุฌู…ูุน ุงูุชุตููุชุงุช");
+define("_HIGHRATING","ุชูููู… ุนุงูู");
+define("_LOWRATING","ุชูููู… ูุงุทู");
+define("_NUMOFCOMMENTS","ุนุฏุฏ ุงูุชุนูููุงุช");
+define("_WEIGHNOTE","* ู…ูุญูุธุฉ: ุชูููู… ุงูุฃุนุถุงุก ุงูู…ุณุฌููู ููุฐุง ุงูู…ููุน ูููู ุงูุฃุนุถุงุก ุงูุบูุฑ ู…ุณุฌููู");
+define("_NOUNREGUSERSVOTES","ูุง ููุฌุฏ ุชูููู… ูุฃุนุถุงุก ุบูุฑ ู…ุณุฌููู");
+define("_WEIGHOUTNOTE","* ู…ูุญูุธุฉ: ุชูููู… ุงูู…ุณุฌููู ูููู ุงูุชูููู… ุงูู…ุตูุชูู ุงูุฎุงุฑุฌููู");
+define("_NOOUTSIDEVOTES","ูุง ููุฌุฏ ุชุตููุช ุฎุงุฑุฌู");
+define("_OUTSIDEVOTERS","ู…ุตูุชูู ู…ู ุงูุฎุงุฑุฌ");
+define("_UNREGISTEREDUSERS","ู…ุณุชุฎุฏู…ูู ุบูุฑ ู…ุณุฌููู");
+define("_PROMOTEYOURSITE","ูุฒูุงุฏุฉ ุนุฏุฏ ุฒูุงุฑู");
+define("_PROMOTE01","ูู…ููู ุงุฎุชูุงุฑ ุฃุญุฏ ุงูุฎูุงุฑุงุช ุงูุชุงููุฉ ูุชุฑุดูุญ ู…ููุนู. ูุฐู ุนุจุงุฑุฉ ุนู ุตูุฑุฉ ูุฑุงุจุท ุชุถุนู ูู ู…ููุนู ูููู… ุฒูุงุฑู ุจุชุฑุดูุญ ู…ููุนู ุนู ุทุฑูููุง. ุงูุฑุฌุงุก ุฅุฎุชูุงุฑ ุฃุญุฏ ุงูุฎูุงุฑุงุช ุงูุชุงููุฉ:");
+define("_TEXTLINK","ุฑุงุจุท ูุตู");
+define("_HTMLCODE1","ููุฏ ุงููุชู…ู ุงูุฐู ุชุณุชุฎุฏู…ู ูุฐูู ูู:");
+define("_THENUMBER","ุงูุฑูู…");
+define("_IDREFER","ูู ููุฏ ุงููุชู…ู ูุญูู ุงูู ุฑูู… ู…ููุนู ูู ูุงุนุฏุฉ ุจูุงูุงุช $sitename. ุชุฃูุฏ ู…ู ูุฌูุฏ ูุฐุง ุงูุฑูู….");
+define("_BUTTONLINK","ุฒุฑ ุงูุฑุงุจุท");
+define("_RATEIT","ุฑุดุญ ูุฐุง ุงูู…ููุน!");
+define("_HTMLCODE2","ุงูููุฏ ููุฒุฑ ูู ุงูุฃุนูู ูู:");
+define("_REMOTEFORM","ูู…ูุฐุฌ ุงูุชุฑุดูุญ ุงูุฎุงุฑุฌู");
+define("_VOTE4THISSITE","ุฑุดุญ ูุฐุง ุงูู…ููุน!");
+define("_HTMLCODE3","ูู…ููู ุงุณุชุฎุฏุงู… ูุฐุง ุงููู…ูุฐุฌ ู…ู ุชูููู… ู…ููุนู ูุฏููุง ู…ู ุฎูุง ู…ููุนู ููุณู ููุชู… ุชุณุฌูู ุงูุชูููู… ููุง. ุงููู…ูุฐุฌ ูู ุงูุฃุนูู ู…ุนุทู ูููู ุงุฐุง ูุณุฎุช ููุตูุช ูุฐุง ุงูููุฏ ูุณูุชู…ูู ุฒูุงุฑู ู…ู ุชูููู… ู…ููุนู. ุงูููุฏ ูู ูุงูุชุงูู:");
+define("_PROMOTE05","ุดูุฑุง ูู ููุชู…ูู ูู ุงูุชูููู ูู ุชูููู… ู…ููุนู");
+define("_STAFF","ูุฑูู ุงูุนู…ู");
+define("_THANKSBROKEN","ูุดูุฑู ุนูู ู…ุณุงุนุฏุชูุง ูู ูุฐุง ุงูุฏููู.");
+define("_SECURITYBROKEN","ุณูุชู… ุญูุธ ุนููุงู ุงูุฃู ุจู ูุงุณู… ุงูู…ุณุชุฎุฏู… ููุชุฑุฉ ู…ุคูุชู ูุฐูู ูุฃุณุจุงุจ ุฃู…ููุฉ.");
+define("_THANKSFORINFO","ุดูุฑุง ุนูู ูุฐู ุงูู…ุนููู…ุงุช.");
+define("_LOOKTOREQUEST","ุณูู ููุธุฑ ูู ุทูุจู ูุฑูุจุง.");
+define("_SENDREQUEST","ุฃุฑุณู ุงูุทูุจ");
+define("_THANKSTOTAKETIME","ูุดูุฑู ูุชูููู…ู ููุฐุง ุงูู…ููุน ูุฏููุง");
+define("_RETURNTO","ุนูุฏุฉ ุงูู");
+define("_RATENOTE1","ุงูุฑุฌุงุก ุนุฏู… ุชูููู… ููุณ ุงูู…ููุน ุฃูุซุฑ ู…ู ู…ุฑุฉ.");
+define("_RATENOTE2","ุงูุชูููู… ูููู ู…ู 1 - 10. ุจุญูุซ 1 ู…ุนูุงูุง ุฑุฏุฆ ู10 ุชุนูู ู…ู…ุชุงุฒ.");
+define("_RATENOTE3","ุงูุฑุฌุงุก ุฃู ุชููู ุนุงุฏู ูู ุชูููู…ู. ูู ููู…ุช ุงูู…ูุงูุน ูููุง ุจูุงุญุฏ ุฃู ูููุง ุจุนุดุฑุฉ ูุฅุฅู ูุฐุง ุงูุชูููู… ุณูููู ุนุฏูู… ุงููุงุฆุฏุฉ.");
+define("_RATENOTE5","ุงูุฑุฌุงุก ุนุฏู… ุชุฑุดูุญ ู…ููุนู ุฃู ู…ูุงูุน ู…ูุงูุณุฉ.");
+define("_YOUAREREGGED","ุฃูุช ู…ุณุฌู ูุฏููุง ูุชู…ุช ุนู…ููุฉ ุฏุฎููู.");
+define("_FEELFREE2ADD","ูู…ููู ุงุถุงูุฉ ุชุนููู ุนูู ูุฐุง ุงูู…ููุน.");
+define("_YOUARENOTREGGED","ุงูุช ุบูุฑ ู…ุณุฌู ูุฏููุง ุฃู ุฃูู ูู… ุชูู… ุจุนู…ููุฉ ุงูุฏุฎูู.");
+define("_IFYOUWEREREG","ูู…ููู ุฅุฑุณุงู ุชุนูููู ุนูู ุงูู…ููุน ุงุฐุง ููุช ู…ุณุฌูุง ูุฏููุง.");
+define("_TITLE","ุงูุนููุงู");
+define("_MODIFY","ุชุนุฏูู");
+define("_COMPLETEVOTE1","ุดูุฑุง ูุชุตููุชู.");
+define("_COMPLETEVOTE2","ูู…ุช ุจุงูุชุตููุช ู…ุณุจูุง ุฎูุงู $anonwaitdays ุฃูุงู… ุงูู…ุงุถูุฉ.");
+define("_COMPLETEVOTE3","ูู…ููู ุงูุชุตููุช ูู…ุฑุฉ ูุงุญุฏุฉ ููุท.<br>ุฌู…ูุน ุงูุฃุตูุงุช ุชุณุฌู ูุชุฑุงุฌุน.");
+define("_COMPLETEVOTE4","ูุง ูู…ููู ุงูุชุตููุช ุนูู ู…ููุน ูู…ุช ุจุงุฏุฎุงูู.<brุฌู…ูุน ุงูุฃุตูุงุช ุชุณุฌู ูุชุฑุงุฌุน.");
+define("_COMPLETEVOTE5","ูู… ูุฎุชุฑ ุชุฑุดูุญ - ูู… ูุฎุชุฑ ุชุตููุช");
+define("_COMPLETEVOTE6","ุชุตููุช ูุงุญุฏ ููู ุนููุงู ุงู ุจู ูู $outsidewaitdays ููู…/ุฃูุงู….");
 define("_LINKSDATESTRING","%d-%b-%Y");
-define("_AUTHORNAME","วำใ วแ฿วสศ");
-define("_AUTHOREMAIL","ศัํฯ วแ฿วสศ");
-define("_DOWNLOADNAME","วำใ ใแÝ วแศัไวใฬ");
-define("_ADDTHISFILE","รึÝ ๅะว วแใแÝ");
-define("_INBYTES","ศวแศวํส");
-define("_RATERESOURCE","สÞํํใ วแศัไวใฬ");
-define("_DSUBMITONCE","รัำแ ศัไวใฬ ฬฯํฯ ใัษ ๆวอฯษ ÝÞุ.");
-define("_DPOSTPENDING","ํสใ วแสร฿ฯ ใไ ฬใํฺ วแศัวใฬ Þศแ ไิัๅว.");
-define("_DTOTALFORLAST","ใฬใๆฺ วแศัวใฬ แยฮั");
-define("_DBESTRATED","รÝึแ วแศัวใฬ วแใÞํใษ - วแรฺแ์");
+define("_AUTHORNAME","ุงุณู… ุงููุงุชุจ");
+define("_AUTHOREMAIL","ุจุฑูุฏ ุงููุงุชุจ");
+define("_DOWNLOADNAME","ุงุณู… ู…ูู ุงูุจุฑูุงู…ุฌ");
+define("_ADDTHISFILE","ุฃุถู ูุฐุง ุงูู…ูู");
+define("_INBYTES","ุจุงูุจุงูุช");
+define("_RATERESOURCE","ุชูููู… ุงูุจุฑูุงู…ุฌ");
+define("_DSUBMITONCE","ุฃุฑุณู ุจุฑูุงู…ุฌ ุฌุฏูุฏ ู…ุฑุฉ ูุงุญุฏุฉ ููุท.");
+define("_DPOSTPENDING","ูุชู… ุงูุชุฃูุฏ ู…ู ุฌู…ูุน ุงูุจุฑุงู…ุฌ ูุจู ูุดุฑูุง.");
+define("_DTOTALFORLAST","ู…ุฌู…ูุน ุงูุจุฑุงู…ุฌ ูุขุฎุฑ");
+define("_DBESTRATED","ุฃูุถู ุงูุจุฑุงู…ุฌ ุงูู…ููู…ุฉ - ุงูุฃุนูู");
 
 ?>

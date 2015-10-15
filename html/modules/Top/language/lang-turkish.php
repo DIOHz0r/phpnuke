@@ -4,37 +4,37 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
 define("_CATEGORY","Kategori");
 define("_LVOTES","oylar");
 define("_HITS","Hitler");
-define("_TOPWELCOME","En Ýyiler Sayfasýna Hoþgeldiniz:");
-define("_READSTORIES","en çok okunan haber");
-define("_COMMENTEDSTORIES","en çok yorumlanan haber");
+define("_TOPWELCOME","En Ä°yiler SayfasÄ±na HoÅŸgeldiniz:");
+define("_READSTORIES","en Ã§ok okunan haber");
+define("_COMMENTEDSTORIES","en Ã§ok yorumlanan haber");
 define("_ACTIVECAT","en aktif kategori");
-define("_READSECTION","en çok okunan makale");
+define("_READSECTION","en Ã§ok okunan makale");
 define("_NEWSSUBMITTERS","en aktif haber ekleyici");
 define("_NEWSSENT","haber");
-define("_VOTEDPOLLS","en çok oylanan anket");
-define("_MOSTACTIVEAUTHORS","en aktif editör");
+define("_VOTEDPOLLS","en Ã§ok oylanan anket");
+define("_MOSTACTIVEAUTHORS","en aktif editÃ¶r");
 define("_NEWSPUBLISHED","haber");
-define("_READREVIEWS","en çok okunan izlenim");
-define("_DOWNLOADEDFILES","en çok indirilen dosya");
+define("_READREVIEWS","en Ã§ok okunan izlenim");
+define("_DOWNLOADEDFILES","en Ã§ok indirilen dosya");
 define("_LDOWNLOADS","dosyalar");
-define("_MOSTREADPAGES","en çok okunan sayfa");
-define("_MOSTVOTEDSTORIES","en çok oylanan haber");
+define("_MOSTREADPAGES","en Ã§ok okunan sayfa");
+define("_MOSTVOTEDSTORIES","en Ã§ok oylanan haber");
 define("_POINTS","puanlar");
 define("_BESTRATEDSTORIES","en iyi puanlanan haber (en fazla 5 puan)");
 

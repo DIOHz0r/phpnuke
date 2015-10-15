@@ -38,7 +38,7 @@ define("_EDITCATEGORY","Editer la cat&eacute;gorie");
 define("_ADD","Ajouter");
 define("_LANGUAGE","Langue");
 define("_CONTENTMANAGER","Manager le contenu");
-define("_DELCONTWARNING","Etes vous sûr de vouloir supprimer cette page");
+define("_DELCONTWARNING","Etes vous sÃ»r de vouloir supprimer cette page");
 define("_DELCONTENT","Supprimer la page");
 define("_CURRENTSTATUS","Statut actuel");
 define("_ADDANEWPAGE","Ajouter une nouvelle page");

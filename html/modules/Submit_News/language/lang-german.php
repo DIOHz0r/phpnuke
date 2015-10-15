@@ -27,7 +27,7 @@ define("_HTMLFORMATED","HTML formatiert");
 define("_PLAINTEXT","einfacher Text");
 define("_ARTICLES","Artikel");
 define("_SUBMITNEWS","News schreiben");
-define("_SUBMITADVICE","Bitte benutzen Sie dieses Formular f&uuml;r Ihren Artikel und &uuml;berprüfen Sie ihren Eintrag sorgf&auml;ltig.<br>Anschliessend wird der Artikel vom Admin best&auml;tigt und ggf. &uuml;berarbeitet.");
+define("_SUBMITADVICE","Bitte benutzen Sie dieses Formular f&uuml;r Ihren Artikel und &uuml;berprÃ¼fen Sie ihren Eintrag sorgf&auml;ltig.<br>Anschliessend wird der Artikel vom Admin best&auml;tigt und ggf. &uuml;berarbeitet.");
 define("_SUBTITLE","&Uuml;berschrift");
 define("_BEDESCRIPTIVE","m&ouml;glichst aussagekr&auml;ftig und klar");
 define("_BADTITLES","Vermeiden Sie nichtssagende Titel wie 'Bitte Lesen' oder 'Artikel'");

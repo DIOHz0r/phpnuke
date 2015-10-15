@@ -37,10 +37,10 @@ define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Ja");
 define("_NO","Nej");
-define("_TOPICSMANAGER","Ämneshanterare");
-define("_DELETETOPIC","Radera Ämne");
-define("_TOPICDELSURE","Är du säker på att du vill radera detta Ämne");
-define("_TOPICDELSURE1","Detta kommer att radera ALLA ämnets artiklar och kommentarer!");
+define("_TOPICSMANAGER","Ã„mneshanterare");
+define("_DELETETOPIC","Radera Ã„mne");
+define("_TOPICDELSURE","Ã„r du sÃ¤ker pÃ¥ att du vill radera detta Ã„mne");
+define("_TOPICDELSURE1","Detta kommer att radera ALLA Ã¤mnets artiklar och kommentarer!");
 
 
 ?>

@@ -31,7 +31,7 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Aktuálne aktívne témy");
-define("_CLICK2LIST","Kliknite na obrázok a zobrazia sa èlánky k danej téme.");
+define("_ACTIVETOPICS","AktuÃ¡lne aktÃ­vne tÃ©my");
+define("_CLICK2LIST","Kliknite na obrÃ¡zok a zobrazia sa ÄlÃ¡nky k danej tÃ©me.");
 
 ?>

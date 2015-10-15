@@ -19,35 +19,35 @@
 
 
 define("_YES","Evet");
-define("_NO","Hayýr");
+define("_NO","HayÄ±r");
 define("_CATEGORY","Kategori");
-define("_SAVECHANGES","Deðiþiklikleri Kaydet");
+define("_SAVECHANGES","DeÄŸiÅŸiklikleri Kaydet");
 define("_ARTICLES","Haber");
-define("_SELECTTOPIC","Konu Seçin");
-define("_OPTION","Seçenek");
-define("_ADMPOLLS","Araþtýrma/Anketler");
-define("_TITLE","Baþlýk");
+define("_SELECTTOPIC","Konu SeÃ§in");
+define("_OPTION","SeÃ§enek");
+define("_ADMPOLLS","AraÅŸtÄ±rma/Anketler");
+define("_TITLE","BaÅŸlÄ±k");
 define("_STORYTEXT","Haber Metni");
-define("_EXTENDEDTEXT","Geniþ Metin");
-define("_PUBLISHINHOME","Anasayfada yayýnla?");
-define("_ONLYIFCATSELECTED","Sadece <i>Haberler</i> kategorisi seçili deðilse çalýþýr");
+define("_EXTENDEDTEXT","GeniÅŸ Metin");
+define("_PUBLISHINHOME","Anasayfada yayÄ±nla?");
+define("_ONLYIFCATSELECTED","Sadece <i>Haberler</i> kategorisi seÃ§ili deÄŸilse Ã§alÄ±ÅŸÄ±r");
 define("_ADD","Ekle");
-define("_POLLSADMIN","Araþtýrma/Anket Yönetimi");
+define("_POLLSADMIN","AraÅŸtÄ±rma/Anket YÃ¶netimi");
 define("_CREATEPOLL","Yeni Anket Yarat");
 define("_DELETEPOLLS","Anket Sil");
-define("_POLLTITLE","Anket Baþlýðý");
-define("_POLLEACHFIELD","Lütfen her seçeneði tek bir satýra girin");
+define("_POLLTITLE","Anket BaÅŸlÄ±ÄŸÄ±");
+define("_POLLEACHFIELD","LÃ¼tfen her seÃ§eneÄŸi tek bir satÄ±ra girin");
 define("_CREATEPOLLBUT","Anket Yarat");
 define("_REMOVEEXISTING","Anket Sil");
-define("_POLLDELWARNING","UYARI: Seçilen anket veritabanýndan ANINDA silinecek!");
-define("_CHOOSEPOLL","Lütfen aþaðýdaki listeden bir anket seçin:");
-define("_EDITPOLL","Anketleri Düzenle");
-define("_CHOOSEPOLLEDIT","Düzenlemek istediðiniz anketi seçin:");
-define("_ACTIVATECOMMENTS","Bu yazý için yorumlar aktifleþsin mi?");
+define("_POLLDELWARNING","UYARI: SeÃ§ilen anket veritabanÄ±ndan ANINDA silinecek!");
+define("_CHOOSEPOLL","LÃ¼tfen aÅŸaÄŸÄ±daki listeden bir anket seÃ§in:");
+define("_EDITPOLL","Anketleri DÃ¼zenle");
+define("_CHOOSEPOLLEDIT","DÃ¼zenlemek istediÄŸiniz anketi seÃ§in:");
+define("_ACTIVATECOMMENTS","Bu yazÄ± iÃ§in yorumlar aktifleÅŸsin mi?");
 define("_LANGUAGE","Dil");
 define("_ANNOUNCEPOLL","Bu yeni anketi sitede duyur");
-define("_LEAVEBLANK","(Duyurmadan yeni anket yaratmak için boþ býrakýn)");
-define("_POLLEDIT","Anket Düzenle:");
+define("_LEAVEBLANK","(Duyurmadan yeni anket yaratmak iÃ§in boÅŸ bÄ±rakÄ±n)");
+define("_POLLEDIT","Anket DÃ¼zenle:");
 
 
 ?>

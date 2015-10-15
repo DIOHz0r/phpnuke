@@ -4,96 +4,96 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_PREVIOUS","Önceki Sayfa");
+define("_PREVIOUS","Ã–nceki Sayfa");
 define("_NEXT","Sonraki Sayfa");
-define("_YOURNAME","Ýsminiz");
-define("_SORTASC","Yukarý Doðru Sýrala");
-define("_SORTDESC","Aþaðý Doðu Sýrala");
-define("_CANCEL","Ýptal");
+define("_YOURNAME","Ä°sminiz");
+define("_SORTASC","YukarÄ± DoÄŸru SÄ±rala");
+define("_SORTDESC","AÅŸaÄŸÄ± DoÄŸu SÄ±rala");
+define("_CANCEL","Ä°ptal");
 define("_YES","Evet");
-define("_NO","Hayýr");
+define("_NO","HayÄ±r");
 define("_SCORE","Puan:");
 define("_REPLYMAIN","Yorum Ekle");
-define("_ALLOWEDHTML","Ýzin Verilen HTML:");
-define("_POSTANON","Anonim Olarak Gönder");
-define("_WRITEREVIEW","Ýnceleme Yaz");
-define("_WRITEREVIEWFOR","Ýnceleme Yaz:");
-define("_ENTERINFO","Lütfen tanýmlara baðlý bilgilerini girin");
-define("_PRODUCTTITLE","Ürün Adý");
-define("_NAMEPRODUCT","Ýncelemesi yapýlan ürünün adý.");
-define("_REVIEW","Ýnceleme");
-define("_CHECKREVIEW","Tam incelemeniz. Lütfen dil bilgisini düzgün kullanýn! En az 100 kelime kullanmaya çalýþýn. Biliyorsanýz HTML tag'leri kullanabilirsiniz.");
-define("_FULLNAMEREQ","Tam Adýnýz. Gerekli.");
+define("_ALLOWEDHTML","Ä°zin Verilen HTML:");
+define("_POSTANON","Anonim Olarak GÃ¶nder");
+define("_WRITEREVIEW","Ä°nceleme Yaz");
+define("_WRITEREVIEWFOR","Ä°nceleme Yaz:");
+define("_ENTERINFO","LÃ¼tfen tanÄ±mlara baÄŸlÄ± bilgilerini girin");
+define("_PRODUCTTITLE","ÃœrÃ¼n AdÄ±");
+define("_NAMEPRODUCT","Ä°ncelemesi yapÄ±lan Ã¼rÃ¼nÃ¼n adÄ±.");
+define("_REVIEW","Ä°nceleme");
+define("_CHECKREVIEW","Tam incelemeniz. LÃ¼tfen dil bilgisini dÃ¼zgÃ¼n kullanÄ±n! En az 100 kelime kullanmaya Ã§alÄ±ÅŸÄ±n. BiliyorsanÄ±z HTML tag'leri kullanabilirsiniz.");
+define("_FULLNAMEREQ","Tam AdÄ±nÄ±z. Gerekli.");
 define("_REMAIL","Email'iniz");
 define("_REMAILREQ","E-mail adresiniz. Gerekli.");
-define("_SELECTSCORE","Ürün Puaný");
-define("_RELATEDLINK","Ýlgili Baðlantý");
-define("_PRODUCTSITE","Ürünün resmi web sitesi. Adresin \"http://\" ile baþladýðýndan emin olun");
-define("_LINKTITLE","Baðlantý Baþlýðý");
-define("_LINKTITLEREQ","Ýlgili baðlantýnýz varsa gerekli.");
-define("_RIMAGEFILE","Resim Dosyasý Adý");
-define("_RIMAGEFILEREQ","Kapak grafiðinin adý, images/reviews/'de yer alýr. Zorunlu deðil.");
-define("_CHECKINFO","Lütfen girdiðiniz bilgilerin 100% doðruluðundan, dil bilgisi ve imlayý doðru kullandýðýnýzdan emin olun. Yazýnýn tamamýný BÜYÜK HARFLER ile yazmayýn.");
-define("_INVALIDTITLE","Geçersiz Ýsim... Boþ olamaz");
-define("_INVALIDSCORE","Geçersiz Puan... 1 ile 10 arasýnda olmalý");
-define("_INVALIDTEXT","Geçersiz Ýzleim Metni... Boþ olamaz");
-define("_INVALIDHITS","Hit pozitif tamsayý olmalý");
-define("_CHECKNAME","Adýnýzý ve email adresinizi girmelisiniz");
-define("_INVALIDEMAIL","Geçersiz email (örn: isim@hotmail.com)");
-define("_INVALIDLINK","Baðlantý baþlýðý ve adresini BÝRLÝKTE girmeli veya boþ býrakmalýsýnýz");
+define("_SELECTSCORE","ÃœrÃ¼n PuanÄ±");
+define("_RELATEDLINK","Ä°lgili BaÄŸlantÄ±");
+define("_PRODUCTSITE","ÃœrÃ¼nÃ¼n resmi web sitesi. Adresin \"http://\" ile baÅŸladÄ±ÄŸÄ±ndan emin olun");
+define("_LINKTITLE","BaÄŸlantÄ± BaÅŸlÄ±ÄŸÄ±");
+define("_LINKTITLEREQ","Ä°lgili baÄŸlantÄ±nÄ±z varsa gerekli.");
+define("_RIMAGEFILE","Resim DosyasÄ± AdÄ±");
+define("_RIMAGEFILEREQ","Kapak grafiÄŸinin adÄ±, images/reviews/'de yer alÄ±r. Zorunlu deÄŸil.");
+define("_CHECKINFO","LÃ¼tfen girdiÄŸiniz bilgilerin 100% doÄŸruluÄŸundan, dil bilgisi ve imlayÄ± doÄŸru kullandÄ±ÄŸÄ±nÄ±zdan emin olun. YazÄ±nÄ±n tamamÄ±nÄ± BÃœYÃœK HARFLER ile yazmayÄ±n.");
+define("_INVALIDTITLE","GeÃ§ersiz Ä°sim... BoÅŸ olamaz");
+define("_INVALIDSCORE","GeÃ§ersiz Puan... 1 ile 10 arasÄ±nda olmalÄ±");
+define("_INVALIDTEXT","GeÃ§ersiz Ä°zleim Metni... BoÅŸ olamaz");
+define("_INVALIDHITS","Hit pozitif tamsayÄ± olmalÄ±");
+define("_CHECKNAME","AdÄ±nÄ±zÄ± ve email adresinizi girmelisiniz");
+define("_INVALIDEMAIL","GeÃ§ersiz email (Ã¶rn: isim@hotmail.com)");
+define("_INVALIDLINK","BaÄŸlantÄ± baÅŸlÄ±ÄŸÄ± ve adresini BÄ°RLÄ°KTE girmeli veya boÅŸ bÄ±rakmalÄ±sÄ±nÄ±z");
 define("_ADDED","Eklenme");
 define("_REVIEWER","Yazan:");
-define("_REVIEWID","Ýnceleme ID");
+define("_REVIEWID","Ä°nceleme ID");
 define("_HITS","Hit");
-define("_LOOKSRIGHT","Doðru görünüyor mu?");
-define("_RMODIFIED","deðiþtirildi");
+define("_LOOKSRIGHT","DoÄŸru gÃ¶rÃ¼nÃ¼yor mu?");
+define("_RMODIFIED","deÄŸiÅŸtirildi");
 define("_RADDED","eklenecek");
-define("_ADMINLOGGED","Yönetici giriþi yapmýþsýnýz... Bu izlenim hemen");
-define("_RTHANKS","Bu izlenimi gönderdiðiniz için teþekkürler");
-define("_MODIFICATION","deðiþtirme");
-define("_ISAVAILABLE","Ýncelemeniz veritabanýna eklendi.");
-define("_EDITORWILLLOOK","Editörler tarafýndan incelendikten sonra eklenecek.");
-define("_RBACK","Ýncelemelere Geri Dön");
-define("_RWELCOME","Ýncelemeler Bölümüne Hoþgeldiniz");
-define("_10MOSTPOP","en popüler 10 inceleme");
+define("_ADMINLOGGED","YÃ¶netici giriÅŸi yapmÄ±ÅŸsÄ±nÄ±z... Bu izlenim hemen");
+define("_RTHANKS","Bu izlenimi gÃ¶nderdiÄŸiniz iÃ§in teÅŸekkÃ¼rler");
+define("_MODIFICATION","deÄŸiÅŸtirme");
+define("_ISAVAILABLE","Ä°ncelemeniz veritabanÄ±na eklendi.");
+define("_EDITORWILLLOOK","EditÃ¶rler tarafÄ±ndan incelendikten sonra eklenecek.");
+define("_RBACK","Ä°ncelemelere Geri DÃ¶n");
+define("_RWELCOME","Ä°ncelemeler BÃ¶lÃ¼mÃ¼ne HoÅŸgeldiniz");
+define("_10MOSTPOP","en popÃ¼ler 10 inceleme");
 define("_10MOSTREC","en yeni 10 inceleme");
-define("_THEREARE","Veritabanýnda");
+define("_THEREARE","VeritabanÄ±nda");
 define("_REVIEWSINDB","izlenim bulunuyor");
-define("_REVIEWS","Ýncelemeler");
-define("_REVIEWSLETTER","Ýncelemeler:");
-define("_NOREVIEWS","Bu harf için inceleme yok:");
+define("_REVIEWS","Ä°ncelemeler");
+define("_REVIEWSLETTER","Ä°ncelemeler:");
+define("_NOREVIEWS","Bu harf iÃ§in inceleme yok:");
 define("_TOTALREVIEWS","inceleme bulundu.");
-define("_RETURN2MAIN","Ana Menüye Dön");
-define("_REVIEWCOMMENT","Ýnceleme Yorumu:");
+define("_RETURN2MAIN","Ana MenÃ¼ye DÃ¶n");
+define("_REVIEWCOMMENT","Ä°nceleme Yorumu:");
 define("_YOURNICK","Nickname'iniz:");
 define("_RCREATEACCOUNT","Yeni hesap <a href=modules.php?name=Your_Account&op=new_user>yarat</a>");
 define("_YOURCOMMENT","Yorumunuz:");
-define("_MYSCORE","Puaným:");
-define("_REVIEWMOD","Ýnceleme Deðiþtir");
+define("_MYSCORE","PuanÄ±m:");
+define("_REVIEWMOD","Ä°nceleme DeÄŸiÅŸtir");
 define("_RDATE","Tarih:");
-define("_RTITLE","Baþlýk:");
+define("_RTITLE","BaÅŸlÄ±k:");
 define("_RTEXT","Metin:");
 define("_REVEMAIL","Email:");
-define("_RLINK","Baðlantý:");
-define("_RLINKTITLE","Baðlantý Baþlýðý:");
-define("_COVERIMAGE","Kapak Grafiði:");
-define("_PREMODS","Deðiþiklik Önizle");
+define("_RLINK","BaÄŸlantÄ±:");
+define("_RLINKTITLE","BaÄŸlantÄ± BaÅŸlÄ±ÄŸÄ±:");
+define("_COVERIMAGE","Kapak GrafiÄŸi:");
+define("_PREMODS","DeÄŸiÅŸiklik Ã–nizle");
 define("_PAGE","Sayfa");
-define("_PAGEBREAK","Birden fazla sayfa kullanmak için kesmek istediðiniz yere <b>[--pagebreak--]</b> yazabilirsiniz.");
-define("_PREVIEW","Önizleme");
+define("_PAGEBREAK","Birden fazla sayfa kullanmak iÃ§in kesmek istediÄŸiniz yere <b>[--pagebreak--]</b> yazabilirsiniz.");
+define("_PREVIEW","Ã–nizleme");
 define("_LANGUAGE","Dil");
 
 ?>

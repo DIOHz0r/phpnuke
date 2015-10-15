@@ -17,256 +17,256 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","รัำแ");
-define("_URL","ัวศุ");
-define("_EMAIL","ศัํฯ วแ฿สัๆไํ");
-define("_FUNCTIONS","วแฯๆวแ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_REQUIRED","(ใุแๆศ)");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_OK","ใๆวÝÞ!");
-define("_SAVE","อÝู");
-define("_ID","ัÞใ");
-define("_SUBJECT","วแใๆึๆฺ");
-define("_WHOSONLINE","ใไ ํสีÝอ วแยไ");
-define("_ARTICLES","วแใÞวแวส");
-define("_ALL","วแฬใํฺ");
-define("_PREVIEW","วำสฺัวึ");
-define("_YOUARELOGGEDOUT","สใส ฺใแํษ ฮัๆฬ฿!");
-define("_HOMECONFIG","สฺฯํแ วแีÝอษ วแรๆแ์");
-define("_DESCRIPTION","วแๆีÝ");
-define("_HOMEPAGE","ีÝอสๅ");
-define("_NAME","ว๑ำใ");
-define("_FROM","ใไ");
-define("_TO","วแ์");
-define("_SUBMIT","ลัำวแ");
-define("_SHOW","ฺัึ");
-define("_DAYS","ํๆใ/รํวใ");
-define("_STAFF","ÝัํÞ วแฺใแ");
-define("_ADMINID","ัÞใ วแใิัÝ");
-define("_ADMINLOGIN","สำฬํแ วแฯฮๆแ แแสอ฿ใ");
-define("_EDITADMINS","สอัํั วแใิัÝํไ");
-define("_PREFERENCES","ฮํวัวส");
-define("_ADMINMENU","Þวฦใษ วแสอ฿ใ");
-define("_ADMINLOGOUT","ฮัๆฬ");
-define("_LAST","วฮั");
-define("_GO","ไÝะ!");
-define("_CURRENTPOLL","วแลำสÝสวม วแอวแํ");
-define("_STORYID","ัÞใ วแใÞวแ");
-define("_REMOVECOMMENTS","อะÝ วแสฺแํÞวส");
-define("_SURETODELCOMMENTS","ๅแ รไส ใสร฿ฯ ใไ อะÝ ฬใํฺ วแสฺแํÞวส วแใฮสวัษ ๆวแัฯๆฯ ฺแํๅวฟ");
-define("_BLOCKSADMIN","วฯวัษ วแใฬใๆฺวส");
-define("_BLOCKS","ใฬใๆฺวส");
-define("_TITLE","วแฺไๆวไ");
-define("_POSITION","วแใ฿วไ");
-define("_WEIGHT","วแÞํใษ");
-define("_STATUS","วแอวแษ");
-define("_LEFTBLOCK","ใฬใๆฺษ ํใไ์");
-define("_LEFT","ํใํไ");
-define("_RIGHTBLOCK","ใฬใๆฺษ ํำั์");
-define("_RIGHT","ํำวั");
-define("_ACTIVE","ไิํุ");
-define("_DEACTIVATE","สฺุํแ");
-define("_INACTIVE","ใฺุแ");
-define("_ACTIVATE","สไิํุ");
+define("_SEND","ุฃุฑุณู");
+define("_URL","ุฑุงุจุท");
+define("_EMAIL","ุจุฑูุฏ ุงููุชุฑููู");
+define("_FUNCTIONS","ุงูุฏูุงู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_REQUIRED","(ู…ุทููุจ)");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_OK","ู…ูุงูู!");
+define("_SAVE","ุญูุธ");
+define("_ID","ุฑูู…");
+define("_SUBJECT","ุงูู…ูุถูุน");
+define("_WHOSONLINE","ู…ู ูุชุตูุญ ุงูุขู");
+define("_ARTICLES","ุงูู…ูุงูุงุช");
+define("_ALL","ุงูุฌู…ูุน");
+define("_PREVIEW","ุงุณุชุนุฑุงุถ");
+define("_YOUARELOGGEDOUT","ุชู…ุช ุนู…ููุฉ ุฎุฑูุฌู!");
+define("_HOMECONFIG","ุชุนุฏูู ุงูุตูุญุฉ ุงูุฃููู");
+define("_DESCRIPTION","ุงููุตู");
+define("_HOMEPAGE","ุตูุญุชู");
+define("_NAME","ุงูุณู…");
+define("_FROM","ู…ู");
+define("_TO","ุงูู");
+define("_SUBMIT","ุฅุฑุณุงู");
+define("_SHOW","ุนุฑุถ");
+define("_DAYS","ููู…/ุฃูุงู…");
+define("_STAFF","ูุฑูู ุงูุนู…ู");
+define("_ADMINID","ุฑูู… ุงูู…ุดุฑู");
+define("_ADMINLOGIN","ุชุณุฌูู ุงูุฏุฎูู ููุชุญูู…");
+define("_EDITADMINS","ุชุญุฑูุฑ ุงูู…ุดุฑููู");
+define("_PREFERENCES","ุฎูุงุฑุงุช");
+define("_ADMINMENU","ูุงุฆู…ุฉ ุงูุชุญูู…");
+define("_ADMINLOGOUT","ุฎุฑูุฌ");
+define("_LAST","ุงุฎุฑ");
+define("_GO","ููุฐ!");
+define("_CURRENTPOLL","ุงูุฅุณุชูุชุงุก ุงูุญุงูู");
+define("_STORYID","ุฑูู… ุงูู…ูุงู");
+define("_REMOVECOMMENTS","ุญุฐู ุงูุชุนูููุงุช");
+define("_SURETODELCOMMENTS","ูู ุฃูุช ู…ุชุฃูุฏ ู…ู ุญุฐู ุฌู…ูุน ุงูุชุนูููุงุช ุงูู…ุฎุชุงุฑุฉ ูุงูุฑุฏูุฏ ุนูููุงุ");
+define("_BLOCKSADMIN","ุงุฏุงุฑุฉ ุงูู…ุฌู…ูุนุงุช");
+define("_BLOCKS","ู…ุฌู…ูุนุงุช");
+define("_TITLE","ุงูุนููุงู");
+define("_POSITION","ุงูู…ูุงู");
+define("_WEIGHT","ุงูููู…ุฉ");
+define("_STATUS","ุงูุญุงูุฉ");
+define("_LEFTBLOCK","ู…ุฌู…ูุนุฉ ูู…ูู");
+define("_LEFT","ูู…ูู");
+define("_RIGHTBLOCK","ู…ุฌู…ูุนุฉ ูุณุฑู");
+define("_RIGHT","ูุณุงุฑ");
+define("_ACTIVE","ูุดูุท");
+define("_DEACTIVATE","ุชุนุทูู");
+define("_INACTIVE","ู…ุนุทู");
+define("_ACTIVATE","ุชูุดูุท");
 define("_TYPE","Type");
-define("_ADDNEWBLOCK","รึÝ ใฬใๆฺษ ฬฯํฯษ");
-define("_RSSFILE","ฺไๆวไ ใแÝ RSS/RDF");
-define("_ONLYHEADLINES","(ÝÞุ แแรฮศวั)");
-define("_CONTENT","วแใอสๆ์");
-define("_ACTIVATE2","สไิํุฟ");
-define("_REFRESHTIME","ใฺฯแ ๆÞส วแสอฯํห");
-define("_HOUR","ำวฺๅ");
-define("_CREATEBLOCK","รไิฦ ใฬใๆฺษ");
-define("_EDITBLOCK","สอัํั ใฬใๆฺษ");
-define("_BLOCK","ใฬใๆฺษ");
-define("_SAVEBLOCK","อÝู ใฬใๆฺษ");
-define("_BLOCKACTIVATION","สไิํุ วแใฬใๆฺษ");
-define("_BLOCKPREVIEW","ๅะว วำสฺัวึ แแใฬใๆฺษ");
-define("_WANT2ACTIVATE","ๅแ สัÛศ Ýํ สไิํุ ๅะๅ วแใฬใๆฺษฟ");
-define("_ARESUREDELBLOCK","ๅแ สัํฯ อะÝ ๅะๅ วแใฬใๆฺษ ศวแสร฿ํฯฟ");
-define("_RSSFAIL","ํๆฬฯ ใิ฿แษ Ýํ ฺไๆวไ วแัวศุ แใแÝ RSS");
-define("_RSSTRYAGAIN","วแัฬวม วแสอÞÞ ใไ ัวศุ ใแÝ RSS ๆวแใอวๆแษ ใัษ รฮั์.");
-define("_RSSCONTENT","(ใอสๆํวส RSS/RDF)");
-define("_IFRSSWARNING","วะว ฿สศส วแัวศุ Ýลไ วแใอสๆํวส วแสํ ส฿สศๅว แไ สูๅั!");
-define("_BLOCKUP","ใฬใๆฺษ แแรฺแ์");
-define("_BLOCKDOWN","ใฬใๆฺษ แแรำÝแ");
-define("_SETUPHEADLINES","(วฮสั ฮวี ๆว฿สศ วแัวศุ รๆ วฮสั รอฯ วแใๆวÞฺ วแสวแํษ แรฮะ วแรฮศวั ใไๅว)");
-define("_HEADLINESADMIN","วแสอ฿ใ Ýํ วแรฮศวั");
-define("_ADDHEADLINE","รึวÝษ รฮศวั");
-define("_EDITHEADLINE","สฺฯํแ รฮศวั");
-define("_SURE2DELHEADLINE","สอะํั: ๅแ สัํฯ อะÝ ๅะๅ วแรฮศวั ศวแสร฿ํฯฟ");
-define("_CUSTOM","ฮวี");
-define("_AUTHORSADMIN","วแสอ฿ใ Ýํ วแ฿สวศ");
-define("_MODIFYINFO","สฺฯํแ วแใฺแๆใวส");
-define("_DELAUTHOR","อะÝ ฿วสศ");
-define("_ADDAUTHOR","รึÝ ใิัÝ ฬฯํฯ");
-define("_PERMISSIONS","ีแวอํวส");
-define("_USERS","วแรฺึวม");
-define("_SUPERUSER","ใำสฮฯใ ใอสัÝ");
-define("_SUPERWARNING","สอะํั: วะว ๆึฺส ฺแวใษ ีอ ฺไฯ ใำสฮฯใ ใอสัÝ ÝำๆÝ ํ฿ๆไ แๅ วแีแวอํวส ฿วใแษ!");
-define("_ADDAUTHOR2","รึÝ ฿วสศ");
-define("_RETYPEPASSWD","รฺฯ ฿สวศษ ฿แใษ วแำั");
-define("_FORCHANGES","(แแสÛํํั ÝÞุ)");
-define("_COMPLETEFIELDS","ํฬศ ร฿ใวแ ฬใํฺ วแอÞๆแ วแใุแๆศษ");
-define("_CREATIONERROR","ฮุร Ýํ รไิวม ฿วสศ ฬฯํฯ");
-define("_AUTHORDELSURE","ๅแ รไส ใสร฿ฯ ใไ อะÝ");
-define("_AUTHORDEL","อะÝ ฿วสศ");
-define("_REQUIREDNOCHANGE","(ใุแๆศก ๆแว ํใ฿ไ สÛํํัๅ แวอÞว)");
-define("_PUBLISHEDSTORIES","฿สศ ๅะว วแใิัÝ ใÞวแวส");
-define("_SELECTNEWADMIN","วแัฬวม วฮสํวั ใิัÝ ฬฯํฯ แลฺวฯษ สฺํํไๅใ");
-define("_GODNOTDEL","*(แว ํใ฿ไ อะÝ อำวศ GOD)");
+define("_ADDNEWBLOCK","ุฃุถู ู…ุฌู…ูุนุฉ ุฌุฏูุฏุฉ");
+define("_RSSFILE","ุนููุงู ู…ูู RSS/RDF");
+define("_ONLYHEADLINES","(ููุท ููุฃุฎุจุงุฑ)");
+define("_CONTENT","ุงูู…ุญุชูู");
+define("_ACTIVATE2","ุชูุดูุทุ");
+define("_REFRESHTIME","ู…ุนุฏู ููุช ุงูุชุญุฏูุซ");
+define("_HOUR","ุณุงุนู");
+define("_CREATEBLOCK","ุฃูุดุฆ ู…ุฌู…ูุนุฉ");
+define("_EDITBLOCK","ุชุญุฑูุฑ ู…ุฌู…ูุนุฉ");
+define("_BLOCK","ู…ุฌู…ูุนุฉ");
+define("_SAVEBLOCK","ุญูุธ ู…ุฌู…ูุนุฉ");
+define("_BLOCKACTIVATION","ุชูุดูุท ุงูู…ุฌู…ูุนุฉ");
+define("_BLOCKPREVIEW","ูุฐุง ุงุณุชุนุฑุงุถ ููู…ุฌู…ูุนุฉ");
+define("_WANT2ACTIVATE","ูู ุชุฑุบุจ ูู ุชูุดูุท ูุฐู ุงูู…ุฌู…ูุนุฉุ");
+define("_ARESUREDELBLOCK","ูู ุชุฑูุฏ ุญุฐู ูุฐู ุงูู…ุฌู…ูุนุฉ ุจุงูุชุฃููุฏุ");
+define("_RSSFAIL","ููุฌุฏ ู…ุดููุฉ ูู ุนููุงู ุงูุฑุงุจุท ูู…ูู RSS");
+define("_RSSTRYAGAIN","ุงูุฑุฌุงุก ุงูุชุญูู ู…ู ุฑุงุจุท ู…ูู RSS ูุงูู…ุญุงููุฉ ู…ุฑุฉ ุฃุฎุฑู.");
+define("_RSSCONTENT","(ู…ุญุชููุงุช RSS/RDF)");
+define("_IFRSSWARNING","ุงุฐุง ูุชุจุช ุงูุฑุงุจุท ูุฅู ุงูู…ุญุชููุงุช ุงูุชู ุชูุชุจูุง ูู ุชุธูุฑ!");
+define("_BLOCKUP","ู…ุฌู…ูุนุฉ ููุฃุนูู");
+define("_BLOCKDOWN","ู…ุฌู…ูุนุฉ ููุฃุณูู");
+define("_SETUPHEADLINES","(ุงุฎุชุฑ ุฎุงุต ูุงูุชุจ ุงูุฑุงุจุท ุฃู ุงุฎุชุฑ ุฃุญุฏ ุงูู…ูุงูุน ุงูุชุงููุฉ ูุฃุฎุฐ ุงูุฃุฎุจุงุฑ ู…ููุง)");
+define("_HEADLINESADMIN","ุงูุชุญูู… ูู ุงูุฃุฎุจุงุฑ");
+define("_ADDHEADLINE","ุฃุถุงูุฉ ุฃุฎุจุงุฑ");
+define("_EDITHEADLINE","ุชุนุฏูู ุฃุฎุจุงุฑ");
+define("_SURE2DELHEADLINE","ุชุญุฐูุฑ: ูู ุชุฑูุฏ ุญุฐู ูุฐู ุงูุฃุฎุจุงุฑ ุจุงูุชุฃููุฏุ");
+define("_CUSTOM","ุฎุงุต");
+define("_AUTHORSADMIN","ุงูุชุญูู… ูู ุงููุชุงุจ");
+define("_MODIFYINFO","ุชุนุฏูู ุงูู…ุนููู…ุงุช");
+define("_DELAUTHOR","ุญุฐู ูุงุชุจ");
+define("_ADDAUTHOR","ุฃุถู ู…ุดุฑู ุฌุฏูุฏ");
+define("_PERMISSIONS","ุตูุงุญูุงุช");
+define("_USERS","ุงูุฃุนุถุงุก");
+define("_SUPERUSER","ู…ุณุชุฎุฏู… ู…ุญุชุฑู");
+define("_SUPERWARNING","ุชุญุฐูุฑ: ุงุฐุง ูุถุนุช ุนูุงู…ุฉ ุตุญ ุนูุฏ ู…ุณุชุฎุฏู… ู…ุญุชุฑู ูุณูู ูููู ูู ุงูุตูุงุญูุงุช ูุงู…ูุฉ!");
+define("_ADDAUTHOR2","ุฃุถู ูุงุชุจ");
+define("_RETYPEPASSWD","ุฃุนุฏ ูุชุงุจุฉ ููู…ุฉ ุงูุณุฑ");
+define("_FORCHANGES","(ููุชุบููุฑ ููุท)");
+define("_COMPLETEFIELDS","ูุฌุจ ุฃูู…ุงู ุฌู…ูุน ุงูุญููู ุงูู…ุทููุจุฉ");
+define("_CREATIONERROR","ุฎุทุฃ ูู ุฃูุดุงุก ูุงุชุจ ุฌุฏูุฏ");
+define("_AUTHORDELSURE","ูู ุฃูุช ู…ุชุฃูุฏ ู…ู ุญุฐู");
+define("_AUTHORDEL","ุญุฐู ูุงุชุจ");
+define("_REQUIREDNOCHANGE","(ู…ุทููุจุ ููุง ูู…ูู ุชุบููุฑู ูุงุญูุง)");
+define("_PUBLISHEDSTORIES","ูุชุจ ูุฐุง ุงูู…ุดุฑู ู…ูุงูุงุช");
+define("_SELECTNEWADMIN","ุงูุฑุฌุงุก ุงุฎุชูุงุฑ ู…ุดุฑู ุฌุฏูุฏ ูุฅุนุงุฏุฉ ุชุนููููู…");
+define("_GODNOTDEL","*(ูุง ูู…ูู ุญุฐู ุญุณุงุจ GOD)");
 define("_MAINACCOUNT","God Admin*");
-define("_ADD","รึÝ");
-define("_DAY","วแํๆใ");
-define("_AUTOMATEDARTICLES","วแใÞวแวส วแสแÞวฦํษ");
-define("_NOAUTOARTICLES","แวํๆฬฯ ใÞวแวส สฺัึ สแÞวฦํว");
+define("_ADD","ุฃุถู");
+define("_DAY","ุงูููู…");
+define("_AUTOMATEDARTICLES","ุงูู…ูุงูุงุช ุงูุชููุงุฆูุฉ");
+define("_NOAUTOARTICLES","ูุงููุฌุฏ ู…ูุงูุงุช ุชุนุฑุถ ุชููุงุฆูุง");
 define("_NOFUNCTIONS","---------");
-define("_WHOLINKS","ใไ ํัสศุ ศใๆÞฺไวฟ");
-define("_DELETEREFERERS","รอะÝ วแใัฬฺํวส");
-define("_SITENAME","วำใ วแใๆÞฺ");
-define("_PASSWDNOMATCH","ฺÝๆว ฿แใษ วแำั วแฬฯํฯษ Ûํั ใสุวศÞษ. วึÛุ าั วแฺๆฯษ ๆอวๆแ ใัษ วฮั์");
-define("_SITECONFIG","สฺฯํแ ศํวไวส วแใๆÞฺ");
-define("_GENSITEINFO","ใฺแๆใวส วแใๆÞฺ วแฺวใษ");
-define("_SITEURL","ัวศุ วแใๆÞฺ");
-define("_SITELOGO","ิฺวั วแใๆÞฺ");
+define("_WHOLINKS","ู…ู ูุฑุชุจุท ุจู…ููุนูุงุ");
+define("_DELETEREFERERS","ุฃุญุฐู ุงูู…ุฑุฌุนูุงุช");
+define("_SITENAME","ุงุณู… ุงูู…ููุน");
+define("_PASSWDNOMATCH","ุนููุง ููู…ุฉ ุงูุณุฑ ุงูุฌุฏูุฏุฉ ุบูุฑ ู…ุชุทุงุจูุฉ. ุงุถุบุท ุฒุฑ ุงูุนูุฏุฉ ูุญุงูู ู…ุฑุฉ ุงุฎุฑู");
+define("_SITECONFIG","ุชุนุฏูู ุจูุงูุงุช ุงูู…ููุน");
+define("_GENSITEINFO","ู…ุนููู…ุงุช ุงูู…ููุน ุงูุนุงู…ุฉ");
+define("_SITEURL","ุฑุงุจุท ุงูู…ููุน");
+define("_SITELOGO","ุดุนุงุฑ ุงูู…ููุน");
 define("_SITESLOGAN","Site Slogan");
-define("_ADMINEMAIL","ศัํฯ วแใิัÝ");
-define("_ITEMSTOP","ฺฯฯ วแฺไวีั Ýํ วแีÝอษ วแรๆแ์");
-define("_STORIESHOME","ฺฯฯ วแใÞวแวส Ýํ วแีÝอษ วแรๆแ์");
-define("_OLDSTORIES","ฺฯฯ วแใÞวแวส Ýํ ใฬใๆฺษ วแใÞวแวส วแำวศÞษ");
-define("_ACTULTRAMODE","สไิํุ ๆึฺ Ultramodeฟ");
-define("_DEFAULTTHEME","ิ฿แ วแใๆÞฺ วแสแÞวฦํ");
-define("_SELLANGUAGE","รฮสั แÛษ ใๆÞฺ฿");
-define("_LOCALEFORMAT","ุัํÞษ ฺัึ วแๆÞส");
-define("_BANNERSOPT","ฮํวัวส วแลฺแวไวส");
-define("_STARTDATE","สวัํฮ ศฯวํษ วแใๆÞฺ");
-define("_ACTBANNERS","สิÛํแ วแลฺแวไวส Ýํ ใๆÞฺ฿ฟ");
-define("_FOOTERMSG","วแไี Ýํ วแสะํํแ แแใๆÞฺ");
-define("_FOOTERLINE1","ำุั วแสะํํแ 1");
-define("_FOOTERLINE2","ำุั วแสะํํแ 2");
-define("_FOOTERLINE3","ำุั วแสะํํแ 3");
+define("_ADMINEMAIL","ุจุฑูุฏ ุงูู…ุดุฑู");
+define("_ITEMSTOP","ุนุฏุฏ ุงูุนูุงุตุฑ ูู ุงูุตูุญุฉ ุงูุฃููู");
+define("_STORIESHOME","ุนุฏุฏ ุงูู…ูุงูุงุช ูู ุงูุตูุญุฉ ุงูุฃููู");
+define("_OLDSTORIES","ุนุฏุฏ ุงูู…ูุงูุงุช ูู ู…ุฌู…ูุนุฉ ุงูู…ูุงูุงุช ุงูุณุงุจูุฉ");
+define("_ACTULTRAMODE","ุชูุดูุท ูุถุน Ultramodeุ");
+define("_DEFAULTTHEME","ุดูู ุงูู…ููุน ุงูุชููุงุฆู");
+define("_SELLANGUAGE","ุฃุฎุชุฑ ูุบุฉ ู…ููุนู");
+define("_LOCALEFORMAT","ุทุฑููุฉ ุนุฑุถ ุงูููุช");
+define("_BANNERSOPT","ุฎูุงุฑุงุช ุงูุฅุนูุงูุงุช");
+define("_STARTDATE","ุชุงุฑูุฎ ุจุฏุงูุฉ ุงูู…ููุน");
+define("_ACTBANNERS","ุชุดุบูู ุงูุฅุนูุงูุงุช ูู ู…ููุนูุ");
+define("_FOOTERMSG","ุงููุต ูู ุงูุชุฐููู ููู…ููุน");
+define("_FOOTERLINE1","ุณุทุฑ ุงูุชุฐููู 1");
+define("_FOOTERLINE2","ุณุทุฑ ุงูุชุฐููู 2");
+define("_FOOTERLINE3","ุณุทุฑ ุงูุชุฐููู 3");
 define("_BACKENDCONF","Backend Configuration");
 define("_BACKENDTITLE","Backend Title");
 define("_BACKENDLANG","Backend Language");
-define("_MAIL2ADMIN","รัำแ วแใÞวแวส วแฬฯํฯษ วแ์ วแใิัÝ");
-define("_NOTIFYSUBMISSION","สศแํÛ ศวแลัำวแวส วแฬฯํฯษ ฺไ ุัํÞ วแศัํฯ วแลแ฿สัๆไํฟ");
-define("_EMAIL2SENDMSG","วแศัํฯ วแะํ สัำแ วแํๅ วแัำวแษ");
-define("_EMAILSUBJECT","ใๆึๆฺ วแัำวแษ");
-define("_EMAILMSG","ใอสๆ์ วแัำวแษ");
+define("_MAIL2ADMIN","ุฃุฑุณู ุงูู…ูุงูุงุช ุงูุฌุฏูุฏุฉ ุงูู ุงูู…ุดุฑู");
+define("_NOTIFYSUBMISSION","ุชุจููุบ ุจุงูุฅุฑุณุงูุงุช ุงูุฌุฏูุฏุฉ ุนู ุทุฑูู ุงูุจุฑูุฏ ุงูุฅููุชุฑูููุ");
+define("_EMAIL2SENDMSG","ุงูุจุฑูุฏ ุงูุฐู ุชุฑุณู ุงููู ุงูุฑุณุงูุฉ");
+define("_EMAILSUBJECT","ู…ูุถูุน ุงูุฑุณุงูุฉ");
+define("_EMAILMSG","ู…ุญุชูู ุงูุฑุณุงูุฉ");
 define("_EMAILFROM","Email Account (From)");
-define("_COMMENTSMOD","วแลิัวÝ ฺแ์ วแสฺแํÞวส");
-define("_MODTYPE","ไๆฺ วแลิัวÝ");
-define("_MODADMIN","วิัวÝ ศๆวำุษ วแใำฤแํไ");
-define("_MODUSERS","วิัวÝ ศๆวำุษ วแใำสฮฯใํํไ");
-define("_NOMOD","ศฯๆไ วิัวÝ");
-define("_COMMENTSOPT","ฮํวั วแสฺแํÞวส");
-define("_COMMENTSLIMIT","วแอฯ วแรฺแ์ แฺฯฯ วแรอัÝ Ýํ วแสฺแํÞวส");
-define("_ANONYMOUSNAME","วแลำใ วแสแÞวฦํ แแาๆวั");
-define("_GRAPHICOPT","ฮํวัวส วแัำๆใ");
-define("_ADMINGRAPHIC","วแีๆั Ýํ Þวฦใษ วแสอ฿ใฟ");
-define("_MISCOPT","ฮํวัวส รฮั์");
-define("_PASSWDLEN","วแฺฯฯ วแรฯไ์ แแรอัÝ Ýํ ฿แใษ วแำั");
-define("_MAXREF","฿ใ วแฺฯฯ วแรÞี์ แแใัฬฺํษฟ");
-define("_COMMENTSPOLLS","สใ฿ํไ วแสฺแํÞวส Ýํ วแลำสÝสวมวสฟ");
-define("_ALLOWANONPOST","สใ฿ํไ วแาๆวั วแÛํั ใำฬแํไ ศวแใิวั฿ษฟ");
-define("_ACTIVATEHTTPREF","สใ฿ํไ ใัฬฺํษ HTTP ฟ");
-define("_SIZE","วแอฬใ");
-define("_MESSAGES","วแัำวฦแ");
-define("_MESSAGESADMIN","วแสอ฿ใ Ýํ วแัำวฦแ");
-define("_MESSAGETITLE","วแฺไๆวไ");
-define("_MESSAGECONTENT","วแใอสๆ์");
-define("_EXPIRATION","สวัํฮ วแลไสๅวม");
-define("_VIEWPRIV","ใไ ํำไุํฺ ใิวๅฯษ ๅะวฟ");
-define("_MVADMIN","วแใิัÝๆไ ÝÞุ");
-define("_MVUSERS","วแใำฬแๆไ แฯํไว ÝÞุ");
-define("_MVANON","วแÛํั ใำฬแํไ ÝÞุ");
-define("_MVALL","ฬใํฺ วแาๆวั");
-define("_CHANGEDATE","ๅแ รÛํั สวัํฮ วแลศสฯวม วแ์ สวัํฮ วแํๆใฟ");
-define("_IFYOUACTIVE","(วะว ไิุส ๅะๅ วแัำวแษ ำๆÝ ํ฿ๆไ ศฯวํษ วแสวัํฮ ๅๆ สวัํฮ วแํๆใ)");
-define("_FILENAME","วำใ วแใแÝ");
-define("_FILEINCLUDE","(วฮสั วอฯ วแใฬใๆฺวส วแใฮีีษ แสึใํไๅว. ำํสใ สฬวๅแ ฬใํฺ วแอÞๆแ วแรฮั์)");
-define("_BLOCKFILE","(ใแÝ วแใฬใๆฺษ)");
-define("_COMMENTSARTICLES","ๅแ สัํฯ สใ฿ํไ วแสฺแํÞวส Ýํ วแใÞวแวสฟ");
-define("_MULTILINGUALOPT","ฮํวั วแแÛวส วแใสฺฯฯษ");
-define("_ACTMULTILINGUAL","สไิํุ ใําษ วแแÛวส วแใสฺฯฯษฟ ");
-define("_ACTUSEFLAGS","ๅแ รฺัึ ีๆั วแรฺแวใ ศฯแว ใไ วแÞวฦใษ วแใไำฯแษฟ ");
-define("_LANGUAGE","วแแÛษ");
-define("_EDITMSG","สฺฯํแ วแัำวแษ");
-define("_ADDMSG","รึวÝษ ัำวแษ");
-define("_ALLMESSAGES","วำสฺัวึ ัำวแษ");
-define("_VIEW","สูๅั วแัำวแษ แ");
-define("_REMOVEMSG","ๅแ สัํฯ อะÝ ๅะๅ วแัำวแษ ศวแสร฿ํฯฟ ");
-define("_MODULES","วแศัวใฬ วแใำสÞแษ");
-define("_MODULESADMIN","วแสอ฿ใ Ýํ วแศัวใฬ วแใำสÞแษ");
-define("_MODULESADDONS","วแลึวÝวส ๆวแศัวใฬ วแใำสÞแษ");
-define("_MODULESACTIVATION","ใิวๅฯษ อวแษ วแศัวใฬ วแใำสÞแษ ๆวแÞํวใ ศสฺฯํแๅว รๆ สฺุํแๅว.<br>วแศัวใฬ วแใำสÞแษ วแฬฯํฯษ วแใไำๆฮษ วแ์ วแฯแํแ <i>/modules/</i> ำๆÝ ส฿ๆไ <i>ใฺุแษ</i>  สแÞวฦํว.<br>วะว รัฯส วแÛวม ศัไวใฬ ใำสÞแก ÝÞใ ศอะÝๅ ใไ วแฯแํแ <i>/modules/</i> , ๆำๆÝ ํÞๆใ วแไูวใ ศสฺฯํแๅ Ýํ Þวฺฯษ วแศํวไวส สแÞวฦํว.");
-define("_NEWSLETTER","Þวฦใษ วแใัวำแษ");
-define("_MASSMAIL","ศัํฯ ฬใวฺํ แฬใํฺ วแรฺึวม");
-define("_ANEWSLETTER","วัำวแ วแไิัษ แแรฺึวม วแใำฬแํไ ÝÞุ");
-define("_WHATTODO","ใวะว สัํฯ รไ สัำแฟ");
-define("_SUBSCRIBEDUSERS","วฺึวม ใิสั฿ํไ Ýํ วแไิัษ");
-define("_NYOUAREABOUTTOSEND","ำๆÝ สÞๆใ วัำวแ วแไิัษ แแรฺึวม วแใิสั฿ํไ ศๅว..");
-define("_NUSERWILLRECEIVE","วแรฺึวม วแะํไ ำํำสแใๆไ วแไิัษ.");
-define("_REVIEWTEXT","วแัฬวม วแสร฿ฯ ใไ ไี วแัำวแษ ๆใัวฬฺสๅว:");
-define("_NAREYOUSURE2SEND","ๅแ สัํฯ ศวแสร฿ํฯ ลัำวแ วแไิัษ วแยไฟ");
-define("_MYOUAREABOUTTOSEND","รไส ฺแ์ ๆิ฿ วัำวแ ศัํฯ ฬใวฺํ วแ์ ฿แ วแรฺึวม.");
-define("_MUSERWILLRECEIVE","วแรฺึวม ำๆÝ ํำสแใๆไ ๅะๅ วแัำวแษ.");
-define("_MAREYOUSURE2SEND","ๅแ สัํฯ รัำวแ วแศัํฯ วแฬใวฺํ แฬใํฺ วแฺึวม ศวแสร฿ํฯฟ");
-define("_POSSIBLESPAM","ใแอๆูษ ศฺึ วแรฺึวม แว ํอศ วัำวแ ัำวฦแ  ฺวใษ ศฯๆไ วิสัว฿ๅ!");
-define("_MASSEMAIL","วแศัํฯ วแฬใวฺํ");
-define("_MANYUSERSNOTE","สอะํั! ํๆฬฯ ฺฯฯ ฿ศํั ใไ วแรฺึวม วแะํไ ำสีแๅใ ๅะๅ วแัำวแษ. วแัฬวม วแลไสูวั อส์ ํไสๅํ วแศัไวใฬ ใไ ๅะๅ วแฺใแํษ. Þฯ สำสÛัÞ ๅะๅ วแฺใแํษ ฺฯษ ฯÞวฦÞ!");
-define("_NLUNSUBSCRIBE","=========================================================\nสีแ฿ ๅะๅ วแัำวแษ แยไ฿ ๆวÝÞส ฺแ์ วำสแวใ ไิัวส ใไ ใๆÞฺ $sitename.\nสำสุํฺ วแÛวม วิสัว฿฿ ศวแึÛุ ฺแ์ วแฺไๆวไ:\n\n$nukeurl/modules.php?name=Your_Account&op=edituser\"\n\nศฺฯ ะแ฿ Þใ ศวฮสํวั \"แว\" รใวใ ฮํวั วำสแวใ ไิัษ, วะว วอสฬส วแ์ ใำวฺฯษ วแัฬวม วแลสีวแ ศใิัÝ ใๆÞฺ $sitename.");
-define("_NEWSLETTERSENT","สใ วัำวแ วแไิัษ วแลฮศวัํษ.");
-define("_MASSEMAILSENT","สใ วัำวแ ศัํฯ ฬใวฺํ วแ์ ฬใํฺ วแรฺึวม.");
-define("_MASSEMAILMSG","=========================================================\nๆีแ฿ ๅะว วแศัํฯ วแลแ฿สัๆไํ แรไ฿ ฺึๆ Ýํ ใๆÞฺ $sitename. ไัฬๆว วไ แว สาฺฬ฿ ๅะๅ วแัำวแษ.");
-define("_FIXBLOCKS","วีแวอ สัสํศ วแใฬใๆฺวส");
-define("_SAVEDATABASE","ไำฮษ วอสํวุํษ");
-define("_DBOPTIMIZATION","าํวฯษ Ýฺวแํษ Þวฺฯษ วแศํวไวส");
-define("_OPTIMIZINGDB","ํสใ าํวฯษ วแÝฺวแํษ แÞวฺฯษ วแศํวไวส:");
-define("_TABLE","วำใ วแฬฯๆแ");
-define("_SPACESAVED","วแใำวอษ วแใำสัฬฺษ");
-define("_ALREADYOPTIMIZED","าํฯส Ýฺวแํสๅว ใำศÞว");
-define("_OPTIMIZED","าํฯส Ýฺวแํสๅว!");
-define("_OPTIMIZATIONRESULTS","ไสวฦฬ าํวฯษ วแÝวฺแํษ แÞวฺฯษ วแศํวไวส");
-define("_TOTALSPACESAVED","ใฬใๆฺ วแใำวอษ วแใำสัฬฺษ:");
-define("_YOUHAVERUNSCRIPT","สใ สิÛํแ ๅะว วแศัไวใฬ:");
-define("_KBSAVED","฿ํแๆศวํส อÝูส ใไะ รไ สใ สิÛํแๅ รๆแ ใัษ!");
-define("_TIMES","ใัษ");
-define("_CUSTOMTITLE","ฺไๆวไ ฮวี");
-define("_CHANGEMODNAME","สฺฯํแ วำใ วแศัไวใฬ วแใแอÞ");
-define("_CUSTOMMODNAME","วำใ วแศัไวใฬ วแใแอÞ:");
-define("_MODULEEDIT","สฺฯํแ วแศัวใฬ วแใแอÞษ");
-define("_BLOCKFILE2","ใแÝ");
-define("_BLOCKSYSTEM","วแไูวใ");
-define("_DEFHOMEMODULE","ศัไวใฬ วแีÝอษ วแรๆแ์ วแสแÞวฦํ");
-define("_MODULEINHOME","วแศัไวใฬ วแะํ ํสใ สอใํแๅ Ýํ วแีÝอษ วแรๆแ์:");
-define("_CHANGE","สฺฯํแ");
-define("_INHOME","Ýํ วแีÝอษ วแรๆแ์");
-define("_MODULEHOMENOTE","<b>-= สอะํั =-</b><br>วแรำใวม ศวแรำๆฯ สฺไํ วแศัวใฬ วแใอใแษ Ýํ วแีÝอษ วแรๆแ์.<br>แว สำสุํฺ รํÞวÝ รๆ สฺุํแ วแศัวใฬ วแใอใแษ Ýํ วแีÝอษ วแรๆแ์!<br>วะว ใำอส ฯแํแ วแศัไวใฬ วแใำสÞแ ÝำๆÝ ํ฿ๆไ แฯํ฿ ฮุร Ýํ วแีÝอษ วแรๆแ์.<br>ๅะว ศวแลึวÝษ วแ์ รไ ฺไๆวไ วแศัไวใฬ วแใำสÞแ สใ สฺฯํแ วำใๅ วแ์ <i>วแีÝอษ วแรๆแ์</i> Ýํ ใฬใๆฺษ วแศัวใฬ วแใำสÞแษ.");
-define("_PUTINHOME","ึฺๅ Ýํ วแีÝอษ วแรๆแ์");
-define("_SURETOCHANGEMOD","ๅแ สัํฯ สฺฯํแ ีÝอส฿ วแรๆแ์ ศวแสร฿ํฯ");
-define("_CENTERBLOCK","วแใฬใๆฺษ วแๆำุ์");
-define("_ADMINISTRATION","วแลฯวัษ");
-define("_NOADMINYET","แวํๆฬฯ ใิัÝๆไ อวแํว .. รไิฦ ใิัÝํไ ฬฯฯ:");
-define("_CREATEUSERDATA","ๅแ สๆฯ รไิวม ใำสฮฯใ ฺวฯํ ศไÝำ วแใฺแๆใวสฟ");
-define("_CENTERUP","สๆำํุ ศวแรฺแ์");
-define("_CENTERDOWN","สๆำํุ ศวแรำÝแ");
-define("_NOTINMENU","[ <big><strong>&middot;</strong></big> ] สฺไํ ศัไวใฬ ใำสÞแ ศลำใ ๆัวศุ Ûํั ใัฦํ Ýํ ใฬใๆฺษ วแศัวใฬ วแใำสÞแษ");
-define("_SHOWINMENU","ใัฦํ Ýํ ใฬใๆฺษ วแฮวีษ ศวแศัวใฬ วแใำสÞแษฟ");
-define("_MUSTBEINIMG","ํฬศ รไ ํ฿ๆไ Ýํ วแใฬแฯ /images/ . ํำสฮฯใ แแศัไวใฬ วแใำสÞแ AvantoGo");
-define("_USERSOPTIONS","ฮํวัวส วแรฺึวม");
-define("_BROADCASTMSG","สไิํุ วแัำวฦแ วแฺวใษฟ");
-define("_MYHEADLINES","สไิํุ Þวัฦ ฺไวๆํํไ วแรฮศวัฟ");
-define("_USERSHOMENUM","สใ฿ํไ วแรฺึวม ใไ สฺฯํแ ฺฯฯ วแใÞวแวส Ýํ วแีÝอษ วแรๆแ์ฟ");
-define("_CENSOROPTIONS","ฮํวัวส วแอฬศ");
-define("_CENSORMODE","อวแษ วแอฬศ");
-define("_NOFILTERING","ศฯๆไ สีÝํษ");
-define("_EXACTMATCH","ใุวศÞษ ศวแ฿วใแ");
-define("_MATCHBEG","ใุวศÞษ วแ฿แใวส Ýํ วแศฯวํษ");
-define("_MATCHANY","ใุวศÞษ รํ ใ฿วไ Ýํ วแไี");
-define("_CENSORREPLACE","วำสศฯวแ วแ฿แใวส วแใใไๆฺษ ศวแสวแํ:");
+define("_COMMENTSMOD","ุงูุฅุดุฑุงู ุนูู ุงูุชุนูููุงุช");
+define("_MODTYPE","ููุน ุงูุฅุดุฑุงู");
+define("_MODADMIN","ุงุดุฑุงู ุจูุงุณุทุฉ ุงูู…ุณุคููู");
+define("_MODUSERS","ุงุดุฑุงู ุจูุงุณุทุฉ ุงูู…ุณุชุฎุฏู…ููู");
+define("_NOMOD","ุจุฏูู ุงุดุฑุงู");
+define("_COMMENTSOPT","ุฎูุงุฑ ุงูุชุนูููุงุช");
+define("_COMMENTSLIMIT","ุงูุญุฏ ุงูุฃุนูู ูุนุฏุฏ ุงูุฃุญุฑู ูู ุงูุชุนูููุงุช");
+define("_ANONYMOUSNAME","ุงูุฅุณู… ุงูุชููุงุฆู ููุฒูุงุฑ");
+define("_GRAPHICOPT","ุฎูุงุฑุงุช ุงูุฑุณูู…");
+define("_ADMINGRAPHIC","ุงูุตูุฑ ูู ูุงุฆู…ุฉ ุงูุชุญูู…ุ");
+define("_MISCOPT","ุฎูุงุฑุงุช ุฃุฎุฑู");
+define("_PASSWDLEN","ุงูุนุฏุฏ ุงูุฃุฏูู ููุฃุญุฑู ูู ููู…ุฉ ุงูุณุฑ");
+define("_MAXREF","ูู… ุงูุนุฏุฏ ุงูุฃูุตู ููู…ุฑุฌุนูุฉุ");
+define("_COMMENTSPOLLS","ุชู…ููู ุงูุชุนูููุงุช ูู ุงูุฅุณุชูุชุงุกุงุชุ");
+define("_ALLOWANONPOST","ุชู…ููู ุงูุฒูุงุฑ ุงูุบูุฑ ู…ุณุฌููู ุจุงูู…ุดุงุฑูุฉุ");
+define("_ACTIVATEHTTPREF","ุชู…ููู ู…ุฑุฌุนูุฉ HTTP ุ");
+define("_SIZE","ุงูุญุฌู…");
+define("_MESSAGES","ุงูุฑุณุงุฆู");
+define("_MESSAGESADMIN","ุงูุชุญูู… ูู ุงูุฑุณุงุฆู");
+define("_MESSAGETITLE","ุงูุนููุงู");
+define("_MESSAGECONTENT","ุงูู…ุญุชูู");
+define("_EXPIRATION","ุชุงุฑูุฎ ุงูุฅูุชูุงุก");
+define("_VIEWPRIV","ู…ู ูุณูุทูุน ู…ุดุงูุฏุฉ ูุฐุงุ");
+define("_MVADMIN","ุงูู…ุดุฑููู ููุท");
+define("_MVUSERS","ุงูู…ุณุฌููู ูุฏููุง ููุท");
+define("_MVANON","ุงูุบูุฑ ู…ุณุฌููู ููุท");
+define("_MVALL","ุฌู…ูุน ุงูุฒูุงุฑ");
+define("_CHANGEDATE","ูู ุฃุบูุฑ ุชุงุฑูุฎ ุงูุฅุจุชุฏุงุก ุงูู ุชุงุฑูุฎ ุงูููู…ุ");
+define("_IFYOUACTIVE","(ุงุฐุง ูุดุทุช ูุฐู ุงูุฑุณุงูุฉ ุณูู ูููู ุจุฏุงูุฉ ุงูุชุงุฑูุฎ ูู ุชุงุฑูุฎ ุงูููู…)");
+define("_FILENAME","ุงุณู… ุงูู…ูู");
+define("_FILEINCLUDE","(ุงุฎุชุฑ ุงุญุฏ ุงูู…ุฌู…ูุนุงุช ุงูู…ุฎุตุตุฉ ูุชุถู…ูููุง. ุณูุชู… ุชุฌุงูู ุฌู…ูุน ุงูุญููู ุงูุฃุฎุฑู)");
+define("_BLOCKFILE","(ู…ูู ุงูู…ุฌู…ูุนุฉ)");
+define("_COMMENTSARTICLES","ูู ุชุฑูุฏ ุชู…ููู ุงูุชุนูููุงุช ูู ุงูู…ูุงูุงุชุ");
+define("_MULTILINGUALOPT","ุฎูุงุฑ ุงููุบุงุช ุงูู…ุชุนุฏุฏุฉ");
+define("_ACTMULTILINGUAL","ุชูุดูุท ู…ูุฒุฉ ุงููุบุงุช ุงูู…ุชุนุฏุฏุฉุ ");
+define("_ACTUSEFLAGS","ูู ุฃุนุฑุถ ุตูุฑ ุงูุฃุนูุงู… ุจุฏูุง ู…ู ุงููุงุฆู…ุฉ ุงูู…ูุณุฏูุฉุ ");
+define("_LANGUAGE","ุงููุบุฉ");
+define("_EDITMSG","ุชุนุฏูู ุงูุฑุณุงูุฉ");
+define("_ADDMSG","ุฃุถุงูุฉ ุฑุณุงูุฉ");
+define("_ALLMESSAGES","ุงุณุชุนุฑุงุถ ุฑุณุงูุฉ");
+define("_VIEW","ุชุธูุฑ ุงูุฑุณุงูุฉ ู");
+define("_REMOVEMSG","ูู ุชุฑูุฏ ุญุฐู ูุฐู ุงูุฑุณุงูุฉ ุจุงูุชุฃููุฏุ ");
+define("_MODULES","ุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ");
+define("_MODULESADMIN","ุงูุชุญูู… ูู ุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ");
+define("_MODULESADDONS","ุงูุฅุถุงูุงุช ูุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ");
+define("_MODULESACTIVATION","ู…ุดุงูุฏุฉ ุญุงูุฉ ุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ ูุงูููุงู… ุจุชุนุฏูููุง ุฃู ุชุนุทูููุง.<br>ุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ ุงูุฌุฏูุฏุฉ ุงูู…ูุณูุฎุฉ ุงูู ุงูุฏููู <i>/modules/</i> ุณูู ุชููู <i>ู…ุนุทูุฉ</i>  ุชููุงุฆูุง.<br>ุงุฐุง ุฃุฑุฏุช ุงูุบุงุก ุจุฑูุงู…ุฌ ู…ุณุชููุ ููู… ุจุญุฐูู ู…ู ุงูุฏููู <i>/modules/</i> , ูุณูู ูููู… ุงููุธุงู… ุจุชุนุฏููู ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช ุชููุงุฆูุง.");
+define("_NEWSLETTER","ูุงุฆู…ุฉ ุงูู…ุฑุงุณูุฉ");
+define("_MASSMAIL","ุจุฑูุฏ ุฌู…ุงุนู ูุฌู…ูุน ุงูุฃุนุถุงุก");
+define("_ANEWSLETTER","ุงุฑุณุงู ุงููุดุฑุฉ ููุฃุนุถุงุก ุงูู…ุณุฌููู ููุท");
+define("_WHATTODO","ู…ุงุฐุง ุชุฑูุฏ ุฃู ุชุฑุณูุ");
+define("_SUBSCRIBEDUSERS","ุงุนุถุงุก ู…ุดุชุฑููู ูู ุงููุดุฑุฉ");
+define("_NYOUAREABOUTTOSEND","ุณูู ุชููู… ุงุฑุณุงู ุงููุดุฑุฉ ููุฃุนุถุงุก ุงูู…ุดุชุฑููู ุจูุง..");
+define("_NUSERWILLRECEIVE","ุงูุฃุนุถุงุก ุงูุฐูู ุณูุณุชูู…ูู ุงููุดุฑุฉ.");
+define("_REVIEWTEXT","ุงูุฑุฌุงุก ุงูุชุฃูุฏ ู…ู ูุต ุงูุฑุณุงูุฉ ูู…ุฑุงุฌุนุชูุง:");
+define("_NAREYOUSURE2SEND","ูู ุชุฑูุฏ ุจุงูุชุฃููุฏ ุฅุฑุณุงู ุงููุดุฑุฉ ุงูุขูุ");
+define("_MYOUAREABOUTTOSEND","ุฃูุช ุนูู ูุดู ุงุฑุณุงู ุจุฑูุฏ ุฌู…ุงุนู ุงูู ูู ุงูุฃุนุถุงุก.");
+define("_MUSERWILLRECEIVE","ุงูุฃุนุถุงุก ุณูู ูุณุชูู…ูู ูุฐู ุงูุฑุณุงูุฉ.");
+define("_MAREYOUSURE2SEND","ูู ุชุฑูุฏ ุฃุฑุณุงู ุงูุจุฑูุฏ ุงูุฌู…ุงุนู ูุฌู…ูุน ุงูุนุถุงุก ุจุงูุชุฃููุฏุ");
+define("_POSSIBLESPAM","ู…ูุญูุธุฉ ุจุนุถ ุงูุฃุนุถุงุก ูุง ูุญุจ ุงุฑุณุงู ุฑุณุงุฆู  ุนุงู…ุฉ ุจุฏูู ุงุดุชุฑุงูู!");
+define("_MASSEMAIL","ุงูุจุฑูุฏ ุงูุฌู…ุงุนู");
+define("_MANYUSERSNOTE","ุชุญุฐูุฑ! ููุฌุฏ ุนุฏุฏ ูุจูุฑ ู…ู ุงูุฃุนุถุงุก ุงูุฐูู ุณุชุตููู… ูุฐู ุงูุฑุณุงูุฉ. ุงูุฑุฌุงุก ุงูุฅูุชุธุงุฑ ุญุชู ููุชูู ุงูุจุฑูุงู…ุฌ ู…ู ูุฐู ุงูุนู…ููุฉ. ูุฏ ุชุณุชุบุฑู ูุฐู ุงูุนู…ููุฉ ุนุฏุฉ ุฏูุงุฆู!");
+define("_NLUNSUBSCRIBE","=========================================================\nุชุตูู ูุฐู ุงูุฑุณุงูุฉ ูุขูู ูุงููุช ุนูู ุงุณุชูุงู… ูุดุฑุงุช ู…ู ู…ููุน $sitename.\nุชุณุชุทูุน ุงูุบุงุก ุงุดุชุฑุงูู ุจุงูุถุบุท ุนูู ุงูุนููุงู:\n\n$nukeurl/modules.php?name=Your_Account&op=edituser\"\n\nุจุนุฏ ุฐูู ูู… ุจุงุฎุชูุงุฑ \"ูุง\" ุฃู…ุงู… ุฎูุงุฑ ุงุณุชูุงู… ูุดุฑุฉ, ุงุฐุง ุงุญุชุฌุช ุงูู ู…ุณุงุนุฏุฉ ุงูุฑุฌุงุก ุงูุฅุชุตุงู ุจู…ุดุฑู ู…ููุน $sitename.");
+define("_NEWSLETTERSENT","ุชู… ุงุฑุณุงู ุงููุดุฑุฉ ุงูุฅุฎุจุงุฑูุฉ.");
+define("_MASSEMAILSENT","ุชู… ุงุฑุณุงู ุจุฑูุฏ ุฌู…ุงุนู ุงูู ุฌู…ูุน ุงูุฃุนุถุงุก.");
+define("_MASSEMAILMSG","=========================================================\nูุตูู ูุฐุง ุงูุจุฑูุฏ ุงูุฅููุชุฑููู ูุฃูู ุนุถู ูู ู…ููุน $sitename. ูุฑุฌูุง ุงู ูุง ุชุฒุนุฌู ูุฐู ุงูุฑุณุงูุฉ.");
+define("_FIXBLOCKS","ุงุตูุงุญ ุชุฑุชูุจ ุงูู…ุฌู…ูุนุงุช");
+define("_SAVEDATABASE","ูุณุฎุฉ ุงุญุชูุงุทูุฉ");
+define("_DBOPTIMIZATION","ุฒูุงุฏุฉ ูุนุงููุฉ ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_OPTIMIZINGDB","ูุชู… ุฒูุงุฏุฉ ุงููุนุงููุฉ ููุงุนุฏุฉ ุงูุจูุงูุงุช:");
+define("_TABLE","ุงุณู… ุงูุฌุฏูู");
+define("_SPACESAVED","ุงูู…ุณุงุญุฉ ุงูู…ุณุชุฑุฌุนุฉ");
+define("_ALREADYOPTIMIZED","ุฒูุฏุช ูุนุงููุชูุง ู…ุณุจูุง");
+define("_OPTIMIZED","ุฒูุฏุช ูุนุงููุชูุง!");
+define("_OPTIMIZATIONRESULTS","ูุชุงุฆุฌ ุฒูุงุฏุฉ ุงููุงุนููุฉ ููุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_TOTALSPACESAVED","ู…ุฌู…ูุน ุงูู…ุณุงุญุฉ ุงูู…ุณุชุฑุฌุนุฉ:");
+define("_YOUHAVERUNSCRIPT","ุชู… ุชุดุบูู ูุฐุง ุงูุจุฑูุงู…ุฌ:");
+define("_KBSAVED","ููููุจุงูุช ุญูุธุช ู…ูุฐ ุฃู ุชู… ุชุดุบููู ุฃูู ู…ุฑุฉ!");
+define("_TIMES","ู…ุฑุฉ");
+define("_CUSTOMTITLE","ุนููุงู ุฎุงุต");
+define("_CHANGEMODNAME","ุชุนุฏูู ุงุณู… ุงูุจุฑูุงู…ุฌ ุงูู…ูุญู");
+define("_CUSTOMMODNAME","ุงุณู… ุงูุจุฑูุงู…ุฌ ุงูู…ูุญู:");
+define("_MODULEEDIT","ุชุนุฏูู ุงูุจุฑุงู…ุฌ ุงูู…ูุญูุฉ");
+define("_BLOCKFILE2","ู…ูู");
+define("_BLOCKSYSTEM","ุงููุธุงู…");
+define("_DEFHOMEMODULE","ุจุฑูุงู…ุฌ ุงูุตูุญุฉ ุงูุฃููู ุงูุชููุงุฆู");
+define("_MODULEINHOME","ุงูุจุฑูุงู…ุฌ ุงูุฐู ูุชู… ุชุญู…ููู ูู ุงูุตูุญุฉ ุงูุฃููู:");
+define("_CHANGE","ุชุนุฏูู");
+define("_INHOME","ูู ุงูุตูุญุฉ ุงูุฃููู");
+define("_MODULEHOMENOTE","<b>-= ุชุญุฐูุฑ =-</b><br>ุงูุฃุณู…ุงุก ุจุงูุฃุณูุฏ ุชุนูู ุงูุจุฑุงู…ุฌ ุงูู…ุญู…ูุฉ ูู ุงูุตูุญุฉ ุงูุฃููู.<br>ูุง ุชุณุชุทูุน ุฃููุงู ุฃู ุชุนุทูู ุงูุจุฑุงู…ุฌ ุงูู…ุญู…ูุฉ ูู ุงูุตูุญุฉ ุงูุฃููู!<br>ุงุฐุง ู…ุณุญุช ุฏููู ุงูุจุฑูุงู…ุฌ ุงูู…ุณุชูู ูุณูู ูููู ูุฏูู ุฎุทุฃ ูู ุงูุตูุญุฉ ุงูุฃููู.<br>ูุฐุง ุจุงูุฅุถุงูุฉ ุงูู ุฃู ุนููุงู ุงูุจุฑูุงู…ุฌ ุงูู…ุณุชูู ุชู… ุชุนุฏูู ุงุณู…ู ุงูู <i>ุงูุตูุญุฉ ุงูุฃููู</i> ูู ู…ุฌู…ูุนุฉ ุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ.");
+define("_PUTINHOME","ุถุนู ูู ุงูุตูุญุฉ ุงูุฃููู");
+define("_SURETOCHANGEMOD","ูู ุชุฑูุฏ ุชุนุฏูู ุตูุญุชู ุงูุฃููู ุจุงูุชุฃููุฏ");
+define("_CENTERBLOCK","ุงูู…ุฌู…ูุนุฉ ุงููุณุทู");
+define("_ADMINISTRATION","ุงูุฅุฏุงุฑุฉ");
+define("_NOADMINYET","ูุงููุฌุฏ ู…ุดุฑููู ุญุงููุง .. ุฃูุดุฆ ู…ุดุฑููู ุฌุฏุฏ:");
+define("_CREATEUSERDATA","ูู ุชูุฏ ุฃูุดุงุก ู…ุณุชุฎุฏู… ุนุงุฏู ุจููุณ ุงูู…ุนููู…ุงุชุ");
+define("_CENTERUP","ุชูุณูุท ุจุงูุฃุนูู");
+define("_CENTERDOWN","ุชูุณูุท ุจุงูุฃุณูู");
+define("_NOTINMENU","[ <big><strong>&middot;</strong></big> ] ุชุนูู ุจุฑูุงู…ุฌ ู…ุณุชูู ุจุฅุณู… ูุฑุงุจุท ุบูุฑ ู…ุฑุฆู ูู ู…ุฌู…ูุนุฉ ุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉ");
+define("_SHOWINMENU","ู…ุฑุฆู ูู ู…ุฌู…ูุนุฉ ุงูุฎุงุตุฉ ุจุงูุจุฑุงู…ุฌ ุงูู…ุณุชููุฉุ");
+define("_MUSTBEINIMG","ูุฌุจ ุฃู ูููู ูู ุงูู…ุฌูุฏ /images/ . ูุณุชุฎุฏู… ููุจุฑูุงู…ุฌ ุงูู…ุณุชูู AvantoGo");
+define("_USERSOPTIONS","ุฎูุงุฑุงุช ุงูุฃุนุถุงุก");
+define("_BROADCASTMSG","ุชูุดูุท ุงูุฑุณุงุฆู ุงูุนุงู…ุฉุ");
+define("_MYHEADLINES","ุชูุดูุท ูุงุฑุฆ ุนูุงูููู ุงูุฃุฎุจุงุฑุ");
+define("_USERSHOMENUM","ุชู…ููู ุงูุฃุนุถุงุก ู…ู ุชุนุฏูู ุนุฏุฏ ุงูู…ูุงูุงุช ูู ุงูุตูุญุฉ ุงูุฃูููุ");
+define("_CENSOROPTIONS","ุฎูุงุฑุงุช ุงูุญุฌุจ");
+define("_CENSORMODE","ุญุงูุฉ ุงูุญุฌุจ");
+define("_NOFILTERING","ุจุฏูู ุชุตููุฉ");
+define("_EXACTMATCH","ู…ุทุงุจูุฉ ุจุงููุงู…ู");
+define("_MATCHBEG","ู…ุทุงุจูุฉ ุงูููู…ุงุช ูู ุงูุจุฏุงูุฉ");
+define("_MATCHANY","ู…ุทุงุจูุฉ ุฃู ู…ูุงู ูู ุงููุต");
+define("_CENSORREPLACE","ุงุณุชุจุฏุงู ุงูููู…ุงุช ุงูู…ู…ููุนุฉ ุจุงูุชุงูู:");
 define("_SECURITYCODE","Security Code");
 define("_TYPESECCODE","Type Security Code Here");
 define("_UGROUPS","Users Groups");

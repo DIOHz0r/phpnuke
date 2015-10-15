@@ -12,7 +12,7 @@
 /* ICQ:	155265588                                                     */
 /* Webside:	www.Sjove-Film.dk - HitsMaskinen.dk - FilmCentralen.dk        */
 /*                                                                        */
-/* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
+/* Hvis de finder fejl mÃ¥ og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
 
@@ -23,9 +23,9 @@ define("_YOUREMAIL","Din e-mailadresse");
 define("_FEEDBACKNOTE","Alle kommentarer og foreslag omkring dette website er mere end velkomne. Mange tak!");
 define("_FEEDBACKTITLE","Feedback formular");
 define("_FEEDBACK","Feedback");
-define("_FBENTERNAME","Fejl: Vær venlig at indtaste deres navn!");
-define("_FBENTEREMAIL","Fejl: Vær venlig at indtaste deres e-mail!");
-define("_FBENTERMESSAGE","Fejl: Vær venlig at indtaste en besked!");
+define("_FBENTERNAME","Fejl: VÃ¦r venlig at indtaste deres navn!");
+define("_FBENTEREMAIL","Fejl: VÃ¦r venlig at indtaste deres e-mail!");
+define("_FBENTERMESSAGE","Fejl: VÃ¦r venlig at indtaste en besked!");
 define("_SENDEREMAIL","Afstenders e-mail");
 define("_SENDERNAME","Afstenders navn");
 define("_FBMAILSENT","E-mailen er sendt!");

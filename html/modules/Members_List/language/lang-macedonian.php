@@ -19,25 +19,25 @@
 
 define("_URL","URL");
 define("_EMAIL","Email");
-define("_REALNAME","Âèñòèíñêî èìå");
-define("_FUNCTIONS","Ôóíêöèè");
-define("_PREVIOUS","Ïðåòõîäíà ñòðàíà");
-define("_MEMBERSLIST","Ëèñòà íà ÷ëåíîâè");
-define("_GREETINGS","Ïîçäðàâ äî íàøèîò ïîñëåäåí ðåãèñòðèðàí êîðèñíèê:");
-define("_SORTBY","Ñîðòèðà¼ ïî:");
-define("_MNICKNAME","ïðåêàð (íèê)");
-define("_MREALNAME","âèñòèíñêî èìå");
+define("_REALNAME","Ð’Ð¸ÑÑ‚Ð¸Ð½ÑÐºÐ¾ Ð¸Ð¼Ðµ");
+define("_FUNCTIONS","Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸");
+define("_PREVIOUS","ÐŸÑ€ÐµÑ‚Ñ…Ð¾Ð´Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð°");
+define("_MEMBERSLIST","Ð›Ð¸ÑÑ‚Ð° Ð½Ð° Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸");
+define("_GREETINGS","ÐŸÐ¾Ð·Ð´Ñ€Ð°Ð² Ð´Ð¾ Ð½Ð°ÑˆÐ¸Ð¾Ñ‚ Ð¿Ð¾ÑÐ»ÐµÐ´ÐµÐ½ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð°Ð½ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº:");
+define("_SORTBY","Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð°Ñ˜ Ð¿Ð¾:");
+define("_MNICKNAME","Ð¿Ñ€ÐµÐºÐ°Ñ€ (Ð½Ð¸Ðº)");
+define("_MREALNAME","Ð²Ð¸ÑÑ‚Ð¸Ð½ÑÐºÐ¾ Ð¸Ð¼Ðµ");
 define("_MEMAIL","e-mail");
-define("_MURL","àäðåñà");
-define("_ONLINEREG","Ìîìåòàëíî ñå ïðèñóòíè âêóïíî ÷ëåíîâè:");
-define("_WEHAVE","Èìàìå");
-define("_MREGISTERED","ðåãèñòðèðàíè ÷ëåíîâè äî ñåãà. Ïðèñóòíè ñå");
-define("_MREGONLINE","ðåãèñòðèðàíè ÷ëåíîâè.");
-define("_REGSOFAR","ðåãèñòðèðàíè ÷ëåíîâè äî ñåãà.");
-define("_USERSFOUND","ïðîíà¼äåíè ÷ëåíîâè çà");
-define("_USERSSHOWN","ïðèêàæàíè êîðèñíèöè");
-define("_NOMEMBERS","Íå ñå íà¼äåíè ÷ëåíîâè çà");
-define("_PAGES","Ñòðàíè");
-define("_HOMEPAGE","Äîìàøíà ñòðàíà");
+define("_MURL","Ð°Ð´Ñ€ÐµÑÐ°");
+define("_ONLINEREG","ÐœÐ¾Ð¼ÐµÑ‚Ð°Ð»Ð½Ð¾ ÑÐµ Ð¿Ñ€Ð¸ÑÑƒÑ‚Ð½Ð¸ Ð²ÐºÑƒÐ¿Ð½Ð¾ Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸:");
+define("_WEHAVE","Ð˜Ð¼Ð°Ð¼Ðµ");
+define("_MREGISTERED","Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð°Ð½Ð¸ Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸ Ð´Ð¾ ÑÐµÐ³Ð°. ÐŸÑ€Ð¸ÑÑƒÑ‚Ð½Ð¸ ÑÐµ");
+define("_MREGONLINE","Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð°Ð½Ð¸ Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸.");
+define("_REGSOFAR","Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð°Ð½Ð¸ Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸ Ð´Ð¾ ÑÐµÐ³Ð°.");
+define("_USERSFOUND","Ð¿Ñ€Ð¾Ð½Ð°Ñ˜Ð´ÐµÐ½Ð¸ Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸ Ð·Ð°");
+define("_USERSSHOWN","Ð¿Ñ€Ð¸ÐºÐ°Ð¶Ð°Ð½Ð¸ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸");
+define("_NOMEMBERS","ÐÐµ ÑÐµ Ð½Ð°Ñ˜Ð´ÐµÐ½Ð¸ Ñ‡Ð»ÐµÐ½Ð¾Ð²Ð¸ Ð·Ð°");
+define("_PAGES","Ð¡Ñ‚Ñ€Ð°Ð½Ð¸");
+define("_HOMEPAGE","Ð”Ð¾Ð¼Ð°ÑˆÐ½Ð° ÑÑ‚Ñ€Ð°Ð½Ð°");
 
 ?>

@@ -18,28 +18,28 @@
 /**************************************************************************/
 
 
-define("_REVIEWS","Ανασκοπήσεις");
-define("_SCORE","Βαθμολογία (αποτέλεσμα αξιολόγησης)");
+define("_REVIEWS","Ξ‘Ξ½Ξ±ΟƒΞΊΞΏΟ€Ξ®ΟƒΞµΞΉΟ‚");
+define("_SCORE","Ξ’Ξ±ΞΈΞΌΞΏΞ»ΞΏΞ³Ξ―Ξ± (Ξ±Ο€ΞΏΟ„Ξ­Ξ»ΞµΟƒΞΌΞ± Ξ±ΞΎΞΉΞΏΞ»ΟΞ³Ξ·ΟƒΞ·Ο‚)");
 define("_EMAIL","Email");
-define("_SAVECHANGES","Αποθήκευση Αλλαγών");
-define("_DATE","Ημερομηνία");
-define("_LINKTITLE","Επικεφαλίδα Συνδέσμου");
-define("_PRODUCTTITLE","Τίτλος");
-define("_RELATEDLINK","Σχετικοί Συνδέσμοι ");
-define("_REVIEWER","Σχολιαστές ?");
-define("_REVIEWID","Περιφραφή ID");
-define("_REVADMIN","Διαχείριση Reviews");
-define("_REVTITLE","Σελίδα Τίτλων Reviews");
-define("_REVDESC","Σελιδα Περιγραφής Reviews");
-define("_REVWAITING","Reviews εν αναμονή Έγκρισης");
-define("_TEXT","Κείμενο");
-define("_IMAGE","Εικόνα");
-define("_REVIMGINFO","Αποθήκευση την 150*150 εικόνα σας στο φάκελο εικόνες/reviews");
-define("_ADDREVIEW","Προσθήκη Review");
-define("_NOREVIEW2ADD","Δεν υπάρχουν reviews για προσθήκη");
-define("_CLICK2ADDREVIEW","Κάντε κλικ εδώ για να γράψτε κάποιο review");
-define("_DELMODREVIEW","Διαγραφή / Τροποποίση review");
-define("_MODREVINFO","Μπορείτε εύκολα να διαγράψτε/τροποποιήσετε reviews αν προσπελάσετε το <a href=\"modules.php?name=Reviews\">Reviews</a> ως Διαχειριστής.");
+define("_SAVECHANGES","Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ· Ξ‘Ξ»Ξ»Ξ±Ξ³ΟΞ½");
+define("_DATE","Ξ—ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ±");
+define("_LINKTITLE","Ξ•Ο€ΞΉΞΊΞµΟ†Ξ±Ξ»Ξ―Ξ΄Ξ± Ξ£Ο…Ξ½Ξ΄Ξ­ΟƒΞΌΞΏΟ…");
+define("_PRODUCTTITLE","Ξ¤Ξ―Ο„Ξ»ΞΏΟ‚");
+define("_RELATEDLINK","Ξ£Ο‡ΞµΟ„ΞΉΞΊΞΏΞ― Ξ£Ο…Ξ½Ξ΄Ξ­ΟƒΞΌΞΏΞΉ ");
+define("_REVIEWER","Ξ£Ο‡ΞΏΞ»ΞΉΞ±ΟƒΟ„Ξ­Ο‚ ?");
+define("_REVIEWID","Ξ ΞµΟΞΉΟ†ΟΞ±Ο†Ξ® ID");
+define("_REVADMIN","Ξ”ΞΉΞ±Ο‡ΞµΞ―ΟΞΉΟƒΞ· Reviews");
+define("_REVTITLE","Ξ£ΞµΞ»Ξ―Ξ΄Ξ± Ξ¤Ξ―Ο„Ξ»Ο‰Ξ½ Reviews");
+define("_REVDESC","Ξ£ΞµΞ»ΞΉΞ΄Ξ± Ξ ΞµΟΞΉΞ³ΟΞ±Ο†Ξ®Ο‚ Reviews");
+define("_REVWAITING","Reviews ΞµΞ½ Ξ±Ξ½Ξ±ΞΌΞΏΞ½Ξ® ΞΞ³ΞΊΟΞΉΟƒΞ·Ο‚");
+define("_TEXT","ΞΞµΞ―ΞΌΞµΞ½ΞΏ");
+define("_IMAGE","Ξ•ΞΉΞΊΟΞ½Ξ±");
+define("_REVIMGINFO","Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ· Ο„Ξ·Ξ½ 150*150 ΞµΞΉΞΊΟΞ½Ξ± ΟƒΞ±Ο‚ ΟƒΟ„ΞΏ Ο†Ξ¬ΞΊΞµΞ»ΞΏ ΞµΞΉΞΊΟΞ½ΞµΟ‚/reviews");
+define("_ADDREVIEW","Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞ· Review");
+define("_NOREVIEW2ADD","Ξ”ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞΏΟ…Ξ½ reviews Ξ³ΞΉΞ± Ο€ΟΞΏΟƒΞΈΞ®ΞΊΞ·");
+define("_CLICK2ADDREVIEW","ΞΞ¬Ξ½Ο„Ξµ ΞΊΞ»ΞΉΞΊ ΞµΞ΄Ο Ξ³ΞΉΞ± Ξ½Ξ± Ξ³ΟΞ¬ΟΟ„Ξµ ΞΊΞ¬Ο€ΞΏΞΉΞΏ review");
+define("_DELMODREVIEW","Ξ”ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® / Ξ¤ΟΞΏΟ€ΞΏΟ€ΞΏΞ―ΟƒΞ· review");
+define("_MODREVINFO","ΞΟ€ΞΏΟΞµΞ―Ο„Ξµ ΞµΟΞΊΞΏΞ»Ξ± Ξ½Ξ± Ξ΄ΞΉΞ±Ξ³ΟΞ¬ΟΟ„Ξµ/Ο„ΟΞΏΟ€ΞΏΟ€ΞΏΞΉΞ®ΟƒΞµΟ„Ξµ reviews Ξ±Ξ½ Ο€ΟΞΏΟƒΟ€ΞµΞ»Ξ¬ΟƒΞµΟ„Ξµ Ο„ΞΏ <a href=\"modules.php?name=Reviews\">Reviews</a> Ο‰Ο‚ Ξ”ΞΉΞ±Ο‡ΞµΞΉΟΞΉΟƒΟ„Ξ®Ο‚.");
 define("_LANGUAGE","Language");
 
 

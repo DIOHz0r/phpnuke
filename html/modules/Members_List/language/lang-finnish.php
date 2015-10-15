@@ -18,25 +18,25 @@
 /**************************************************************************/
 
 define("_URL","URL");
-define("_EMAIL","S‰hkˆposti");
+define("_EMAIL","S√§hk√∂posti");
 define("_REALNAME","Oikea nimesi");
-define("_FUNCTIONS","Teht‰v‰t");
+define("_FUNCTIONS","Teht√§v√§t");
 define("_PREVIOUS","Edellinen sivu");
-define("_MEMBERSLIST","Rekisterˆityneet k‰ytt‰j‰t");
-define("_GREETINGS","Tervehtik‰‰mme yhdess‰ meid‰n uusinta k‰ytt‰j‰‰:");
+define("_MEMBERSLIST","Rekister√∂ityneet k√§ytt√§j√§t");
+define("_GREETINGS","Tervehtik√§√§mme yhdess√§ meid√§n uusinta k√§ytt√§j√§√§:");
 define("_SORTBY","Lajittele:");
 define("_MNICKNAME","Nick");
 define("_MREALNAME","Nimi");
-define("_MEMAIL","S‰hkˆposti");
+define("_MEMAIL","S√§hk√∂posti");
 define("_MURL","URL");
-define("_ONLINEREG","Online rekisterˆityneet k‰ytt‰j‰t:");
-define("_WEHAVE","Meill‰ on");
-define("_MREGISTERED","rekisterˆitynytt‰ k‰ytt‰j‰‰ ja");
-define("_MREGONLINE","k‰ytt‰j‰‰ on Online.");
-define("_REGSOFAR","rekisterˆitynytt‰ k‰ytt‰j‰‰.");
-define("_USERSFOUND","Lˆytyi k‰ytt‰j‰‰");
-define("_USERSSHOWN","n‰ytet‰‰n k‰ytt‰j‰‰");
-define("_NOMEMBERS","ei lˆytynyt");
+define("_ONLINEREG","Online rekister√∂ityneet k√§ytt√§j√§t:");
+define("_WEHAVE","Meill√§ on");
+define("_MREGISTERED","rekister√∂itynytt√§ k√§ytt√§j√§√§ ja");
+define("_MREGONLINE","k√§ytt√§j√§√§ on Online.");
+define("_REGSOFAR","rekister√∂itynytt√§ k√§ytt√§j√§√§.");
+define("_USERSFOUND","L√∂ytyi k√§ytt√§j√§√§");
+define("_USERSSHOWN","n√§ytet√§√§n k√§ytt√§j√§√§");
+define("_NOMEMBERS","ei l√∂ytynyt");
 define("_PAGES","Sivut");
 define("_HOMEPAGE","Kotisivut");
 

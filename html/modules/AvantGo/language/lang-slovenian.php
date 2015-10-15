@@ -19,8 +19,8 @@
 
 define("_PDATE","Datum:");
 define("_PTOPIC","Naslov:");
-define("_COMESFROM","»lanek prihaja od");
-define("_THEURL","URL Ëlanka je:");
+define("_COMESFROM","ƒålanek prihaja od");
+define("_THEURL","URL ƒçlanka je:");
 define("_DATE","Datum");
 define("_TITLE","Naslov");
 

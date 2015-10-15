@@ -19,11 +19,11 @@
 
 define("_CATEGORY","Kategori");
 define("_CATEGORIES","Kategorier");
-define("_FAQ2","FAQ (Frekvent Ställda Frågor)");
+define("_FAQ2","FAQ (Frekvent StÃ¤llda FrÃ¥gor)");
 define("_BACKTOTOP","Tillbaka till toppen");
 define("_BACKTOFAQINDEX","Tillbaka till FAQ Index");
 define("_MAIN","Huvudsida");
-define("_QUESTION","Fråga");
+define("_QUESTION","FrÃ¥ga");
 define("_ANSWER","Svar");
 
 ?>

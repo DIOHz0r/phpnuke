@@ -3,6 +3,6 @@ Charset: iso-8859-1
 
 Tere {USERNAME},
 
-Konto foorumil "{SITENAME}" on avatud, vıite sisse logida kasutades eelmises kirjas saadud kasutajanime ja parooli.
+Konto foorumil "{SITENAME}" on avatud, v√µite sisse logida kasutades eelmises kirjas saadud kasutajanime ja parooli.
 
 {EMAIL_SIG}

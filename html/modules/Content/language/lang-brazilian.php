@@ -21,18 +21,18 @@
 /* Comments/suggestions: aleagi@terra.com.br - aleagi@phpnuke.org.br      */
 /**************************************************************************/
 
-define("_PREVIOUS","Página anterior");
-define("_NEXT","Próxima página");
-define("_PAGE","Página(s)");
+define("_PREVIOUS","PÃ¡gina anterior");
+define("_NEXT","PrÃ³xima pÃ¡gina");
+define("_PAGE","PÃ¡gina(s)");
 define("_DEACTIVATE","Desativar");
 define("_ACTIVATE","Ativar");
 define("_PUBLISHEDON","Publicado em");
-define("_PAGESLIST","Lista de páginas");
-define("_LISTOFCONTENT","Lista de conteúdo disponível em");
-define("_YOURADMINLIST","Olá Administrador. A seguir, uma lista de páginas intivas:");
+define("_PAGESLIST","Lista de pÃ¡ginas");
+define("_LISTOFCONTENT","Lista de conteÃºdo disponÃ­vel em");
+define("_YOURADMINLIST","OlÃ¡ Administrador. A seguir, uma lista de pÃ¡ginas intivas:");
 define("_COPYRIGHT","Copyright &copy; por");
 define("_COPYRIGHT2","Todos os direitos reservados.");
-define("_CONTENTCATEGORIES","Categorias de conteúdo disponíveis");
-define("_NONCLASSCONT","Conteúdo não-categorizado");
+define("_CONTENTCATEGORIES","Categorias de conteÃºdo disponÃ­veis");
+define("_NONCLASSCONT","ConteÃºdo nÃ£o-categorizado");
 
 ?>

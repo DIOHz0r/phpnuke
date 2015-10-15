@@ -17,38 +17,38 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_HITS","Heimsóknir");
-define("_BROWSERS","Vefskoðarar");
-define("_OPERATINGSYS","Stýrikerfi");
-define("_UNKNOWN","Óþekkt");
-define("_OTHER","Annað/óþekkt");
-define("_MISCSTATS","Ýmsir teljarar");
-define("_REGUSERS","Skráðir notendur:");
-define("_ACTIVEAUTHORS","Virkir höfundar:");
-define("_STORIESPUBLISHED","Innsendar fréttir/sögur:");
+define("_HITS","HeimsÃ³knir");
+define("_BROWSERS","VefskoÃ°arar");
+define("_OPERATINGSYS","StÃ½rikerfi");
+define("_UNKNOWN","Ã“Ã¾ekkt");
+define("_OTHER","AnnaÃ°/Ã³Ã¾ekkt");
+define("_MISCSTATS","Ãmsir teljarar");
+define("_REGUSERS","SkrÃ¡Ã°ir notendur:");
+define("_ACTIVEAUTHORS","Virkir hÃ¶fundar:");
+define("_STORIESPUBLISHED","Innsendar frÃ©ttir/sÃ¶gur:");
 define("_SACTIVETOPICS","Virkir efnisflokkar:");
 define("_COMMENTSPOSTED","Innsendar athugasemdir:");
-define("_SSPECIALSECT","Fjöldi greinasvæða:");
-define("_ARTICLESSEC","Fjöldi greina:");
-define("_LINKSINLINKS","Tenglar í tenglasafni:");
-define("_LINKSCAT","Flokkar í tenglasafni:");
-define("_NEWSWAITING","Fréttir sem bíða þess að vera birtar:");
-define("_NUKEVERSION","Útgáfunúmer PHP-Nuke:");
-define("_SEARCHENGINES","Leitarvélar");
+define("_SSPECIALSECT","FjÃ¶ldi greinasvÃ¦Ã°a:");
+define("_ARTICLESSEC","FjÃ¶ldi greina:");
+define("_LINKSINLINKS","Tenglar Ã­ tenglasafni:");
+define("_LINKSCAT","Flokkar Ã­ tenglasafni:");
+define("_NEWSWAITING","FrÃ©ttir sem bÃ­Ã°a Ã¾ess aÃ° vera birtar:");
+define("_NUKEVERSION","ÃštgÃ¡funÃºmer PHP-Nuke:");
+define("_SEARCHENGINES","LeitarvÃ©lar");
 define("_BOTS","Robots/Spiders");
-define("_STATS","tölfræði");
-define("_RETURNBASICSTATS","Fara aftur í einfalda tölfræði");
-define("_BACKTODETSTATS","Fara aftur í ítarlega tölfræði");
-define("_BACKTOMAIN","Aftur á aðalsíðu");
-define("_TODAYIS","Í dag er");
-define("_MOSTMONTH","Annríkasti mánuðurinn");
-define("_MOSTDAY","Annríkasti dagurinn");
-define("_MOSTHOUR","Annríkasta klst.");
-define("_YEARLYSTATS","Árleg tölfræði");
-define("_MONTLYSTATS","Mánaðarleg tölfræði fyrir");
-define("_SPAGESVIEWS","Síðusnið");
-define("_DAILYSTATS","Dagleg tölfræði fyrir");
-define("_HOURLYSTATS","Tölfræði niður á klst. fyrir");
-define("_VIEWDETAILED","Skoða ítarlega tölfræði");
+define("_STATS","tÃ¶lfrÃ¦Ã°i");
+define("_RETURNBASICSTATS","Fara aftur Ã­ einfalda tÃ¶lfrÃ¦Ã°i");
+define("_BACKTODETSTATS","Fara aftur Ã­ Ã­tarlega tÃ¶lfrÃ¦Ã°i");
+define("_BACKTOMAIN","Aftur Ã¡ aÃ°alsÃ­Ã°u");
+define("_TODAYIS","Ã dag er");
+define("_MOSTMONTH","AnnrÃ­kasti mÃ¡nuÃ°urinn");
+define("_MOSTDAY","AnnrÃ­kasti dagurinn");
+define("_MOSTHOUR","AnnrÃ­kasta klst.");
+define("_YEARLYSTATS","Ãrleg tÃ¶lfrÃ¦Ã°i");
+define("_MONTLYSTATS","MÃ¡naÃ°arleg tÃ¶lfrÃ¦Ã°i fyrir");
+define("_SPAGESVIEWS","SÃ­Ã°usniÃ°");
+define("_DAILYSTATS","Dagleg tÃ¶lfrÃ¦Ã°i fyrir");
+define("_HOURLYSTATS","TÃ¶lfrÃ¦Ã°i niÃ°ur Ã¡ klst. fyrir");
+define("_VIEWDETAILED","SkoÃ°a Ã­tarlega tÃ¶lfrÃ¦Ã°i");
 
 ?>

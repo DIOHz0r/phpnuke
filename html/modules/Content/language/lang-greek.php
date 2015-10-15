@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PAGE","Σελίδα");
-define("_PREVIOUS","Προηγούμενη Σελίδα");
-define("_NEXT","Επόμενη Σελίδα");
-define("_DEACTIVATE","Απενεργοποίηση");
-define("_ACTIVATE","Ενεργοποίηση");
+define("_PAGE","Ξ£ΞµΞ»Ξ―Ξ΄Ξ±");
+define("_PREVIOUS","Ξ ΟΞΏΞ·Ξ³ΞΏΟΞΌΞµΞ½Ξ· Ξ£ΞµΞ»Ξ―Ξ΄Ξ±");
+define("_NEXT","Ξ•Ο€ΟΞΌΞµΞ½Ξ· Ξ£ΞµΞ»Ξ―Ξ΄Ξ±");
+define("_DEACTIVATE","Ξ‘Ο€ΞµΞ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·");
+define("_ACTIVATE","Ξ•Ξ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·");
 define("_PUBLISHEDON","Published on");
 define("_PAGESLIST","Pages List");
 define("_LISTOFCONTENT","List of available content in");

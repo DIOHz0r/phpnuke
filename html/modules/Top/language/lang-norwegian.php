@@ -35,6 +35,6 @@ define("_DOWNLOADEDFILES","mest nedlastede filer");
 define("_MOSTREADPAGES","mest leste sider");
 define("_MOSTVOTEDSTORIES","mest stemte artikler");
 define("_POINTS","poeng");
-define("_BESTRATEDSTORIES","beste artikler (basert på maksimalt 5 poeng)");
+define("_BESTRATEDSTORIES","beste artikler (basert pÃ¥ maksimalt 5 poeng)");
 
 ?>

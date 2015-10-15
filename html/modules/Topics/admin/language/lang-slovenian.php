@@ -38,9 +38,9 @@ define("_EDITRELATED","Edit Related Link");
 define("_YES","Da");
 define("_NO","Ne");
 define("_TOPICSMANAGER","Administriranje tem");
-define("_DELETETOPIC","Izbriši temo");
-define("_TOPICDELSURE","Ali ste sigurni da želite izbrisati temo");
-define("_TOPICDELSURE1","To bo izbrisalo VSE njene èlanke in komentarje!");
+define("_DELETETOPIC","IzbriÂši temo");
+define("_TOPICDELSURE","Ali ste sigurni da Âželite izbrisati temo");
+define("_TOPICDELSURE1","To bo izbrisalo VSE njene Älanke in komentarje!");
 
 
 ?>

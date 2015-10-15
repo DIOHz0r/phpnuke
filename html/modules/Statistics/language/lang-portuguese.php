@@ -20,7 +20,7 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
+/* Rui CristovÃ£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
@@ -29,33 +29,33 @@ define("_BROWSERS","Navegadores");
 define("_OPERATINGSYS","Sistema Operativo");
 define("_UNKNOWN","Desconhecido");
 define("_OTHER","Outro / Desconhecido");
-define("_MISCSTATS","Estatísticas Diversas");
+define("_MISCSTATS","EstatÃ­sticas Diversas");
 define("_REGUSERS","utilizadores registados:");
 define("_ACTIVEAUTHORS","Autores activos:");
 define("_STORIESPUBLISHED","Artigos publicados:");
 define("_SACTIVETOPICS","Temas activos:");
-define("_COMMENTSPOSTED","Comentários enviados:");
-define("_SSPECIALSECT","Secções especiais:");
-define("_ARTICLESSEC","Artigos em secções:");
+define("_COMMENTSPOSTED","ComentÃ¡rios enviados:");
+define("_SSPECIALSECT","SecÃ§Ãµes especiais:");
+define("_ARTICLESSEC","Artigos em secÃ§Ãµes:");
 define("_LINKSINLINKS","Links em web links:");
 define("_LINKSCAT","Categorias em links:");
-define("_NEWSWAITING","Noticías à espera de publicação:");
-define("_NUKEVERSION","Versão do PHP-Nuke:");
+define("_NEWSWAITING","NoticÃ­as Ã  espera de publicaÃ§Ã£o:");
+define("_NUKEVERSION","VersÃ£o do PHP-Nuke:");
 define("_SEARCHENGINES","Sistemas de Pesquisa");
-define("_BOTS","Robôs/Spiders");
-define("_STATS","Estatísticas de Acesso");
-define("_RETURNBASICSTATS","Regressar às estatísticas básicas");
-define("_BACKTODETSTATS","Voltar às estatísticas detalhadas");
-define("_BACKTOMAIN","Voltar à página principal");
-define("_TODAYIS","Hoje é");
-define("_MOSTMONTH","Mês mais activo");
+define("_BOTS","RobÃ´s/Spiders");
+define("_STATS","EstatÃ­sticas de Acesso");
+define("_RETURNBASICSTATS","Regressar Ã s estatÃ­sticas bÃ¡sicas");
+define("_BACKTODETSTATS","Voltar Ã s estatÃ­sticas detalhadas");
+define("_BACKTOMAIN","Voltar Ã  pÃ¡gina principal");
+define("_TODAYIS","Hoje Ã©");
+define("_MOSTMONTH","MÃªs mais activo");
 define("_MOSTDAY","Dia mais activo");
 define("_MOSTHOUR","Hora mais activa");
-define("_YEARLYSTATS","Estatísticas Anuais");
-define("_MONTLYSTATS","Estatísticas Mensais para");
-define("_SPAGESVIEWS","Visualizações");
-define("_DAILYSTATS","Estatísticas diárias para");
-define("_HOURLYSTATS","Estatísticas das horas para");
-define("_VIEWDETAILED","Ver Estatísticas Detalhadas");
+define("_YEARLYSTATS","EstatÃ­sticas Anuais");
+define("_MONTLYSTATS","EstatÃ­sticas Mensais para");
+define("_SPAGESVIEWS","VisualizaÃ§Ãµes");
+define("_DAILYSTATS","EstatÃ­sticas diÃ¡rias para");
+define("_HOURLYSTATS","EstatÃ­sticas das horas para");
+define("_VIEWDETAILED","Ver EstatÃ­sticas Detalhadas");
 
 ?>

@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_FYOURNAME","Όνομα");
+define("_FYOURNAME","ΞΞ½ΞΏΞΌΞ±");
 define("_FYOUREMAIL","E-mail");
-define("_FFRIENDNAME","Ονόματα Φίλων ");
-define("_FFRIENDEMAIL","E-mail Φίλων");
-define("_SEND","Αποστολή");
-define("_HELLO","Γειά σας");
-define("_YOURFRIEND","Οι Φίλοι σας");
-define("_RECOMMEND","Προτείνετε τον Ιστοχώρο αυτό σε Φίλους");
-define("_INTSITE","Ενδιαφέροντες Ιστοχώροι");
-define("_OURSITE","θεώρησε ότι ο Ιστοχώρος μας");
-define("_INTSENT","ενδιαφέρον και επιθυμούσε να σας τα στείλει.");
-define("_FSITENAME","Όνομα Ιστοχώρου");
-define("_FSITEURL","URL Ιστοχώρου");
-define("_FREFERENCE","Οι αναφορές προς τον ιστοχώρο μας διαβιβάστηκαν στον");
-define("_THANKSREC","Ευχαριστούμε που μας διαφημίσατε!");
+define("_FFRIENDNAME","ΞΞ½ΟΞΌΞ±Ο„Ξ± Ξ¦Ξ―Ξ»Ο‰Ξ½ ");
+define("_FFRIENDEMAIL","E-mail Ξ¦Ξ―Ξ»Ο‰Ξ½");
+define("_SEND","Ξ‘Ο€ΞΏΟƒΟ„ΞΏΞ»Ξ®");
+define("_HELLO","Ξ“ΞµΞΉΞ¬ ΟƒΞ±Ο‚");
+define("_YOURFRIEND","ΞΞΉ Ξ¦Ξ―Ξ»ΞΏΞΉ ΟƒΞ±Ο‚");
+define("_RECOMMEND","Ξ ΟΞΏΟ„ΞµΞ―Ξ½ΞµΟ„Ξµ Ο„ΞΏΞ½ Ξ™ΟƒΟ„ΞΏΟ‡ΟΟΞΏ Ξ±Ο…Ο„Ο ΟƒΞµ Ξ¦Ξ―Ξ»ΞΏΟ…Ο‚");
+define("_INTSITE","Ξ•Ξ½Ξ΄ΞΉΞ±Ο†Ξ­ΟΞΏΞ½Ο„ΞµΟ‚ Ξ™ΟƒΟ„ΞΏΟ‡ΟΟΞΏΞΉ");
+define("_OURSITE","ΞΈΞµΟΟΞ·ΟƒΞµ ΟΟ„ΞΉ ΞΏ Ξ™ΟƒΟ„ΞΏΟ‡ΟΟΞΏΟ‚ ΞΌΞ±Ο‚");
+define("_INTSENT","ΞµΞ½Ξ΄ΞΉΞ±Ο†Ξ­ΟΞΏΞ½ ΞΊΞ±ΞΉ ΞµΟ€ΞΉΞΈΟ…ΞΌΞΏΟΟƒΞµ Ξ½Ξ± ΟƒΞ±Ο‚ Ο„Ξ± ΟƒΟ„ΞµΞ―Ξ»ΞµΞΉ.");
+define("_FSITENAME","ΞΞ½ΞΏΞΌΞ± Ξ™ΟƒΟ„ΞΏΟ‡ΟΟΞΏΟ…");
+define("_FSITEURL","URL Ξ™ΟƒΟ„ΞΏΟ‡ΟΟΞΏΟ…");
+define("_FREFERENCE","ΞΞΉ Ξ±Ξ½Ξ±Ο†ΞΏΟΞ­Ο‚ Ο€ΟΞΏΟ‚ Ο„ΞΏΞ½ ΞΉΟƒΟ„ΞΏΟ‡ΟΟΞΏ ΞΌΞ±Ο‚ Ξ΄ΞΉΞ±Ξ²ΞΉΞ²Ξ¬ΟƒΟ„Ξ·ΞΊΞ±Ξ½ ΟƒΟ„ΞΏΞ½");
+define("_THANKSREC","Ξ•Ο…Ο‡Ξ±ΟΞΉΟƒΟ„ΞΏΟΞΌΞµ Ο€ΞΏΟ… ΞΌΞ±Ο‚ Ξ΄ΞΉΞ±Ο†Ξ·ΞΌΞ―ΟƒΞ±Ο„Ξµ!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

@@ -42,11 +42,11 @@ define("_REMOVEEXISTING","Supprimer un sondage existant");
 define("_POLLDELWARNING","ATTENTION: Le sondage choisi vas &ecirc;tre IMMEDIATEMENT supprim&eacute; de la base de donn&eacute;e!");
 define("_CHOOSEPOLL","Choisissez un sondage dans la liste ci-dessous:");
 define("_EDITPOLL","Editer le sondage");
-define("_CHOOSEPOLLEDIT","Choisissez le sondage que vous voulez éditer");
+define("_CHOOSEPOLLEDIT","Choisissez le sondage que vous voulez Ã©diter");
 define("_ACTIVATECOMMENTS","Activer les commentaires pour cette Story?");
 define("_LANGUAGE","Langue");
 define("_ANNOUNCEPOLL","Annoncer ce nouveau sondage sur votre site");
-define("_LEAVEBLANK","(Laisser vide pour créer un nouveau sondage sans l'annoncer)");
+define("_LEAVEBLANK","(Laisser vide pour crÃ©er un nouveau sondage sans l'annoncer)");
 define("_POLLEDIT","Editer le sondage:");
 
 

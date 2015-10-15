@@ -18,12 +18,12 @@
 /**************************************************************************/
 
 
-define("_SEND","Pošlji");
+define("_SEND","PoÂšlji");
 define("_FUNCTIONS","Funkcije");
 define("_YES","Da");
 define("_NO","Ne");
 define("_SAVECHANGES","Shrani spremembe");
-define("_PAGEBREAK","Èe elite èlanek na veè straneh napišite <b>[--pagebreak--]</b> tam kjer elite prelom strani.");
+define("_PAGEBREAK","ÄŒe Âelite Älanek na veÄ straneh napiÂšite <b>[--pagebreak--]</b> tam kjer Âelite prelom strani.");
 define("_DESCRIPTION","Opis");
 define("_TO","Prejemnik");
 define("_TITLE","Naslov");

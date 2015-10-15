@@ -537,10 +537,10 @@ define("_MAREYOUSURE2SEND","Sei sicuro di voler inviare questa email collettiva 
 define("_POSSIBLESPAM","Considera che alcuni utenti potrebbero infastidirsi a causa di email collettive e considerarlo Spam!");
 define("_MASSEMAIL","Email collettiva");
 define("_MANYUSERSNOTE","AVVISO! Molti utenti riceveranno questo testo. Aspettare fino a che lo script terminer&agrave; le operazioni. Ci possono volere alcuni minuti per finire!");
-define("_NLUNSUBSCRIBE","=========================================================\nStai ricevendo questa Newsletter perché hai scelto di riceverla dalla pagina utente su $sitename.\nPuoi cancellarti da questo servizio cliccando su:\n\n$nukeurl/modules.php?name=Your_Account&amp;op=edituser\"\n\npoi selezionare \"No\" dalle opzioni per ricevere la Newsletter per Email e salvare i cambiamenti, se hai bisogno di assistenza contatta l'amministratore di $sitename.");
+define("_NLUNSUBSCRIBE","=========================================================\nStai ricevendo questa Newsletter perchÃ© hai scelto di riceverla dalla pagina utente su $sitename.\nPuoi cancellarti da questo servizio cliccando su:\n\n$nukeurl/modules.php?name=Your_Account&amp;op=edituser\"\n\npoi selezionare \"No\" dalle opzioni per ricevere la Newsletter per Email e salvare i cambiamenti, se hai bisogno di assistenza contatta l'amministratore di $sitename.");
 define("_NEWSLETTERSENT","La Newsletter &egrave; stata inviata.");
 define("_MASSEMAILSENT","Una Email collettiva a tutti gli utenti registrati &egrave; stata inviata.");
-define("_MASSEMAILMSG","=========================================================\nStai ricevendo questa Newsletter perché hai scelto di riceverla dalla pagina utente su $sitename. Speriamo che questa email non ti disturbi e possa contribuire a migliorare i nostri servizi.");
+define("_MASSEMAILMSG","=========================================================\nStai ricevendo questa Newsletter perchÃ© hai scelto di riceverla dalla pagina utente su $sitename. Speriamo che questa email non ti disturbi e possa contribuire a migliorare i nostri servizi.");
 define("_BBFORUM","Forum");
 define("_BBDELFORUM","Sicuro di voler cancellare il Forum e TUTTI i suoi Posts?");
 define("_BBDELCAT","Sicuro di voler cancellare la categoria e TUTTI i suoi Forums e Posts?");

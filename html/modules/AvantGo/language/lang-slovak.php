@@ -31,11 +31,11 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PDATE","Dátum:");
+define("_PDATE","DÃ¡tum:");
 define("_PTOPIC","Vec:");
-define("_COMESFROM","Tento èlánok je z");
-define("_THEURL","URL tohoto èlánku je:");
-define("_DATE","Dátum");
-define("_TITLE","Názov");
+define("_COMESFROM","Tento ÄlÃ¡nok je z");
+define("_THEURL","URL tohoto ÄlÃ¡nku je:");
+define("_DATE","DÃ¡tum");
+define("_TITLE","NÃ¡zov");
 
 ?>

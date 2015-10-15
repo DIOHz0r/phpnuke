@@ -37,10 +37,10 @@ define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Tak");
 define("_NO","Nie");
-define("_TOPICSMANAGER","Manager tematów");
+define("_TOPICSMANAGER","Manager tematÃ³w");
 define("_DELETETOPIC","Skasuj temat");
-define("_TOPICDELSURE","Czy na pewno skasowaæ temat?");
-define("_TOPICDELSURE1","To skasuje WSZYSTKIE artyku³y i ich komentarze!");
+define("_TOPICDELSURE","Czy na pewno skasowaÄ‡ temat?");
+define("_TOPICDELSURE1","To skasuje WSZYSTKIE artykuÅ‚y i ich komentarze!");
 
 
 ?>

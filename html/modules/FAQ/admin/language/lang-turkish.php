@@ -20,24 +20,24 @@
 
 define("_FUNCTIONS","Fonksiyonlar");
 define("_YES","Evet");
-define("_NO","Hayýr");
+define("_NO","HayÄ±r");
 define("_SAVE","Kaydet");
 define("_ID","ID");
 define("_CATEGORIES","Kategori");
-define("_ALL","Tümü");
+define("_ALL","TÃ¼mÃ¼");
 define("_FAQ","SSS");
-define("_CONTENT","Ýçerik");
-define("_FAQADMIN","SSS Yönetimi");
+define("_CONTENT","Ä°Ã§erik");
+define("_FAQADMIN","SSS YÃ¶netimi");
 define("_ACTIVEFAQS","Aktif SSS'ler");
 define("_ADDCATEGORY","Yeni Kategori Ekle");
 define("_QUESTIONS","Sorular ve Cevaplar");
 define("_ADDQUESTION","Yeni Soru Ekle");
 define("_QUESTION","Soru");
 define("_ANSWER","Cevap");
-define("_EDITCATEGORY","Kategori Düzenle");
-define("_EDITQUESTIONS","Soru ve Cevaplarý Düzenle");
-define("_FAQDELWARNING","UYARI: Bu SSS ve tüm içeriðini silmek istediðinizden emin misiniz?");
-define("_QUESTIONDEL","UYARI: Bu soruyu silmek istediðinizden emin misiniz?");
+define("_EDITCATEGORY","Kategori DÃ¼zenle");
+define("_EDITQUESTIONS","Soru ve CevaplarÄ± DÃ¼zenle");
+define("_FAQDELWARNING","UYARI: Bu SSS ve tÃ¼m iÃ§eriÄŸini silmek istediÄŸinizden emin misiniz?");
+define("_QUESTIONDEL","UYARI: Bu soruyu silmek istediÄŸinizden emin misiniz?");
 define("_LANGUAGE","Dil");
 
 

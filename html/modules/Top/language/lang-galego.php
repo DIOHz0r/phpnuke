@@ -17,22 +17,22 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","CategorÌa");
+define("_CATEGORY","Categor√≠a");
 define("_LVOTES","Votos");
 define("_HITS","Hits");
-define("_TOPWELCOME","Benvido Û TOP de");
-define("_READSTORIES","primeiras noticias m·is lÌdas");
-define("_COMMENTEDSTORIES","primeiras noticias m·is comentadas");
-define("_ACTIVECAT","categorÌas m·is activas");
-define("_READSECTION","primeiros artigos m·is lÌdos nas secciÛns especiales");
-define("_NEWSSUBMITTERS","primeiros usuarios que m·is noticias envÌan e se publican");
+define("_TOPWELCOME","Benvido √≥ TOP de");
+define("_READSTORIES","primeiras noticias m√°is l√≠das");
+define("_COMMENTEDSTORIES","primeiras noticias m√°is comentadas");
+define("_ACTIVECAT","categor√≠as m√°is activas");
+define("_READSECTION","primeiros artigos m√°is l√≠dos nas secci√≥ns especiales");
+define("_NEWSSUBMITTERS","primeiros usuarios que m√°is noticias env√≠an e se publican");
 define("_NEWSSENT","noticias enviadas");
-define("_VOTEDPOLLS","primeiras enquisas m·is votadas");
-define("_MOSTACTIVEAUTHORS","autores m·is activos");
+define("_VOTEDPOLLS","primeiras enquisas m√°is votadas");
+define("_MOSTACTIVEAUTHORS","autores m√°is activos");
 define("_NEWSPUBLISHED","noticias publicadas");
-define("_READREVIEWS","reseÒas m·is leÌdas");
-define("_DOWNLOADEDFILES","arquivos m·is descargados");
-define("_MOSTREADPAGES","p·xinas m·is lidas");
+define("_READREVIEWS","rese√±as m√°is le√≠das");
+define("_DOWNLOADEDFILES","arquivos m√°is descargados");
+define("_MOSTREADPAGES","p√°xinas m√°is lidas");
 define("_MOSTVOTEDSTORIES","most voted stories");
 define("_POINTS","points");
 define("_BESTRATEDSTORIES","best rated stories (based on 5 maximun points)");

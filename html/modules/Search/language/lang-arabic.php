@@ -17,49 +17,49 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ALLTOPICS","ฬใํฺ วแใๆวึํฺ");
-define("_NOCOMMENTS","แว ํๆฬฯ สฺแํÞวส");
-define("_UCOMMENT","สฺแํÞ");
-define("_REVIEWS","ใัวฬฺษ");
-define("_SEARCHUSERS","วแศอห Ýํ ใแÝ วแรฺึวม");
-define("_SEARCHSECTIONS","วแศอห Ýํ วแรÞำวใ วแฮวีษ");
-define("_SEARCHREVIEWS","วแศอห Ýํ วแใัวฬฺวส");
-define("_SEARCHIN","วแศอห Ýํ");
-define("_ARTICLES","วแใÞวแวส");
-define("_ALLAUTHORS","ฬใํฺ วแ฿สวศ");
-define("_ALL","วแฬใํฺ");
-define("_WEEK","รำศๆฺ");
-define("_WEEKS","รำวศํฺ");
-define("_MONTH","ิๅั");
-define("_MONTHS","ิๅๆั");
-define("_SEARCHON","วแศอห ฺไ:");
-define("_SSTORIES","วแใÞวแวส");
-define("_SSECTIONS","วแรÞำวใ");
-define("_SUSERS","วแใำสฮฯใๆไ");
-define("_NOMATCHES","แว ํๆฬฯ ไสวฦฬ แแศอห");
-define("_PREVMATCHES","วแไสวฦฬ วแำวศÞษ");
-define("_NEXTMATCHES","วแไสวฦฬ วแแวอÞษ");
-define("_INSECTION","ใÞวแ Ýํ วแÞำใ");
-define("_NONAME","แใ ํสใ วฯฮวแ วำใ");
-define("_SCOMMENTS","สฺแํÞวส");
-define("_SEARCHRESULTS","ไสวฦฬ วแศอห");
-define("_CONTRIBUTEDBY","อััส ศๆวำุษ");
-define("_UCOMMENTS","สฺแํÞวส");
-define("_MATCHTITLE","ใุวศÞษ วแฺไๆวไ");
-define("_MATCHTEXT","ใุวศÞษ ไี วแใÞวแ");
-define("_MATCHBOTH","ใุวศÞษ ไี วแใÞวแ ๆวแฺไๆวไ");
-define("_SREPLY","วแัฯ");
-define("_SREPLIES","วแัฯๆฯ");
-define("_ATTACHART","ใัÝÞวส วแใÞวแ");
-define("_PAGES","ีÝอวส");
-define("_REVIEWSCORE","สÞํํใ ๅะๅ วแใัวฬฺษ");
-define("_PAGE","ีÝอษ");
-define("_DOWNLOADS","วแศัวใฬ");
-define("_WEBLINKS","ฯแํแ วแใๆวÞฺ");
-define("_FINDMORE","... าํวฯษ");
-define("_DIDNOTFIND","แใ สฬฯ ใวสศอห ฺไๅฟ");
-define("_ENCYCLOPEDIA","วแใๆำๆฺษ");
-define("_SEARCHINSTORY","วแศอห Ýํ ฬใํฺ วแสฺแํÞวส Ýํ วแใÞวแวส:");
+define("_ALLTOPICS","ุฌู…ูุน ุงูู…ูุงุถูุน");
+define("_NOCOMMENTS","ูุง ููุฌุฏ ุชุนูููุงุช");
+define("_UCOMMENT","ุชุนููู");
+define("_REVIEWS","ู…ุฑุงุฌุนุฉ");
+define("_SEARCHUSERS","ุงูุจุญุซ ูู ู…ูู ุงูุฃุนุถุงุก");
+define("_SEARCHSECTIONS","ุงูุจุญุซ ูู ุงูุฃูุณุงู… ุงูุฎุงุตุฉ");
+define("_SEARCHREVIEWS","ุงูุจุญุซ ูู ุงูู…ุฑุงุฌุนุงุช");
+define("_SEARCHIN","ุงูุจุญุซ ูู");
+define("_ARTICLES","ุงูู…ูุงูุงุช");
+define("_ALLAUTHORS","ุฌู…ูุน ุงููุชุงุจ");
+define("_ALL","ุงูุฌู…ูุน");
+define("_WEEK","ุฃุณุจูุน");
+define("_WEEKS","ุฃุณุงุจูุน");
+define("_MONTH","ุดูุฑ");
+define("_MONTHS","ุดููุฑ");
+define("_SEARCHON","ุงูุจุญุซ ุนู:");
+define("_SSTORIES","ุงูู…ูุงูุงุช");
+define("_SSECTIONS","ุงูุฃูุณุงู…");
+define("_SUSERS","ุงูู…ุณุชุฎุฏู…ูู");
+define("_NOMATCHES","ูุง ููุฌุฏ ูุชุงุฆุฌ ููุจุญุซ");
+define("_PREVMATCHES","ุงููุชุงุฆุฌ ุงูุณุงุจูุฉ");
+define("_NEXTMATCHES","ุงููุชุงุฆุฌ ุงููุงุญูุฉ");
+define("_INSECTION","ู…ูุงู ูู ุงููุณู…");
+define("_NONAME","ูู… ูุชู… ุงุฏุฎุงู ุงุณู…");
+define("_SCOMMENTS","ุชุนูููุงุช");
+define("_SEARCHRESULTS","ูุชุงุฆุฌ ุงูุจุญุซ");
+define("_CONTRIBUTEDBY","ุญุฑุฑุช ุจูุงุณุทุฉ");
+define("_UCOMMENTS","ุชุนูููุงุช");
+define("_MATCHTITLE","ู…ุทุงุจูุฉ ุงูุนููุงู");
+define("_MATCHTEXT","ู…ุทุงุจูุฉ ูุต ุงูู…ูุงู");
+define("_MATCHBOTH","ู…ุทุงุจูุฉ ูุต ุงูู…ูุงู ูุงูุนููุงู");
+define("_SREPLY","ุงูุฑุฏ");
+define("_SREPLIES","ุงูุฑุฏูุฏ");
+define("_ATTACHART","ู…ุฑููุงุช ุงูู…ูุงู");
+define("_PAGES","ุตูุญุงุช");
+define("_REVIEWSCORE","ุชูููู… ูุฐู ุงูู…ุฑุงุฌุนุฉ");
+define("_PAGE","ุตูุญุฉ");
+define("_DOWNLOADS","ุงูุจุฑุงู…ุฌ");
+define("_WEBLINKS","ุฏููู ุงูู…ูุงูุน");
+define("_FINDMORE","... ุฒูุงุฏุฉ");
+define("_DIDNOTFIND","ูู… ุชุฌุฏ ู…ุงุชุจุญุซ ุนููุ");
+define("_ENCYCLOPEDIA","ุงูู…ูุณูุนุฉ");
+define("_SEARCHINSTORY","ุงูุจุญุซ ูู ุฌู…ูุน ุงูุชุนูููุงุช ูู ุงูู…ูุงูุงุช:");
 define("_SEARCHCHARACTERS","<center><b>Search System Error</b><br><br>Your query should be at least 3 characters long to be processed.<br>Please, fix the problem and try again...</center>");
 
 ?>

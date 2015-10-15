@@ -18,20 +18,20 @@
 /**************************************************************************/
 
 
-define("_SAVECHANGES","Αποθήκευση Αλλαγών");
-define("_TO","Προς");
-define("_DESCRIPTION","Περιγραφή");
-define("_TITLE","Τίτλος");
-define("_FUNCTIONS","Λειτουργίες");
-define("_PAGEBREAK","Αν έχετε πολλαπλές σελίδες μπορείτε να σημειώσετε <b>[--pagebreak--]</b> στο σημείο που θέλετε να εισαχθεί μια διακοπή σελίδας.");
-define("_YES","Ναι");
-define("_NO","Οχι");
-define("_SEND","Αποστολή");
-define("_ACTIVE","Ενεργό");
-define("_DEACTIVATE","Απενεργοποίηση");
-define("_INACTIVE","Απενεργοποιημένο");
-define("_ACTIVATE","Ενεργοποίηση");
-define("_ADD","Προσθήκη ");
+define("_SAVECHANGES","Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ· Ξ‘Ξ»Ξ»Ξ±Ξ³ΟΞ½");
+define("_TO","Ξ ΟΞΏΟ‚");
+define("_DESCRIPTION","Ξ ΞµΟΞΉΞ³ΟΞ±Ο†Ξ®");
+define("_TITLE","Ξ¤Ξ―Ο„Ξ»ΞΏΟ‚");
+define("_FUNCTIONS","Ξ›ΞµΞΉΟ„ΞΏΟ…ΟΞ³Ξ―ΞµΟ‚");
+define("_PAGEBREAK","Ξ‘Ξ½ Ξ­Ο‡ΞµΟ„Ξµ Ο€ΞΏΞ»Ξ»Ξ±Ο€Ξ»Ξ­Ο‚ ΟƒΞµΞ»Ξ―Ξ΄ΞµΟ‚ ΞΌΟ€ΞΏΟΞµΞ―Ο„Ξµ Ξ½Ξ± ΟƒΞ·ΞΌΞµΞΉΟΟƒΞµΟ„Ξµ <b>[--pagebreak--]</b> ΟƒΟ„ΞΏ ΟƒΞ·ΞΌΞµΞ―ΞΏ Ο€ΞΏΟ… ΞΈΞ­Ξ»ΞµΟ„Ξµ Ξ½Ξ± ΞµΞΉΟƒΞ±Ο‡ΞΈΞµΞ― ΞΌΞΉΞ± Ξ΄ΞΉΞ±ΞΊΞΏΟ€Ξ® ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚.");
+define("_YES","ΞΞ±ΞΉ");
+define("_NO","ΞΟ‡ΞΉ");
+define("_SEND","Ξ‘Ο€ΞΏΟƒΟ„ΞΏΞ»Ξ®");
+define("_ACTIVE","Ξ•Ξ½ΞµΟΞ³Ο");
+define("_DEACTIVATE","Ξ‘Ο€ΞµΞ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·");
+define("_INACTIVE","Ξ‘Ο€ΞµΞ½ΞµΟΞ³ΞΏΟ€ΞΏΞΉΞ·ΞΌΞ­Ξ½ΞΏ");
+define("_ACTIVATE","Ξ•Ξ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·");
+define("_ADD","Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞ· ");
 define("_LANGUAGE","Language");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_ENCYCLOPEDIAMANAGER","Encyclopedia Manager");

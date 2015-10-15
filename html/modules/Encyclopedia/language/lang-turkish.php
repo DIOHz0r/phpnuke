@@ -4,39 +4,39 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_PREVIOUS","Önceki Sayfa");
+define("_PREVIOUS","Ã–nceki Sayfa");
 define("_NEXT","Sonraki Sayfa");
-define("_SEARCHRESULTS","Arama Sonuçlarý");
+define("_SEARCHRESULTS","Arama SonuÃ§larÄ±");
 define("_PAGE","Sayfa");
-define("_RETURNTO","Geri Dön:");
-define("_DEACTIVATE","Pasifleþtir");
-define("_ACTIVATE","Etkinleþtir");
+define("_RETURNTO","Geri DÃ¶n:");
+define("_DEACTIVATE","PasifleÅŸtir");
+define("_ACTIVATE","EtkinleÅŸtir");
 define("_ENCYCLOPEDIA","Ansiklopedi");
-define("_NOCONTENTFORLETTER","Üzgünüm, bu harf için içerik mevcut deðil");
-define("_ENCYSELECTLETTER","Terimleri görmek için lütfen listeden bir harf seçin:");
-define("_COPYRIGHT","Telif Hakký");
-define("_YOURADMINENCY","Yöneticisiniz, bu ansiklopedi aktif deðil!");
-define("_ENCYNOTACTIVE","Üzgünüm, bu ansiklopedi þu an aktif deðil.");
+define("_NOCONTENTFORLETTER","ÃœzgÃ¼nÃ¼m, bu harf iÃ§in iÃ§erik mevcut deÄŸil");
+define("_ENCYSELECTLETTER","Terimleri gÃ¶rmek iÃ§in lÃ¼tfen listeden bir harf seÃ§in:");
+define("_COPYRIGHT","Telif HakkÄ±");
+define("_YOURADMINENCY","YÃ¶neticisiniz, bu ansiklopedi aktif deÄŸil!");
+define("_ENCYNOTACTIVE","ÃœzgÃ¼nÃ¼m, bu ansiklopedi ÅŸu an aktif deÄŸil.");
 define("_AVAILABLEENCYLIST","Ansiklopedi Listesi:");
-define("_YOURADMININACTIVELIST","Yöneticisiniz: pasif ansiklopedilerin listesi aþaðýdadýr:");
-define("_NORESULTSTEXT","Terim metninde sonuç bulunamadý...");
-define("_NORESULTSTITLE","Terim baþlýðýnda sonuç bulunamadý...");
-define("_SEARCHRESULTSFOR","Arama Sonuçlarý:");
-define("_SEARCHNOTCOMPLETE","Arama seçenekleri eksik. Lütfen tekrar deneyin.");
-define("_RESULTSINTERMTITLE","Terim baþlýðýnda sonuçlar:");
-define("_RESULTSINTERMTEXT","Terim metninde sonuçlar:");
+define("_YOURADMININACTIVELIST","YÃ¶neticisiniz: pasif ansiklopedilerin listesi aÅŸaÄŸÄ±dadÄ±r:");
+define("_NORESULTSTEXT","Terim metninde sonuÃ§ bulunamadÄ±...");
+define("_NORESULTSTITLE","Terim baÅŸlÄ±ÄŸÄ±nda sonuÃ§ bulunamadÄ±...");
+define("_SEARCHRESULTSFOR","Arama SonuÃ§larÄ±:");
+define("_SEARCHNOTCOMPLETE","Arama seÃ§enekleri eksik. LÃ¼tfen tekrar deneyin.");
+define("_RESULTSINTERMTITLE","Terim baÅŸlÄ±ÄŸÄ±nda sonuÃ§lar:");
+define("_RESULTSINTERMTEXT","Terim metninde sonuÃ§lar:");
 
 ?>

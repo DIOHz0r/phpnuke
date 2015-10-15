@@ -1,4 +1,4 @@
 // Greek lang variables by Jacaranda Bill
 
-tinyMCELang['lang_iespell_desc'] = 'Ορθογραφικός έλεγχος';
-tinyMCELang['lang_iespell_download'] = "Το πρόγραμμα ieSpell δεν βρέθηκε. Πατήστε OK για να μεταβείτε στην ιστοσελίδα λήψης του προγράμματος."
+tinyMCELang['lang_iespell_desc'] = 'ΞΟΞΈΞΏΞ³ΟΞ±Ο†ΞΉΞΊΟΟ‚ Ξ­Ξ»ΞµΞ³Ο‡ΞΏΟ‚';
+tinyMCELang['lang_iespell_download'] = "Ξ¤ΞΏ Ο€ΟΟΞ³ΟΞ±ΞΌΞΌΞ± ieSpell Ξ΄ΞµΞ½ Ξ²ΟΞ­ΞΈΞ·ΞΊΞµ. Ξ Ξ±Ο„Ξ®ΟƒΟ„Ξµ OK Ξ³ΞΉΞ± Ξ½Ξ± ΞΌΞµΟ„Ξ±Ξ²ΞµΞ―Ο„Ξµ ΟƒΟ„Ξ·Ξ½ ΞΉΟƒΟ„ΞΏΟƒΞµΞ»Ξ―Ξ΄Ξ± Ξ»Ξ®ΟΞ·Ο‚ Ο„ΞΏΟ… Ο€ΟΞΏΞ³ΟΞ¬ΞΌΞΌΞ±Ο„ΞΏΟ‚."

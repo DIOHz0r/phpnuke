@@ -19,14 +19,14 @@
 
 define("_PREVIOUS","Forrige side");
 define("_NEXT","Neste side");
-define("_SEARCHRESULTS","Søkeresultat");
+define("_SEARCHRESULTS","SÃ¸keresultat");
 define("_PAGE","Side");
-define("_RETURNTO","Gå tilbake til");
+define("_RETURNTO","GÃ¥ tilbake til");
 define("_DEACTIVATE","Deaktiver");
 define("_ACTIVATE","Aktiver");
 define("_ENCYCLOPEDIA","Oppslagsverk");
 define("_NOCONTENTFORLETTER","Beklager, det er ikke innhold for bokstaven");
-define("_ENCYSELECTLETTER","Velg en bokstav fra listen for å se termene:");
+define("_ENCYSELECTLETTER","Velg en bokstav fra listen for Ã¥ se termene:");
 define("_COPYRIGHT","Copyright");
 define("_YOURADMINENCY","Du er administrator, dette oppslagsverket er ikke aktivt!");
 define("_ENCYNOTACTIVE","Beklager, dette oppslagsverket er ikke aktivt!");
@@ -34,8 +34,8 @@ define("_AVAILABLEENCYLIST","Liste over tilgjengelige oppslagsverk i");
 define("_YOURADMININACTIVELIST","Du er administrator, her er listen over inaktive oppslagsverk:");
 define("_NORESULTSTEXT","Ingen resultat i termens tekst...");
 define("_NORESULTSTITLE","Ingen resultat i termens tittel...");
-define("_SEARCHRESULTSFOR","Søkeresultat for:");
-define("_SEARCHNOTCOMPLETE","Søkevalgene er ikke komplette. Prøv igjen.");
+define("_SEARCHRESULTSFOR","SÃ¸keresultat for:");
+define("_SEARCHNOTCOMPLETE","SÃ¸kevalgene er ikke komplette. PrÃ¸v igjen.");
 define("_RESULTSINTERMTITLE","Resultat i termenes tittel:");
 define("_RESULTSINTERMTEXT","Resultat i termenes tekst:");
 

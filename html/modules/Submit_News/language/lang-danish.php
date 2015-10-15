@@ -12,7 +12,7 @@
 /* ICQ:	155265588                                                     */
 /* Webside:	www.Sjove-Film.dk - HitsMaskinen.dk - FilmCentralen.dk        */
 /*                                                                        */
-/* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
+/* Hvis de finder fejl mÃ¥ og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
 define("_PRINTER","Printervenlig side");
@@ -25,36 +25,36 @@ define("_HTMLFORMATED","HTML-formateret");
 define("_PLAINTEXT","Almindelig tekstformat");
 define("_ARTICLES","Artikler");
 define("_SUBMITNEWS","Indsend artikel");
-define("_SUBMITADVICE","Skriv din artikel ved at udfylde nedenstående felter og kontroller dit indlæg.<br>Det er ikke alle indlæg der vil blive publiceret.<br>Dit indlæg vil blive kontrolleret for stavning og tegnsætning og bliver måske redigeret af vores team.");
+define("_SUBMITADVICE","Skriv din artikel ved at udfylde nedenstÃ¥ende felter og kontroller dit indlÃ¦g.<br>Det er ikke alle indlÃ¦g der vil blive publiceret.<br>Dit indlÃ¦g vil blive kontrolleret for stavning og tegnsÃ¦tning og bliver mÃ¥ske redigeret af vores team.");
 define("_SUBTITLE","Overskrift");
-define("_BEDESCRIPTIVE","Vær kort og præcis");
-define("_BADTITLES","dårlig overskrift='Tjek det her!' eller 'En artikel'");
-define("_HTMLISFINE","Du må gerne bruge HTML-koder, men vær sikker på, at de er i orden og kontroller dem en ekstra gang!");
-define("_AREYOUSURE","Har du angivet en internetadresse? Testede du for slå- og stavefejl?");
-define("_SUBPREVIEW","Du skal gennemse artiklen mindst én gang før du gemmer");
-define("_SELECTTOPIC","Vælg emne");
+define("_BEDESCRIPTIVE","VÃ¦r kort og prÃ¦cis");
+define("_BADTITLES","dÃ¥rlig overskrift='Tjek det her!' eller 'En artikel'");
+define("_HTMLISFINE","Du mÃ¥ gerne bruge HTML-koder, men vÃ¦r sikker pÃ¥, at de er i orden og kontroller dem en ekstra gang!");
+define("_AREYOUSURE","Har du angivet en internetadresse? Testede du for slÃ¥- og stavefejl?");
+define("_SUBPREVIEW","Du skal gennemse artiklen mindst Ã©n gang fÃ¸r du gemmer");
+define("_SELECTTOPIC","VÃ¦lg emne");
 define("_NEWSUBPREVIEW","Gennemse tekst");
-define("_STORYLOOK","Din artikel vil se nogenlunde sådan ud:");
-define("_CHECKSTORY","Vær venlig at kontrollere tekst, links osv. før du sender dit indlæg!");
+define("_STORYLOOK","Din artikel vil se nogenlunde sÃ¥dan ud:");
+define("_CHECKSTORY","VÃ¦r venlig at kontrollere tekst, links osv. fÃ¸r du sender dit indlÃ¦g!");
 define("_THANKSSUB","Tak for dit bidrag!");
 define("_SUBSENT","Din artikel er modtaget...");
-define("_SUBTEXT","Vi vil gennemse dit indlæg snarest, hvis det er interessant og relevant, vil vi publicere det snarest.");
+define("_SUBTEXT","Vi vil gennemse dit indlÃ¦g snarest, hvis det er interessant og relevant, vil vi publicere det snarest.");
 define("_WEHAVESUB","Lige nu er der");
-define("_WAITING","indlæg der venter på at blive publiceret.");
+define("_WAITING","indlÃ¦g der venter pÃ¥ at blive publiceret.");
 define("_PREVIEW","Gennemse");
 define("_NEWUSER","Ny bruger");
 define("_USCORE","Score");
 define("_DATE","Dato");
 define("_STORYTEXT","Manchet");
-define("_EXTENDEDTEXT","Brødtekst");
+define("_EXTENDEDTEXT","BrÃ¸dtekst");
 define("_LANGUAGE","Language");
-define("_SELECTMONTH2VIEW","Vær venlig at vælge den måned de vil se:");
+define("_SELECTMONTH2VIEW","VÃ¦r venlig at vÃ¦lge den mÃ¥ned de vil se:");
 define("_SHOWALLSTORIES","Vis ALLE historier");
 define("_STORIESARCHIVE","Historie arkiv");
 define("_ACTIONS","Handlinger");
 define("_ARCHIVESINDEX","Historie arkivs startside");
 define("_ALLSTORIESARCH","Alle historier");
-define("_NEXTPAGE","Næste side");
+define("_NEXTPAGE","NÃ¦ste side");
 define("_PREVIOUSPAGE","Forrige side");
 
 ?>

@@ -18,6 +18,6 @@
 /**************************************************************************/
 
 define("_ACTIVETOPICS","Aktive emner");
-define("_CLICK2LIST","Trykk på emne for å se oversikt over alle artikler");
+define("_CLICK2LIST","Trykk pÃ¥ emne for Ã¥ se oversikt over alle artikler");
 
 ?>

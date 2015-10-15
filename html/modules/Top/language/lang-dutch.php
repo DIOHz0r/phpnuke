@@ -23,7 +23,7 @@ define("_HITS","Hits:");
 define("_TOPWELCOME","Welkom op de TOP pagina van ");
 define("_READSTORIES","vaakst gelezen verhalen");
 define("_COMMENTEDSTORIES","vaakst gecommentarieerde verhalen");
-define("_ACTIVECAT","meest actieve categorieën");
+define("_ACTIVECAT","meest actieve categorieÃ«n");
 define("_READSECTION","vaakst gelezen artikelen in speciale secties");
 define("_NEWSSUBMITTERS","meest actieve nieuws-inzenders");
 define("_NEWSSENT","nieuws ingezonden");

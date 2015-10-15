@@ -18,40 +18,40 @@
 /**************************************************************************/
 
 
-define("_SEND","รัำแ");
-define("_FUNCTIONS","วแฯๆวแ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_PAGEBREAK","วะว รัฯส ีÝอวส ใสฺฯฯษ Ýลไ฿ สำสุํฺ รไ ส฿สศ  <b>[--pagebreak--]</b> Ýํ ใ฿วไ วแÝีแ.");
-define("_DESCRIPTION","วแๆีÝ");
-define("_TO","วแ์");
-define("_TITLE","วแฺไๆวไ");
-define("_ACTIVE","ไิํุ");
-define("_DEACTIVATE","สฺุํแ");
-define("_INACTIVE","ใฺุแ");
-define("_ACTIVATE","สไิํุ");
-define("_ADD","รึÝ");
-define("_LANGUAGE","วแแÛษ");
-define("_ENCYCLOPEDIA","วแใๆำๆฺวส");
-define("_ENCYCLOPEDIAMANAGER","วแสอ฿ใ Ýํ วแใๆำๆฺษ");
-define("_DELENCYCLOPEDIA","วอะÝ วแใๆำๆฺษ");
-define("_DELENCYCONTWARNING","ๅแ รไส ใสร฿๘ฯ รไ๘฿ สัํฯ รไ สอะÝ ๅะๅ วแใๆำๆฺษ ๆ ฿แ๘ ใอสๆวๅว ?");
-define("_DELENCYCLOPEDIATEXT","อะÝ ใีุแอวส วแใๆำๆฺษ");
-define("_DELENCYTEXTWARNING","ๅแ รไส ใสร฿๘ฯ รไ๘฿ สัํฯ รไ สอะÝ ๅะว วแใีุแอ ?");
-define("_CURRENTSTATUS","วแๆึฺ วแอวแํ");
-define("_ACTIVATEPAGE","สไิํุ ๅะๅ วแีÝอษฟ");
-define("_TERMS","วแใีุแอวส");
-define("_ADDNEWENCYCLOPEDIA","รึÝ ใๆำๆฺษ ฬฯํฯษ");
-define("_ADDNEWENCYTERM","รึÝ ใีุแอ แแใๆำๆฺษ");
-define("_TERMTEXT","ไี วแใีุแอ");
-define("_MOVETERMS","ไÞแ วแใีุแอวส");
-define("_MOVEALLTERMSFROM","ไÞแ ฿แ๘ วแใีุแอวส ใไ");
-define("_EDITENCYCLOPEDIA","สฺฯํแ วแใๆำๆฺษ");
-define("_ENCYTERMSEDIT","สไÞํอ ใีุแอวส วแใๆำๆฺษ");
-define("_SELECTONETERM","ใไ Ýึแ฿ วฮสั ใีุแอ ๆวอฯ ใไ วแÞวฦใษ วแส๘วแํษ:");
-define("_NOCONTENTFORLETTER","ฺÝๆวก แว ํๆฬฯ ใอสๆํวส แแัำวแษ");
-define("_CHANGETOENCY","สÛํ๘ั ลแ์ วแใๆำๆฺษ");
+define("_SEND","ุฃุฑุณู");
+define("_FUNCTIONS","ุงูุฏูุงู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_PAGEBREAK","ุงุฐุง ุฃุฑุฏุช ุตูุญุงุช ู…ุชุนุฏุฏุฉ ูุฅูู ุชุณุชุทูุน ุฃู ุชูุชุจ  <b>[--pagebreak--]</b> ูู ู…ูุงู ุงููุตู.");
+define("_DESCRIPTION","ุงููุตู");
+define("_TO","ุงูู");
+define("_TITLE","ุงูุนููุงู");
+define("_ACTIVE","ูุดูุท");
+define("_DEACTIVATE","ุชุนุทูู");
+define("_INACTIVE","ู…ุนุทู");
+define("_ACTIVATE","ุชูุดูุท");
+define("_ADD","ุฃุถู");
+define("_LANGUAGE","ุงููุบุฉ");
+define("_ENCYCLOPEDIA","ุงูู…ูุณูุนุงุช");
+define("_ENCYCLOPEDIAMANAGER","ุงูุชุญูู… ูู ุงูู…ูุณูุนุฉ");
+define("_DELENCYCLOPEDIA","ุงุญุฐู ุงูู…ูุณูุนุฉ");
+define("_DELENCYCONTWARNING","ูู ุฃูุช ู…ุชุฃูู‘ุฏ ุฃูู‘ู ุชุฑูุฏ ุฃู ุชุญุฐู ูุฐู ุงูู…ูุณูุนุฉ ู ููู‘ ู…ุญุชูุงูุง ?");
+define("_DELENCYCLOPEDIATEXT","ุญุฐู ู…ุตุทูุญุงุช ุงูู…ูุณูุนุฉ");
+define("_DELENCYTEXTWARNING","ูู ุฃูุช ู…ุชุฃูู‘ุฏ ุฃูู‘ู ุชุฑูุฏ ุฃู ุชุญุฐู ูุฐุง ุงูู…ุตุทูุญ ?");
+define("_CURRENTSTATUS","ุงููุถุน ุงูุญุงูู");
+define("_ACTIVATEPAGE","ุชูุดูุท ูุฐู ุงูุตูุญุฉุ");
+define("_TERMS","ุงูู…ุตุทูุญุงุช");
+define("_ADDNEWENCYCLOPEDIA","ุฃุถู ู…ูุณูุนุฉ ุฌุฏูุฏุฉ");
+define("_ADDNEWENCYTERM","ุฃุถู ู…ุตุทูุญ ููู…ูุณูุนุฉ");
+define("_TERMTEXT","ูุต ุงูู…ุตุทูุญ");
+define("_MOVETERMS","ููู ุงูู…ุตุทูุญุงุช");
+define("_MOVEALLTERMSFROM","ููู ููู‘ ุงูู…ุตุทูุญุงุช ู…ู");
+define("_EDITENCYCLOPEDIA","ุชุนุฏูู ุงูู…ูุณูุนุฉ");
+define("_ENCYTERMSEDIT","ุชูููุญ ู…ุตุทูุญุงุช ุงูู…ูุณูุนุฉ");
+define("_SELECTONETERM","ู…ู ูุถูู ุงุฎุชุฑ ู…ุตุทูุญ ูุงุญุฏ ู…ู ุงููุงุฆู…ุฉ ุงูุชู‘ุงููุฉ:");
+define("_NOCONTENTFORLETTER","ุนููุงุ ูุง ููุฌุฏ ู…ุญุชููุงุช ููุฑุณุงูุฉ");
+define("_CHANGETOENCY","ุชุบูู‘ุฑ ุฅูู ุงูู…ูุณูุนุฉ");
 
 
 ?>

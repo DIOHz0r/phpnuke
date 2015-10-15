@@ -17,34 +17,34 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","¤Íµ½¦C¦L®æ¦¡");
-define("_FRIEND","±Hµ¹ªB¤Í");
+define("_PRINTER","å‹å–„åˆ—å°æ ¼å¼");
+define("_FRIEND","å¯„çµ¦æœ‹å‹");
 
 
 
-define("_ARTICLES","¤å³¹");
-define("_USCORE","¤À¼Æ");
-define("_DATE","¤é´Á");
-define("_JANUARY","¤@¤ë");
-define("_FEBRUARY","¤G¤ë");
-define("_MARCH","¤T¤ë");
-define("_APRIL","¥|¤ë");
-define("_MAY","¤­¤ë");
-define("_JUNE","¤»¤ë");
-define("_JULY","¤C¤ë");
-define("_AUGUST","¤K¤ë");
-define("_SEPTEMBER","¤E¤ë");
-define("_OCTOBER","¤Q¤ë");
-define("_NOVEMBER","¤Q¤@¤ë");
-define("_DECEMBER","¤Q¤G¤ë");
-define("_SELECTMONTH2VIEW","½Ð¿ï¾Ü±z­n¬Ýªº¤ë¥÷:");
-define("_SHOWALLSTORIES","Åã¥Ü©Ò¦³ªº¤å³¹");
-define("_STORIESARCHIVE","¤å³¹¸ê®Æ®w");
-define("_ACTIONS","¦æ°Ê");
-define("_ARCHIVESINDEX","¤å³¹¸ê®Æ®w¯Á¤Þ");
-define("_ALLSTORIESARCH","©Ò¦³¤å³¹");
-define("_NEXTPAGE","¤U¤@­¶");
-define("_PREVIOUSPAGE","¤W¤@­¶");
+define("_ARTICLES","æ–‡ç« ");
+define("_USCORE","åˆ†æ•¸");
+define("_DATE","æ—¥æœŸ");
+define("_JANUARY","ä¸€æœˆ");
+define("_FEBRUARY","äºŒæœˆ");
+define("_MARCH","ä¸‰æœˆ");
+define("_APRIL","å››æœˆ");
+define("_MAY","äº”æœˆ");
+define("_JUNE","å…­æœˆ");
+define("_JULY","ä¸ƒæœˆ");
+define("_AUGUST","å…«æœˆ");
+define("_SEPTEMBER","ä¹æœˆ");
+define("_OCTOBER","åæœˆ");
+define("_NOVEMBER","åä¸€æœˆ");
+define("_DECEMBER","åäºŒæœˆ");
+define("_SELECTMONTH2VIEW","è«‹é¸æ“‡æ‚¨è¦çœ‹çš„æœˆä»½:");
+define("_SHOWALLSTORIES","é¡¯ç¤ºæ‰€æœ‰çš„æ–‡ç« ");
+define("_STORIESARCHIVE","æ–‡ç« è³‡æ–™åº«");
+define("_ACTIONS","è¡Œå‹•");
+define("_ARCHIVESINDEX","æ–‡ç« è³‡æ–™åº«ç´¢å¼•");
+define("_ALLSTORIESARCH","æ‰€æœ‰æ–‡ç« ");
+define("_NEXTPAGE","ä¸‹ä¸€é ");
+define("_PREVIOUSPAGE","ä¸Šä¸€é ");
 
 
 ?>

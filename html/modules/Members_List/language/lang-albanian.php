@@ -19,24 +19,24 @@
 
 define("_URL","URL");
 define("_EMAIL","Email");
-define("_REALNAME","Emri i Vërtetë");
+define("_REALNAME","Emri i VÃ«rtetÃ«");
 define("_FUNCTIONS","Funksione");
-define("_PREVIOUS","Faqja e Mëparshme");
-define("_MEMBERSLIST","Lista e Anëtarëve");
-define("_GREETINGS","I urojmë mirëseardhjen Anëtarit tonë të fundit të Regjistruar:");
-define("_SORTBY","Rrjeshtuar për:");
+define("_PREVIOUS","Faqja e MÃ«parshme");
+define("_MEMBERSLIST","Lista e AnÃ«tarÃ«ve");
+define("_GREETINGS","I urojmÃ« mirÃ«seardhjen AnÃ«tarit tonÃ« tÃ« fundit tÃ« Regjistruar:");
+define("_SORTBY","Rrjeshtuar pÃ«r:");
 define("_MNICKNAME","nickname");
 define("_MREALNAME","emri reale");
 define("_MEMAIL","email");
 define("_MURL","url");
-define("_ONLINEREG","Përdorues të Regjistruar Online:");
+define("_ONLINEREG","PÃ«rdorues tÃ« Regjistruar Online:");
 define("_WEHAVE","Ne kemi");
-define("_MREGISTERED","përdorues të regjistruar deri tani. Kemi");
-define("_MREGONLINE","përdorues të regjistruar tani online.");
-define("_REGSOFAR","përdorues të regjistruar deri tani.");
-define("_USERSFOUND","anëtarë të gjetur sipas");
-define("_USERSSHOWN","anëtarë të shfaqur");
-define("_NOMEMBERS","Asnjë Anëtar nuk u gjet për");
+define("_MREGISTERED","pÃ«rdorues tÃ« regjistruar deri tani. Kemi");
+define("_MREGONLINE","pÃ«rdorues tÃ« regjistruar tani online.");
+define("_REGSOFAR","pÃ«rdorues tÃ« regjistruar deri tani.");
+define("_USERSFOUND","anÃ«tarÃ« tÃ« gjetur sipas");
+define("_USERSSHOWN","anÃ«tarÃ« tÃ« shfaqur");
+define("_NOMEMBERS","AsnjÃ« AnÃ«tar nuk u gjet pÃ«r");
 define("_PAGES","Faqe");
 define("_HOMEPAGE","Home");
 

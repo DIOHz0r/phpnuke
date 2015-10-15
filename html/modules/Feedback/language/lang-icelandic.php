@@ -18,18 +18,18 @@
 /**************************************************************************/
 
 define("_SEND","Senda");
-define("_YOURNAME","Nafn þitt");
-define("_MESSAGE","Skilaboð");
-define("_YOUREMAIL","Netfangið þitt");
-define("_FEEDBACKNOTE","Allar athugasemdir og tillögur um þennan vef eru vel þegnar og eru þær mikilvægar fyrir okkur. Takk fyrir!");
-define("_FEEDBACKTITLE","Form fyrir endurgjöf");
-define("_FEEDBACK","Endurgjöf");
-define("_FBENTERNAME","VILLA: Vinsamlegast sláðu inn nafnið þitt!");
-define("_FBENTEREMAIL","VILLA: Vinsamlegast sláðu inn netfangið þitt!");
-define("_FBENTERMESSAGE","VILLA: Vinsamlegast sláðu inn skilaboð!");
+define("_YOURNAME","Nafn Ã¾itt");
+define("_MESSAGE","SkilaboÃ°");
+define("_YOUREMAIL","NetfangiÃ° Ã¾itt");
+define("_FEEDBACKNOTE","Allar athugasemdir og tillÃ¶gur um Ã¾ennan vef eru vel Ã¾egnar og eru Ã¾Ã¦r mikilvÃ¦gar fyrir okkur. Takk fyrir!");
+define("_FEEDBACKTITLE","Form fyrir endurgjÃ¶f");
+define("_FEEDBACK","EndurgjÃ¶f");
+define("_FBENTERNAME","VILLA: Vinsamlegast slÃ¡Ã°u inn nafniÃ° Ã¾itt!");
+define("_FBENTEREMAIL","VILLA: Vinsamlegast slÃ¡Ã°u inn netfangiÃ° Ã¾itt!");
+define("_FBENTERMESSAGE","VILLA: Vinsamlegast slÃ¡Ã°u inn skilaboÃ°!");
 define("_SENDEREMAIL","Netfang sendanda");
 define("_SENDERNAME","Nafn sendanda");
-define("_FBMAILSENT","Tölvupóstur hefur verið sendur!");
-define("_FBTHANKSFORCONTACT","Þakka þér fyrir að hafa haft samband við okkur");
+define("_FBMAILSENT","TÃ¶lvupÃ³stur hefur veriÃ° sendur!");
+define("_FBTHANKSFORCONTACT","Ãžakka Ã¾Ã©r fyrir aÃ° hafa haft samband viÃ° okkur");
 
 ?>

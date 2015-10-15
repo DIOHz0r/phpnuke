@@ -18,94 +18,94 @@
 /**************************************************************************/
 
 
-define("_URL","ัวศุ");
-define("_EMAIL","ศัํฯ วแ฿สัๆไํ");
-define("_FUNCTIONS","วแฯๆวแ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_CATEGORY","สีไํÝ");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_OK","ใๆวÝÞ!");
-define("_HELLO","ใัอศว");
-define("_LINKTITLE","ฺไๆวไ วแัวศุ");
+define("_URL","ุฑุงุจุท");
+define("_EMAIL","ุจุฑูุฏ ุงููุชุฑููู");
+define("_FUNCTIONS","ุงูุฏูุงู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_CATEGORY","ุชุตููู");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_OK","ู…ูุงูู!");
+define("_HELLO","ู…ุฑุญุจุง");
+define("_LINKTITLE","ุนููุงู ุงูุฑุงุจุท");
 define("_HITS","Hits");
-define("_THEREARE","ํๆฬฯ อวแํว");
-define("_DESCRIPTION","วแๆีÝ");
-define("_AUTHOR","ีวอศ วแศัไวใฬ");
-define("_NAME","ว๑ำใ");
-define("_PAGETITLE","ฺไๆวไ วแีÝอษ");
-define("_PAGEURL","วแัวศุ แแีÝอษ");
-define("_ADDURL","รึÝ ๅะว วแใๆÞฺ");
-define("_LINKID","ัÞใ วแใๆÞฺ");
-define("_WEBLINKS","ฯแํแ วแใๆวÞฺ");
-define("_TITLE","วแฺไๆวไ");
-define("_STATUS","วแอวแษ");
-define("_ADD","รึÝ");
-define("_MODIFY","สฺฯํแ");
-define("_LINKSINDB","ใๆÞฺ Ýํ Þวฺฯษ วแศํวไวส");
-define("_LINKSWAITINGVAL","ใๆวÞฺ สไสูั วแสร฿ํฯ");
-define("_SUBMITTER","วแใัำแ");
-define("_VISIT","าํวัษ");
-define("_CLEANLINKSDB","ใำอ สัิํอวส วแใๆวÞฺ");
-define("_BROKENLINKSREP","สศํแÛวส ฺไ ัๆวศุ แว สฺใแ");
-define("_LINKMODREQUEST","ุแศ สฺฯํแ ใๆÞฺ");
-define("_ADDMAINCATEGORY","รึÝ สีไํÝ ัฦํำํ");
-define("_ADDSUBCATEGORY","รึÝ สีไํÝ Ýัฺํ");
-define("_IN","Ýํ");
-define("_ADDNEWLINK","รึÝ ใๆÞฺ ฬฯํฯ");
-define("_DESCRIPTION255","ิัอ: (อฯ รÞี์ 255 อัÝ)");
-define("_MODCATEGORY","สฺฯํแ สีไํÝ");
-define("_MODLINK","สฺฯํแ ใๆÞฺ");
-define("_WEBLINKSADMIN","วแสอ฿ใ Ýํ ฯแํแ วแใๆวÞฺ");
-define("_ADDEDITORIAL","วึÝ สฺแํÞ");
-define("_EDITORIALTITLE","ฺไๆวไ วแสฺแํÞ");
-define("_EDITORIALTEXT","ไี วแสฺแํÞ");
-define("_DATEWRITTEN","สวัํฮ วแ฿สวศษ");
-define("_NOREPORTEDBROKEN","แวํๆฬฯ ัๆวศุ แว สฺใแ.");
-define("_USERREPBROKEN","ัๆวศุ แว สฺใแ รัำแส ศๆวำุษ วแใำสฮฯใํไ");
-define("_IGNOREINFO","สฬวๅแ (อะÝ <b><i>วแุแศวส</i></b> แัวศุ ใอฯฯ)");
-define("_DELETEINFO","อะÝ (อะÝ <b><i>วแัๆวศุ วแสํ แว สฺใแ</i></b> ๆ <b><i>วแุแศวส</i></b> แแัๆวศุ วแใฺุวษ)");
-define("_LINK","ัวศุ");
-define("_LINKOWNER","ีวอศ วแใๆÞฺ");
-define("_IGNORE","สฬวๅแ");
-define("_USERMODREQUEST","วำสฮฯใ ุแศ สฺฯํแ ใๆÞฺ");
-define("_ORIGINAL","วแรีแํ");
-define("_PROPOSED","ใÞสัอ");
-define("_NOMODREQUESTS","แว ํๆฬฯ ุแศ สฺฯํแ วแยไ");
-define("_SUBCATEGORY","สีไํÝ Ýัฺํ");
-define("_OWNER","ใวแ฿");
-define("_ACCEPT","Þศๆแ");
-define("_ERRORTHECATEGORY","ฮุร: วแสีไํÝ วแัฦํำํ");
-define("_ALREADYEXIST","ใๆฬๆฯ ใำศÞว!");
-define("_ERRORTHESUBCATEGORY","ฮุร: วแสีไํÝ วแÝัฺํ");
-define("_EDITORIALADDED","วึํÝส วแสฺแํÞวส วแ์ Þวฺฯษ วแศํวไวส");
-define("_EDITORIALMODIFIED","สใ สฺฯํแ วแสฺแํÞวส");
-define("_EDITORIALREMOVED","สฺแํÞวส วแใอััํไ วแÛํส ใไ Þวฺฯษ วแศํวไวส");
-define("_LINKVALIDATION","วแสอÞÞ ใไ วแัวศุ");
-define("_CHECKALLLINKS","วแสอÞÞ ใไ ฬใํฺ วแใๆวÞฺ");
-define("_CHECKCATEGORIES","วแสอÞÞ ใไ วแสีไํÝวส วแัฦํำํษ");
-define("_INCLUDESUBCATEGORIES","(สึใํไ วแสีไํÝวส วแÝัฺํษ)");
-define("_VALIDATELINKS","วแสอÞÞ ใไ วแใๆÞฺ");
-define("_FAILED","Ýิแ!");
-define("_BEPATIENT","(วแัฬวม วแลไสูวั)");
-define("_VALIDATINGCAT","วแสอÞÞ ใไ วแสีไํÝ (ๆฬใํฺ วแสีไํÝวส วแÝัฺํษ)");
-define("_VALIDATINGSUBCAT","วแสอÞÞ ใไ วแสีไํÝ วแÝัฺํ");
-define("_ERRORURLEXIST","ฮุร: ๅะว วแใๆÞฺ ใๆฬๆฯ Ýํ Þวฺฯษ วแศํวไวส!");
-define("_ERRORNOTITLE","ฮุร: ํฬศ ฿สวศษ ฺไๆวไ วแใๆÞฺ!");
-define("_ERRORNOURL","ฮุร: ํฬศ ฿สวศษ วแัวศุ แแใๆÞฺ!");
-define("_ERRORNODESCRIPTION","ฮุร: สอสวฬ แ฿สวศษ ิัอ แแใๆÞฺ!");
-define("_NEWLINKADDED","ใๆÞฺ ฬฯํฯ รึํÝ แÞวฺฯษ วแศํวไวส");
-define("_YOURLINKAT","ใๆÞฺ฿ Ýํ");
-define("_YOUCANBROWSEUS","สำสุํฺ วำสฮฯวใ ใอั฿ วแศอห วแฮวี ศไว Ýํ:");
-define("_THANKS4YOURSUBMISSION","ิ฿ัว แลัำวแ฿ วแใๆÞฺ!");
-define("_TEAM","ÝัํÞ วแฺใแ.");
-define("_EZTRANSFERLINKS","ไÞแ ฬใํฺ วแใๆวÞฺ ใไ วแÞำใ");
-define("_EZTRANSFER","ไÞแ");
-define("_DELEZLINKCATWARNING","ส๘อะํั : ๅแ รไส ใสร฿๘ฯ รไ๘฿ สัํฯ รไ สอะÝ ๅะว วแÞำใ? ำๆÝ สอะÝ ฿แ๘ วแรÞำวใ วแÝัฺํษ ๆวแใๆวÞฺ วแใสฺแÞษ ศๅ รํึ๐ว !");
-define("_EZTHEREIS","ํๆฬฯ");
-define("_EZSUBCAT","รÞำวใ Ýัฺํษ");
-define("_EZATTACHEDTOCAT","สอส ๅะว วแÞำใ");
-define("_EZBROKENLINKS","ัๆวศุ แว สฺใแ");
+define("_THEREARE","ููุฌุฏ ุญุงููุง");
+define("_DESCRIPTION","ุงููุตู");
+define("_AUTHOR","ุตุงุญุจ ุงูุจุฑูุงู…ุฌ");
+define("_NAME","ุงูุณู…");
+define("_PAGETITLE","ุนููุงู ุงูุตูุญุฉ");
+define("_PAGEURL","ุงูุฑุงุจุท ููุตูุญุฉ");
+define("_ADDURL","ุฃุถู ูุฐุง ุงูู…ููุน");
+define("_LINKID","ุฑูู… ุงูู…ููุน");
+define("_WEBLINKS","ุฏููู ุงูู…ูุงูุน");
+define("_TITLE","ุงูุนููุงู");
+define("_STATUS","ุงูุญุงูุฉ");
+define("_ADD","ุฃุถู");
+define("_MODIFY","ุชุนุฏูู");
+define("_LINKSINDB","ู…ููุน ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_LINKSWAITINGVAL","ู…ูุงูุน ุชูุชุธุฑ ุงูุชุฃููุฏ");
+define("_SUBMITTER","ุงูู…ุฑุณู");
+define("_VISIT","ุฒูุงุฑุฉ");
+define("_CLEANLINKSDB","ู…ุณุญ ุชุฑุดูุญุงุช ุงูู…ูุงูุน");
+define("_BROKENLINKSREP","ุชุจููุบุงุช ุนู ุฑูุงุจุท ูุง ุชุนู…ู");
+define("_LINKMODREQUEST","ุทูุจ ุชุนุฏูู ู…ููุน");
+define("_ADDMAINCATEGORY","ุฃุถู ุชุตููู ุฑุฆูุณู");
+define("_ADDSUBCATEGORY","ุฃุถู ุชุตููู ูุฑุนู");
+define("_IN","ูู");
+define("_ADDNEWLINK","ุฃุถู ู…ููุน ุฌุฏูุฏ");
+define("_DESCRIPTION255","ุดุฑุญ: (ุญุฏ ุฃูุตู 255 ุญุฑู)");
+define("_MODCATEGORY","ุชุนุฏูู ุชุตููู");
+define("_MODLINK","ุชุนุฏูู ู…ููุน");
+define("_WEBLINKSADMIN","ุงูุชุญูู… ูู ุฏููู ุงูู…ูุงูุน");
+define("_ADDEDITORIAL","ุงุถู ุชุนููู");
+define("_EDITORIALTITLE","ุนููุงู ุงูุชุนููู");
+define("_EDITORIALTEXT","ูุต ุงูุชุนููู");
+define("_DATEWRITTEN","ุชุงุฑูุฎ ุงููุชุงุจุฉ");
+define("_NOREPORTEDBROKEN","ูุงููุฌุฏ ุฑูุงุจุท ูุง ุชุนู…ู.");
+define("_USERREPBROKEN","ุฑูุงุจุท ูุง ุชุนู…ู ุฃุฑุณูุช ุจูุงุณุทุฉ ุงูู…ุณุชุฎุฏู…ูู");
+define("_IGNOREINFO","ุชุฌุงูู (ุญุฐู <b><i>ุงูุทูุจุงุช</i></b> ูุฑุงุจุท ู…ุญุฏุฏ)");
+define("_DELETEINFO","ุญุฐู (ุญุฐู <b><i>ุงูุฑูุงุจุท ุงูุชู ูุง ุชุนู…ู</i></b> ู <b><i>ุงูุทูุจุงุช</i></b> ููุฑูุงุจุท ุงูู…ุนุทุงุฉ)");
+define("_LINK","ุฑุงุจุท");
+define("_LINKOWNER","ุตุงุญุจ ุงูู…ููุน");
+define("_IGNORE","ุชุฌุงูู");
+define("_USERMODREQUEST","ุงุณุชุฎุฏู… ุทูุจ ุชุนุฏูู ู…ููุน");
+define("_ORIGINAL","ุงูุฃุตูู");
+define("_PROPOSED","ู…ูุชุฑุญ");
+define("_NOMODREQUESTS","ูุง ููุฌุฏ ุทูุจ ุชุนุฏูู ุงูุขู");
+define("_SUBCATEGORY","ุชุตููู ูุฑุนู");
+define("_OWNER","ู…ุงูู");
+define("_ACCEPT","ูุจูู");
+define("_ERRORTHECATEGORY","ุฎุทุฃ: ุงูุชุตููู ุงูุฑุฆูุณู");
+define("_ALREADYEXIST","ู…ูุฌูุฏ ู…ุณุจูุง!");
+define("_ERRORTHESUBCATEGORY","ุฎุทุฃ: ุงูุชุตููู ุงููุฑุนู");
+define("_EDITORIALADDED","ุงุถููุช ุงูุชุนูููุงุช ุงูู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_EDITORIALMODIFIED","ุชู… ุชุนุฏูู ุงูุชุนูููุงุช");
+define("_EDITORIALREMOVED","ุชุนูููุงุช ุงูู…ุญุฑุฑูู ุงูุบูุช ู…ู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_LINKVALIDATION","ุงูุชุญูู ู…ู ุงูุฑุงุจุท");
+define("_CHECKALLLINKS","ุงูุชุญูู ู…ู ุฌู…ูุน ุงูู…ูุงูุน");
+define("_CHECKCATEGORIES","ุงูุชุญูู ู…ู ุงูุชุตูููุงุช ุงูุฑุฆูุณูุฉ");
+define("_INCLUDESUBCATEGORIES","(ุชุถู…ูู ุงูุชุตูููุงุช ุงููุฑุนูุฉ)");
+define("_VALIDATELINKS","ุงูุชุญูู ู…ู ุงูู…ููุน");
+define("_FAILED","ูุดู!");
+define("_BEPATIENT","(ุงูุฑุฌุงุก ุงูุฅูุชุธุงุฑ)");
+define("_VALIDATINGCAT","ุงูุชุญูู ู…ู ุงูุชุตููู (ูุฌู…ูุน ุงูุชุตูููุงุช ุงููุฑุนูุฉ)");
+define("_VALIDATINGSUBCAT","ุงูุชุญูู ู…ู ุงูุชุตููู ุงููุฑุนู");
+define("_ERRORURLEXIST","ุฎุทุฃ: ูุฐุง ุงูู…ููุน ู…ูุฌูุฏ ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช!");
+define("_ERRORNOTITLE","ุฎุทุฃ: ูุฌุจ ูุชุงุจุฉ ุนููุงู ุงูู…ููุน!");
+define("_ERRORNOURL","ุฎุทุฃ: ูุฌุจ ูุชุงุจุฉ ุงูุฑุงุจุท ููู…ููุน!");
+define("_ERRORNODESCRIPTION","ุฎุทุฃ: ุชุญุชุงุฌ ููุชุงุจุฉ ุดุฑุญ ููู…ููุน!");
+define("_NEWLINKADDED","ู…ููุน ุฌุฏูุฏ ุฃุถูู ููุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_YOURLINKAT","ู…ููุนู ูู");
+define("_YOUCANBROWSEUS","ุชุณุชุทูุน ุงุณุชุฎุฏุงู… ู…ุญุฑู ุงูุจุญุซ ุงูุฎุงุต ุจูุง ูู:");
+define("_THANKS4YOURSUBMISSION","ุดูุฑุง ูุฅุฑุณุงูู ุงูู…ููุน!");
+define("_TEAM","ูุฑูู ุงูุนู…ู.");
+define("_EZTRANSFERLINKS","ููู ุฌู…ูุน ุงูู…ูุงูุน ู…ู ุงููุณู…");
+define("_EZTRANSFER","ููู");
+define("_DELEZLINKCATWARNING","ุชู‘ุญุฐูุฑ : ูู ุฃูุช ู…ุชุฃูู‘ุฏ ุฃูู‘ู ุชุฑูุฏ ุฃู ุชุญุฐู ูุฐุง ุงููุณู…? ุณูู ุชุญุฐู ููู‘ ุงูุฃูุณุงู… ุงููุฑุนูุฉ ูุงูู…ูุงูุน ุงูู…ุชุนููุฉ ุจู ุฃูุถูุง !");
+define("_EZTHEREIS","ููุฌุฏ");
+define("_EZSUBCAT","ุฃูุณุงู… ูุฑุนูุฉ");
+define("_EZATTACHEDTOCAT","ุชุญุช ูุฐุง ุงููุณู…");
+define("_EZBROKENLINKS","ุฑูุงุจุท ูุง ุชุนู…ู");
 define("_LINKAPPROVEDMSG", "Congratulations! The web link you submitted to our links database has been approved right now.");
 
 define("_OWNERISADMIN","Administration");

@@ -1,6 +1,6 @@
 // Simplified Chinese lang variables contributed by cube316 (cube316@etang.com)
 
-tinyMCELang['lang_insert_image_alt2'] = 'Í¼Æ¬±êÌâ';
-tinyMCELang['lang_insert_image_onmousemove'] = 'Ìæ´úÍ¼Ïñ'
-tinyMCELang['lang_insert_image_mouseover'] = 'Êó±êÒÆÉÏÊ±';
-tinyMCELang['lang_insert_image_mouseout'] = 'Êó±êÒÆ¿ªÊ±';
+tinyMCELang['lang_insert_image_alt2'] = 'å›¾ç‰‡æ ‡é¢˜';
+tinyMCELang['lang_insert_image_onmousemove'] = 'æ›¿ä»£å›¾åƒ'
+tinyMCELang['lang_insert_image_mouseover'] = 'é¼ æ ‡ç§»ä¸Šæ—¶';
+tinyMCELang['lang_insert_image_mouseout'] = 'é¼ æ ‡ç§»å¼€æ—¶';

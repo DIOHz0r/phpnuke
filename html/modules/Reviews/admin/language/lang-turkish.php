@@ -19,27 +19,27 @@
 
 
 define("_EMAIL","Email");
-define("_SAVECHANGES","Deðiþiklikleri Kaydet");
+define("_SAVECHANGES","DeÄŸiÅŸiklikleri Kaydet");
 define("_SCORE","Skor:");
-define("_PRODUCTTITLE","Ürün Adý");
-define("_RELATEDLINK","Ýlgili Baðlantý");
-define("_LINKTITLE","Baðlantý Baþlýðý");
+define("_PRODUCTTITLE","ÃœrÃ¼n AdÄ±");
+define("_RELATEDLINK","Ä°lgili BaÄŸlantÄ±");
+define("_LINKTITLE","BaÄŸlantÄ± BaÅŸlÄ±ÄŸÄ±");
 define("_REVIEWER","Yazan:");
-define("_REVIEWID","Ýzlenim ID");
-define("_REVIEWS","Ýzlenimler");
+define("_REVIEWID","Ä°zlenim ID");
+define("_REVIEWS","Ä°zlenimler");
 define("_DATE","Tarih");
-define("_REVADMIN","Ýncelemeler Yönetimi");
-define("_REVTITLE","Ýncelemeler Sayfasý Baþlýðý");
-define("_REVDESC","Ýncelemeler Sayfasý Tanýmý");
-define("_REVWAITING","Onay Bekleyen Ýncelemeler");
-define("_REVIMGINFO","150*150 grafiklerinizi images/reviews içinde saklayýn");
+define("_REVADMIN","Ä°ncelemeler YÃ¶netimi");
+define("_REVTITLE","Ä°ncelemeler SayfasÄ± BaÅŸlÄ±ÄŸÄ±");
+define("_REVDESC","Ä°ncelemeler SayfasÄ± TanÄ±mÄ±");
+define("_REVWAITING","Onay Bekleyen Ä°ncelemeler");
+define("_REVIMGINFO","150*150 grafiklerinizi images/reviews iÃ§inde saklayÄ±n");
 define("_TEXT","Metin");
 define("_IMAGE","Grafik");
 define("_NOREVIEW2ADD","Eklenecek inceleme yok");
-define("_ADDREVIEW","Ýnceleme Ekle");
-define("_CLICK2ADDREVIEW","Ýnceleme yazmak için týklayýn");
-define("_DELMODREVIEW","Ýnceleme Sil / Deðiþtir");
-define("_MODREVINFO","Ýnceleme silmek/deðiþtirmek için yönetici olarak <a href=\"modules.php?name=Reviews\">Ýncelemeler</a> sayfasýna girin.");
+define("_ADDREVIEW","Ä°nceleme Ekle");
+define("_CLICK2ADDREVIEW","Ä°nceleme yazmak iÃ§in tÄ±klayÄ±n");
+define("_DELMODREVIEW","Ä°nceleme Sil / DeÄŸiÅŸtir");
+define("_MODREVINFO","Ä°nceleme silmek/deÄŸiÅŸtirmek iÃ§in yÃ¶netici olarak <a href=\"modules.php?name=Reviews\">Ä°ncelemeler</a> sayfasÄ±na girin.");
 define("_LANGUAGE","Dil");
 
 

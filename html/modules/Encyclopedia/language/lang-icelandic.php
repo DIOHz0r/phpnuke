@@ -17,26 +17,26 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Fyrri síða");
-define("_NEXT","Næsta síða");
-define("_SEARCHRESULTS","Leitarniðurstöður");
-define("_PAGE","Síða");
+define("_PREVIOUS","Fyrri sÃ­Ã°a");
+define("_NEXT","NÃ¦sta sÃ­Ã°a");
+define("_SEARCHRESULTS","LeitarniÃ°urstÃ¶Ã°ur");
+define("_PAGE","SÃ­Ã°a");
 define("_RETURNTO","Fara aftur til");
-define("_DEACTIVATE","Gera óvirkan");
+define("_DEACTIVATE","Gera Ã³virkan");
 define("_ACTIVATE","Gera virkan");
-define("_ENCYCLOPEDIA","Uppsláttarrit");
-define("_NOCONTENTFORLETTER","Því miður er ekkert efni sem tenigst þessum bókstaf");
-define("_ENCYSELECTLETTER","Vinsamlegast veljið bókstaf úr eftirfarandi lista til þess að finna hugtak:");
-define("_COPYRIGHT","Höfundaréttur");
-define("_YOURADMINENCY","Þú ert kerfisstjóri: þetta uppsláttarrit er ekki virk!");
-define("_ENCYNOTACTIVE","Því miður er þetta uppsláttarrit ekki virkt núna.");
-define("_AVAILABLEENCYLIST","Listi yfir tiltæk uppsláttarrit á");
-define("_YOURADMININACTIVELIST","Þú ert kerfisstjóri: eftirfarandi er listi yfir óvirk uppsláttarrit:");
-define("_NORESULTSTEXT","Ekkert fannst við leit í skýringartexta hugtaka...");
-define("_NORESULTSTITLE","Ekkert fannst við leit í nöfnum hugtaka...");
-define("_SEARCHRESULTSFOR","Niðurstaða leitar fyrir:");
-define("_SEARCHNOTCOMPLETE","Leitarskilyrðin eru ekki heildstæð. Vinsamlegast reyndu aftur.");
-define("_RESULTSINTERMTITLE","Niðurstaða leitar í nöfnum hugtaka:");
-define("_RESULTSINTERMTEXT","Niðurstaða leitar í skýringartexta hugtaka:");
+define("_ENCYCLOPEDIA","UppslÃ¡ttarrit");
+define("_NOCONTENTFORLETTER","ÃžvÃ­ miÃ°ur er ekkert efni sem tenigst Ã¾essum bÃ³kstaf");
+define("_ENCYSELECTLETTER","Vinsamlegast veljiÃ° bÃ³kstaf Ãºr eftirfarandi lista til Ã¾ess aÃ° finna hugtak:");
+define("_COPYRIGHT","HÃ¶fundarÃ©ttur");
+define("_YOURADMINENCY","ÃžÃº ert kerfisstjÃ³ri: Ã¾etta uppslÃ¡ttarrit er ekki virk!");
+define("_ENCYNOTACTIVE","ÃžvÃ­ miÃ°ur er Ã¾etta uppslÃ¡ttarrit ekki virkt nÃºna.");
+define("_AVAILABLEENCYLIST","Listi yfir tiltÃ¦k uppslÃ¡ttarrit Ã¡");
+define("_YOURADMININACTIVELIST","ÃžÃº ert kerfisstjÃ³ri: eftirfarandi er listi yfir Ã³virk uppslÃ¡ttarrit:");
+define("_NORESULTSTEXT","Ekkert fannst viÃ° leit Ã­ skÃ½ringartexta hugtaka...");
+define("_NORESULTSTITLE","Ekkert fannst viÃ° leit Ã­ nÃ¶fnum hugtaka...");
+define("_SEARCHRESULTSFOR","NiÃ°urstaÃ°a leitar fyrir:");
+define("_SEARCHNOTCOMPLETE","LeitarskilyrÃ°in eru ekki heildstÃ¦Ã°. Vinsamlegast reyndu aftur.");
+define("_RESULTSINTERMTITLE","NiÃ°urstaÃ°a leitar Ã­ nÃ¶fnum hugtaka:");
+define("_RESULTSINTERMTEXT","NiÃ°urstaÃ°a leitar Ã­ skÃ½ringartexta hugtaka:");
 
 ?>

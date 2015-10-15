@@ -16,22 +16,22 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_PREVIOUS","Poprzednia strona");
-define("_NEXT","Nastêpna strona");
+define("_NEXT","NastÄ™pna strona");
 define("_PAGE","Strona");
 define("_DEACTIVATE","Deaktywuj");
 define("_ACTIVATE","Aktywuj");
 define("_PUBLISHEDON","Opublikowane");
 define("_PAGESLIST","Lista stron");
-define("_LISTOFCONTENT","Lista dostêpnej zawarto¶ci");
-define("_YOURADMINLIST","Jeste¶ Administratorem: oto lista nieaktywnych stron:");
+define("_LISTOFCONTENT","Lista dostÄ™pnej zawartoÅ›ci");
+define("_YOURADMINLIST","JesteÅ› Administratorem: oto lista nieaktywnych stron:");
 define("_COPYRIGHT","Prawa autorskie &copy; ");
-define("_COPYRIGHT2","Wszystkie prawa zastrze¿one.");
-define("_CONTENTCATEGORIES","Dostêpne kategorie");
+define("_COPYRIGHT2","Wszystkie prawa zastrzeÅ¼one.");
+define("_CONTENTCATEGORIES","DostÄ™pne kategorie");
 define("_NONCLASSCONT","Bez kategorii");
 
 ?>

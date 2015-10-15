@@ -18,7 +18,7 @@
 /**************************************************************************/
 
 define("_ACTIVETOPICS","Virkir efnisflokkar");
-define("_CLICK2LIST","Smelltu á efnisflokk til að sjá allar greinar í þeim flokki");
+define("_CLICK2LIST","Smelltu Ã¡ efnisflokk til aÃ° sjÃ¡ allar greinar Ã­ Ã¾eim flokki");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

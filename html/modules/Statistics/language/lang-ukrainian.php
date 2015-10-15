@@ -17,26 +17,26 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_HITS","Хітів");
-define("_BROWSERS","Браузери");
-define("_OPERATINGSYS","Операційні системи");
-define("_UNKNOWN","Невідомі");
-define("_OTHER","Інші/Невідомі");
-define("_MISCSTATS","Різноманітна статистика");
-define("_REGUSERS","Зареєстрованих користувачів:");
-define("_ACTIVEAUTHORS","Активних авторів:");
-define("_STORIESPUBLISHED","Опубліковано статей:");
-define("_SACTIVETOPICS","Активних тем:");
-define("_COMMENTSPOSTED","Прислано коментарів:");
-define("_SSPECIALSECT","Спеціальних розділів:");
-define("_ARTICLESSEC","Статей в розділах:");
-define("_LINKSINLINKS","Сайтів в каталозі ресурсів:");
-define("_LINKSCAT","Категорій в каталозі ресурсів:");
-define("_NEWSWAITING","Новин, що очікують на публікацію:");
-define("_NUKEVERSION","Версія PHP-Nuke:");
-define("_SEARCHENGINES","Пошукові машини");
-define("_BOTS","Роботи/Павуки");
-define("_STATS","Статистика");
+define("_HITS","РҐС–С‚С–РІ");
+define("_BROWSERS","Р‘СЂР°СѓР·РµСЂРё");
+define("_OPERATINGSYS","РћРїРµСЂР°С†С–Р№РЅС– СЃРёСЃС‚РµРјРё");
+define("_UNKNOWN","РќРµРІС–РґРѕРјС–");
+define("_OTHER","Р†РЅС€С–/РќРµРІС–РґРѕРјС–");
+define("_MISCSTATS","Р С–Р·РЅРѕРјР°РЅС–С‚РЅР° СЃС‚Р°С‚РёСЃС‚РёРєР°");
+define("_REGUSERS","Р—Р°СЂРµС”СЃС‚СЂРѕРІР°РЅРёС… РєРѕСЂРёСЃС‚СѓРІР°С‡С–РІ:");
+define("_ACTIVEAUTHORS","РђРєС‚РёРІРЅРёС… Р°РІС‚РѕСЂС–РІ:");
+define("_STORIESPUBLISHED","РћРїСѓР±Р»С–РєРѕРІР°РЅРѕ СЃС‚Р°С‚РµР№:");
+define("_SACTIVETOPICS","РђРєС‚РёРІРЅРёС… С‚РµРј:");
+define("_COMMENTSPOSTED","РџСЂРёСЃР»Р°РЅРѕ РєРѕРјРµРЅС‚Р°СЂС–РІ:");
+define("_SSPECIALSECT","РЎРїРµС†С–Р°Р»СЊРЅРёС… СЂРѕР·РґС–Р»С–РІ:");
+define("_ARTICLESSEC","РЎС‚Р°С‚РµР№ РІ СЂРѕР·РґС–Р»Р°С…:");
+define("_LINKSINLINKS","РЎР°Р№С‚С–РІ РІ РєР°С‚Р°Р»РѕР·С– СЂРµСЃСѓСЂСЃС–РІ:");
+define("_LINKSCAT","РљР°С‚РµРіРѕСЂС–Р№ РІ РєР°С‚Р°Р»РѕР·С– СЂРµСЃСѓСЂСЃС–РІ:");
+define("_NEWSWAITING","РќРѕРІРёРЅ, С‰Рѕ РѕС‡С–РєСѓСЋС‚СЊ РЅР° РїСѓР±Р»С–РєР°С†С–СЋ:");
+define("_NUKEVERSION","Р’РµСЂСЃС–СЏ PHP-Nuke:");
+define("_SEARCHENGINES","РџРѕС€СѓРєРѕРІС– РјР°С€РёРЅРё");
+define("_BOTS","Р РѕР±РѕС‚Рё/РџР°РІСѓРєРё");
+define("_STATS","РЎС‚Р°С‚РёСЃС‚РёРєР°");
 define("_RETURNBASICSTATS","Return to Basic Statistics");
 define("_BACKTODETSTATS","Back to Detailed Statistics");
 define("_BACKTOMAIN","Back to Main");

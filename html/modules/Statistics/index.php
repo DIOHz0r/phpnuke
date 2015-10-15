@@ -8,7 +8,7 @@
 /* http://phpnuke.org                                                   */
 /*                                                                      */
 /* Based on NukeStats Module Version 1.0                                */
-/* Copyright ©2002 by Harry Mangindaan (sens@indosat.net) and           */
+/* Copyright Â©2002 by Harry Mangindaan (sens@indosat.net) and           */
 /*                    Sudirman (sudirman@akademika.net)                 */
 /* http://www.nuketest.com                                              */
 /*                                                                      */

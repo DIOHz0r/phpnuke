@@ -31,18 +31,18 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PREVIOUS","Predchádzajúca strana");
-define("_NEXT","Nasledujúca strana");
+define("_PREVIOUS","PredchÃ¡dzajÃºca strana");
+define("_NEXT","NasledujÃºca strana");
 define("_PAGE","Strana");
-define("_DEACTIVATE","Deaktivova");
-define("_ACTIVATE","Aktivova");
-define("_PUBLISHEDON","Publikované ");
-define("_PAGESLIST","Zoznam stránok");
-define("_LISTOFCONTENT","Dostupný obsah v ");
-define("_YOURADMINLIST","Ste Administrátor. Nasleduje zoznam neaktivovaných stránok");
+define("_DEACTIVATE","DeaktivovaÅ¥");
+define("_ACTIVATE","AktivovaÅ¥");
+define("_PUBLISHEDON","PublikovanÃ© ");
+define("_PAGESLIST","Zoznam strÃ¡nok");
+define("_LISTOFCONTENT","DostupnÃ½ obsah v ");
+define("_YOURADMINLIST","Ste AdministrÃ¡tor. Nasleduje zoznam neaktivovanÃ½ch strÃ¡nok");
 define("_COPYRIGHT","Copyleft:$sitename.");
-define("_COPYRIGHT2","Všetky práva vyhradené");
-define("_CONTENTCATEGORIES","Dostupné kategórie");
-define("_NONCLASSCONT","Nekategorizovaný obsah");
+define("_COPYRIGHT2","VÅ¡etky prÃ¡va vyhradenÃ©");
+define("_CONTENTCATEGORIES","DostupnÃ© kategÃ³rie");
+define("_NONCLASSCONT","NekategorizovanÃ½ obsah");
 
 ?>

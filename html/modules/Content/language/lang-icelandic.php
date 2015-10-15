@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Fyrri síða");
-define("_NEXT","Næsta síða");
-define("_PAGE","Síða");
-define("_DEACTIVATE","Gera óvirkan");
+define("_PREVIOUS","Fyrri sÃ­Ã°a");
+define("_NEXT","NÃ¦sta sÃ­Ã°a");
+define("_PAGE","SÃ­Ã°a");
+define("_DEACTIVATE","Gera Ã³virkan");
 define("_ACTIVATE","Gera virkan");
-define("_PUBLISHEDON","Birt þann");
-define("_PAGESLIST","Listi yfir síður");
-define("_LISTOFCONTENT","Listi yfir tiltækt efni í");
-define("_YOURADMINLIST","Kerfisstjórinn þinn: eftirfarandi er listi yfir síður sem eru ekki virkar:");
-define("_COPYRIGHT","Höfundarétt &copy; á");
-define("_COPYRIGHT2","Öll réttindi áskilin.");
-define("_CONTENTCATEGORIES","Tiltækir efnisflokkar");
-define("_NONCLASSCONT","Óflokkað efni");
+define("_PUBLISHEDON","Birt Ã¾ann");
+define("_PAGESLIST","Listi yfir sÃ­Ã°ur");
+define("_LISTOFCONTENT","Listi yfir tiltÃ¦kt efni Ã­");
+define("_YOURADMINLIST","KerfisstjÃ³rinn Ã¾inn: eftirfarandi er listi yfir sÃ­Ã°ur sem eru ekki virkar:");
+define("_COPYRIGHT","HÃ¶fundarÃ©tt &copy; Ã¡");
+define("_COPYRIGHT2","Ã–ll rÃ©ttindi Ã¡skilin.");
+define("_CONTENTCATEGORIES","TiltÃ¦kir efnisflokkar");
+define("_NONCLASSCONT","Ã“flokkaÃ° efni");
 
 ?>

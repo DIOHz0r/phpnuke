@@ -20,53 +20,53 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristov„o (ord'hor) ordhor@hotmail.com				  */
+/* Rui Cristov√£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
 define("_ALLTOPICS","Todos os temas");
-define("_NOCOMMENTS","Sem Coment·rios");
-define("_UCOMMENT","Coment·rio");
-define("_REVIEWS","Revis„o");
+define("_NOCOMMENTS","Sem Coment√°rios");
+define("_UCOMMENT","Coment√°rio");
+define("_REVIEWS","Revis√£o");
 define("_SEARCHUSERS","Localizar utilizadores");
-define("_SEARCHSECTIONS","Localizar em secÁıes especiais");
-define("_SEARCHREVIEWS","Localizar em Revisıes");
+define("_SEARCHSECTIONS","Localizar em sec√ß√µes especiais");
+define("_SEARCHREVIEWS","Localizar em Revis√µes");
 define("_SEARCHIN","Localizar em");
 define("_ARTICLES","Artigos");
 define("_ALLAUTHORS","Todos os autores");
 define("_ALL","Todos");
 define("_WEEK","semana");
 define("_WEEKS","semanas");
-define("_MONTH","mÍs");
+define("_MONTH","m√™s");
 define("_MONTHS","meses");
 define("_SEARCHON","Localizar em:");
 define("_SSTORIES","Artigos");
-define("_SSECTIONS","SecÁıes");
+define("_SSECTIONS","Sec√ß√µes");
 define("_SUSERS","Utilizadores");
 define("_NOMATCHES","Nada encontrado para");
 define("_PREVMATCHES","registos anteriores");
-define("_NEXTMATCHES","prÛximos registos");
-define("_INSECTION","Artigo na SecÁ„o");
+define("_NEXTMATCHES","pr√≥ximos registos");
+define("_INSECTION","Artigo na Sec√ß√£o");
 define("_NONAME","Nenhum nome inscrito");
-define("_SCOMMENTS","Coment·rios");
+define("_SCOMMENTS","Coment√°rios");
 define("_SEARCHRESULTS","Resultados da Pesquisa");
-define("_CONTRIBUTEDBY","ContribuiÁ„o de");
-define("_UCOMMENTS","Coment·rios");
-define("_MATCHTITLE","Igual ao TÌtulo");
+define("_CONTRIBUTEDBY","Contribui√ß√£o de");
+define("_UCOMMENTS","Coment√°rios");
+define("_MATCHTITLE","Igual ao T√≠tulo");
 define("_MATCHTEXT","Igual ao Texto do Artigo");
-define("_MATCHBOTH","Igual ao TÌtulo e Texto do Artigo");
+define("_MATCHBOTH","Igual ao T√≠tulo e Texto do Artigo");
 define("_SREPLY","Responder");
 define("_SREPLIES","Respostas");
 define("_ATTACHART","Anexar ao Artigo");
-define("_PAGES","P·ginas");
-define("_REVIEWSCORE","PontuaÁ„o para esta Revis„o");
-define("_PAGE","P·ginas");
+define("_PAGES","P√°ginas");
+define("_REVIEWSCORE","Pontua√ß√£o para esta Revis√£o");
+define("_PAGE","P√°ginas");
 define("_DOWNLOADS","Downloads");
 define("_WEBLINKS","Web Links");
 define("_FINDMORE","... mais");
-define("_DIDNOTFIND","N„o encontrou o que estava ‡ procura?");
-define("_ENCYCLOPEDIA","EnciclopÈdia");
-define("_SEARCHINSTORY","Procurar Todos os Coment·rios no artigo:");
+define("_DIDNOTFIND","N√£o encontrou o que estava √† procura?");
+define("_ENCYCLOPEDIA","Enciclop√©dia");
+define("_SEARCHINSTORY","Procurar Todos os Coment√°rios no artigo:");
 define("_SEARCHCHARACTERS","<center><b>Search System Error</b><br><br>Your query should be at least 3 characters long to be processed.<br>Please, fix the problem and try again...</center>");
 
 ?>

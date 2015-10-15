@@ -22,10 +22,10 @@
 /**************************************************************************/
 
 define("_PDATE","Data:");
-define("_PTOPIC","Tópico:");
-define("_COMESFROM","Esta notícia veio de");
-define("_THEURL","O link desta notícia é:");
+define("_PTOPIC","TÃ³pico:");
+define("_COMESFROM","Esta notÃ­cia veio de");
+define("_THEURL","O link desta notÃ­cia Ã©:");
 define("_DATE","Data");
-define("_TITLE","Título");
+define("_TITLE","TÃ­tulo");
 
 ?>

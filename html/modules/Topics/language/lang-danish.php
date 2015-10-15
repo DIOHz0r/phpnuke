@@ -12,10 +12,10 @@
 /* ICQ:	155265588                                                     */
 /* Webside:	www.Sjove-Film.dk - HitsMaskinen.dk - FilmCentralen.dk        */
 /*                                                                        */
-/* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
+/* Hvis de finder fejl mÃ¥ og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
 define("_ACTIVETOPICS","Emner");
-define("_CLICK2LIST","Klik på et emne for at se alle tilknyttede artikler:");
+define("_CLICK2LIST","Klik pÃ¥ et emne for at se alle tilknyttede artikler:");
 
 ?>

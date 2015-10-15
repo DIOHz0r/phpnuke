@@ -18,9 +18,9 @@
 /**************************************************************************/
 
 define("_SEND","Poslat");
-define("_YOURNAME","Vaše jméno");
-define("_MESSAGE","Zpráva");
-define("_YOUREMAIL","Váš e-mail");
+define("_YOURNAME","VaÂše jmÃ©no");
+define("_MESSAGE","ZprÃ¡va");
+define("_YOUREMAIL","VÃ¡Âš e-mail");
 define("_FEEDBACKNOTE","All comments and suggestions about this web site are very welcome and a valuable source of information for us. Thanks!");
 define("_FEEDBACKTITLE","Feedback Form");
 define("_FEEDBACK","Feedback");

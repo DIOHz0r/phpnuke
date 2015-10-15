@@ -18,27 +18,27 @@
 /**************************************************************************/
 
 /**************************************************************************/
-/* Доп. перевод, проверка синтаксиса/Add. Russian transl.& spell checking:*/
-/*         Александр Бурчак / Alexander Burchak, alexburchak@ua.fm        */
-/* Дата/Date:                                                             */
+/* Р”РѕРї. РїРµСЂРµРІРѕРґ, РїСЂРѕРІРµСЂРєР° СЃРёРЅС‚Р°РєСЃРёСЃР°/Add. Russian transl.& spell checking:*/
+/*         РђР»РµРєСЃР°РЅРґСЂ Р‘СѓСЂС‡Р°Рє / Alexander Burchak, alexburchak@ua.fm        */
+/* Р”Р°С‚Р°/Date:                                                             */
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_SEND","Отправить");
-define("_FYOURNAME","Ваше имя:");
-define("_FYOUREMAIL","Ваш E-mail:");
-define("_FFRIENDNAME","Имя Вашего друга:");
-define("_FFRIENDEMAIL","E-mail Вашего друга:");
-define("_HELLO","Привет!");
-define("_YOURFRIEND","Ваш друг");
-define("_RECOMMEND","Рекомендовать этот сайт другу");
-define("_INTSITE","Интересный сайт:");
-define("_OURSITE","мнение о нашем сайте");
-define("_INTSENT","Посчитал интересным и решил отправить его Вам.");
-define("_FSITENAME","Название сайта:");
-define("_FSITEURL","URL сайта:");
-define("_FREFERENCE","Ссылка на наш сайт была отправлена");
-define("_THANKSREC","Спасибо за нашу рекомендацию!");
+define("_SEND","РћС‚РїСЂР°РІРёС‚СЊ");
+define("_FYOURNAME","Р’Р°С€Рµ РёРјСЏ:");
+define("_FYOUREMAIL","Р’Р°С€ E-mail:");
+define("_FFRIENDNAME","РРјСЏ Р’Р°С€РµРіРѕ РґСЂСѓРіР°:");
+define("_FFRIENDEMAIL","E-mail Р’Р°С€РµРіРѕ РґСЂСѓРіР°:");
+define("_HELLO","РџСЂРёРІРµС‚!");
+define("_YOURFRIEND","Р’Р°С€ РґСЂСѓРі");
+define("_RECOMMEND","Р РµРєРѕРјРµРЅРґРѕРІР°С‚СЊ СЌС‚РѕС‚ СЃР°Р№С‚ РґСЂСѓРіСѓ");
+define("_INTSITE","РРЅС‚РµСЂРµСЃРЅС‹Р№ СЃР°Р№С‚:");
+define("_OURSITE","РјРЅРµРЅРёРµ Рѕ РЅР°С€РµРј СЃР°Р№С‚Рµ");
+define("_INTSENT","РџРѕСЃС‡РёС‚Р°Р» РёРЅС‚РµСЂРµСЃРЅС‹Рј Рё СЂРµС€РёР» РѕС‚РїСЂР°РІРёС‚СЊ РµРіРѕ Р’Р°Рј.");
+define("_FSITENAME","РќР°Р·РІР°РЅРёРµ СЃР°Р№С‚Р°:");
+define("_FSITEURL","URL СЃР°Р№С‚Р°:");
+define("_FREFERENCE","РЎСЃС‹Р»РєР° РЅР° РЅР°С€ СЃР°Р№С‚ Р±С‹Р»Р° РѕС‚РїСЂР°РІР»РµРЅР°");
+define("_THANKSREC","РЎРїР°СЃРёР±Рѕ Р·Р° РЅР°С€Сѓ СЂРµРєРѕРјРµРЅРґР°С†РёСЋ!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

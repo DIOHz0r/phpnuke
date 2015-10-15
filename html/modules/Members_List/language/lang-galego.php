@@ -20,24 +20,24 @@
 define("_URL","URL");
 define("_EMAIL","E-Mail");
 define("_REALNAME","Nome real");
-define("_FUNCTIONS","Funcións");
-define("_PREVIOUS","Páxina anterior");
+define("_FUNCTIONS","FunciÃ³ns");
+define("_PREVIOUS","PÃ¡xina anterior");
 define("_MEMBERSLIST","Lista de Membros");
-define("_GREETINGS","Felicidades ó noso último usuario rexistrado:");
+define("_GREETINGS","Felicidades Ã³ noso Ãºltimo usuario rexistrado:");
 define("_SORTBY","Ordeado por:");
 define("_MNICKNAME","Alias");
 define("_MREALNAME","Nome real");
 define("_MEMAIL","E-Mail");
 define("_MURL","URL");
-define("_ONLINEREG","Usuarios rexistrados en líña agora:");
+define("_ONLINEREG","Usuarios rexistrados en lÃ­Ã±a agora:");
 define("_WEHAVE","Temos");
 define("_MREGISTERED","usuarios rexistrados ata agora. Hai");
-define("_MREGONLINE","usuario(s) rexistrado(s) en líña agora mesmo.");
+define("_MREGONLINE","usuario(s) rexistrado(s) en lÃ­Ã±a agora mesmo.");
 define("_REGSOFAR","usuarios rexistrados ata agora.");
 define("_USERSFOUND","usuarios encontrados para");
 define("_USERSSHOWN","usuarios mostrados");
 define("_NOMEMBERS","Non se encontraron membros por");
-define("_PAGES","Páxinas");
-define("_HOMEPAGE","Páxina de Inicio");
+define("_PAGES","PÃ¡xinas");
+define("_HOMEPAGE","PÃ¡xina de Inicio");
 
 ?>

@@ -19,39 +19,39 @@
 
 
 define("_SEND","Senda");
-define("_FUNCTIONS","Aðgerðir");
-define("_YES","Já");
+define("_FUNCTIONS","AÃ°gerÃ°ir");
+define("_YES","JÃ¡");
 define("_NO","Nei");
 define("_SAVECHANGES","Vista breytingar");
-define("_PAGEBREAK","Ef þú vilt hafa margar síður getur skrifað <b>[--pagebreak--]</b> þar sem þú vilt fá síðuskil.");
-define("_DESCRIPTION","Lýsing");
+define("_PAGEBREAK","Ef Ã¾Ãº vilt hafa margar sÃ­Ã°ur getur skrifaÃ° <b>[--pagebreak--]</b> Ã¾ar sem Ã¾Ãº vilt fÃ¡ sÃ­Ã°uskil.");
+define("_DESCRIPTION","LÃ½sing");
 define("_TO","Til");
 define("_TITLE","Titill");
 define("_ACTIVE","Virkur");
-define("_DEACTIVATE","Gera óvirkan");
-define("_INACTIVE","Óvirkur");
+define("_DEACTIVATE","Gera Ã³virkan");
+define("_INACTIVE","Ã“virkur");
 define("_ACTIVATE","Gera virkan");
-define("_ADD","Bæta við");
-define("_LANGUAGE","Tungumál");
-define("_ENCYCLOPEDIA","Uppsláttarrit");
-define("_ENCYCLOPEDIAMANAGER","Stjórnandi uppsláttarrits");
-define("_DELENCYCLOPEDIA","Eyða uppsláttarriti");
-define("_DELENCYCONTWARNING","Ertu viss um að þú viljir eyða þessu uppsláttarriti og ÖLLU því sem það inniheldur?");
-define("_DELENCYCLOPEDIATEXT","Eyða hugtökum í uppsláttarriti");
-define("_DELENCYTEXTWARNING","Ertu viss um að þú viljir eyða þessu hugtaki?");
-define("_CURRENTSTATUS","Núverandi staða");
-define("_ACTIVATEPAGE","Gera þessa síðu virka?");
-define("_TERMS","Hugtök");
-define("_ADDNEWENCYCLOPEDIA","Bæta við nýju uppsláttarriti");
-define("_ADDNEWENCYTERM","Bæta við nýju hugtaki í uppsláttarrit");
+define("_ADD","BÃ¦ta viÃ°");
+define("_LANGUAGE","TungumÃ¡l");
+define("_ENCYCLOPEDIA","UppslÃ¡ttarrit");
+define("_ENCYCLOPEDIAMANAGER","StjÃ³rnandi uppslÃ¡ttarrits");
+define("_DELENCYCLOPEDIA","EyÃ°a uppslÃ¡ttarriti");
+define("_DELENCYCONTWARNING","Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essu uppslÃ¡ttarriti og Ã–LLU Ã¾vÃ­ sem Ã¾aÃ° inniheldur?");
+define("_DELENCYCLOPEDIATEXT","EyÃ°a hugtÃ¶kum Ã­ uppslÃ¡ttarriti");
+define("_DELENCYTEXTWARNING","Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essu hugtaki?");
+define("_CURRENTSTATUS","NÃºverandi staÃ°a");
+define("_ACTIVATEPAGE","Gera Ã¾essa sÃ­Ã°u virka?");
+define("_TERMS","HugtÃ¶k");
+define("_ADDNEWENCYCLOPEDIA","BÃ¦ta viÃ° nÃ½ju uppslÃ¡ttarriti");
+define("_ADDNEWENCYTERM","BÃ¦ta viÃ° nÃ½ju hugtaki Ã­ uppslÃ¡ttarrit");
 define("_TERMTEXT","Texti hugtaks");
-define("_MOVETERMS","Færa hugtak");
-define("_MOVEALLTERMSFROM","Færa ÖLL hugtök úr");
-define("_EDITENCYCLOPEDIA","Breyta uppsláttarriti");
-define("_ENCYTERMSEDIT","Breyta hugtökum í uppsláttarriti");
-define("_SELECTONETERM","Vinsamlegast veljið eitt hugtaka úr eftirfarandi lista:");
-define("_NOCONTENTFORLETTER","Því miður er ekkert innihald tengt þessum bókstaf");
-define("_CHANGETOENCY","Breyta í uppsláttarrit");
+define("_MOVETERMS","FÃ¦ra hugtak");
+define("_MOVEALLTERMSFROM","FÃ¦ra Ã–LL hugtÃ¶k Ãºr");
+define("_EDITENCYCLOPEDIA","Breyta uppslÃ¡ttarriti");
+define("_ENCYTERMSEDIT","Breyta hugtÃ¶kum Ã­ uppslÃ¡ttarriti");
+define("_SELECTONETERM","Vinsamlegast veljiÃ° eitt hugtaka Ãºr eftirfarandi lista:");
+define("_NOCONTENTFORLETTER","ÃžvÃ­ miÃ°ur er ekkert innihald tengt Ã¾essum bÃ³kstaf");
+define("_CHANGETOENCY","Breyta Ã­ uppslÃ¡ttarrit");
 
 
 ?>

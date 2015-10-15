@@ -3,16 +3,16 @@ Charset: iso-8859-1
 
 Tere {USERNAME}
 
-Te saate selle kirja sest teie (või keegi kes teeskleb, et on teie) palunud, et saadetaks uus parool teie konto jaoks {SITENAME} foorumil. Kui teie pole selleks soovi avaldanud, siis ärge pöörake sellele kirjale tähelepanu ja kui sellised kirjad hakkavad põhjuseta korduma, siis võtke ühendust foorumi administraatoriga.
+Te saate selle kirja sest teie (vÃµi keegi kes teeskleb, et on teie) palunud, et saadetaks uus parool teie konto jaoks {SITENAME} foorumil. Kui teie pole selleks soovi avaldanud, siis Ã¤rge pÃ¶Ã¶rake sellele kirjale tÃ¤helepanu ja kui sellised kirjad hakkavad pÃµhjuseta korduma, siis vÃµtke Ã¼hendust foorumi administraatoriga.
 
-Et uut parooli kasutada tuleb see aktveerida. Selleks vajutage järgnevat linki.
+Et uut parooli kasutada tuleb see aktveerida. Selleks vajutage jÃ¤rgnevat linki.
 
 {U_ACTIVATE}
 
-Kui kõik laabus, siis saate nüüd sisse logida uue parooliga:
+Kui kÃµik laabus, siis saate nÃ¼Ã¼d sisse logida uue parooliga:
 
 Parool: {PASSWORD}
 
-Parooli saate ka muuta oma profiilist. Kui ilmneb raskusi, siis ärge kõhelge administraatoriga ühendust võtmast.
+Parooli saate ka muuta oma profiilist. Kui ilmneb raskusi, siis Ã¤rge kÃµhelge administraatoriga Ã¼hendust vÃµtmast.
 
 {EMAIL_SIG}

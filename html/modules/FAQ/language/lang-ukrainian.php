@@ -17,14 +17,14 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Êàòåãîð³ÿ");
-define("_CATEGORIES","Êàòåãîð³¿");
-define("_FAQ2","FAQ (Îñíîâí³ ïèòàííÿ)");
-define("_BACKTOTOP","Ïîâåðíóòèñü íà ïî÷àòîê");
-define("_BACKTOFAQINDEX","Ïîêàçàòè âñ³ ïèòàííÿ");
-define("_MAIN","Ãîëîâíà");
-define("_QUESTION","Ïèòàííÿ");
-define("_ANSWER","Â³äïîâ³äü");
+define("_CATEGORY","ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ñ–Ñ");
+define("_CATEGORIES","ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ñ–Ñ—");
+define("_FAQ2","FAQ (ÐžÑÐ½Ð¾Ð²Ð½Ñ– Ð¿Ð¸Ñ‚Ð°Ð½Ð½Ñ)");
+define("_BACKTOTOP","ÐŸÐ¾Ð²ÐµÑ€Ð½ÑƒÑ‚Ð¸ÑÑŒ Ð½Ð° Ð¿Ð¾Ñ‡Ð°Ñ‚Ð¾Ðº");
+define("_BACKTOFAQINDEX","ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚Ð¸ Ð²ÑÑ– Ð¿Ð¸Ñ‚Ð°Ð½Ð½Ñ");
+define("_MAIN","Ð“Ð¾Ð»Ð¾Ð²Ð½Ð°");
+define("_QUESTION","ÐŸÐ¸Ñ‚Ð°Ð½Ð½Ñ");
+define("_ANSWER","Ð’Ñ–Ð´Ð¿Ð¾Ð²Ñ–Ð´ÑŒ");
 
 
 ?>

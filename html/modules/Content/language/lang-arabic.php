@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","ÇáÕÝÍÉ ÇáÓÇÈÞÉ");
-define("_NEXT","ÇáÕÝÍÉ ÇáÊÇáíÉ");
-define("_PAGE","ÕÝÍÉ");
-define("_DEACTIVATE","ÊÚØíá");
-define("_ACTIVATE","ÊäÔíØ");
-define("_PUBLISHEDON","äÔÑÊ ÈÊÇÑíÎ");
-define("_PAGESLIST","ÞÇÆãÉ ÇáÕÝÍÇÊ");
-define("_LISTOFCONTENT","ÞÇÆãÉ ÇáãÍÊæíÇÊ ÇáãÊÇÍÉ Ýí");
-define("_YOURADMINLIST","ÃäÊ ÇáãÔÑÝ: ÞÇÆãÉ ÇáÕÝÍÇÊ ÇáãÚØáÉ ßÇáÊÇáí:");
-define("_COPYRIGHT","ÍÞæÞ ÇáäÓÎ &copy; ÈæÇÓØÉ $sitename. ÌãíÚ ÇáÍÞæÞ ãÍÝæÙÉ.");
-define("_COPYRIGHT2","ÌãíÚ ÇáÍÞæÞ ãÍÝæÙÉ.");
-define("_CONTENTCATEGORIES","ÃÞÓÇã ÇáãÍÊæíÇÊ ÇáÍÇáíÉ");
-define("_NONCLASSCONT","áÇ íæÌÏ ãÍÊæíÇÊ ãÞÓãÉ");
+define("_PREVIOUS","Ø§Ù„ØµÙØ­Ø© Ø§Ù„Ø³Ø§Ø¨Ù‚Ø©");
+define("_NEXT","Ø§Ù„ØµÙØ­Ø© Ø§Ù„ØªØ§Ù„ÙŠØ©");
+define("_PAGE","ØµÙØ­Ø©");
+define("_DEACTIVATE","ØªØ¹Ø·ÙŠÙ„");
+define("_ACTIVATE","ØªÙ†Ø´ÙŠØ·");
+define("_PUBLISHEDON","Ù†Ø´Ø±Øª Ø¨ØªØ§Ø±ÙŠØ®");
+define("_PAGESLIST","Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„ØµÙØ­Ø§Øª");
+define("_LISTOFCONTENT","Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ø­ØªÙˆÙŠØ§Øª Ø§Ù„Ù…ØªØ§Ø­Ø© ÙÙŠ");
+define("_YOURADMINLIST","Ø£Ù†Øª Ø§Ù„Ù…Ø´Ø±Ù: Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„ØµÙØ­Ø§Øª Ø§Ù„Ù…Ø¹Ø·Ù„Ø© ÙƒØ§Ù„ØªØ§Ù„ÙŠ:");
+define("_COPYRIGHT","Ø­Ù‚ÙˆÙ‚ Ø§Ù„Ù†Ø³Ø® &copy; Ø¨ÙˆØ§Ø³Ø·Ø© $sitename. Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø­Ù‚ÙˆÙ‚ Ù…Ø­ÙÙˆØ¸Ø©.");
+define("_COPYRIGHT2","Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø­Ù‚ÙˆÙ‚ Ù…Ø­ÙÙˆØ¸Ø©.");
+define("_CONTENTCATEGORIES","Ø£Ù‚Ø³Ø§Ù… Ø§Ù„Ù…Ø­ØªÙˆÙŠØ§Øª Ø§Ù„Ø­Ø§Ù„ÙŠØ©");
+define("_NONCLASSCONT","Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ù…Ø­ØªÙˆÙŠØ§Øª Ù…Ù‚Ø³Ù…Ø©");
 
 ?>

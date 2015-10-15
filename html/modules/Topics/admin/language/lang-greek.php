@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","Ναι");
-define("_NO","Οχι");
-define("_TOPICSMANAGER","Διαχειριστής Θεμάτων");
-define("_DELETETOPIC","Διαγραφή Θέματος");
-define("_TOPICDELSURE","Είστε βέβαιος ότι θέλετε να διαγράψτε το θέμα αυτό");
-define("_TOPICDELSURE1","Η ενέργεια αυτή διαγράφει όλες τις ιστορίες και τις σχετικές παρατηρήσεις ");
+define("_YES","ΞΞ±ΞΉ");
+define("_NO","ΞΟ‡ΞΉ");
+define("_TOPICSMANAGER","Ξ”ΞΉΞ±Ο‡ΞµΞΉΟΞΉΟƒΟ„Ξ®Ο‚ ΞΞµΞΌΞ¬Ο„Ο‰Ξ½");
+define("_DELETETOPIC","Ξ”ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® ΞΞ­ΞΌΞ±Ο„ΞΏΟ‚");
+define("_TOPICDELSURE","Ξ•Ξ―ΟƒΟ„Ξµ Ξ²Ξ­Ξ²Ξ±ΞΉΞΏΟ‚ ΟΟ„ΞΉ ΞΈΞ­Ξ»ΞµΟ„Ξµ Ξ½Ξ± Ξ΄ΞΉΞ±Ξ³ΟΞ¬ΟΟ„Ξµ Ο„ΞΏ ΞΈΞ­ΞΌΞ± Ξ±Ο…Ο„Ο");
+define("_TOPICDELSURE1","Ξ— ΞµΞ½Ξ­ΟΞ³ΞµΞΉΞ± Ξ±Ο…Ο„Ξ® Ξ΄ΞΉΞ±Ξ³ΟΞ¬Ο†ΞµΞΉ ΟΞ»ΞµΟ‚ Ο„ΞΉΟ‚ ΞΉΟƒΟ„ΞΏΟΞ―ΞµΟ‚ ΞΊΞ±ΞΉ Ο„ΞΉΟ‚ ΟƒΟ‡ΞµΟ„ΞΉΞΊΞ­Ο‚ Ο€Ξ±ΟΞ±Ο„Ξ·ΟΞ®ΟƒΞµΞΉΟ‚ ");
 
 
 ?>

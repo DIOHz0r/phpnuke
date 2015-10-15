@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Испрати");
-define("_FYOURNAME","Твоето име:");
-define("_FYOUREMAIL","Твојот е-mail:");
-define("_FFRIENDNAME","Името на твојот пријател:");
-define("_FFRIENDEMAIL","E-mail-от на пријателот:");
+define("_SEND","РСЃРїСЂР°С‚Рё");
+define("_FYOURNAME","РўРІРѕРµС‚Рѕ РёРјРµ:");
+define("_FYOUREMAIL","РўРІРѕСРѕС‚ Рµ-mail:");
+define("_FFRIENDNAME","РРјРµС‚Рѕ РЅР° С‚РІРѕСРѕС‚ РїСЂРёСР°С‚РµР»:");
+define("_FFRIENDEMAIL","E-mail-РѕС‚ РЅР° РїСЂРёСР°С‚РµР»РѕС‚:");
 define("_HELLO","Zdravo");
 define("_YOURFRIEND","Tvojot prijatel");
-define("_RECOMMEND","Препорачај ја оваа страна на пријател");
+define("_RECOMMEND","РџСЂРµРїРѕСЂР°С‡Р°С СР° РѕРІР°Р° СЃС‚СЂР°РЅР° РЅР° РїСЂРёСР°С‚РµР»");
 define("_INTSITE","Interesen sajt:");
 define("_OURSITE","go smetashe nashiot sajt");
 define("_INTSENT","za interesen i sakashe da ti go isprati linkot.");
 define("_FSITENAME","Ime na sajtot:");
 define("_FSITEURL","Adresa na sajtot:");
-define("_FREFERENCE","Препораката за нашиот сајт беше испратена на");
-define("_THANKSREC","Благодариме за препораката!");
+define("_FREFERENCE","РџСЂРµРїРѕСЂР°РєР°С‚Р° Р·Р° РЅР°С€РёРѕС‚ СЃР°СС‚ Р±РµС€Рµ РёСЃРїСЂР°С‚РµРЅР° РЅР°");
+define("_THANKSREC","Р‘Р»Р°РіРѕРґР°СЂРёРјРµ Р·Р° РїСЂРµРїРѕСЂР°РєР°С‚Р°!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");

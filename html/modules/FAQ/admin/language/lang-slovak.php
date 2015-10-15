@@ -19,25 +19,25 @@
 
 
 define("_FUNCTIONS","Funkcie");
-define("_YES","¡no");
+define("_YES","√Åno");
 define("_NO","Nie");
-define("_SAVE","Uloûi?");
+define("_SAVE","Ulo≈æi?");
 define("_ID","ID");
-define("_CATEGORIES","KategÛrie");
-define("_ALL","Vöetko");
+define("_CATEGORIES","Kateg√≥rie");
+define("_ALL","V≈°etko");
 define("_FAQ","FAQ");
 define("_CONTENT","Obsah");
-define("_FAQADMIN","Administr·cia FAQ");
-define("_ACTIVEFAQS","AktivovanÈ FAQy");
-define("_ADDCATEGORY","Prida? nov˙ kategÛriu");
-define("_QUESTIONS","Ot·zky a odpovede");
-define("_ADDQUESTION","Prida? nov˙ ot·zku");
-define("_QUESTION","Ot·zka");
-define("_ANSWER","OdpoveÔ");
-define("_EDITCATEGORY","Upravi? kategÛriu");
-define("_EDITQUESTIONS","Upravi? ot·zky a odpovede");
-define("_FAQDELWARNING","UPOZORNENIE:Ste si ist˝, ûe chcete vymaza? tieto FAQ s cel˝m obsahom?");
-define("_QUESTIONDEL","UPOZORNENIE: Ste si ist˝, ûe chcete vymaza? t˙to ot·zku?");
+define("_FAQADMIN","Administr√°cia FAQ");
+define("_ACTIVEFAQS","Aktivovan√© FAQy");
+define("_ADDCATEGORY","Prida? nov√∫ kateg√≥riu");
+define("_QUESTIONS","Ot√°zky a odpovede");
+define("_ADDQUESTION","Prida? nov√∫ ot√°zku");
+define("_QUESTION","Ot√°zka");
+define("_ANSWER","Odpoveƒè");
+define("_EDITCATEGORY","Upravi? kateg√≥riu");
+define("_EDITQUESTIONS","Upravi? ot√°zky a odpovede");
+define("_FAQDELWARNING","UPOZORNENIE:Ste si ist√Ω, ≈æe chcete vymaza? tieto FAQ s cel√Ωm obsahom?");
+define("_QUESTIONDEL","UPOZORNENIE: Ste si ist√Ω, ≈æe chcete vymaza? t√∫to ot√°zku?");
 define("_LANGUAGE","Jazyk");
 
 

@@ -18,15 +18,15 @@
 /**************************************************************************/
 
 
-define("_FUNCTIONS","Funções");
+define("_FUNCTIONS","FunÃ§Ãµes");
 define("_YES","Sim");
-define("_NO","Não");
+define("_NO","NÃ£o");
 define("_SAVE","Gravar");
 define("_ID","ID");
 define("_CATEGORIES","Categorias");
 define("_ALL","Todos");
 define("_FAQ","FAQ");
-define("_CONTENT","Conteúdo");
+define("_CONTENT","ConteÃºdo");
 define("_FAQADMIN","Administrar FAQ");
 define("_ACTIVEFAQS","Activar FAQs");
 define("_ADDCATEGORY","Adicionar uma Nova Categoria");
@@ -36,9 +36,9 @@ define("_QUESTION","Pergunta");
 define("_ANSWER","Resposta");
 define("_EDITCATEGORY","Editar Categoria");
 define("_EDITQUESTIONS","Editar Perguntas & Respostas");
-define("_FAQDELWARNING","CUIDADO: Você realmente quer apagar esta FAQ e todo o seu conteúdo?");
-define("_QUESTIONDEL","CUIDADO: Você realmente quer apagar esta pergunta?");
-define("_LANGUAGE","Língua");
+define("_FAQDELWARNING","CUIDADO: VocÃª realmente quer apagar esta FAQ e todo o seu conteÃºdo?");
+define("_QUESTIONDEL","CUIDADO: VocÃª realmente quer apagar esta pergunta?");
+define("_LANGUAGE","LÃ­ngua");
 
 
 ?>

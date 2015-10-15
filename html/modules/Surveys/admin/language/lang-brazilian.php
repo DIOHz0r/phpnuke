@@ -19,34 +19,34 @@
 
 
 define("_YES","sim");
-define("_NO","N„o");
+define("_NO","N√£o");
 define("_CATEGORY","Categoria");
-define("_SAVECHANGES","Salvar alteraÁıes");
-define("_ARTICLES","NotÌcias");
-define("_SELECTTOPIC","Selecione o TÛpico");
-define("_OPTION","OpÁ„o");
+define("_SAVECHANGES","Salvar altera√ß√µes");
+define("_ARTICLES","Not√≠cias");
+define("_SELECTTOPIC","Selecione o T√≥pico");
+define("_OPTION","Op√ß√£o");
 define("_ADMPOLLS","Pesquisas/Enquetes");
-define("_TITLE","TÌtulo");
-define("_STORYTEXT","Texto da notÌcia");
+define("_TITLE","T√≠tulo");
+define("_STORYTEXT","Texto da not√≠cia");
 define("_EXTENDEDTEXT","Texto extendido");
 define("_PUBLISHINHOME","Publicar na Home?");
-define("_ONLYIFCATSELECTED","Funciona apenas se a categoria <i>Artigos</i> n„o estiver selecionada");
+define("_ONLYIFCATSELECTED","Funciona apenas se a categoria <i>Artigos</i> n√£o estiver selecionada");
 define("_ADD","Adicionar");
-define("_POLLSADMIN","AdministraÁ„o de Pesquisas/Enquetes");
+define("_POLLSADMIN","Administra√ß√£o de Pesquisas/Enquetes");
 define("_CREATEPOLL","Criar nova enquete");
 define("_DELETEPOLLS","Apagar Enquete");
-define("_POLLTITLE","TÌtulo da Enquete");
-define("_POLLEACHFIELD","Coloque cada opÁ„o em um campo diferente!");
+define("_POLLTITLE","T√≠tulo da Enquete");
+define("_POLLEACHFIELD","Coloque cada op√ß√£o em um campo diferente!");
 define("_CREATEPOLLBUT","Criar Enquete");
 define("_REMOVEEXISTING","Apagar uma Enquete existente");
-define("_POLLDELWARNING","<b>Avido</b>: A Enquete selecionada ser· IMEDIATAMENTE apagada do Banco de Dados!");
+define("_POLLDELWARNING","<b>Avido</b>: A Enquete selecionada ser√° IMEDIATAMENTE apagada do Banco de Dados!");
 define("_CHOOSEPOLL","por favor, selecione uma enquete da lista abaixo:");
 define("_EDITPOLL","Editar Enquete");
-define("_CHOOSEPOLLEDIT","Escloha qual Enquete vocÍ quer editar:");
-define("_ACTIVATECOMMENTS","Ativar coment·rios para esta notÌcia?");
+define("_CHOOSEPOLLEDIT","Escloha qual Enquete voc√™ quer editar:");
+define("_ACTIVATECOMMENTS","Ativar coment√°rios para esta not√≠cia?");
 define("_LANGUAGE","Idioma");
-define("_ANNOUNCEPOLL","Anuncie esta Enquete no portal! (Cria uma notÌcia para anunciar esta Enquete!)");
-define("_LEAVEBLANK","(Deixe em branco para criar uma Enquete sem anunci·-la!)");
+define("_ANNOUNCEPOLL","Anuncie esta Enquete no portal! (Cria uma not√≠cia para anunciar esta Enquete!)");
+define("_LEAVEBLANK","(Deixe em branco para criar uma Enquete sem anunci√°-la!)");
 define("_POLLEDIT","Editar Enquete:");
 
 

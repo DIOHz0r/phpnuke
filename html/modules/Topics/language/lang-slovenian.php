@@ -18,7 +18,7 @@
 /**************************************************************************/
 
 define("_ACTIVETOPICS","Trenutno aktivne teme");
-define("_CLICK2LIST","Kliknite na sliko za izpis vseh Ëlankov te teme");
+define("_CLICK2LIST","Kliknite na sliko za izpis vseh ƒçlankov te teme");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

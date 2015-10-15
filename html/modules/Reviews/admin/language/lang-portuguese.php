@@ -19,28 +19,28 @@
 
 
 define("_EMAIL","Email");
-define("_SAVECHANGES","Gravar alteraÁıes");
-define("_SCORE","PontuaÁ„o:");
-define("_PRODUCTTITLE","TÌtulo da revis„o");
+define("_SAVECHANGES","Gravar altera√ß√µes");
+define("_SCORE","Pontua√ß√£o:");
+define("_PRODUCTTITLE","T√≠tulo da revis√£o");
 define("_RELATEDLINK","Link relacionado");
-define("_LINKTITLE","TÌtulo do Link ");
+define("_LINKTITLE","T√≠tulo do Link ");
 define("_REVIEWER","Revisor:");
-define("_REVIEWID","ID da Revis„o");
-define("_REVIEWS","Revis„o");
+define("_REVIEWID","ID da Revis√£o");
+define("_REVIEWS","Revis√£o");
 define("_DATE","Data");
-define("_REVADMIN","AdministraÁ„o de Revisıes");
-define("_REVTITLE","TÌtulo da P·gina de Revis„o");
-define("_REVDESC","DescriÁ„o da P·gina de Revis„o");
-define("_REVWAITING","Revisıes ‡ espera de validaÁ„o");
+define("_REVADMIN","Administra√ß√£o de Revis√µes");
+define("_REVTITLE","T√≠tulo da P√°gina de Revis√£o");
+define("_REVDESC","Descri√ß√£o da P√°gina de Revis√£o");
+define("_REVWAITING","Revis√µes √† espera de valida√ß√£o");
 define("_REVIMGINFO","Armazene suas imagens 150*150 em imagens/reviews");
 define("_TEXT","Texto");
 define("_IMAGE","Imagem");
-define("_NOREVIEW2ADD","Nenhuma revis„o para adicionar");
-define("_ADDREVIEW","Adicionar Revis„o");
-define("_CLICK2ADDREVIEW","Clique aqui para escrever uma Revis„o");
-define("_DELMODREVIEW","Apagar / Modificar uma Revis„o");
-define("_MODREVINFO","VocÍ pode facilmente apagar/editar revisıes explorando em <a href=\"modules.php?name=Reviews\"><b>Revisıes</b></a> como Administrador.");
-define("_LANGUAGE","LÌngua");
+define("_NOREVIEW2ADD","Nenhuma revis√£o para adicionar");
+define("_ADDREVIEW","Adicionar Revis√£o");
+define("_CLICK2ADDREVIEW","Clique aqui para escrever uma Revis√£o");
+define("_DELMODREVIEW","Apagar / Modificar uma Revis√£o");
+define("_MODREVINFO","Voc√™ pode facilmente apagar/editar revis√µes explorando em <a href=\"modules.php?name=Reviews\"><b>Revis√µes</b></a> como Administrador.");
+define("_LANGUAGE","L√≠ngua");
 
 
 ?>

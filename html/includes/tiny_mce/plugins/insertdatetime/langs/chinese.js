@@ -1,7 +1,7 @@
 // Simplified Chinese lang variables contributed by cube316 (cube316@etang.com)
 
-tinyMCELang['lang_insertdate_desc'] = '插入当前日期';
-tinyMCELang['lang_inserttime_desc'] = '插入当前时间';
+tinyMCELang['lang_insertdate_desc'] = '鎻掑叆褰撳墠鏃ユ湡';
+tinyMCELang['lang_inserttime_desc'] = '鎻掑叆褰撳墠鏃堕棿';
 tinyMCELang['lang_inserttime_months_long'] = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 tinyMCELang['lang_inserttime_months_short'] = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
 tinyMCELang['lang_inserttime_day_long'] = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");

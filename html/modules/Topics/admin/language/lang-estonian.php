@@ -22,11 +22,11 @@ define("_CURRENTTOPICS","Praegune aktiivsed teemad");
 define("_CLICK2EDIT","Vajuta teemale et redigeerida");
 define("_ADDATOPIC","Lisa uus teema");
 define("_TOPICNAME","Teema nimi");
-define("_TOPICNAME1","(lihtsalt nimi ilma tühikuteta - max: 20 tähemärki)");
-define("_TOPICNAME2","(näiteks: hobid&tegevused)");
+define("_TOPICNAME1","(lihtsalt nimi ilma tÃ¼hikuteta - max: 20 tÃ¤hemÃ¤rki)");
+define("_TOPICNAME2","(nÃ¤iteks: hobid&tegevused)");
 define("_TOPICTEXT","Teema tekst");
-define("_TOPICTEXT1","(täielik teema tekst või kirjeldus  - max: 40 tähemärki)");
-define("_TOPICTEXT2","(näiteks: Tegevus ja huvialad)");
+define("_TOPICTEXT1","(tÃ¤ielik teema tekst vÃµi kirjeldus  - max: 40 tÃ¤hemÃ¤rki)");
+define("_TOPICTEXT2","(nÃ¤iteks: Tegevus ja huvialad)");
 define("_TOPICIMAGE","Teema pilt");
 define("_ADDTOPIC","Lisa teema");
 define("_EDITTOPIC","Muuda teemat");
@@ -40,7 +40,7 @@ define("_NO","Ei");
 define("_TOPICSMANAGER","Teemade adminn");
 define("_DELETETOPIC","Kustuta teema");
 define("_TOPICDELSURE","Oled sa kindel, et soovid kustutada teema?");
-define("_TOPICDELSURE1","See kustutab ühtlasi KÕIK jutud ja kommentarid!");
+define("_TOPICDELSURE1","See kustutab Ã¼htlasi KÃ•IK jutud ja kommentarid!");
 
 
 ?>

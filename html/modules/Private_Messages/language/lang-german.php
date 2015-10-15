@@ -61,7 +61,7 @@ define("_BBNEWPMSG","Neue Nachrichten");
 define("_BBNONEWPMSG","Keine neuen Nachrichten");
 define("_BBTOTALPMSG","Nachrichten gesammt");
 define("_BBEMPTYPMSG","Sie haben keine Nachricht");
-define("_BBLOGIN","Einloggen zum Überprüfen Ihrer privaten Nachrichten");
+define("_BBLOGIN","Einloggen zum ÃœberprÃ¼fen Ihrer privaten Nachrichten");
 define("_BBPMSG","Private Nachrichten");
 define("_BBINBOX","Inbox");
 define("_BBSELECTFORUM","W&auml;hlen Sie ein Forum");

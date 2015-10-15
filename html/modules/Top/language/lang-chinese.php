@@ -18,26 +18,26 @@
 /**************************************************************************/
 
 
-define("_CATEGORY","Ãþ§O");
+define("_CATEGORY","é¡žåˆ¥");
 
-define("_LVOTES","§ë²¼¤@Äý");
+define("_LVOTES","æŠ•ç¥¨ä¸€è¦½");
 define("_HITS","Hits");
-define("_TOPWELCOME","Åwªï¨Ó¨ì±Æ¦æº]");
-define("_READSTORIES","¶µ³Ì¨üÅwªïªº³ø¾É");
-define("_COMMENTEDSTORIES","¶µ³Ì¨ãª§Ä³©Êªº³ø¾É");
-define("_ACTIVECAT","¶µ³Ì¬¡ÅDªºÃþ§O");
-define("_READSECTION","¶µ³Ì¨üÅwªïªº±MÄæ");
-define("_NEWSSUBMITTERS","¶µ³Ì¬¡ÅDªº·s»D§ë»¼ªÌ");
-define("_NEWSSENT","·s»D±H°e");
-define("_VOTEDPOLLS","¶µ±o²¼¼Æ³Ì¦hªº§ë²¼½Õ¬d");
-define("_MOSTACTIVEAUTHORS","¦ì³Ì¬¡ÅDªº§@ªÌ");
-define("_NEWSPUBLISHED","·s»Dµoªí");
-define("_READREVIEWS","³Ì¨üÅwªïªº§@«~µû½×");
-define("_DOWNLOADEDFILES","³Ì±`³Q¤U¸üªºÀÉ®×");
-define("_LDOWNLOADS","¤U¸ü¦¸¼Æ");
-define("_MOSTREADPAGES","³Ì±`³Q¾\Åªªººô­¶");
-define("_MOSTVOTEDSTORIES","§ë²¼³Ì¿ãÅDªº¤å³¹");
-define("_POINTS","ÂI");
-define("_BESTRATEDSTORIES","³Qµû¬°³Ì¨Îªº¤å³¹ (³Ì°ª¤À 5 ÂI)");
+define("_TOPWELCOME","æ­¡è¿Žä¾†åˆ°æŽ’è¡Œæ¦œ");
+define("_READSTORIES","é …æœ€å—æ­¡è¿Žçš„å ±å°Ž");
+define("_COMMENTEDSTORIES","é …æœ€å…·çˆ­è­°æ€§çš„å ±å°Ž");
+define("_ACTIVECAT","é …æœ€æ´»èºçš„é¡žåˆ¥");
+define("_READSECTION","é …æœ€å—æ­¡è¿Žçš„å°ˆæ¬„");
+define("_NEWSSUBMITTERS","é …æœ€æ´»èºçš„æ–°èžæŠ•éžè€…");
+define("_NEWSSENT","æ–°èžå¯„é€");
+define("_VOTEDPOLLS","é …å¾—ç¥¨æ•¸æœ€å¤šçš„æŠ•ç¥¨èª¿æŸ¥");
+define("_MOSTACTIVEAUTHORS","ä½æœ€æ´»èºçš„ä½œè€…");
+define("_NEWSPUBLISHED","æ–°èžç™¼è¡¨");
+define("_READREVIEWS","æœ€å—æ­¡è¿Žçš„ä½œå“è©•è«–");
+define("_DOWNLOADEDFILES","æœ€å¸¸è¢«ä¸‹è¼‰çš„æª”æ¡ˆ");
+define("_LDOWNLOADS","ä¸‹è¼‰æ¬¡æ•¸");
+define("_MOSTREADPAGES","æœ€å¸¸è¢«é–±è®€çš„ç¶²é ");
+define("_MOSTVOTEDSTORIES","æŠ•ç¥¨æœ€è¸´èºçš„æ–‡ç« ");
+define("_POINTS","é»ž");
+define("_BESTRATEDSTORIES","è¢«è©•ç‚ºæœ€ä½³çš„æ–‡ç«  (æœ€é«˜åˆ† 5 é»ž)");
 
 ?>

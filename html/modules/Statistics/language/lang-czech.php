@@ -17,26 +17,26 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_HITS","Klinkutí");
-define("_BROWSERS","Prohlíeèe");
-define("_OPERATINGSYS","Operaèní systémy");
-define("_UNKNOWN","Neznámé");
-define("_OTHER","Jiné / Neznámé");
-define("_MISCSTATS","Všeobecná statistika");
-define("_REGUSERS","Registrovaní uivatelé:");
-define("_ACTIVEAUTHORS","Aktivní autoøi:");
-define("_STORIESPUBLISHED","Publikované èlánky:");
-define("_SACTIVETOPICS","Aktivní témata:");
-define("_COMMENTSPOSTED","Poslané komentáøe:");
-define("_SSPECIALSECT","Speciální sekce:");
-define("_ARTICLESSEC","Èlánky ve spec. sekci:");
-define("_LINKSINLINKS","Odkazy v databázi:");
-define("_LINKSCAT","Kategorie odkazù:");
-define("_NEWSWAITING","Zprávy èekající na publikování:");
+define("_HITS","KlinkutÃ­");
+define("_BROWSERS","ProhlÃ­ÂeÄe");
+define("_OPERATINGSYS","OperaÄnÃ­ systÃ©my");
+define("_UNKNOWN","NeznÃ¡mÃ©");
+define("_OTHER","JinÃ© / NeznÃ¡mÃ©");
+define("_MISCSTATS","VÂšeobecnÃ¡ statistika");
+define("_REGUSERS","RegistrovanÃ­ uÂivatelÃ©:");
+define("_ACTIVEAUTHORS","AktivnÃ­ autoÅ™i:");
+define("_STORIESPUBLISHED","PublikovanÃ© ÄlÃ¡nky:");
+define("_SACTIVETOPICS","AktivnÃ­ tÃ©mata:");
+define("_COMMENTSPOSTED","PoslanÃ© komentÃ¡Å™e:");
+define("_SSPECIALSECT","SpeciÃ¡lnÃ­ sekce:");
+define("_ARTICLESSEC","ÄŒlÃ¡nky ve spec. sekci:");
+define("_LINKSINLINKS","Odkazy v databÃ¡zi:");
+define("_LINKSCAT","Kategorie odkazÅ¯:");
+define("_NEWSWAITING","ZprÃ¡vy ÄekajÃ­cÃ­ na publikovÃ¡nÃ­:");
 define("_NUKEVERSION","Verze PHP-Nuke:");
-define("_SEARCHENGINES","Vyhledávaèe");
+define("_SEARCHENGINES","VyhledÃ¡vaÄe");
 define("_BOTS","Robots/Spiders");
-define("_STATS","statistika pøístupù");
+define("_STATS","statistika pÅ™Ã­stupÅ¯");
 define("_RETURNBASICSTATS","Return to Basic Statistics");
 define("_BACKTODETSTATS","Back to Detailed Statistics");
 define("_BACKTOMAIN","Back to Main");

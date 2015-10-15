@@ -99,12 +99,12 @@ define("_YOURLINKAT","Votre lien vers");
 define("_YOUCANBROWSEUS","Vous pouvez parcourir notre moteur de recherche sur:");
 define("_THANKS4YOURSUBMISSION","Merci pour votre suggestion !");
 define("_TEAM","Equipe.");
-define("_EZTRANSFERLINKS","Transférer tous les liens de la catégorie");
-define("_EZTRANSFER","Transférer");
-define("_DELEZLINKCATWARNING","Attention : Etes vous sûr de vouloir supprimer cette catégorie? Vous allez supprimer toutes les sous-catégories et tous ses liens attachés !");
+define("_EZTRANSFERLINKS","TransfÃ©rer tous les liens de la catÃ©gorie");
+define("_EZTRANSFER","TransfÃ©rer");
+define("_DELEZLINKCATWARNING","Attention : Etes vous sÃ»r de vouloir supprimer cette catÃ©gorie? Vous allez supprimer toutes les sous-catÃ©gories et tous ses liens attachÃ©s !");
 define("_EZTHEREIS","Il y a");
-define("_EZSUBCAT","sous-catégories");
-define("_EZATTACHEDTOCAT","sous cette catégorie");
+define("_EZSUBCAT","sous-catÃ©gories");
+define("_EZATTACHEDTOCAT","sous cette catÃ©gorie");
 define("_EZBROKENLINKS","Liens morts");
 define("_LINKAPPROVEDMSG", "Congratulations! The web link you submitted to our links database has been approved right now.");
 

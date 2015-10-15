@@ -31,15 +31,15 @@ define("_DATE","Datum");
 define("_REVADMIN","Administracija recenzij");
 define("_REVTITLE","Naslov strani recenzije");
 define("_REVDESC","Opis strani recenzije");
-define("_REVWAITING","Recenzije na Ëakanju");
+define("_REVWAITING","Recenzije na ƒçakanju");
 define("_REVIMGINFO","Shranite 150*150 sliko v images/reviews");
 define("_TEXT","Tekst");
 define("_IMAGE","Slika");
 define("_NOREVIEW2ADD","Ni recenzij za dodajanje");
 define("_ADDREVIEW","Dodaj recenzijo");
 define("_CLICK2ADDREVIEW","Klikni tukaj, da bi napisal recenzijo");
-define("_DELMODREVIEW","Izbriöi / Uredi recenzijo");
-define("_MODREVINFO","Kot administrator recenzije lahko enostavno briöete/menjate z <a href=\"modules.php?name=Reviews\">Reviews</a>.");
+define("_DELMODREVIEW","Izbri¬öi / Uredi recenzijo");
+define("_MODREVINFO","Kot administrator recenzije lahko enostavno bri¬öete/menjate z <a href=\"modules.php?name=Reviews\">Reviews</a>.");
 define("_LANGUAGE","Jezik");
 
 

@@ -18,29 +18,29 @@
 /**************************************************************************/
 
 
-define("_EMAIL","ศัํฯ วแ฿สัๆไํ");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_SCORE","วแสÞํํใ:");
-define("_PRODUCTTITLE","ฺไๆวไ วแใไสฬ");
-define("_RELATEDLINK","ัๆวศุ ะวส ีแษ");
-define("_LINKTITLE","ฺไๆวไ วแัวศุ");
-define("_REVIEWER","วแใัวฬฺ:");
-define("_REVIEWID","ัÞใ วแใัวฬฺ");
-define("_REVIEWS","ใัวฬฺษ");
-define("_DATE","วแสวัํฮ");
-define("_REVADMIN","วแสอ฿ใ Ýํ สÞวัํั วแใัวฬฺษ ๆวแไÞฯ");
-define("_REVTITLE","ฺไๆวไ ีÝอษ วแใัวฬฺษ");
-define("_REVDESC","ิัอ แีÝอษ วแใัวฬฺๅ");
-define("_REVWAITING","สÞวัํั วแใัวฬฺๅ สไสูั วแสร฿ํฯ");
-define("_REVIMGINFO","อใแ ีๆัษ ศอฬใ 150*150 Ýํ วแฯแํแ images/reviews");
-define("_TEXT","วแไี");
-define("_IMAGE","วแีๆัษ");
-define("_NOREVIEW2ADD","แว ํๆฬฯ ใัวฬฺวส แแลึวÝษ");
-define("_ADDREVIEW","วึวÝษ ใัวฬฺษ");
-define("_CLICK2ADDREVIEW","วึÛุ ๅไว แ฿สวศษ สÞัํั ใัวฬฺษ");
-define("_DELMODREVIEW","อะÝ / สฺฯํแ สÞัํั ใัวฬฺษ");
-define("_MODREVINFO","ํใ฿ไ฿ อะÝ รๆ สฺฯํแ สÞัํั ใัวฬฺษ ฺไ ุัํÞ วแัวศุ <a href=\"reviews.php\">reviews.php</a> วะว ฿ไส วแใิัÝ วแฺวใ.");
-define("_LANGUAGE","วแแÛษ");
+define("_EMAIL","ุจุฑูุฏ ุงููุชุฑููู");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_SCORE","ุงูุชูููู…:");
+define("_PRODUCTTITLE","ุนููุงู ุงูู…ูุชุฌ");
+define("_RELATEDLINK","ุฑูุงุจุท ุฐุงุช ุตูุฉ");
+define("_LINKTITLE","ุนููุงู ุงูุฑุงุจุท");
+define("_REVIEWER","ุงูู…ุฑุงุฌุน:");
+define("_REVIEWID","ุฑูู… ุงูู…ุฑุงุฌุน");
+define("_REVIEWS","ู…ุฑุงุฌุนุฉ");
+define("_DATE","ุงูุชุงุฑูุฎ");
+define("_REVADMIN","ุงูุชุญูู… ูู ุชูุงุฑูุฑ ุงูู…ุฑุงุฌุนุฉ ูุงูููุฏ");
+define("_REVTITLE","ุนููุงู ุตูุญุฉ ุงูู…ุฑุงุฌุนุฉ");
+define("_REVDESC","ุดุฑุญ ูุตูุญุฉ ุงูู…ุฑุงุฌุนู");
+define("_REVWAITING","ุชูุงุฑูุฑ ุงูู…ุฑุงุฌุนู ุชูุชุธุฑ ุงูุชุฃููุฏ");
+define("_REVIMGINFO","ุญู…ู ุตูุฑุฉ ุจุญุฌู… 150*150 ูู ุงูุฏููู images/reviews");
+define("_TEXT","ุงููุต");
+define("_IMAGE","ุงูุตูุฑุฉ");
+define("_NOREVIEW2ADD","ูุง ููุฌุฏ ู…ุฑุงุฌุนุงุช ููุฅุถุงูุฉ");
+define("_ADDREVIEW","ุงุถุงูุฉ ู…ุฑุงุฌุนุฉ");
+define("_CLICK2ADDREVIEW","ุงุถุบุท ููุง ููุชุงุจุฉ ุชูุฑูุฑ ู…ุฑุงุฌุนุฉ");
+define("_DELMODREVIEW","ุญุฐู / ุชุนุฏูู ุชูุฑูุฑ ู…ุฑุงุฌุนุฉ");
+define("_MODREVINFO","ูู…ููู ุญุฐู ุฃู ุชุนุฏูู ุชูุฑูุฑ ู…ุฑุงุฌุนุฉ ุนู ุทุฑูู ุงูุฑุงุจุท <a href=\"reviews.php\">reviews.php</a> ุงุฐุง ููุช ุงูู…ุดุฑู ุงูุนุงู….");
+define("_LANGUAGE","ุงููุบุฉ");
 
 
 ?>

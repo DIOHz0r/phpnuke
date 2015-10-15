@@ -138,7 +138,7 @@ define("_YES","S&igrave;");
 define("_NO","No");
 define("_INVISIBLEMODULES","Moduli Invisibili");
 define("_ACTIVEBUTNOTSEE","(Link attivo ma invisibile)");
-define("_THISISAUTOMATED","Questa &egrave; una email automatica per avvisarti che il banner pubblicitario sul nostro sito è stato appena terminato.");
+define("_THISISAUTOMATED","Questa &egrave; una email automatica per avvisarti che il banner pubblicitario sul nostro sito Ã¨ stato appena terminato.");
 define("_THERESULTS","I risultati della tua campagna sono i seguenti:");
 define("_TOTALIMPRESSIONS","Impression totali arrivate:");
 define("_CLICKSRECEIVED","Click ricevuti:");

@@ -17,10 +17,10 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Відправити");
-define("_YOURNAME","Ваше ім'я");
-define("_MESSAGE","Повідомлення");
-define("_YOUREMAIL","Ваш Email");
+define("_SEND","Р’С–РґРїСЂР°РІРёС‚Рё");
+define("_YOURNAME","Р’Р°С€Рµ С–Рј'СЏ");
+define("_MESSAGE","РџРѕРІС–РґРѕРјР»РµРЅРЅСЏ");
+define("_YOUREMAIL","Р’Р°С€ Email");
 define("_FEEDBACKNOTE","All comments and suggestions about this web site are very welcome and a valuable source of information for us. Thanks!");
 define("_FEEDBACKTITLE","Feedback Form");
 define("_FEEDBACK","Feedback");

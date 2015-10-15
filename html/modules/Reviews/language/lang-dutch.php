@@ -79,7 +79,7 @@ define("_TOTALREVIEWS","Totaal aantal recensies gevonden.");
 define("_RETURN2MAIN","Terug naar hoofdmenu");
 define("_REVIEWCOMMENT","Opmerkingen over de recensie:");
 define("_YOURNICK","Uw inlognaam:");
-define("_RCREATEACCOUNT","<a href=modules.php?name=Your_Account>Creëer</a> een profiel");
+define("_RCREATEACCOUNT","<a href=modules.php?name=Your_Account>CreÃ«er</a> een profiel");
 define("_YOURCOMMENT","Uw opmerkingen:");
 define("_MYSCORE","Mijn score:");
 define("_REVIEWMOD","Recensie wijziging:");

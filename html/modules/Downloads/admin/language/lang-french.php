@@ -100,10 +100,10 @@ define("_ERRORURLEXIST","ERREUR: Cet URL est d&eacute;j&agrave; pr&eacute;sent d
 define("_ERRORNOTITLE","ERREUR: Vous devez saisir un TITRE pour votre URL!");
 define("_ERRORNOURL","ERREUR: Vous devez saisir un URL pour votre URL!");
 define("_ERRORNODESCRIPTION","ERREUR: Vous devez saisir une DESCRIPTION pour votre URL!");
-define("_EZTRANSFER","Transférer");
+define("_EZTRANSFER","TransfÃ©rer");
 define("_EZTHEREIS","Il y a");
-define("_EZSUBCAT","sous-catégories");
-define("_EZATTACHEDTOCAT","sous cette catégorie");
+define("_EZSUBCAT","sous-catÃ©gories");
+define("_EZATTACHEDTOCAT","sous cette catÃ©gorie");
 define("_EZTRANSFERDOWNLOADS","Transfer all downloads from category");
 define("_DELEZDOWNLOADSCATWARNING","WARNING : Are you sure you want to delete this category? You will delete all sub-categories and attached downloads as well!");
 define("_DOWNLOADTITLE","Download Title");

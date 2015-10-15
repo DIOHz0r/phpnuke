@@ -17,56 +17,56 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_YOURNAME","วำใ฿");
-define("_OK","ใๆวÝÞ!");
-define("_COMMENT","สฺแํÞ");
-define("_CONFIGURE","สฺฯํแ");
-define("_LOGINCREATE","ฯฮๆแ/สำฬํแ ฺึๆ");
-define("_THRESHOLD","วแอฯ");
-define("_NOCOMMENTS","แว ํๆฬฯ สฺแํÞวส");
-define("_NESTED","ิศ฿ํ");
-define("_FLAT","ำัฯ");
-define("_THREAD","ใๆึๆฺ ๆัฯ");
-define("_OLDEST","วแÞฯํใ รๆแว");
-define("_NEWEST","วแฬฯํฯ รๆแว");
-define("_HIGHEST","วแรฺแ์ สÞํํใ รๆแว");
-define("_COMMENTSWARNING","วแสฺแํÞวส ใใแๆ฿ษ แรีอวศๅว. ไอไ Ûํั ใำฤแๆไ ฺไ ใอสๆวๅว.");
-define("_SCORE","วแสÞํํใ:");
-define("_USERINFO","ใฺแๆใวส วแใำสฮฯใ");
-define("_READREST","รÞัร ศวÞํ วแสฺแํÞ...");
-define("_REPLY","ัฯ ฺแ์ ๅะว");
-define("_REPLYMAIN","รัำแ สฺแํÞ");
-define("_NOSUBJECT","แว ํๆฬฯ ใๆึๆฺ");
-define("_NOANONCOMMENTS","วแสฺแํÞ Ûํั ใำใๆอ แแึํๆÝ, วแัฬวม <a href=\"modules.php?name=Your_Account\">วแสำฬํแ</a>");
-define("_PARENT","วแรีแ");
-define("_ROOT","วแรีแ");
-define("_UCOMMENT","สฺแํÞ");
-define("_ALLOWEDHTML","฿ๆฯ html วแใำใๆอ:");
-define("_POSTANON","วัำวแ วแใๆึๆฺ ศวำใ าวฦั");
+define("_YOURNAME","ุงุณู…ู");
+define("_OK","ู…ูุงูู!");
+define("_COMMENT","ุชุนููู");
+define("_CONFIGURE","ุชุนุฏูู");
+define("_LOGINCREATE","ุฏุฎูู/ุชุณุฌูู ุนุถู");
+define("_THRESHOLD","ุงูุญุฏ");
+define("_NOCOMMENTS","ูุง ููุฌุฏ ุชุนูููุงุช");
+define("_NESTED","ุดุจูู");
+define("_FLAT","ุณุฑุฏ");
+define("_THREAD","ู…ูุถูุน ูุฑุฏ");
+define("_OLDEST","ุงููุฏูู… ุฃููุง");
+define("_NEWEST","ุงูุฌุฏูุฏ ุฃููุง");
+define("_HIGHEST","ุงูุฃุนูู ุชูููู… ุฃููุง");
+define("_COMMENTSWARNING","ุงูุชุนูููุงุช ู…ู…ูููุฉ ูุฃุตุญุงุจูุง. ูุญู ุบูุฑ ู…ุณุคููู ุนู ู…ุญุชูุงูุง.");
+define("_SCORE","ุงูุชูููู…:");
+define("_USERINFO","ู…ุนููู…ุงุช ุงูู…ุณุชุฎุฏู…");
+define("_READREST","ุฃูุฑุฃ ุจุงูู ุงูุชุนููู...");
+define("_REPLY","ุฑุฏ ุนูู ูุฐุง");
+define("_REPLYMAIN","ุฃุฑุณู ุชุนููู");
+define("_NOSUBJECT","ูุง ููุฌุฏ ู…ูุถูุน");
+define("_NOANONCOMMENTS","ุงูุชุนููู ุบูุฑ ู…ุณู…ูุญ ููุถููู, ุงูุฑุฌุงุก <a href=\"modules.php?name=Your_Account\">ุงูุชุณุฌูู</a>");
+define("_PARENT","ุงูุฃุตู");
+define("_ROOT","ุงูุฃุตู");
+define("_UCOMMENT","ุชุนููู");
+define("_ALLOWEDHTML","ููุฏ html ุงูู…ุณู…ูุญ:");
+define("_POSTANON","ุงุฑุณุงู ุงูู…ูุถูุน ุจุงุณู… ุฒุงุฆุฑ");
 define("_EXTRANS","Extrans (html tags to text)");
-define("_HTMLFORMATED","ฺัึ ศวำสฮฯวใ HTML");
-define("_PLAINTEXT","ฺัึ ไี ฺวฯํ");
-define("_ONN","ใสวอ...");
-define("_SUBJECT","วแใๆึๆฺ");
-define("_SURVEYCOM","วัำวแ สฺแํÞ ฺแ์ วำสÝสวม");
-define("_SURVEYCOMPRE","ฺัึ สฺแํÞ ฺแ์ วแลำสÝสวม");
-define("_NOTRIGHT","ๅไว฿ ฮุร ใว Ýํ สใัํั รอฯ วแใสÛํัวส วแ์ วแฯวแษ.");
-define("_DIRECTCOM","สฺแํÞ ใศวิั ฺแ์ วแลำสÝสวม...");
-define("_SENDAMSG","รัำแ ัำวแษ");
-define("_PASTSURVEYS","วำสÞสวมวส ำวศÞษ");
-define("_LVOTES","รีๆวส");
-define("_TOTALVOTES","ใฬใๆฺ วแรีๆวส:");
-define("_VOTING","ีวแษ วแสีๆํสวส");
-define("_OTHERPOLLS","สีๆํสวส รฮั์");
-define("_CURRENTSURVEY","วแลำสÝสวม วแอวแํ");
-define("_CURRENTPOLLRESULTS","ไสวฦฬ วแลำสÝสวม วแอวแํ");
-define("_PREVIEW","วำสฺัวึ");
-define("_REFRESH","สอฯํห");
-define("_SURVEYS","วแลำสÝสวมวส");
-define("_ATTACHEDTOARTICLE","- ใัสศุ ศวแใÞวแ:");
-define("_SURVEYSATTACHED","วแลำสÝสวมวส วแใัสศุษ ศวแใÞวแวส");
-define("_LAST5POLLS", "วฮั 5 วำสÝสวมวส Ýํ ");
-define("_MOREPOLLS", "...วำสÝสวมวส วฮั์");
+define("_HTMLFORMATED","ุนุฑุถ ุจุงุณุชุฎุฏุงู… HTML");
+define("_PLAINTEXT","ุนุฑุถ ูุต ุนุงุฏู");
+define("_ONN","ู…ุชุงุญ...");
+define("_SUBJECT","ุงูู…ูุถูุน");
+define("_SURVEYCOM","ุงุฑุณุงู ุชุนููู ุนูู ุงุณุชูุชุงุก");
+define("_SURVEYCOMPRE","ุนุฑุถ ุชุนููู ุนูู ุงูุฅุณุชูุชุงุก");
+define("_NOTRIGHT","ููุงู ุฎุทุฃ ู…ุง ูู ุชู…ุฑูุฑ ุฃุญุฏ ุงูู…ุชุบูุฑุงุช ุงูู ุงูุฏุงูุฉ.");
+define("_DIRECTCOM","ุชุนููู ู…ุจุงุดุฑ ุนูู ุงูุฅุณุชูุชุงุก...");
+define("_SENDAMSG","ุฃุฑุณู ุฑุณุงูุฉ");
+define("_PASTSURVEYS","ุงุณุชูุชุงุกุงุช ุณุงุจูุฉ");
+define("_LVOTES","ุฃุตูุงุช");
+define("_TOTALVOTES","ู…ุฌู…ูุน ุงูุฃุตูุงุช:");
+define("_VOTING","ุตุงูุฉ ุงูุชุตููุชุงุช");
+define("_OTHERPOLLS","ุชุตููุชุงุช ุฃุฎุฑู");
+define("_CURRENTSURVEY","ุงูุฅุณุชูุชุงุก ุงูุญุงูู");
+define("_CURRENTPOLLRESULTS","ูุชุงุฆุฌ ุงูุฅุณุชูุชุงุก ุงูุญุงูู");
+define("_PREVIEW","ุงุณุชุนุฑุงุถ");
+define("_REFRESH","ุชุญุฏูุซ");
+define("_SURVEYS","ุงูุฅุณุชูุชุงุกุงุช");
+define("_ATTACHEDTOARTICLE","- ู…ุฑุชุจุท ุจุงูู…ูุงู:");
+define("_SURVEYSATTACHED","ุงูุฅุณุชูุชุงุกุงุช ุงูู…ุฑุชุจุทุฉ ุจุงูู…ูุงูุงุช");
+define("_LAST5POLLS", "ุงุฎุฑ 5 ุงุณุชูุชุงุกุงุช ูู ");
+define("_MOREPOLLS", "...ุงุณุชูุชุงุกุงุช ุงุฎุฑู");
 define("_COMMENTSMODERATION","Comments Moderation System");
 define("_MODERATE","Moderate");
 define("_CLICKTOMODERATE","Please select your moderation values for each comment on this survey, then click on <i>Moderate</i> button bellow to save your comments moderation preferences. Be fair on each value, this will contribute and benefict all users/readers. Thank you.");

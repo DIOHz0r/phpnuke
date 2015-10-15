@@ -18,24 +18,24 @@
 /**************************************************************************/
 
 define("_CATEGORY","Kategooria");
-define("_LVOTES","hääl(t)");
+define("_LVOTES","hÃ¤Ã¤l(t)");
 define("_HITS","Tabamust");
 define("_TOPWELCOME","Teretulemast TOP lehele");
 define("_READSTORIES","enim loetud jutud");
 define("_COMMENTEDSTORIES","enim kommenteeritud jutud");
-define("_ACTIVECAT","kõige aktiivsemad kategooriad");
-define("_READSECTION","enim loetud artiklid täpsetes rubriikides");
-define("_NEWSSUBMITTERS","kõige aktiivsemad uudiste saatjad");
+define("_ACTIVECAT","kÃµige aktiivsemad kategooriad");
+define("_READSECTION","enim loetud artiklid tÃ¤psetes rubriikides");
+define("_NEWSSUBMITTERS","kÃµige aktiivsemad uudiste saatjad");
 define("_NEWSSENT","uudist saatnud");
-define("_VOTEDPOLLS","enim hääletatud küsitlused");
-define("_MOSTACTIVEAUTHORS","kõige aktiivsemad autorid");
+define("_VOTEDPOLLS","enim hÃ¤Ã¤letatud kÃ¼sitlused");
+define("_MOSTACTIVEAUTHORS","kÃµige aktiivsemad autorid");
 define("_NEWSPUBLISHED","uudist avalikustanud");
-define("_READREVIEWS","enim loetud ülevaadet");
+define("_READREVIEWS","enim loetud Ã¼levaadet");
 define("_DOWNLOADEDFILES","enim allalaetud faili");
 define("_LDOWNLOADS","korda allalaetud");
 define("_MOSTREADPAGES","enim loetud lehed");
-define("_MOSTVOTEDSTORIES","enim hääletatud juttu");
+define("_MOSTVOTEDSTORIES","enim hÃ¤Ã¤letatud juttu");
 define("_POINTS","punkt(i)");
-define("_BESTRATEDSTORIES","Parimaks hinnatud juttu (põhinevad 5 maximum punkti hinangul)");
+define("_BESTRATEDSTORIES","Parimaks hinnatud juttu (pÃµhinevad 5 maximum punkti hinangul)");
 
 ?>

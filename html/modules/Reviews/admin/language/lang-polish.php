@@ -23,24 +23,24 @@ define("_SAVECHANGES","Zapisz zmiany");
 define("_SCORE","Wynik:");
 define("_PRODUCTTITLE","Nazwa produktu");
 define("_RELATEDLINK","Link");
-define("_LINKTITLE","Tytu³ linku");
+define("_LINKTITLE","TytuÅ‚ linku");
 define("_REVIEWER","Recenzent:");
 define("_REVIEWID","ID recenzji");
 define("_REVIEWS","Recenzje");
 define("_DATE","Data");
-define("_REVADMIN","Zarz±dzanie recenzjami");
-define("_REVTITLE","Tytu³ strony z recenzjami");
+define("_REVADMIN","ZarzÄ…dzanie recenzjami");
+define("_REVTITLE","TytuÅ‚ strony z recenzjami");
 define("_REVDESC","Opis strony");
-define("_REVWAITING","Recenzje oczekuj±ce na sprawdzenie");
-define("_REVIMGINFO","Zapisz swój obrazek wielko¶ci 150*150 w images/reviews");
+define("_REVWAITING","Recenzje oczekujÄ…ce na sprawdzenie");
+define("_REVIMGINFO","Zapisz swÃ³j obrazek wielkoÅ›ci 150*150 w images/reviews");
 define("_TEXT","Tekst");
 define("_IMAGE","Grafika");
 define("_NOREVIEW2ADD","Brak recenzji do dodania");
-define("_ADDREVIEW","Dodaj recenzjê");
-define("_CLICK2ADDREVIEW","Kliknij tutaj, aby napisaæ recenzjê");
-define("_DELMODREVIEW","Usuñ / Modyfikuj recenzjê");
-define("_MODREVINFO","Mo¿esz ³atwo usun±æ / zmieniæ recenzjê przegl±daj±c <a href=\"modules.php?name=Reviews\">Recenzje</a> jako administrator.");
-define("_LANGUAGE","Jêzyk");
+define("_ADDREVIEW","Dodaj recenzjÄ™");
+define("_CLICK2ADDREVIEW","Kliknij tutaj, aby napisaÄ‡ recenzjÄ™");
+define("_DELMODREVIEW","UsuÅ„ / Modyfikuj recenzjÄ™");
+define("_MODREVINFO","MoÅ¼esz Å‚atwo usunÄ…Ä‡ / zmieniÄ‡ recenzjÄ™ przeglÄ…dajÄ…c <a href=\"modules.php?name=Reviews\">Recenzje</a> jako administrator.");
+define("_LANGUAGE","JÄ™zyk");
 
 
 ?>

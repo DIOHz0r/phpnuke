@@ -25,7 +25,7 @@ define("_ACTIVATE","Aktiver");
 define("_PUBLISHEDON","Publisert den");
 define("_PAGESLIST","Liste over sider");
 define("_LISTOFCONTENT","Liste over tilgjengelig innhold i");
-define("_YOURADMINLIST","Du er administrator: følgende er listen over inaktive sider:");
+define("_YOURADMINLIST","Du er administrator: fÃ¸lgende er listen over inaktive sider:");
 define("_COPYRIGHT","Copyright &copy; by");
 define("_COPYRIGHT2","All Right Reserved.");
 define("_CONTENTCATEGORIES","tilgjengelig innhold kategorier");

@@ -28,6 +28,6 @@ define("_LISTOFCONTENT","Lijst beschikbare informatie in");
 define("_YOURADMINLIST","Je bent Beheerder (Administrator): hierna de lijst van de inactieve pagina's:");
 define("_COPYRIGHT","Copyright &copy; door");
 define("_COPYRIGHT2","Alle Rechten Voorbehouden.");
-define("_CONTENTCATEGORIES","Beschikbare Inhoud Categorieën");
+define("_CONTENTCATEGORIES","Beschikbare Inhoud CategorieÃ«n");
 define("_NONCLASSCONT","Inhoud niet in een Categorie opgenomen");
 ?>

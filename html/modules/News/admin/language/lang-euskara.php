@@ -72,7 +72,7 @@ define("_STORIESINSIDE","notizia ditu");
 define("_DELCATWARNING1","Kategoria hau eta bere notizia eta komentario GUZTIAK ezabatu ditzakezu");
 define("_DELCATWARNING2","edo kategoria berri batera mugitu ditzakezu notizia guztiak");
 define("_DELCATWARNING3","Zer egin nahi duzu?");
-define("_YESDEL","Baí, DENA ezabatu!");
+define("_YESDEL","BaÃ­, DENA ezabatu!");
 define("_NOMOVE","Ez, notiziak mugitu lehenago");
 define("_MOVESTORIES","Notiziak kategoria berri batetara mugitu");
 define("_ALLSTORIES","Notizia GUZTIAK");

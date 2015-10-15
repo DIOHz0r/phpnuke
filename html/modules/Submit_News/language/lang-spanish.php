@@ -17,7 +17,7 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Versión Imprimible");
+define("_PRINTER","VersiÃ³n Imprimible");
 define("_FRIEND","Enviar a un Amigo");
 define("_YOURNAME","Tu nombre");
 define("_OK","Aceptar");
@@ -25,27 +25,27 @@ define("_ALLOWEDHTML","HTML Permitido:");
 define("_EXTRANS","Extrans (html tags a texto)");
 define("_HTMLFORMATED","Formateado HTML");
 define("_PLAINTEXT","Texto Plano");
-define("_ARTICLES","Artículos");
+define("_ARTICLES","ArtÃ­culos");
 define("_SUBMITNEWS","Enviar Noticia");
-define("_SUBMITADVICE","Escribe tu artículo/noticia en el siguiente formulario, revisa con cuidado tu envío.<br>Te advertimos que no todos los envíos son publicados.<br>Tu envío será revisado gramaticalmente, puede que sea modificado por nuestros editores.");
-define("_SUBTITLE","Título");
+define("_SUBMITADVICE","Escribe tu artÃ­culo/noticia en el siguiente formulario, revisa con cuidado tu envÃ­o.<br>Te advertimos que no todos los envÃ­os son publicados.<br>Tu envÃ­o serÃ¡ revisado gramaticalmente, puede que sea modificado por nuestros editores.");
+define("_SUBTITLE","TÃ­tulo");
 define("_BEDESCRIPTIVE","Descriptivo, claro y simple");
-define("_BADTITLES","Mal Título = '¡Miren ésto!' o '¡Un Artículo'");
-define("_HTMLISFINE","¡Puedes usar HTML, pero comprueba los URLs y los comandos HTML!");
-define("_AREYOUSURE","¿Estás seguro de que incluíste un URL? ¿Comprobaste la ortografía?");
+define("_BADTITLES","Mal TÃ­tulo = 'Â¡Miren Ã©sto!' o 'Â¡Un ArtÃ­culo'");
+define("_HTMLISFINE","Â¡Puedes usar HTML, pero comprueba los URLs y los comandos HTML!");
+define("_AREYOUSURE","Â¿EstÃ¡s seguro de que incluÃ­ste un URL? Â¿Comprobaste la ortografÃ­a?");
 define("_SUBPREVIEW","Debes hacer una Vista Previa antes de poder enviarlo");
-define("_SELECTTOPIC","Seleccionar Tópico");
+define("_SELECTTOPIC","Seleccionar TÃ³pico");
 define("_NEWSUBPREVIEW","Vista Previa de la Noticia a Enviar");
-define("_STORYLOOK","Tu Noticia tendrá un aspecto como el siguiente:");
+define("_STORYLOOK","Tu Noticia tendrÃ¡ un aspecto como el siguiente:");
 define("_CHECKSTORY","Por favor, revisa el texto, enlaces, etc. antes de enviar la noticia.");
-define("_THANKSSUB","¡Gracias por tu envío!");
+define("_THANKSSUB","Â¡Gracias por tu envÃ­o!");
 define("_SUBSENT","Tu noticia ha sido recibida...");
-define("_SUBTEXT","Revisaremos tu envío en las próximas horas, si es interesante y relevante lo publicaremos pronto.");
+define("_SUBTEXT","Revisaremos tu envÃ­o en las prÃ³ximas horas, si es interesante y relevante lo publicaremos pronto.");
 define("_WEHAVESUB","En este momento tenemos");
-define("_WAITING","envíos esperando ser publicados.");
+define("_WAITING","envÃ­os esperando ser publicados.");
 define("_PREVIEW","Vista Previa");
 define("_NEWUSER","Nuevo Usuario");
-define("_USCORE","Puntuación");
+define("_USCORE","PuntuaciÃ³n");
 define("_DATE","Fecha");
 define("_STORYTEXT","Texto de la Noticia");
 define("_EXTENDEDTEXT","Texto Extendido");
@@ -56,7 +56,7 @@ define("_STORIESARCHIVE","Archivo de Noticias");
 define("_ACTIONS","Acciones");
 define("_ARCHIVESINDEX","Indice del Archivo de Noticias");
 define("_ALLSTORIESARCH","Todas las Noticias");
-define("_NEXTPAGE","Página Siguiente");
-define("_PREVIOUSPAGE","Página Anterior");
+define("_NEXTPAGE","PÃ¡gina Siguiente");
+define("_PREVIOUSPAGE","PÃ¡gina Anterior");
 
 ?>

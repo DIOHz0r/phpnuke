@@ -18,26 +18,26 @@
 /**************************************************************************/
 
 
-define("_FUNCTIONS","Funkciók");
+define("_FUNCTIONS","FunkciÃ³k");
 define("_YES","Igen");
 define("_NO","Nem");
 define("_SAVE","Ment");
 define("_ID","ID");
-define("_CATEGORIES","kategória");
+define("_CATEGORIES","kategÃ³ria");
 define("_ALL","Minden");
 define("_FAQ","GYIK/FAQ");
 define("_CONTENT","Tartalom");
-define("_FAQADMIN","FAQ Adminisztráció");
-define("_ACTIVEFAQS","Aktív FAQ-ok");
-define("_ADDCATEGORY","Új kategória");
-define("_QUESTIONS","Kérdések és Válaszok");
-define("_ADDQUESTION","Új kérdés");
-define("_QUESTION","Kérdés");
-define("_ANSWER","Válasz");
-define("_EDITCATEGORY","Kategória szerkesztése");
-define("_EDITQUESTIONS","Kérdések és Válaszok szerkesztése");
-define("_FAQDELWARNING","FIGYELMEZTETÉS: Biztosan törölni akarod ezt a FAQ-ot és teljes tartalmát?");
-define("_QUESTIONDEL","FIGYELMEZTETÉS: Biztosan törölni akarod ezt a kérdést?");
+define("_FAQADMIN","FAQ AdminisztrÃ¡ciÃ³");
+define("_ACTIVEFAQS","AktÃ­v FAQ-ok");
+define("_ADDCATEGORY","Ãšj kategÃ³ria");
+define("_QUESTIONS","KÃ©rdÃ©sek Ã©s VÃ¡laszok");
+define("_ADDQUESTION","Ãšj kÃ©rdÃ©s");
+define("_QUESTION","KÃ©rdÃ©s");
+define("_ANSWER","VÃ¡lasz");
+define("_EDITCATEGORY","KategÃ³ria szerkesztÃ©se");
+define("_EDITQUESTIONS","KÃ©rdÃ©sek Ã©s VÃ¡laszok szerkesztÃ©se");
+define("_FAQDELWARNING","FIGYELMEZTETÃ‰S: Biztosan tÃ¶rÃ¶lni akarod ezt a FAQ-ot Ã©s teljes tartalmÃ¡t?");
+define("_QUESTIONDEL","FIGYELMEZTETÃ‰S: Biztosan tÃ¶rÃ¶lni akarod ezt a kÃ©rdÃ©st?");
 define("_LANGUAGE","Language");
 
 

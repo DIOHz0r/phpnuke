@@ -21,44 +21,44 @@
 /**************************************************************************/
 
 /**************************************************************************/
-/* Äîï. ïåðåâîä, ïðîâåðêà ñèíòàêñèñà/Add. Russian transl.& spell checking:*/
-/*         Àëåêñàíäð Áóð÷àê / Alexander Burchak, alexburchak@ua.fm        */
-/* Äàòà/Date:                                                             */
+/* Ð”Ð¾Ð¿. Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´, Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ° ÑÐ¸Ð½Ñ‚Ð°ÐºÑÐ¸ÑÐ°/Add. Russian transl.& spell checking:*/
+/*         ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð‘ÑƒÑ€Ñ‡Ð°Ðº / Alexander Burchak, alexburchak@ua.fm        */
+/* Ð”Ð°Ñ‚Ð°/Date:                                                             */
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_HITS","Õèòû");
-define("_BROWSERS","Áðîóçåðû");
-define("_OPERATINGSYS","Îïåðàöèîííûå ñèñòåìû");
-define("_UNKNOWN","Íåèçâåñòíàÿ");
-define("_OTHER","Äðóãàÿ / Íåèçâåñòíàÿ");
-define("_MISCSTATS","Ðàçëè÷íûå ñòàòèñòèêè");
-define("_REGUSERS","Çàðåãèñòðèðîâàííûõ ïîëüçîâàòåëåé:");
-define("_ACTIVEAUTHORS","Àêòèâíûõ àâòîðîâ:");
-define("_STORIESPUBLISHED","Îïóáëèêîâàíî ñòàòåé:");
-define("_SACTIVETOPICS","Àêòèâíûõ òåì:");
-define("_COMMENTSPOSTED","Êîììåíòàðèåâ:");
-define("_SSPECIALSECT","Ñïåöèàëüíûå ñåêöèè:");
-define("_ARTICLESSEC","Ñòàòåé â ñåêöèÿõ:");
-define("_LINKSINLINKS","Ññûëîê â Web Links :");
-define("_LINKSCAT","Êàòåãîðèé â ññûëêàõ:");
-define("_NEWSWAITING","Íîâîñòè, îæèäàþùèå ïóáëèêàöèè:");
-define("_NUKEVERSION","Âåðñèÿ PHP-Nuke:");
-define("_SEARCHENGINES","Ïîèñêîâûå ìàøèíû");
-define("_BOTS","Ðîáîòû/Ïàóêè");
-define("_STATS","Ñòàòèñòèêà äîñòóïà");
-define("_RETURNBASICSTATS","Âîçâðàò ê áàçîâîé ñòàòèñòèêå");
-define("_BACKTODETSTATS","Âîçâðàò ê äåòàëüíîé ñòàòèñòèêå");
-define("_BACKTOMAIN","Âåðíóòüñÿ íà ãëàâíóþ");
-define("_TODAYIS","Ñåãîäíÿ");
-define("_MOSTMONTH","Ñàìûé ïîñåùàåìûé ìåñÿö");
-define("_MOSTDAY","Ñàìûé ïîñåùàåìûé äåíü");
-define("_MOSTHOUR","Ñàìûé ïîñåùàåìûé ÷àñ");
-define("_YEARLYSTATS","Ãîäîâàÿ ñòàòèñòèêà");
-define("_MONTLYSTATS","Ìåñÿ÷íàÿ ñòàòèñòèêà äëÿ");
-define("_SPAGESVIEWS","Ïðîñìîòðîâ ñòðàíèö");
-define("_DAILYSTATS","Äíåâíàÿ ñòàòèñòèêà äëÿ");
-define("_HOURLYSTATS","×àñîâàÿ ñòàòèñòèêà äëÿ");
-define("_VIEWDETAILED","Ïðîñìîòð äåòàëüíîé ñòàòèñòèêè");
+define("_HITS","Ð¥Ð¸Ñ‚Ñ‹");
+define("_BROWSERS","Ð‘Ñ€Ð¾ÑƒÐ·ÐµÑ€Ñ‹");
+define("_OPERATINGSYS","ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ñ‹Ðµ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹");
+define("_UNKNOWN","ÐÐµÐ¸Ð·Ð²ÐµÑÑ‚Ð½Ð°Ñ");
+define("_OTHER","Ð”Ñ€ÑƒÐ³Ð°Ñ / ÐÐµÐ¸Ð·Ð²ÐµÑÑ‚Ð½Ð°Ñ");
+define("_MISCSTATS","Ð Ð°Ð·Ð»Ð¸Ñ‡Ð½Ñ‹Ðµ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ¸");
+define("_REGUSERS","Ð—Ð°Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ñ… Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹:");
+define("_ACTIVEAUTHORS","ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ñ… Ð°Ð²Ñ‚Ð¾Ñ€Ð¾Ð²:");
+define("_STORIESPUBLISHED","ÐžÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ¾Ð²Ð°Ð½Ð¾ ÑÑ‚Ð°Ñ‚ÐµÐ¹:");
+define("_SACTIVETOPICS","ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ñ… Ñ‚ÐµÐ¼:");
+define("_COMMENTSPOSTED","ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸ÐµÐ²:");
+define("_SSPECIALSECT","Ð¡Ð¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ñ‹Ðµ ÑÐµÐºÑ†Ð¸Ð¸:");
+define("_ARTICLESSEC","Ð¡Ñ‚Ð°Ñ‚ÐµÐ¹ Ð² ÑÐµÐºÑ†Ð¸ÑÑ…:");
+define("_LINKSINLINKS","Ð¡ÑÑ‹Ð»Ð¾Ðº Ð² Web Links :");
+define("_LINKSCAT","ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¹ Ð² ÑÑÑ‹Ð»ÐºÐ°Ñ…:");
+define("_NEWSWAITING","ÐÐ¾Ð²Ð¾ÑÑ‚Ð¸, Ð¾Ð¶Ð¸Ð´Ð°ÑŽÑ‰Ð¸Ðµ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸:");
+define("_NUKEVERSION","Ð’ÐµÑ€ÑÐ¸Ñ PHP-Nuke:");
+define("_SEARCHENGINES","ÐŸÐ¾Ð¸ÑÐºÐ¾Ð²Ñ‹Ðµ Ð¼Ð°ÑˆÐ¸Ð½Ñ‹");
+define("_BOTS","Ð Ð¾Ð±Ð¾Ñ‚Ñ‹/ÐŸÐ°ÑƒÐºÐ¸");
+define("_STATS","Ð¡Ñ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð°");
+define("_RETURNBASICSTATS","Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‚ Ðº Ð±Ð°Ð·Ð¾Ð²Ð¾Ð¹ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐµ");
+define("_BACKTODETSTATS","Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‚ Ðº Ð´ÐµÑ‚Ð°Ð»ÑŒÐ½Ð¾Ð¹ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐµ");
+define("_BACKTOMAIN","Ð’ÐµÑ€Ð½ÑƒÑ‚ÑŒÑÑ Ð½Ð° Ð³Ð»Ð°Ð²Ð½ÑƒÑŽ");
+define("_TODAYIS","Ð¡ÐµÐ³Ð¾Ð´Ð½Ñ");
+define("_MOSTMONTH","Ð¡Ð°Ð¼Ñ‹Ð¹ Ð¿Ð¾ÑÐµÑ‰Ð°ÐµÐ¼Ñ‹Ð¹ Ð¼ÐµÑÑÑ†");
+define("_MOSTDAY","Ð¡Ð°Ð¼Ñ‹Ð¹ Ð¿Ð¾ÑÐµÑ‰Ð°ÐµÐ¼Ñ‹Ð¹ Ð´ÐµÐ½ÑŒ");
+define("_MOSTHOUR","Ð¡Ð°Ð¼Ñ‹Ð¹ Ð¿Ð¾ÑÐµÑ‰Ð°ÐµÐ¼Ñ‹Ð¹ Ñ‡Ð°Ñ");
+define("_YEARLYSTATS","Ð“Ð¾Ð´Ð¾Ð²Ð°Ñ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ°");
+define("_MONTLYSTATS","ÐœÐµÑÑÑ‡Ð½Ð°Ñ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Ð´Ð»Ñ");
+define("_SPAGESVIEWS","ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€Ð¾Ð² ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†");
+define("_DAILYSTATS","Ð”Ð½ÐµÐ²Ð½Ð°Ñ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Ð´Ð»Ñ");
+define("_HOURLYSTATS","Ð§Ð°ÑÐ¾Ð²Ð°Ñ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Ð´Ð»Ñ");
+define("_VIEWDETAILED","ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ Ð´ÐµÑ‚Ð°Ð»ÑŒÐ½Ð¾Ð¹ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ¸");
 
 ?>

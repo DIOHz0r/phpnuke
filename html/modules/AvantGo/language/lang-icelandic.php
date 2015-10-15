@@ -19,8 +19,8 @@
 
 define("_PDATE","Dags:");
 define("_PTOPIC","Efnisflokkur:");
-define("_COMESFROM","Þessi grein kemur frá");
-define("_THEURL","Vefslóð þessarar greinar er:");
+define("_COMESFROM","Ãžessi grein kemur frÃ¡");
+define("_THEURL","VefslÃ³Ã° Ã¾essarar greinar er:");
 define("_DATE","Dags");
 define("_TITLE","Titill");
 

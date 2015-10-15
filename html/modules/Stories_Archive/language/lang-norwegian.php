@@ -22,7 +22,7 @@ define("_FRIEND","Send denne artikkelen til en venn");
 define("_ARTICLES","Artiklene");
 define("_USCORE","Poeng");
 define("_DATE","Dato");
-define("_SELECTMONTH2VIEW","Velg måneden du vil se:");
+define("_SELECTMONTH2VIEW","Velg mÃ¥neden du vil se:");
 define("_SHOWALLSTORIES","Vis ALLE artikler");
 define("_STORIESARCHIVE","Artikkelarkiv");
 define("_ACTIONS","Valg");

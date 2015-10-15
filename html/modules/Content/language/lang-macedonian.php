@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Ïðåòõîäíà ñòðàíà");
-define("_NEXT","Ñëåäíà ñòðàíà");
-define("_PAGE","Ñòðàíà");
-define("_DEACTIVATE","Äåàêòèâèðà¼");
-define("_ACTIVATE","Àêòèâèðà¼");
-define("_PUBLISHEDON","Îá¼àâåíî íà");
-define("_PAGESLIST","Ëèñòà íà ñòðàíèöè");
-define("_LISTOFCONTENT","Ëèñòà íà äîñòàïíè ñîäðæèíè íà");
-define("_YOURADMINLIST","Òè ñè àäìèíèñòðàòîð: ñëåäóâà ëèñòà íà íåàêòèâíè ñòðàíè:");
-define("_COPYRIGHT","Copyright &copy; îä");
-define("_COPYRIGHT2","Ñèòå ïðàâà çàäðæàíè.");
-define("_CONTENTCATEGORIES","Äîñòàïíè êàòåãîðèè");
-define("_NONCLASSCONT","Íåêëàñèôèöèðàíà ñîäðæèíà");
+define("_PREVIOUS","ÐŸÑ€ÐµÑ‚Ñ…Ð¾Ð´Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð°");
+define("_NEXT","Ð¡Ð»ÐµÐ´Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð°");
+define("_PAGE","Ð¡Ñ‚Ñ€Ð°Ð½Ð°");
+define("_DEACTIVATE","Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð°Ñ˜");
+define("_ACTIVATE","ÐÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð°Ñ˜");
+define("_PUBLISHEDON","ÐžÐ±Ñ˜Ð°Ð²ÐµÐ½Ð¾ Ð½Ð°");
+define("_PAGESLIST","Ð›Ð¸ÑÑ‚Ð° Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð¸");
+define("_LISTOFCONTENT","Ð›Ð¸ÑÑ‚Ð° Ð½Ð° Ð´Ð¾ÑÑ‚Ð°Ð¿Ð½Ð¸ ÑÐ¾Ð´Ñ€Ð¶Ð¸Ð½Ð¸ Ð½Ð°");
+define("_YOURADMINLIST","Ð¢Ð¸ ÑÐ¸ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€: ÑÐ»ÐµÐ´ÑƒÐ²Ð° Ð»Ð¸ÑÑ‚Ð° Ð½Ð° Ð½ÐµÐ°ÐºÑ‚Ð¸Ð²Ð½Ð¸ ÑÑ‚Ñ€Ð°Ð½Ð¸:");
+define("_COPYRIGHT","Copyright &copy; Ð¾Ð´");
+define("_COPYRIGHT2","Ð¡Ð¸Ñ‚Ðµ Ð¿Ñ€Ð°Ð²Ð° Ð·Ð°Ð´Ñ€Ð¶Ð°Ð½Ð¸.");
+define("_CONTENTCATEGORIES","Ð”Ð¾ÑÑ‚Ð°Ð¿Ð½Ð¸ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸");
+define("_NONCLASSCONT","ÐÐµÐºÐ»Ð°ÑÐ¸Ñ„Ð¸Ñ†Ð¸Ñ€Ð°Ð½Ð° ÑÐ¾Ð´Ñ€Ð¶Ð¸Ð½Ð°");
 
 ?>

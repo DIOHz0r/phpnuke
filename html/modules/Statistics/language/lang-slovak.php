@@ -31,38 +31,38 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_HITS"," krát èítané");
-define("_BROWSERS","Prehliadaèe");
-define("_OPERATINGSYS","Operaèný systém");
-define("_UNKNOWN","Neidentifikované");
-define("_OTHER","Iné / Neznáme");
-define("_MISCSTATS","Všeobecné štatistiky");
-define("_REGUSERS","Registrovaní užívatelia:");
-define("_ACTIVEAUTHORS","Aktívni autori:");
-define("_STORIESPUBLISHED","Publikované èlánky:");
-define("_SACTIVETOPICS","Aktívne hlavné témy:");
-define("_COMMENTSPOSTED","Publikované komentáre:");
-define("_SSPECIALSECT","Iné oblasti:");
-define("_ARTICLESSEC","Èlánky v iných oblastiach:");
-define("_LINKSINLINKS","Odkazy na webstránky:");
-define("_LINKSCAT","Kategóríe odkazov:");
-define("_NEWSWAITING","Èlánky, èakajúce na publikovanie:");
+define("_HITS"," krÃ¡t ÄÃ­tanÃ©");
+define("_BROWSERS","PrehliadaÄe");
+define("_OPERATINGSYS","OperaÄnÃ½ systÃ©m");
+define("_UNKNOWN","NeidentifikovanÃ©");
+define("_OTHER","InÃ© / NeznÃ¡me");
+define("_MISCSTATS","VÅ¡eobecnÃ© Å¡tatistiky");
+define("_REGUSERS","RegistrovanÃ­ uÅ¾Ã­vatelia:");
+define("_ACTIVEAUTHORS","AktÃ­vni autori:");
+define("_STORIESPUBLISHED","PublikovanÃ© ÄlÃ¡nky:");
+define("_SACTIVETOPICS","AktÃ­vne hlavnÃ© tÃ©my:");
+define("_COMMENTSPOSTED","PublikovanÃ© komentÃ¡re:");
+define("_SSPECIALSECT","InÃ© oblasti:");
+define("_ARTICLESSEC","ÄŒlÃ¡nky v inÃ½ch oblastiach:");
+define("_LINKSINLINKS","Odkazy na webstrÃ¡nky:");
+define("_LINKSCAT","KategÃ³rÃ­e odkazov:");
+define("_NEWSWAITING","ÄŒlÃ¡nky, ÄakajÃºce na publikovanie:");
 define("_NUKEVERSION","Verzia PHP-Nuke:");
-define("_SEARCHENGINES","Vyh¾adávacie nástroje");
+define("_SEARCHENGINES","VyhÄ¾adÃ¡vacie nÃ¡stroje");
 define("_BOTS","Robots/Spiders");
-define("_STATS","Statistiky prístupov");
-define("_RETURNBASICSTATS","Spä na základné štatistiky");
-define("_BACKTODETSTATS","Spä na detailné štatistiky");
-define("_BACKTOMAIN","Návrat domov");
+define("_STATS","Statistiky prÃ­stupov");
+define("_RETURNBASICSTATS","SpÃ¤Å¥ na zÃ¡kladnÃ© Å¡tatistiky");
+define("_BACKTODETSTATS","SpÃ¤Å¥ na detailnÃ© Å¡tatistiky");
+define("_BACKTOMAIN","NÃ¡vrat domov");
 define("_TODAYIS","Dnes je");
-define("_MOSTMONTH","Najnavštevovanejší mesiac");
-define("_MOSTDAY","Najnavštevovanejší deò");
-define("_MOSTHOUR","Najnavštevovanejšia hodina");
-define("_YEARLYSTATS","Roèné štatistiky");
-define("_MONTLYSTATS","Mesaèné štatistiky pre:");
-define("_SPAGESVIEWS","zobrazených stránok");
-define("_DAILYSTATS","Denné štatistiky pre:");
-define("_HOURLYSTATS","Hodinové štatistiky pre:");
-define("_VIEWDETAILED","Zobrazi podrobné štatistiky");
+define("_MOSTMONTH","NajnavÅ¡tevovanejÅ¡Ã­ mesiac");
+define("_MOSTDAY","NajnavÅ¡tevovanejÅ¡Ã­ deÅˆ");
+define("_MOSTHOUR","NajnavÅ¡tevovanejÅ¡ia hodina");
+define("_YEARLYSTATS","RoÄnÃ© Å¡tatistiky");
+define("_MONTLYSTATS","MesaÄnÃ© Å¡tatistiky pre:");
+define("_SPAGESVIEWS","zobrazenÃ½ch strÃ¡nok");
+define("_DAILYSTATS","DennÃ© Å¡tatistiky pre:");
+define("_HOURLYSTATS","HodinovÃ© Å¡tatistiky pre:");
+define("_VIEWDETAILED","ZobraziÅ¥ podrobnÃ© Å¡tatistiky");
 
 ?>

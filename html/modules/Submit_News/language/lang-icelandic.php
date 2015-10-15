@@ -17,47 +17,47 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Prentvænni síğa");
-define("_FRIEND","Senda şessa frétt til vinar");
-define("_YOURNAME","Nafn şitt");
-define("_OK","Í lagi!");
-define("_ALLOWEDHTML","Leyfilegur HTML kóği:");
-define("_EXTRANS","Óbreytt (HTML tög yfir í texta)");
-define("_HTMLFORMATED","HTML sniğ");
+define("_PRINTER","PrentvÃ¦nni sÃ­Ã°a");
+define("_FRIEND","Senda Ã¾essa frÃ©tt til vinar");
+define("_YOURNAME","Nafn Ã¾itt");
+define("_OK","Ã lagi!");
+define("_ALLOWEDHTML","Leyfilegur HTML kÃ³Ã°i:");
+define("_EXTRANS","Ã“breytt (HTML tÃ¶g yfir Ã­ texta)");
+define("_HTMLFORMATED","HTML sniÃ°");
 define("_PLAINTEXT","Venjulegur texti");
 define("_ARTICLES","greinar");
-define("_SUBMITNEWS","Senda inn frétt");
-define("_SUBMITADVICE","Skrifağu fréttina/greinina şína í eftirfarandi form og lestu hana vel yfir.<br>Athugağu ağ şağ fara ekki allar fréttir á vefinn.<br>Fréttin verğur lesin yfir og mögulega lítillega breytt af ritstjórum vefsins.");
+define("_SUBMITNEWS","Senda inn frÃ©tt");
+define("_SUBMITADVICE","SkrifaÃ°u frÃ©ttina/greinina Ã¾Ã­na Ã­ eftirfarandi form og lestu hana vel yfir.<br>AthugaÃ°u aÃ° Ã¾aÃ° fara ekki allar frÃ©ttir Ã¡ vefinn.<br>FrÃ©ttin verÃ°ur lesin yfir og mÃ¶gulega lÃ­tillega breytt af ritstjÃ³rum vefsins.");
 define("_SUBTITLE","Titill");
-define("_BEDESCRIPTIVE","Hafğu textann lısandi og einfaldann");
-define("_BADTITLES","slæmir titlar='Kíkiğ á şetta!' eğa 'Frétt!'");
-define("_HTMLISFINE","Şağ er í lagi ağ nota HTML en athugiğ ağ hafa slóğir og HTML kóğa réttan!");
-define("_AREYOUSURE","Ertu viss um ağ şú hafir haft vefslóğ meğ? Athugağirğu hvort hún sé ekki örugglega rétt?");
-define("_SUBPREVIEW","Şú verğur ağ lesa yfir áğur en şú sendir inn");
+define("_BEDESCRIPTIVE","HafÃ°u textann lÃ½sandi og einfaldann");
+define("_BADTITLES","slÃ¦mir titlar='KÃ­kiÃ° Ã¡ Ã¾etta!' eÃ°a 'FrÃ©tt!'");
+define("_HTMLISFINE","ÃaÃ° er Ã­ lagi aÃ° nota HTML en athugiÃ° aÃ° hafa slÃ³Ã°ir og HTML kÃ³Ã°a rÃ©ttan!");
+define("_AREYOUSURE","Ertu viss um aÃ° Ã¾Ãº hafir haft vefslÃ³Ã° meÃ°? AthugaÃ°irÃ°u hvort hÃºn sÃ© ekki Ã¶rugglega rÃ©tt?");
+define("_SUBPREVIEW","ÃÃº verÃ°ur aÃ° lesa yfir Ã¡Ã°ur en Ã¾Ãº sendir inn");
 define("_SELECTTOPIC","Veldu efnisflokk");
-define("_NEWSUBPREVIEW","Yfirlestur á frétt");
-define("_STORYLOOK","Fréttin şín mun líta nokkurnvegin svona út:");
-define("_CHECKSTORY","Lestu yfir textann og athugağu tengla og şessháttar áğur en şú sendir inn!");
-define("_THANKSSUB","Takk fyrir ağ senda inn!");
-define("_SUBSENT","Fréttin şín hefur veriğ móttekin...");
-define("_SUBTEXT","Viğ munum lesa şetta yfir á næstum tímum og ef á viğ setja á vefinn.");
-define("_WEHAVESUB","Í augnablikinu bíğa");
+define("_NEWSUBPREVIEW","Yfirlestur Ã¡ frÃ©tt");
+define("_STORYLOOK","FrÃ©ttin Ã¾Ã­n mun lÃ­ta nokkurnvegin svona Ãºt:");
+define("_CHECKSTORY","Lestu yfir textann og athugaÃ°u tengla og Ã¾esshÃ¡ttar Ã¡Ã°ur en Ã¾Ãº sendir inn!");
+define("_THANKSSUB","Takk fyrir aÃ° senda inn!");
+define("_SUBSENT","FrÃ©ttin Ã¾Ã­n hefur veriÃ° mÃ³ttekin...");
+define("_SUBTEXT","ViÃ° munum lesa Ã¾etta yfir Ã¡ nÃ¦stum tÃ­mum og ef Ã¡ viÃ° setja Ã¡ vefinn.");
+define("_WEHAVESUB","Ã augnablikinu bÃ­Ã°a");
 define("_WAITING","greinar eftir yfirlestri.");
 define("_PREVIEW","Lesa yfir");
-define("_NEWUSER","Nır notandi");
+define("_NEWUSER","NÃ½r notandi");
 define("_USCORE","Stig");
 define("_DATE","Dags");
-define("_STORYTEXT","Texti fréttar");
+define("_STORYTEXT","Texti frÃ©ttar");
 define("_EXTENDEDTEXT","Aukatexti");
-define("_LANGUAGE","Tungumál");
+define("_LANGUAGE","TungumÃ¡l");
 
-define("_SELECTMONTH2VIEW","Vinsamlegast veljiğ mánuğin sem şú vilt skoğa:");
-define("_SHOWALLSTORIES","Sına allar greinar");
+define("_SELECTMONTH2VIEW","Vinsamlegast veljiÃ° mÃ¡nuÃ°in sem Ã¾Ãº vilt skoÃ°a:");
+define("_SHOWALLSTORIES","SÃ½na allar greinar");
 define("_STORIESARCHIVE","Greinasafn");
-define("_ACTIONS","Ağgerğir");
+define("_ACTIONS","AÃ°gerÃ°ir");
 define("_ARCHIVESINDEX","Efnisyfirlit greinasafns");
 define("_ALLSTORIESARCH","Allar greinar");
-define("_NEXTPAGE","Næsta síğa");
-define("_PREVIOUSPAGE","Fyrri síğa");
+define("_NEXTPAGE","NÃ¦sta sÃ­Ã°a");
+define("_PREVIOUSPAGE","Fyrri sÃ­Ã°a");
 
 ?>

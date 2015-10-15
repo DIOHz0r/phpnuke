@@ -17,27 +17,27 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","ºô§}");
-define("_EMAIL","¹q¤l¶l¥ó");
-define("_REALNAME","¯u¹ê©m¦W");
-define("_FUNCTIONS","¥\¯à¿ï¶µ");
-define("_PREVIOUS","¤W¤@­¶");
-define("_MEMBERSLIST","·|­û²M³æ");
-define("_GREETINGS","Åwªï³Ì·s·|­û¡G");
-define("_SORTBY","±Æ§Ç¥Ñ¡G");
-define("_MNICKNAME","µn¤J¦WºÙ");
-define("_MREALNAME","¯u¹ê©m¦W");
-define("_MEMAIL","¹q¤l¶l¥ó");
-define("_MURL","ºô§}");
-define("_ONLINEREG","¥Ø«e½u¤W·|­û¬°¡G");
-define("_WEHAVE","¨ì¥Ø«e¬°¤î¡A§Ú­Ì¦³");
-define("_MREGISTERED","¦ì·|­û¡C¨ä¤¤¦³");
-define("_MREGONLINE","¦ì·|­û¥¿¦b½u¤W");
-define("_REGSOFAR","¦ì·|­û¡C");
-define("_USERSFOUND","¦ì·|­ûªº¦WºÙ¶}ÀY¬°");
-define("_USERSSHOWN","¦ì·|­ûÅã¥Ü");
-define("_NOMEMBERS","¨S¦³¥ô¦ó·|­ûªº¦WºÙ¶}ÀY¬°");
-define("_PAGES","­¶");
-define("_HOMEPAGE","­º­¶");
+define("_URL","ç¶²å€");
+define("_EMAIL","é›»å­éƒµä»¶");
+define("_REALNAME","çœŸå¯¦å§“å");
+define("_FUNCTIONS","åŠŸèƒ½é¸é …");
+define("_PREVIOUS","ä¸Šä¸€é ");
+define("_MEMBERSLIST","æœƒå“¡æ¸…å–®");
+define("_GREETINGS","æ­¡è¿Žæœ€æ–°æœƒå“¡ï¼š");
+define("_SORTBY","æŽ’åºç”±ï¼š");
+define("_MNICKNAME","ç™»å…¥åç¨±");
+define("_MREALNAME","çœŸå¯¦å§“å");
+define("_MEMAIL","é›»å­éƒµä»¶");
+define("_MURL","ç¶²å€");
+define("_ONLINEREG","ç›®å‰ç·šä¸Šæœƒå“¡ç‚ºï¼š");
+define("_WEHAVE","åˆ°ç›®å‰ç‚ºæ­¢ï¼Œæˆ‘å€‘æœ‰");
+define("_MREGISTERED","ä½æœƒå“¡ã€‚å…¶ä¸­æœ‰");
+define("_MREGONLINE","ä½æœƒå“¡æ­£åœ¨ç·šä¸Š");
+define("_REGSOFAR","ä½æœƒå“¡ã€‚");
+define("_USERSFOUND","ä½æœƒå“¡çš„åç¨±é–‹é ­ç‚º");
+define("_USERSSHOWN","ä½æœƒå“¡é¡¯ç¤º");
+define("_NOMEMBERS","æ²’æœ‰ä»»ä½•æœƒå“¡çš„åç¨±é–‹é ­ç‚º");
+define("_PAGES","é ");
+define("_HOMEPAGE","é¦–é ");
 
 ?>

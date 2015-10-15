@@ -20,14 +20,14 @@
 
 
 
-define("_PREVIOUS","Попережня сторінка");
-define("_NEXT","Наступна сторінка");
+define("_PREVIOUS","РџРѕРїРµСЂРµР¶РЅСЏ СЃС‚РѕСЂС–РЅРєР°");
+define("_NEXT","РќР°СЃС‚СѓРїРЅР° СЃС‚РѕСЂС–РЅРєР°");
 
-define("_SEARCHRESULTS","Результати пошуку");
-define("_PAGE","Сторінка");
-define("_RETURNTO","Повернутись на ");
-define("_DEACTIVATE","Зробити неактивним");
-define("_ACTIVATE","Зробити активним");
+define("_SEARCHRESULTS","Р РµР·СѓР»СЊС‚Р°С‚Рё РїРѕС€СѓРєСѓ");
+define("_PAGE","РЎС‚РѕСЂС–РЅРєР°");
+define("_RETURNTO","РџРѕРІРµСЂРЅСѓС‚РёСЃСЊ РЅР° ");
+define("_DEACTIVATE","Р—СЂРѕР±РёС‚Рё РЅРµР°РєС‚РёРІРЅРёРј");
+define("_ACTIVATE","Р—СЂРѕР±РёС‚Рё Р°РєС‚РёРІРЅРёРј");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_NOCONTENTFORLETTER","Sorry, there isn't any content for the letter");
 define("_ENCYSELECTLETTER","Please select a letter from the following list to consult terms:");

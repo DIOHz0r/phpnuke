@@ -12,7 +12,7 @@
 /* ICQ:	155265588                                                     */
 /* Webside:	www.Sjove-Film.dk - HitsMaskinen.dk - FilmCentralen.dk        */
 /*                                                                        */
-/* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
+/* Hvis de finder fejl mÃ¥ og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
 define("_YOURNAME","Dit navn");
@@ -23,24 +23,24 @@ define("_LOGINCREATE","Log ind / Bliv bruger");
 define("_THRESHOLD","Laveste score");
 define("_NOCOMMENTS","Ingen kommentarer");
 define("_NESTED","Indrykket");
-define("_FLAT","I rækkefølge");
-define("_THREAD","Trådet");
-define("_OLDEST","Ældste først");
-define("_NEWEST","Nyeste først");
-define("_HIGHEST","Højeste score først");
-define("_COMMENTSWARNING","Alle kommentarer tilhører indsenderen. Vi er ikke ansvarlige for indholdet og kan ikke tages som udtryk for vores synspunkter.");
+define("_FLAT","I rÃ¦kkefÃ¸lge");
+define("_THREAD","TrÃ¥det");
+define("_OLDEST","Ã†ldste fÃ¸rst");
+define("_NEWEST","Nyeste fÃ¸rst");
+define("_HIGHEST","HÃ¸jeste score fÃ¸rst");
+define("_COMMENTSWARNING","Alle kommentarer tilhÃ¸rer indsenderen. Vi er ikke ansvarlige for indholdet og kan ikke tages som udtryk for vores synspunkter.");
 define("_SCORE","Hits:");
 define("_USERINFO","Brugerinfo");
-define("_READREST","Læs resten af denne kommentar...");
+define("_READREST","LÃ¦s resten af denne kommentar...");
 define("_REPLY","Svar til denne");
 define("_REPLYMAIN","Send kommentar");
 define("_NOSUBJECT","Intet emne");
-define("_NOANONCOMMENTS","Anonyme kan ikke skrive kommentarer. Vær venlig at <a href=\"modules.php?name=Your_Account&amp;op=new_user\">oprette</a> dig som bruger.");
+define("_NOANONCOMMENTS","Anonyme kan ikke skrive kommentarer. VÃ¦r venlig at <a href=\"modules.php?name=Your_Account&amp;op=new_user\">oprette</a> dig som bruger.");
 define("_PARENT","Forrige");
 define("_ROOT","Rod");
 define("_UCOMMENT","Kommentar");
 define("_ALLOWEDHTML","Tilladte HTML-koder:");
-define("_POSTANON","Anonymt indlæg");
+define("_POSTANON","Anonymt indlÃ¦g");
 define("_EXTRANS","Extrans (html-koder i teksten)");
 define("_HTMLFORMATED","HTML-formateret");
 define("_PLAINTEXT","Almindelig tekstformat");
@@ -56,13 +56,13 @@ define("_LVOTES","stemmer");
 define("_TOTALVOTES","Antal stemmer:");
 define("_VOTING","Stemmeboks");
 define("_OTHERPOLLS","Andre afstemninger");
-define("_CURRENTSURVEY","Nuværende afstemning");
-define("_CURRENTPOLLRESULTS","Nuværende afstemningsresultater");
+define("_CURRENTSURVEY","NuvÃ¦rende afstemning");
+define("_CURRENTPOLLRESULTS","NuvÃ¦rende afstemningsresultater");
 define("_PREVIEW","Gennemse");
 define("_REFRESH","Genopfrisk");
 define("_SURVEYS","Afstemninger");
-define("_ATTACHEDTOARTICLE","- vedhæftet til artiklen:");
-define("_SURVEYSATTACHED","Afstemninger vedhæftet til artikler");
+define("_ATTACHEDTOARTICLE","- vedhÃ¦ftet til artiklen:");
+define("_SURVEYSATTACHED","Afstemninger vedhÃ¦ftet til artikler");
 define("_LAST5POLLS", "Seneste 5 afstemninger");
 define("_MOREPOLLS", "...flere afstemninger");
 define("_COMMENTSMODERATION","Comments Moderation System");

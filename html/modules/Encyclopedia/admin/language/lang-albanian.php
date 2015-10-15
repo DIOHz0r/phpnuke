@@ -18,13 +18,13 @@
 /**************************************************************************/
 
 
-define("_SEND","Dërgo");
+define("_SEND","DÃ«rgo");
 define("_FUNCTIONS","Funksione");
 define("_YES","Po");
 define("_NO","Jo");
-define("_SAVECHANGES","Shpëto Ndryshimet");
-define("_PAGEBREAK","Nëse dëshiron më shumë se një faqe shto <b>[--pagebreak--]</b> në pikat e ndërprerjes.");
-define("_DESCRIPTION","Përshkrimi");
+define("_SAVECHANGES","ShpÃ«to Ndryshimet");
+define("_PAGEBREAK","NÃ«se dÃ«shiron mÃ« shumÃ« se njÃ« faqe shto <b>[--pagebreak--]</b> nÃ« pikat e ndÃ«rprerjes.");
+define("_DESCRIPTION","PÃ«rshkrimi");
 define("_TO","Tek");
 define("_TITLE","Titulli");
 define("_ACTIVE","Aktiv");
@@ -34,23 +34,23 @@ define("_ACTIVATE","Aktivo");
 define("_ADD","Shto");
 define("_LANGUAGE","Gjuha");
 define("_ENCYCLOPEDIA","Enciklopedia");
-define("_ENCYCLOPEDIAMANAGER","Manazheri i Enciklopedisë");
-define("_DELENCYCLOPEDIA","Elemino Enciklopedinë");
-define("_DELENCYCONTWARNING","Je i sigurt që dëshiron të fshish këtë Enciklopedi dhe të GJITHË përmbajtjen e saj?");
+define("_ENCYCLOPEDIAMANAGER","Manazheri i EnciklopedisÃ«");
+define("_DELENCYCLOPEDIA","Elemino EnciklopedinÃ«");
+define("_DELENCYCONTWARNING","Je i sigurt qÃ« dÃ«shiron tÃ« fshish kÃ«tÃ« Enciklopedi dhe tÃ« GJITHÃ‹ pÃ«rmbajtjen e saj?");
 define("_DELENCYCLOPEDIATEXT","Fshi terme nga Enciklopedia");
-define("_DELENCYTEXTWARNING","Je i sigurt që dëshiron të fshish termet?");
-define("_CURRENTSTATUS","Gjëndja aktuale");
+define("_DELENCYTEXTWARNING","Je i sigurt qÃ« dÃ«shiron tÃ« fshish termet?");
+define("_CURRENTSTATUS","GjÃ«ndja aktuale");
 define("_ACTIVATEPAGE","Aktivon faqen?");
 define("_TERMS","Terme");
-define("_ADDNEWENCYCLOPEDIA","Shto një Enciklopedi të Re");
-define("_ADDNEWENCYTERM","Shto një term të ri në Enciklopedi");
+define("_ADDNEWENCYCLOPEDIA","Shto njÃ« Enciklopedi tÃ« Re");
+define("_ADDNEWENCYTERM","Shto njÃ« term tÃ« ri nÃ« Enciklopedi");
 define("_TERMTEXT","Teksti i termit");
-define("_MOVETERMS","Lëviz Termet");
-define("_MOVEALLTERMSFROM","Lëviz TË GJITHË termet nga");
-define("_EDITENCYCLOPEDIA","Shkruaj Enciklopedinë");
-define("_ENCYTERMSEDIT","Shkruaj termet e Enciklopedisë");
-define("_SELECTONETERM","Seleksiono një term nga lista në vazhdim:");
-define("_NOCONTENTFORLETTER","Nuk ka korrispondues për gërmën");
+define("_MOVETERMS","LÃ«viz Termet");
+define("_MOVEALLTERMSFROM","LÃ«viz TÃ‹ GJITHÃ‹ termet nga");
+define("_EDITENCYCLOPEDIA","Shkruaj EnciklopedinÃ«");
+define("_ENCYTERMSEDIT","Shkruaj termet e EnciklopedisÃ«");
+define("_SELECTONETERM","Seleksiono njÃ« term nga lista nÃ« vazhdim:");
+define("_NOCONTENTFORLETTER","Nuk ka korrispondues pÃ«r gÃ«rmÃ«n");
 define("_CHANGETOENCY","Ndrysho Enciklopedi");
 
 

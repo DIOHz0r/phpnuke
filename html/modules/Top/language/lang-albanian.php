@@ -20,22 +20,22 @@
 define("_CATEGORY","Kategoria");
 define("_LVOTES","Vota");
 define("_HITS","Hits");
-define("_TOPWELCOME","Faqja e TOP të");
-define("_READSTORIES","Artikujt më të lexuar");
-define("_COMMENTEDSTORIES","Artikujt më të komentuar");
-define("_ACTIVECAT","Kategoritë më aktive");
-define("_READSECTION","Artikujt më të lexuar në seksionet specialë");
-define("_NEWSSUBMITTERS","Dërguesit më aktivë");
-define("_NEWSSENT","artikujt e dërguar");
-define("_VOTEDPOLLS","Sondazhi më i votuar");
-define("_MOSTACTIVEAUTHORS","Autorët më aktivë");
+define("_TOPWELCOME","Faqja e TOP tÃ«");
+define("_READSTORIES","Artikujt mÃ« tÃ« lexuar");
+define("_COMMENTEDSTORIES","Artikujt mÃ« tÃ« komentuar");
+define("_ACTIVECAT","KategoritÃ« mÃ« aktive");
+define("_READSECTION","Artikujt mÃ« tÃ« lexuar nÃ« seksionet specialÃ«");
+define("_NEWSSUBMITTERS","DÃ«rguesit mÃ« aktivÃ«");
+define("_NEWSSENT","artikujt e dÃ«rguar");
+define("_VOTEDPOLLS","Sondazhi mÃ« i votuar");
+define("_MOSTACTIVEAUTHORS","AutorÃ«t mÃ« aktivÃ«");
 define("_NEWSPUBLISHED","artikujt e publikuar");
-define("_READREVIEWS","Recensimet më të lexuara");
-define("_DOWNLOADEDFILES","files më të shkarkuar");
+define("_READREVIEWS","Recensimet mÃ« tÃ« lexuara");
+define("_DOWNLOADEDFILES","files mÃ« tÃ« shkarkuar");
 define("_LDOWNLOADS","downloads");
-define("_MOSTREADPAGES","faqet më të vizituara");
-define("_MOSTVOTEDSTORIES","artikujt më të votuar");
-define("_POINTS","pikë");
-define("_BESTRATEDSTORIES","artikujt me pozicion më të lartë (bazuar në maksimum 5 pikë)");
+define("_MOSTREADPAGES","faqet mÃ« tÃ« vizituara");
+define("_MOSTVOTEDSTORIES","artikujt mÃ« tÃ« votuar");
+define("_POINTS","pikÃ«");
+define("_BESTRATEDSTORIES","artikujt me pozicion mÃ« tÃ« lartÃ« (bazuar nÃ« maksimum 5 pikÃ«)");
 
 ?>

@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Página Anterior");
-define("_NEXT","Página Siguiente");
-define("_PAGE","página(s) ");
+define("_PREVIOUS","PÃ¡gina Anterior");
+define("_NEXT","PÃ¡gina Siguiente");
+define("_PAGE","pÃ¡gina(s) ");
 define("_DEACTIVATE","Desactivar");
 define("_ACTIVATE","Activar");
 define("_PUBLISHEDON","Publicado en");
-define("_PAGESLIST","Lista de Páginas");
+define("_PAGESLIST","Lista de PÃ¡ginas");
 define("_LISTOFCONTENT","Lista del Contenido disponible en");
-define("_YOURADMINLIST","Eres Administrador: Esta es la lista de páginas inactivas:");
+define("_YOURADMINLIST","Eres Administrador: Esta es la lista de pÃ¡ginas inactivas:");
 define("_COPYRIGHT","Copyright &copy; por");
 define("_COPYRIGHT2","Derechos Reservados.");
-define("_CONTENTCATEGORIES","Categorías de Contenido");
+define("_CONTENTCATEGORIES","CategorÃ­as de Contenido");
 define("_NONCLASSCONT","Contenido no categorizado");
 
 ?>

@@ -1,8 +1,8 @@
-Archivos editados y corregidos del PHPNUKE versión 8 (pisar por originales)
+Archivos editados y corregidos del PHPNUKE versiÃ³n 8 (pisar por originales)
 
 
 /mainfile.php /* se eliminaron varios tacs html 1 */
-/config.php /* se corrigio bag que no permitía subir imagenes desde el editor html del backend */
+/config.php /* se corrigio bag que no permitÃ­a subir imagenes desde el editor html del backend */
 /header.php /* se actualizo linea 1 */
 
 /includes/javascript.php

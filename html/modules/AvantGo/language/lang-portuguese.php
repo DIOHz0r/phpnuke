@@ -20,15 +20,15 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
+/* Rui CristovÃ£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
 define("_PDATE","Data:");
 define("_PTOPIC","Tema:");
 define("_COMESFROM","Este artigo veio de");
-define("_THEURL","O link deste artigo é:");
+define("_THEURL","O link deste artigo Ã©:");
 define("_DATE","Data");
-define("_TITLE","Título");
+define("_TITLE","TÃ­tulo");
 
 ?>

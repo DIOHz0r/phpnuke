@@ -18,7 +18,7 @@
 /**************************************************************************/
 
 define("_PRINTER","Faqe e Stampueshme");
-define("_FRIEND","Dërgoja këtë Artikull ndonjë Miku");
+define("_FRIEND","DÃ«rgoja kÃ«tÃ« Artikull ndonjÃ« Miku");
 define("_ARTICLES","Artikuj");
 define("_USCORE","Vota");
 define("_DATE","Data");
@@ -32,15 +32,15 @@ define("_JULY","Korrik");
 define("_AUGUST","Gusht");
 define("_SEPTEMBER","Shtator");
 define("_OCTOBER","Tetor");
-define("_NOVEMBER","Nëntor");
+define("_NOVEMBER","NÃ«ntor");
 define("_DECEMBER","Dhjetor");
-define("_SELECTMONTH2VIEW","Seleksiono muajin që dëshiron të shohësh:");
-define("_SHOWALLSTORIES","Shfaq të gjithë artikujt");
+define("_SELECTMONTH2VIEW","Seleksiono muajin qÃ« dÃ«shiron tÃ« shohÃ«sh:");
+define("_SHOWALLSTORIES","Shfaq tÃ« gjithÃ« artikujt");
 define("_STORIESARCHIVE","Arkivi i artikujve");
 define("_ACTIONS","Aksione");
-define("_ARCHIVESINDEX","Treguesi i arkivit të artikujve");
-define("_ALLSTORIESARCH","Të gjithë artikujt");
-define("_NEXTPAGE","Faqja në vazhdim");
+define("_ARCHIVESINDEX","Treguesi i arkivit tÃ« artikujve");
+define("_ALLSTORIESARCH","TÃ« gjithÃ« artikujt");
+define("_NEXTPAGE","Faqja nÃ« vazhdim");
 define("_PREVIOUSPAGE","Faqja e kaluar");
 
 ?>

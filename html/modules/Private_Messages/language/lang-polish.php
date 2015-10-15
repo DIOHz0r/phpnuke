@@ -16,68 +16,68 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_EMAIL","E-mail");
 define("_RE","Odp.");
 define("_SUBJECT","Temat");
-define("_PRIVATEMESSAGES","Twoje prywatne wiadomo¶ci");
-define("_CHECKALL","Sprawd¼ wszystkie");
+define("_PRIVATEMESSAGES","Twoje prywatne wiadomoÅ›ci");
+define("_CHECKALL","SprawdÅº wszystkie");
 define("_FROM","Od");
 define("_DATE","Data");
-define("_DONTHAVEMESSAGES","Nie masz ¿adnych wiadomo¶ci");
+define("_DONTHAVEMESSAGES","Nie masz Å¼adnych wiadomoÅ›ci");
 define("_NOTREAD","Nieczytana");
-define("_MSGSTATUS","Status wiadomo¶ci");
-define("_PRIVATEMESSAGE","Wiadomo¶æ prywatna");
+define("_MSGSTATUS","Status wiadomoÅ›ci");
+define("_PRIVATEMESSAGE","WiadomoÅ›Ä‡ prywatna");
 define("_INDEX","Indeks");
-define("_SENT","Wys³ane");
-define("_PREVIOUSMESSAGE","Poprzednia wiadomo¶æ");
-define("_NEXTMESSAGE","Nastêpna wiadomo¶æ");
+define("_SENT","WysÅ‚ane");
+define("_PREVIOUSMESSAGE","Poprzednia wiadomoÅ›Ä‡");
+define("_NEXTMESSAGE","NastÄ™pna wiadomoÅ›Ä‡");
 define("_PROFILE","Profil");
-define("_ABOUTPOSTING","O wysy³aniu");
-define("_ALLREGCANPOST","Wszyscy zarejestrowani u¿ytkownicy mog± wysy³aæ wiadomo¶ci prywatne");
+define("_ABOUTPOSTING","O wysyÅ‚aniu");
+define("_ALLREGCANPOST","Wszyscy zarejestrowani uÅ¼ytkownicy mogÄ… wysyÅ‚aÄ‡ wiadomoÅ›ci prywatne");
 define("_TO","Do");
-define("_MESSAGEICON","Ikona wiadomo¶ci");
-define("_MESSAGE","Wiadomo¶æ");
+define("_MESSAGEICON","Ikona wiadomoÅ›ci");
+define("_MESSAGE","WiadomoÅ›Ä‡");
 define("_HTML","HTML");
-define("_PMON","W³±cz");
-define("_PMOFF","Wy³±cz");
+define("_PMON","WÅ‚Ä…cz");
+define("_PMOFF","WyÅ‚Ä…cz");
 define("_BBCODE","BBCode");
-define("_WROTE","napisa³(a)");
+define("_WROTE","napisaÅ‚(a)");
 define("_OPTIONS","Opcje");
-define("_HTMLDISSABLE","Wy³±cz HTML w tej wiadomo¶ci");
-define("_BBCODEDISSABLE","Wy³±cz <a href=\"bbcode_ref.php\" target=\"_blank\"><i>BBCode</i></a> w tej wiadomo¶ci");
-define("_SMILEDISSABLE","Wy³±cz <a href=\"bb_smilies.php\" target=\"_blank\"><i>bu¼ki</i></a> w tej wiadomo¶ci");
-define("_CANCELREPLY","Anuluj odpowied¼");
-define("_CANCELSEND","Anuluj wysy³anie");
-define("_CLEAR","Wyczy¶æ");
-define("_SUBMIT","Wy¶lij");
-define("_USERNOTINDB","Wybrany u¿ytkownik nie istnieje w bazie.");
-define("_CHECKNAMEANDTRY","Proszê sprawdziæ nazwê i spróbowaæ ponownie.");
-define("_MSGPOSTED","Twoja wiadomo¶æ zosta³a wys³ana.");
-define("_RETURNTOPMSG","Mo¿esz klikn±æ tutaj, aby za³adowaæ powtórnie Twoje prywatne wiadomo¶ci.");
-define("_MSGDELETED","Twoja wiadomo¶æ zosta³a skasowana.");
+define("_HTMLDISSABLE","WyÅ‚Ä…cz HTML w tej wiadomoÅ›ci");
+define("_BBCODEDISSABLE","WyÅ‚Ä…cz <a href=\"bbcode_ref.php\" target=\"_blank\"><i>BBCode</i></a> w tej wiadomoÅ›ci");
+define("_SMILEDISSABLE","WyÅ‚Ä…cz <a href=\"bb_smilies.php\" target=\"_blank\"><i>buÅºki</i></a> w tej wiadomoÅ›ci");
+define("_CANCELREPLY","Anuluj odpowiedÅº");
+define("_CANCELSEND","Anuluj wysyÅ‚anie");
+define("_CLEAR","WyczyÅ›Ä‡");
+define("_SUBMIT","WyÅ›lij");
+define("_USERNOTINDB","Wybrany uÅ¼ytkownik nie istnieje w bazie.");
+define("_CHECKNAMEANDTRY","ProszÄ™ sprawdziÄ‡ nazwÄ™ i sprÃ³bowaÄ‡ ponownie.");
+define("_MSGPOSTED","Twoja wiadomoÅ›Ä‡ zostaÅ‚a wysÅ‚ana.");
+define("_RETURNTOPMSG","MoÅ¼esz kliknÄ…Ä‡ tutaj, aby zaÅ‚adowaÄ‡ powtÃ³rnie Twoje prywatne wiadomoÅ›ci.");
+define("_MSGDELETED","Twoja wiadomoÅ›Ä‡ zostaÅ‚a skasowana.");
 define("_BBGO","OK");
-define("_BBNEWPMSG","Nowe wiadomo¶ci");
-define("_BBNONEWPMSG","Nie ma nowych wiadomo¶ci");
-define("_BBTOTALPMSG","Suma wiadomo¶ci");
-define("_BBEMPTYPMSG","Nie masz ¿adnych wiadomo¶ci");
-define("_BBLOGIN","Zaloguj siê by sprawdziæ prywatne wiadomo¶ci");
-define("_BBPMSG","Wiadomo¶æ prywatna");
+define("_BBNEWPMSG","Nowe wiadomoÅ›ci");
+define("_BBNONEWPMSG","Nie ma nowych wiadomoÅ›ci");
+define("_BBTOTALPMSG","Suma wiadomoÅ›ci");
+define("_BBEMPTYPMSG","Nie masz Å¼adnych wiadomoÅ›ci");
+define("_BBLOGIN","Zaloguj siÄ™ by sprawdziÄ‡ prywatne wiadomoÅ›ci");
+define("_BBPMSG","WiadomoÅ›Ä‡ prywatna");
 define("_BBINBOX","Skrzynka odbiorcza");
 define("_BBSELECTFORUM","Wybierz Forum");
-define("_BBNOFORUM","Nie ma wiêcej Forum");
+define("_BBNOFORUM","Nie ma wiÄ™cej Forum");
 define("_BBBANNED","Zbanowany");
-define("_CLICKSMILEBUTTONS","Kliknij na bu¼ki by wstawiæ je do wiadomo¶ci:");
-define("_CLICKCODEBUTTONS","Kliknij na wybrany przycisk by dodaæ BBCode do Twojej wiadomo¶ci:");
-define("_PRIVMSGERROR","B³±d!");
-define("_USERDOESNTEXIST","Sorry, Wybrany u¿ytkownik nie istnieje w bazie.")
-define("_DELETESELECTED","Usuñ zaznaczone");
-define("_SENDNEWMSG","Wy¶lij now± wiadomo¶æ");
+define("_CLICKSMILEBUTTONS","Kliknij na buÅºki by wstawiÄ‡ je do wiadomoÅ›ci:");
+define("_CLICKCODEBUTTONS","Kliknij na wybrany przycisk by dodaÄ‡ BBCode do Twojej wiadomoÅ›ci:");
+define("_PRIVMSGERROR","BÅ‚Ä…d!");
+define("_USERDOESNTEXIST","Sorry, Wybrany uÅ¼ytkownik nie istnieje w bazie.")
+define("_DELETESELECTED","UsuÅ„ zaznaczone");
+define("_SENDNEWMSG","WyÅ›lij nowÄ… wiadomoÅ›Ä‡");
 define("_REPLY","Odpowiedz");
-define("_NOSUBJECT","Nie ma tematu w Twojej wiadomo¶ci.");
-define("_NOMESSAGE","Brakuje tre¶ci w Twojej wiadomo¶ci. Napisz j±!");
+define("_NOSUBJECT","Nie ma tematu w Twojej wiadomoÅ›ci.");
+define("_NOMESSAGE","Brakuje treÅ›ci w Twojej wiadomoÅ›ci. Napisz jÄ…!");
 
 ?>

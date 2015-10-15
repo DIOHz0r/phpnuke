@@ -20,7 +20,7 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristov„o (ord'hor) ordhor@hotmail.com				  */
+/* Rui Cristov√£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
@@ -28,8 +28,8 @@ define("_SEND","Enviar");
 define("_YOURNAME","O seu nome");
 define("_MESSAGE","Mensagem");
 define("_YOUREMAIL","Seu Email");
-define("_FEEDBACKNOTE","Todos os coment·rios e sugestıes sobre este web site s„o bem vindos sendo uma fonte valiosa de informaÁ„o para nÛs. Obrigado!");
-define("_FEEDBACKTITLE","Formul·rio de Feedback");
+define("_FEEDBACKNOTE","Todos os coment√°rios e sugest√µes sobre este web site s√£o bem vindos sendo uma fonte valiosa de informa√ß√£o para n√≥s. Obrigado!");
+define("_FEEDBACKTITLE","Formul√°rio de Feedback");
 define("_FEEDBACK","Feedback");
 define("_FBENTERNAME","ERRO: Por favor escreva o seu nome!");
 define("_FBENTEREMAIL","ERRO: Por favor escreva o seu email!");

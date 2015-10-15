@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Εκτύπωση αρχικής σελίδας");
-define("_FRIEND","Προωθήστε την ιστορία αυτή σ'ένα φίλο ");
-define("_ARTICLES","Αρθρα");
-define("_USCORE","Βαθμολόγηση (βαθμολογία)");
-define("_DATE","Ημερομηνία");
+define("_PRINTER","Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞ· Ξ±ΟΟ‡ΞΉΞΊΞ®Ο‚ ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚");
+define("_FRIEND","Ξ ΟΞΏΟ‰ΞΈΞ®ΟƒΟ„Ξµ Ο„Ξ·Ξ½ ΞΉΟƒΟ„ΞΏΟΞ―Ξ± Ξ±Ο…Ο„Ξ® Οƒ'Ξ­Ξ½Ξ± Ο†Ξ―Ξ»ΞΏ ");
+define("_ARTICLES","Ξ‘ΟΞΈΟΞ±");
+define("_USCORE","Ξ’Ξ±ΞΈΞΌΞΏΞ»ΟΞ³Ξ·ΟƒΞ· (Ξ²Ξ±ΞΈΞΌΞΏΞ»ΞΏΞ³Ξ―Ξ±)");
+define("_DATE","Ξ—ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ±");
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");
 define("_SHOWALLSTORIES","Show ALL Stories");
 define("_STORIESARCHIVE","Stories Archive");

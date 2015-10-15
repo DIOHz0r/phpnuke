@@ -18,7 +18,7 @@
 /**************************************************************************/
 
 define("_CATEGORY","Categorie");
-define("_CATEGORIES","Categorieën");
+define("_CATEGORIES","CategorieÃ«n");
 define("_FAQ2","FAQ (Frequently Asked Questions/vaak gestelde vragen)");
 define("_BACKTOTOP","Terug naar boven");
 define("_BACKTOFAQINDEX","Terug naar FAQ-Inhoudsopgave");

@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","รัำแ");
-define("_FYOURNAME","วำใ฿:");
-define("_FYOUREMAIL","ศัํฯ฿ วแลแ฿สัๆไํ:");
-define("_FFRIENDNAME","วำใ ีฯํÞ฿:");
-define("_FFRIENDEMAIL","ศัํฯ ีฯํÞ฿:");
-define("_HELLO","ใัอศว");
-define("_YOURFRIEND","ีฯํÞ฿");
-define("_RECOMMEND","วัำแ ๅะว วแใๆÞฺ วแ์ ีฯํÞ");
-define("_INTSITE","ใๆÞฺ ใใสฺ:");
-define("_OURSITE","ํฺสÞฯ รไ ใๆÞฺไว");
-define("_INTSENT","ใใสฺ ๆรัวฯ รไ ํัำแๅ แ฿.");
-define("_FSITENAME","วำใ วแใๆÞฺ:");
-define("_FSITEURL","ฺไๆวไ วแใๆÞฺ:");
-define("_FREFERENCE","วแใัฬฺ แใๆÞฺไว รัำแ วแ์");
-define("_THANKSREC","ิ฿ัว แรฮศวั ีฯํÞ฿ ฺไว!");
+define("_SEND","ุฃุฑุณู");
+define("_FYOURNAME","ุงุณู…ู:");
+define("_FYOUREMAIL","ุจุฑูุฏู ุงูุฅููุชุฑููู:");
+define("_FFRIENDNAME","ุงุณู… ุตุฏููู:");
+define("_FFRIENDEMAIL","ุจุฑูุฏ ุตุฏููู:");
+define("_HELLO","ู…ุฑุญุจุง");
+define("_YOURFRIEND","ุตุฏููู");
+define("_RECOMMEND","ุงุฑุณู ูุฐุง ุงูู…ููุน ุงูู ุตุฏูู");
+define("_INTSITE","ู…ููุน ู…ู…ุชุน:");
+define("_OURSITE","ูุนุชูุฏ ุฃู ู…ููุนูุง");
+define("_INTSENT","ู…ู…ุชุน ูุฃุฑุงุฏ ุฃู ูุฑุณูู ูู.");
+define("_FSITENAME","ุงุณู… ุงูู…ููุน:");
+define("_FSITEURL","ุนููุงู ุงูู…ููุน:");
+define("_FREFERENCE","ุงูู…ุฑุฌุน ูู…ููุนูุง ุฃุฑุณู ุงูู");
+define("_THANKSREC","ุดูุฑุง ูุฃุฎุจุงุฑ ุตุฏููู ุนูุง!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

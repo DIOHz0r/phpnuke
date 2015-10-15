@@ -17,19 +17,19 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Versi髇 para imprimir");
+define("_PRINTER","Versi贸n para imprimir");
 define("_FRIEND","Enviar a un amigo");
 define("_ARTICLES","Artigos");
-define("_USCORE","Puntuaci髇");
+define("_USCORE","Puntuaci贸n");
 define("_DATE","Fecha");
 
 define("_SELECTMONTH2VIEW","Seleccione o mes que quere ver:");
-define("_SHOWALLSTORIES","Mostar T覦A-LAS Noticas");
+define("_SHOWALLSTORIES","Mostar T脫DA-LAS Noticas");
 define("_STORIESARCHIVE","Arquivo de Noticias");
-define("_ACTIONS","Acci髇s");
-define("_ARCHIVESINDEX","蚽dice do Arquivo de Noticias");
-define("_ALLSTORIESARCH","T骴a-las Noticias");
-define("_NEXTPAGE","Pr髕ima P醲ina");
-define("_PREVIOUSPAGE","P醲ina Previa");
+define("_ACTIONS","Acci贸ns");
+define("_ARCHIVESINDEX","脥ndice do Arquivo de Noticias");
+define("_ALLSTORIESARCH","T贸da-las Noticias");
+define("_NEXTPAGE","Pr贸xima P谩xina");
+define("_PREVIOUSPAGE","P谩xina Previa");
 
 ?>

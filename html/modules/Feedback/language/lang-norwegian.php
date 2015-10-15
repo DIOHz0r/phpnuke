@@ -21,7 +21,7 @@ define("_SEND","Send");
 define("_YOURNAME","Ditt navn");
 define("_MESSAGE","Beskjed");
 define("_YOUREMAIL","Din e-postadresse");
-define("_FEEDBACKNOTE","Alle kommentarer og forslag vedrørende våre sider er velkomne, og er en verdifull kilde for informasjon. Takk!");
+define("_FEEDBACKNOTE","Alle kommentarer og forslag vedrÃ¸rende vÃ¥re sider er velkomne, og er en verdifull kilde for informasjon. Takk!");
 define("_FEEDBACKTITLE","Tilbakemeldingsskjema");
 define("_FEEDBACK","Tilbakemelding");
 define("_FBENTERNAME","FEIL: Vennligst skriv navnet ditt!");

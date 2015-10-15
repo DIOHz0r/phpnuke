@@ -56,7 +56,7 @@ define("_PREVIEWSTORY","Voorbeeld van verhaal");
 define("_POSTSTORY","Plaats verhaal");
 define("_REMOVESTORY","Weet u zeker dat u wilt overgaan tot verwijderen van verhaal ID #");
 define("_ANDCOMMENTS","en al zijn opmerkingen?");
-define("_CATEGORIESADMIN","Categorieënadministratie");
+define("_CATEGORIESADMIN","CategorieÃ«nadministratie");
 define("_CATEGORYADD","Nieuwe categorie toevoegen");
 define("_CATNAME","Categorienaam");
 define("_NOARTCATEDIT","U kunt de <i>artikelencategorie</i> niet bewerken");

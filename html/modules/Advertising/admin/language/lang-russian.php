@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_FUNCTIONS","Функции");
-define("_YES","Да");
-define("_NO","Нет");
-define("_SAVECHANGES","Сохранить изменения");
+define("_FUNCTIONS","Р¤СѓРЅРєС†РёРё");
+define("_YES","Р”Р°");
+define("_NO","РќРµС‚");
+define("_SAVECHANGES","РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ");
 define("_ID","ID");
-define("_EXTRAINFO","Экстро");
-define("_SHOW","Показать");
-define("_BANNERSADMIN","Баннеры");
-define("_POSITION","Позиция");
-define("_ACTIVE","Вкл.");
-define("_DEACTIVATE","Выкл.");
-define("_INACTIVE","Выключить");
-define("_ACTIVATE","Включить");
-define("_TYPE","Тип");
-define("_WARNING","Внимание");
+define("_EXTRAINFO","Р­РєСЃС‚СЂРѕ");
+define("_SHOW","РџРѕРєР°Р·Р°С‚СЊ");
+define("_BANNERSADMIN","Р‘Р°РЅРЅРµСЂС‹");
+define("_POSITION","РџРѕР·РёС†РёСЏ");
+define("_ACTIVE","Р’РєР».");
+define("_DEACTIVATE","Р’С‹РєР».");
+define("_INACTIVE","Р’С‹РєР»СЋС‡РёС‚СЊ");
+define("_ACTIVATE","Р’РєР»СЋС‡РёС‚СЊ");
+define("_TYPE","РўРёРї");
+define("_WARNING","Р’РЅРёРјР°РЅРёРµ");
 define("_INACTIVEBANNERS","Inactive Banners");
 define("_BANNERS","Banners");
 define("_ALTTEXT","Alternate Text");

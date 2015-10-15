@@ -34,21 +34,21 @@ define("_INACTIVE","Inaktiv");
 define("_ACTIVATE","Aktiver");
 define("_CONTENT","Indhold");
 define("_ADDCATEGORY","Opret en ny kategori");
-define("_EDITCATEGORY","Redigér kategori");
+define("_EDITCATEGORY","RedigÃ©r kategori");
 define("_ADD","Opret");
 define("_LANGUAGE","Sprog");
 define("_CONTENTMANAGER","Content Manager");
-define("_DELCONTWARNING","Er de sikker på at ville slette denne side?");
+define("_DELCONTWARNING","Er de sikker pÃ¥ at ville slette denne side?");
 define("_DELCONTENT","Slet side");
-define("_CURRENTSTATUS","Nuværende status");
-define("_ADDANEWPAGE","Tilføj en ny side");
+define("_CURRENTSTATUS","NuvÃ¦rende status");
+define("_ADDANEWPAGE","TilfÃ¸j en ny side");
 define("_CSUBTITLE","Under-overskrift");
 define("_HEADERTEXT","Overskrift");
-define("_PAGETEXT","Brødtekst");
+define("_PAGETEXT","BrÃ¸dtekst");
 define("_FOOTERTEXT","Fodnote");
 define("_ACTIVATEPAGE","Aktiver denne side?");
-define("_EDITPAGECONTENT","Ændre side indholdet");
-define("_DELCONTENTCAT","VIGTIGT: Er de sikker på at ville slette denne kategori? Sider under denne kategori, vil blive slettet!");
+define("_EDITPAGECONTENT","Ã†ndre side indholdet");
+define("_DELCONTENTCAT","VIGTIGT: Er de sikker pÃ¥ at ville slette denne kategori? Sider under denne kategori, vil blive slettet!");
 define("_DELCATEGORY","Slet kategori");
 
 

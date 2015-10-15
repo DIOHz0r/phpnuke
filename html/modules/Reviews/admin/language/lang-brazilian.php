@@ -19,27 +19,27 @@
 
 
 define("_EMAIL","e-mail");
-define("_SAVECHANGES","Salvar alteraÁıes");
-define("_SCORE","PontuaÁ„o:");
-define("_PRODUCTTITLE","TÌtulo");
+define("_SAVECHANGES","Salvar altera√ß√µes");
+define("_SCORE","Pontua√ß√£o:");
+define("_PRODUCTTITLE","T√≠tulo");
 define("_RELATEDLINK","Link relacionado");
-define("_LINKTITLE","TÌtulo do Link");
+define("_LINKTITLE","T√≠tulo do Link");
 define("_REVIEWER","Revisor:");
-define("_REVIEWID","ID da revis„o");
-define("_REVIEWS","Revisıes");
+define("_REVIEWID","ID da revis√£o");
+define("_REVIEWS","Revis√µes");
 define("_DATE","Data");
-define("_REVADMIN","AdministraÁ„o de Revisıes");
-define("_REVTITLE","TÌtulo da p·gina de Revisıes");
-define("_REVDESC","DescriÁ„o da p·gina de Revisıes");
-define("_REVWAITING","Revisıes aguardando validaÁ„o");
-define("_REVIMGINFO","Armazene as imagens das Revisıes (150x150) em images/reviews");
+define("_REVADMIN","Administra√ß√£o de Revis√µes");
+define("_REVTITLE","T√≠tulo da p√°gina de Revis√µes");
+define("_REVDESC","Descri√ß√£o da p√°gina de Revis√µes");
+define("_REVWAITING","Revis√µes aguardando valida√ß√£o");
+define("_REVIMGINFO","Armazene as imagens das Revis√µes (150x150) em images/reviews");
 define("_TEXT","Texto");
 define("_IMAGE","Imagem");
-define("_NOREVIEW2ADD","Nenhuma Revis„o a ser adicionada");
-define("_ADDREVIEW","Adicionar Revis„o");
-define("_CLICK2ADDREVIEW","Clique aqui para escrever uma Revis„o");
-define("_DELMODREVIEW","apagar/Modificar uma Revis„o");
-define("_MODREVINFO","VocÍ pode simplesmente apagar/modificar uma Revis„o apenas navegando em <a href=\"modules.php?name=Reviews\">Revisıes</a> logado como Administrador.");
+define("_NOREVIEW2ADD","Nenhuma Revis√£o a ser adicionada");
+define("_ADDREVIEW","Adicionar Revis√£o");
+define("_CLICK2ADDREVIEW","Clique aqui para escrever uma Revis√£o");
+define("_DELMODREVIEW","apagar/Modificar uma Revis√£o");
+define("_MODREVINFO","Voc√™ pode simplesmente apagar/modificar uma Revis√£o apenas navegando em <a href=\"modules.php?name=Reviews\">Revis√µes</a> logado como Administrador.");
 define("_LANGUAGE","Idioma");
 
 

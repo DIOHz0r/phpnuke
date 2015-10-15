@@ -19,36 +19,36 @@
 
 
 define("_SEND","Enviar");
-define("_FUNCTIONS","FunÁıes");
+define("_FUNCTIONS","Fun√ß√µes");
 define("_YES","Sim");
-define("_NO","N„o");
+define("_NO","N√£o");
 define("_CATEGORY","Categoria");
-define("_SAVECHANGES","Gravar alteraÁıes");
-define("_PAGEBREAK","Se vocÍ quiser o seu texto em v·rias p·ginas escreva <b>[--pagebreak--]</b> onde queira separar o texto.");
+define("_SAVECHANGES","Gravar altera√ß√µes");
+define("_PAGEBREAK","Se voc√™ quiser o seu texto em v√°rias p√°ginas escreva <b>[--pagebreak--]</b> onde queira separar o texto.");
 define("_SIGNATURE","Assinatura");
-define("_DESCRIPTION","DescriÁ„o");
-define("_TITLE","TÌtulo");
+define("_DESCRIPTION","Descri√ß√£o");
+define("_TITLE","T√≠tulo");
 define("_ACTIVE","Activo");
 define("_DEACTIVATE","Desactivar");
 define("_INACTIVE","Inactivo");
 define("_ACTIVATE","Activo");
-define("_CONTENT","Conte˙do");
+define("_CONTENT","Conte√∫do");
 define("_ADDCATEGORY","Adicionar uma Nova Categoria");
 define("_EDITCATEGORY","Editar Categoria");
 define("_ADD","Adicionar");
-define("_LANGUAGE","LÌngua");
-define("_CONTENTMANAGER","Gerencia de conte˙do");
-define("_DELCONTWARNING","Tem a certesa que deseja apagar o conte˙do?");
-define("_DELCONTENT","Apagar p·gina");
+define("_LANGUAGE","L√≠ngua");
+define("_CONTENTMANAGER","Gerencia de conte√∫do");
+define("_DELCONTWARNING","Tem a certesa que deseja apagar o conte√∫do?");
+define("_DELCONTENT","Apagar p√°gina");
 define("_CURRENTSTATUS","Estatuto corrente");
-define("_ADDANEWPAGE","Adicionar uma nova p·gina");
+define("_ADDANEWPAGE","Adicionar uma nova p√°gina");
 define("_CSUBTITLE","Sub-Titlo");
-define("_HEADERTEXT","Texto de CabeÁalho");
-define("_PAGETEXT","Texto da p·gina");
-define("_FOOTERTEXT","Texto de RodapÈ");
-define("_ACTIVATEPAGE","Activar esta P·gina?");
-define("_EDITPAGECONTENT","Editar conte˙do da p·gina");
-define("_DELCONTENTCAT","ATEN«√O: Tem a certeza que deseja apagar esta categoria? P·ginas em construÁ„o, caso existam, n„o seram removidas, mas n„o ser„o ligadas a nenhuma categoria.");
+define("_HEADERTEXT","Texto de Cabe√ßalho");
+define("_PAGETEXT","Texto da p√°gina");
+define("_FOOTERTEXT","Texto de Rodap√©");
+define("_ACTIVATEPAGE","Activar esta P√°gina?");
+define("_EDITPAGECONTENT","Editar conte√∫do da p√°gina");
+define("_DELCONTENTCAT","ATEN√á√ÉO: Tem a certeza que deseja apagar esta categoria? P√°ginas em constru√ß√£o, caso existam, n√£o seram removidas, mas n√£o ser√£o ligadas a nenhuma categoria.");
 define("_DELCATEGORY","Apagar Categoria");
 
 

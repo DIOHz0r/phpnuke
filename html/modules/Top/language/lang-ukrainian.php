@@ -18,22 +18,22 @@
 /**************************************************************************/
 
 
-define("_CATEGORY","Категорія");
+define("_CATEGORY","РљР°С‚РµРіРѕСЂС–СЏ");
 
-define("_LVOTES","голосів");
-define("_HITS","Хітів");
-define("_TOPWELCOME","Найкраще на");
-define("_READSTORIES","самих популярних статей");
-define("_COMMENTEDSTORIES","самих обговорюваних статей");
-define("_ACTIVECAT","самих активних категорій");
-define("_READSECTION","самих популярних статей в спеціальних розділах");
-define("_NEWSSUBMITTERS","самих активних авторів новин");
-define("_NEWSSENT","присланих новин");
-define("_VOTEDPOLLS","самих активних голосувань");
-define("_MOSTACTIVEAUTHORS","самих активних авторів");
-define("_NEWSPUBLISHED","опублікованих новин");
-define("_READREVIEWS","самих популярних оглядів");
-define("_DOWNLOADEDFILES","самих популярних файлів для скачування");
+define("_LVOTES","РіРѕР»РѕСЃС–РІ");
+define("_HITS","РҐС–С‚С–РІ");
+define("_TOPWELCOME","РќР°Р№РєСЂР°С‰Рµ РЅР°");
+define("_READSTORIES","СЃР°РјРёС… РїРѕРїСѓР»СЏСЂРЅРёС… СЃС‚Р°С‚РµР№");
+define("_COMMENTEDSTORIES","СЃР°РјРёС… РѕР±РіРѕРІРѕСЂСЋРІР°РЅРёС… СЃС‚Р°С‚РµР№");
+define("_ACTIVECAT","СЃР°РјРёС… Р°РєС‚РёРІРЅРёС… РєР°С‚РµРіРѕСЂС–Р№");
+define("_READSECTION","СЃР°РјРёС… РїРѕРїСѓР»СЏСЂРЅРёС… СЃС‚Р°С‚РµР№ РІ СЃРїРµС†С–Р°Р»СЊРЅРёС… СЂРѕР·РґС–Р»Р°С…");
+define("_NEWSSUBMITTERS","СЃР°РјРёС… Р°РєС‚РёРІРЅРёС… Р°РІС‚РѕСЂС–РІ РЅРѕРІРёРЅ");
+define("_NEWSSENT","РїСЂРёСЃР»Р°РЅРёС… РЅРѕРІРёРЅ");
+define("_VOTEDPOLLS","СЃР°РјРёС… Р°РєС‚РёРІРЅРёС… РіРѕР»РѕСЃСѓРІР°РЅСЊ");
+define("_MOSTACTIVEAUTHORS","СЃР°РјРёС… Р°РєС‚РёРІРЅРёС… Р°РІС‚РѕСЂС–РІ");
+define("_NEWSPUBLISHED","РѕРїСѓР±Р»С–РєРѕРІР°РЅРёС… РЅРѕРІРёРЅ");
+define("_READREVIEWS","СЃР°РјРёС… РїРѕРїСѓР»СЏСЂРЅРёС… РѕРіР»СЏРґС–РІ");
+define("_DOWNLOADEDFILES","СЃР°РјРёС… РїРѕРїСѓР»СЏСЂРЅРёС… С„Р°Р№Р»С–РІ РґР»СЏ СЃРєР°С‡СѓРІР°РЅРЅСЏ");
 define("_MOSTREADPAGES","most read pages");
 define("_MOSTVOTEDSTORIES","most voted stories");
 define("_POINTS","points");

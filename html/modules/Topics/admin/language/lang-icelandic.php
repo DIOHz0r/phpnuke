@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","Já");
+define("_YES","JÃ¡");
 define("_NO","Nei");
-define("_TOPICSMANAGER","Kerfisstjórn efnisflokka");
-define("_DELETETOPIC","Eyða efnisflokki");
-define("_TOPICDELSURE","Ertu viss um að þú viljir eyða þessum efnisflokki");
-define("_TOPICDELSURE1","Þetta mun eyða ÖLLUM fréttum og athugasemdum í þessum efnisflokki!");
+define("_TOPICSMANAGER","KerfisstjÃ³rn efnisflokka");
+define("_DELETETOPIC","EyÃ°a efnisflokki");
+define("_TOPICDELSURE","Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essum efnisflokki");
+define("_TOPICDELSURE1","Ãžetta mun eyÃ°a Ã–LLUM frÃ©ttum og athugasemdum Ã­ Ã¾essum efnisflokki!");
 
 
 ?>

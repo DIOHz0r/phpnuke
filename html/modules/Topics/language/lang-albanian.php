@@ -17,8 +17,8 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Argumente Aktualisht Aktivë");
-define("_CLICK2LIST","Kliko për listën komplete të të gjithë artikujve që gjenden në këtë diskutim");
+define("_ACTIVETOPICS","Argumente Aktualisht AktivÃ«");
+define("_CLICK2LIST","Kliko pÃ«r listÃ«n komplete tÃ« tÃ« gjithÃ« artikujve qÃ« gjenden nÃ« kÃ«tÃ« diskutim");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

@@ -18,20 +18,20 @@
 /**************************************************************************/
 
 
-define("_SEND","Отправить");
-define("_FUNCTIONS","Функции");
-define("_YES","Да");
-define("_NO","Нет");
-define("_SAVECHANGES","Сохранить изменения");
+define("_SEND","РћС‚РїСЂР°РІРёС‚СЊ");
+define("_FUNCTIONS","Р¤СѓРЅРєС†РёРё");
+define("_YES","Р”Р°");
+define("_NO","РќРµС‚");
+define("_SAVECHANGES","РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ");
 define("_PAGEBREAK","");
-define("_DESCRIPTION","Примечание");
-define("_TO","Для");
-define("_TITLE","Зоголовог");
-define("_ACTIVE","Вкл.");
-define("_DEACTIVATE","Выкл.");
-define("_INACTIVE","Выключить");
-define("_ACTIVATE","Включить");
-define("_ADD","Добавить");
+define("_DESCRIPTION","РџСЂРёРјРµС‡Р°РЅРёРµ");
+define("_TO","Р”Р»СЏ");
+define("_TITLE","Р—РѕРіРѕР»РѕРІРѕРі");
+define("_ACTIVE","Р’РєР».");
+define("_DEACTIVATE","Р’С‹РєР».");
+define("_INACTIVE","Р’С‹РєР»СЋС‡РёС‚СЊ");
+define("_ACTIVATE","Р’РєР»СЋС‡РёС‚СЊ");
+define("_ADD","Р”РѕР±Р°РІРёС‚СЊ");
 define("_LANGUAGE","Language");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_ENCYCLOPEDIAMANAGER","Encyclopedia Manager");

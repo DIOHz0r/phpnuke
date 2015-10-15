@@ -19,24 +19,24 @@
 
 define("_URL","URL");
 define("_EMAIL","Email");
-define("_REALNAME","ValÛdi nÈv");
-define("_FUNCTIONS","FunkciÛk");
-define("_PREVIOUS","Elızı oldal");
-define("_MEMBERSLIST","Felhaszn·lÛk list·ja");
-define("_GREETINGS","LegutolsÛ regisztr·lt tagunk:");
-define("_SORTBY","RendezÈs:");
-define("_MNICKNAME","felhaszn·lÛnÈv");
-define("_MREALNAME","igazi nÈv");
+define("_REALNAME","Val√≥di n√©v");
+define("_FUNCTIONS","Funkci√≥k");
+define("_PREVIOUS","El≈ëz≈ë oldal");
+define("_MEMBERSLIST","Felhaszn√°l√≥k list√°ja");
+define("_GREETINGS","Legutols√≥ regisztr√°lt tagunk:");
+define("_SORTBY","Rendez√©s:");
+define("_MNICKNAME","felhaszn√°l√≥n√©v");
+define("_MREALNAME","igazi n√©v");
 define("_MEMAIL","email");
 define("_MURL","link");
-define("_ONLINEREG","Jelenleg a kˆvetkezı regisztr·lt tagok olvasnak benn¸nket:");
+define("_ONLINEREG","Jelenleg a k√∂vetkez≈ë regisztr√°lt tagok olvasnak benn√ºnket:");
 define("_WEHAVE","Eddig");
-define("_MREGISTERED","regisztr·lt tagunk van. Jelenleg");
-define("_MREGONLINE","regisztr·lt tag olvas benn¸nket.");
-define("_REGSOFAR","regisztr·lt tagunk van.");
-define("_USERSFOUND","tag tal·lhatÛ itt:");
+define("_MREGISTERED","regisztr√°lt tagunk van. Jelenleg");
+define("_MREGONLINE","regisztr√°lt tag olvas benn√ºnket.");
+define("_REGSOFAR","regisztr√°lt tagunk van.");
+define("_USERSFOUND","tag tal√°lhat√≥ itt:");
 define("_USERSSHOWN","tagokat megmutatja");
-define("_NOMEMBERS","Nem tal·lni tagokat ide:");
+define("_NOMEMBERS","Nem tal√°lni tagokat ide:");
 define("_PAGES","oldal");
 define("_HOMEPAGE","Honlap");
 

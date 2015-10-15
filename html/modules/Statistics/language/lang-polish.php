@@ -16,42 +16,42 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
-define("_HITS","Ods³on");
-define("_BROWSERS","Przegl±darki");
+define("_HITS","OdsÅ‚on");
+define("_BROWSERS","PrzeglÄ…darki");
 define("_OPERATINGSYS","System operacyjny");
 define("_UNKNOWN","Nieznany");
 define("_OTHER","Inny / Nieznany");
-define("_MISCSTATS","Ró¿norodne statystyki");
-define("_REGUSERS","Zarejestrowanych u¿ytkowników:");
-define("_ACTIVEAUTHORS","Aktywnych autorów:");
-define("_STORIESPUBLISHED","Opublikowanych artyku³ów:");
-define("_SACTIVETOPICS","Aktywnych tematów:");
-define("_COMMENTSPOSTED","Wys³anych komentarzy:");
+define("_MISCSTATS","RÃ³Å¼norodne statystyki");
+define("_REGUSERS","Zarejestrowanych uÅ¼ytkownikÃ³w:");
+define("_ACTIVEAUTHORS","Aktywnych autorÃ³w:");
+define("_STORIESPUBLISHED","Opublikowanych artykuÅ‚Ã³w:");
+define("_SACTIVETOPICS","Aktywnych tematÃ³w:");
+define("_COMMENTSPOSTED","WysÅ‚anych komentarzy:");
 define("_SSPECIALSECT","Sekcji specjalnych:");
-define("_ARTICLESSEC","Artyku³ów w sekcji:");
-define("_LINKSINLINKS","Linków w dziale LINKI:");
+define("_ARTICLESSEC","ArtykuÅ‚Ã³w w sekcji:");
+define("_LINKSINLINKS","LinkÃ³w w dziale LINKI:");
 define("_LINKSCAT","Kategorii w linkach:");
-define("_NEWSWAITING","Newsów oczekuj±cych na publikacjê:");
+define("_NEWSWAITING","NewsÃ³w oczekujÄ…cych na publikacjÄ™:");
 define("_NUKEVERSION","Wersja PHP-Nuke:");
 define("_SEARCHENGINES","Wyszukiwarki");
 define("_BOTS","Roboty sieciowe");
 define("_STATS","Statystyki odwiedzin");
-define("_RETURNBASICSTATS","Wróæ do statystyk podstawowych");
-define("_BACKTODETSTATS","Wróæ do statystyk szczegó³owych");
-define("_BACKTOMAIN","Wróæ na stronê g³ówn±");
+define("_RETURNBASICSTATS","WrÃ³Ä‡ do statystyk podstawowych");
+define("_BACKTODETSTATS","WrÃ³Ä‡ do statystyk szczegÃ³Å‚owych");
+define("_BACKTOMAIN","WrÃ³Ä‡ na stronÄ™ gÅ‚Ã³wnÄ…");
 define("_TODAYIS","Dzisiaj jest");
-define("_MOSTMONTH","Najlepszy miesi±c");
-define("_MOSTDAY","Najlepszy dzieñ");
+define("_MOSTMONTH","Najlepszy miesiÄ…c");
+define("_MOSTDAY","Najlepszy dzieÅ„");
 define("_MOSTHOUR","Najlepsza godzina");
 define("_YEARLYSTATS","Statystyki roczne");
-define("_MONTLYSTATS","Statystki miesiêczne - miesi±c");
-define("_SPAGESVIEWS","Ods³on strony");
+define("_MONTLYSTATS","Statystki miesiÄ™czne - miesiÄ…c");
+define("_SPAGESVIEWS","OdsÅ‚on strony");
 define("_DAILYSTATS","Statystyki dzienne - ");
 define("_HOURLYSTATS","Statystyki godzinowe - ");
-define("_VIEWDETAILED","Zobacz statystyki szczegó³owe");
+define("_VIEWDETAILED","Zobacz statystyki szczegÃ³Å‚owe");
 
 ?>

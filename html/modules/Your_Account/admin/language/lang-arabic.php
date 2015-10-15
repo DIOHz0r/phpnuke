@@ -18,44 +18,44 @@
 /**************************************************************************/
 
 
-define("_URL","ัวศุ");
-define("_EMAIL","ศัํฯ วแ฿สัๆไํ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_REQUIRED","(ใุแๆศ)");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_OK","ใๆวÝÞ!");
-define("_HELLO","ใัอศว");
-define("_ICQ","ัÞใ วแรํ ำํ ฿ํๆ");
-define("_AIM","ัÞใ รใัํ฿ว วๆไ แวํไ");
-define("_YIM","ัÞใ ํวๅๆ ใวำไฬั");
-define("_MSNM","ัÞใ ๅๆสใํแ ใวำไฬั");
-define("_LOCATION","วแฯๆแษ");
-define("_OCCUPATION","วแๆูํÝษ");
-define("_INTERESTS","วแๅๆวํวส");
-define("_SIGNATURE","วแสๆÞํฺ");
-define("_OPTION","ลฮสํวั");
-define("_NAME","ว๑ำใ");
-define("_USERS","วแรฺึวม");
-define("_RETYPEPASSWD","รฺฯ ฿สวศษ ฿แใษ วแำั");
-define("_FORCHANGES","(แแสÛํํั ÝÞุ)");
-define("_YEAR","วแำไษ");
-define("_USERADMIN","วแสอ฿ใ Ýํ วแรฺึวม");
-define("_EDITUSER","สฺฯํแ ฺึๆ");
-define("_MODIFY","สฺฯํแ");
-define("_ADDUSER","วึวÝษ ฺึๆ ฬฯํฯ");
-define("_FAKEEMAIL","วแศัํฯ วแลแ฿สัๆไํ Ûํั วแอÞํÞํ");
-define("_ALLOWUSERS","สใ฿ํไ วแรฮัํไ ใไ ัฤํษ ศัํฯํ");
-define("_ADDUSERBUT","รึÝ ฺึๆ");
-define("_USERUPDATE","สอฯํห ใแÝ วแฺึๆ");
-define("_USERID","ัÞใ วแฺึๆ");
-define("_USERNOEXIST","ๅะว วแฺึๆ Ûํั ใๆฬๆฯ!");
-define("_PASSWDNOMATCH","ฺÝๆว ฿แใษ วแำั วแฬฯํฯษ Ûํั ใสุวศÞษ. วึÛุ าั วแฺๆฯษ ๆอวๆแ ใัษ วฮั์");
-define("_DELETEUSER","อะÝ ฺึๆ");
-define("_SURE2DELETE","ๅแ สัํฯ อะÝ วแฺึๆ ศวแสร฿ํฯฟ");
-define("_NEEDTOCOMPLETE","สอสวฬ วแ์ ล฿ใวแ ฬใํฺ วแฬÞๆแ");
-define("_TEAM","ÝัํÞ วแฺใแ.");
-define("_NEWSLETTER","Þวฦใษ วแใัวำแษ");
+define("_URL","ุฑุงุจุท");
+define("_EMAIL","ุจุฑูุฏ ุงููุชุฑููู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_REQUIRED","(ู…ุทููุจ)");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_OK","ู…ูุงูู!");
+define("_HELLO","ู…ุฑุญุจุง");
+define("_ICQ","ุฑูู… ุงูุฃู ุณู ููู");
+define("_AIM","ุฑูู… ุฃู…ุฑููุง ุงูู ูุงูู");
+define("_YIM","ุฑูู… ูุงูู ู…ุงุณูุฌุฑ");
+define("_MSNM","ุฑูู… ููุชู…ูู ู…ุงุณูุฌุฑ");
+define("_LOCATION","ุงูุฏููุฉ");
+define("_OCCUPATION","ุงููุธููุฉ");
+define("_INTERESTS","ุงูููุงูุงุช");
+define("_SIGNATURE","ุงูุชูููุน");
+define("_OPTION","ุฅุฎุชูุงุฑ");
+define("_NAME","ุงูุณู…");
+define("_USERS","ุงูุฃุนุถุงุก");
+define("_RETYPEPASSWD","ุฃุนุฏ ูุชุงุจุฉ ููู…ุฉ ุงูุณุฑ");
+define("_FORCHANGES","(ููุชุบููุฑ ููุท)");
+define("_YEAR","ุงูุณูุฉ");
+define("_USERADMIN","ุงูุชุญูู… ูู ุงูุฃุนุถุงุก");
+define("_EDITUSER","ุชุนุฏูู ุนุถู");
+define("_MODIFY","ุชุนุฏูู");
+define("_ADDUSER","ุงุถุงูุฉ ุนุถู ุฌุฏูุฏ");
+define("_FAKEEMAIL","ุงูุจุฑูุฏ ุงูุฅููุชุฑููู ุบูุฑ ุงูุญูููู");
+define("_ALLOWUSERS","ุชู…ููู ุงูุฃุฎุฑูู ู…ู ุฑุคูุฉ ุจุฑูุฏู");
+define("_ADDUSERBUT","ุฃุถู ุนุถู");
+define("_USERUPDATE","ุชุญุฏูุซ ู…ูู ุงูุนุถู");
+define("_USERID","ุฑูู… ุงูุนุถู");
+define("_USERNOEXIST","ูุฐุง ุงูุนุถู ุบูุฑ ู…ูุฌูุฏ!");
+define("_PASSWDNOMATCH","ุนููุง ููู…ุฉ ุงูุณุฑ ุงูุฌุฏูุฏุฉ ุบูุฑ ู…ุชุทุงุจูุฉ. ุงุถุบุท ุฒุฑ ุงูุนูุฏุฉ ูุญุงูู ู…ุฑุฉ ุงุฎุฑู");
+define("_DELETEUSER","ุญุฐู ุนุถู");
+define("_SURE2DELETE","ูู ุชุฑูุฏ ุญุฐู ุงูุนุถู ุจุงูุชุฃููุฏุ");
+define("_NEEDTOCOMPLETE","ุชุญุชุงุฌ ุงูู ุฅูู…ุงู ุฌู…ูุน ุงูุฌููู");
+define("_TEAM","ูุฑูู ุงูุนู…ู.");
+define("_NEWSLETTER","ูุงุฆู…ุฉ ุงูู…ุฑุงุณูุฉ");
 define("_SUBNEEDTOAPPLY","If you need/want to apply again for the subscription, please visit the following link:");
 define("_SUBCANCEL","This is an automated email to let you know that your subscription to our website's advertising removal has been cancelled.");
 define("_SUBTHANKSATT","Thanks for you attention,");

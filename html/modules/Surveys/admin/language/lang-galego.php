@@ -18,32 +18,32 @@
 /**************************************************************************/
 
 
-define("_YES","Sí");
+define("_YES","SÃ­");
 define("_NO","Non");
-define("_CATEGORY","Categoría");
+define("_CATEGORY","CategorÃ­a");
 define("_SAVECHANGES","Gardar cambios");
 define("_ARTICLES","Artigos");
 define("_SELECTTOPIC","Seleccionar Tema");
-define("_OPTION","Opción");
-define("_ADMPOLLS","Enquisas/Votacións");
-define("_TITLE","Título");
+define("_OPTION","OpciÃ³n");
+define("_ADMPOLLS","Enquisas/VotaciÃ³ns");
+define("_TITLE","TÃ­tulo");
 define("_STORYTEXT","Texto da Noticia");
 define("_EXTENDEDTEXT","Texto Extendido");
-define("_PUBLISHINHOME","¿Publicar na Páxina de Inicio?");
-define("_ONLYIFCATSELECTED","Só funciona se a categoría  <i>Artigos</i> non está seleccionada");
+define("_PUBLISHINHOME","Â¿Publicar na PÃ¡xina de Inicio?");
+define("_ONLYIFCATSELECTED","SÃ³ funciona se a categorÃ­a  <i>Artigos</i> non estÃ¡ seleccionada");
 define("_ADD","Engadir");
-define("_POLLSADMIN","Administración de Votacións/Enquisas");
+define("_POLLSADMIN","AdministraciÃ³n de VotaciÃ³ns/Enquisas");
 define("_CREATEPOLL","Crear Enquisa");
 define("_DELETEPOLLS","Borrar Enquisas");
-define("_POLLTITLE","Título da Enquisa");
-define("_POLLEACHFIELD","Por favor escriba cada opción da enquisa");
+define("_POLLTITLE","TÃ­tulo da Enquisa");
+define("_POLLEACHFIELD","Por favor escriba cada opciÃ³n da enquisa");
 define("_CREATEPOLLBUT","Crear Enquisa");
 define("_REMOVEEXISTING","Eliminar unha enquisa existente");
-define("_POLLDELWARNING","AVISO: A enquisa seleccionada será borrada INMEDIATAMENTE da base de datos!");
-define("_CHOOSEPOLL","Seleccione votación da siguiente lista:");
+define("_POLLDELWARNING","AVISO: A enquisa seleccionada serÃ¡ borrada INMEDIATAMENTE da base de datos!");
+define("_CHOOSEPOLL","Seleccione votaciÃ³n da siguiente lista:");
 define("_EDITPOLL","Editar Enquisas");
 define("_CHOOSEPOLLEDIT","Escolla a Enquisa que queira editar:");
-define("_ACTIVATECOMMENTS","¿Activar comentarios para esta Noticia?");
+define("_ACTIVATECOMMENTS","Â¿Activar comentarios para esta Noticia?");
 define("_LANGUAGE","Idioma");
 define("_ANNOUNCEPOLL","Anuncie esta nova Enquisa no seu site");
 define("_LEAVEBLANK","(Deixe en blanco para crear unha nova enquisa sin anunciala)");

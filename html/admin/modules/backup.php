@@ -35,19 +35,19 @@ if ($row['radminsuper'] == 1) {
 		{
 			case french :
 			// French Text
-			$strNoTablesFound	= "Aucune table n'a été trouvée dans cette base.";
+			$strNoTablesFound	= "Aucune table n'a Ã©tÃ© trouvÃ©e dans cette base.";
 			$strHost		= "Serveur";
-			$strDatabase		= "Base de données";
+			$strDatabase		= "Base de donnÃ©es";
 			$strTableStructure	= "Structure de la table";
 			$strDumpingData		= "Contenu de la table";
 			$strError		= "Erreur";
-			$strSQLQuery		= "requête SQL";
-			$strMySQLSaid		= "MySQL a répondu:";
+			$strSQLQuery		= "requÃªte SQL";
+			$strMySQLSaid		= "MySQL a rÃ©pondu:";
 			$strBack		= "Retour";
 			$strFileName		= "Sauvegarde BD";
-			$strName		= "Sauvegarde de la base de données";
-			$strDone		= "effectuée le";
-			$strat			= "à";
+			$strName		= "Sauvegarde de la base de donnÃ©es";
+			$strDone		= "effectuÃ©e le";
+			$strat			= "Ã ";
 			$strby			= "par";
 			$date_jour = date ("d-m-Y");
 			break;

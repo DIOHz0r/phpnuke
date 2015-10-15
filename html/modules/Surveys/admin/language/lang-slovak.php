@@ -18,35 +18,35 @@
 /**************************************************************************/
 
 
-define("_YES","¡no");
+define("_YES","√Åno");
 define("_NO","Nie");
-define("_CATEGORY","KategÛria");
-define("_SAVECHANGES","Uloûi? zmeny");
-define("_ARTICLES","»l·nky");
-define("_SELECTTOPIC","V˝ber tÈmy");
+define("_CATEGORY","Kateg√≥ria");
+define("_SAVECHANGES","Ulo≈æi? zmeny");
+define("_ARTICLES","ƒål√°nky");
+define("_SELECTTOPIC","V√Ωber t√©my");
 define("_OPTION","Nastavenie");
 define("_ADMPOLLS","Ankety");
-define("_TITLE","N·zov");
-define("_STORYTEXT","Text Ël·nku");
-define("_EXTENDEDTEXT","RozöÌren˝ text");
-define("_PUBLISHINHOME","Publikova? na ˙vodn˙ str·nku?");
-define("_ONLYIFCATSELECTED","Funguje len keÔ nie je vybran· kategÛria <i>Ël·nky</i>");
+define("_TITLE","N√°zov");
+define("_STORYTEXT","Text ƒçl√°nku");
+define("_EXTENDEDTEXT","Roz≈°√≠ren√Ω text");
+define("_PUBLISHINHOME","Publikova? na √∫vodn√∫ str√°nku?");
+define("_ONLYIFCATSELECTED","Funguje len keƒè nie je vybran√° kateg√≥ria <i>ƒçl√°nky</i>");
 define("_ADD","Prida?");
-define("_POLLSADMIN","Administr·cia ankiet");
-define("_CREATEPOLL","Vytvori? nov˙ anketu");
-define("_DELETEPOLLS","Zruöi? anketu");
-define("_POLLTITLE","N·zov ankety");
-define("_POLLEACHFIELD","Do polÌËok zadajte kaûd˙ moûn˙ odpoveÔ.");
+define("_POLLSADMIN","Administr√°cia ankiet");
+define("_CREATEPOLL","Vytvori? nov√∫ anketu");
+define("_DELETEPOLLS","Zru≈°i? anketu");
+define("_POLLTITLE","N√°zov ankety");
+define("_POLLEACHFIELD","Do pol√≠ƒçok zadajte ka≈æd√∫ mo≈æn√∫ odpoveƒè.");
 define("_CREATEPOLLBUT","Vytvori? anketu");
-define("_REMOVEEXISTING","Vymaza? existuj˙cu anketu");
-define("_POLLDELWARNING","UPOZORNENIE: Zvolen· anketa bude okamûite vymazan· z datab·zy!");
-define("_CHOOSEPOLL","ProsÌm, vyberte anketu z nasledovnÈho zoznamu:");
+define("_REMOVEEXISTING","Vymaza? existuj√∫cu anketu");
+define("_POLLDELWARNING","UPOZORNENIE: Zvolen√° anketa bude okam≈æite vymazan√° z datab√°zy!");
+define("_CHOOSEPOLL","Pros√≠m, vyberte anketu z nasledovn√©ho zoznamu:");
 define("_EDITPOLL","Upravi? Ankety");
-define("_CHOOSEPOLLEDIT","Vyberte anketu, ktor˙ chcete upravi?:");
-define("_ACTIVATECOMMENTS","Aktivova? koment·re k tomuto Ël·nku?");
+define("_CHOOSEPOLLEDIT","Vyberte anketu, ktor√∫ chcete upravi?:");
+define("_ACTIVATECOMMENTS","Aktivova? koment√°re k tomuto ƒçl√°nku?");
 define("_LANGUAGE","Jazyk");
-define("_ANNOUNCEPOLL","Ozn·mi? t˙to nov˙ anketu na titulnej str·nke");
-define("_LEAVEBLANK","Nechajte pr·zdne, ak nechcete ozn·mi? nov˙ anketu na titulnej str·nke.%");
+define("_ANNOUNCEPOLL","Ozn√°mi? t√∫to nov√∫ anketu na titulnej str√°nke");
+define("_LEAVEBLANK","Nechajte pr√°zdne, ak nechcete ozn√°mi? nov√∫ anketu na titulnej str√°nke.%");
 define("_POLLEDIT","Upravi? anketu");
 
 

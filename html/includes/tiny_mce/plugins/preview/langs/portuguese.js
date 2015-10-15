@@ -1,3 +1,3 @@
 // UK lang variables
 
-tinyMCELang['lang_preview_desc'] = 'Pré-visualização';
+tinyMCELang['lang_preview_desc'] = 'PrÃ©-visualizaÃ§Ã£o';

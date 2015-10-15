@@ -19,9 +19,9 @@
 
 
 define("_URL","URL");
-define("_EMAIL","S‰hkˆposti");
-define("_FUNCTIONS","Teht‰v‰t");
-define("_YES","Kyll‰");
+define("_EMAIL","S√§hk√∂posti");
+define("_FUNCTIONS","Teht√§v√§t");
+define("_YES","Kyll√§");
 define("_NO","Ei");
 define("_CATEGORY","Kategoria");
 define("_SAVECHANGES","Tallenna muutokset");
@@ -35,12 +35,12 @@ define("_AUTHOR","Nimi");
 define("_NAME","Nimi");
 define("_PAGETITLE","Sivun otsikko");
 define("_PAGEURL","Sivun URL");
-define("_ADDURL","Lis‰‰");
+define("_ADDURL","Lis√§√§");
 define("_LINKID","Linkin tunnus");
 define("_WEBLINKS","Linkit");
 define("_TITLE","Otsikko");
 define("_STATUS","Status");
-define("_ADD","Lis‰‰");
+define("_ADD","Lis√§√§");
 define("_MODIFY","Muokkaa");
 define("_LINKSINDB","Links in our Database");
 define("_LINKSWAITINGVAL","Links Waiting for Validation");

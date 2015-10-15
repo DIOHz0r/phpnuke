@@ -1,10 +1,10 @@
 Subject: Teie soov on heaks kiidetud
 Charset: iso-8859-1
 
-Õnnitlused,
+Ã•nnitlused,
 
-Teie soov ühinedda "{GROUP_NAME}" grupiga {SITENAME} foorumil on heaks kiidetud.
-Vajutage järgnevat linki, et vaadata oma liikmestaatust.
+Teie soov Ã¼hinedda "{GROUP_NAME}" grupiga {SITENAME} foorumil on heaks kiidetud.
+Vajutage jÃ¤rgnevat linki, et vaadata oma liikmestaatust.
 
 {U_GROUPCP}
 

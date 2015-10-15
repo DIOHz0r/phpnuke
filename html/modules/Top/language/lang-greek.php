@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_LVOTES","Αριθμός Ψήφων");
-define("_CATEGORY","Κατηγορίες");
-define("_HITS","Αιτήσεις");
-define("_TOPWELCOME","Καλωσήλθατε στη Κύρια Σελίδα για");
-define("_READSTORIES","περισσότερο δημοφιλείς ιστορίες");
-define("_COMMENTEDSTORIES","περισσότερο σχολιασμένες ιστορίες");
-define("_ACTIVECAT","περισσότερο δραστήριες κατηγορίες");
-define("_READSECTION","περισσότερο διαβασμένα άρθρα στις ειδικές κατηγορίες");
-define("_NEWSSUBMITTERS","περισσότερο ενεργοί καταχωρητές νέων");
-define("_NEWSSENT","απεσταλμένα νέα");
-define("_VOTEDPOLLS","οι πιο δημοφιλείς ψηφοφορίες (");
-define("_MOSTACTIVEAUTHORS","οι πιο ενεργοί συγγραφείς");
-define("_NEWSPUBLISHED","δημοσιευμένα νέα");
-define("_READREVIEWS","οι πιο πολυδιαβασμένες κριτικές");
-define("_DOWNLOADEDFILES","τα περισσότερο ανακτώμενα αρχεία  ");
+define("_LVOTES","Ξ‘ΟΞΉΞΈΞΌΟΟ‚ Ξ¨Ξ®Ο†Ο‰Ξ½");
+define("_CATEGORY","ΞΞ±Ο„Ξ·Ξ³ΞΏΟΞ―ΞµΟ‚");
+define("_HITS","Ξ‘ΞΉΟ„Ξ®ΟƒΞµΞΉΟ‚");
+define("_TOPWELCOME","ΞΞ±Ξ»Ο‰ΟƒΞ®Ξ»ΞΈΞ±Ο„Ξµ ΟƒΟ„Ξ· ΞΟΟΞΉΞ± Ξ£ΞµΞ»Ξ―Ξ΄Ξ± Ξ³ΞΉΞ±");
+define("_READSTORIES","Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞΏ Ξ΄Ξ·ΞΌΞΏΟ†ΞΉΞ»ΞµΞ―Ο‚ ΞΉΟƒΟ„ΞΏΟΞ―ΞµΟ‚");
+define("_COMMENTEDSTORIES","Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞΏ ΟƒΟ‡ΞΏΞ»ΞΉΞ±ΟƒΞΌΞ­Ξ½ΞµΟ‚ ΞΉΟƒΟ„ΞΏΟΞ―ΞµΟ‚");
+define("_ACTIVECAT","Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞΏ Ξ΄ΟΞ±ΟƒΟ„Ξ®ΟΞΉΞµΟ‚ ΞΊΞ±Ο„Ξ·Ξ³ΞΏΟΞ―ΞµΟ‚");
+define("_READSECTION","Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞΏ Ξ΄ΞΉΞ±Ξ²Ξ±ΟƒΞΌΞ­Ξ½Ξ± Ξ¬ΟΞΈΟΞ± ΟƒΟ„ΞΉΟ‚ ΞµΞΉΞ΄ΞΉΞΊΞ­Ο‚ ΞΊΞ±Ο„Ξ·Ξ³ΞΏΟΞ―ΞµΟ‚");
+define("_NEWSSUBMITTERS","Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞΏ ΞµΞ½ΞµΟΞ³ΞΏΞ― ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·Ο„Ξ­Ο‚ Ξ½Ξ­Ο‰Ξ½");
+define("_NEWSSENT","Ξ±Ο€ΞµΟƒΟ„Ξ±Ξ»ΞΌΞ­Ξ½Ξ± Ξ½Ξ­Ξ±");
+define("_VOTEDPOLLS","ΞΏΞΉ Ο€ΞΉΞΏ Ξ΄Ξ·ΞΌΞΏΟ†ΞΉΞ»ΞµΞ―Ο‚ ΟΞ·Ο†ΞΏΟ†ΞΏΟΞ―ΞµΟ‚ (");
+define("_MOSTACTIVEAUTHORS","ΞΏΞΉ Ο€ΞΉΞΏ ΞµΞ½ΞµΟΞ³ΞΏΞ― ΟƒΟ…Ξ³Ξ³ΟΞ±Ο†ΞµΞ―Ο‚");
+define("_NEWSPUBLISHED","Ξ΄Ξ·ΞΌΞΏΟƒΞΉΞµΟ…ΞΌΞ­Ξ½Ξ± Ξ½Ξ­Ξ±");
+define("_READREVIEWS","ΞΏΞΉ Ο€ΞΉΞΏ Ο€ΞΏΞ»Ο…Ξ΄ΞΉΞ±Ξ²Ξ±ΟƒΞΌΞ­Ξ½ΞµΟ‚ ΞΊΟΞΉΟ„ΞΉΞΊΞ­Ο‚");
+define("_DOWNLOADEDFILES","Ο„Ξ± Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞΏ Ξ±Ξ½Ξ±ΞΊΟ„ΟΞΌΞµΞ½Ξ± Ξ±ΟΟ‡ΞµΞ―Ξ±  ");
 define("_MOSTREADPAGES","most read pages");
 define("_MOSTVOTEDSTORIES","most voted stories");
 define("_POINTS","points");

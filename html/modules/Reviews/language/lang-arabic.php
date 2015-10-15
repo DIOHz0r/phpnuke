@@ -17,83 +17,83 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","วแีÝอษ วแำวศÞษ");
-define("_NEXT","วแีÝอษ วแสวแํษ");
-define("_YOURNAME","วำใ฿");
-define("_SORTASC","สัสํศ สีวฺฯํ");
-define("_SORTDESC","สัสํศ สไวาแํ");
-define("_CANCEL","วแÛวม");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_SCORE","วแสÞํํใ:");
-define("_REPLYMAIN","รัำแ สฺแํÞ");
-define("_ALLOWEDHTML","HTML ใำใๆอ:");
+define("_PREVIOUS","ุงูุตูุญุฉ ุงูุณุงุจูุฉ");
+define("_NEXT","ุงูุตูุญุฉ ุงูุชุงููุฉ");
+define("_YOURNAME","ุงุณู…ู");
+define("_SORTASC","ุชุฑุชูุจ ุชุตุงุนุฏู");
+define("_SORTDESC","ุชุฑุชูุจ ุชูุงุฒูู");
+define("_CANCEL","ุงูุบุงุก");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_SCORE","ุงูุชูููู…:");
+define("_REPLYMAIN","ุฃุฑุณู ุชุนููู");
+define("_ALLOWEDHTML","HTML ู…ุณู…ูุญ:");
 define("_POSTANON","Post Anonymously");
-define("_WRITEREVIEW","ว฿สศ สฺÞํศว");
-define("_WRITEREVIEWFOR","ว฿สศ สฺแํÞว ฺแ์");
-define("_ENTERINFO","วแัฬวม วฯฮวแ ใฺแๆใวส อำศ วแใๆวีÝวส");
-define("_PRODUCTTITLE","ฺไๆวไ วแใไสฬ");
-define("_NAMEPRODUCT","วำใ วแใไสฬ วแะํ ำส฿สศ สÞัํัว ฺไๅ.");
-define("_REVIEW","วแสÞัํั");
-define("_CHECKREVIEW","สÞัํั฿ ฺไ วแใไสฬ. วแัฬวม ฿สวศษ 100 ฿แใษ ฺแ์ วแรÞแ, สำสุํฺ วำสฮฯวใ แÛษ HTML วะว ฿ไส สฺัÝ วำสฮฯวใๅว.");
-define("_FULLNAMEREQ","วำใ฿ วแ฿วใแ. ใุแๆศ.");
-define("_REMAIL","ศัํฯ฿ วแลแ฿สัๆไํ");
-define("_REMAILREQ","ศัํฯ฿ วแลแ฿สัๆไํ. ใุแๆศ.");
-define("_SELECTSCORE","ไสํฬษ สÞํํใ วแใๆึๆฺ");
-define("_RELATEDLINK","ัๆวศุ ะวส ีแษ");
-define("_PRODUCTSITE","ฺไๆวไ ีÝอษ วแใไสฬ. สร฿ฯ รไ วแัวศุ ํอสๆํ ฺแ์ \"http://\"");
-define("_LINKTITLE","ฺไๆวไ วแัวศุ");
-define("_LINKTITLEREQ","ใุแๆศ วะว ฿วไ ํๆฬฯ ฺไฯ฿ ัๆวศุ ะวส ีแษ ๆฺฯว ะแ฿ Ýๅๆ Ûํั ใุแๆศ.");
-define("_RIMAGEFILE","วำใ ใแÝ วแีๆัษ");
-define("_RIMAGEFILEREQ","วำใ ีๆัษ วแÛแวÝ ๆวแใๆฬๆฯษ Ýํ วแฯแํแ images/reviews/. Ûํั ใุแๆศษ.");
-define("_CHECKINFO","วแัฬวม วแสร฿ฯ ใไ รไ ฬใํฺ วแใฺแๆใวส วแใฯฮแษ ีอํอษ ๆวแสร฿ฯ ใไ วแสาวใ Þๆวฺฯ วแแÛษ.");
-define("_INVALIDTITLE","ฮุร Ýํ วแฺไๆวไ... แว ํใ฿ไ วไ ํ฿ๆไ ฮวแํ");
-define("_INVALIDSCORE","สÞํํใ ฮวุฦ... ํฬศ รไ ํ฿ๆไ ศํไ 1 ๆ 10");
-define("_INVALIDTEXT","แว ํใ฿ไ วัำวแ วแสฺÞํศ...ํฬศ รไ แว ํ฿ๆไ ÝวัÛว");
-define("_INVALIDHITS","วแสÞํํใ ํฬศ รไ ํ฿ๆไ ัÞใ ีอํอ");
-define("_CHECKNAME","ํฬศ วฯฮวแ วำใ฿ ๆศัํฯ฿ วแลแ฿สัๆไํ");
-define("_INVALIDEMAIL","ศัํฯ Ûํั ีอํอ (ใหวแ: you@hotmail.com)");
-define("_INVALIDLINK","ํฬศ วฯฮวแ วำใ วแัวศุ ๆัๆวศุ ะวส ีแษ ใฺว รๆ สั฿ๅใว ใฺว");
-define("_ADDED","รึํÝ:");
-define("_REVIEWER","วแใัวฬฺ:");
-define("_REVIEWID","ัÞใ วแใัวฬฺ");
-define("_HITS","าํวัวส");
-define("_LOOKSRIGHT","ๅแ ํศฯๆว ๅะว ีอํอวฟ");
-define("_RMODIFIED","ฺฯแส");
-define("_RADDED","รึํÝส");
-define("_ADMINLOGGED","สใ ฯฮๆแ฿ อวแํว ฿ใิัÝ ฺวใ... ำํสใ ไิั สÞัํั วแใัวฬฺๅ ใศวิัษ");
-define("_RTHANKS","ไิ฿ั฿ แ฿สวศษ ๅะว วแสÞัํั");
-define("_MODIFICATION","สฺฯํแวส");
-define("_ISAVAILABLE","วแสÞัํั ใๆฬๆฯ วแรไ Ýํ Þวฺฯษ ศํวไวส สÞวัํั วแใัวฬฺษ.");
-define("_EDITORWILLLOOK","ำไÞๆใ ศใัวฬฺษ ใÞวแส฿. ำํสใ ๆึฺๅว Þัํศว!");
-define("_RBACK","ฺๆฯษ วแ์ Þวฦใษ วแใัวฬฺวส");
-define("_RWELCOME","รๅแว ศ฿ Ýํ Þวฦใษ วแใัวฬฺวส");
-define("_10MOSTPOP","ริๅั 10 ใัวฬฺวส");
-define("_10MOSTREC","รฮั 10 ใัวฬฺวส");
-define("_THEREARE","ํๆฬฯ อวแํว");
-define("_REVIEWSINDB","ใัวฬฺษ Ýํ Þวฺฯษ วแศํวไวส");
-define("_REVIEWS","ใัวฬฺษ");
-define("_REVIEWSLETTER","ใัวฬฺวส แแัำวฦแ");
-define("_NOREVIEWS","แว ํๆฬฯ ใัวฬฺวส แแัำวฦแ");
-define("_TOTALREVIEWS","ใฬใๆฺ วแใัวฬฺวส วแใๆฬๆฯษ.");
-define("_RETURN2MAIN","วแฺๆฯษ แแÞวฦใษ วแัฦํำํษ");
-define("_REVIEWCOMMENT","วแสฺแํÞ Ýํ วแใัวฬฺวส:");
-define("_YOURNICK","วแ฿ไํษ:");
-define("_RCREATEACCOUNT","<a href=modules.php?name=Your_Account>วิสัว฿ </a> ฬฯํฯ");
-define("_YOURCOMMENT","สฺแํÞ฿:");
-define("_MYSCORE","สÞํํใํ:");
-define("_REVIEWMOD","สฺฯํแ วแใัวฬฺวส");
-define("_RDATE","วแสวัํฮ:");
-define("_RTITLE","วแฺไๆวไ:");
-define("_RTEXT","วแไี:");
-define("_REVEMAIL","วแศัํฯ วแลแ฿สัๆไํ:");
-define("_RLINK","วแัวศุ:");
-define("_RLINKTITLE","ฺไๆวไ วแัวศุ:");
-define("_COVERIMAGE","ีๆัษ วแÛแวÝ:");
-define("_PREMODS","วำสฺัวึ วแสฺฯํแวส");
-define("_PAGE","ีÝอษ");
-define("_PAGEBREAK","วะว รัฯส ีÝอวส ใสฺฯฯษ Ýลไ฿ สำสุํฺ รไ ส฿สศ  <b>[--pagebreak--]</b> Ýํ ใ฿วไ วแÞี.");
-define("_PREVIEW","วำสฺัวึ");
-define("_LANGUAGE","วแแÛษ");
+define("_WRITEREVIEW","ุงูุชุจ ุชุนููุจุง");
+define("_WRITEREVIEWFOR","ุงูุชุจ ุชุนูููุง ุนูู");
+define("_ENTERINFO","ุงูุฑุฌุงุก ุงุฏุฎุงู ู…ุนููู…ุงุช ุญุณุจ ุงูู…ูุงุตูุงุช");
+define("_PRODUCTTITLE","ุนููุงู ุงูู…ูุชุฌ");
+define("_NAMEPRODUCT","ุงุณู… ุงูู…ูุชุฌ ุงูุฐู ุณุชูุชุจ ุชูุฑูุฑุง ุนูู.");
+define("_REVIEW","ุงูุชูุฑูุฑ");
+define("_CHECKREVIEW","ุชูุฑูุฑู ุนู ุงูู…ูุชุฌ. ุงูุฑุฌุงุก ูุชุงุจุฉ 100 ููู…ุฉ ุนูู ุงูุฃูู, ุชุณุชุทูุน ุงุณุชุฎุฏุงู… ูุบุฉ HTML ุงุฐุง ููุช ุชุนุฑู ุงุณุชุฎุฏุงู…ูุง.");
+define("_FULLNAMEREQ","ุงุณู…ู ุงููุงู…ู. ู…ุทููุจ.");
+define("_REMAIL","ุจุฑูุฏู ุงูุฅููุชุฑููู");
+define("_REMAILREQ","ุจุฑูุฏู ุงูุฅููุชุฑููู. ู…ุทููุจ.");
+define("_SELECTSCORE","ูุชูุฌุฉ ุชูููู… ุงูู…ูุถูุน");
+define("_RELATEDLINK","ุฑูุงุจุท ุฐุงุช ุตูุฉ");
+define("_PRODUCTSITE","ุนููุงู ุตูุญุฉ ุงูู…ูุชุฌ. ุชุฃูุฏ ุฃู ุงูุฑุงุจุท ูุญุชูู ุนูู \"http://\"");
+define("_LINKTITLE","ุนููุงู ุงูุฑุงุจุท");
+define("_LINKTITLEREQ","ู…ุทููุจ ุงุฐุง ูุงู ููุฌุฏ ุนูุฏู ุฑูุงุจุท ุฐุงุช ุตูุฉ ูุนุฏุง ุฐูู ููู ุบูุฑ ู…ุทููุจ.");
+define("_RIMAGEFILE","ุงุณู… ู…ูู ุงูุตูุฑุฉ");
+define("_RIMAGEFILEREQ","ุงุณู… ุตูุฑุฉ ุงูุบูุงู ูุงูู…ูุฌูุฏุฉ ูู ุงูุฏููู images/reviews/. ุบูุฑ ู…ุทููุจุฉ.");
+define("_CHECKINFO","ุงูุฑุฌุงุก ุงูุชุฃูุฏ ู…ู ุฃู ุฌู…ูุน ุงูู…ุนููู…ุงุช ุงูู…ุฏุฎูุฉ ุตุญูุญุฉ ูุงูุชุฃูุฏ ู…ู ุงูุชุฒุงู… ููุงุนุฏ ุงููุบุฉ.");
+define("_INVALIDTITLE","ุฎุทุฃ ูู ุงูุนููุงู... ูุง ูู…ูู ุงู ูููู ุฎุงูู");
+define("_INVALIDSCORE","ุชูููู… ุฎุงุทุฆ... ูุฌุจ ุฃู ูููู ุจูู 1 ู 10");
+define("_INVALIDTEXT","ูุง ูู…ูู ุงุฑุณุงู ุงูุชุนููุจ...ูุฌุจ ุฃู ูุง ูููู ูุงุฑุบุง");
+define("_INVALIDHITS","ุงูุชูููู… ูุฌุจ ุฃู ูููู ุฑูู… ุตุญูุญ");
+define("_CHECKNAME","ูุฌุจ ุงุฏุฎุงู ุงุณู…ู ูุจุฑูุฏู ุงูุฅููุชุฑููู");
+define("_INVALIDEMAIL","ุจุฑูุฏ ุบูุฑ ุตุญูุญ (ู…ุซุงู: you@hotmail.com)");
+define("_INVALIDLINK","ูุฌุจ ุงุฏุฎุงู ุงุณู… ุงูุฑุงุจุท ูุฑูุงุจุท ุฐุงุช ุตูุฉ ู…ุนุง ุฃู ุชุฑููู…ุง ู…ุนุง");
+define("_ADDED","ุฃุถูู:");
+define("_REVIEWER","ุงูู…ุฑุงุฌุน:");
+define("_REVIEWID","ุฑูู… ุงูู…ุฑุงุฌุน");
+define("_HITS","ุฒูุงุฑุงุช");
+define("_LOOKSRIGHT","ูู ูุจุฏูุง ูุฐุง ุตุญูุญุงุ");
+define("_RMODIFIED","ุนุฏูุช");
+define("_RADDED","ุฃุถููุช");
+define("_ADMINLOGGED","ุชู… ุฏุฎููู ุญุงููุง ูู…ุดุฑู ุนุงู…... ุณูุชู… ูุดุฑ ุชูุฑูุฑ ุงูู…ุฑุงุฌุนู ู…ุจุงุดุฑุฉ");
+define("_RTHANKS","ูุดูุฑู ููุชุงุจุฉ ูุฐุง ุงูุชูุฑูุฑ");
+define("_MODIFICATION","ุชุนุฏููุงุช");
+define("_ISAVAILABLE","ุงูุชูุฑูุฑ ู…ูุฌูุฏ ุงูุฃู ูู ูุงุนุฏุฉ ุจูุงูุงุช ุชูุงุฑูุฑ ุงูู…ุฑุงุฌุนุฉ.");
+define("_EDITORWILLLOOK","ุณูููู… ุจู…ุฑุงุฌุนุฉ ู…ูุงูุชู. ุณูุชู… ูุถุนูุง ูุฑูุจุง!");
+define("_RBACK","ุนูุฏุฉ ุงูู ูุงุฆู…ุฉ ุงูู…ุฑุงุฌุนุงุช");
+define("_RWELCOME","ุฃููุง ุจู ูู ูุงุฆู…ุฉ ุงูู…ุฑุงุฌุนุงุช");
+define("_10MOSTPOP","ุฃุดูุฑ 10 ู…ุฑุงุฌุนุงุช");
+define("_10MOSTREC","ุฃุฎุฑ 10 ู…ุฑุงุฌุนุงุช");
+define("_THEREARE","ููุฌุฏ ุญุงููุง");
+define("_REVIEWSINDB","ู…ุฑุงุฌุนุฉ ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_REVIEWS","ู…ุฑุงุฌุนุฉ");
+define("_REVIEWSLETTER","ู…ุฑุงุฌุนุงุช ููุฑุณุงุฆู");
+define("_NOREVIEWS","ูุง ููุฌุฏ ู…ุฑุงุฌุนุงุช ููุฑุณุงุฆู");
+define("_TOTALREVIEWS","ู…ุฌู…ูุน ุงูู…ุฑุงุฌุนุงุช ุงูู…ูุฌูุฏุฉ.");
+define("_RETURN2MAIN","ุงูุนูุฏุฉ ูููุงุฆู…ุฉ ุงูุฑุฆูุณูุฉ");
+define("_REVIEWCOMMENT","ุงูุชุนููู ูู ุงูู…ุฑุงุฌุนุงุช:");
+define("_YOURNICK","ุงููููุฉ:");
+define("_RCREATEACCOUNT","<a href=modules.php?name=Your_Account>ุงุดุชุฑุงู </a> ุฌุฏูุฏ");
+define("_YOURCOMMENT","ุชุนูููู:");
+define("_MYSCORE","ุชูููู…ู:");
+define("_REVIEWMOD","ุชุนุฏูู ุงูู…ุฑุงุฌุนุงุช");
+define("_RDATE","ุงูุชุงุฑูุฎ:");
+define("_RTITLE","ุงูุนููุงู:");
+define("_RTEXT","ุงููุต:");
+define("_REVEMAIL","ุงูุจุฑูุฏ ุงูุฅููุชุฑููู:");
+define("_RLINK","ุงูุฑุงุจุท:");
+define("_RLINKTITLE","ุนููุงู ุงูุฑุงุจุท:");
+define("_COVERIMAGE","ุตูุฑุฉ ุงูุบูุงู:");
+define("_PREMODS","ุงุณุชุนุฑุงุถ ุงูุชุนุฏููุงุช");
+define("_PAGE","ุตูุญุฉ");
+define("_PAGEBREAK","ุงุฐุง ุฃุฑุฏุช ุตูุญุงุช ู…ุชุนุฏุฏุฉ ูุฅูู ุชุณุชุทูุน ุฃู ุชูุชุจ  <b>[--pagebreak--]</b> ูู ู…ูุงู ุงููุต.");
+define("_PREVIEW","ุงุณุชุนุฑุงุถ");
+define("_LANGUAGE","ุงููุบุฉ");
 
 ?>

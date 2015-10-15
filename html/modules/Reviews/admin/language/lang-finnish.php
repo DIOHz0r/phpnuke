@@ -18,16 +18,16 @@
 /**************************************************************************/
 
 
-define("_EMAIL","S‰hkˆposti");
+define("_EMAIL","S√§hk√∂posti");
 define("_SAVECHANGES","Tallenna muutokset");
 define("_SCORE","Pisteet:");
 define("_PRODUCTTITLE","Otsikko");
-define("_RELATEDLINK","Aiheeseen liittyv‰ linkki");
+define("_RELATEDLINK","Aiheeseen liittyv√§ linkki");
 define("_LINKTITLE","Linkin otsikko");
 define("_REVIEWER","Arvostelija:");
 define("_REVIEWID","ID");
 define("_REVIEWS","Arvostelut");
-define("_DATE","P‰iv‰");
+define("_DATE","P√§iv√§");
 define("_REVADMIN","Reviews Administration");
 define("_REVTITLE","Reviews Page Title");
 define("_REVDESC","Reviews Page Description");

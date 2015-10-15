@@ -141,7 +141,7 @@ define("_USERAVGRATING","Giudizio Medio Utenti");
 define("_NUMRATINGS","# di Valutazioni");
 define("_REGISTEREDUSERS","Utenti Registrati");
 define("_NUMBEROFRATINGS","Numero di Valutazioni");
-define("_NOREGUSERSVOTES","N° Voti da Utenti Registrati");
+define("_NOREGUSERSVOTES","NÂ° Voti da Utenti Registrati");
 define("_BREAKDOWNBYVAL","Analisi Giudizi per Valore");
 define("_LTOTALVOTES","voti totali");
 define("_HIGHRATING","Maggiore");

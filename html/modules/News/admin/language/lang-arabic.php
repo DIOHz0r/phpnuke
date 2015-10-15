@@ -19,86 +19,86 @@
 
 
 define("_NEWS","News");
-define("_FUNCTIONS","วแฯๆวแ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_ALLTOPICS","ฬใํฺ วแใๆวึํฺ");
-define("_CATEGORY","สีไํÝ");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_OK","ใๆวÝÞ!");
-define("_SAVE","อÝู");
-define("_NOSUBJECT","แว ํๆฬฯ ใๆึๆฺ");
-define("_ARTICLES","วแใÞวแวส");
-define("_ALL","วแฬใํฺ");
-define("_AREYOUSURE","ๅแ สร฿ฯส ใไ สึใํไ วแัๆวศุ Ýํ ใÞวแ฿ฟ ๅแ สร฿ฯส ใไ ีอสๅวฟ");
-define("_SELECTTOPIC","รฮสั วแใๆึๆฺ");
-define("_OPTION","ลฮสํวั");
-define("_AUTHOR","ีวอศ วแศัไวใฬ");
-define("_NAME","ว๑ำใ");
-define("_DATE","วแสวัํฮ");
-define("_TITLE","วแฺไๆวไ");
-define("_HOUR","ำวฺๅ");
-define("_EDITCATEGORY","สฺฯํแ วแสีไํÝ");
-define("_ARTICLEADMIN","วแสอ฿ใ Ýํ วแใÞวแวส");
-define("_ADDARTICLE","รึÝ ใÞวแว ฬฯํฯว");
-define("_STORYTEXT","ไี วแใÞวแ");
-define("_EXTENDEDTEXT","วแไี วแลึวÝํ");
-define("_ARESUREURL","(ๅแ ๆึฺส ฬใํฺ วแๆีแวสฟ ๅแ สร฿ฯส ใไ ีอสๅวฟ)");
-define("_PUBLISHINHOME","ๅแ รไิัๅว Ýํ วแีÝอษ วแรๆแ์ฟ");
-define("_ONLYIFCATSELECTED","สฺใแ ÝÞุ วะว แใ ํสใ ลฮสํวั สีไํÝ  <i>แแใÞวแ</i>");
-define("_ADD","รึÝ");
-define("_PROGRAMSTORY","ๅแ สๆฯ ฺัึ วแใÞวแ Ýํ สวัํฮ ใฺํไฟ");
-define("_NOWIS","วแสวัํฮ วแยไ ๅๆ");
-define("_DAY","วแํๆใ");
-define("_UMONTH","วแิๅั");
-define("_YEAR","วแำไษ");
-define("_PREVIEWSTORY","วำสฺัวึ วแใÞวแ");
-define("_POSTSTORY","รัำแ วแใÞวแ");
-define("_REMOVESTORY","ๅแ สัํฯ อะÝ วแใÞวแ ัÞใ # ศวแสร฿ํฯฟ");
-define("_ANDCOMMENTS","ๆฬใํฺ วแสฺแํÞวส วแฮวีษ ศๅฟ");
-define("_CATEGORIESADMIN","วแสอ฿ใ Ýํ วแสีไํÝวส");
-define("_CATEGORYADD","รึÝ สีไํÝ ฬฯํฯ");
-define("_CATNAME","วำใ วแสีไํÝ");
-define("_NOARTCATEDIT","แว ํใ฿ไ฿ สฺฯํแ สีไํÝ <i>วแใÞวแ</i>");
-define("_ASELECTCATEGORY","รฮสั สีไํÝว");
-define("_CATEGORYNAME","วำใ วแสีไํÝ");
-define("_DELETECATEGORY","อะÝ วแสีไํÝ");
-define("_SELECTCATDEL","รฮสั สีไํÝว แอะÝๅ");
-define("_CATDELETED","สใ อะÝ วแสีไํÝ!");
-define("_WARNING","สอะํั");
-define("_THECATEGORY","วแสีไํÝ");
-define("_HAS","ํอสๆํ");
-define("_STORIESINSIDE","ฺแ์ ใÞวแวส");
-define("_DELCATWARNING1","ํใ฿ไ฿ อะÝ ๅะว วแสีไํÝ ๆฬใํฺ วแใÞวแส ๆวแสฺแํÞวส วแฮวีษ ศๅ.");
-define("_DELCATWARNING2","รๆ ศลใ฿วไ฿ ไÞแ ฬใํฺ วแใÞวแวส วแ์ สีไํÝ ยฮั.");
-define("_DELCATWARNING3","ใวะว สัํฯ รไ สÝฺแฟ");
-define("_YESDEL","ไฺใ! วอะÝ วแฬใํฺ!");
-define("_NOMOVE","แว! รไÞแ วแใÞวแวส");
-define("_MOVESTORIES","รไÞแ วแใÞวแวส วแ์ สีไํÝ ฬฯํฯ");
-define("_ALLSTORIES","ฬใํฺ วแใÞวแวส สอส");
-define("_WILLBEMOVED","ำๆÝ ส๕ไÞแ.");
-define("_SELECTNEWCAT","วแัฬวม วฮสํวั สีไํÝ ฬฯํฯ");
-define("_MOVEDONE","ว฿สใแ วแไÞแ ศไฬวอ!");
-define("_CATEXISTS","ๅะว วแสีไํÝ ใๆฬๆฯ ใำศÞว!");
-define("_CATSAVED","สใ อÝู วแสีไํÝ!");
-define("_GOTOADMIN","วะๅศ วแ์ แๆอษ วแสอ฿ใ");
-define("_CATADDED","สใ รึวÝษ สีไํÝ ฬฯํฯ!");
-define("_AUTOSTORYEDIT","สฺฯํแ วแใÞวแวส วแสแÞวฦํษ");
-define("_NOTES","ใแวอูวส");
-define("_CHNGPROGRAMSTORY","รฮสั สวัํฮ ฬฯํฯ แๅะว วแใÞวแ:");
-define("_SUBMISSIONSADMIN","วแสอ฿ใ Ýํ วแใÞวแวส วแใัำแษ");
-define("_DELETESTORY","อะÝ วแใÞวแ");
-define("_EDITARTICLE","สฺฯํแ วแใÞวแ");
-define("_NOSUBMISSIONS","แวํๆฬฯ ใÞวแวส ฬฯํฯษ");
-define("_NEWSUBMISSIONS","ใÞวแวส รัำแส ฬฯํฯษ");
-define("_NOTAUTHORIZED1","แว ํๆฬฯ แฯํ฿ ีแวอํษ แสฺฯํแ ๅะว วแใÞวแ!");
-define("_NOTAUTHORIZED2","แว ํใ฿ไ฿ สฺฯํแ รๆ อะÝ วแใÞวแวส วแสํ แใ ส฿สศๅว");
-define("_POLLTITLE","ฺไๆวไ วแลำสÝสวม");
-define("_POLLEACHFIELD","วแัฬวม วฯฮวแ ฿แ ฮํวั Ýํ อÞแ ๆวอฯ");
-define("_ACTIVATECOMMENTS","ๅแ สๆฯ สไิํุ วแสฺแํÞวส Ýํ ๅะว วแใÞวแฟ");
-define("_LANGUAGE","วแแÛษ");
-define("_ATTACHAPOLL","รัÝÞ ๅะว วแลำสÝสวม ศวแใÞวแ");
-define("_LEAVEBLANKTONOTATTACH","(วสั฿ๅ ÝวัÛว แลัำวแ วแใÞวแ ศฯๆไ วำสÝสวมวส ใัÝÞษ)<br>(ใแอๆูษ: แว ํใ฿ไ วัÝวÞ วำสÝสวมวส วแ์ วแรฮศวั วแใศัใฬษ แแูๅๆั สแÞวฦํว)");
+define("_FUNCTIONS","ุงูุฏูุงู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_ALLTOPICS","ุฌู…ูุน ุงูู…ูุงุถูุน");
+define("_CATEGORY","ุชุตููู");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_OK","ู…ูุงูู!");
+define("_SAVE","ุญูุธ");
+define("_NOSUBJECT","ูุง ููุฌุฏ ู…ูุถูุน");
+define("_ARTICLES","ุงูู…ูุงูุงุช");
+define("_ALL","ุงูุฌู…ูุน");
+define("_AREYOUSURE","ูู ุชุฃูุฏุช ู…ู ุชุถู…ูู ุงูุฑูุงุจุท ูู ู…ูุงููุ ูู ุชุฃูุฏุช ู…ู ุตุญุชูุงุ");
+define("_SELECTTOPIC","ุฃุฎุชุฑ ุงูู…ูุถูุน");
+define("_OPTION","ุฅุฎุชูุงุฑ");
+define("_AUTHOR","ุตุงุญุจ ุงูุจุฑูุงู…ุฌ");
+define("_NAME","ุงูุณู…");
+define("_DATE","ุงูุชุงุฑูุฎ");
+define("_TITLE","ุงูุนููุงู");
+define("_HOUR","ุณุงุนู");
+define("_EDITCATEGORY","ุชุนุฏูู ุงูุชุตููู");
+define("_ARTICLEADMIN","ุงูุชุญูู… ูู ุงูู…ูุงูุงุช");
+define("_ADDARTICLE","ุฃุถู ู…ูุงูุง ุฌุฏูุฏุง");
+define("_STORYTEXT","ูุต ุงูู…ูุงู");
+define("_EXTENDEDTEXT","ุงููุต ุงูุฅุถุงูู");
+define("_ARESUREURL","(ูู ูุถุนุช ุฌู…ูุน ุงููุตูุงุชุ ูู ุชุฃูุฏุช ู…ู ุตุญุชูุงุ)");
+define("_PUBLISHINHOME","ูู ุฃูุดุฑูุง ูู ุงูุตูุญุฉ ุงูุฃูููุ");
+define("_ONLYIFCATSELECTED","ุชุนู…ู ููุท ุงุฐุง ูู… ูุชู… ุฅุฎุชูุงุฑ ุชุตููู  <i>ููู…ูุงู</i>");
+define("_ADD","ุฃุถู");
+define("_PROGRAMSTORY","ูู ุชูุฏ ุนุฑุถ ุงูู…ูุงู ูู ุชุงุฑูุฎ ู…ุนููุ");
+define("_NOWIS","ุงูุชุงุฑูุฎ ุงูุขู ูู");
+define("_DAY","ุงูููู…");
+define("_UMONTH","ุงูุดูุฑ");
+define("_YEAR","ุงูุณูุฉ");
+define("_PREVIEWSTORY","ุงุณุชุนุฑุงุถ ุงูู…ูุงู");
+define("_POSTSTORY","ุฃุฑุณู ุงูู…ูุงู");
+define("_REMOVESTORY","ูู ุชุฑูุฏ ุญุฐู ุงูู…ูุงู ุฑูู… # ุจุงูุชุฃููุฏุ");
+define("_ANDCOMMENTS","ูุฌู…ูุน ุงูุชุนูููุงุช ุงูุฎุงุตุฉ ุจูุ");
+define("_CATEGORIESADMIN","ุงูุชุญูู… ูู ุงูุชุตูููุงุช");
+define("_CATEGORYADD","ุฃุถู ุชุตููู ุฌุฏูุฏ");
+define("_CATNAME","ุงุณู… ุงูุชุตููู");
+define("_NOARTCATEDIT","ูุง ูู…ููู ุชุนุฏูู ุชุตููู <i>ุงูู…ูุงู</i>");
+define("_ASELECTCATEGORY","ุฃุฎุชุฑ ุชุตูููุง");
+define("_CATEGORYNAME","ุงุณู… ุงูุชุตููู");
+define("_DELETECATEGORY","ุญุฐู ุงูุชุตููู");
+define("_SELECTCATDEL","ุฃุฎุชุฑ ุชุตูููุง ูุญุฐูู");
+define("_CATDELETED","ุชู… ุญุฐู ุงูุชุตููู!");
+define("_WARNING","ุชุญุฐูุฑ");
+define("_THECATEGORY","ุงูุชุตููู");
+define("_HAS","ูุญุชูู");
+define("_STORIESINSIDE","ุนูู ู…ูุงูุงุช");
+define("_DELCATWARNING1","ูู…ููู ุญุฐู ูุฐุง ุงูุชุตููู ูุฌู…ูุน ุงูู…ูุงูุช ูุงูุชุนูููุงุช ุงูุฎุงุตุฉ ุจู.");
+define("_DELCATWARNING2","ุฃู ุจุฅู…ูุงูู ููู ุฌู…ูุน ุงูู…ูุงูุงุช ุงูู ุชุตููู ุขุฎุฑ.");
+define("_DELCATWARNING3","ู…ุงุฐุง ุชุฑูุฏ ุฃู ุชูุนูุ");
+define("_YESDEL","ูุนู…! ุงุญุฐู ุงูุฌู…ูุน!");
+define("_NOMOVE","ูุง! ุฃููู ุงูู…ูุงูุงุช");
+define("_MOVESTORIES","ุฃููู ุงูู…ูุงูุงุช ุงูู ุชุตููู ุฌุฏูุฏ");
+define("_ALLSTORIES","ุฌู…ูุน ุงูู…ูุงูุงุช ุชุญุช");
+define("_WILLBEMOVED","ุณูู ุชูููู.");
+define("_SELECTNEWCAT","ุงูุฑุฌุงุก ุงุฎุชูุงุฑ ุชุตููู ุฌุฏูุฏ");
+define("_MOVEDONE","ุงูุชู…ู ุงูููู ุจูุฌุงุญ!");
+define("_CATEXISTS","ูุฐุง ุงูุชุตููู ู…ูุฌูุฏ ู…ุณุจูุง!");
+define("_CATSAVED","ุชู… ุญูุธ ุงูุชุตููู!");
+define("_GOTOADMIN","ุงุฐูุจ ุงูู ููุญุฉ ุงูุชุญูู…");
+define("_CATADDED","ุชู… ุฃุถุงูุฉ ุชุตููู ุฌุฏูุฏ!");
+define("_AUTOSTORYEDIT","ุชุนุฏูู ุงูู…ูุงูุงุช ุงูุชููุงุฆูุฉ");
+define("_NOTES","ู…ูุงุญุธุงุช");
+define("_CHNGPROGRAMSTORY","ุฃุฎุชุฑ ุชุงุฑูุฎ ุฌุฏูุฏ ููุฐุง ุงูู…ูุงู:");
+define("_SUBMISSIONSADMIN","ุงูุชุญูู… ูู ุงูู…ูุงูุงุช ุงูู…ุฑุณูุฉ");
+define("_DELETESTORY","ุญุฐู ุงูู…ูุงู");
+define("_EDITARTICLE","ุชุนุฏูู ุงูู…ูุงู");
+define("_NOSUBMISSIONS","ูุงููุฌุฏ ู…ูุงูุงุช ุฌุฏูุฏุฉ");
+define("_NEWSUBMISSIONS","ู…ูุงูุงุช ุฃุฑุณูุช ุฌุฏูุฏุฉ");
+define("_NOTAUTHORIZED1","ูุง ููุฌุฏ ูุฏูู ุตูุงุญูุฉ ูุชุนุฏูู ูุฐุง ุงูู…ูุงู!");
+define("_NOTAUTHORIZED2","ูุง ูู…ููู ุชุนุฏูู ุฃู ุญุฐู ุงูู…ูุงูุงุช ุงูุชู ูู… ุชูุชุจูุง");
+define("_POLLTITLE","ุนููุงู ุงูุฅุณุชูุชุงุก");
+define("_POLLEACHFIELD","ุงูุฑุฌุงุก ุงุฏุฎุงู ูู ุฎูุงุฑ ูู ุญูู ูุงุญุฏ");
+define("_ACTIVATECOMMENTS","ูู ุชูุฏ ุชูุดูุท ุงูุชุนูููุงุช ูู ูุฐุง ุงูู…ูุงูุ");
+define("_LANGUAGE","ุงููุบุฉ");
+define("_ATTACHAPOLL","ุฃุฑูู ูุฐุง ุงูุฅุณุชูุชุงุก ุจุงูู…ูุงู");
+define("_LEAVEBLANKTONOTATTACH","(ุงุชุฑูู ูุงุฑุบุง ูุฅุฑุณุงู ุงูู…ูุงู ุจุฏูู ุงุณุชูุชุงุกุงุช ู…ุฑููุฉ)<br>(ู…ูุญูุธุฉ: ูุง ูู…ูู ุงุฑูุงู ุงุณุชูุชุงุกุงุช ุงูู ุงูุฃุฎุจุงุฑ ุงูู…ุจุฑู…ุฌุฉ ููุธููุฑ ุชููุงุฆูุง)");
 define("_USERPROFILE","User Profile");
 define("_EMAILUSER","Email User");
 define("_SENDPM","Send Private Message");

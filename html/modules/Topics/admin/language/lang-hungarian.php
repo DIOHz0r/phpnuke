@@ -37,10 +37,10 @@ define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Igen");
 define("_NO","Nem");
-define("_TOPICSMANAGER","Témaszerkesztõ");
-define("_DELETETOPIC","Téma törlése");
-define("_TOPICDELSURE","Biztos, hogy ki akarod törölni ezt a témát:");
-define("_TOPICDELSURE1","Ez kitörli a téma összes cikkét és hozzászólását!");
+define("_TOPICSMANAGER","TÃ©maszerkesztÅ‘");
+define("_DELETETOPIC","TÃ©ma tÃ¶rlÃ©se");
+define("_TOPICDELSURE","Biztos, hogy ki akarod tÃ¶rÃ¶lni ezt a tÃ©mÃ¡t:");
+define("_TOPICDELSURE1","Ez kitÃ¶rli a tÃ©ma Ã¶sszes cikkÃ©t Ã©s hozzÃ¡szÃ³lÃ¡sÃ¡t!");
 
 
 ?>

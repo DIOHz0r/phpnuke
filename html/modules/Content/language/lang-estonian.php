@@ -18,16 +18,16 @@
 /**************************************************************************/
 
 define("_PREVIOUS","Eelmine leht");
-define("_NEXT","J‰rgmine leht");
+define("_NEXT","J√§rgmine leht");
 define("_PAGE","Leht");
 define("_DEACTIVATE","Deaktiveeri");
 define("_ACTIVATE","Aktiveeri");
 define("_PUBLISHEDON","Avalikustatud");
 define("_PAGESLIST","Lehtede nimekiri");
 define("_LISTOFCONTENT","Olemasoleva sisu nimekiri");
-define("_YOURADMINLIST","Administraator: j‰rgnev on nimekiri aktiviseerimatta lehtedest:");
-define("_COPYRIGHT","Autoriıigused &copy; by");
-define("_COPYRIGHT2","Kıik ıigused reserveeritud.");
+define("_YOURADMINLIST","Administraator: j√§rgnev on nimekiri aktiviseerimatta lehtedest:");
+define("_COPYRIGHT","Autori√µigused &copy; by");
+define("_COPYRIGHT2","K√µik √µigused reserveeritud.");
 define("_CONTENTCATEGORIES","Kategooriad");
 define("_NONCLASSCONT","Ilma kategooriata tekstid");
 

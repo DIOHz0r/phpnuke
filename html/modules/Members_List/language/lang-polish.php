@@ -16,7 +16,7 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by NordavindÆ(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by Nordavind≈Ω(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
@@ -25,21 +25,21 @@ define("_EMAIL","E-mail");
 define("_REALNAME","Prawdziwa nazwa");
 define("_FUNCTIONS","Funkcje");
 define("_PREVIOUS","Poprzednia strona");
-define("_MEMBERSLIST","Lista zarejestrowanych uøytkownikÛw");
-define("_GREETINGS","Pozdrowienia dla ostatnio zarejestrowanego uøytkownika:");
-define("_SORTBY","Sortowane wed≥ug:");
+define("_MEMBERSLIST","Lista zarejestrowanych u≈ºytkownik√≥w");
+define("_GREETINGS","Pozdrowienia dla ostatnio zarejestrowanego u≈ºytkownika:");
+define("_SORTBY","Sortowane wed≈Çug:");
 define("_MNICKNAME","Pseudonim");
-define("_MREALNAME","Prawdziwe imiÍ");
+define("_MREALNAME","Prawdziwe imiƒô");
 define("_MEMAIL","E-mail");
 define("_MURL","Adres");
-define("_ONLINEREG","Aktualnie zarejestrowanych uøytkownikÛw online:");
+define("_ONLINEREG","Aktualnie zarejestrowanych u≈ºytkownik√≥w online:");
 define("_WEHAVE","Mamy");
-define("_MREGISTERED","dotychczas zarejestrowanych uøytkownikÛw. Teraz jest");
-define("_MREGONLINE","zarejestrowanych uøytkownikÛw online.");
-define("_REGSOFAR","dotychczas zarejestrowanych uøytkownikÛw.");
-define("_USERSFOUND","znalezionych uøytkownikÛw dla");
-define("_USERSSHOWN","pokazanych uøytkownikÛw");
-define("_NOMEMBERS","Brak zarejestrowanych uøytkownikÛw dla");
+define("_MREGISTERED","dotychczas zarejestrowanych u≈ºytkownik√≥w. Teraz jest");
+define("_MREGONLINE","zarejestrowanych u≈ºytkownik√≥w online.");
+define("_REGSOFAR","dotychczas zarejestrowanych u≈ºytkownik√≥w.");
+define("_USERSFOUND","znalezionych u≈ºytkownik√≥w dla");
+define("_USERSSHOWN","pokazanych u≈ºytkownik√≥w");
+define("_NOMEMBERS","Brak zarejestrowanych u≈ºytkownik√≥w dla");
 define("_PAGES","Strony");
 define("_HOMEPAGE","Strona WWW");
 

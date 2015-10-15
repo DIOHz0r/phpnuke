@@ -20,8 +20,8 @@
 define("_CATEGORY","Kategoria");
 define("_CATEGORIES","Aihepiirit");
 define("_FAQ2","UKK (Usein kysytyt kysymykset)");
-define("_BACKTOTOP","Ylˆs");
-define("_BACKTOFAQINDEX","UKK p‰‰sivulle");
+define("_BACKTOTOP","Yl√∂s");
+define("_BACKTOFAQINDEX","UKK p√§√§sivulle");
 define("_MAIN","Etusivu");
 define("_QUESTION","Kysymys");
 define("_ANSWER","Vastaus");

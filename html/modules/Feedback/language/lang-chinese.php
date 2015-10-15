@@ -17,19 +17,19 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","╤г╟e");
-define("_YOURNAME","╠z╙╨╕W╕r");
-define("_MESSAGE","╟T╝╖");
-define("_YOUREMAIL","╠z╙╨╧q╓l╤l╔С");
-define("_FEEDBACKNOTE","╫п╟х╔╡╞d╓U╞u╧Й╙╨╧q╓l╤l╔С║A╖_╚h╖з╜л╣L╙k╕^юЁЁB╡z╠║╖н║C<br>╠z╙╨╔Т╕С╣Ш╫в╘н╚ьдЁ╧О╖з╜л╕с╗╔Ёё╛OЁл╛ц╤Q╙╨║C╕hаб║I");
-define("_FEEDBACKTITLE","╥N╗ёЁФ");
-define("_FEEDBACK","╕^юЁ");
-define("_FBENTERNAME","©Ы╩~║G ╫п╤Я╓J╠z╙╨╘m╕W║I");
-define("_FBENTEREMAIL","©Ы╩~║G ╫п╤Я╓J╠z╙╨╧q╓l╤l╔С╚H╫c║I");
-define("_FBENTERMESSAGE","©Ы╩~║G ╠z╖я╓F╤Я╓J╟T╝╖║I");
-define("_SENDEREMAIL","╠H╚H╙л╙╨╧q╓l╤l╔С╚H╫c");
-define("_SENDERNAME","╠H╚H╙л╙╨╘m╕W");
-define("_FBMAILSENT","╤l╔С╓w╦g╠H╔X║I");
-define("_FBTHANKSFORCONTACT","╕hаб╠z╙╨╥N╗ё");
+define("_SEND","Е┌ЁИ─│");
+define("_YOURNAME","Ф┌╗Г └Е░█Е╜≈");
+define("_MESSAGE","Х╗┼Ф│╞");
+define("_YOUREMAIL","Ф┌╗Г └И⌡╩Е╜░И┐╣Д╩╤");
+define("_FEEDBACKNOTE","Х╚▀Е▀≥Е©┘Г∙≥Д╦▀Г°÷Е╞╕Г └И⌡╩Е╜░И┐╣Д╩╤О╪▄Е░╕Е┴┤Ф┬▒Е─▒Г└║ФЁ∙Е⌡·Ф┤┴Х≥∙Г░├Ф┐┘Е╫╒Ц─┌<br>Ф┌╗Г └Д╩╩Д╫∙Х╘∙Х╚√Ф┬√Е╩╨Х╜╟Е╟█Ф┬▒Е─▒Х─▄Х╗─И┐╫Ф≤╞Ф°─Г▐█Х╡╢Г └Ц─┌Е╓ Х╛²О╪│");
+define("_FEEDBACKTITLE","Ф└▐Х╕▀Е√╝");
+define("_FEEDBACK","Е⌡·Ф┤┴");
+define("_FBENTERNAME","И▄╞Х╙╓О╪  Х╚▀Е║╚Е┘╔Ф┌╗Г └Е╖⌠Е░█О╪│");
+define("_FBENTEREMAIL","И▄╞Х╙╓О╪  Х╚▀Е║╚Е┘╔Ф┌╗Г └И⌡╩Е╜░И┐╣Д╩╤Д©║Г╝╠О╪│");
+define("_FBENTERMESSAGE","И▄╞Х╙╓О╪  Ф┌╗Е©≤Д╨├Е║╚Е┘╔Х╗┼Ф│╞О╪│");
+define("_SENDEREMAIL","Е╞└Д©║Х─┘Г └И⌡╩Е╜░И┐╣Д╩╤Д©║Г╝╠");
+define("_SENDERNAME","Е╞└Д©║Х─┘Г └Е╖⌠Е░█");
+define("_FBMAILSENT","И┐╣Д╩╤Е╥╡Г╤⌠Е╞└Е┤╨О╪│");
+define("_FBTHANKSFORCONTACT","Е╓ Х╛²Ф┌╗Г └Ф└▐Х╕▀");
 
 ?>

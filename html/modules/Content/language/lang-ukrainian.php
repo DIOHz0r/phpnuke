@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Попережня сторінка");
-define("_NEXT","Наступна сторінка");
-define("_PAGE","Сторінка");
-define("_DEACTIVATE","Зробити неактивним");
-define("_ACTIVATE","Зробити активним");
+define("_PREVIOUS","РџРѕРїРµСЂРµР¶РЅСЏ СЃС‚РѕСЂС–РЅРєР°");
+define("_NEXT","РќР°СЃС‚СѓРїРЅР° СЃС‚РѕСЂС–РЅРєР°");
+define("_PAGE","РЎС‚РѕСЂС–РЅРєР°");
+define("_DEACTIVATE","Р—СЂРѕР±РёС‚Рё РЅРµР°РєС‚РёРІРЅРёРј");
+define("_ACTIVATE","Р—СЂРѕР±РёС‚Рё Р°РєС‚РёРІРЅРёРј");
 define("_PUBLISHEDON","Published on");
 define("_PAGESLIST","Pages List");
 define("_LISTOFCONTENT","List of available content in");

@@ -101,7 +101,7 @@ define("_GOOD","gut");
 define("_VERYGOOD","Sehr gut");
 define("_EXCELLENT","Exzellent");
 define("_ARTICLERATING","Artikel Bewertung");
-define("_THANKSVOTEARTICLE","Danke für Ihre Bewertung!");
+define("_THANKSVOTEARTICLE","Danke fÃ¼r Ihre Bewertung!");
 define("_ALREADYVOTEDARTICLE","Entschuldigung, aber Sie haben bereits Ihre Bewertung zu diesem Artikel abgegeben!");
 define("_BACKTOARTICLEPAGE","Zur&uuml;ck zu den Artikeln");
 define("_DIDNTRATE","Sie haben keine Punktzahl f&uuml;r den Artikel gew&auml;hlt!");

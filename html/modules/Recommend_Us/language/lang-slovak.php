@@ -32,20 +32,20 @@
 /**************************************************************************/
 
 define("_SEND","Posla?");
-define("_FYOURNAME","Vaöe meno:");
-define("_FYOUREMAIL","V·ö e-mail:");
-define("_FFRIENDNAME","Meno v·öho priateæa:");
-define("_FFRIENDEMAIL","E-mail v·öho priateæa:");
+define("_FYOURNAME","Va≈°e meno:");
+define("_FYOUREMAIL","V√°≈° e-mail:");
+define("_FFRIENDNAME","Meno v√°≈°ho priateƒæa:");
+define("_FFRIENDEMAIL","E-mail v√°≈°ho priateƒæa:");
 define("_HELLO","Ahoj,");
-define("_YOURFRIEND","V·ö priateæ");
-define("_RECOMMEND","Posla? odporuËenie na tieto webstr·nky priateæovi, zn·memu");
-define("_INTSITE","Zaujimav· str·nka:");
-define("_OURSITE","povaûuje naöu str·nku");
-define("_INTSENT","za zaujÌmav˙ a rozhodol sa V·m ju posla?.");
-define("_FSITENAME","N·zov webstr·nky:");
-define("_FSITEURL","URL webstr·nky:");
-define("_FREFERENCE","OdporuËenie na naöu str·nku bola odoslan·");
-define("_THANKSREC","SrdeËn· vÔaka za odporuËenie naöich str·nok!");
+define("_YOURFRIEND","V√°≈° priateƒæ");
+define("_RECOMMEND","Posla? odporuƒçenie na tieto webstr√°nky priateƒæovi, zn√°memu");
+define("_INTSITE","Zaujimav√° str√°nka:");
+define("_OURSITE","pova≈æuje na≈°u str√°nku");
+define("_INTSENT","za zauj√≠mav√∫ a rozhodol sa V√°m ju posla?.");
+define("_FSITENAME","N√°zov webstr√°nky:");
+define("_FSITEURL","URL webstr√°nky:");
+define("_FREFERENCE","Odporuƒçenie na na≈°u str√°nku bola odoslan√°");
+define("_THANKSREC","Srdeƒçn√° vƒèaka za odporuƒçenie na≈°ich str√°nok!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");

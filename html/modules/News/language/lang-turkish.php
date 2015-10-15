@@ -4,71 +4,71 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_SEND","Gönder");
+define("_SEND","GÃ¶nder");
 define("_URL","URL");
-define("_PRINTER","Yazdýrýlabilir Sayfa");
-define("_FRIEND","Bu Haberi Arkadaþýna Gönder");
-define("_YOURNAME","Ýsminiz");
+define("_PRINTER","YazdÄ±rÄ±labilir Sayfa");
+define("_FRIEND","Bu Haberi ArkadaÅŸÄ±na GÃ¶nder");
+define("_YOURNAME","Ä°sminiz");
 define("_OK","Tamam!");
-define("_RELATED","Ýlgili Baðlantýlar");
+define("_RELATED","Ä°lgili BaÄŸlantÄ±lar");
 define("_MOREABOUT","Daha fazla");
-define("_NEWSBY","Haber gönderen");
-define("_MOSTREAD","En çok okunan haber:");
-define("_READMORE","Devamý...");
-define("_BYTESMORE","byte kaldý");
+define("_NEWSBY","Haber gÃ¶nderen");
+define("_MOSTREAD","En Ã§ok okunan haber:");
+define("_READMORE","DevamÄ±...");
+define("_BYTESMORE","byte kaldÄ±");
 define("_COMMENTSQ","yorumlar?");
 define("_COMMENT","yorum");
-define("_CONFIGURE","Düzenle");
-define("_LOGINCREATE","Hesap Aç/Yarat");
-define("_THRESHOLD","Baþlangýç");
+define("_CONFIGURE","DÃ¼zenle");
+define("_LOGINCREATE","Hesap AÃ§/Yarat");
+define("_THRESHOLD","BaÅŸlangÄ±Ã§");
 define("_NOCOMMENTS","Yorum Yok");
-define("_NESTED","Ýç-içe");
-define("_FLAT","Düz");
-define("_THREAD","Sýralý");
-define("_OLDEST","Eski Baþa");
-define("_NEWEST","Yeni Baþa");
-define("_HIGHEST","Yüksek Skorlar Baþa");
-define("_COMMENTSWARNING","Yorumlar yazarlarýna aittir. Ýçeriklerinden biz sorumlu tutulamayýz.");
+define("_NESTED","Ä°Ã§-iÃ§e");
+define("_FLAT","DÃ¼z");
+define("_THREAD","SÄ±ralÄ±");
+define("_OLDEST","Eski BaÅŸa");
+define("_NEWEST","Yeni BaÅŸa");
+define("_HIGHEST","YÃ¼ksek Skorlar BaÅŸa");
+define("_COMMENTSWARNING","Yorumlar yazarlarÄ±na aittir. Ä°Ã§eriklerinden biz sorumlu tutulamayÄ±z.");
 define("_SCORE","Puan:");
-define("_USERINFO","Kullanýcý Bilgisi");
-define("_READREST","Bu yorumun devamýný oku...");
+define("_USERINFO","KullanÄ±cÄ± Bilgisi");
+define("_READREST","Bu yorumun devamÄ±nÄ± oku...");
 define("_REPLY","Cevap Ver");
 define("_REPLYMAIN","Yorum Ekle");
 define("_NOSUBJECT","Konu Yok");
-define("_NOANONCOMMENTS","Anonim kullanýcý yorum yazamaz, lütfen <a href=\"modules.php?name=Your_Account&amp;op=new_user&op=new_user\">kayýt olun</a>");
-define("_PARENT","Yukarý");
-define("_ROOT","Kök");
+define("_NOANONCOMMENTS","Anonim kullanÄ±cÄ± yorum yazamaz, lÃ¼tfen <a href=\"modules.php?name=Your_Account&amp;op=new_user&op=new_user\">kayÄ±t olun</a>");
+define("_PARENT","YukarÄ±");
+define("_ROOT","KÃ¶k");
 define("_UCOMMENT","Yorum");
-define("_ALLOWEDHTML","Ýzin Verilen HTML:");
-define("_POSTANON","Anonim Olarak Gönder");
+define("_ALLOWEDHTML","Ä°zin Verilen HTML:");
+define("_POSTANON","Anonim Olarak GÃ¶nder");
 define("_EXTRANS","HTML tag'leri metne");
-define("_HTMLFORMATED","HTML Biçimli");
-define("_PLAINTEXT","Metin Biçimli");
-define("_ONN","üstünde...");
+define("_HTMLFORMATED","HTML BiÃ§imli");
+define("_PLAINTEXT","Metin BiÃ§imli");
+define("_ONN","Ã¼stÃ¼nde...");
 define("_SUBJECT","Konu");
 define("_COMMENTREPLY","Yorum Ekle");
-define("_COMREPLYPRE","Yorum Önizleme");
-define("_NOTRIGHT","Bu fonksiyona deðer geçirilirken sorun oluþtu. Bu mesaj sadece iþlerin yoldan çýkmasýný engellemek içindir");
-define("_SENDAMSG","Mesaj Gönder");
+define("_COMREPLYPRE","Yorum Ã–nizleme");
+define("_NOTRIGHT","Bu fonksiyona deÄŸer geÃ§irilirken sorun oluÅŸtu. Bu mesaj sadece iÅŸlerin yoldan Ã§Ä±kmasÄ±nÄ± engellemek iÃ§indir");
+define("_SENDAMSG","Mesaj GÃ¶nder");
 define("_YOUSENDSTORY","Bu haberi:");
-define("_TOAFRIEND","arkadaþýnýza göndereceksiniz:");
-define("_FYOURNAME","Ýsminiz:");
+define("_TOAFRIEND","arkadaÅŸÄ±nÄ±za gÃ¶ndereceksiniz:");
+define("_FYOURNAME","Ä°sminiz:");
 define("_FYOUREMAIL","E-mail Adresiniz:");
-define("_FFRIENDNAME","Arkadaþýnýzýn Ýsmi:");
-define("_FFRIENDEMAIL","Arkadaþýnýzýn E-mail'i:");
+define("_FFRIENDNAME","ArkadaÅŸÄ±nÄ±zÄ±n Ä°smi:");
+define("_FFRIENDEMAIL","ArkadaÅŸÄ±nÄ±zÄ±n E-mail'i:");
 define("_INTERESTING","ilginc bir haber:");
 define("_HELLO","Merhaba");
 define("_YOURFRIEND","Arkadasiniz");
@@ -77,40 +77,40 @@ define("_FDATE","Tarih:");
 define("_FTOPIC","Konu:");
 define("_YOUCANREAD","Daha fazla haber icin:");
 define("_FSTORY","Haber");
-define("_HASSENT","Gönderildi:");
-define("_THANKS","Teþekkürler!");
-define("_RECOMMEND","Bu Siteyi Arkadaþýna Öner");
+define("_HASSENT","GÃ¶nderildi:");
+define("_THANKS","TeÅŸekkÃ¼rler!");
+define("_RECOMMEND","Bu Siteyi ArkadaÅŸÄ±na Ã–ner");
 define("_PDATE","Tarih:");
 define("_PTOPIC","Konu:");
 define("_COMESFROM","Bu haberin geldigi yer:");
 define("_THEURL","Bu haber icin adres:");
-define("_PREVIEW","Önizleme");
-define("_NEWUSER","Yeni Kullanýcý");
-define("_OPTIONS","Seçenekler");
+define("_PREVIEW","Ã–nizleme");
+define("_NEWUSER","Yeni KullanÄ±cÄ±");
+define("_OPTIONS","SeÃ§enekler");
 define("_REFRESH","Yenile");
 define("_ADD","Ekle");
-define("_NOCOMMENTSACT","Üzgünüm, bu yazý için yorumlar aktif deðil.");
-define("_ARTICLEPOLL","Yazýnýn Anketi");
+define("_NOCOMMENTSACT","ÃœzgÃ¼nÃ¼m, bu yazÄ± iÃ§in yorumlar aktif deÄŸil.");
+define("_ARTICLEPOLL","YazÄ±nÄ±n Anketi");
 define("_RATEARTICLE","Haber Puanlama");
-define("_RATETHISARTICLE","Lütfen bu haberi puanlamak için bir saniyenizi ayýrýn:");
-define("_CASTMYVOTE","Oyumu Gönder!");
+define("_RATETHISARTICLE","LÃ¼tfen bu haberi puanlamak iÃ§in bir saniyenizi ayÄ±rÄ±n:");
+define("_CASTMYVOTE","Oyumu GÃ¶nder!");
 define("_AVERAGESCORE","Ortalama Puan");
-define("_BAD","Kötü");
-define("_REGULAR","Ýdare Eder");
-define("_GOOD","Ýyi");
-define("_VERYGOOD","Çok Ýyi");
-define("_EXCELLENT","Mükemmel");
+define("_BAD","KÃ¶tÃ¼");
+define("_REGULAR","Ä°dare Eder");
+define("_GOOD","Ä°yi");
+define("_VERYGOOD","Ã‡ok Ä°yi");
+define("_EXCELLENT","MÃ¼kemmel");
 define("_ARTICLERATING","Haber Puanlama");
-define("_THANKSVOTEARTICLE","Bu haberi oyladýðýnýz için teþekkürler!");
-define("_ALREADYVOTEDARTICLE","Üzgünüm, bu haber için daha önce oy kullanmýþsýnýz!");
-define("_BACKTOARTICLEPAGE","Haber Sayfasýna Geri Dön");
-define("_DIDNTRATE","Haber için herhangi bir puan seçmediniz!");
-define("_NOINFO4TOPIC","Üzgünüm, seçili konu hakkýnda bir bilgi bulunamadý.");
-define("_GOTONEWSINDEX","Haber Ýndeksine Git");
-define("_SELECTNEWTOPIC","Yeni Bir Konu Seçin");
+define("_THANKSVOTEARTICLE","Bu haberi oyladÄ±ÄŸÄ±nÄ±z iÃ§in teÅŸekkÃ¼rler!");
+define("_ALREADYVOTEDARTICLE","ÃœzgÃ¼nÃ¼m, bu haber iÃ§in daha Ã¶nce oy kullanmÄ±ÅŸsÄ±nÄ±z!");
+define("_BACKTOARTICLEPAGE","Haber SayfasÄ±na Geri DÃ¶n");
+define("_DIDNTRATE","Haber iÃ§in herhangi bir puan seÃ§mediniz!");
+define("_NOINFO4TOPIC","ÃœzgÃ¼nÃ¼m, seÃ§ili konu hakkÄ±nda bir bilgi bulunamadÄ±.");
+define("_GOTONEWSINDEX","Haber Ä°ndeksine Git");
+define("_SELECTNEWTOPIC","Yeni Bir Konu SeÃ§in");
 define("_GOTOHOME","Ana Sayfaya Git");
 define("_SEARCHONTOPIC","Bu Konuda Ara");
-define("_SEARCHDIS","Tartýþma Ara");
+define("_SEARCHDIS","TartÄ±ÅŸma Ara");
 define("_READPDF","Read as PDF");
 define("_READWITHCOMMENTS", "You can read the complete story with its comments from");
 define("_TOFINISHRATING","To finish the rating process and to let the system count your vote, please complete the requested information:");

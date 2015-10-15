@@ -18,20 +18,20 @@
 /**************************************************************************/
 
 
-define("_SEND","Відправити");
-define("_FUNCTIONS","Функції");
-define("_YES","Так");
-define("_NO","Ні");
-define("_SAVECHANGES","Зберегти зміни");
-define("_PAGEBREAK","Если Вы хотите некоторые страницы, Вы можете написать <b>[--pagebreak--]</b> там, где хотите вырезать.");
-define("_DESCRIPTION","Опис");
-define("_TO","до");
-define("_TITLE","Назва");
-define("_ACTIVE","Активний");
-define("_DEACTIVATE","Зробити неактивним");
-define("_INACTIVE","Неактивний");
-define("_ACTIVATE","Зробити активним");
-define("_ADD","Додати");
+define("_SEND","Р’С–РґРїСЂР°РІРёС‚Рё");
+define("_FUNCTIONS","Р¤СѓРЅРєС†С–С—");
+define("_YES","РўР°Рє");
+define("_NO","РќС–");
+define("_SAVECHANGES","Р—Р±РµСЂРµРіС‚Рё Р·РјС–РЅРё");
+define("_PAGEBREAK","Р•СЃР»Рё Р’С‹ С…РѕС‚РёС‚Рµ РЅРµРєРѕС‚РѕСЂС‹Рµ СЃС‚СЂР°РЅРёС†С‹, Р’С‹ РјРѕР¶РµС‚Рµ РЅР°РїРёСЃР°С‚СЊ <b>[--pagebreak--]</b> С‚Р°Рј, РіРґРµ С…РѕС‚РёС‚Рµ РІС‹СЂРµР·Р°С‚СЊ.");
+define("_DESCRIPTION","РћРїРёСЃ");
+define("_TO","РґРѕ");
+define("_TITLE","РќР°Р·РІР°");
+define("_ACTIVE","РђРєС‚РёРІРЅРёР№");
+define("_DEACTIVATE","Р—СЂРѕР±РёС‚Рё РЅРµР°РєС‚РёРІРЅРёРј");
+define("_INACTIVE","РќРµР°РєС‚РёРІРЅРёР№");
+define("_ACTIVATE","Р—СЂРѕР±РёС‚Рё Р°РєС‚РёРІРЅРёРј");
+define("_ADD","Р”РѕРґР°С‚Рё");
 define("_LANGUAGE","Language");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_ENCYCLOPEDIAMANAGER","Encyclopedia Manager");

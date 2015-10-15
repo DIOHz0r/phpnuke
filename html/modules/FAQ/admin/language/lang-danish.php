@@ -30,14 +30,14 @@ define("_CONTENT","Indhold");
 define("_FAQADMIN","Administration af FAQ's");
 define("_ACTIVEFAQS","Eksisterende FAQ's");
 define("_ADDCATEGORY","Opret en ny kategori");
-define("_QUESTIONS","Spørgsmål og svar");
-define("_ADDQUESTION","Opret et nyt spørgsmål");
-define("_QUESTION","Spørgsmål");
+define("_QUESTIONS","SpÃ¸rgsmÃ¥l og svar");
+define("_ADDQUESTION","Opret et nyt spÃ¸rgsmÃ¥l");
+define("_QUESTION","SpÃ¸rgsmÃ¥l");
 define("_ANSWER","Svar");
-define("_EDITCATEGORY","Redigér kategori");
-define("_EDITQUESTIONS","Redigér spørgsmål og svar");
-define("_FAQDELWARNING","ADVARSEL: Er du sikker på, at du vil slette denne FAQ og al dens indhold?");
-define("_QUESTIONDEL","ADVARSEL: Er du sikker på, at du vil slette dette spørgsmål?");
+define("_EDITCATEGORY","RedigÃ©r kategori");
+define("_EDITQUESTIONS","RedigÃ©r spÃ¸rgsmÃ¥l og svar");
+define("_FAQDELWARNING","ADVARSEL: Er du sikker pÃ¥, at du vil slette denne FAQ og al dens indhold?");
+define("_QUESTIONDEL","ADVARSEL: Er du sikker pÃ¥, at du vil slette dette spÃ¸rgsmÃ¥l?");
 define("_LANGUAGE","Sprog");
 
 

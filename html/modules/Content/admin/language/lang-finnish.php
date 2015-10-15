@@ -18,13 +18,13 @@
 /**************************************************************************/
 
 
-define("_SEND","L‰het‰");
-define("_FUNCTIONS","Teht‰v‰t");
-define("_YES","Kyll‰");
+define("_SEND","L√§het√§");
+define("_FUNCTIONS","Teht√§v√§t");
+define("_YES","Kyll√§");
 define("_NO","Ei");
 define("_CATEGORY","Kategoria");
 define("_SAVECHANGES","Tallenna muutokset");
-define("_PAGEBREAK","Jos tahdotte k‰ytt‰‰ opetuksessa useita sivuja, voitte erotella sivut k‰ytt‰en <b>[--pagebreak--]</b> tagia.");
+define("_PAGEBREAK","Jos tahdotte k√§ytt√§√§ opetuksessa useita sivuja, voitte erotella sivut k√§ytt√§en <b>[--pagebreak--]</b> tagia.");
 define("_SIGNATURE","Allekirjoitus");
 define("_DESCRIPTION","Kuvaus");
 define("_TITLE","Otsikko");
@@ -32,10 +32,10 @@ define("_ACTIVE","Aktiivinen");
 define("_DEACTIVATE","Deaktivoi");
 define("_INACTIVE","Ei aktiivinen");
 define("_ACTIVATE","Aktivoi");
-define("_CONTENT","Sis‰ltˆ");
-define("_ADDCATEGORY","Lis‰‰ kategoria");
+define("_CONTENT","Sis√§lt√∂");
+define("_ADDCATEGORY","Lis√§√§ kategoria");
 define("_EDITCATEGORY","Muokkaa kategoriaa");
-define("_ADD","Lis‰‰");
+define("_ADD","Lis√§√§");
 define("_LANGUAGE","Language");
 define("_CONTENTMANAGER","Content Manager");
 define("_DELCONTWARNING","Are you sure you want to delete the page");

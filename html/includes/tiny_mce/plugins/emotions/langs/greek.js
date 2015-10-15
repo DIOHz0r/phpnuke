@@ -1,5 +1,4 @@
 // Greek lang variables by Jacaranda Bill
 
-tinyMCELang['lang_insert_emotions_title'] = 'Εισαγωγή ενός εικονιδίου emoticon';
-tinyMCELang['lang_emotions_desc'] = 'Εικονίδια emoticons';
-
+tinyMCELang['lang_insert_emotions_title'] = 'Ξ•ΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® ΞµΞ½ΟΟ‚ ΞµΞΉΞΊΞΏΞ½ΞΉΞ΄Ξ―ΞΏΟ… emoticon';
+tinyMCELang['lang_emotions_desc'] = 'Ξ•ΞΉΞΊΞΏΞ½Ξ―Ξ΄ΞΉΞ± emoticons';

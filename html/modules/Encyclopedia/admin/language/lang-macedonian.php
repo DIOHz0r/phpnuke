@@ -18,40 +18,40 @@
 /**************************************************************************/
 
 
-define("_SEND","Испрати");
-define("_FUNCTIONS","Функции");
-define("_YES","Да");
-define("_NO","Не");
-define("_SAVECHANGES","Сними измени");
-define("_PAGEBREAK","Ако сакаш пове?е страници можеш да напишеш <b>[--pagebreak--]</b> каде што сакаш да ја пресечеш страната.");
-define("_DESCRIPTION","Опис");
-define("_TO","До");
-define("_TITLE","Наслов");
-define("_ACTIVE","Активен");
-define("_DEACTIVATE","Деактивирај");
-define("_INACTIVE","Неактивен");
-define("_ACTIVATE","Активирај");
-define("_ADD","Додади");
-define("_LANGUAGE","Јазик");
-define("_ENCYCLOPEDIA","Енциклопедија");
-define("_ENCYCLOPEDIAMANAGER","Менаџер на енциклопедија");
-define("_DELENCYCLOPEDIA","Избриши енциклопедија");
-define("_DELENCYCONTWARNING","Сигурно ли сакаш да ја избришеш енциклопедијава и сета нејзина содржина?");
-define("_DELENCYCLOPEDIATEXT","Избриши енциклопедиски термини");
-define("_DELENCYTEXTWARNING","Сигурно ли сакаш да го избришеш овој термин?");
-define("_CURRENTSTATUS","Сегашна состојба");
-define("_ACTIVATEPAGE","Активирај ја оваа страна?");
-define("_TERMS","Термини-ознаки");
-define("_ADDNEWENCYCLOPEDIA","Додади енциклопедија");
-define("_ADDNEWENCYTERM","Додади нов енциклопедиски термин");
-define("_TERMTEXT","Термин");
-define("_MOVETERMS","Помести термин");
-define("_MOVEALLTERMSFROM","Премести ги СИТЕ термини од");
-define("_EDITENCYCLOPEDIA","Измени енциклопедија");
-define("_ENCYTERMSEDIT","Измени енциклопедиски термини");
-define("_SELECTONETERM","Ве молиме изберете еден термин од следната листа:");
-define("_NOCONTENTFORLETTER","Жалиме, нема содржина за оваа буква");
-define("_CHANGETOENCY","Префрли се во енциклопедија");
+define("_SEND","РСЃРїСЂР°С‚Рё");
+define("_FUNCTIONS","Р¤СѓРЅРєС†РёРё");
+define("_YES","Р”Р°");
+define("_NO","РќРµ");
+define("_SAVECHANGES","РЎРЅРёРјРё РёР·РјРµРЅРё");
+define("_PAGEBREAK","РђРєРѕ СЃР°РєР°С€ РїРѕРІРµ?Рµ СЃС‚СЂР°РЅРёС†Рё РјРѕР¶РµС€ РґР° РЅР°РїРёС€РµС€ <b>[--pagebreak--]</b> РєР°РґРµ С€С‚Рѕ СЃР°РєР°С€ РґР° СР° РїСЂРµСЃРµС‡РµС€ СЃС‚СЂР°РЅР°С‚Р°.");
+define("_DESCRIPTION","РћРїРёСЃ");
+define("_TO","Р”Рѕ");
+define("_TITLE","РќР°СЃР»РѕРІ");
+define("_ACTIVE","РђРєС‚РёРІРµРЅ");
+define("_DEACTIVATE","Р”РµР°РєС‚РёРІРёСЂР°С");
+define("_INACTIVE","РќРµР°РєС‚РёРІРµРЅ");
+define("_ACTIVATE","РђРєС‚РёРІРёСЂР°С");
+define("_ADD","Р”РѕРґР°РґРё");
+define("_LANGUAGE","Р€Р°Р·РёРє");
+define("_ENCYCLOPEDIA","Р•РЅС†РёРєР»РѕРїРµРґРёСР°");
+define("_ENCYCLOPEDIAMANAGER","РњРµРЅР°СџРµСЂ РЅР° РµРЅС†РёРєР»РѕРїРµРґРёСР°");
+define("_DELENCYCLOPEDIA","РР·Р±СЂРёС€Рё РµРЅС†РёРєР»РѕРїРµРґРёСР°");
+define("_DELENCYCONTWARNING","РЎРёРіСѓСЂРЅРѕ Р»Рё СЃР°РєР°С€ РґР° СР° РёР·Р±СЂРёС€РµС€ РµРЅС†РёРєР»РѕРїРµРґРёСР°РІР° Рё СЃРµС‚Р° РЅРµСР·РёРЅР° СЃРѕРґСЂР¶РёРЅР°?");
+define("_DELENCYCLOPEDIATEXT","РР·Р±СЂРёС€Рё РµРЅС†РёРєР»РѕРїРµРґРёСЃРєРё С‚РµСЂРјРёРЅРё");
+define("_DELENCYTEXTWARNING","РЎРёРіСѓСЂРЅРѕ Р»Рё СЃР°РєР°С€ РґР° РіРѕ РёР·Р±СЂРёС€РµС€ РѕРІРѕС С‚РµСЂРјРёРЅ?");
+define("_CURRENTSTATUS","РЎРµРіР°С€РЅР° СЃРѕСЃС‚РѕСР±Р°");
+define("_ACTIVATEPAGE","РђРєС‚РёРІРёСЂР°С СР° РѕРІР°Р° СЃС‚СЂР°РЅР°?");
+define("_TERMS","РўРµСЂРјРёРЅРё-РѕР·РЅР°РєРё");
+define("_ADDNEWENCYCLOPEDIA","Р”РѕРґР°РґРё РµРЅС†РёРєР»РѕРїРµРґРёСР°");
+define("_ADDNEWENCYTERM","Р”РѕРґР°РґРё РЅРѕРІ РµРЅС†РёРєР»РѕРїРµРґРёСЃРєРё С‚РµСЂРјРёРЅ");
+define("_TERMTEXT","РўРµСЂРјРёРЅ");
+define("_MOVETERMS","РџРѕРјРµСЃС‚Рё С‚РµСЂРјРёРЅ");
+define("_MOVEALLTERMSFROM","РџСЂРµРјРµСЃС‚Рё РіРё РЎРРўР• С‚РµСЂРјРёРЅРё РѕРґ");
+define("_EDITENCYCLOPEDIA","РР·РјРµРЅРё РµРЅС†РёРєР»РѕРїРµРґРёСР°");
+define("_ENCYTERMSEDIT","РР·РјРµРЅРё РµРЅС†РёРєР»РѕРїРµРґРёСЃРєРё С‚РµСЂРјРёРЅРё");
+define("_SELECTONETERM","Р’Рµ РјРѕР»РёРјРµ РёР·Р±РµСЂРµС‚Рµ РµРґРµРЅ С‚РµСЂРјРёРЅ РѕРґ СЃР»РµРґРЅР°С‚Р° Р»РёСЃС‚Р°:");
+define("_NOCONTENTFORLETTER","Р–Р°Р»РёРјРµ, РЅРµРјР° СЃРѕРґСЂР¶РёРЅР° Р·Р° РѕРІР°Р° Р±СѓРєРІР°");
+define("_CHANGETOENCY","РџСЂРµС„СЂР»Рё СЃРµ РІРѕ РµРЅС†РёРєР»РѕРїРµРґРёСР°");
 
 
 ?>

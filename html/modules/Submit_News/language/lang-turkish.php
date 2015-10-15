@@ -4,60 +4,60 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_PRINTER","Yazdýrýlabilir Sayfa");
-define("_FRIEND","Bu Haberi Arkadaþýna Gönder");
-define("_YOURNAME","Ýsminiz");
+define("_PRINTER","YazdÄ±rÄ±labilir Sayfa");
+define("_FRIEND","Bu Haberi ArkadaÅŸÄ±na GÃ¶nder");
+define("_YOURNAME","Ä°sminiz");
 define("_OK","Tamam!");
-define("_ALLOWEDHTML","Ýzin Verilen HTML:");
+define("_ALLOWEDHTML","Ä°zin Verilen HTML:");
 define("_EXTRANS","HTML tag'leri metne");
-define("_HTMLFORMATED","HTML Biçimli");
-define("_PLAINTEXT","Metin Biçimli");
+define("_HTMLFORMATED","HTML BiÃ§imli");
+define("_PLAINTEXT","Metin BiÃ§imli");
 define("_ARTICLES","Haber");
-define("_SUBMITNEWS","Haber Öner");
-define("_SUBMITADVICE","Lütfen haberinizi aþaðýdaki forma girin ve tekrar kontrol edin.<br>Tüm haberlerin yayýnlanmayacaðýný bilmelisiniz.<br>Öneriniz kontrol edilip yeniden düzenlenebilir.");
-define("_SUBTITLE","Baþlýk");
-define("_BEDESCRIPTIVE","Açýklayýcý ve basit olun");
-define("_BADTITLES","kötü baþlýklar= 'Buna bakýn!' veya 'Bir Haber'");
-define("_HTMLISFINE","HTML kullanabilirsiniz fakat doðru yazdýðýnýzdan emin olun!");
-define("_AREYOUSURE","Bir URL eklediniz mi? Yazým hatalarýný kontrol ettiniz mi?");
-define("_SUBPREVIEW","Göndermeden önce önizleme yapmalýsýnýz");
-define("_SELECTTOPIC","Konu Seçin");
-define("_NEWSUBPREVIEW","Haber Önerisi Önizleme");
-define("_STORYLOOK","Haberiniz bu þekilde görüntülenecek:");
-define("_CHECKSTORY","Lütfen göndermeden önce metni ve baðlantýlarý kontrol edin!");
-define("_THANKSSUB","Öneriniz için teþekkürler!");
-define("_SUBSENT","Haberiniz alýndý...");
-define("_SUBTEXT","Önerinizi kýsa süre içinde içinde inceleyecek ve uygun görülürse yayýnlayacaðýz.");
-define("_WEHAVESUB","Þu an");
-define("_WAITING","bekleyen öneri bulunuyor.");
-define("_PREVIEW","Önizleme");
-define("_NEWUSER","Yeni Kullanýcý");
+define("_SUBMITNEWS","Haber Ã–ner");
+define("_SUBMITADVICE","LÃ¼tfen haberinizi aÅŸaÄŸÄ±daki forma girin ve tekrar kontrol edin.<br>TÃ¼m haberlerin yayÄ±nlanmayacaÄŸÄ±nÄ± bilmelisiniz.<br>Ã–neriniz kontrol edilip yeniden dÃ¼zenlenebilir.");
+define("_SUBTITLE","BaÅŸlÄ±k");
+define("_BEDESCRIPTIVE","AÃ§Ä±klayÄ±cÄ± ve basit olun");
+define("_BADTITLES","kÃ¶tÃ¼ baÅŸlÄ±klar= 'Buna bakÄ±n!' veya 'Bir Haber'");
+define("_HTMLISFINE","HTML kullanabilirsiniz fakat doÄŸru yazdÄ±ÄŸÄ±nÄ±zdan emin olun!");
+define("_AREYOUSURE","Bir URL eklediniz mi? YazÄ±m hatalarÄ±nÄ± kontrol ettiniz mi?");
+define("_SUBPREVIEW","GÃ¶ndermeden Ã¶nce Ã¶nizleme yapmalÄ±sÄ±nÄ±z");
+define("_SELECTTOPIC","Konu SeÃ§in");
+define("_NEWSUBPREVIEW","Haber Ã–nerisi Ã–nizleme");
+define("_STORYLOOK","Haberiniz bu ÅŸekilde gÃ¶rÃ¼ntÃ¼lenecek:");
+define("_CHECKSTORY","LÃ¼tfen gÃ¶ndermeden Ã¶nce metni ve baÄŸlantÄ±larÄ± kontrol edin!");
+define("_THANKSSUB","Ã–neriniz iÃ§in teÅŸekkÃ¼rler!");
+define("_SUBSENT","Haberiniz alÄ±ndÄ±...");
+define("_SUBTEXT","Ã–nerinizi kÄ±sa sÃ¼re iÃ§inde iÃ§inde inceleyecek ve uygun gÃ¶rÃ¼lÃ¼rse yayÄ±nlayacaÄŸÄ±z.");
+define("_WEHAVESUB","Åžu an");
+define("_WAITING","bekleyen Ã¶neri bulunuyor.");
+define("_PREVIEW","Ã–nizleme");
+define("_NEWUSER","Yeni KullanÄ±cÄ±");
 define("_USCORE","Puan");
 define("_DATE","Tarih");
 define("_STORYTEXT","Haber Metni");
-define("_EXTENDEDTEXT","Geniþ Metin");
+define("_EXTENDEDTEXT","GeniÅŸ Metin");
 define("_LANGUAGE","Dil");
 
-define("_SELECTMONTH2VIEW","Lütfen görüntülemek istediðiniz ayý seçin:");
-define("_SHOWALLSTORIES","TÜM Haberleri Göster");
-define("_STORIESARCHIVE","Haber Arþivi");
+define("_SELECTMONTH2VIEW","LÃ¼tfen gÃ¶rÃ¼ntÃ¼lemek istediÄŸiniz ayÄ± seÃ§in:");
+define("_SHOWALLSTORIES","TÃœM Haberleri GÃ¶ster");
+define("_STORIESARCHIVE","Haber ArÅŸivi");
 define("_ACTIONS","Hareketler");
-define("_ARCHIVESINDEX","Haber Arþivi Ýndeksi");
-define("_ALLSTORIESARCH","Tüm Haberler");
+define("_ARCHIVESINDEX","Haber ArÅŸivi Ä°ndeksi");
+define("_ALLSTORIESARCH","TÃ¼m Haberler");
 define("_NEXTPAGE","Sonraki Sayfa");
-define("_PREVIOUSPAGE","Önceki Sayfa");
+define("_PREVIOUSPAGE","Ã–nceki Sayfa");
 
 ?>

@@ -23,7 +23,7 @@ define("_FAQ2","FAQ (Frequently Asked Questions)");
 define("_BACKTOTOP","Tilbake til toppen");
 define("_BACKTOFAQINDEX","Tilbake til FAQ Index");
 define("_MAIN","Hovedside");
-define("_QUESTION","Spørsmål");
+define("_QUESTION","SpÃ¸rsmÃ¥l");
 define("_ANSWER","Svar");
 
 ?>

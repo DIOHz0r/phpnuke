@@ -17,27 +17,27 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","Slóð");
+define("_URL","SlÃ³Ã°");
 define("_EMAIL","Netfang");
 define("_REALNAME","Fullt nafn");
-define("_FUNCTIONS","Aðgerðir");
-define("_PREVIOUS","Fyrri síða");
-define("_MEMBERSLIST","Meðlimalisti");
-define("_GREETINGS","Bestu kveðjur til nýjasta meðlimsins:");
-define("_SORTBY","Raða eftir:");
+define("_FUNCTIONS","AÃ°gerÃ°ir");
+define("_PREVIOUS","Fyrri sÃ­Ã°a");
+define("_MEMBERSLIST","MeÃ°limalisti");
+define("_GREETINGS","Bestu kveÃ°jur til nÃ½jasta meÃ°limsins:");
+define("_SORTBY","RaÃ°a eftir:");
 define("_MNICKNAME","notandanafni");
 define("_MREALNAME","fullu nafni");
 define("_MEMAIL","netfangi");
-define("_MURL","vefslóð");
-define("_ONLINEREG","Þessir meðlimir eru tengdir núna:");
-define("_WEHAVE","Við erum með");
-define("_MREGISTERED","skráða notendur í dag.  Það eru");
-define("_MREGONLINE","skráðir notendur tengdir í augnablikinu.");
-define("_REGSOFAR","skráða notendur í dag.");
+define("_MURL","vefslÃ³Ã°");
+define("_ONLINEREG","Ãžessir meÃ°limir eru tengdir nÃºna:");
+define("_WEHAVE","ViÃ° erum meÃ°");
+define("_MREGISTERED","skrÃ¡Ã°a notendur Ã­ dag.  ÃžaÃ° eru");
+define("_MREGONLINE","skrÃ¡Ã°ir notendur tengdir Ã­ augnablikinu.");
+define("_REGSOFAR","skrÃ¡Ã°a notendur Ã­ dag.");
 define("_USERSFOUND","notendur fundust undir");
-define("_USERSSHOWN","notendur sýndir");
+define("_USERSSHOWN","notendur sÃ½ndir");
 define("_NOMEMBERS","Engir notendur undir");
-define("_PAGES","Síður");
-define("_HOMEPAGE","Heimasíða");
+define("_PAGES","SÃ­Ã°ur");
+define("_HOMEPAGE","HeimasÃ­Ã°a");
 
 ?>

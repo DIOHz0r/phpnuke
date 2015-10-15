@@ -21,25 +21,25 @@
 define("_EMAIL","E-mailadresse");
 define("_SAVECHANGES","Gem");
 define("_SCORE","Hits:");
-define("_PRODUCTTITLE","Overskrift på anmeldelse");
+define("_PRODUCTTITLE","Overskrift pÃ¥ anmeldelse");
 define("_RELATEDLINK","Relateret link");
-define("_LINKTITLE","Titel på link");
+define("_LINKTITLE","Titel pÃ¥ link");
 define("_REVIEWER","Anmelder:");
-define("_REVIEWID","ID på anmeldelse");
+define("_REVIEWID","ID pÃ¥ anmeldelse");
 define("_REVIEWS","Administration af anmeldelser");
 define("_DATE","Dato");
 define("_REVADMIN","Administration af anmeldelser");
-define("_REVTITLE","Titel på siden med anmeldelser");
-define("_REVDESC","Beskrivelse på side med anmeldelser");
-define("_REVWAITING","Anmeldelser som venter på at blive gennemset");
-define("_REVIMGINFO","Gem dit billede (størrelse 150*150) i mappen: images/reviews");
+define("_REVTITLE","Titel pÃ¥ siden med anmeldelser");
+define("_REVDESC","Beskrivelse pÃ¥ side med anmeldelser");
+define("_REVWAITING","Anmeldelser som venter pÃ¥ at blive gennemset");
+define("_REVIMGINFO","Gem dit billede (stÃ¸rrelse 150*150) i mappen: images/reviews");
 define("_TEXT","Tekst");
 define("_IMAGE","Billede");
-define("_NOREVIEW2ADD","Ingen indsendte anmeldelser som venter på gennemsyn");
+define("_NOREVIEW2ADD","Ingen indsendte anmeldelser som venter pÃ¥ gennemsyn");
 define("_ADDREVIEW","Opret anmeldelse");
 define("_CLICK2ADDREVIEW","Klik her for at skrive en anmeldelse");
-define("_DELMODREVIEW","Slet eller foretag ændringer i en anmeldelse");
-define("_MODREVINFO","Når du er logget ind som administrator, kan du redigere og slette anmeldelser ved at browse under <a href=\"modules.php?name=Reviews\">anmeldelser. (reviews.php)</a>");
+define("_DELMODREVIEW","Slet eller foretag Ã¦ndringer i en anmeldelse");
+define("_MODREVINFO","NÃ¥r du er logget ind som administrator, kan du redigere og slette anmeldelser ved at browse under <a href=\"modules.php?name=Reviews\">anmeldelser. (reviews.php)</a>");
 define("_LANGUAGE","Sprog");
 
 

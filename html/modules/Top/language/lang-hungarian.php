@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","KategÛria");
+define("_CATEGORY","Kateg√≥ria");
 define("_LVOTES","szavazat");
-define("_HITS","tal·lat");
+define("_HITS","tal√°lat");
 define("_TOPWELCOME","Ez a");
-define("_READSTORIES","legolvasottabb cikkek toplist·ja");
-define("_COMMENTEDSTORIES","legtˆbb hozz·szÛl·ssal rendelkezı cikkek toplist·ja");
-define("_ACTIVECAT","legaktÌvabb kategÛri·k toplist·ja");
-define("_READSECTION","a k¸lˆnleges tÈm·k legolvasottabb cikkeinek toplist·ja");
-define("_NEWSSUBMITTERS","a legaktÌvabb szerzık toplist·ja");
-define("_NEWSSENT","bek¸ldˆtt hÌr");
-define("_VOTEDPOLLS","a legtˆbb szavazatot kapott szavaz·sok toplist·ja");
-define("_MOSTACTIVEAUTHORS","AktÌv szerzık:");
-define("_NEWSPUBLISHED","kˆzzÈtett cikk");
-define("_READREVIEWS","legolvasottabb ismeretetık topllist·ja");
-define("_DOWNLOADEDFILES","legtˆbbszˆr letˆltˆtt f·jlok toplist·ja");
+define("_READSTORIES","legolvasottabb cikkek toplist√°ja");
+define("_COMMENTEDSTORIES","legt√∂bb hozz√°sz√≥l√°ssal rendelkez≈ë cikkek toplist√°ja");
+define("_ACTIVECAT","legakt√≠vabb kateg√≥ri√°k toplist√°ja");
+define("_READSECTION","a k√ºl√∂nleges t√©m√°k legolvasottabb cikkeinek toplist√°ja");
+define("_NEWSSUBMITTERS","a legakt√≠vabb szerz≈ëk toplist√°ja");
+define("_NEWSSENT","bek√ºld√∂tt h√≠r");
+define("_VOTEDPOLLS","a legt√∂bb szavazatot kapott szavaz√°sok toplist√°ja");
+define("_MOSTACTIVEAUTHORS","Akt√≠v szerz≈ëk:");
+define("_NEWSPUBLISHED","k√∂zz√©tett cikk");
+define("_READREVIEWS","legolvasottabb ismeretet≈ëk topllist√°ja");
+define("_DOWNLOADEDFILES","legt√∂bbsz√∂r let√∂lt√∂tt f√°jlok toplist√°ja");
 define("_MOSTREADPAGES","most read pages");
 define("_MOSTVOTEDSTORIES","most voted stories");
 define("_POINTS","points");

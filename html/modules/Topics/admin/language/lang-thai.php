@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","��ŧ");
-define("_NO","��赡ŧ");
-define("_TOPICSMANAGER","�Ѵ�����Ǣ������ͧ");
-define("_DELETETOPIC","ź��Ǣ������ͧ");
-define("_TOPICDELSURE","�س��㨷���ź��Ǣ������ͧ");
-define("_TOPICDELSURE1","�зӡ��ź����ͧ���Ǣ������ͧ�����Т���ʹ��з�����!");
+define("_YES","ตกลง");
+define("_NO","ไม่ตกลง");
+define("_TOPICSMANAGER","จัดการหัวข้อเรื่อง");
+define("_DELETETOPIC","ลบหัวข้อเรื่อง");
+define("_TOPICDELSURE","คุณแน่ใจที่จะลบหัวข้อเรื่อง");
+define("_TOPICDELSURE1","จะทำการลบเรื่องในหัวข้อเรื่องนี้และข้อเสนอแนะทั้งหมด!");
 
 
 ?>

@@ -19,27 +19,27 @@
 
 
 define("_EMAIL","Email");
-define("_SAVECHANGES","V·ltoz·sok mentÈse");
+define("_SAVECHANGES","V√°ltoz√°sok ment√©se");
 define("_SCORE","Pontok:");
-define("_PRODUCTTITLE","TermÈk neve");
-define("_RELATEDLINK","KapcsolÛdÛ link");
-define("_LINKTITLE","A cÈloldal neve");
-define("_REVIEWER","Szerzı:");
-define("_REVIEWID","LeÌr·s sz·ma");
-define("_REVIEWS","Ismertetık");
-define("_DATE","D·tum");
-define("_REVADMIN","Ismertetık adminisztr·l·sa");
-define("_REVTITLE","Ismertetık oldal cÌme");
-define("_REVDESC","Ismertetık oldal leÌr·sa");
-define("_REVWAITING","JÛ·hagy·sra v·rÛ leÌr·sok");
-define("_REVIMGINFO","Tˆltsd fel a 150*150 mÈret˚ kÈped az images/reviews kˆnyvt·rba");
-define("_TEXT","Szˆveg");
-define("_IMAGE","KÈp");
-define("_NOREVIEW2ADD","Nincs hozz·adhatÛ ismertetı");
-define("_ADDREVIEW","Ismertetı hozz·ad·sa");
-define("_CLICK2ADDREVIEW","Kattints ide ˙j ismertetı Ìr·s·hoz");
-define("_DELMODREVIEW","Ismertetı szerkesztÈse / tˆrlÈse");
-define("_MODREVINFO","Ismertetık szerkesztÈsÈhez Ès tˆrlÈsÈhez egyszer˚en lÈpj adminisztr·torkÈnt a <a href=\"modules.php?name=Reviews\">Reviews</a> oldalra.");
+define("_PRODUCTTITLE","Term√©k neve");
+define("_RELATEDLINK","Kapcsol√≥d√≥ link");
+define("_LINKTITLE","A c√©loldal neve");
+define("_REVIEWER","Szerz≈ë:");
+define("_REVIEWID","Le√≠r√°s sz√°ma");
+define("_REVIEWS","Ismertet≈ëk");
+define("_DATE","D√°tum");
+define("_REVADMIN","Ismertet≈ëk adminisztr√°l√°sa");
+define("_REVTITLE","Ismertet≈ëk oldal c√≠me");
+define("_REVDESC","Ismertet≈ëk oldal le√≠r√°sa");
+define("_REVWAITING","J√≥√°hagy√°sra v√°r√≥ le√≠r√°sok");
+define("_REVIMGINFO","T√∂ltsd fel a 150*150 m√©ret≈± k√©ped az images/reviews k√∂nyvt√°rba");
+define("_TEXT","Sz√∂veg");
+define("_IMAGE","K√©p");
+define("_NOREVIEW2ADD","Nincs hozz√°adhat√≥ ismertet≈ë");
+define("_ADDREVIEW","Ismertet≈ë hozz√°ad√°sa");
+define("_CLICK2ADDREVIEW","Kattints ide √∫j ismertet≈ë √≠r√°s√°hoz");
+define("_DELMODREVIEW","Ismertet≈ë szerkeszt√©se / t√∂rl√©se");
+define("_MODREVINFO","Ismertet≈ëk szerkeszt√©s√©hez √©s t√∂rl√©s√©hez egyszer≈±en l√©pj adminisztr√°tork√©nt a <a href=\"modules.php?name=Reviews\">Reviews</a> oldalra.");
 define("_LANGUAGE","Language");
 
 

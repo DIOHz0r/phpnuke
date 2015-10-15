@@ -30,5 +30,5 @@ standalone was developed and tested by: <br>
 	class="postbody">). </span><br>
 <br>
 <span class="copyright">Version 2.0.7 by <a class="copyright"
-	href="http://nukecops.com" target="_blank">Nuke Cops</a> � 2004 <a
+	href="http://nukecops.com" target="_blank">Nuke Cops</a> © 2004 <a
 	href="http://nukecops.com">http://www.nukecops.com</a></span></span></div>

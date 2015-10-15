@@ -4,32 +4,32 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_SEND","Gönder");
-define("_YOURNAME","Ýsminiz");
+define("_SEND","GÃ¶nder");
+define("_YOURNAME","Ä°sminiz");
 define("_MESSAGE","Mesaj");
 define("_YOUREMAIL","Email'iniz");
-define("_FEEDBACKNOTE","Bu site hakkýnda tüm yorumlarýnýz ve önerileriniz bizim için deðerlidir. Teþekkürler!");
-define("_FEEDBACKTITLE","Ýletiþim Formu");
-define("_FEEDBACK","Ýletiþim");
-define("_FBENTERNAME","HATA: Lütfen isminizi girin!");
-define("_FBENTEREMAIL","HATA: Lütfen email adresinizi girin!");
-define("_FBENTERMESSAGE","HATA: Lütfen bir mesaj girin!");
-define("_SENDEREMAIL","Gönderenin Emaili");
-define("_SENDERNAME","Gönderenin Ýsmi");
-define("_FBMAILSENT","Mail gönderildi!");
-define("_FBTHANKSFORCONTACT","Bizimle iletiþim kurduðunuz için teþekkürler.");
+define("_FEEDBACKNOTE","Bu site hakkÄ±nda tÃ¼m yorumlarÄ±nÄ±z ve Ã¶nerileriniz bizim iÃ§in deÄŸerlidir. TeÅŸekkÃ¼rler!");
+define("_FEEDBACKTITLE","Ä°letiÅŸim Formu");
+define("_FEEDBACK","Ä°letiÅŸim");
+define("_FBENTERNAME","HATA: LÃ¼tfen isminizi girin!");
+define("_FBENTEREMAIL","HATA: LÃ¼tfen email adresinizi girin!");
+define("_FBENTERMESSAGE","HATA: LÃ¼tfen bir mesaj girin!");
+define("_SENDEREMAIL","GÃ¶nderenin Emaili");
+define("_SENDERNAME","GÃ¶nderenin Ä°smi");
+define("_FBMAILSENT","Mail gÃ¶nderildi!");
+define("_FBTHANKSFORCONTACT","Bizimle iletiÅŸim kurduÄŸunuz iÃ§in teÅŸekkÃ¼rler.");
 
 ?>

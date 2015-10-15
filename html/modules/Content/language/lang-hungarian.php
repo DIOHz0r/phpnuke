@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Elızı oldal");
-define("_NEXT","Kˆvetkezı oldal");
+define("_PREVIOUS","El≈ëz≈ë oldal");
+define("_NEXT","K√∂vetkez≈ë oldal");
 define("_PAGE","oldal");
-define("_DEACTIVATE","Kikapcsol·s");
-define("_ACTIVATE","Bekapcsol·s");
+define("_DEACTIVATE","Kikapcsol√°s");
+define("_ACTIVATE","Bekapcsol√°s");
 define("_PUBLISHEDON","Published on");
 define("_PAGESLIST","Pages List");
 define("_LISTOFCONTENT","List of available content in");

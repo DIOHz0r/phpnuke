@@ -1,6 +1,6 @@
 // UK lang variables
 
-tinyMCELang['lang_insert_advhr_desc']    = 'Vložit/editovat vodorovný oddìlovaè'
-tinyMCELang['lang_insert_advhr_width']   = 'Šíøka';
-tinyMCELang['lang_insert_advhr_size']    = 'Výška';
-tinyMCELang['lang_insert_advhr_noshade'] = 'Nestínovat';
+tinyMCELang['lang_insert_advhr_desc']    = 'VloÅ¾it/editovat vodorovnÃ½ oddÃ¬lovaÃ¨'
+tinyMCELang['lang_insert_advhr_width']   = 'Å Ã­Ã¸ka';
+tinyMCELang['lang_insert_advhr_size']    = 'VÃ½Å¡ka';
+tinyMCELang['lang_insert_advhr_noshade'] = 'NestÃ­novat';

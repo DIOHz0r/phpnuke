@@ -23,17 +23,17 @@
 
 
 define("_PRINTER","Imprimir");
-define("_FRIEND","Envie esta notícia a uma pessoa");
-define("_ARTICLES","Notícias");
-define("_USCORE","Pontuação");
+define("_FRIEND","Envie esta notÃ­cia a uma pessoa");
+define("_ARTICLES","NotÃ­cias");
+define("_USCORE","PontuaÃ§Ã£o");
 define("_DATE","Data");
-define("_SELECTMONTH2VIEW","Por favor selecione o mês a ser visualizado:");
-define("_SHOWALLSTORIES","Visualizar TODAS as notícias");
-define("_STORIESARCHIVE","Arquivo de Notícias");
-define("_ACTIONS","Ações");
-define("_ARCHIVESINDEX","Índice do Arquivo de Notícias");
-define("_ALLSTORIESARCH","TODA as Notícias");
-define("_NEXTPAGE","Próxima página");
-define("_PREVIOUSPAGE","Página anterior");
+define("_SELECTMONTH2VIEW","Por favor selecione o mÃªs a ser visualizado:");
+define("_SHOWALLSTORIES","Visualizar TODAS as notÃ­cias");
+define("_STORIESARCHIVE","Arquivo de NotÃ­cias");
+define("_ACTIONS","AÃ§Ãµes");
+define("_ARCHIVESINDEX","Ãndice do Arquivo de NotÃ­cias");
+define("_ALLSTORIESARCH","TODA as NotÃ­cias");
+define("_NEXTPAGE","PrÃ³xima pÃ¡gina");
+define("_PREVIOUSPAGE","PÃ¡gina anterior");
 
 ?>

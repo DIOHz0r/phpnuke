@@ -17,25 +17,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Êàòåãîðè¼à");
-define("_LVOTES","ãëàñîâè");
-define("_HITS","Õèòîâè");
-define("_TOPWELCOME","Äîáðåäî¼äå íà ÒÎÏ ñòðàíèöèòå çà");
-define("_READSTORIES","íà¼÷èòàíè âåñòè");
-define("_COMMENTEDSTORIES","íà¼êîìåíòèðàíè âåñòè");
-define("_ACTIVECAT","íà¼àêòèâíè êàòåãîðèè");
-define("_READSECTION","íà¼÷èòàíè âåñòè âî ñïåöè¼àëíèòå ñåêöèè");
-define("_NEWSSUBMITTERS","íà¼àêòèâíè èñïðàà÷è íà âåñòè");
-define("_NEWSSENT","âåñòè èñïðàòåíè");
-define("_VOTEDPOLLS","íà¼ãëàñàíè àíêåòè");
-define("_MOSTACTIVEAUTHORS","íà¼àêòèâíè àâòîðè");
-define("_NEWSPUBLISHED","îá¼àâåíè âåñòè");
-define("_READREVIEWS","íà¼÷èòàíè êðèòèêè");
-define("_DOWNLOADEDFILES","íà¼ñèìíóâàíè äàòîòåêè");
-define("_LDOWNLOADS","ñèìíóâàœà");
-define("_MOSTREADPAGES","íà¼÷èòàíè ñòðàíè");
-define("_MOSTVOTEDSTORIES","íà¼ãëàñàíè âåñòè");
-define("_POINTS","áîäîâè");
-define("_BESTRATEDSTORIES","íà¼äîáðî îöåíåòè âåñòè");
+define("_CATEGORY","ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ˜Ð°");
+define("_LVOTES","Ð³Ð»Ð°ÑÐ¾Ð²Ð¸");
+define("_HITS","Ð¥Ð¸Ñ‚Ð¾Ð²Ð¸");
+define("_TOPWELCOME","Ð”Ð¾Ð±Ñ€ÐµÐ´Ð¾Ñ˜Ð´Ðµ Ð½Ð° Ð¢ÐžÐŸ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð¸Ñ‚Ðµ Ð·Ð°");
+define("_READSTORIES","Ð½Ð°Ñ˜Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸ Ð²ÐµÑÑ‚Ð¸");
+define("_COMMENTEDSTORIES","Ð½Ð°Ñ˜ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð¸Ñ€Ð°Ð½Ð¸ Ð²ÐµÑÑ‚Ð¸");
+define("_ACTIVECAT","Ð½Ð°Ñ˜Ð°ÐºÑ‚Ð¸Ð²Ð½Ð¸ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸");
+define("_READSECTION","Ð½Ð°Ñ˜Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸ Ð²ÐµÑÑ‚Ð¸ Ð²Ð¾ ÑÐ¿ÐµÑ†Ð¸Ñ˜Ð°Ð»Ð½Ð¸Ñ‚Ðµ ÑÐµÐºÑ†Ð¸Ð¸");
+define("_NEWSSUBMITTERS","Ð½Ð°Ñ˜Ð°ÐºÑ‚Ð¸Ð²Ð½Ð¸ Ð¸ÑÐ¿Ñ€Ð°ÑœÐ°Ñ‡Ð¸ Ð½Ð° Ð²ÐµÑÑ‚Ð¸");
+define("_NEWSSENT","Ð²ÐµÑÑ‚Ð¸ Ð¸ÑÐ¿Ñ€Ð°Ñ‚ÐµÐ½Ð¸");
+define("_VOTEDPOLLS","Ð½Ð°Ñ˜Ð³Ð»Ð°ÑÐ°Ð½Ð¸ Ð°Ð½ÐºÐµÑ‚Ð¸");
+define("_MOSTACTIVEAUTHORS","Ð½Ð°Ñ˜Ð°ÐºÑ‚Ð¸Ð²Ð½Ð¸ Ð°Ð²Ñ‚Ð¾Ñ€Ð¸");
+define("_NEWSPUBLISHED","Ð¾Ð±Ñ˜Ð°Ð²ÐµÐ½Ð¸ Ð²ÐµÑÑ‚Ð¸");
+define("_READREVIEWS","Ð½Ð°Ñ˜Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸ ÐºÑ€Ð¸Ñ‚Ð¸ÐºÐ¸");
+define("_DOWNLOADEDFILES","Ð½Ð°Ñ˜ÑÐ¸Ð¼Ð½ÑƒÐ²Ð°Ð½Ð¸ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ¸");
+define("_LDOWNLOADS","ÑÐ¸Ð¼Ð½ÑƒÐ²Ð°ÑšÐ°");
+define("_MOSTREADPAGES","Ð½Ð°Ñ˜Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸ ÑÑ‚Ñ€Ð°Ð½Ð¸");
+define("_MOSTVOTEDSTORIES","Ð½Ð°Ñ˜Ð³Ð»Ð°ÑÐ°Ð½Ð¸ Ð²ÐµÑÑ‚Ð¸");
+define("_POINTS","Ð±Ð¾Ð´Ð¾Ð²Ð¸");
+define("_BESTRATEDSTORIES","Ð½Ð°Ñ˜Ð´Ð¾Ð±Ñ€Ð¾ Ð¾Ñ†ÐµÐ½ÐµÑ‚Ð¸ Ð²ÐµÑÑ‚Ð¸");
 
 ?>

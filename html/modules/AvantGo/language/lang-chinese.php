@@ -17,12 +17,12 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","¤é´Á¡G");
-define("_PTOPIC","·s»D¥DÃD¡G");
-define("_COMESFROM","¥»¤å³¹¨Ó¦Û©ó");
-define("_THEURL","³o¥÷³ø¾Éªººô§}¬O¡G");
-define("_DATE","¤é´Á");
-define("_TITLE","¼ÐÃD");
+define("_PDATE","æ—¥æœŸï¼š");
+define("_PTOPIC","æ–°èžä¸»é¡Œï¼š");
+define("_COMESFROM","æœ¬æ–‡ç« ä¾†è‡ªæ–¼");
+define("_THEURL","é€™ä»½å ±å°Žçš„ç¶²å€æ˜¯ï¼š");
+define("_DATE","æ—¥æœŸ");
+define("_TITLE","æ¨™é¡Œ");
 
 
 ?>

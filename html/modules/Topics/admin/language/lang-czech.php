@@ -37,10 +37,10 @@ define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Ano");
 define("_NO","Ne");
-define("_TOPICSMANAGER","Manažer témat");
-define("_DELETETOPIC","Smazat téma");
-define("_TOPICDELSURE","Opravdu chcete smazat téma");
-define("_TOPICDELSURE1","Bude smazáno vše, téma, èlánky i komentáøe!");
+define("_TOPICSMANAGER","ManaÂžer tÃ©mat");
+define("_DELETETOPIC","Smazat tÃ©ma");
+define("_TOPICDELSURE","Opravdu chcete smazat tÃ©ma");
+define("_TOPICDELSURE1","Bude smazÃ¡no vÂše, tÃ©ma, ÄlÃ¡nky i komentÃ¡Å™e!");
 
 
 ?>

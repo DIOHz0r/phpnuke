@@ -195,12 +195,12 @@ define("_YOUARENOTREGGED","Vous n'&ecirc;tes pas un utilisateur enregistr&eacute
 define("_IFYOUWEREREG","Si vous &eacute;tiez enregistr&eacute;, vous pourriez commenter ce site.");
 define("_TITLE","Titre");
 define("_MODIFY","Modifier");
-define("_COMPLETEVOTE1","Votre vote est enregistrÈ.");
-define("_COMPLETEVOTE2","Vous avez dÈj‡ votÈ pour cette ressource dans le passÈ $anonwaitdays jour(s).");
-define("_COMPLETEVOTE3","Votez pour une ressource seulement une fois<br>Tous les votes sont loggÈs");
-define("_COMPLETEVOTE4","Vous ne pouvez pas voter sur un lien que vous avez proposez.<br>Tous les votes sont loggÈs.");
-define("_COMPLETEVOTE5","Aucune note n'a ÈtÈ choisie - Le vote n'a pas ÈtÈ pri en compte");
-define("_COMPLETEVOTE6","Seulement un vote par adresse IP est autorisÈ tous les $outsidewaitdays jour(s).");
+define("_COMPLETEVOTE1","Votre vote est enregistr√©.");
+define("_COMPLETEVOTE2","Vous avez d√©j√† vot√© pour cette ressource dans le pass√© $anonwaitdays jour(s).");
+define("_COMPLETEVOTE3","Votez pour une ressource seulement une fois<br>Tous les votes sont logg√©s");
+define("_COMPLETEVOTE4","Vous ne pouvez pas voter sur un lien que vous avez proposez.<br>Tous les votes sont logg√©s.");
+define("_COMPLETEVOTE5","Aucune note n'a √©t√© choisie - Le vote n'a pas √©t√© pri en compte");
+define("_COMPLETEVOTE6","Seulement un vote par adresse IP est autoris√© tous les $outsidewaitdays jour(s).");
 define("_LINKSDATESTRING","%d-%b-%Y");
 
 

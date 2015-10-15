@@ -39,8 +39,8 @@ define("_YES","Po");
 define("_NO","Jo");
 define("_TOPICSMANAGER","Manazheri i Argumenteve");
 define("_DELETETOPIC","Fshi Argumentin");
-define("_TOPICDELSURE","Je i sigurt që do të fshish këtë Argument?");
-define("_TOPICDELSURE1","Kështu mund të fshish të GJITHE Artikujt dhe Komentet e tij!");
+define("_TOPICDELSURE","Je i sigurt qÃ« do tÃ« fshish kÃ«tÃ« Argument?");
+define("_TOPICDELSURE1","KÃ«shtu mund tÃ« fshish tÃ« GJITHE Artikujt dhe Komentet e tij!");
 
 
 ?>

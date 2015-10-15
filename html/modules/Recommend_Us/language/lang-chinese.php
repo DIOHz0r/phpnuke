@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","¶Ç°e");
-define("_FYOURNAME","±zªº©m¦W¡G");
-define("_FYOUREMAIL","±zªº E-mail¡G");
-define("_FFRIENDNAME","±zªB¤Íªº©m¦W¡G");
-define("_FFRIENDEMAIL","±zªB¤Íªº E-mail¡G");
-define("_HELLO","¶Ù");
-define("_YOURFRIEND","±zªºªB¤Í");
-define("_RECOMMEND","±ÀÂË¥»¯¸µ¹ªB¤Í");
-define("_INTSITE","¦³½ìªººô¯¸¦b¡G");
-define("_OURSITE","¥»¯¸­È±o°Ñ¦Ò");
-define("_INTSENT","¦³½ì¡A©Ò¥H±H¨Ó»P±z¤À¨É");
-define("_FSITENAME","¯¸¦W¡G");
-define("_FSITEURL","ºô¯¸ ºô§}¡G");
-define("_FREFERENCE","¥»¯¸ªº°Ñ¦Ò¨Ó·½°e¦Ü");
-define("_THANKSREC","·PÁÂ±z±ÀÂË§Ú­Ì¡I");
+define("_SEND","å‚³é€");
+define("_FYOURNAME","æ‚¨çš„å§“åï¼š");
+define("_FYOUREMAIL","æ‚¨çš„ E-mailï¼š");
+define("_FFRIENDNAME","æ‚¨æœ‹å‹çš„å§“åï¼š");
+define("_FFRIENDEMAIL","æ‚¨æœ‹å‹çš„ E-mailï¼š");
+define("_HELLO","å—¨");
+define("_YOURFRIEND","æ‚¨çš„æœ‹å‹");
+define("_RECOMMEND","æ¨è–¦æœ¬ç«™çµ¦æœ‹å‹");
+define("_INTSITE","æœ‰è¶£çš„ç¶²ç«™åœ¨ï¼š");
+define("_OURSITE","æœ¬ç«™å€¼å¾—åƒè€ƒ");
+define("_INTSENT","æœ‰è¶£ï¼Œæ‰€ä»¥å¯„ä¾†èˆ‡æ‚¨åˆ†äº«");
+define("_FSITENAME","ç«™åï¼š");
+define("_FSITEURL","ç¶²ç«™ ç¶²å€ï¼š");
+define("_FREFERENCE","æœ¬ç«™çš„åƒè€ƒä¾†æºé€è‡³");
+define("_THANKSREC","æ„Ÿè¬æ‚¨æ¨è–¦æˆ‘å€‘ï¼");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

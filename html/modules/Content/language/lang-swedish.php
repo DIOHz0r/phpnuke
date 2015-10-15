@@ -17,8 +17,8 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Föregående Sida");
-define("_NEXT","Nästa Sida");
+define("_PREVIOUS","FÃ¶regÃ¥ende Sida");
+define("_NEXT","NÃ¤sta Sida");
 define("_PAGE","Sida");
 define("_DEACTIVATE","Inaktivera");
 define("_ACTIVATE","Aktivera");

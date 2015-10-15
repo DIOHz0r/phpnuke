@@ -1,20 +1,20 @@
 // Simplified Chinese lang variables contributed by cube316 (cube316@etang.com)
 
-tinyMCELang['lang_insert_link_target_same'] = 'ÔÚ±¾´°¿Ú/¿ò¼ÜÖĞ´ò¿ª';
-tinyMCELang['lang_insert_link_target_parent'] = 'ÔÚ¸¸´°¿Ú/¿ò¼ÜÖĞ´ò¿ª';
-tinyMCELang['lang_insert_link_target_top'] = 'ÔÚ¸ù¿ò¼ÜÖĞ´ò¿ª£¨Ìæ»»ËùÓĞ¿ò¼Ü£©';
-tinyMCELang['lang_insert_link_target_blank'] = 'ÔÚĞÂ´°¿ÚÖĞ´ò¿ª';
-tinyMCELang['lang_insert_link_target_named'] = 'ÔÚ´Ë´°¿ÚÖĞ´ò¿ª';
+tinyMCELang['lang_insert_link_target_same'] = 'åœ¨æœ¬çª—å£/æ¡†æ¶ä¸­æ‰“å¼€';
+tinyMCELang['lang_insert_link_target_parent'] = 'åœ¨çˆ¶çª—å£/æ¡†æ¶ä¸­æ‰“å¼€';
+tinyMCELang['lang_insert_link_target_top'] = 'åœ¨æ ¹æ¡†æ¶ä¸­æ‰“å¼€ï¼ˆæ›¿æ¢æ‰€æœ‰æ¡†æ¶ï¼‰';
+tinyMCELang['lang_insert_link_target_blank'] = 'åœ¨æ–°çª—å£ä¸­æ‰“å¼€';
+tinyMCELang['lang_insert_link_target_named'] = 'åœ¨æ­¤çª—å£ä¸­æ‰“å¼€';
 tinyMCELang['lang_insert_link_popup'] = 'JS-Popup';
-tinyMCELang['lang_insert_link_popup_url'] = 'µ¯³ö´°¿ÚµØÖ·';
-tinyMCELang['lang_insert_link_popup_name'] = '´°¿ÚÃû³Æ';
-tinyMCELang['lang_insert_link_popup_return'] = '²åÈë \'return false\'';
-tinyMCELang['lang_insert_link_popup_scrollbars'] = 'ÏÔÊ¾¹ö¶¯Ìõ';
-tinyMCELang['lang_insert_link_popup_statusbar'] = 'ÏÔÊ¾×´Ì¬À¸';
-tinyMCELang['lang_insert_link_popup_toolbar'] = 'ÏÔÊ¾¹¤¾ßÀ¸';
-tinyMCELang['lang_insert_link_popup_menubar'] = 'ÏÔÊ¾²Ëµ¥À¸';
-tinyMCELang['lang_insert_link_popup_location'] = 'ÏÔÊ¾µØÖ·À¸';
-tinyMCELang['lang_insert_link_popup_resizable'] = '¿ÉÖØ¶¨Òå´°¿Ú´óĞ¡';
-tinyMCELang['lang_insert_link_popup_size'] = '³ß´ç';
-tinyMCELang['lang_insert_link_popup_position'] = 'Î»ÖÃ(X/Y)';
-tinyMCELang['lang_insert_link_popup_missingtarget'] = 'Çë²åÈëÄ¿±êÃû³Æ»òÕßÑ¡ÔñÁíÍâµÄÑ¡Ïî¡£';
+tinyMCELang['lang_insert_link_popup_url'] = 'å¼¹å‡ºçª—å£åœ°å€';
+tinyMCELang['lang_insert_link_popup_name'] = 'çª—å£åç§°';
+tinyMCELang['lang_insert_link_popup_return'] = 'æ’å…¥ \'return false\'';
+tinyMCELang['lang_insert_link_popup_scrollbars'] = 'æ˜¾ç¤ºæ»šåŠ¨æ¡';
+tinyMCELang['lang_insert_link_popup_statusbar'] = 'æ˜¾ç¤ºçŠ¶æ€æ ';
+tinyMCELang['lang_insert_link_popup_toolbar'] = 'æ˜¾ç¤ºå·¥å…·æ ';
+tinyMCELang['lang_insert_link_popup_menubar'] = 'æ˜¾ç¤ºèœå•æ ';
+tinyMCELang['lang_insert_link_popup_location'] = 'æ˜¾ç¤ºåœ°å€æ ';
+tinyMCELang['lang_insert_link_popup_resizable'] = 'å¯é‡å®šä¹‰çª—å£å¤§å°';
+tinyMCELang['lang_insert_link_popup_size'] = 'å°ºå¯¸';
+tinyMCELang['lang_insert_link_popup_position'] = 'ä½ç½®(X/Y)';
+tinyMCELang['lang_insert_link_popup_missingtarget'] = 'è¯·æ’å…¥ç›®æ ‡åç§°æˆ–è€…é€‰æ‹©å¦å¤–çš„é€‰é¡¹ã€‚';

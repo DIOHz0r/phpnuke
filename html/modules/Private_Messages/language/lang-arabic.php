@@ -17,64 +17,64 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_EMAIL","ศัํฯ วแ฿สัๆไํ");
-define("_RE","ัฯ");
-define("_SUBJECT","วแใๆึๆฺ");
-define("_PRIVATEMESSAGES","ัำวฦแ฿ วแฮวีษ");
-define("_CHECKALL","สฺแํใ วแ฿แ");
-define("_FROM","ใไ");
-define("_DATE","วแสวัํฮ");
-define("_DONTHAVEMESSAGES","แว ํๆฬฯ แฯํ฿ ัำวฦแ ฮวีษ");
-define("_NOTREAD","แใ ส๕Þั๓ร");
-define("_MSGSTATUS","อวแษ วแัำวแษ");
-define("_PRIVATEMESSAGE","ัำวแษ ฮวีษ");
-define("_INDEX","วแÞวฦใษ");
-define("_SENT","ใัำแ");
-define("_PREVIOUSMESSAGE","วแัำวแษ วแำวศÞษ");
-define("_NEXTMESSAGE","วแัำวแษ วแสวแํษ");
-define("_PROFILE","ใแÝ฿");
-define("_ABOUTPOSTING","อๆแ วแลัำวแ");
-define("_ALLREGCANPOST","ฬใํฺ วแรฺึวม วแใำฬแํไ ํใ฿ไๅใ วัำวแ ัำวฦแ ฮวีษ");
-define("_TO","วแ์");
-define("_MESSAGEICON","ีๆัษ แแัำวแษ");
-define("_MESSAGE","วแัำวแษ");
-define("_HTML","฿ๆฯ ๅสใแ");
-define("_PMON","ใสวอ");
-define("_PMOFF","Ûํั ใสวอ");
-define("_BBCODE","฿ๆฯ BB");
-define("_WROTE","฿สศ");
-define("_OPTIONS","ฮํวัวส");
-define("_HTMLDISSABLE","สฺุํแ ฿ๆฯ ๅสใแ Ýํ ๅะว วแใๆึๆฺ");
-define("_BBCODEDISSABLE","สฺุํแ <i>฿ๆฯ BB</i> Ýํ ๅะๅ วแัำวแษ");
-define("_SMILEDISSABLE","สฺุํแ <i>วแรๆฬๅ วแใศสำใษ</i> Ýํ ๅะๅ วแัำวแษ");
-define("_CANCELREPLY","วแÛวม วแัำวแษ");
-define("_CANCELSEND","วแÛวม วแลัำวแ");
-define("_CLEAR","ใำอ");
-define("_SUBMIT","ลัำวแ");
-define("_USERNOTINDB","ๅะว วแฺึๆ Ûํั ใำฬแ แฯํไว.");
-define("_CHECKNAMEANDTRY","วแัฬวม วแสร฿ฯ ใไ วแลำใ ๆวแใอวๆแษ ใัษ รฮั์.");
-define("_MSGPOSTED","สใ ลัำวแ ัำวแส฿.");
-define("_RETURNTOPMSG","รึÛุ ๅไว แสอใํแ ัำวฦแ฿ วแฮวีษ.");
-define("_MSGDELETED","สใ ใำอ ัำวฦแ฿.");
+define("_EMAIL","ุจุฑูุฏ ุงููุชุฑููู");
+define("_RE","ุฑุฏ");
+define("_SUBJECT","ุงูู…ูุถูุน");
+define("_PRIVATEMESSAGES","ุฑุณุงุฆูู ุงูุฎุงุตุฉ");
+define("_CHECKALL","ุชุนููู… ุงููู");
+define("_FROM","ู…ู");
+define("_DATE","ุงูุชุงุฑูุฎ");
+define("_DONTHAVEMESSAGES","ูุง ููุฌุฏ ูุฏูู ุฑุณุงุฆู ุฎุงุตุฉ");
+define("_NOTREAD","ูู… ุชููุฑูุฃ");
+define("_MSGSTATUS","ุญุงูุฉ ุงูุฑุณุงูุฉ");
+define("_PRIVATEMESSAGE","ุฑุณุงูุฉ ุฎุงุตุฉ");
+define("_INDEX","ุงููุงุฆู…ุฉ");
+define("_SENT","ู…ุฑุณู");
+define("_PREVIOUSMESSAGE","ุงูุฑุณุงูุฉ ุงูุณุงุจูุฉ");
+define("_NEXTMESSAGE","ุงูุฑุณุงูุฉ ุงูุชุงููุฉ");
+define("_PROFILE","ู…ููู");
+define("_ABOUTPOSTING","ุญูู ุงูุฅุฑุณุงู");
+define("_ALLREGCANPOST","ุฌู…ูุน ุงูุฃุนุถุงุก ุงูู…ุณุฌููู ูู…ูููู… ุงุฑุณุงู ุฑุณุงุฆู ุฎุงุตุฉ");
+define("_TO","ุงูู");
+define("_MESSAGEICON","ุตูุฑุฉ ููุฑุณุงูุฉ");
+define("_MESSAGE","ุงูุฑุณุงูุฉ");
+define("_HTML","ููุฏ ูุชู…ู");
+define("_PMON","ู…ุชุงุญ");
+define("_PMOFF","ุบูุฑ ู…ุชุงุญ");
+define("_BBCODE","ููุฏ BB");
+define("_WROTE","ูุชุจ");
+define("_OPTIONS","ุฎูุงุฑุงุช");
+define("_HTMLDISSABLE","ุชุนุทูู ููุฏ ูุชู…ู ูู ูุฐุง ุงูู…ูุถูุน");
+define("_BBCODEDISSABLE","ุชุนุทูู <i>ููุฏ BB</i> ูู ูุฐู ุงูุฑุณุงูุฉ");
+define("_SMILEDISSABLE","ุชุนุทูู <i>ุงูุฃูุฌู ุงูู…ุจุชุณู…ุฉ</i> ูู ูุฐู ุงูุฑุณุงูุฉ");
+define("_CANCELREPLY","ุงูุบุงุก ุงูุฑุณุงูุฉ");
+define("_CANCELSEND","ุงูุบุงุก ุงูุฅุฑุณุงู");
+define("_CLEAR","ู…ุณุญ");
+define("_SUBMIT","ุฅุฑุณุงู");
+define("_USERNOTINDB","ูุฐุง ุงูุนุถู ุบูุฑ ู…ุณุฌู ูุฏููุง.");
+define("_CHECKNAMEANDTRY","ุงูุฑุฌุงุก ุงูุชุฃูุฏ ู…ู ุงูุฅุณู… ูุงูู…ุญุงููุฉ ู…ุฑุฉ ุฃุฎุฑู.");
+define("_MSGPOSTED","ุชู… ุฅุฑุณุงู ุฑุณุงูุชู.");
+define("_RETURNTOPMSG","ุฃุถุบุท ููุง ูุชุญู…ูู ุฑุณุงุฆูู ุงูุฎุงุตุฉ.");
+define("_MSGDELETED","ุชู… ู…ุณุญ ุฑุณุงุฆูู.");
 define("_BBGO","go");
-define("_BBNEWPMSG","ัำวฦแ ฬฯํฯษ");
-define("_BBNONEWPMSG","แว ํๆฬฯ ัำวฦแ ฬฯํฯษ");
-define("_BBTOTALPMSG","ใฬใๆฺ วแัำวฦแ");
-define("_BBEMPTYPMSG","แว ํๆฬฯ แฯํ฿ ัำวฦแ");
-define("_BBLOGIN","Þใ ศสำฬํแ วแฯฮๆแ แÞัวมษ ัำวฦแ฿ วแฮวีษ");
-define("_BBPMSG","ัำวแษ ฮวีษ");
-define("_BBINBOX","ีไฯๆÞ วแัำวฦแ");
-define("_BBSELECTFORUM","วฮสั วแใไสฯ์");
-define("_BBNOFORUM","แวํๆฬฯ ใไสฯํวส");
-define("_BBBANNED","ใๆÞๆÝ");
-define("_CLICKSMILEBUTTONS","วึÛุ ฺแ์ วแลศสำวใวส แลึวÝสๅว วแ์ ใๆึๆฺ฿:");
-define("_CLICKCODEBUTTONS","วึÛุ ฺแ์ วแราัวั วแสวแํษ แลึวÝษ ฿ๆฯ วแศํ ศํ วแ์ ใๆึๆฺ฿:");
-define("_PRIVMSGERROR","ฮุร Ýํ วแัำวแษ วแฮวีษ!");
-define("_USERDOESNTEXIST","ๅะว วแฺึๆ Ûํั ใๆฬๆฯ แฯํไว")
-define("_DELETESELECTED","อะÝ วแรฮสํวั");
-define("_SENDNEWMSG","รัำแ ัำวแษ ฬฯํฯษ");
-define("_REPLY","วึวÝษ ัฯ");
-define("_NOSUBJECT","แว ํๆฬฯ ใๆึๆฺ แัำวแส฿.");
-define("_NOMESSAGE","แใ ส฿สศ วแัำวแษ. วแัฬวม ฿สวศษ วแัำวแษ!");
+define("_BBNEWPMSG","ุฑุณุงุฆู ุฌุฏูุฏุฉ");
+define("_BBNONEWPMSG","ูุง ููุฌุฏ ุฑุณุงุฆู ุฌุฏูุฏุฉ");
+define("_BBTOTALPMSG","ู…ุฌู…ูุน ุงูุฑุณุงุฆู");
+define("_BBEMPTYPMSG","ูุง ููุฌุฏ ูุฏูู ุฑุณุงุฆู");
+define("_BBLOGIN","ูู… ุจุชุณุฌูู ุงูุฏุฎูู ููุฑุงุกุฉ ุฑุณุงุฆูู ุงูุฎุงุตุฉ");
+define("_BBPMSG","ุฑุณุงูุฉ ุฎุงุตุฉ");
+define("_BBINBOX","ุตูุฏูู ุงูุฑุณุงุฆู");
+define("_BBSELECTFORUM","ุงุฎุชุฑ ุงูู…ูุชุฏู");
+define("_BBNOFORUM","ูุงููุฌุฏ ู…ูุชุฏูุงุช");
+define("_BBBANNED","ู…ูููู");
+define("_CLICKSMILEBUTTONS","ุงุถุบุท ุนูู ุงูุฅุจุชุณุงู…ุงุช ูุฅุถุงูุชูุง ุงูู ู…ูุถูุนู:");
+define("_CLICKCODEBUTTONS","ุงุถุบุท ุนูู ุงูุฃุฒุฑุงุฑ ุงูุชุงููุฉ ูุฅุถุงูุฉ ููุฏ ุงูุจู ุจู ุงูู ู…ูุถูุนู:");
+define("_PRIVMSGERROR","ุฎุทุฃ ูู ุงูุฑุณุงูุฉ ุงูุฎุงุตุฉ!");
+define("_USERDOESNTEXIST","ูุฐุง ุงูุนุถู ุบูุฑ ู…ูุฌูุฏ ูุฏููุง")
+define("_DELETESELECTED","ุญุฐู ุงูุฃุฎุชูุงุฑ");
+define("_SENDNEWMSG","ุฃุฑุณู ุฑุณุงูุฉ ุฌุฏูุฏุฉ");
+define("_REPLY","ุงุถุงูุฉ ุฑุฏ");
+define("_NOSUBJECT","ูุง ููุฌุฏ ู…ูุถูุน ูุฑุณุงูุชู.");
+define("_NOMESSAGE","ูู… ุชูุชุจ ุงูุฑุณุงูุฉ. ุงูุฑุฌุงุก ูุชุงุจุฉ ุงูุฑุณุงูุฉ!");
 
 ?>

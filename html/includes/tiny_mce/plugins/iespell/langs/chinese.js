@@ -1,4 +1,4 @@
 // Simplified Chinese lang variables contributed by cube316 (cube316@etang.com)
 
-tinyMCELang['lang_iespell_desc'] = 'ÔËĞĞÆ´Ğ´¼ì²é';
-tinyMCELang['lang_iespell_download'] = "Î´¼ì²âµ½ieSpellÆ´Ğ´¼ì²é£¬µã»÷ OK Ç°ÍùÏÂÔØÒ³Ãæ¡£"
+tinyMCELang['lang_iespell_desc'] = 'è¿è¡Œæ‹¼å†™æ£€æŸ¥';
+tinyMCELang['lang_iespell_download'] = "æœªæ£€æµ‹åˆ°ieSpellæ‹¼å†™æ£€æŸ¥ï¼Œç‚¹å‡» OK å‰å¾€ä¸‹è½½é¡µé¢ã€‚"

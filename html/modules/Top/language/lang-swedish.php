@@ -18,19 +18,19 @@
 /**************************************************************************/
 
 define("_CATEGORY","Kategori");
-define("_LVOTES","röster");
-define("_HITS","Träffar");
-define("_TOPWELCOME","Välkommen till TOPP sidan för");
-define("_READSTORIES","mest lästa artiklar");
+define("_LVOTES","rÃ¶ster");
+define("_HITS","TrÃ¤ffar");
+define("_TOPWELCOME","VÃ¤lkommen till TOPP sidan fÃ¶r");
+define("_READSTORIES","mest lÃ¤sta artiklar");
 define("_COMMENTEDSTORIES","mest kommenterade artiklar");
 define("_ACTIVECAT","mest aktiva kategorier");
-define("_READSECTION","mest lästa artiklar i specialavdelningarna");
+define("_READSECTION","mest lÃ¤sta artiklar i specialavdelningarna");
 define("_NEWSSUBMITTERS","mest aktiva bidragspostare");
 define("_NEWSSENT","nyheter skickade");
-define("_VOTEDPOLLS","mest röster i undersökningar");
+define("_VOTEDPOLLS","mest rÃ¶ster i undersÃ¶kningar");
 define("_MOSTACTIVEAUTHORS","mest aktiva skribent");
 define("_NEWSPUBLISHED","nyheter publicerade");
-define("_READREVIEWS","mest lästa recensioner");
+define("_READREVIEWS","mest lÃ¤sta recensioner");
 define("_DOWNLOADEDFILES","mest nedladdade filer");
 define("_MOSTREADPAGES","most read pages");
 define("_MOSTVOTEDSTORIES","most voted stories");

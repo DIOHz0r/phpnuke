@@ -16,15 +16,15 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_PDATE","Data:");
 define("_PTOPIC","Temat:");
-define("_COMESFROM","Artyku³ pochodzi ze strony");
-define("_THEURL","Adres tego artyku³u to:");
+define("_COMESFROM","ArtykuÅ‚ pochodzi ze strony");
+define("_THEURL","Adres tego artykuÅ‚u to:");
 define("_DATE","Data");
-define("_TITLE","Tytu³");
+define("_TITLE","TytuÅ‚");
 
 ?>

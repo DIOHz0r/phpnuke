@@ -175,7 +175,7 @@ define("_HTMLCODE2","Aurreko botoiaren HTML kodea hau da:");
 define("_REMOTEFORM","Urruneko balorazio formularioa");
 define("_PROMOTE04","Tranparik egiten baduzu, zure Lotura kendu egingo dugu. Balorazio formularioa honela agertuko da:");
 define("_VOTE4THISSITE","Toki honeri bozkatu");
-define("_HTMLCODE3","Formulario hau erabiliz, erabiltzaileek zure Tokia baloratu dezakete zure Sisteman eta emaitzak hemen gorde. Aurreko formularioa desaktibatuta dago, baina kode honek funzionatuko du zure tokian orrialde batetan jartzen baduzu. su p·gina. Hau da kodea:");
+define("_HTMLCODE3","Formulario hau erabiliz, erabiltzaileek zure Tokia baloratu dezakete zure Sisteman eta emaitzak hemen gorde. Aurreko formularioa desaktibatuta dago, baina kode honek funzionatuko du zure tokian orrialde batetan jartzen baduzu. su p√°gina. Hau da kodea:");
 define("_PROMOTE05","Eskerrikasko! eta sorte on zure balorazioarekin.");
 define("_STAFF","Txantiloia");
 define("_THANKSBROKEN","Eskerrikasko zure laguntzagatik.");

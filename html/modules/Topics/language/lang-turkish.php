@@ -4,24 +4,24 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Þu Anki Aktif Konular");
-define("_CLICK2LIST","Bu konudaki tüm haberleri görmek için týklayýn");
-define("_TOTNEWS","Tüm Haberler");
-define("_TOTREADS","Tüm Yazýlar");
+define("_ACTIVETOPICS","Åžu Anki Aktif Konular");
+define("_CLICK2LIST","Bu konudaki tÃ¼m haberleri gÃ¶rmek iÃ§in tÄ±klayÄ±n");
+define("_TOTNEWS","TÃ¼m Haberler");
+define("_TOTREADS","TÃ¼m YazÄ±lar");
 define("_MORE","Daha fazla");
-define("_NONEWSYET","...Bu konu için herhengi bir haber bulunmamakta...");
+define("_NONEWSYET","...Bu konu iÃ§in herhengi bir haber bulunmamakta...");
 
 ?>

@@ -18,20 +18,20 @@
 /**************************************************************************/
 
 define("_SEND","Senda");
-define("_FYOURNAME","Nafn şitt:");
-define("_FYOUREMAIL","Netfangiğ şitt:");
-define("_FFRIENDNAME","Nafn vinar şíns:");
-define("_FFRIENDEMAIL","Netfang vinar şíns:");
-define("_HELLO","Sæl(l)");
-define("_YOURFRIEND","Vinur şinn");
-define("_RECOMMEND","Láttu vin şinn vita af şessari síğu");
-define("_INTSITE","Áhugaverğ síğa:");
-define("_OURSITE","er á şví ağ síğan okkar");
-define("_INTSENT","sé mjög áhugaverğ og vildi láta şig vita af henni.");
-define("_FSITENAME","Nafn síğunnar:");
-define("_FSITEURL","Vefslóğ:");
-define("_FREFERENCE","Vísir á síğuna hefur veriğ sendur til");
-define("_THANKSREC","Takk fyrir ağ mæla meğ okkur!");
+define("_FYOURNAME","Nafn Ã¾itt:");
+define("_FYOUREMAIL","NetfangiÃ° Ã¾itt:");
+define("_FFRIENDNAME","Nafn vinar Ã¾Ã­ns:");
+define("_FFRIENDEMAIL","Netfang vinar Ã¾Ã­ns:");
+define("_HELLO","SÃ¦l(l)");
+define("_YOURFRIEND","Vinur Ã¾inn");
+define("_RECOMMEND","LÃ¡ttu vin Ã¾inn vita af Ã¾essari sÃ­Ã°u");
+define("_INTSITE","ÃhugaverÃ° sÃ­Ã°a:");
+define("_OURSITE","er Ã¡ Ã¾vÃ­ aÃ° sÃ­Ã°an okkar");
+define("_INTSENT","sÃ© mjÃ¶g Ã¡hugaverÃ° og vildi lÃ¡ta Ã¾ig vita af henni.");
+define("_FSITENAME","Nafn sÃ­Ã°unnar:");
+define("_FSITEURL","VefslÃ³Ã°:");
+define("_FREFERENCE","VÃ­sir Ã¡ sÃ­Ã°una hefur veriÃ° sendur til");
+define("_THANKSREC","Takk fyrir aÃ° mÃ¦la meÃ° okkur!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

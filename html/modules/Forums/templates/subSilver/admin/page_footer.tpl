@@ -20,5 +20,5 @@
 <a class="copyright" href="http://nukecops.com" target="_blank">Nuke Cops</a><br>
 <br>
   BBtoNuke 2.0.7 by <a class="copyright" href="http://nukecops.com" target="_blank">Nuke 
-  Cops</a> © 2004<a href="http://nukecops.com">http://www.nukecops.com</a></p> 
+  Cops</a> Â© 2004<a href="http://nukecops.com">http://www.nukecops.com</a></p> 
   </span></div>

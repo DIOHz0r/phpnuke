@@ -26,12 +26,12 @@ define("_HELLO","Hej");
 define("_YOURFRIEND","Din kompis");
 define("_RECOMMEND","Rekommendera denna webbplats till en kompis");
 define("_INTSITE","Intressant Webbplats:");
-define("_OURSITE","tyckte att vår webbplats");
-define("_INTSENT","var intressant och ville skicka en länk till dig.");
+define("_OURSITE","tyckte att vÃ¥r webbplats");
+define("_INTSENT","var intressant och ville skicka en lÃ¤nk till dig.");
 define("_FSITENAME","Webbplatsens Namn:");
 define("_FSITEURL","Webbplatsens URL:");
-define("_FREFERENCE","Länken till vår webbplats har skickats till");
-define("_THANKSREC","Tack för att du rekommenderade oss!");
+define("_FREFERENCE","LÃ¤nken till vÃ¥r webbplats har skickats till");
+define("_THANKSREC","Tack fÃ¶r att du rekommenderade oss!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

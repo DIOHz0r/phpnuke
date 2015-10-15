@@ -18,23 +18,23 @@
 /**************************************************************************/
 
 define("_CATEGORY","Flokkur");
-define("_LVOTES","atkvæði");
-define("_HITS","Heimsóknir");
-define("_TOPWELCOME","Velkomin(n) á síðuna yfir vinsælasta efnið hjá");
-define("_READSTORIES","vinsælustu fréttirnar");
-define("_COMMENTEDSTORIES","umtöluðustu fréttirnar");
+define("_LVOTES","atkvÃ¦Ã°i");
+define("_HITS","HeimsÃ³knir");
+define("_TOPWELCOME","Velkomin(n) Ã¡ sÃ­Ã°una yfir vinsÃ¦lasta efniÃ° hjÃ¡");
+define("_READSTORIES","vinsÃ¦lustu frÃ©ttirnar");
+define("_COMMENTEDSTORIES","umtÃ¶luÃ°ustu frÃ©ttirnar");
 define("_ACTIVECAT","virkustu efnisflokkanir");
-define("_READSECTION","mest lesnu greinar í greinasafninu");
-define("_NEWSSUBMITTERS","virkustu fréttaritararnir");
-define("_NEWSSENT","innsendar fréttir");
-define("_VOTEDPOLLS","vinsælustu kannanirnar");
+define("_READSECTION","mest lesnu greinar Ã­ greinasafninu");
+define("_NEWSSUBMITTERS","virkustu frÃ©ttaritararnir");
+define("_NEWSSENT","innsendar frÃ©ttir");
+define("_VOTEDPOLLS","vinsÃ¦lustu kannanirnar");
 define("_MOSTACTIVEAUTHORS","virkustu ritararnir");
-define("_NEWSPUBLISHED","innsendar fréttir");
-define("_READREVIEWS","vinsælustu umsagnirnar");
-define("_DOWNLOADEDFILES","mest sóttu skrárnar");
-define("_MOSTREADPAGES","mest lesnu síðurnar");
-define("_MOSTVOTEDSTORIES","greinar sem flestir hafa greitt atkvæði um");
+define("_NEWSPUBLISHED","innsendar frÃ©ttir");
+define("_READREVIEWS","vinsÃ¦lustu umsagnirnar");
+define("_DOWNLOADEDFILES","mest sÃ³ttu skrÃ¡rnar");
+define("_MOSTREADPAGES","mest lesnu sÃ­Ã°urnar");
+define("_MOSTVOTEDSTORIES","greinar sem flestir hafa greitt atkvÃ¦Ã°i um");
 define("_POINTS","punktar");
-define("_BESTRATEDSTORIES","greinarnar sem fengið hafa hæstu einkunina (byggt á 5 punkta hámarki)");
+define("_BESTRATEDSTORIES","greinarnar sem fengiÃ° hafa hÃ¦stu einkunina (byggt Ã¡ 5 punkta hÃ¡marki)");
 
 ?>

@@ -17,26 +17,26 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","ÇáÕÝÍÉ ÇáÓÇÈÞÉ");
-define("_NEXT","ÇáÕÝÍÉ ÇáÊÇáíÉ");
-define("_SEARCHRESULTS","äÊÇÆÌ ÇáÈÍË");
-define("_PAGE","ÕÝÍÉ");
-define("_RETURNTO","ÚæÏÉ Çáì");
-define("_DEACTIVATE","ÊÚØíá");
-define("_ACTIVATE","ÊäÔíØ");
-define("_ENCYCLOPEDIA","ÇáãæÓæÚÇÊ");
-define("_NOCONTENTFORLETTER","ÚÝæÇ ¡ áÇíæÌÏ äÊÇÆÌ áåÐÇ ÇáÍÑÝ");
-define("_ENCYSELECTLETTER","ÇáÑÌÇÁ ÃÎÊíÇÑ ÍÑÝ ãä ÇáÞÇÆãÉ áÚÑÖ ÇáãÕØáÍÇÊ:");
-define("_COPYRIGHT","ÍÞæÞ ÇáäÓÎ &copy; ÈæÇÓØÉ $sitename. ÌãíÚ ÇáÍÞæÞ ãÍÝæÙÉ.");
-define("_YOURADMINENCY","ÃäÊ ÇáãÔÑÝ , åÐå ÇáãæÓæÚÉ ÛíÑ äÔíØÉ !");
-define("_ENCYNOTACTIVE","ÚÝæÇ¡åÐå ÇáãæÓæÚÉ ÛíÑ äÔíØÉ  ÍÇáíÇ.");
-define("_AVAILABLEENCYLIST","ÞÇÆãÉ ÇáãæÓæÚÇÊ ÇáãÊÇÍÉ ÈÇáÏøÇÎá");
-define("_YOURADMININACTIVELIST","ÃäÊ ÇáãÔÑÝ: ÞÇÆãÉ ÇáãæÓæÚÇÊ ÇáãÚØáÉ ßÇáÊÇáí:");
-define("_NORESULTSTEXT","áÇ íæÌÏ äÊÇÆÌ Ýí ÔÑÍ ÇáãÕØáÍÇÊ...");
-define("_NORESULTSTITLE","áÇ íæÌÏ äÊÇÆÌ Ýí ÚäÇæííä ÇáãÕØáÍÇÊ...");
-define("_SEARCHRESULTSFOR","äÊÇÆÌ ÇáÈÍË á:");
-define("_SEARCHNOTCOMPLETE","ÇáÑÌÇÁ ÇáãÍÇæáÉ ãÑÉ ÃÎÑì. ÎíÇÑÇÊ ÇáÈÍË ÛíÑ ãßÊãáÉ.");
-define("_RESULTSINTERMTITLE","ÇáäÊÇÆÌ Ýí ÚäÇæííä ÇáãÕØáÍÇÊ:");
-define("_RESULTSINTERMTEXT","ÇáäÊÇÆÌ Ýí ÔÑÍ ÇáãÕØáÍÇÊ:");
+define("_PREVIOUS","Ø§Ù„ØµÙØ­Ø© Ø§Ù„Ø³Ø§Ø¨Ù‚Ø©");
+define("_NEXT","Ø§Ù„ØµÙØ­Ø© Ø§Ù„ØªØ§Ù„ÙŠØ©");
+define("_SEARCHRESULTS","Ù†ØªØ§Ø¦Ø¬ Ø§Ù„Ø¨Ø­Ø«");
+define("_PAGE","ØµÙØ­Ø©");
+define("_RETURNTO","Ø¹ÙˆØ¯Ø© Ø§Ù„Ù‰");
+define("_DEACTIVATE","ØªØ¹Ø·ÙŠÙ„");
+define("_ACTIVATE","ØªÙ†Ø´ÙŠØ·");
+define("_ENCYCLOPEDIA","Ø§Ù„Ù…ÙˆØ³ÙˆØ¹Ø§Øª");
+define("_NOCONTENTFORLETTER","Ø¹ÙÙˆØ§ ØŒ Ù„Ø§ÙŠÙˆØ¬Ø¯ Ù†ØªØ§Ø¦Ø¬ Ù„Ù‡Ø°Ø§ Ø§Ù„Ø­Ø±Ù");
+define("_ENCYSELECTLETTER","Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø£Ø®ØªÙŠØ§Ø± Ø­Ø±Ù Ù…Ù† Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ù„Ø¹Ø±Ø¶ Ø§Ù„Ù…ØµØ·Ù„Ø­Ø§Øª:");
+define("_COPYRIGHT","Ø­Ù‚ÙˆÙ‚ Ø§Ù„Ù†Ø³Ø® &copy; Ø¨ÙˆØ§Ø³Ø·Ø© $sitename. Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø­Ù‚ÙˆÙ‚ Ù…Ø­ÙÙˆØ¸Ø©.");
+define("_YOURADMINENCY","Ø£Ù†Øª Ø§Ù„Ù…Ø´Ø±Ù , Ù‡Ø°Ù‡ Ø§Ù„Ù…ÙˆØ³ÙˆØ¹Ø© ØºÙŠØ± Ù†Ø´ÙŠØ·Ø© !");
+define("_ENCYNOTACTIVE","Ø¹ÙÙˆØ§ØŒÙ‡Ø°Ù‡ Ø§Ù„Ù…ÙˆØ³ÙˆØ¹Ø© ØºÙŠØ± Ù†Ø´ÙŠØ·Ø©  Ø­Ø§Ù„ÙŠØ§.");
+define("_AVAILABLEENCYLIST","Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…ÙˆØ³ÙˆØ¹Ø§Øª Ø§Ù„Ù…ØªØ§Ø­Ø© Ø¨Ø§Ù„Ø¯Ù‘Ø§Ø®Ù„");
+define("_YOURADMININACTIVELIST","Ø£Ù†Øª Ø§Ù„Ù…Ø´Ø±Ù: Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…ÙˆØ³ÙˆØ¹Ø§Øª Ø§Ù„Ù…Ø¹Ø·Ù„Ø© ÙƒØ§Ù„ØªØ§Ù„ÙŠ:");
+define("_NORESULTSTEXT","Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ù†ØªØ§Ø¦Ø¬ ÙÙŠ Ø´Ø±Ø­ Ø§Ù„Ù…ØµØ·Ù„Ø­Ø§Øª...");
+define("_NORESULTSTITLE","Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ù†ØªØ§Ø¦Ø¬ ÙÙŠ Ø¹Ù†Ø§ÙˆÙŠÙŠÙ† Ø§Ù„Ù…ØµØ·Ù„Ø­Ø§Øª...");
+define("_SEARCHRESULTSFOR","Ù†ØªØ§Ø¦Ø¬ Ø§Ù„Ø¨Ø­Ø« Ù„:");
+define("_SEARCHNOTCOMPLETE","Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù…Ø±Ø© Ø£Ø®Ø±Ù‰. Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„Ø¨Ø­Ø« ØºÙŠØ± Ù…ÙƒØªÙ…Ù„Ø©.");
+define("_RESULTSINTERMTITLE","Ø§Ù„Ù†ØªØ§Ø¦Ø¬ ÙÙŠ Ø¹Ù†Ø§ÙˆÙŠÙŠÙ† Ø§Ù„Ù…ØµØ·Ù„Ø­Ø§Øª:");
+define("_RESULTSINTERMTEXT","Ø§Ù„Ù†ØªØ§Ø¦Ø¬ ÙÙŠ Ø´Ø±Ø­ Ø§Ù„Ù…ØµØ·Ù„Ø­Ø§Øª:");
 
 ?>

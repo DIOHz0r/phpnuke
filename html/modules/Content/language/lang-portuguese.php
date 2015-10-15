@@ -20,22 +20,22 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
+/* Rui CristovÃ£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
-define("_PREVIOUS","Página Anterior");
-define("_NEXT","Página Seguinte");
-define("_PAGE","Página");
+define("_PREVIOUS","PÃ¡gina Anterior");
+define("_NEXT","PÃ¡gina Seguinte");
+define("_PAGE","PÃ¡gina");
 define("_DEACTIVATE","Desactivar");
 define("_ACTIVATE","Activo");
 define("_PUBLISHEDON","Publicado em");
-define("_PAGESLIST","Lista de Páginas");
-define("_LISTOFCONTENT","Lista do conteúdo disponivel em");
-define("_YOURADMINLIST","Você é Administrados: Segue-se a lista de páginas inactivas:");
+define("_PAGESLIST","Lista de PÃ¡ginas");
+define("_LISTOFCONTENT","Lista do conteÃºdo disponivel em");
+define("_YOURADMINLIST","VocÃª Ã© Administrados: Segue-se a lista de pÃ¡ginas inactivas:");
 define("_COPYRIGHT","Copyright &copia; por");
 define("_COPYRIGHT2","Todos os direitos reservados.");
-define("_CONTENTCATEGORIES","Conteúdo das Categorias Disponíveis");
-define("_NONCLASSCONT","Conteúdo não categorisado");
+define("_CONTENTCATEGORIES","ConteÃºdo das Categorias DisponÃ­veis");
+define("_NONCLASSCONT","ConteÃºdo nÃ£o categorisado");
 
 ?>

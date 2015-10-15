@@ -18,26 +18,26 @@
 /**************************************************************************/
 
 
-define("_FUNCTIONS","Функции");
-define("_YES","Да");
-define("_NO","Нет");
-define("_SAVE","Сохранить");
+define("_FUNCTIONS","Р¤СѓРЅРєС†РёРё");
+define("_YES","Р”Р°");
+define("_NO","РќРµС‚");
+define("_SAVE","РЎРѕС…СЂР°РЅРёС‚СЊ");
 define("_ID","ID");
-define("_CATEGORIES","Категории");
-define("_ALL","ВСЕ");
-define("_FAQ","ЧаВо?");
+define("_CATEGORIES","РљР°С‚РµРіРѕСЂРёРё");
+define("_ALL","Р’РЎР•");
+define("_FAQ","Р§Р°Р’Рѕ?");
 define("_CONTENT","Content");
-define("_FAQADMIN","ЧаВо?");
-define("_ACTIVEFAQS","Включить");
-define("_ADDCATEGORY","Добавить категорию");
-define("_QUESTIONS","Вопросы и ответы");
-define("_ADDQUESTION","Добавить новый вопрос");
-define("_QUESTION","Вопрос");
-define("_ANSWER","Ответ");
-define("_EDITCATEGORY","Редактировать категорию");
-define("_EDITQUESTIONS","Редактировать вопросы и ответы");
-define("_FAQDELWARNING","удалить?");
-define("_QUESTIONDEL","удалить?");
+define("_FAQADMIN","Р§Р°Р’Рѕ?");
+define("_ACTIVEFAQS","Р’РєР»СЋС‡РёС‚СЊ");
+define("_ADDCATEGORY","Р”РѕР±Р°РІРёС‚СЊ РєР°С‚РµРіРѕСЂРёСЋ");
+define("_QUESTIONS","Р’РѕРїСЂРѕСЃС‹ Рё РѕС‚РІРµС‚С‹");
+define("_ADDQUESTION","Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІС‹Р№ РІРѕРїСЂРѕСЃ");
+define("_QUESTION","Р’РѕРїСЂРѕСЃ");
+define("_ANSWER","РћС‚РІРµС‚");
+define("_EDITCATEGORY","Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ РєР°С‚РµРіРѕСЂРёСЋ");
+define("_EDITQUESTIONS","Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ РІРѕРїСЂРѕСЃС‹ Рё РѕС‚РІРµС‚С‹");
+define("_FAQDELWARNING","СѓРґР°Р»РёС‚СЊ?");
+define("_QUESTIONDEL","СѓРґР°Р»РёС‚СЊ?");
 define("_LANGUAGE","Language");
 
 

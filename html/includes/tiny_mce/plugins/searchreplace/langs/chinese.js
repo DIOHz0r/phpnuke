@@ -1,19 +1,19 @@
 // Simplified Chinese lang variables contributed by cube316 (cube316@etang.com)
 
-tinyMCELang['lang_searchreplace_search_desc'] = '²éÕÒ';
-tinyMCELang['lang_searchreplace_searchnext_desc'] = 'ÔÙ´Î²éÕÒ';
-tinyMCELang['lang_searchreplace_replace_desc'] = '²éÕÒ/Ìæ»»';
-tinyMCELang['lang_searchreplace_notfound'] = 'ËÑË÷Íê±Ï£¬Ã»ÓĞÕÒµ½Òª²éÕÒµÄ×Ö·û´®¡£';
-tinyMCELang['lang_searchreplace_search_title'] = '²éÕÒ';
-tinyMCELang['lang_searchreplace_replace_title'] = '²éÕÒ/Ìæ»»';
-tinyMCELang['lang_searchreplace_allreplaced'] = 'ËùÓĞ³öÏÖµÄ×Ö·û´®ÒÑÌæ»»Íê±Ï¡£';
-tinyMCELang['lang_searchreplace_findwhat'] = '²éÕÒ';
-tinyMCELang['lang_searchreplace_replacewith'] = 'Ìæ»»Îª';
-tinyMCELang['lang_searchreplace_direction'] = '·½Ïò';
-tinyMCELang['lang_searchreplace_up'] = 'ÏòÉÏ';
-tinyMCELang['lang_searchreplace_down'] = 'ÏòÏÂ';
-tinyMCELang['lang_searchreplace_case'] = 'Æ¥Åä´óĞ¡Ğ´';
-tinyMCELang['lang_searchreplace_findnext'] = '²éÕÒÏÂÒ»¸ö';
-tinyMCELang['lang_searchreplace_replace'] = 'Ìæ»»';
-tinyMCELang['lang_searchreplace_replaceall'] = 'È«²¿Ìæ»»';
-tinyMCELang['lang_searchreplace_cancel'] = 'È¡Ïû';
+tinyMCELang['lang_searchreplace_search_desc'] = 'æŸ¥æ‰¾';
+tinyMCELang['lang_searchreplace_searchnext_desc'] = 'å†æ¬¡æŸ¥æ‰¾';
+tinyMCELang['lang_searchreplace_replace_desc'] = 'æŸ¥æ‰¾/æ›¿æ¢';
+tinyMCELang['lang_searchreplace_notfound'] = 'æœç´¢å®Œæ¯•ï¼Œæ²¡æœ‰æ‰¾åˆ°è¦æŸ¥æ‰¾çš„å­—ç¬¦ä¸²ã€‚';
+tinyMCELang['lang_searchreplace_search_title'] = 'æŸ¥æ‰¾';
+tinyMCELang['lang_searchreplace_replace_title'] = 'æŸ¥æ‰¾/æ›¿æ¢';
+tinyMCELang['lang_searchreplace_allreplaced'] = 'æ‰€æœ‰å‡ºç°çš„å­—ç¬¦ä¸²å·²æ›¿æ¢å®Œæ¯•ã€‚';
+tinyMCELang['lang_searchreplace_findwhat'] = 'æŸ¥æ‰¾';
+tinyMCELang['lang_searchreplace_replacewith'] = 'æ›¿æ¢ä¸º';
+tinyMCELang['lang_searchreplace_direction'] = 'æ–¹å‘';
+tinyMCELang['lang_searchreplace_up'] = 'å‘ä¸Š';
+tinyMCELang['lang_searchreplace_down'] = 'å‘ä¸‹';
+tinyMCELang['lang_searchreplace_case'] = 'åŒ¹é…å¤§å°å†™';
+tinyMCELang['lang_searchreplace_findnext'] = 'æŸ¥æ‰¾ä¸‹ä¸€ä¸ª';
+tinyMCELang['lang_searchreplace_replace'] = 'æ›¿æ¢';
+tinyMCELang['lang_searchreplace_replaceall'] = 'å…¨éƒ¨æ›¿æ¢';
+tinyMCELang['lang_searchreplace_cancel'] = 'å–æ¶ˆ';

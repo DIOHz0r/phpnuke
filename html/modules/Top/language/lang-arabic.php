@@ -17,24 +17,24 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","ÊÕäíÝ");
-define("_LVOTES","ÃÕæÇÊ");
+define("_CATEGORY","ØªØµÙ†ÙŠÙ");
+define("_LVOTES","Ø£ØµÙˆØ§Øª");
 define("_HITS","Hits");
-define("_TOPWELCOME","ãÑÍÈÇ Èß Ýí ÕÝÍÉ ÃÝÖá ÇáãÞÇáÇÊ áÏì");
-define("_READSTORIES","ÇáãÞÇáÇÊ ÇáÃßËÑ ÞÑÇÁÉ");
-define("_COMMENTEDSTORIES","ÇáãÞÇáÇÊ ÇáÃßËÑ ÊÚáíÞÇ");
-define("_ACTIVECAT","ÇáÊÕÇäíÝ ÇáÃßËÑ äÔÇØÇ");
-define("_READSECTION","ÇáãÞÇáÇÊ ÇáÃßËÑ ÞÑÇÁÉ Ýí ÇáÃÞÓÇã ÇáÎÇÕÉ");
-define("_NEWSSUBMITTERS","ÇáÃÚÖÇÁ ÇáÃäÔØ ÅÑÓÇáÇ ááÃÎÈÇÑ");
-define("_NEWSSENT","ÇáÃÎÈÇÑ ÇáãÑÓáÉ");
-define("_VOTEDPOLLS","ÇáÅÓÊÝÊÇÁÇÊ ÇáÃßËÑ ÊÕæíÊÇ");
-define("_MOSTACTIVEAUTHORS","ÇáßÊÇÈ ÇáÃßËÑ äÔÇØÇ");
-define("_NEWSPUBLISHED","ÃÎÈÇÑ ãäÔæÑÉ");
-define("_READREVIEWS","ÇáãÑÇÌÚÇÊ ÇáÃßËÑ ÞÑÇÁÉ");
-define("_DOWNLOADEDFILES","ÇáãáÝÇÊ ÇáÃßËÑ ÊÍãíáÇ");
-define("_MOSTREADPAGES","ÃßËÑ ÇáÕÝÍÇÊ ÞÑÇÁÉ");
-define("_MOSTVOTEDSTORIES","ÇáãÞÇá ÇáÃÝÖá ÊÑÔíÍÇ");
-define("_POINTS","äÞØÉ/äÞÇØ");
-define("_BESTRATEDSTORIES","ÃÝÖá ãÞÇá ãÑÔÍ (ÈäÇÁÇ Úáì ÃÚáì 5 äÞÇØ)");
+define("_TOPWELCOME","Ù…Ø±Ø­Ø¨Ø§ Ø¨Ùƒ ÙÙŠ ØµÙØ­Ø© Ø£ÙØ¶Ù„ Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª Ù„Ø¯Ù‰");
+define("_READSTORIES","Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª Ø§Ù„Ø£ÙƒØ«Ø± Ù‚Ø±Ø§Ø¡Ø©");
+define("_COMMENTEDSTORIES","Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª Ø§Ù„Ø£ÙƒØ«Ø± ØªØ¹Ù„ÙŠÙ‚Ø§");
+define("_ACTIVECAT","Ø§Ù„ØªØµØ§Ù†ÙŠÙ Ø§Ù„Ø£ÙƒØ«Ø± Ù†Ø´Ø§Ø·Ø§");
+define("_READSECTION","Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª Ø§Ù„Ø£ÙƒØ«Ø± Ù‚Ø±Ø§Ø¡Ø© ÙÙŠ Ø§Ù„Ø£Ù‚Ø³Ø§Ù… Ø§Ù„Ø®Ø§ØµØ©");
+define("_NEWSSUBMITTERS","Ø§Ù„Ø£Ø¹Ø¶Ø§Ø¡ Ø§Ù„Ø£Ù†Ø´Ø· Ø¥Ø±Ø³Ø§Ù„Ø§ Ù„Ù„Ø£Ø®Ø¨Ø§Ø±");
+define("_NEWSSENT","Ø§Ù„Ø£Ø®Ø¨Ø§Ø± Ø§Ù„Ù…Ø±Ø³Ù„Ø©");
+define("_VOTEDPOLLS","Ø§Ù„Ø¥Ø³ØªÙØªØ§Ø¡Ø§Øª Ø§Ù„Ø£ÙƒØ«Ø± ØªØµÙˆÙŠØªØ§");
+define("_MOSTACTIVEAUTHORS","Ø§Ù„ÙƒØªØ§Ø¨ Ø§Ù„Ø£ÙƒØ«Ø± Ù†Ø´Ø§Ø·Ø§");
+define("_NEWSPUBLISHED","Ø£Ø®Ø¨Ø§Ø± Ù…Ù†Ø´ÙˆØ±Ø©");
+define("_READREVIEWS","Ø§Ù„Ù…Ø±Ø§Ø¬Ø¹Ø§Øª Ø§Ù„Ø£ÙƒØ«Ø± Ù‚Ø±Ø§Ø¡Ø©");
+define("_DOWNLOADEDFILES","Ø§Ù„Ù…Ù„ÙØ§Øª Ø§Ù„Ø£ÙƒØ«Ø± ØªØ­Ù…ÙŠÙ„Ø§");
+define("_MOSTREADPAGES","Ø£ÙƒØ«Ø± Ø§Ù„ØµÙØ­Ø§Øª Ù‚Ø±Ø§Ø¡Ø©");
+define("_MOSTVOTEDSTORIES","Ø§Ù„Ù…Ù‚Ø§Ù„ Ø§Ù„Ø£ÙØ¶Ù„ ØªØ±Ø´ÙŠØ­Ø§");
+define("_POINTS","Ù†Ù‚Ø·Ø©/Ù†Ù‚Ø§Ø·");
+define("_BESTRATEDSTORIES","Ø£ÙØ¶Ù„ Ù…Ù‚Ø§Ù„ Ù…Ø±Ø´Ø­ (Ø¨Ù†Ø§Ø¡Ø§ Ø¹Ù„Ù‰ Ø£Ø¹Ù„Ù‰ 5 Ù†Ù‚Ø§Ø·)");
 
 ?>

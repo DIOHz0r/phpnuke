@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","Òàê");
-define("_NO","Í³");
-define("_TOPICSMANAGER","Êåðóâàííÿ òåìàìè");
-define("_DELETETOPIC","Âèòåðòè òåìó");
-define("_TOPICDELSURE","Âè ä³éñíî õî÷åòå âèòåðòè òåìó");
-define("_TOPICDELSURE1","Öå ïðèâåäå äî âèòèðàííÿ âñ³õ ñòàòåé ïî ö³é òåì³ ³ âñ³õ êîìåíòàð³â äî íèõ!");
+define("_YES","Ð¢Ð°Ðº");
+define("_NO","ÐÑ–");
+define("_TOPICSMANAGER","ÐšÐµÑ€ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚ÐµÐ¼Ð°Ð¼Ð¸");
+define("_DELETETOPIC","Ð’Ð¸Ñ‚ÐµÑ€Ñ‚Ð¸ Ñ‚ÐµÐ¼Ñƒ");
+define("_TOPICDELSURE","Ð’Ð¸ Ð´Ñ–Ð¹ÑÐ½Ð¾ Ñ…Ð¾Ñ‡ÐµÑ‚Ðµ Ð²Ð¸Ñ‚ÐµÑ€Ñ‚Ð¸ Ñ‚ÐµÐ¼Ñƒ");
+define("_TOPICDELSURE1","Ð¦Ðµ Ð¿Ñ€Ð¸Ð²ÐµÐ´Ðµ Ð´Ð¾ Ð²Ð¸Ñ‚Ð¸Ñ€Ð°Ð½Ð½Ñ Ð²ÑÑ–Ñ… ÑÑ‚Ð°Ñ‚ÐµÐ¹ Ð¿Ð¾ Ñ†Ñ–Ð¹ Ñ‚ÐµÐ¼Ñ– Ñ– Ð²ÑÑ–Ñ… ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ–Ð² Ð´Ð¾ Ð½Ð¸Ñ…!");
 
 
 ?>

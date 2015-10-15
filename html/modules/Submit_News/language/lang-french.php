@@ -43,21 +43,21 @@ define("_SUBSENT","Nous avons re&ccedil;u votre article...");
 define("_SUBTEXT","Nous examinerons votre proposition dans quelques heures; si elle est int&eacute;ressante et '&agrave; propos', nous la publierons prochainement.");
 define("_WEHAVESUB","En ce moment, nous avons");
 define("_WAITING","proposition(s) en attente de publication.");
-define("_PREVIEW","Prévisualisation");
+define("_PREVIEW","PrÃ©visualisation");
 define("_NEWUSER","Nouvel Utilisateur");
 define("_USCORE","Score");
 define("_DATE","Date");
 define("_STORYTEXT","Texte de l'article");
 define("_EXTENDEDTEXT","Suite du Texte");
 define("_LANGUAGE","Langue");
-define("_SELECTMONTH2VIEW","Merci de séléctionner le mois que vous voulez voir :");
+define("_SELECTMONTH2VIEW","Merci de sÃ©lÃ©ctionner le mois que vous voulez voir :");
 define("_SHOWALLSTORIES","Voir TOUS les articles");
 define("_STORIESARCHIVE","Archives des articles");
 define("_ACTIONS","Actions");
 define("_ARCHIVESINDEX","Index des Archives des articles");
 define("_ALLSTORIESARCH","TOUS les articles");
 define("_NEXTPAGE","Page suivante");
-define("_PREVIOUSPAGE","Page précédente");
+define("_PREVIOUSPAGE","Page prÃ©cÃ©dente");
 
 
 ?>

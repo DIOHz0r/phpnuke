@@ -22,11 +22,11 @@
 /**************************************************************************/
 
 
-define("_ACTIVETOPICS","Tópicos ativos atualmente");
-define("_CLICK2LIST","Clique para listar todas as notícias deste Tópico");
-define("_TOTNEWS","Total de notícias");
-define("_TOTREADS","Total de visualizações");
+define("_ACTIVETOPICS","TÃ³picos ativos atualmente");
+define("_CLICK2LIST","Clique para listar todas as notÃ­cias deste TÃ³pico");
+define("_TOTNEWS","Total de notÃ­cias");
+define("_TOTREADS","Total de visualizaÃ§Ãµes");
 define("_MORE","Mais...");
-define("_NONEWSYET","...Ainda não há nenhuma notícia neste Tópico...");
+define("_NONEWSYET","...Ainda nÃ£o hÃ¡ nenhuma notÃ­cia neste TÃ³pico...");
 
 ?>

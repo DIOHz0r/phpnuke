@@ -25,8 +25,8 @@ define("_CATEGORY","Categoria");
 define("_CATEGORIES","Categorias");
 define("_FAQ2","FAQ (Perguntas Frequentes)");
 define("_BACKTOTOP","Voltar ao TOP");
-define("_BACKTOFAQINDEX","Voltar ao Ìndice do FAQ");
-define("_MAIN","Õndice");
+define("_BACKTOFAQINDEX","Voltar ao √≠ndice do FAQ");
+define("_MAIN","√çndice");
 define("_QUESTION","Pergunta");
 define("_ANSWER","Resposta");
 

@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Tere,
 
-Kasutaja "{USERNAME}" konto deaktiveeritud vıi ‰sja loodud - uuri kasutaja infot (kui pead seda vajalikuks) ja aktiveeri konto kasutades j‰rgnevat linki:
+Kasutaja "{USERNAME}" konto deaktiveeritud v√µi √§sja loodud - uuri kasutaja infot (kui pead seda vajalikuks) ja aktiveeri konto kasutades j√§rgnevat linki:
 
 {U_ACTIVATE}
 

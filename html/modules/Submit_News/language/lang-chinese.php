@@ -17,64 +17,64 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","¤Íµ½¦C¦L®æ¦¡");
-define("_FRIEND","±Hµ¹ªB¤Í");
+define("_PRINTER","å‹å–„åˆ—å°æ ¼å¼");
+define("_FRIEND","å¯„çµ¦æœ‹å‹");
 
-define("_YOURNAME","±zªº¦W¦r");
+define("_YOURNAME","æ‚¨çš„åå­—");
 
-define("_OK","½T©w");
+define("_OK","ç¢ºå®š");
 
 
-define("_ALLOWEDHTML","¤¹³\HTML»yªk¡G");
-define("_EXTRANS","Extrans (html tags to ¥»¤å)");
-define("_HTMLFORMATED","HTML®æ¦¡");
-define("_PLAINTEXT","¤@¯ë¤å¦r®æ¦¡");
-define("_ARTICLES","¤å³¹");
-define("_SUBMITNEWS","§ë»¼·s»D");
-define("_SUBMITADVICE","½Ğ¨Ì·Ó®æ¦¡¶ñ¼g±zªº³ø¾É¨ÃÀË¬d«á§ë»¼<br>¨Ã«D©Ò¦³ªº§ë»¼³£·|³Qµoªí<br>§Ú­Ìªº½s¿è¥i¯à·|¹ï±zªº§ë»¼¤º®e°µ¾A«×ªº­×§ï");
-define("_SUBTITLE","¼ĞÃD");
-define("_BEDESCRIPTIVE","½ĞÂ²³æ§ã­n¡A²M·¡¦a´y­z");
-define("_BADTITLES","¤£¨}ªº¼ĞÃD¬°='·Ó¹L¨Ó¡I' ©Î '¤@½g¤å³¹'");
+define("_ALLOWEDHTML","å…è¨±HTMLèªæ³•ï¼š");
+define("_EXTRANS","Extrans (html tags to æœ¬æ–‡)");
+define("_HTMLFORMATED","HTMLæ ¼å¼");
+define("_PLAINTEXT","ä¸€èˆ¬æ–‡å­—æ ¼å¼");
+define("_ARTICLES","æ–‡ç« ");
+define("_SUBMITNEWS","æŠ•éæ–°è");
+define("_SUBMITADVICE","è«‹ä¾ç…§æ ¼å¼å¡«å¯«æ‚¨çš„å ±å°ä¸¦æª¢æŸ¥å¾ŒæŠ•é<br>ä¸¦éæ‰€æœ‰çš„æŠ•ééƒ½æœƒè¢«ç™¼è¡¨<br>æˆ‘å€‘çš„ç·¨è¼¯å¯èƒ½æœƒå°æ‚¨çš„æŠ•éå…§å®¹åšé©åº¦çš„ä¿®æ”¹");
+define("_SUBTITLE","æ¨™é¡Œ");
+define("_BEDESCRIPTIVE","è«‹ç°¡å–®æ‰¼è¦ï¼Œæ¸…æ¥šåœ°æè¿°");
+define("_BADTITLES","ä¸è‰¯çš„æ¨™é¡Œç‚º='ç…§éä¾†ï¼' æˆ– 'ä¸€ç¯‡æ–‡ç« '");
 
-define("_HTMLISFINE","¥i¥H¨Ï¥ÎHTML¡A¦ı½Ğ¥J²ÓÀË¬d»yªk");
-define("_AREYOUSURE","½Ğ½T©wºô¯¸Ãìµ²ªº¦³®Ä©Ê");
-define("_SUBPREVIEW","¦b§ë»¼¤§«e½Ğ¥ı¹wÄı¨ÃÀË¬d");
-define("_SELECTTOPIC","¿ï¾Ü·s»D¥DÃD");
-define("_NEWSUBPREVIEW","¹wÄı§ë»¼·s»D");
-define("_STORYLOOK","±zªº³ø¾É±N·|¥Î¦¹ºØ¤è¦¡§e²{¡G");
-define("_CHECKSTORY","¦b±H¥X±zªº³ø¾É¤§«e¡A½ĞÀË¬d±zªº¥»¤å»Pºô¯¸Ãìµ²");
-define("_THANKSSUB","·PÁÂ±zªº§ë»¼¡I");
-define("_SUBSENT","±zªº¤å³¹¤w¸g³Q§Ú­Ì¦¬¨ì...");
-define("_SUBTEXT","§Ú­Ì·|¦b´X¤p®É¤ºÀË¬d±zªº§ë»¼¡A¤º®e½T©wµL»~«á§Ú­Ì´N·|µoªí");
-define("_WEHAVESUB","¥Ø«e§Ú­Ì¦³");
-define("_WAITING","¥÷§ë»¼µ¥«İ³Qµoªí");
-define("_PREVIEW","¹wÄı");
-define("_NEWUSER","·s¨Ï¥ÎªÌ");
-define("_USCORE","¤À¼Æ");
-define("_DATE","¤é´Á");
-define("_STORYTEXT","³ø¾É¥»¤å");
-define("_EXTENDEDTEXT","©µ¦ù¥»¤å");
-define("_LANGUAGE","»y¨¥");
-define("_JANUARY","¤@¤ë");
-define("_FEBRUARY","¤G¤ë");
-define("_MARCH","¤T¤ë");
-define("_APRIL","¥|¤ë");
-define("_MAY","¤­¤ë");
-define("_JUNE","¤»¤ë");
-define("_JULY","¤C¤ë");
-define("_AUGUST","¤K¤ë");
-define("_SEPTEMBER","¤E¤ë");
-define("_OCTOBER","¤Q¤ë");
-define("_NOVEMBER","¤Q¤@¤ë");
-define("_DECEMBER","¤Q¤G¤ë");
-define("_SELECTMONTH2VIEW","½Ğ¿ï¾Ü±z­n¬İªº¤ë¥÷:");
-define("_SHOWALLSTORIES","Åã¥Ü©Ò¦³ªº¤å³¹");
-define("_STORIESARCHIVE","¤å³¹¸ê®Æ®w");
-define("_ACTIONS","¦æ°Ê");
-define("_ARCHIVESINDEX","¤å³¹¸ê®Æ®w¯Á¤Ş");
-define("_ALLSTORIESARCH","©Ò¦³¤å³¹");
-define("_NEXTPAGE","¤U¤@­¶");
-define("_PREVIOUSPAGE","¤W¤@­¶");
+define("_HTMLISFINE","å¯ä»¥ä½¿ç”¨HTMLï¼Œä½†è«‹ä»”ç´°æª¢æŸ¥èªæ³•");
+define("_AREYOUSURE","è«‹ç¢ºå®šç¶²ç«™éˆçµçš„æœ‰æ•ˆæ€§");
+define("_SUBPREVIEW","åœ¨æŠ•éä¹‹å‰è«‹å…ˆé è¦½ä¸¦æª¢æŸ¥");
+define("_SELECTTOPIC","é¸æ“‡æ–°èä¸»é¡Œ");
+define("_NEWSUBPREVIEW","é è¦½æŠ•éæ–°è");
+define("_STORYLOOK","æ‚¨çš„å ±å°å°‡æœƒç”¨æ­¤ç¨®æ–¹å¼å‘ˆç¾ï¼š");
+define("_CHECKSTORY","åœ¨å¯„å‡ºæ‚¨çš„å ±å°ä¹‹å‰ï¼Œè«‹æª¢æŸ¥æ‚¨çš„æœ¬æ–‡èˆ‡ç¶²ç«™éˆçµ");
+define("_THANKSSUB","æ„Ÿè¬æ‚¨çš„æŠ•éï¼");
+define("_SUBSENT","æ‚¨çš„æ–‡ç« å·²ç¶“è¢«æˆ‘å€‘æ”¶åˆ°...");
+define("_SUBTEXT","æˆ‘å€‘æœƒåœ¨å¹¾å°æ™‚å…§æª¢æŸ¥æ‚¨çš„æŠ•éï¼Œå…§å®¹ç¢ºå®šç„¡èª¤å¾Œæˆ‘å€‘å°±æœƒç™¼è¡¨");
+define("_WEHAVESUB","ç›®å‰æˆ‘å€‘æœ‰");
+define("_WAITING","ä»½æŠ•éç­‰å¾…è¢«ç™¼è¡¨");
+define("_PREVIEW","é è¦½");
+define("_NEWUSER","æ–°ä½¿ç”¨è€…");
+define("_USCORE","åˆ†æ•¸");
+define("_DATE","æ—¥æœŸ");
+define("_STORYTEXT","å ±å°æœ¬æ–‡");
+define("_EXTENDEDTEXT","å»¶ä¼¸æœ¬æ–‡");
+define("_LANGUAGE","èªè¨€");
+define("_JANUARY","ä¸€æœˆ");
+define("_FEBRUARY","äºŒæœˆ");
+define("_MARCH","ä¸‰æœˆ");
+define("_APRIL","å››æœˆ");
+define("_MAY","äº”æœˆ");
+define("_JUNE","å…­æœˆ");
+define("_JULY","ä¸ƒæœˆ");
+define("_AUGUST","å…«æœˆ");
+define("_SEPTEMBER","ä¹æœˆ");
+define("_OCTOBER","åæœˆ");
+define("_NOVEMBER","åä¸€æœˆ");
+define("_DECEMBER","åäºŒæœˆ");
+define("_SELECTMONTH2VIEW","è«‹é¸æ“‡æ‚¨è¦çœ‹çš„æœˆä»½:");
+define("_SHOWALLSTORIES","é¡¯ç¤ºæ‰€æœ‰çš„æ–‡ç« ");
+define("_STORIESARCHIVE","æ–‡ç« è³‡æ–™åº«");
+define("_ACTIONS","è¡Œå‹•");
+define("_ARCHIVESINDEX","æ–‡ç« è³‡æ–™åº«ç´¢å¼•");
+define("_ALLSTORIESARCH","æ‰€æœ‰æ–‡ç« ");
+define("_NEXTPAGE","ä¸‹ä¸€é ");
+define("_PREVIOUSPAGE","ä¸Šä¸€é ");
 
 
 ?>

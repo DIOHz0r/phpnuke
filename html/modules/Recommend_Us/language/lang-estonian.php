@@ -20,19 +20,19 @@
 define("_SEND","Saada");
 define("_FYOURNAME","Sinu nimi:");
 define("_FYOUREMAIL","Sinu e-mail:");
-define("_FFRIENDNAME","Sinu sıbra nimi:");
-define("_FFRIENDEMAIL","Sinu sıbra e-mail:");
+define("_FFRIENDNAME","Sinu s√µbra nimi:");
+define("_FFRIENDEMAIL","Sinu s√µbra e-mail:");
 define("_HELLO","Tervist");
-define("_YOURFRIEND","Sinu sıber");
-define("_RECOMMEND","Soovita seda portaali sıbrale");
+define("_YOURFRIEND","Sinu s√µber");
+define("_RECOMMEND","Soovita seda portaali s√µbrale");
 define("_INTSITE","Huvitav portaal:");
 define("_OURSITE","saatis sulle lingi");
-define("_INTSENT","leidis, et j‰rgmine Veeb on huvitav ja soovis selle ka Sinule saata.");
+define("_INTSENT","leidis, et j√§rgmine Veeb on huvitav ja soovis selle ka Sinule saata.");
 define("_FSITENAME","Portaali nimi:");
 define("_FSITEURL","Portaali URL:");
 define("_FREFERENCE","Teade meie Portaalist on saadetud nimele");
-define("_THANKSREC","T‰nan, et sa soovitasid meid!");
-define("_SECURITYCODEERROR","<b>VIGA:</b> Turva kood mille kirjutasid oli vale...<br>Palun kirjuta t‰pselt sama kood mida all pool kuvatakse:");
+define("_THANKSREC","T√§nan, et sa soovitasid meid!");
+define("_SECURITYCODEERROR","<b>VIGA:</b> Turva kood mille kirjutasid oli vale...<br>Palun kirjuta t√§pselt sama kood mida all pool kuvatakse:");
 
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

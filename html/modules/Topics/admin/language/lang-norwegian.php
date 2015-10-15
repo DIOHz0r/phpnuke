@@ -39,8 +39,8 @@ define("_YES","Ja");
 define("_NO","Nei");
 define("_TOPICSMANAGER","Emneadministrator");
 define("_DELETETOPIC","Slett emne");
-define("_TOPICDELSURE","Er du sikker på at du vil slette dette emnet");
-define("_TOPICDELSURE1","Dette kommer til å slette ALLE emnets artikler med kommentarer!");
+define("_TOPICDELSURE","Er du sikker pÃ¥ at du vil slette dette emnet");
+define("_TOPICDELSURE1","Dette kommer til Ã¥ slette ALLE emnets artikler med kommentarer!");
 
 
 ?>

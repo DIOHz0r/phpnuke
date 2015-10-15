@@ -37,7 +37,7 @@ define("_READREST","Komentario guztia irakurri...");
 define("_REPLY","Honi erantzun");
 define("_REPLYMAIN","Komentarioa bidali");
 define("_NOSUBJECT","Gairik gabe");
-define("_NOANONCOMMENTS","Komentario anonimoak ez dira onartzen, mesedez <a href=\"modules.php?name=Your_Account\">erregístratu</a> zaitez");
+define("_NOANONCOMMENTS","Komentario anonimoak ez dira onartzen, mesedez <a href=\"modules.php?name=Your_Account\">erregÃ­stratu</a> zaitez");
 define("_PARENT","Aurrekoa");
 define("_ROOT","Erroa/Lehena");
 define("_UCOMMENT","Komentarioa");

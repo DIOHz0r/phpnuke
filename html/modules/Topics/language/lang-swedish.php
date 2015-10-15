@@ -17,8 +17,8 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Aktiva Ämnen");
-define("_CLICK2LIST","Klicka på respektive ämne för att se en lista på alla artiklar inom detta ämne");
+define("_ACTIVETOPICS","Aktiva Ã„mnen");
+define("_CLICK2LIST","Klicka pÃ¥ respektive Ã¤mne fÃ¶r att se en lista pÃ¥ alla artiklar inom detta Ã¤mne");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

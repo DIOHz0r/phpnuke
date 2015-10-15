@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Printerisõbralik lehekülg");
-define("_FRIEND","Saada see jutt sõbrale");
+define("_PRINTER","PrinterisÃµbralik lehekÃ¼lg");
+define("_FRIEND","Saada see jutt sÃµbrale");
 define("_ARTICLES","Artiklid");
 define("_USCORE","Punktid");
-define("_DATE","Kuupäev");
-define("_SELECTMONTH2VIEW","Palun vali kuu mida sa soovid näha:");
-define("_SHOWALLSTORIES","Näita KÕIKI jutte");
+define("_DATE","KuupÃ¤ev");
+define("_SELECTMONTH2VIEW","Palun vali kuu mida sa soovid nÃ¤ha:");
+define("_SHOWALLSTORIES","NÃ¤ita KÃ•IKI jutte");
 define("_STORIESARCHIVE","Juttude arhiiv");
 define("_ACTIONS","Tegevus");
 define("_ARCHIVESINDEX","Juttude arhiivi esilehele");
-define("_ALLSTORIESARCH","Kõik jutud");
-define("_NEXTPAGE","Järgmine leht");
+define("_ALLSTORIESARCH","KÃµik jutud");
+define("_NEXTPAGE","JÃ¤rgmine leht");
 define("_PREVIOUSPAGE","Eelmine leht");
 
 ?>

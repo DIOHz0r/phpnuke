@@ -7,7 +7,7 @@
 /* Copyright (c) 2002 by Francisco Burzi                                */
 /* http://phpnuke.org                                                   */
 /*                                                                      */
-/* postgres fix by Rubén Campos - Oscar Silla                         */
+/* postgres fix by RubÃ©n Campos - Oscar Silla                         */
 /*                                                                      */
 /* This program is free software. You can redistribute it and/or modify */
 /* it under the terms of the GNU General Public License as published by */

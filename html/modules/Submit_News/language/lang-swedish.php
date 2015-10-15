@@ -17,38 +17,38 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Utskriftsv‰nlig sida");
+define("_PRINTER","Utskriftsv√§nlig sida");
 define("_FRIEND","Skicka denna artikel till en kompis");
 define("_YOURNAME","Ditt Namn");
 define("_OK","Ok!");
-define("_ALLOWEDHTML","TillÂten HTML:");
+define("_ALLOWEDHTML","Till√•ten HTML:");
 define("_EXTRANS","Extrans (html kod till text)");
 define("_HTMLFORMATED","HTML Formaterad");
 define("_PLAINTEXT","Helt vanlig text");
 define("_ARTICLES","Artiklarna");
 define("_SUBMITNEWS","Posta Artikel");
-define("_SUBMITADVICE","Skriv g‰rna artikeln/nyheten genom att fylla nedanstÂende formul‰r och dubbelchecka g‰rna din artikel innan du postar.<br>Du meddelas h‰rmed att allt som postas inte kommer att publiceras.<br>Din artikel/nyhet kommer att kontrolleras vad g‰ller stavning och grammatik och kan bli redigerad av vÂra redaktˆrer.");
+define("_SUBMITADVICE","Skriv g√§rna artikeln/nyheten genom att fylla nedanst√•ende formul√§r och dubbelchecka g√§rna din artikel innan du postar.<br>Du meddelas h√§rmed att allt som postas inte kommer att publiceras.<br>Din artikel/nyhet kommer att kontrolleras vad g√§ller stavning och grammatik och kan bli redigerad av v√•ra redakt√∂rer.");
 define("_SUBTITLE","Titel");
 define("_BEDESCRIPTIVE","Var beskrivande, klar och enkel");
-define("_BADTITLES","exempel pÂ dÂliga titlar='Kolla in Det H‰r!' eller 'En Nyhet'");
-define("_HTMLISFINE","HTML ‰r helt ok, men dubbelkolla de d‰r URL:arna och HTML koden tack!");
+define("_BADTITLES","exempel p√• d√•liga titlar='Kolla in Det H√§r!' eller 'En Nyhet'");
+define("_HTMLISFINE","HTML √§r helt ok, men dubbelkolla de d√§r URL:arna och HTML koden tack!");
 define("_AREYOUSURE","Inkluderade du en URL? Kollade du att de verkligen fungerade?");
-define("_SUBPREVIEW","Du mÂste fˆrhandsvisa minst en gÂng innan du fÂr posta");
-define("_SELECTTOPIC","V‰lj ƒmne");
-define("_NEWSUBPREVIEW","Fˆrhandsvisning av Artikel");
-define("_STORYLOOK","Din artikel kommer att se ut sÂ h‰r ungef‰r...");
-define("_CHECKSTORY","Kolla g‰rna text, l‰nkar, osv innan du postar din nyhet!");
-define("_THANKSSUB","Tack fˆr ditt bidrag!");
+define("_SUBPREVIEW","Du m√•ste f√∂rhandsvisa minst en g√•ng innan du f√•r posta");
+define("_SELECTTOPIC","V√§lj √Ñmne");
+define("_NEWSUBPREVIEW","F√∂rhandsvisning av Artikel");
+define("_STORYLOOK","Din artikel kommer att se ut s√• h√§r ungef√§r...");
+define("_CHECKSTORY","Kolla g√§rna text, l√§nkar, osv innan du postar din nyhet!");
+define("_THANKSSUB","Tack f√∂r ditt bidrag!");
 define("_SUBSENT","Ditt bidrag har tagits emot...");
-define("_SUBTEXT","Vi kommer att kontrollera ditt bidrag inom ett par timmar, om det ‰r intressant och relevant sÂ kommer vi publicera det inom kort.");
-define("_WEHAVESUB","Fˆr n‰rvarande har vi");
-define("_WAITING","bidrag som v‰ntar pÂ publicering.");
-define("_PREVIEW","Fˆrhandsgranska");
+define("_SUBTEXT","Vi kommer att kontrollera ditt bidrag inom ett par timmar, om det √§r intressant och relevant s√• kommer vi publicera det inom kort.");
+define("_WEHAVESUB","F√∂r n√§rvarande har vi");
+define("_WAITING","bidrag som v√§ntar p√• publicering.");
+define("_PREVIEW","F√∂rhandsgranska");
 define("_NEWUSER","Ny medlem");
-define("_USCORE","Po‰ng");
+define("_USCORE","Po√§ng");
 define("_DATE","Datum");
 define("_STORYTEXT","Ingress");
-define("_EXTENDEDTEXT","Brˆdtext");
+define("_EXTENDEDTEXT","Br√∂dtext");
 define("_LANGUAGE","Language");
 
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");

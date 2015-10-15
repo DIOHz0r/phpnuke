@@ -18,27 +18,27 @@
 /**************************************************************************/
 
 
-define("_FUNCTIONS","Aðgerðir");
-define("_YES","Já");
+define("_FUNCTIONS","AÃ°gerÃ°ir");
+define("_YES","JÃ¡");
 define("_NO","Nei");
 define("_SAVE","Vista");
-define("_ID","Númer");
+define("_ID","NÃºmer");
 define("_CATEGORIES","flokkar");
 define("_ALL","Allt");
 define("_FAQ","SOS");
 define("_CONTENT","Efni");
-define("_FAQADMIN","SOS stjórnun");
+define("_FAQADMIN","SOS stjÃ³rnun");
 define("_ACTIVEFAQS","Virkar SOS");
-define("_ADDCATEGORY","Bæta við flokki");
-define("_QUESTIONS","Spurningar og svör");
-define("_ADDQUESTION","Bæta við nýrri spurningu");
+define("_ADDCATEGORY","BÃ¦ta viÃ° flokki");
+define("_QUESTIONS","Spurningar og svÃ¶r");
+define("_ADDQUESTION","BÃ¦ta viÃ° nÃ½rri spurningu");
 define("_QUESTION","Spurning");
 define("_ANSWER","Svar");
 define("_EDITCATEGORY","Breyta flokki");
-define("_EDITQUESTIONS","Breyta spurningum og svörum");
-define("_FAQDELWARNING","VARÚÐ: Ertu viss um að þú viljir eyða þessu SOS og öllu efni þess?");
-define("_QUESTIONDEL","VARÚÐ: Ertu viss um að þú viljir eyða þessari spurningu?");
-define("_LANGUAGE","Tungumál");
+define("_EDITQUESTIONS","Breyta spurningum og svÃ¶rum");
+define("_FAQDELWARNING","VARÃšÃ: Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essu SOS og Ã¶llu efni Ã¾ess?");
+define("_QUESTIONDEL","VARÃšÃ: Ertu viss um aÃ° Ã¾Ãº viljir eyÃ°a Ã¾essari spurningu?");
+define("_LANGUAGE","TungumÃ¡l");
 
 
 ?>

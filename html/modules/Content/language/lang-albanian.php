@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Faqja e Mëparshme");
-define("_NEXT","Faqja që Vjen");
+define("_PREVIOUS","Faqja e MÃ«parshme");
+define("_NEXT","Faqja qÃ« Vjen");
 define("_PAGE","Faqja");
 define("_DEACTIVATE","Disaktivo");
 define("_ACTIVATE","Aktivo");
-define("_PUBLISHEDON","Publikuar më");
+define("_PUBLISHEDON","Publikuar mÃ«");
 define("_PAGESLIST","Lista e Faqeve");
-define("_LISTOFCONTENT","Lista e Përmbajtjeve që gjenden tek");
-define("_YOURADMINLIST","Je administratori: në vijim lista e faqeve joaktive:");
-define("_COPYRIGHT","Copyright &copy; by Rruzull&Linux. Të gjitha të drejtat janë të rezervuara.");
-define("_COPYRIGHT2","Të gjitha të Drejtat janë të Rezervuara.");
-define("_CONTENTCATEGORIES","Kategoritë në dispozicion");
-define("_NONCLASSCONT","Përmbajtje e Pa Kategorizueshme");
+define("_LISTOFCONTENT","Lista e PÃ«rmbajtjeve qÃ« gjenden tek");
+define("_YOURADMINLIST","Je administratori: nÃ« vijim lista e faqeve joaktive:");
+define("_COPYRIGHT","Copyright &copy; by Rruzull&Linux. TÃ« gjitha tÃ« drejtat janÃ« tÃ« rezervuara.");
+define("_COPYRIGHT2","TÃ« gjitha tÃ« Drejtat janÃ« tÃ« Rezervuara.");
+define("_CONTENTCATEGORIES","KategoritÃ« nÃ« dispozicion");
+define("_NONCLASSCONT","PÃ«rmbajtje e Pa Kategorizueshme");
 
 ?>

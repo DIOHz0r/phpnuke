@@ -18,20 +18,20 @@
 /**************************************************************************/
 
 
-define("_SEND","K¸ldÈs");
-define("_FUNCTIONS","FunkciÛk");
+define("_SEND","K√ºld√©s");
+define("_FUNCTIONS","Funkci√≥k");
 define("_YES","Igen");
 define("_NO","Nem");
-define("_SAVECHANGES","V·ltoz·sok mentÈse");
-define("_PAGEBREAK","Ha tˆbb oldalra szeretnÈd bontani az Ìr·st, Ìrj <b>[--pagebreak--]</b>-et oda, ahol v·gni szeretnÈl!");
-define("_DESCRIPTION","LeÌr·s");
-define("_TO","CÌmzett");
-define("_TITLE","CÌm");
-define("_ACTIVE","AktÌv");
-define("_DEACTIVATE","Kikapcsol·s");
-define("_INACTIVE","InaktÌv");
-define("_ACTIVATE","Bekapcsol·s");
-define("_ADD","Hozz·ad·s");
+define("_SAVECHANGES","V√°ltoz√°sok ment√©se");
+define("_PAGEBREAK","Ha t√∂bb oldalra szeretn√©d bontani az √≠r√°st, √≠rj <b>[--pagebreak--]</b>-et oda, ahol v√°gni szeretn√©l!");
+define("_DESCRIPTION","Le√≠r√°s");
+define("_TO","C√≠mzett");
+define("_TITLE","C√≠m");
+define("_ACTIVE","Akt√≠v");
+define("_DEACTIVATE","Kikapcsol√°s");
+define("_INACTIVE","Inakt√≠v");
+define("_ACTIVATE","Bekapcsol√°s");
+define("_ADD","Hozz√°ad√°s");
 define("_LANGUAGE","Language");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_ENCYCLOPEDIAMANAGER","Encyclopedia Manager");

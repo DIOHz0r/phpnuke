@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","Áno");
+define("_YES","Ãno");
 define("_NO","Nie");
-define("_TOPICSMANAGER","Manažér tém");
-define("_DELETETOPIC","Vymaza? tému");
-define("_TOPICDELSURE","Ste si istý, že chcete vymaza? tému so všetkým, èo k nej patrí?");
-define("_TOPICDELSURE1","Týmto budú všetky èlánky a komentáre vymazané!");
+define("_TOPICSMANAGER","ManaÅ¾Ã©r tÃ©m");
+define("_DELETETOPIC","Vymaza? tÃ©mu");
+define("_TOPICDELSURE","Ste si istÃ½, Å¾e chcete vymaza? tÃ©mu so vÅ¡etkÃ½m, Äo k nej patrÃ­?");
+define("_TOPICDELSURE1","TÃ½mto budÃº vÅ¡etky ÄlÃ¡nky a komentÃ¡re vymazanÃ©!");
 
 
 ?>

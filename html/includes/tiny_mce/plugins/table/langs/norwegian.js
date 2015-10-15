@@ -1,15 +1,15 @@
 // NO lang variables
 
 tinyMCELang['lang_table_desc'] = 'Opprett/endre tabell';
-tinyMCELang['lang_table_insert_row_before_desc'] = 'Opprett rad før';
+tinyMCELang['lang_table_insert_row_before_desc'] = 'Opprett rad fÃ¸r';
 tinyMCELang['lang_table_insert_row_after_desc'] = 'Opprett rad etter';
 tinyMCELang['lang_table_delete_row_desc'] = 'Fjern rad';
-tinyMCELang['lang_table_insert_col_before_desc'] = 'Opprett kolonne før';
+tinyMCELang['lang_table_insert_col_before_desc'] = 'Opprett kolonne fÃ¸r';
 tinyMCELang['lang_table_insert_col_after_desc'] = 'Opprett kolonne etter';
 tinyMCELang['lang_table_delete_col_desc'] = 'Fjern kolonne';
 tinyMCELang['lang_insert_table_title'] = 'Opprett/endre tabell';
 tinyMCELang['lang_insert_table_width'] = 'Bredde';
-tinyMCELang['lang_insert_table_height'] = 'Høyde';
+tinyMCELang['lang_insert_table_height'] = 'HÃ¸yde';
 tinyMCELang['lang_insert_table_cols'] = 'Kolonner';
 tinyMCELang['lang_insert_table_rows'] = 'Rader';
 tinyMCELang['lang_insert_table_cellspacing'] = 'Celle-mellomrom';
@@ -18,7 +18,7 @@ tinyMCELang['lang_insert_table_border'] = 'Rammebredde';
 tinyMCELang['lang_insert_table_align'] = 'Justering';
 tinyMCELang['lang_insert_table_align_default'] = 'Ingen';
 tinyMCELang['lang_insert_table_align_left'] = 'Venstre';
-tinyMCELang['lang_insert_table_align_right'] = 'Høyre';
+tinyMCELang['lang_insert_table_align_right'] = 'HÃ¸yre';
 tinyMCELang['lang_insert_table_align_middle'] = 'Midten';
 tinyMCELang['lang_insert_table_class'] = 'Stil';
 tinyMCELang['lang_table_row_title'] = 'Table row properties';

@@ -37,10 +37,10 @@ define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Si");
 define("_NO","No");
-define("_TOPICSMANAGER","Tòpics");
-define("_DELETETOPIC","Esborrar Tòpic");
-define("_TOPICDELSURE","Desitges Esborrar el Tòpic");
-define("_TOPICDELSURE1","Això Esborrarà TOTES les seves histories i els seus comentaris!");
+define("_TOPICSMANAGER","TÃ²pics");
+define("_DELETETOPIC","Esborrar TÃ²pic");
+define("_TOPICDELSURE","Desitges Esborrar el TÃ²pic");
+define("_TOPICDELSURE1","AixÃ² EsborrarÃ  TOTES les seves histories i els seus comentaris!");
 
 
 ?>

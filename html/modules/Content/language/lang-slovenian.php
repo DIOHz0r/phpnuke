@@ -17,7 +17,7 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Prejšnja stran");
+define("_PREVIOUS","PrejÂšnja stran");
 define("_NEXT","Naslednja stran");
 define("_PAGE","Strani");
 define("_DEACTIVATE","Deaktiviraj");

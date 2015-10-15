@@ -17,21 +17,21 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Відправити");
-define("_FYOURNAME","Ваше ім'я:");
-define("_FYOUREMAIL","Ваш Email:");
-define("_FFRIENDNAME","Ім'я вашого товариша:");
-define("_FFRIENDEMAIL","Email вашого товариша:");
-define("_HELLO","Привіт");
-define("_YOURFRIEND","Ваш товариш");
-define("_RECOMMEND","Відрекомендуйте цей сайт товаришу");
-define("_INTSITE","Цікавий сайт:");
-define("_OURSITE","вважає наш сайт");
-define("_INTSENT","і захотів відправити його адресу вам.");
-define("_FSITENAME","Назва сайту:");
-define("_FSITEURL","URL сайту:");
-define("_FREFERENCE","Запрошення відвідати наш сайт успішно відправлене ");
-define("_THANKSREC","Спасибі за рекомендацію!");
+define("_SEND","Р’С–РґРїСЂР°РІРёС‚Рё");
+define("_FYOURNAME","Р’Р°С€Рµ С–Рј'СЏ:");
+define("_FYOUREMAIL","Р’Р°С€ Email:");
+define("_FFRIENDNAME","Р†Рј'СЏ РІР°С€РѕРіРѕ С‚РѕРІР°СЂРёС€Р°:");
+define("_FFRIENDEMAIL","Email РІР°С€РѕРіРѕ С‚РѕРІР°СЂРёС€Р°:");
+define("_HELLO","РџСЂРёРІС–С‚");
+define("_YOURFRIEND","Р’Р°С€ С‚РѕРІР°СЂРёС€");
+define("_RECOMMEND","Р’С–РґСЂРµРєРѕРјРµРЅРґСѓР№С‚Рµ С†РµР№ СЃР°Р№С‚ С‚РѕРІР°СЂРёС€Сѓ");
+define("_INTSITE","Р¦С–РєР°РІРёР№ СЃР°Р№С‚:");
+define("_OURSITE","РІРІР°Р¶Р°С” РЅР°С€ СЃР°Р№С‚");
+define("_INTSENT","С– Р·Р°С…РѕС‚С–РІ РІС–РґРїСЂР°РІРёС‚Рё Р№РѕРіРѕ Р°РґСЂРµСЃСѓ РІР°Рј.");
+define("_FSITENAME","РќР°Р·РІР° СЃР°Р№С‚Сѓ:");
+define("_FSITEURL","URL СЃР°Р№С‚Сѓ:");
+define("_FREFERENCE","Р—Р°РїСЂРѕС€РµРЅРЅСЏ РІС–РґРІС–РґР°С‚Рё РЅР°С€ СЃР°Р№С‚ СѓСЃРїС–С€РЅРѕ РІС–РґРїСЂР°РІР»РµРЅРµ ");
+define("_THANKSREC","РЎРїР°СЃРёР±С– Р·Р° СЂРµРєРѕРјРµРЅРґР°С†С–СЋ!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

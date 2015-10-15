@@ -20,36 +20,36 @@
 
 define("_SEND","Posla?");
 define("_FUNCTIONS","Funkcie");
-define("_YES","¡no");
+define("_YES","√Åno");
 define("_NO","Nie");
-define("_CATEGORY","KategÛria");
-define("_SAVECHANGES","Uloûi? zmeny");
-define("_PAGEBREAK","Ak chcete pÌsa? viac str·n, mÙûete napÌsa? <b>[--pagebreak--]</b> tam, kde chcete text zalomi?.");
+define("_CATEGORY","Kateg√≥ria");
+define("_SAVECHANGES","Ulo≈æi? zmeny");
+define("_PAGEBREAK","Ak chcete p√≠sa? viac str√°n, m√¥≈æete nap√≠sa? <b>[--pagebreak--]</b> tam, kde chcete text zalomi?.");
 define("_SIGNATURE","Podpis");
 define("_DESCRIPTION","Popis");
-define("_TITLE","N·zov");
-define("_ACTIVE","AktÌvny");
+define("_TITLE","N√°zov");
+define("_ACTIVE","Akt√≠vny");
 define("_DEACTIVATE","Deaktivova?");
-define("_INACTIVE","NeaktÌvny");
+define("_INACTIVE","Neakt√≠vny");
 define("_ACTIVATE","Aktivova?");
 define("_CONTENT","Obsah");
-define("_ADDCATEGORY","Prida? nov˙ kategÛriu");
-define("_EDITCATEGORY","Upravi? kategÛriu");
+define("_ADDCATEGORY","Prida? nov√∫ kateg√≥riu");
+define("_EDITCATEGORY","Upravi? kateg√≥riu");
 define("_ADD","Prida?");
 define("_LANGUAGE","Jazyk");
-define("_CONTENTMANAGER","ManaûÈr obsahu");
-define("_DELCONTWARNING","UrËite chcete vymaza? t˙to str·nku?");
-define("_DELCONTENT","Vymaza? str·nku");
-define("_CURRENTSTATUS","Aktu·lny stav");
-define("_ADDANEWPAGE","Prida? str·nku");
+define("_CONTENTMANAGER","Mana≈æ√©r obsahu");
+define("_DELCONTWARNING","Urƒçite chcete vymaza? t√∫to str√°nku?");
+define("_DELCONTENT","Vymaza? str√°nku");
+define("_CURRENTSTATUS","Aktu√°lny stav");
+define("_ADDANEWPAGE","Prida? str√°nku");
 define("_CSUBTITLE","Podnadpis");
-define("_HEADERTEXT","Text hlaviËky");
-define("_PAGETEXT","Text str·nky");
-define("_FOOTERTEXT","Text p‰tiËky");
-define("_ACTIVATEPAGE","Aktivova? t˙to str·nku?");
-define("_EDITPAGECONTENT","Upravi? obsah str·nky");
-define("_DELCONTENTCAT","UPOZORNENIE: UrËite chcete vymaza? t˙to kategÛriu? Str·nky zatriedenÈ v tejto kategÛtii sÌce nebud˙ vymazanÈ, ale doËasne nebud˙ priradenÈ k ûiadnej kategÛrii!");
-define("_DELCATEGORY","Vymaza? kategÛriu");
+define("_HEADERTEXT","Text hlaviƒçky");
+define("_PAGETEXT","Text str√°nky");
+define("_FOOTERTEXT","Text p√§tiƒçky");
+define("_ACTIVATEPAGE","Aktivova? t√∫to str√°nku?");
+define("_EDITPAGECONTENT","Upravi? obsah str√°nky");
+define("_DELCONTENTCAT","UPOZORNENIE: Urƒçite chcete vymaza? t√∫to kateg√≥riu? Str√°nky zatrieden√© v tejto kateg√≥tii s√≠ce nebud√∫ vymazan√©, ale doƒçasne nebud√∫ priraden√© k ≈æiadnej kateg√≥rii!");
+define("_DELCATEGORY","Vymaza? kateg√≥riu");
 
 
 ?>

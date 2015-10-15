@@ -17,7 +17,7 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ALLTOPICS","Todos los Tópicos");
+define("_ALLTOPICS","Todos los TÃ³picos");
 define("_NOCOMMENTS","Sin Comentarios");
 define("_UCOMMENT","Comentario");
 define("_REVIEWS","Reviews");
@@ -25,7 +25,7 @@ define("_SEARCHUSERS","Buscar Usuarios");
 define("_SEARCHSECTIONS","Buscar en Secciones Especiales");
 define("_SEARCHREVIEWS","Buscar en Reviews");
 define("_SEARCHIN","Buscar en");
-define("_ARTICLES","Artículos");
+define("_ARTICLES","ArtÃ­culos");
 define("_ALLAUTHORS","Todos los Autores");
 define("_ALL","Todo");
 define("_WEEK","Semana");
@@ -39,27 +39,27 @@ define("_SUSERS","Usuarios");
 define("_NOMATCHES","No hay registros para su consulta");
 define("_PREVMATCHES","Registros Anteriores");
 define("_NEXTMATCHES","Registros Siguientes");
-define("_INSECTION","en la Sección");
+define("_INSECTION","en la SecciÃ³n");
 define("_NONAME","No has introducido un nombre");
 define("_SCOMMENTS","Comentarios");
-define("_SEARCHRESULTS","Resultados de la Búsqueda");
-define("_CONTRIBUTEDBY","Contribución de");
+define("_SEARCHRESULTS","Resultados de la BÃºsqueda");
+define("_CONTRIBUTEDBY","ContribuciÃ³n de");
 define("_UCOMMENTS","Comentarios");
-define("_MATCHTITLE","Buscar por Título");
+define("_MATCHTITLE","Buscar por TÃ­tulo");
 define("_MATCHTEXT","Buscar por Contenido");
 define("_MATCHBOTH","Buscar por Ambos");
 define("_SREPLY","responden");
 define("_SREPLIES","responde");
-define("_ATTACHART","Adjuntar al Artículo");
-define("_PAGES","Páginas");
-define("_REVIEWSCORE","Puntuación de este Review");
-define("_PAGE","página(s) ");
+define("_ATTACHART","Adjuntar al ArtÃ­culo");
+define("_PAGES","PÃ¡ginas");
+define("_REVIEWSCORE","PuntuaciÃ³n de este Review");
+define("_PAGE","pÃ¡gina(s) ");
 define("_DOWNLOADS","Downloads");
 define("_WEBLINKS","Enlaces (Web Links)");
-define("_FINDMORE","... más");
-define("_DIDNOTFIND","¿No encontraste lo que estabas buscando?");
+define("_FINDMORE","... mÃ¡s");
+define("_DIDNOTFIND","Â¿No encontraste lo que estabas buscando?");
 define("_ENCYCLOPEDIA","Enciclopedia");
-define("_SEARCHINSTORY","Buscar todos los Comentarios en el Artículo");
+define("_SEARCHINSTORY","Buscar todos los Comentarios en el ArtÃ­culo");
 define("_SEARCHCHARACTERS","<center><b>Search System Error</b><br><br>Your query should be at least 3 characters long to be processed.<br>Please, fix the problem and try again...</center>");
 
 ?>

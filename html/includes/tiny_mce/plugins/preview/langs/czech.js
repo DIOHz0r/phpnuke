@@ -1,3 +1,3 @@
 // UK lang variables
 
-tinyMCELang['lang_preview_desc'] = 'Náhled';
+tinyMCELang['lang_preview_desc'] = 'NÃ¡hled';

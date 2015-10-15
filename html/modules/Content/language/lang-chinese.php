@@ -19,19 +19,19 @@
 
 
 
-define("_PREVIOUS","¤W¤@­¶");
-define("_NEXT","¤U¤@­¶");
+define("_PREVIOUS","ä¸Šä¸€é ");
+define("_NEXT","ä¸‹ä¸€é ");
 
 
-define("_PAGE","­¶");
-define("_DEACTIVATE","ÁôÂÃ");
-define("_ACTIVATE","Åã¥Ü");
-define("_PUBLISHEDON","µoªí©ó");
-define("_PAGESLIST","ºô­¶¤º®e¦Cªí");
-define("_LISTOFCONTENT","¥iÀò±oªººô­¶¤º®e¦b ");
-define("_YOURADMINLIST","±z¬OºÞ²zªÌ: ©³¤U¬O©|¥¼¶}©ñªººô­¶¤º®e:");
+define("_PAGE","é ");
+define("_DEACTIVATE","éš±è—");
+define("_ACTIVATE","é¡¯ç¤º");
+define("_PUBLISHEDON","ç™¼è¡¨æ–¼");
+define("_PAGESLIST","ç¶²é å…§å®¹åˆ—è¡¨");
+define("_LISTOFCONTENT","å¯ç²å¾—çš„ç¶²é å…§å®¹åœ¨ ");
+define("_YOURADMINLIST","æ‚¨æ˜¯ç®¡ç†è€…: åº•ä¸‹æ˜¯å°šæœªé–‹æ”¾çš„ç¶²é å…§å®¹:");
 define("_COPYRIGHT","Copyright &copy; by $sitename. All Right Reserved.");
-define("_CONTENTCATEGORIES","©Ò¦³¤º®eÃþ§O");
+define("_CONTENTCATEGORIES","æ‰€æœ‰å…§å®¹é¡žåˆ¥");
 define("_NONCLASSCONT","Non Categorized Content");
 
 ?>

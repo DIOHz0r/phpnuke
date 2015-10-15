@@ -18,9 +18,9 @@
 /**************************************************************************/
 
 define("_PDATE","Datum:");
-define("_PTOPIC","Ämne:");
-define("_COMESFROM","Den här artikeln kommer från");
-define("_THEURL","Adressen till denna artikel är:");
+define("_PTOPIC","Ã„mne:");
+define("_COMESFROM","Den hÃ¤r artikeln kommer frÃ¥n");
+define("_THEURL","Adressen till denna artikel Ã¤r:");
 define("_DATE","Datum");
 define("_TITLE","Titel");
 

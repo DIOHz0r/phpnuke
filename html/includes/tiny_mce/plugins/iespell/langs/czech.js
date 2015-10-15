@@ -1,4 +1,4 @@
 // UK lang variables
 
 tinyMCELang['lang_iespell_desc'] = 'Spustit kontrolu pravopisu';
-tinyMCELang['lang_iespell_download'] = "ieSpell nedetekován. Kliknìte na OK a otevøete stahovací stránku."
+tinyMCELang['lang_iespell_download'] = "ieSpell nedetekovÃ¡n. KliknÃ¬te na OK a otevÃ¸ete stahovacÃ­ strÃ¡nku."

@@ -19,11 +19,11 @@
 
 define("_CATEGORY","Kategooria");
 define("_CATEGORIES","Kategooriad");
-define("_FAQ2","KKK (Korduma Kippuvad Küsimused)");
-define("_BACKTOTOP","Tagasi üles");
+define("_FAQ2","KKK (Korduma Kippuvad KÃ¼simused)");
+define("_BACKTOTOP","Tagasi Ã¼les");
 define("_BACKTOFAQINDEX","Tagasi KKK Avalehele");
 define("_MAIN","Avalehele");
-define("_QUESTION","Küsimus");
+define("_QUESTION","KÃ¼simus");
 define("_ANSWER","Vastus");
 
 ?>

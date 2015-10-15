@@ -18,29 +18,29 @@
 /**************************************************************************/
 
 
-define("_CURRENTTOPICS","Tópicos Activos Actuales");
-define("_CLICK2EDIT","Haz Click sobre el Tópico para Editarlo");
-define("_ADDATOPIC","Agregar un Nuevo Tópico");
-define("_TOPICNAME","Nombre del Tópico");
-define("_TOPICNAME1","(sólo un nombre sin espacios - maximo 20 caracteres)");
+define("_CURRENTTOPICS","TÃ³picos Activos Actuales");
+define("_CLICK2EDIT","Haz Click sobre el TÃ³pico para Editarlo");
+define("_ADDATOPIC","Agregar un Nuevo TÃ³pico");
+define("_TOPICNAME","Nombre del TÃ³pico");
+define("_TOPICNAME1","(sÃ³lo un nombre sin espacios - maximo 20 caracteres)");
 define("_TOPICNAME2","(por ejemplo: juegosyhobbies)");
-define("_TOPICTEXT","Texto del Tópico");
-define("_TOPICTEXT1","(el texto completo del tópico o su descripción - máximo 40 caracteres)");
+define("_TOPICTEXT","Texto del TÃ³pico");
+define("_TOPICTEXT1","(el texto completo del tÃ³pico o su descripciÃ³n - mÃ¡ximo 40 caracteres)");
 define("_TOPICTEXT2","(por ejemplo: Juegos y Hobbies)");
-define("_TOPICIMAGE","Imagen del Tópico");
-define("_ADDTOPIC","Agregar Tópico");
-define("_EDITTOPIC","Editar Tópico");
+define("_TOPICIMAGE","Imagen del TÃ³pico");
+define("_ADDTOPIC","Agregar TÃ³pico");
+define("_EDITTOPIC","Editar TÃ³pico");
 define("_ADDRELATED","Agregar Enlaces Relacionados");
 define("_ACTIVERELATEDLINKS","Enlaces Relacionados Activos");
 define("_SITENAME","Nombre del Sitio");
-define("_NORELATED","No hay enlaces relacionados con este tópico");
+define("_NORELATED","No hay enlaces relacionados con este tÃ³pico");
 define("_EDITRELATED","Editar Enlace Relacionado");
-define("_YES","Sí");
+define("_YES","SÃ­");
 define("_NO","No");
-define("_TOPICSMANAGER","Tópicos");
-define("_DELETETOPIC","Borrar Tópico");
-define("_TOPICDELSURE","¿Estás seguro de querer borrar el Tópico?");
-define("_TOPICDELSURE1","¡Esto borrará TODAS sus historias y sus comentarios!");
+define("_TOPICSMANAGER","TÃ³picos");
+define("_DELETETOPIC","Borrar TÃ³pico");
+define("_TOPICDELSURE","Â¿EstÃ¡s seguro de querer borrar el TÃ³pico?");
+define("_TOPICDELSURE1","Â¡Esto borrarÃ¡ TODAS sus historias y sus comentarios!");
 
 
 ?>

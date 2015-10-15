@@ -17,26 +17,26 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_HITS","tal·lat");
-define("_BROWSERS","BˆngÈszık");
-define("_OPERATINGSYS","Oper·ciÛs rendszerek");
+define("_HITS","tal√°lat");
+define("_BROWSERS","B√∂ng√©sz≈ëk");
+define("_OPERATINGSYS","Oper√°ci√≥s rendszerek");
 define("_UNKNOWN","Ismeretlen");
-define("_OTHER","EgyÈb / Ismeretlen");
-define("_MISCSTATS","EgyÈb statisztik·k");
-define("_REGUSERS","Regisztr·lt tagok:");
-define("_ACTIVEAUTHORS","a legaktÌvabb szerzık toplist·ja");
-define("_STORIESPUBLISHED","Publik·lt cikkek:");
-define("_SACTIVETOPICS","AktÌv tÈm·k:");
-define("_COMMENTSPOSTED","Hozz·szÛl·sok sz·ma:");
-define("_SSPECIALSECT","K¸lˆnleges tÈm·k:");
-define("_ARTICLESSEC","Õr·sok:");
-define("_LINKSINLINKS","Linkek sz·ma a katalÛgusban:");
-define("_LINKSCAT","KategÛri·k sz·ma a link-katalÛgusban:");
-define("_NEWSWAITING","JÛv·hagy·sra v·rÛ Ìr·sok:");
-define("_NUKEVERSION","PHP-Nuke verziÛsz·m:");
-define("_SEARCHENGINES","Keresık");
-define("_BOTS","Keresık");
-define("_STATS","ElÈrÈsi statisztik·k");
+define("_OTHER","Egy√©b / Ismeretlen");
+define("_MISCSTATS","Egy√©b statisztik√°k");
+define("_REGUSERS","Regisztr√°lt tagok:");
+define("_ACTIVEAUTHORS","a legakt√≠vabb szerz≈ëk toplist√°ja");
+define("_STORIESPUBLISHED","Publik√°lt cikkek:");
+define("_SACTIVETOPICS","Akt√≠v t√©m√°k:");
+define("_COMMENTSPOSTED","Hozz√°sz√≥l√°sok sz√°ma:");
+define("_SSPECIALSECT","K√ºl√∂nleges t√©m√°k:");
+define("_ARTICLESSEC","√çr√°sok:");
+define("_LINKSINLINKS","Linkek sz√°ma a katal√≥gusban:");
+define("_LINKSCAT","Kateg√≥ri√°k sz√°ma a link-katal√≥gusban:");
+define("_NEWSWAITING","J√≥v√°hagy√°sra v√°r√≥ √≠r√°sok:");
+define("_NUKEVERSION","PHP-Nuke verzi√≥sz√°m:");
+define("_SEARCHENGINES","Keres≈ëk");
+define("_BOTS","Keres≈ëk");
+define("_STATS","El√©r√©si statisztik√°k");
 define("_RETURNBASICSTATS","Return to Basic Statistics");
 define("_BACKTODETSTATS","Back to Detailed Statistics");
 define("_BACKTOMAIN","Back to Main");

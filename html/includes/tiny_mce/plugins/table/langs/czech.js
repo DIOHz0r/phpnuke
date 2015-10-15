@@ -1,25 +1,25 @@
-// CZ lang variables thanks to "Pavel Novák"
+// CZ lang variables thanks to "Pavel NovÃ¡k"
 
-tinyMCELang['lang_table_desc'] = 'Vložit novou tabulku';
-tinyMCELang['lang_table_insert_row_before_desc'] = 'Vložit øádek pøed';
-tinyMCELang['lang_table_insert_row_after_desc'] = 'Vložit øádek po';
-tinyMCELang['lang_table_delete_row_desc'] = 'Smazat øádek';
-tinyMCELang['lang_table_insert_col_before_desc'] = 'Vložit sloupec pøed';
-tinyMCELang['lang_table_insert_col_after_desc'] = 'Vložit sloupec po';
+tinyMCELang['lang_table_desc'] = 'VloÅ¾it novou tabulku';
+tinyMCELang['lang_table_insert_row_before_desc'] = 'VloÅ¾it Ã¸Ã¡dek pÃ¸ed';
+tinyMCELang['lang_table_insert_row_after_desc'] = 'VloÅ¾it Ã¸Ã¡dek po';
+tinyMCELang['lang_table_delete_row_desc'] = 'Smazat Ã¸Ã¡dek';
+tinyMCELang['lang_table_insert_col_before_desc'] = 'VloÅ¾it sloupec pÃ¸ed';
+tinyMCELang['lang_table_insert_col_after_desc'] = 'VloÅ¾it sloupec po';
 tinyMCELang['lang_table_delete_col_desc'] = 'Odstranit sloupec';
-tinyMCELang['lang_insert_table_title'] = 'Vložit/upravit tabulku';
-tinyMCELang['lang_insert_table_width'] = 'Šíøka';
-tinyMCELang['lang_insert_table_height'] = 'Výška';
+tinyMCELang['lang_insert_table_title'] = 'VloÅ¾it/upravit tabulku';
+tinyMCELang['lang_insert_table_width'] = 'Å Ã­Ã¸ka';
+tinyMCELang['lang_insert_table_height'] = 'VÃ½Å¡ka';
 tinyMCELang['lang_insert_table_cols'] = 'Sloupce';
-tinyMCELang['lang_insert_table_rows'] = 'Øádky';
-tinyMCELang['lang_insert_table_cellspacing'] = 'Vnìjší okraj bunìk';
-tinyMCELang['lang_insert_table_cellpadding'] = 'Vnitøní okraj bunìk';
-tinyMCELang['lang_insert_table_border'] = 'Rámeèek';
-tinyMCELang['lang_insert_table_align'] = 'Zarovnání';
-tinyMCELang['lang_insert_table_align_default'] = 'Výchozí';
+tinyMCELang['lang_insert_table_rows'] = 'Ã˜Ã¡dky';
+tinyMCELang['lang_insert_table_cellspacing'] = 'VnÃ¬jÅ¡Ã­ okraj bunÃ¬k';
+tinyMCELang['lang_insert_table_cellpadding'] = 'VnitÃ¸nÃ­ okraj bunÃ¬k';
+tinyMCELang['lang_insert_table_border'] = 'RÃ¡meÃ¨ek';
+tinyMCELang['lang_insert_table_align'] = 'ZarovnÃ¡nÃ­';
+tinyMCELang['lang_insert_table_align_default'] = 'VÃ½chozÃ­';
 tinyMCELang['lang_insert_table_align_left'] = 'Vlevo';
 tinyMCELang['lang_insert_table_align_right'] = 'Vpravo';
-tinyMCELang['lang_insert_table_align_middle'] = 'Na støed';
+tinyMCELang['lang_insert_table_align_middle'] = 'Na stÃ¸ed';
 tinyMCELang['lang_insert_table_class'] = 'Class';
 tinyMCELang['lang_table_row_title'] = 'Table row properties';
 tinyMCELang['lang_table_cell_title'] = 'Table cell properties';

@@ -81,7 +81,7 @@ define("_ASREG4","Portadan zenbat notizi ikusi nahi dituzun aukeratu");
 define("_ASREG5","Komentarioak konfiguratu egin ditzakezu");
 define("_ASREG6","Gai guztietan parte hartzeko aukera izango duzu");
 define("_ASREG7","eta seguru interesgarriak diren beste gauza batzuk ere badaudela hemen zuretzat...");
-define("_REGISTERNOW","Erregístratu zaitez orain! Doanik da!");
+define("_REGISTERNOW","ErregÃ­stratu zaitez orain! Doanik da!");
 define("_WEDONTGIVE","Zure datuak ez dira inori ez salduko, ez emango. Datu hoiek sistemaren erabilerarako dira");
 define("_ALLOWEMAILVIEW","Besteek nire Emaila ikus dezaten aukera eman");
 define("_OPTION","Aukera");

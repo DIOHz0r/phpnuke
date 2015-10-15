@@ -23,7 +23,7 @@ define("_YES","Ja");
 define("_NO","Nee");
 define("_SAVE","Bewaar");
 define("_ID","ID");
-define("_CATEGORIES","Categorieën");
+define("_CATEGORIES","CategorieÃ«n");
 define("_ALL","Alle");
 define("_FAQ","FAQ");
 define("_CONTENT","Inhoud");

@@ -17,9 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Pøedchozí stránka");
-define("_NEXT","Další stránka");
-define("_PAGE","Stránka");
+define("_PREVIOUS","PÅ™edchozÃ­ strÃ¡nka");
+define("_NEXT","DalÂšÃ­ strÃ¡nka");
+define("_PAGE","StrÃ¡nka");
 define("_DEACTIVATE","Deaktivovat");
 define("_ACTIVATE","Aktivovat");
 define("_PUBLISHEDON","Published on");

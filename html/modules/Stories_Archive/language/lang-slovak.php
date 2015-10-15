@@ -31,18 +31,18 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PRINTER","Stránka vhodná na tlaè");
-define("_FRIEND","Posla tento èlánok priate¾ovi, známemu");
-define("_ARTICLES","Èlánky");
-define("_USCORE","Skóre");
-define("_DATE","Dátum");
-define("_SELECTMONTH2VIEW","Vyberte mesiac, ktory chcete prezrie:");
-define("_SHOWALLSTORIES","Zobrazi všetky èlánky");
-define("_STORIESARCHIVE","Archív èlánkov");
-define("_ACTIONS","Možnosti");
-define("_ARCHIVESINDEX","Index archívu èlánkov");
-define("_ALLSTORIESARCH","Všetky èlánky");
-define("_NEXTPAGE","Ïalšia strana");
-define("_PREVIOUSPAGE","Predchádzajúca strana");
+define("_PRINTER","StrÃ¡nka vhodnÃ¡ na tlaÄ");
+define("_FRIEND","PoslaÅ¥ tento ÄlÃ¡nok priateÄ¾ovi, znÃ¡memu");
+define("_ARTICLES","ÄŒlÃ¡nky");
+define("_USCORE","SkÃ³re");
+define("_DATE","DÃ¡tum");
+define("_SELECTMONTH2VIEW","Vyberte mesiac, ktory chcete prezrieÅ¥:");
+define("_SHOWALLSTORIES","ZobraziÅ¥ vÅ¡etky ÄlÃ¡nky");
+define("_STORIESARCHIVE","ArchÃ­v ÄlÃ¡nkov");
+define("_ACTIONS","MoÅ¾nosti");
+define("_ARCHIVESINDEX","Index archÃ­vu ÄlÃ¡nkov");
+define("_ALLSTORIESARCH","VÅ¡etky ÄlÃ¡nky");
+define("_NEXTPAGE","ÄŽalÅ¡ia strana");
+define("_PREVIOUSPAGE","PredchÃ¡dzajÃºca strana");
 
 ?>

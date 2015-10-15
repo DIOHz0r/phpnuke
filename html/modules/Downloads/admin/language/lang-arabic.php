@@ -18,90 +18,90 @@
 /**************************************************************************/
 
 
-define("_URL","ัวศุ");
-define("_FUNCTIONS","วแฯๆวแ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_CATEGORY","สีไํÝ");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_OK","ใๆวÝÞ!");
+define("_URL","ุฑุงุจุท");
+define("_FUNCTIONS","ุงูุฏูุงู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_CATEGORY","ุชุตููู");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_OK","ู…ูุงูู!");
 define("_HITS","Hits");
-define("_THEREARE","ํๆฬฯ อวแํว");
-define("_DOWNLOADTITLE","ฺไๆวไ วแศัไวใฬ");
-define("_FILESIZE","อฬใ วแใแÝ");
-define("_VERSION","วแลีฯวั");
-define("_DESCRIPTION","วแๆีÝ");
-define("_AUTHOR","ีวอศ วแศัไวใฬ");
-define("_HOMEPAGE","ีÝอสๅ");
-define("_NAME","ว๑ำใ");
-define("_FILEURL","ัวศุ วแใแÝ");
-define("_DOWNLOADID","ัÞใ วแศัไวใฬ");
-define("_PAGETITLE","ฺไๆวไ วแีÝอษ");
-define("_PAGEURL","วแัวศุ แแีÝอษ");
-define("_ADDURL","รึÝ ๅะว วแใๆÞฺ");
-define("_DOWNLOAD","ศัวใฬ");
-define("_TITLE","วแฺไๆวไ");
-define("_STATUS","วแอวแษ");
-define("_ADD","รึÝ");
-define("_MODIFY","สฺฯํแ");
-define("_DOWNLOADSINDB","ศัไวใฬ Ýํ Þวฺฯษ วแศํวไวส");
-define("_DOWNLOADSWAITINGVAL","ศัวใฬ สไสูั วแใัวฬฺษ");
-define("_CLEANDOWNLOADSDB","ใำอ วแสัิํอวส แแศัวใฬ");
-define("_BROKENDOWNLOADSREP","วศแวÛ ฺไ ศัวใฬ แว สฺใแ");
-define("_DOWNLOADMODREQUEST","ุแศวส สฺฯํแ ศัวใฬ");
-define("_ADDNEWDOWNLOAD","รึÝ ศัวใอ ฬฯํฯษ");
-define("_MODDOWNLOAD","สฺฯํแ ศัไวใฬ");
-define("_WEBDOWNLOADSADMIN","วแสอ฿ใ Ýํ วแศัวใฬ");
-define("_DNOREPORTEDBROKEN","แว ํๆฬฯ สศแํÛวส ฺไ ศัวใฬ แว สฺใแ.");
-define("_DUSERREPBROKEN","วแฺึๆ วแใศแÛ ฺไ ศัไวใฬ แวํฺใแ");
-define("_DIGNOREINFO","สฬวๅแ (ํอะÝ <b><i>วแุแศวส</i></b> แศัไวใฬ)");
-define("_DDELETEINFO","อะÝ (ํอะÝ <b><i>วแศัไวใฬ วแะํ แว ํฺใแ</i></b> ๆ <b><i>วแุแศวส</i></b> แๅะว วแศัไวใฬ)");
-define("_DOWNLOADOWNER","ีวอศ วแศัไวใฬ");
-define("_DUSERMODREQUEST","ุแศวส สฺฯํแ วแศัวใฬ แแรฺึวม");
-define("_DOWNLOADVALIDATION","ใัวฬฺษ ศัวใฬ");
-define("_CHECKALLDOWNLOADS","สอÞÞ ใไ ฬใํฺ วแศัวใฬ");
-define("_VALIDATEDOWNLOADS","วแสอÞÞ ใไ ัๆวศุ วแศัวใฬ");
-define("_NEWDOWNLOADADDED","ศัไวใฬ ฬฯํฯ รึํÝ วแ์ ใ฿สศษ วแศัวใฬ");
-define("_SUBMITTER","วแใัำแ");
-define("_VISIT","าํวัษ");
-define("_ADDMAINCATEGORY","รึÝ สีไํÝ ัฦํำํ");
-define("_ADDSUBCATEGORY","รึÝ สีไํÝ Ýัฺํ");
-define("_IN","Ýํ");
-define("_DESCRIPTION255","ิัอ: (อฯ รÞี์ 255 อัÝ)");
-define("_MODCATEGORY","สฺฯํแ สีไํÝ");
-define("_ADDEDITORIAL","วึÝ สฺแํÞ");
-define("_EDITORIALTITLE","ฺไๆวไ วแสฺแํÞ");
-define("_EDITORIALTEXT","ไี วแสฺแํÞ");
-define("_DATEWRITTEN","สวัํฮ วแ฿สวศษ");
-define("_IGNORE","สฬวๅแ");
-define("_ORIGINAL","วแรีแํ");
-define("_PROPOSED","ใÞสัอ");
-define("_NOMODREQUESTS","แว ํๆฬฯ ุแศ สฺฯํแ วแยไ");
-define("_SUBCATEGORY","สีไํÝ Ýัฺํ");
-define("_OWNER","ใวแ฿");
-define("_ACCEPT","Þศๆแ");
-define("_ERRORTHECATEGORY","ฮุร: วแสีไํÝ วแัฦํำํ");
-define("_ALREADYEXIST","ใๆฬๆฯ ใำศÞว!");
-define("_ERRORTHESUBCATEGORY","ฮุร: วแสีไํÝ วแÝัฺํ");
-define("_EDITORIALADDED","วึํÝส วแสฺแํÞวส วแ์ Þวฺฯษ วแศํวไวส");
-define("_EDITORIALMODIFIED","สใ สฺฯํแ วแสฺแํÞวส");
-define("_EDITORIALREMOVED","สฺแํÞวส วแใอััํไ วแÛํส ใไ Þวฺฯษ วแศํวไวส");
-define("_CHECKCATEGORIES","วแสอÞÞ ใไ วแสีไํÝวส วแัฦํำํษ");
-define("_INCLUDESUBCATEGORIES","(สึใํไ วแสีไํÝวส วแÝัฺํษ)");
-define("_FAILED","Ýิแ!");
-define("_BEPATIENT","(วแัฬวม วแลไสูวั)");
-define("_VALIDATINGCAT","วแสอÞÞ ใไ วแสีไํÝ (ๆฬใํฺ วแสีไํÝวส วแÝัฺํษ)");
-define("_VALIDATINGSUBCAT","วแสอÞÞ ใไ วแสีไํÝ วแÝัฺํ");
-define("_ERRORURLEXIST","ฮุร: ๅะว วแใๆÞฺ ใๆฬๆฯ Ýํ Þวฺฯษ วแศํวไวส!");
-define("_ERRORNOTITLE","ฮุร: ํฬศ ฿สวศษ ฺไๆวไ วแใๆÞฺ!");
-define("_ERRORNOURL","ฮุร: ํฬศ ฿สวศษ วแัวศุ แแใๆÞฺ!");
-define("_ERRORNODESCRIPTION","ฮุร: สอสวฬ แ฿สวศษ ิัอ แแใๆÞฺ!");
-define("_EZTRANSFER","ไÞแ");
-define("_EZTHEREIS","ํๆฬฯ");
-define("_EZSUBCAT","รÞำวใ Ýัฺํษ");
-define("_EZATTACHEDTOCAT","สอส ๅะว วแÞำใ");
-define("_EZTRANSFERDOWNLOADS","ไÞแ ฬใํฺ วแศัวใฬ ใไ วแÞำใ");
-define("_DELEZDOWNLOADSCATWARNING","สอะํั: ๅแ สัํฯ อะÝ ๅะว วแÞำใ ศวแสร฿ํฯฟ ำๆÝ สอะÝ ฬใํฺ วแรÞำวใ วแÝัฺํษ ๆวแศัวใฬ วแใแอÞษ ศๅ.!");
+define("_THEREARE","ููุฌุฏ ุญุงููุง");
+define("_DOWNLOADTITLE","ุนููุงู ุงูุจุฑูุงู…ุฌ");
+define("_FILESIZE","ุญุฌู… ุงูู…ูู");
+define("_VERSION","ุงูุฅุตุฏุงุฑ");
+define("_DESCRIPTION","ุงููุตู");
+define("_AUTHOR","ุตุงุญุจ ุงูุจุฑูุงู…ุฌ");
+define("_HOMEPAGE","ุตูุญุชู");
+define("_NAME","ุงูุณู…");
+define("_FILEURL","ุฑุงุจุท ุงูู…ูู");
+define("_DOWNLOADID","ุฑูู… ุงูุจุฑูุงู…ุฌ");
+define("_PAGETITLE","ุนููุงู ุงูุตูุญุฉ");
+define("_PAGEURL","ุงูุฑุงุจุท ููุตูุญุฉ");
+define("_ADDURL","ุฃุถู ูุฐุง ุงูู…ููุน");
+define("_DOWNLOAD","ุจุฑุงู…ุฌ");
+define("_TITLE","ุงูุนููุงู");
+define("_STATUS","ุงูุญุงูุฉ");
+define("_ADD","ุฃุถู");
+define("_MODIFY","ุชุนุฏูู");
+define("_DOWNLOADSINDB","ุจุฑูุงู…ุฌ ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_DOWNLOADSWAITINGVAL","ุจุฑุงู…ุฌ ุชูุชุธุฑ ุงูู…ุฑุงุฌุนุฉ");
+define("_CLEANDOWNLOADSDB","ู…ุณุญ ุงูุชุฑุดูุญุงุช ููุจุฑุงู…ุฌ");
+define("_BROKENDOWNLOADSREP","ุงุจูุงุบ ุนู ุจุฑุงู…ุฌ ูุง ุชุนู…ู");
+define("_DOWNLOADMODREQUEST","ุทูุจุงุช ุชุนุฏูู ุจุฑุงู…ุฌ");
+define("_ADDNEWDOWNLOAD","ุฃุถู ุจุฑุงู…ุญ ุฌุฏูุฏุฉ");
+define("_MODDOWNLOAD","ุชุนุฏูู ุจุฑูุงู…ุฌ");
+define("_WEBDOWNLOADSADMIN","ุงูุชุญูู… ูู ุงูุจุฑุงู…ุฌ");
+define("_DNOREPORTEDBROKEN","ูุง ููุฌุฏ ุชุจููุบุงุช ุนู ุจุฑุงู…ุฌ ูุง ุชุนู…ู.");
+define("_DUSERREPBROKEN","ุงูุนุถู ุงูู…ุจูุบ ุนู ุจุฑูุงู…ุฌ ูุงูุนู…ู");
+define("_DIGNOREINFO","ุชุฌุงูู (ูุญุฐู <b><i>ุงูุทูุจุงุช</i></b> ูุจุฑูุงู…ุฌ)");
+define("_DDELETEINFO","ุญุฐู (ูุญุฐู <b><i>ุงูุจุฑูุงู…ุฌ ุงูุฐู ูุง ูุนู…ู</i></b> ู <b><i>ุงูุทูุจุงุช</i></b> ููุฐุง ุงูุจุฑูุงู…ุฌ)");
+define("_DOWNLOADOWNER","ุตุงุญุจ ุงูุจุฑูุงู…ุฌ");
+define("_DUSERMODREQUEST","ุทูุจุงุช ุชุนุฏูู ุงูุจุฑุงู…ุฌ ููุฃุนุถุงุก");
+define("_DOWNLOADVALIDATION","ู…ุฑุงุฌุนุฉ ุจุฑุงู…ุฌ");
+define("_CHECKALLDOWNLOADS","ุชุญูู ู…ู ุฌู…ูุน ุงูุจุฑุงู…ุฌ");
+define("_VALIDATEDOWNLOADS","ุงูุชุญูู ู…ู ุฑูุงุจุท ุงูุจุฑุงู…ุฌ");
+define("_NEWDOWNLOADADDED","ุจุฑูุงู…ุฌ ุฌุฏูุฏ ุฃุถูู ุงูู ู…ูุชุจุฉ ุงูุจุฑุงู…ุฌ");
+define("_SUBMITTER","ุงูู…ุฑุณู");
+define("_VISIT","ุฒูุงุฑุฉ");
+define("_ADDMAINCATEGORY","ุฃุถู ุชุตููู ุฑุฆูุณู");
+define("_ADDSUBCATEGORY","ุฃุถู ุชุตููู ูุฑุนู");
+define("_IN","ูู");
+define("_DESCRIPTION255","ุดุฑุญ: (ุญุฏ ุฃูุตู 255 ุญุฑู)");
+define("_MODCATEGORY","ุชุนุฏูู ุชุตููู");
+define("_ADDEDITORIAL","ุงุถู ุชุนููู");
+define("_EDITORIALTITLE","ุนููุงู ุงูุชุนููู");
+define("_EDITORIALTEXT","ูุต ุงูุชุนููู");
+define("_DATEWRITTEN","ุชุงุฑูุฎ ุงููุชุงุจุฉ");
+define("_IGNORE","ุชุฌุงูู");
+define("_ORIGINAL","ุงูุฃุตูู");
+define("_PROPOSED","ู…ูุชุฑุญ");
+define("_NOMODREQUESTS","ูุง ููุฌุฏ ุทูุจ ุชุนุฏูู ุงูุขู");
+define("_SUBCATEGORY","ุชุตููู ูุฑุนู");
+define("_OWNER","ู…ุงูู");
+define("_ACCEPT","ูุจูู");
+define("_ERRORTHECATEGORY","ุฎุทุฃ: ุงูุชุตููู ุงูุฑุฆูุณู");
+define("_ALREADYEXIST","ู…ูุฌูุฏ ู…ุณุจูุง!");
+define("_ERRORTHESUBCATEGORY","ุฎุทุฃ: ุงูุชุตููู ุงููุฑุนู");
+define("_EDITORIALADDED","ุงุถููุช ุงูุชุนูููุงุช ุงูู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_EDITORIALMODIFIED","ุชู… ุชุนุฏูู ุงูุชุนูููุงุช");
+define("_EDITORIALREMOVED","ุชุนูููุงุช ุงูู…ุญุฑุฑูู ุงูุบูุช ู…ู ูุงุนุฏุฉ ุงูุจูุงูุงุช");
+define("_CHECKCATEGORIES","ุงูุชุญูู ู…ู ุงูุชุตูููุงุช ุงูุฑุฆูุณูุฉ");
+define("_INCLUDESUBCATEGORIES","(ุชุถู…ูู ุงูุชุตูููุงุช ุงููุฑุนูุฉ)");
+define("_FAILED","ูุดู!");
+define("_BEPATIENT","(ุงูุฑุฌุงุก ุงูุฅูุชุธุงุฑ)");
+define("_VALIDATINGCAT","ุงูุชุญูู ู…ู ุงูุชุตููู (ูุฌู…ูุน ุงูุชุตูููุงุช ุงููุฑุนูุฉ)");
+define("_VALIDATINGSUBCAT","ุงูุชุญูู ู…ู ุงูุชุตููู ุงููุฑุนู");
+define("_ERRORURLEXIST","ุฎุทุฃ: ูุฐุง ุงูู…ููุน ู…ูุฌูุฏ ูู ูุงุนุฏุฉ ุงูุจูุงูุงุช!");
+define("_ERRORNOTITLE","ุฎุทุฃ: ูุฌุจ ูุชุงุจุฉ ุนููุงู ุงูู…ููุน!");
+define("_ERRORNOURL","ุฎุทุฃ: ูุฌุจ ูุชุงุจุฉ ุงูุฑุงุจุท ููู…ููุน!");
+define("_ERRORNODESCRIPTION","ุฎุทุฃ: ุชุญุชุงุฌ ููุชุงุจุฉ ุดุฑุญ ููู…ููุน!");
+define("_EZTRANSFER","ููู");
+define("_EZTHEREIS","ููุฌุฏ");
+define("_EZSUBCAT","ุฃูุณุงู… ูุฑุนูุฉ");
+define("_EZATTACHEDTOCAT","ุชุญุช ูุฐุง ุงููุณู…");
+define("_EZTRANSFERDOWNLOADS","ููู ุฌู…ูุน ุงูุจุฑุงู…ุฌ ู…ู ุงููุณู…");
+define("_DELEZDOWNLOADSCATWARNING","ุชุญุฐูุฑ: ูู ุชุฑูุฏ ุญุฐู ูุฐุง ุงููุณู… ุจุงูุชุฃููุฏุ ุณูู ุชุญุฐู ุฌู…ูุน ุงูุฃูุณุงู… ุงููุฑุนูุฉ ูุงูุจุฑุงู…ุฌ ุงูู…ูุญูุฉ ุจู.!");
 
 
 ?>

@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Pøedchozí stránka");
-define("_NEXT","Další stránka");
-define("_SEARCHRESULTS","Výsledky hledání");
-define("_PAGE","Stránka");
-define("_RETURNTO","Zpìt na");
+define("_PREVIOUS","PÅ™edchozÃ­ strÃ¡nka");
+define("_NEXT","DalÂšÃ­ strÃ¡nka");
+define("_SEARCHRESULTS","VÃ½sledky hledÃ¡nÃ­");
+define("_PAGE","StrÃ¡nka");
+define("_RETURNTO","ZpÄ›t na");
 define("_DEACTIVATE","Deaktivovat");
 define("_ACTIVATE","Aktivovat");
 define("_ENCYCLOPEDIA","Encyclopedia");

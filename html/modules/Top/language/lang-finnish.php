@@ -19,7 +19,7 @@
 
 define("_CATEGORY","Kategoria");
  
-define("_LVOTES","‰‰nt‰");
+define("_LVOTES","√§√§nt√§");
 define("_HITS","Lukukertoja");
 define("_TOPWELCOME","Tervetuloa sivulle"); 
 define("_READSTORIES","Luetuimmat artikkelit");
@@ -27,8 +27,8 @@ define("_COMMENTEDSTORIES","Kommentoiduimmat artikkelit");
 define("_ACTIVECAT","Aktiivisimmat kategoriat");
 define("_READSECTION","Luetuimmat opetukset"); 
 define("_NEWSSUBMITTERS","Aktiivisimmat artikkeleiden kirjoittajat");
-define("_NEWSSENT","Uutista l‰hetetty");
-define("_VOTEDPOLLS","ƒ‰nestetyimm‰t ‰‰nestykset");
+define("_NEWSSENT","Uutista l√§hetetty");
+define("_VOTEDPOLLS","√Ñ√§nestetyimm√§t √§√§nestykset");
 define("_MOSTACTIVEAUTHORS","Aktiivisimmat kirjoittajat");
 define("_NEWSPUBLISHED","Uutista julkaistu");
 define("_READREVIEWS","Luetuimmat arvostelut");

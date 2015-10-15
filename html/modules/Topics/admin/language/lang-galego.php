@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","Sí");
+define("_YES","SÃ­");
 define("_NO","Non");
-define("_TOPICSMANAGER","Administración de Temas");
+define("_TOPICSMANAGER","AdministraciÃ³n de Temas");
 define("_DELETETOPIC","Borrar Tema");
-define("_TOPICDELSURE","¿Está seguro de querer borra-lo Tema");
-define("_TOPICDELSURE1","¡Isto borrará TODA_LAS súas historias e os seus comentarios!");
+define("_TOPICDELSURE","Â¿EstÃ¡ seguro de querer borra-lo Tema");
+define("_TOPICDELSURE1","Â¡Isto borrarÃ¡ TODA_LAS sÃºas historias e os seus comentarios!");
 
 
 ?>

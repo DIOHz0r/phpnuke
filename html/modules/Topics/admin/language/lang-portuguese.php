@@ -36,11 +36,11 @@ define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
 define("_YES","Sim");
-define("_NO","Não");
+define("_NO","NÃ£o");
 define("_TOPICSMANAGER","Administrador de Temas");
 define("_DELETETOPIC","Apagar Tema");
-define("_TOPICDELSURE","Você quer mesmo apagar este Tema?");
-define("_TOPICDELSURE1","Isto irá apagar todas os Artigos e comentários deste tema!");
+define("_TOPICDELSURE","VocÃª quer mesmo apagar este Tema?");
+define("_TOPICDELSURE1","Isto irÃ¡ apagar todas os Artigos e comentÃ¡rios deste tema!");
 
 
 ?>

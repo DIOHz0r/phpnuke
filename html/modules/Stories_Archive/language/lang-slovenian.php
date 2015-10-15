@@ -18,8 +18,8 @@
 /**************************************************************************/
 
 define("_PRINTER","Prilagojeno za izpis");
-define("_FRIEND","Novico pošlji prijatelju");
-define("_ARTICLES","Èlankih");
+define("_FRIEND","Novico poÂšlji prijatelju");
+define("_ARTICLES","ÄŒlankih");
 define("_USCORE","Ocena");
 define("_DATE","Datum");
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");

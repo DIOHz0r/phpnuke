@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Nyomtatható változat");
-define("_FRIEND","Küldd el levélben!");
+define("_PRINTER","NyomtathatÃ³ vÃ¡ltozat");
+define("_FRIEND","KÃ¼ldd el levÃ©lben!");
 define("_ARTICLES","cikk");
-define("_USCORE","Osztályzatok");
-define("_DATE","Dátum");
+define("_USCORE","OsztÃ¡lyzatok");
+define("_DATE","DÃ¡tum");
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");
 define("_SHOWALLSTORIES","Show ALL Stories");
 define("_STORIESARCHIVE","Stories Archive");

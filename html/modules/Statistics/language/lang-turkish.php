@@ -4,51 +4,51 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
 define("_HITS","Hitler");
-define("_BROWSERS","Tarayýcýlar");
-define("_OPERATINGSYS","Ýþletim Sistemi");
+define("_BROWSERS","TarayÄ±cÄ±lar");
+define("_OPERATINGSYS","Ä°ÅŸletim Sistemi");
 define("_UNKNOWN","Bilinmeyen");
-define("_OTHER","Diðer / Bilinmeyen");
-define("_MISCSTATS","Diðer Ýstatistikler");
-define("_REGUSERS","Kayýtlý Kullanýcý:");
-define("_ACTIVEAUTHORS","Aktif Editör:");
-define("_STORIESPUBLISHED","Yayýnlanan Haber:");
+define("_OTHER","DiÄŸer / Bilinmeyen");
+define("_MISCSTATS","DiÄŸer Ä°statistikler");
+define("_REGUSERS","KayÄ±tlÄ± KullanÄ±cÄ±:");
+define("_ACTIVEAUTHORS","Aktif EditÃ¶r:");
+define("_STORIESPUBLISHED","YayÄ±nlanan Haber:");
 define("_SACTIVETOPICS","Aktif Konu:");
-define("_COMMENTSPOSTED","Gönderilen Yorum:");
-define("_SSPECIALSECT","Özel Bölüm:");
-define("_ARTICLESSEC","Bölümlerdeki Makale:");
-define("_LINKSINLINKS","Baðlantý:");
-define("_LINKSCAT","Baðlantý Kategorisi:");
+define("_COMMENTSPOSTED","GÃ¶nderilen Yorum:");
+define("_SSPECIALSECT","Ã–zel BÃ¶lÃ¼m:");
+define("_ARTICLESSEC","BÃ¶lÃ¼mlerdeki Makale:");
+define("_LINKSINLINKS","BaÄŸlantÄ±:");
+define("_LINKSCAT","BaÄŸlantÄ± Kategorisi:");
 define("_NEWSWAITING","Bekleyen Haber:");
-define("_NUKEVERSION","PHP-Nuke Sürümü:");
-define("_SEARCHENGINES","Arama Motorlarý");
-define("_BOTS","Robotlar/Örümcekler");
-define("_STATS","Eriþim Ýstatistikleri");
-define("_RETURNBASICSTATS","Basit Ýstatistiklere Dön");
-define("_BACKTODETSTATS","Ayrýntýlý Ýstatistiklere Dön");
-define("_BACKTOMAIN","Ana Sayfaya Dön");
-define("_TODAYIS","Bugün");
-define("_MOSTMONTH","En Meþgul Ay");
-define("_MOSTDAY","En Meþgul Gün");
-define("_MOSTHOUR","En Meþgul Saat");
-define("_YEARLYSTATS","Yýllýk Ýstatistikler");
-define("_MONTLYSTATS","Aylýk Ýstatistikler:");
-define("_SPAGESVIEWS","Sayfa Ýzlenimi");
-define("_DAILYSTATS","Günlük Ýstatistikler:");
-define("_HOURLYSTATS","Saatlik Ýstatistikler:");
-define("_VIEWDETAILED","Ayrýntýlý Ýstatistikleri Görüntüle");
+define("_NUKEVERSION","PHP-Nuke SÃ¼rÃ¼mÃ¼:");
+define("_SEARCHENGINES","Arama MotorlarÄ±");
+define("_BOTS","Robotlar/Ã–rÃ¼mcekler");
+define("_STATS","EriÅŸim Ä°statistikleri");
+define("_RETURNBASICSTATS","Basit Ä°statistiklere DÃ¶n");
+define("_BACKTODETSTATS","AyrÄ±ntÄ±lÄ± Ä°statistiklere DÃ¶n");
+define("_BACKTOMAIN","Ana Sayfaya DÃ¶n");
+define("_TODAYIS","BugÃ¼n");
+define("_MOSTMONTH","En MeÅŸgul Ay");
+define("_MOSTDAY","En MeÅŸgul GÃ¼n");
+define("_MOSTHOUR","En MeÅŸgul Saat");
+define("_YEARLYSTATS","YÄ±llÄ±k Ä°statistikler");
+define("_MONTLYSTATS","AylÄ±k Ä°statistikler:");
+define("_SPAGESVIEWS","Sayfa Ä°zlenimi");
+define("_DAILYSTATS","GÃ¼nlÃ¼k Ä°statistikler:");
+define("_HOURLYSTATS","Saatlik Ä°statistikler:");
+define("_VIEWDETAILED","AyrÄ±ntÄ±lÄ± Ä°statistikleri GÃ¶rÃ¼ntÃ¼le");
 
 ?>

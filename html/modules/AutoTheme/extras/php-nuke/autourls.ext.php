@@ -51,7 +51,7 @@ function at_autourls_rewrite($display)
 		"'(?<!/)modules.php\?name=Downloads&d_op=getit&amp;lid=([0-9]*)'",
 		"'(?<!/)modules.php\?name=Downloads&d_op=viewdownload&amp;cid=([0-9]*)&amp;min=([0-9]*)&amp;orderby=titleA&amp;show=([0-9]*)'",
 		"'(?<!/)modules.php\?name=Downloads&d_op=viewdownload&amp;cid=([0-9]*)'",
-		"'(?<!/)modules.php\?name=Downloads&d_op=viewdownloaddetails&amp;lid=([0-9]*)&amp;ttitle=([ง/:\-\'(){}.&=a-zA-Z0-9_ ]*)'",
+		"'(?<!/)modules.php\?name=Downloads&d_op=viewdownloaddetails&amp;lid=([0-9]*)&amp;ttitle=([ยง/:\-\'(){}.&=a-zA-Z0-9_ ]*)'",
 		"'(?<!/)modules.php\?name=(Downloads\")'",
 		"'(?<!/)modules.php\?name=Reviews&rop=showcontent&amp;id=([0-9]*)'",
 		"'(?<!/)modules.php\?name=Reviews&rop=write_review'",

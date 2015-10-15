@@ -17,15 +17,15 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","P·xina anterior");
-define("_NEXT","P·xina seguinte");
-define("_PAGE","p·xina(s) ");
+define("_PREVIOUS","P√°xina anterior");
+define("_NEXT","P√°xina seguinte");
+define("_PAGE","p√°xina(s) ");
 define("_DEACTIVATE","Desactivar");
 define("_ACTIVATE","Activar");
 define("_PUBLISHEDON","Publicado en");
-define("_PAGESLIST","Lista de P·xinas");
-define("_LISTOFCONTENT","Lista do Contido dispoÒible en");
-define("_YOURADMINLIST","… Administrador: seguidamente lista de p·xinas inactivas:");
+define("_PAGESLIST","Lista de P√°xinas");
+define("_LISTOFCONTENT","Lista do Contido dispo√±ible en");
+define("_YOURADMINLIST","√â Administrador: seguidamente lista de p√°xinas inactivas:");
 define("_COPYRIGHT","Copyright &copy; by");
 define("_COPYRIGHT2","All Right Reserved.");
 define("_CONTENTCATEGORIES","Available Content Categories");

@@ -31,7 +31,7 @@ define("_COMMENTSPOSTED","Opmerkingen geplaatst:");
 define("_SSPECIALSECT","Speciale secties:");
 define("_ARTICLESSEC","Artikelen in secties:");
 define("_LINKSINLINKS","Links in weblinks:");
-define("_LINKSCAT","Categorieën in links:");
+define("_LINKSCAT","CategorieÃ«n in links:");
 define("_NEWSWAITING","Nieuws wachtend op publicatie:");
 define("_NUKEVERSION","PHP-Nuke versie:");
 define("_SEARCHENGINES","Zoekmachines:");

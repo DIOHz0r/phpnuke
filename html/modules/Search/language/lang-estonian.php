@@ -17,28 +17,28 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ALLTOPICS","Kıikidest teemadest");
+define("_ALLTOPICS","K√µikidest teemadest");
 define("_NOCOMMENTS","Kommentaare pole");
 define("_UCOMMENT","Kommentaari");
-define("_REVIEWS","‹levaadet");
+define("_REVIEWS","√úlevaadet");
 define("_SEARCHUSERS","Otsi kasutajaid andmebaasisit");
-define("_SEARCHSECTIONS","Otsi t‰psest rubriigist");
-define("_SEARCHREVIEWS","Otsi ¸levaadetest");
+define("_SEARCHSECTIONS","Otsi t√§psest rubriigist");
+define("_SEARCHREVIEWS","Otsi √ºlevaadetest");
 define("_SEARCHIN","Otsi");
 define("_ARTICLES","Artikleid");
-define("_ALLAUTHORS","Kıiki Autoreid");
-define("_ALL","Kıik");
-define("_WEEK","n‰dal");
-define("_WEEKS","n‰dalat");
+define("_ALLAUTHORS","K√µiki Autoreid");
+define("_ALL","K√µik");
+define("_WEEK","n√§dal");
+define("_WEEKS","n√§dalat");
 define("_MONTH","kuu");
 define("_MONTHS","kuud");
 define("_SEARCHON","Otsi ");
 define("_SSTORIES","Jutte ");
 define("_SSECTIONS","Rubriike");
 define("_SUSERS","Kasutajaid");
-define("_NOMATCHES","Sinu p‰ringule ei leidunud vastust");
-define("_PREVMATCHES","eelmised lehek¸ljed");
-define("_NEXTMATCHES","j‰rgmised lehek¸ljed");
+define("_NOMATCHES","Sinu p√§ringule ei leidunud vastust");
+define("_PREVMATCHES","eelmised lehek√ºljed");
+define("_NEXTMATCHES","j√§rgmised lehek√ºljed");
 define("_INSECTION","Artikklite rubriigist");
 define("_NONAME","Nime ei ole sisestatud");
 define("_SCOMMENTS","Kommentaare ");
@@ -52,14 +52,14 @@ define("_SREPLY","Vasta");
 define("_SREPLIES","Vastused");
 define("_ATTACHART","Lisatud Artiklisse");
 define("_PAGES","Lehed");
-define("_REVIEWSCORE","Selle ‹levaate skoor");
+define("_REVIEWSCORE","Selle √úlevaate skoor");
 define("_PAGE","Leht");
 define("_DOWNLOADS","Failid");
 define("_WEBLINKS","Lingid");
 define("_FINDMORE","... veel");
 define("_DIDNOTFIND","Kas sa ei leidnud mida otsisid?");
-define("_ENCYCLOPEDIA","Sınastik");
-define("_SEARCHINSTORY","Otsi kıiki kommentaare selles jutus:");
+define("_ENCYCLOPEDIA","S√µnastik");
+define("_SEARCHINSTORY","Otsi k√µiki kommentaare selles jutus:");
 define("_SEARCHCHARACTERS","<center><b>Search System Error</b><br><br>Your query should be at least 3 characters long to be processed.<br>Please, fix the problem and try again...</center>");
 
 ?>

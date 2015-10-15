@@ -20,7 +20,7 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristov„o (ord'hor) ordhor@hotmail.com				  */
+/* Rui Cristov√£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
@@ -28,8 +28,8 @@ define("_CATEGORY","Categoria");
 define("_CATEGORIES","Categorias");
 define("_FAQ2","FAQ (Perguntas mais frequentes)");
 define("_BACKTOTOP","Voltar Acima");
-define("_BACKTOFAQINDEX","Voltar ao Ìndice das FAQ");
-define("_MAIN","Õndice");
+define("_BACKTOFAQINDEX","Voltar ao √≠ndice das FAQ");
+define("_MAIN","√çndice");
 define("_QUESTION","Pergunta");
 define("_ANSWER","Resposta");
 

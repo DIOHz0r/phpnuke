@@ -19,7 +19,7 @@
 
 define("_HITS","Tabamust");
 define("_BROWSERS","Lehitsejad");
-define("_OPERATINGSYS","Operatsioonisüsteemid");
+define("_OPERATINGSYS","OperatsioonisÃ¼steemid");
 define("_UNKNOWN","Tundmatu");
 define("_OTHER","Teised / Tundmatud");
 define("_MISCSTATS","Muu statistika");
@@ -36,19 +36,19 @@ define("_NEWSWAITING","Artikleid, mis ootavad avaldamist:");
 define("_NUKEVERSION","PHP-Nuke versioon:");
 define("_SEARCHENGINES","Otsingumootorid");
 define("_BOTS","veebirobotid"); //"Robots/Spiders" ?
-define("_STATS","Juurdepääsu statistika");
-define("_RETURNBASICSTATS","Tagasi põhilise statistika juurde");
-define("_BACKTODETSTATS","Tagasi täpsema statistika juurde");
+define("_STATS","JuurdepÃ¤Ã¤su statistika");
+define("_RETURNBASICSTATS","Tagasi pÃµhilise statistika juurde");
+define("_BACKTODETSTATS","Tagasi tÃ¤psema statistika juurde");
 define("_BACKTOMAIN","Tagasi statistka esilehele");
-define("_TODAYIS","Täna on");
+define("_TODAYIS","TÃ¤na on");
 define("_MOSTMONTH","Kiireim kuu");
-define("_MOSTDAY","Kiireim päev");
+define("_MOSTDAY","Kiireim pÃ¤ev");
 define("_MOSTHOUR","Kiireim tund");
 define("_YEARLYSTATS","Aastane statistika");
 define("_MONTLYSTATS","Kuuline statistika");
 define("_SPAGESVIEWS","Lehte vaadatud");
-define("_DAILYSTATS","Päevane statistika");
+define("_DAILYSTATS","PÃ¤evane statistika");
 define("_HOURLYSTATS","Tunniline statistika");
-define("_VIEWDETAILED","Vaata täpsemat statistikat");
+define("_VIEWDETAILED","Vaata tÃ¤psemat statistikat");
 
 ?>

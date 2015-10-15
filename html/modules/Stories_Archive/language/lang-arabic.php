@@ -17,18 +17,18 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","ÕÝÍÉ ááØÈÇÚÉ");
-define("_FRIEND","ÃÑÓá åÐÇ ÇáãÞÇá áÕÏíÞ");
-define("_ARTICLES","ÇáãÞÇáÇÊ");
-define("_USCORE","ÇáÊÞííã");
-define("_DATE","ÇáÊÇÑíÎ");
-define("_SELECTMONTH2VIEW","ÇÎÊÑ ÇáÔåÑ ááÚÑÖ:");
-define("_SHOWALLSTORIES","ÚÑÖ ÌãíÚ ÇáãÞÇáÇÊ");
-define("_STORIESARCHIVE","ÃÑÔíÝ ÇáãÞÇáÇÊ");
-define("_ACTIONS","ÇáÚãá");
-define("_ARCHIVESINDEX","ãÍÊæíÇÊ ÃÑÔíÝ ÇáãÞÇáÇÊ");
-define("_ALLSTORIESARCH","ÌãíÚ ÇáãÞÇáÇÊ");
-define("_NEXTPAGE","ÇáÕÝÍÉ ÇáÊÇáíÉ");
-define("_PREVIOUSPAGE","ÇáÕÝÍÉ ÇáÓÇÈÞÉ");
+define("_PRINTER","ØµÙØ­Ø© Ù„Ù„Ø·Ø¨Ø§Ø¹Ø©");
+define("_FRIEND","Ø£Ø±Ø³Ù„ Ù‡Ø°Ø§ Ø§Ù„Ù…Ù‚Ø§Ù„ Ù„ØµØ¯ÙŠÙ‚");
+define("_ARTICLES","Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª");
+define("_USCORE","Ø§Ù„ØªÙ‚ÙŠÙŠÙ…");
+define("_DATE","Ø§Ù„ØªØ§Ø±ÙŠØ®");
+define("_SELECTMONTH2VIEW","Ø§Ø®ØªØ± Ø§Ù„Ø´Ù‡Ø± Ù„Ù„Ø¹Ø±Ø¶:");
+define("_SHOWALLSTORIES","Ø¹Ø±Ø¶ Ø¬Ù…ÙŠØ¹ Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª");
+define("_STORIESARCHIVE","Ø£Ø±Ø´ÙŠÙ Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª");
+define("_ACTIONS","Ø§Ù„Ø¹Ù…Ù„");
+define("_ARCHIVESINDEX","Ù…Ø­ØªÙˆÙŠØ§Øª Ø£Ø±Ø´ÙŠÙ Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª");
+define("_ALLSTORIESARCH","Ø¬Ù…ÙŠØ¹ Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª");
+define("_NEXTPAGE","Ø§Ù„ØµÙØ­Ø© Ø§Ù„ØªØ§Ù„ÙŠØ©");
+define("_PREVIOUSPAGE","Ø§Ù„ØµÙØ­Ø© Ø§Ù„Ø³Ø§Ø¨Ù‚Ø©");
 
 ?>

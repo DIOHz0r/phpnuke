@@ -17,13 +17,13 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Elızı oldal");
-define("_NEXT","Kˆvetkezı oldal");
-define("_SEARCHRESULTS","KeresÈs eredmÈnyei");
+define("_PREVIOUS","El≈ëz≈ë oldal");
+define("_NEXT","K√∂vetkez≈ë oldal");
+define("_SEARCHRESULTS","Keres√©s eredm√©nyei");
 define("_PAGE","oldal");
-define("_RETURNTO","Vissza az elızı oldalra:");
-define("_DEACTIVATE","Kikapcsol·s");
-define("_ACTIVATE","Bekapcsol·s");
+define("_RETURNTO","Vissza az el≈ëz≈ë oldalra:");
+define("_DEACTIVATE","Kikapcsol√°s");
+define("_ACTIVATE","Bekapcsol√°s");
 define("_ENCYCLOPEDIA","Encyclopedia");
 define("_NOCONTENTFORLETTER","Sorry, there isn't any content for the letter");
 define("_ENCYSELECTLETTER","Please select a letter from the following list to consult terms:");

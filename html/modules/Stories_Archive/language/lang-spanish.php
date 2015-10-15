@@ -17,10 +17,10 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Versión Imprimible");
+define("_PRINTER","VersiÃ³n Imprimible");
 define("_FRIEND","Enviar a un Amigo");
-define("_ARTICLES","Artículos");
-define("_USCORE","Puntuación");
+define("_ARTICLES","ArtÃ­culos");
+define("_USCORE","PuntuaciÃ³n");
 define("_DATE","Fecha");
 define("_SELECTMONTH2VIEW","Por favor selecciona el mes que deseas consultar:");
 define("_SHOWALLSTORIES","Mostrar todas las Noticias");
@@ -28,7 +28,7 @@ define("_STORIESARCHIVE","Archivo de Noticias");
 define("_ACTIONS","Acciones");
 define("_ARCHIVESINDEX","Indice del Archivo de Noticias");
 define("_ALLSTORIESARCH","Todas las Noticias");
-define("_NEXTPAGE","Página Siguiente");
-define("_PREVIOUSPAGE","Página Anterior");
+define("_NEXTPAGE","PÃ¡gina Siguiente");
+define("_PREVIOUSPAGE","PÃ¡gina Anterior");
 
 ?>

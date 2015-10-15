@@ -20,30 +20,30 @@
 /**************************************************************************/
 /* Translation by:							  */
 /*									  */
-/* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
+/* Rui CristovÃ£o (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
 
-define("_PREVIOUS","Página Anterior");
-define("_NEXT","Página Seguinte");
+define("_PREVIOUS","PÃ¡gina Anterior");
+define("_NEXT","PÃ¡gina Seguinte");
 define("_SEARCHRESULTS","Resultados da Pesquisa");
-define("_PAGE","Páginas");
+define("_PAGE","PÃ¡ginas");
 define("_RETURNTO","Voltar para");
 define("_DEACTIVATE","Desactivar");
 define("_ACTIVATE","Activo");
-define("_ENCYCLOPEDIA","Enciclopédia");
-define("_NOCONTENTFORLETTER","Desculpe, não existe conteúdo para a carta");
+define("_ENCYCLOPEDIA","EnciclopÃ©dia");
+define("_NOCONTENTFORLETTER","Desculpe, nÃ£o existe conteÃºdo para a carta");
 define("_ENCYSELECTLETTER","Por favor seleccione uma carta da lista seguinte para consulta de termos:");
 define("_COPYRIGHT","Copyright");
-define("_YOURADMINENCY","Você é Administrador, esta enciclopédia não está activa!");
-define("_ENCYNOTACTIVE","Desculpe, mas esta enciclopédia não está activa de momento.");
-define("_AVAILABLEENCYLIST","Lista de enciclopédias disponiveis em");
-define("_YOURADMININACTIVELIST","Você é Administrador: segue-se a lista das enciclopédias inactivas:");
+define("_YOURADMINENCY","VocÃª Ã© Administrador, esta enciclopÃ©dia nÃ£o estÃ¡ activa!");
+define("_ENCYNOTACTIVE","Desculpe, mas esta enciclopÃ©dia nÃ£o estÃ¡ activa de momento.");
+define("_AVAILABLEENCYLIST","Lista de enciclopÃ©dias disponiveis em");
+define("_YOURADMININACTIVELIST","VocÃª Ã© Administrador: segue-se a lista das enciclopÃ©dias inactivas:");
 define("_NORESULTSTEXT","Sem resultados no texto do termo...");
-define("_NORESULTSTITLE","Sem resultados pelo título do termo...");
+define("_NORESULTSTITLE","Sem resultados pelo tÃ­tulo do termo...");
 define("_SEARCHRESULTSFOR","Procurar resultados para:");
-define("_SEARCHNOTCOMPLETE","As opcções de procura não estão completas. Por favor tente de novo.");
-define("_RESULTSINTERMTITLE","Resultados pelo título do termo:");
+define("_SEARCHNOTCOMPLETE","As opcÃ§Ãµes de procura nÃ£o estÃ£o completas. Por favor tente de novo.");
+define("_RESULTSINTERMTITLE","Resultados pelo tÃ­tulo do termo:");
 define("_RESULTSINTERMTEXT","Results no texto do termo:");
 
 ?>

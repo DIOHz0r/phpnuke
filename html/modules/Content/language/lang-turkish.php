@@ -4,31 +4,31 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_PREVIOUS","Önceki Sayfa");
+define("_PREVIOUS","Ã–nceki Sayfa");
 define("_NEXT","Sonraki Sayfa");
 define("_PAGE","Sayfa");
-define("_DEACTIVATE","Pasifleþtir");
-define("_ACTIVATE","Etkinleþtir");
-define("_PUBLISHEDON","Yayýnlanma:");
+define("_DEACTIVATE","PasifleÅŸtir");
+define("_ACTIVATE","EtkinleÅŸtir");
+define("_PUBLISHEDON","YayÄ±nlanma:");
 define("_PAGESLIST","Sayfa Listesi");
-define("_LISTOFCONTENT","Ýçerik Listesi:");
-define("_YOURADMINLIST","Yöneticisiniz: Pasif sayfalarýn listesi aþaðýdadýr:");
+define("_LISTOFCONTENT","Ä°Ã§erik Listesi:");
+define("_YOURADMINLIST","YÃ¶neticisiniz: Pasif sayfalarÄ±n listesi aÅŸaÄŸÄ±dadÄ±r:");
 define("_COPYRIGHT","Copyright &copy;");
-define("_COPYRIGHT2","Tüm haklarý saklýdýr.");
-define("_CONTENTCATEGORIES","Ýçerik Kategorileri");
-define("_NONCLASSCONT","Kategorize Edilmemiþ Ýçerik");
+define("_COPYRIGHT2","TÃ¼m haklarÄ± saklÄ±dÄ±r.");
+define("_CONTENTCATEGORIES","Ä°Ã§erik Kategorileri");
+define("_NONCLASSCONT","Kategorize EdilmemiÅŸ Ä°Ã§erik");
 
 ?>

@@ -18,10 +18,10 @@
 /**************************************************************************/
 
 define("_PDATE","Datum:");
-define("_PTOPIC","Téma:");
-define("_COMESFROM","Tento èlánek najdete na");
-define("_THEURL","Adresa tohoto èlánku je:");
+define("_PTOPIC","TÃ©ma:");
+define("_COMESFROM","Tento ÄlÃ¡nek najdete na");
+define("_THEURL","Adresa tohoto ÄlÃ¡nku je:");
 define("_DATE","Datum");
-define("_TITLE","Název");
+define("_TITLE","NÃ¡zev");
 
 ?>

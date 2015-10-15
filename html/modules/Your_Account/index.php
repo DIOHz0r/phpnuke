@@ -37,7 +37,7 @@ function userCheck($username, $user_email) {
 	if (strrpos($user_email,' ') > 0) $stop = "<center>"._ERROREMAILSPACES."</center>";
 	if ((!$username) || (empty($username)) || (ereg("[^a-zA-Z0-9_-]",$username))) $stop = "<center>"._ERRORINVNICK."</center><br>";
 	if (strlen($username) > 25) $stop = "<center>"._NICK2LONG."</center>";
-	if (eregi("^((root)|(adm)|(linux)|(webmaster)|(admin)|(god)|(administrator)|(administrador)|(nobody)|(anonymous)|(anonimo)|(anónimo)|(operator)|(JackFromWales4u2))$",$username)) $stop = "<center>"._NAMERESERVED."</center>";
+	if (eregi("^((root)|(adm)|(linux)|(webmaster)|(admin)|(god)|(administrator)|(administrador)|(nobody)|(anonymous)|(anonimo)|(anÃ³nimo)|(operator)|(JackFromWales4u2))$",$username)) $stop = "<center>"._NAMERESERVED."</center>";
 	if (strrpos($username,' ') > 0) $stop = "<center>"._NICKNOSPACES."</center>";
 	if ($db->sql_numrows($db->sql_query("SELECT username FROM ".$user_prefix."_users WHERE username='$username'")) > 0) $stop = "<center>"._NICKTAKEN."</center><br>";
 	if ($db->sql_numrows($db->sql_query("SELECT username FROM ".$user_prefix."_users_temp WHERE username='$username'")) > 0) $stop = "<center>"._NICKTAKEN."</center><br>";

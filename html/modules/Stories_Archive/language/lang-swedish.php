@@ -17,10 +17,10 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Utskriftsv‰nlig sida");
+define("_PRINTER","Utskriftsv√§nlig sida");
 define("_FRIEND","Skicka denna artikel till en kompis");
 define("_ARTICLES","Artiklarna");
-define("_USCORE","Po‰ng");
+define("_USCORE","Po√§ng");
 define("_DATE","Datum");
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");
 define("_SHOWALLSTORIES","Show ALL Stories");

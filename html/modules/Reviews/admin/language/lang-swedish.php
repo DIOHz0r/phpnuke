@@ -19,11 +19,11 @@
 
 
 define("_EMAIL","E-post");
-define("_SAVECHANGES","Spara ƒndringar");
-define("_SCORE","Po‰ng:");
+define("_SAVECHANGES","Spara √Ñndringar");
+define("_SCORE","Po√§ng:");
 define("_PRODUCTTITLE","Produktnamn");
-define("_RELATEDLINK","Relaterad L‰nk");
-define("_LINKTITLE","Titel pÂ l‰nken");
+define("_RELATEDLINK","Relaterad L√§nk");
+define("_LINKTITLE","Titel p√• l√§nken");
 define("_REVIEWER","Recensent:");
 define("_REVIEWID","Recensions ID");
 define("_REVIEWS","Recensioner");
@@ -31,15 +31,15 @@ define("_DATE","Datum");
 define("_REVADMIN","Recensionsadministration");
 define("_REVTITLE","Recensionssidans Titel");
 define("_REVDESC","Recensionssidan Beskrivning");
-define("_REVWAITING","Recensioner som v‰ntar pÂ validering");
-define("_REVIMGINFO","L‰gg din 150*150 bild i images/reviews");
+define("_REVWAITING","Recensioner som v√§ntar p√• validering");
+define("_REVIMGINFO","L√§gg din 150*150 bild i images/reviews");
 define("_TEXT","Text");
 define("_IMAGE","Bild");
-define("_NOREVIEW2ADD","Inga recensioner att l‰gga till");
+define("_NOREVIEW2ADD","Inga recensioner att l√§gga till");
 define("_ADDREVIEW","Addera recension");
-define("_CLICK2ADDREVIEW","Klicka h‰r fˆr att skriva en recension");
+define("_CLICK2ADDREVIEW","Klicka h√§r f√∂r att skriva en recension");
 define("_DELMODREVIEW","Radera / Modifiera en recension");
-define("_MODREVINFO","Du kan enkelt radera/modifiera recensioner genom att bl‰ddra i <a href=\"modules.php?name=Reviews\">Reviews</a> som Admin.");
+define("_MODREVINFO","Du kan enkelt radera/modifiera recensioner genom att bl√§ddra i <a href=\"modules.php?name=Reviews\">Reviews</a> som Admin.");
 define("_LANGUAGE","Language");
 
 

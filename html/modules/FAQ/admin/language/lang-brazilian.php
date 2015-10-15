@@ -18,16 +18,16 @@
 /**************************************************************************/
 
 
-define("_FUNCTIONS","Funções");
+define("_FUNCTIONS","FunÃ§Ãµes");
 define("_YES","sim");
-define("_NO","Não");
+define("_NO","NÃ£o");
 define("_SAVE","Salvar");
 define("_ID","ID");
 define("_CATEGORIES","Categorias");
 define("_ALL","Todos(as)");
 define("_FAQ","FAQ (Perguntas Frequentes)");
-define("_CONTENT","Conteúdo");
-define("_FAQADMIN","Administração do FAQ");
+define("_CONTENT","ConteÃºdo");
+define("_FAQADMIN","AdministraÃ§Ã£o do FAQ");
 define("_ACTIVEFAQS","FAQs ativos");
 define("_ADDCATEGORY","Adicionar uma nova categoria");
 define("_QUESTIONS","Perguntas e Respostas");
@@ -36,8 +36,8 @@ define("_QUESTION","Pergunta");
 define("_ANSWER","Resposta");
 define("_EDITCATEGORY","Editar categoria");
 define("_EDITQUESTIONS","Editar Perguntas e Respostas");
-define("_FAQDELWARNING","<b>AVISO</b>: Você tem certeza de que quer apagar este FAQ e todo seuconteúdo?");
-define("_QUESTIONDEL","<b>AVISO</b>: VOcê tem certeza de que quer apagar esta Pergunta?");
+define("_FAQDELWARNING","<b>AVISO</b>: VocÃª tem certeza de que quer apagar este FAQ e todo seuconteÃºdo?");
+define("_QUESTIONDEL","<b>AVISO</b>: VOcÃª tem certeza de que quer apagar esta Pergunta?");
 define("_LANGUAGE","Idioma");
 
 

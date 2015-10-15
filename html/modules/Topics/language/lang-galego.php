@@ -18,7 +18,7 @@
 /**************************************************************************/
 
 define("_ACTIVETOPICS","Temas Activos");
-define("_CLICK2LIST","Presione para listar tódo-los artigos sobre este Tema");
+define("_CLICK2LIST","Presione para listar tÃ³do-los artigos sobre este Tema");
 define("_TOTNEWS","Total News");
 define("_TOTREADS","Total Reads");
 define("_MORE","More");

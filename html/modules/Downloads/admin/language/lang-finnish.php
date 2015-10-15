@@ -19,8 +19,8 @@
 
 
 define("_URL","URL");
-define("_FUNCTIONS","Teht‰v‰t");
-define("_YES","Kyll‰");
+define("_FUNCTIONS","Teht√§v√§t");
+define("_YES","Kyll√§");
 define("_NO","Ei");
 define("_CATEGORY","Kategoria");
 define("_SAVECHANGES","Tallenna muutokset");
@@ -29,7 +29,7 @@ define("_HITS","Lukukertoja");
 define("_THEREARE","Tietokannassa on");
 define("_CHECK","Tarkasta");
 define("_AUTHORNAME","Nimi");
-define("_AUTHOREMAIL","S‰hkˆposti");
+define("_AUTHOREMAIL","S√§hk√∂posti");
 define("_DOWNLOADNAME","Tiedoston nimi");
 define("_INBYTES","kt");
 define("_FILESIZE","tiedostokoko");
@@ -42,11 +42,11 @@ define("_FILEURL","Tiedoston URL");
 define("_DOWNLOADID","ID");
 define("_PAGETITLE","Sivun otsikko");
 define("_PAGEURL","Sivun URL");
-define("_ADDURL","Lis‰‰");
+define("_ADDURL","Lis√§√§");
 define("_DOWNLOAD","Tiedostot");
 define("_TITLE","Otsikko");
 define("_STATUS","Status");
-define("_ADD","Lis‰‰");
+define("_ADD","Lis√§√§");
 define("_MODIFY","Muokkaa");
 define("_DOWNLOADSINDB","Downloads in our Database");
 define("_DOWNLOADSWAITINGVAL","Downloads Waiting for Validation");

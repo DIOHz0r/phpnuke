@@ -36,11 +36,11 @@ define("_CONTENT","Innhold");
 define("_ADDCATEGORY","Legg til ny kategori");
 define("_EDITCATEGORY","Rediger kategori");
 define("_ADD","Legg til");
-define("_LANGUAGE","Språk");
+define("_LANGUAGE","SprÃ¥k");
 define("_CONTENTMANAGER","Innholdsadministrator");
-define("_DELCONTWARNING","Er du sikker på at du vil slette siden");
+define("_DELCONTWARNING","Er du sikker pÃ¥ at du vil slette siden");
 define("_DELCONTENT","Slett side");
-define("_CURRENTSTATUS","Nåværende status");
+define("_CURRENTSTATUS","NÃ¥vÃ¦rende status");
 define("_ADDANEWPAGE","Legg til ny side");
 define("_CSUBTITLE","Under-tittel");
 define("_HEADERTEXT","Overskriftstekst");
@@ -48,7 +48,7 @@ define("_PAGETEXT","Side-tekst");
 define("_FOOTERTEXT","Fot-tekst");
 define("_ACTIVATEPAGE","Aktiver denne siden?");
 define("_EDITPAGECONTENT","Rediger side-innhold");
-define("_DELCONTENTCAT","ADVARSEL: Er du sikker på at du vil slette denne kategorien? Sier under denne kategorien, hvis noen, vil ikke slettes, men de vil ikke lenger være tilknyttet noen kategori.");
+define("_DELCONTENTCAT","ADVARSEL: Er du sikker pÃ¥ at du vil slette denne kategorien? Sier under denne kategorien, hvis noen, vil ikke slettes, men de vil ikke lenger vÃ¦re tilknyttet noen kategori.");
 define("_DELCATEGORY","Slett kategori");
 
 

@@ -26,18 +26,18 @@ define("_ID","ID");
 define("_CATEGORIES","Kategorier");
 define("_ALL","Alla");
 define("_FAQ","FAQ");
-define("_CONTENT","Innehåll");
+define("_CONTENT","InnehÃ¥ll");
 define("_FAQADMIN","FAQ Administration");
 define("_ACTIVEFAQS","Aktiva FAQar");
 define("_ADDCATEGORY","Addera en Ny Kategori");
-define("_QUESTIONS","Frågor och Svar");
-define("_ADDQUESTION","Addera en Ny Fråga");
-define("_QUESTION","Fråga");
+define("_QUESTIONS","FrÃ¥gor och Svar");
+define("_ADDQUESTION","Addera en Ny FrÃ¥ga");
+define("_QUESTION","FrÃ¥ga");
 define("_ANSWER","Svar");
 define("_EDITCATEGORY","Redigera Kategori");
-define("_EDITQUESTIONS","Redigera Frågor och Svar");
-define("_FAQDELWARNING","VARNING: Är du säker på att du vill radera denna FAQ och allt dess innehåll?");
-define("_QUESTIONDEL","VARNING: Är du säker på att du vill radera denna fråga?");
+define("_EDITQUESTIONS","Redigera FrÃ¥gor och Svar");
+define("_FAQDELWARNING","VARNING: Ã„r du sÃ¤ker pÃ¥ att du vill radera denna FAQ och allt dess innehÃ¥ll?");
+define("_QUESTIONDEL","VARNING: Ã„r du sÃ¤ker pÃ¥ att du vill radera denna frÃ¥ga?");
 define("_LANGUAGE","Language");
 
 

@@ -17,10 +17,10 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Lähetä");
+define("_SEND","LÃ¤hetÃ¤");
 define("_YOURNAME","Nimesi");
 define("_MESSAGE","Viesti");
-define("_YOUREMAIL","Sähköpostisi");
+define("_YOUREMAIL","SÃ¤hkÃ¶postisi");
 define("_FEEDBACKNOTE","All comments and suggestions about this web site are very welcome and a valuable source of information for us. Thanks!");
 define("_FEEDBACKTITLE","Feedback Form");
 define("_FEEDBACK","Feedback");

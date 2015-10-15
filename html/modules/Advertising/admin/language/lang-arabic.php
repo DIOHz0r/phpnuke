@@ -17,52 +17,52 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_FUNCTIONS","วแฯๆวแ");
-define("_YES","ไฺใ");
-define("_NO","แว");
-define("_SAVECHANGES","อÝู วแสÛํํัวส");
-define("_ID","ัÞใ");
-define("_EXTRAINFO","ใฺแๆใวส วึวÝํษ");
-define("_SHOW","ฺัึ");
-define("_BANNERSADMIN","Þวฦใษ วแฯฺวํวส");
-define("_ACTIVEBANNERS","วแฯฺวํวส วแไิุษ อวแํว");
-define("_ACTIVEBANNERS2","วแฯฺวํวส วแไิุษ");
-define("_IMPRESSIONS","วแูๅๆั");
-define("_IMPLEFT","วแูๅๆั วแใสศÞํ");
-define("_CLICKS","วแึÛุวส");
-define("_CLICKSPERCENT","% วแึÛุวส");
-define("_CLIENTNAME","วำใ วแฺใํแ");
-define("_ADVERTISINGCLIENTS","วแฺใแวม วแใฺแไํไ");
-define("_CONTACTNAME","วแลำใ");
-define("_CONTACTEMAIL","วแศัํฯ วแลแ฿สัๆไํ");
-define("_ADDNEWBANNER","รึÝ วฺแวไ ฬฯํฯ");
-define("_PURCHASEDIMPRESSIONS","ใัวส วแูๅๆั วแใิสัวๅ");
-define("_IMAGEURL","ัวศุ วแีๆัษ");
-define("_CLICKURL","ัวศุ วแฺไๆวไ ฺไฯ วแึÛุ");
-define("_ADDBANNER","รึÝ รฺแวไ");
-define("_ADDCLIENT","รึÝ ฺใํแ ฬฯํฯ");
-define("_CLIENTLOGIN","ฯฮๆแ วแฺใํแ");
-define("_CLIENTPASSWD","฿แใษ ำั วแฺใํแ");
-define("_ADDCLIENT2","รึÝ ฺใํแ");
-define("_DELETEBANNER","อะÝ ฯฺวํษ");
-define("_SURETODELBANNER","ๅแ สัํฯอะÝ ๅะว วแลฺแวไ ศวแสร฿ํฯฟ");
-define("_EDITBANNER","สอัํั ลฺแวไ");
-define("_ADDIMPRESSIONS","รึÝ ฺฯฯ ใัวส ูๅๆั");
-define("_DELETECLIENT","อะÝ วแฺใํแ");
-define("_SURETODELCLIENT","รไส ฺแ์ ๆิ฿ อะÝ วแฺใํแ ใฺ ฬใํฺ ฯฺวํวสๅ!!!");
-define("_CLIENTWITHOUTBANNERS","ๅะว วแฺใํแ แวํๆฬฯ แฯํๅ ฯฺวํวส อวแํว.");
-define("_DELCLIENTHASBANNERS","ํๆฬฯ แฯ์ ๅะว วแฺใํแ วแฯฺวํวส วแไิุษ วแอวแํษ");
-define("_EDITCLIENT","สฺฯํแ วแฺใํแ");
-define("_POSITION","วแใ฿วไ");
-define("_ACTIVE","ไิํุ");
-define("_DEACTIVATE","สฺุํแ");
-define("_INACTIVE","ใฺุแ");
-define("_ACTIVATE","สไิํุ");
+define("_FUNCTIONS","ุงูุฏูุงู");
+define("_YES","ูุนู…");
+define("_NO","ูุง");
+define("_SAVECHANGES","ุญูุธ ุงูุชุบููุฑุงุช");
+define("_ID","ุฑูู…");
+define("_EXTRAINFO","ู…ุนููู…ุงุช ุงุถุงููุฉ");
+define("_SHOW","ุนุฑุถ");
+define("_BANNERSADMIN","ูุงุฆู…ุฉ ุงูุฏุนุงูุงุช");
+define("_ACTIVEBANNERS","ุงูุฏุนุงูุงุช ุงููุดุทุฉ ุญุงููุง");
+define("_ACTIVEBANNERS2","ุงูุฏุนุงูุงุช ุงููุดุทุฉ");
+define("_IMPRESSIONS","ุงูุธููุฑ");
+define("_IMPLEFT","ุงูุธููุฑ ุงูู…ุชุจูู");
+define("_CLICKS","ุงูุถุบุทุงุช");
+define("_CLICKSPERCENT","% ุงูุถุบุทุงุช");
+define("_CLIENTNAME","ุงุณู… ุงูุนู…ูู");
+define("_ADVERTISINGCLIENTS","ุงูุนู…ูุงุก ุงูู…ุนูููู");
+define("_CONTACTNAME","ุงูุฅุณู…");
+define("_CONTACTEMAIL","ุงูุจุฑูุฏ ุงูุฅููุชุฑููู");
+define("_ADDNEWBANNER","ุฃุถู ุงุนูุงู ุฌุฏูุฏ");
+define("_PURCHASEDIMPRESSIONS","ู…ุฑุงุช ุงูุธููุฑ ุงูู…ุดุชุฑุงู");
+define("_IMAGEURL","ุฑุงุจุท ุงูุตูุฑุฉ");
+define("_CLICKURL","ุฑุงุจุท ุงูุนููุงู ุนูุฏ ุงูุถุบุท");
+define("_ADDBANNER","ุฃุถู ุฃุนูุงู");
+define("_ADDCLIENT","ุฃุถู ุนู…ูู ุฌุฏูุฏ");
+define("_CLIENTLOGIN","ุฏุฎูู ุงูุนู…ูู");
+define("_CLIENTPASSWD","ููู…ุฉ ุณุฑ ุงูุนู…ูู");
+define("_ADDCLIENT2","ุฃุถู ุนู…ูู");
+define("_DELETEBANNER","ุญุฐู ุฏุนุงูุฉ");
+define("_SURETODELBANNER","ูู ุชุฑูุฏุญุฐู ูุฐุง ุงูุฅุนูุงู ุจุงูุชุฃููุฏุ");
+define("_EDITBANNER","ุชุญุฑูุฑ ุฅุนูุงู");
+define("_ADDIMPRESSIONS","ุฃุถู ุนุฏุฏ ู…ุฑุงุช ุธููุฑ");
+define("_DELETECLIENT","ุญุฐู ุงูุนู…ูู");
+define("_SURETODELCLIENT","ุฃูุช ุนูู ูุดู ุญุฐู ุงูุนู…ูู ู…ุน ุฌู…ูุน ุฏุนุงูุงุชู!!!");
+define("_CLIENTWITHOUTBANNERS","ูุฐุง ุงูุนู…ูู ูุงููุฌุฏ ูุฏูู ุฏุนุงูุงุช ุญุงููุง.");
+define("_DELCLIENTHASBANNERS","ููุฌุฏ ูุฏู ูุฐุง ุงูุนู…ูู ุงูุฏุนุงูุงุช ุงููุดุทุฉ ุงูุญุงููุฉ");
+define("_EDITCLIENT","ุชุนุฏูู ุงูุนู…ูู");
+define("_POSITION","ุงูู…ูุงู");
+define("_ACTIVE","ูุดูุท");
+define("_DEACTIVATE","ุชุนุทูู");
+define("_INACTIVE","ู…ุนุทู");
+define("_ACTIVATE","ุชูุดูุท");
 define("_TYPE","Type");
-define("_WARNING","สอะํั");
-define("_INACTIVEBANNERS","วฺแวไวส ใฺุแษ");
-define("_BANNERS","วแลฺแวไวส");
-define("_ALTTEXT","วแไี วแใสÛํั");
+define("_WARNING","ุชุญุฐูุฑ");
+define("_INACTIVEBANNERS","ุงุนูุงูุงุช ู…ุนุทูุฉ");
+define("_BANNERS","ุงูุฅุนูุงูุงุช");
+define("_ALTTEXT","ุงููุต ุงูู…ุชุบูุฑ");
 define("_CLASS","Class");
 define("_CLASSNOTE","If your Ad Class is Javascript/HTML Code the next 4 fields will be ignored and will count only the Code area below. If your Ad Class is Flash you must put the .SWF complete URL in the next field and set width and height of the Flash movie (Click URL and Alternate Text fields will be ignored).");
 define("_ADCLASS","Ad Class");

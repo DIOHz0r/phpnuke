@@ -25,24 +25,24 @@
 define("_URL","Link");
 define("_EMAIL","e-mail");
 define("_REALNAME","Nome verdadeiro");
-define("_FUNCTIONS","Funções");
-define("_PREVIOUS","Página anterior");
-define("_MEMBERSLIST","Lista de usuários");
-define("_GREETINGS","Saudações ao nosso mais novo usuário:");
+define("_FUNCTIONS","FunÃ§Ãµes");
+define("_PREVIOUS","PÃ¡gina anterior");
+define("_MEMBERSLIST","Lista de usuÃ¡rios");
+define("_GREETINGS","SaudaÃ§Ãµes ao nosso mais novo usuÃ¡rio:");
 define("_SORTBY","Classificar por:");
 define("_MNICKNAME","Apelido");
 define("_MREALNAME","Nome verdadeiro");
 define("_MEMAIL","e-mail");
 define("_MURL","Homepage");
-define("_ONLINEREG","Usuários cadastrados on-line neste momento:");
-define("_WEHAVE","possuímos");
-define("_MREGISTERED","alguns usuários cadastrados. E destes");
-define("_MREGONLINE","o(s) seguinte(s) está(ã)o conectado(s) agora.");
-define("_REGSOFAR","Usuários cadastrados até agora.");
-define("_USERSFOUND","Usuários encontrados por");
-define("_USERSSHOWN","Mostrar usuários");
-define("_NOMEMBERS","Nenhum usuário encontrado por");
-define("_PAGES","Páginas");
+define("_ONLINEREG","UsuÃ¡rios cadastrados on-line neste momento:");
+define("_WEHAVE","possuÃ­mos");
+define("_MREGISTERED","alguns usuÃ¡rios cadastrados. E destes");
+define("_MREGONLINE","o(s) seguinte(s) estÃ¡(Ã£)o conectado(s) agora.");
+define("_REGSOFAR","UsuÃ¡rios cadastrados atÃ© agora.");
+define("_USERSFOUND","UsuÃ¡rios encontrados por");
+define("_USERSSHOWN","Mostrar usuÃ¡rios");
+define("_NOMEMBERS","Nenhum usuÃ¡rio encontrado por");
+define("_PAGES","PÃ¡ginas");
 define("_HOMEPAGE","Homepage");
 
 ?>

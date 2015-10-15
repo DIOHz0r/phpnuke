@@ -18,24 +18,24 @@
 /**************************************************************************/
 
 
-define("_SEND","Отправить");
-define("_FUNCTIONS","Функции");
-define("_YES","Да");
-define("_NO","Нет");
-define("_CATEGORY","Категория");
-define("_SAVECHANGES","Сохранить изменения");
+define("_SEND","РћС‚РїСЂР°РІРёС‚СЊ");
+define("_FUNCTIONS","Р¤СѓРЅРєС†РёРё");
+define("_YES","Р”Р°");
+define("_NO","РќРµС‚");
+define("_CATEGORY","РљР°С‚РµРіРѕСЂРёСЏ");
+define("_SAVECHANGES","РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ");
 define("_PAGEBREAK","");
-define("_SIGNATURE","Немного о себе");
-define("_DESCRIPTION","Примечание");
-define("_TITLE","Зоголовог");
-define("_ACTIVE","Вкл.");
-define("_DEACTIVATE","Выкл.");
-define("_INACTIVE","Выключить");
-define("_ACTIVATE","Включить");
+define("_SIGNATURE","РќРµРјРЅРѕРіРѕ Рѕ СЃРµР±Рµ");
+define("_DESCRIPTION","РџСЂРёРјРµС‡Р°РЅРёРµ");
+define("_TITLE","Р—РѕРіРѕР»РѕРІРѕРі");
+define("_ACTIVE","Р’РєР».");
+define("_DEACTIVATE","Р’С‹РєР».");
+define("_INACTIVE","Р’С‹РєР»СЋС‡РёС‚СЊ");
+define("_ACTIVATE","Р’РєР»СЋС‡РёС‚СЊ");
 define("_CONTENT","Content");
-define("_ADDCATEGORY","Добавить категорию");
-define("_EDITCATEGORY","Редактировать категорию");
-define("_ADD","Добавить");
+define("_ADDCATEGORY","Р”РѕР±Р°РІРёС‚СЊ РєР°С‚РµРіРѕСЂРёСЋ");
+define("_EDITCATEGORY","Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ РєР°С‚РµРіРѕСЂРёСЋ");
+define("_ADD","Р”РѕР±Р°РІРёС‚СЊ");
 define("_LANGUAGE","Language");
 define("_CONTENTMANAGER","Content Manager");
 define("_DELCONTWARNING","Are you sure you want to delete the page");

@@ -33,25 +33,25 @@
 
 define("_URL","URL");
 define("_EMAIL","E-mail");
-define("_REALNAME","Skutoèné meno");
+define("_REALNAME","SkutoÄnÃ© meno");
 define("_FUNCTIONS","Funkcie");
-define("_PREVIOUS","Predchádzajúca strana");
-define("_MEMBERSLIST","zozname èlenov");
-define("_GREETINGS","Pozdravujeme nášho naposledy zaregistrovaného užívate¾a:");
-define("_SORTBY","Trieïi pod¾a:");
-define("_MNICKNAME","uživate¾ského mena");
-define("_MREALNAME","skutoèného mena");
+define("_PREVIOUS","PredchÃ¡dzajÃºca strana");
+define("_MEMBERSLIST","zozname Älenov");
+define("_GREETINGS","Pozdravujeme nÃ¡Å¡ho naposledy zaregistrovanÃ©ho uÅ¾Ã­vateÄ¾a:");
+define("_SORTBY","TrieÄiÅ¥ podÄ¾a:");
+define("_MNICKNAME","uÅ¾ivateÄ¾skÃ©ho mena");
+define("_MREALNAME","skutoÄnÃ©ho mena");
 define("_MEMAIL","e-mailu");
 define("_MURL","URL");
-define("_ONLINEREG","Momentálne sú online títo registrovaní užívatelia:");
-define("_WEHAVE","Máme celkom");
-define("_MREGISTERED","doteraz zaregistrovaných užívate¾ov. Práve je tu");
+define("_ONLINEREG","MomentÃ¡lne sÃº online tÃ­to registrovanÃ­ uÅ¾Ã­vatelia:");
+define("_WEHAVE","MÃ¡me celkom");
+define("_MREGISTERED","doteraz zaregistrovanÃ½ch uÅ¾Ã­vateÄ¾ov. PrÃ¡ve je tu");
 define("_MREGONLINE","z nich.");
-define("_REGSOFAR","registrovaných užívate¾ov.");
-define("_USERSFOUND","nájdených užívate¾ov pre");
-define("_USERSSHOWN","zobrazi užívate¾ov");
-define("_NOMEMBERS","Žiadny užívate¾ s uživate¾ským menom zaèínajúcim na písmeno");
-define("_PAGES","Stránky");
-define("_HOMEPAGE","Domovská stránka");
+define("_REGSOFAR","registrovanÃ½ch uÅ¾Ã­vateÄ¾ov.");
+define("_USERSFOUND","nÃ¡jdenÃ½ch uÅ¾Ã­vateÄ¾ov pre");
+define("_USERSSHOWN","zobraziÅ¥ uÅ¾Ã­vateÄ¾ov");
+define("_NOMEMBERS","Å½iadny uÅ¾Ã­vateÄ¾ s uÅ¾ivateÄ¾skÃ½m menom zaÄÃ­najÃºcim na pÃ­smeno");
+define("_PAGES","StrÃ¡nky");
+define("_HOMEPAGE","DomovskÃ¡ strÃ¡nka");
 
 ?>

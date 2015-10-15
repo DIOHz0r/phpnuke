@@ -35,12 +35,12 @@ define("_ACTIVERELATEDLINKS","Active Related Links");
 define("_SITENAME","Site Name");
 define("_NORELATED","There are no related links for this topic");
 define("_EDITRELATED","Edit Related Link");
-define("_YES","äÚã");
-define("_NO","áÇ");
-define("_TOPICSMANAGER","ÇÏÇÑÉ ÇáãæÇÖíÚ");
-define("_DELETETOPIC","ÍÐÝ ÇáãæÖæÚ");
-define("_TOPICDELSURE","åá ÊÑíÏ ÍÐÝ ÇáãæÖæÚ ÈÇáÊÃßíÏ¿");
-define("_TOPICDELSURE1","åÐÇ ÓíÍÐÝ ÌãíÚ ÇáãÞÇáÇÊ æÇáÊÚáíÞÇÊ Ýí åÐÇ ÇáãæÖæÚ!");
+define("_YES","Ù†Ø¹Ù…");
+define("_NO","Ù„Ø§");
+define("_TOPICSMANAGER","Ø§Ø¯Ø§Ø±Ø© Ø§Ù„Ù…ÙˆØ§Ø¶ÙŠØ¹");
+define("_DELETETOPIC","Ø­Ø°Ù Ø§Ù„Ù…ÙˆØ¶ÙˆØ¹");
+define("_TOPICDELSURE","Ù‡Ù„ ØªØ±ÙŠØ¯ Ø­Ø°Ù Ø§Ù„Ù…ÙˆØ¶ÙˆØ¹ Ø¨Ø§Ù„ØªØ£ÙƒÙŠØ¯ØŸ");
+define("_TOPICDELSURE1","Ù‡Ø°Ø§ Ø³ÙŠØ­Ø°Ù Ø¬Ù…ÙŠØ¹ Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª ÙˆØ§Ù„ØªØ¹Ù„ÙŠÙ‚Ø§Øª ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ù…ÙˆØ¶ÙˆØ¹!");
 
 
 ?>

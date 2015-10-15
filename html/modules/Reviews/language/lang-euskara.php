@@ -95,7 +95,7 @@ define("_RTITLE","Titulua:");
 define("_RTEXT","Testua:");
 define("_REVEMAIL","Emaila:");
 define("_RLINK","Lotura:");
-define("_RLINKTITLE","Loturaren títulua:");
+define("_RLINKTITLE","Loturaren tÃ­tulua:");
 define("_COVERIMAGE","Hasierako irudia:");
 define("_PREMODS","Aldaketen aurrebista");
 define("_PAGE","orrialde ");

@@ -18,12 +18,12 @@
 /**************************************************************************/
 
 define("_CATEGORY","Kategoria");
-define("_CATEGORIES","Kategoritë");
-define("_FAQ2","FAQ (Pyetjet e bëra më shpesh)");
-define("_BACKTOTOP","Kthehu në Fillim të faqes");
+define("_CATEGORIES","KategoritÃ«");
+define("_FAQ2","FAQ (Pyetjet e bÃ«ra mÃ« shpesh)");
+define("_BACKTOTOP","Kthehu nÃ« Fillim tÃ« faqes");
 define("_BACKTOFAQINDEX","Kthehu tek Treguesi i FAQ");
 define("_MAIN","Kryesore");
 define("_QUESTION","Pyetje");
-define("_ANSWER","Përgjigje");
+define("_ANSWER","PÃ«rgjigje");
 
 ?>

@@ -16,50 +16,50 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by NordavindÆ(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by Nordavind≈Ω(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_PRINTER","Strona gotowa do druku");
-define("_FRIEND","Wy∂lij ten artyku≥ do znajomych");
-define("_YOURNAME","Twoje imiÍ i nazwisko");
+define("_FRIEND","Wy≈õlij ten artyku≈Ç do znajomych");
+define("_YOURNAME","Twoje imiƒô i nazwisko");
 define("_OK","OK!");
 define("_ALLOWEDHTML","Dozwolony HTML:");
 define("_EXTRANS","Zamiana (tagi HTML na tekst)");
 define("_HTMLFORMATED","Formatowanie HTML");
-define("_PLAINTEXT","Zwyk≥y tekst bez formatowania");
-define("_ARTICLES","Artyku≥y");
-define("_SUBMITNEWS","Wy∂lij newsa");
-define("_SUBMITADVICE","Napisz swÛj artyku≥ wype≥niaj±c poniøszy formularz i sprawdº go dwa razy przed wys≥aniem.<br>Informujemy, iø nie wszystkie artyku≥y s± publikowane.<br>TwÛj artyku≥ bÍdzie sprawdzony pod wzglÍdem gramatyki oraz moøe byÊ edytowany przez nasz zespÛ≥.");
-define("_SUBTITLE","Tytu≥");
+define("_PLAINTEXT","Zwyk≈Çy tekst bez formatowania");
+define("_ARTICLES","Artyku≈Çy");
+define("_SUBMITNEWS","Wy≈õlij newsa");
+define("_SUBMITADVICE","Napisz sw√≥j artyku≈Ç wype≈ÇniajƒÖc poni≈ºszy formularz i sprawd≈∫ go dwa razy przed wys≈Çaniem.<br>Informujemy, i≈º nie wszystkie artyku≈Çy sƒÖ publikowane.<br>Tw√≥j artyku≈Ç bƒôdzie sprawdzony pod wzglƒôdem gramatyki oraz mo≈ºe byƒá edytowany przez nasz zesp√≥≈Ç.");
+define("_SUBTITLE","Tytu≈Ç");
 define("_BEDESCRIPTIVE","Pisz opisowo, jasno i prosto");
-define("_BADTITLES","z≥e tytu≥y:='Sprawdº to!' lub 'Artyku≥'");
-define("_HTMLISFINE","HTML jest fajny, ale dwa razy sprawdº URL-e i tagi HTML!");
-define("_AREYOUSURE","Czy jeste∂ pewien, øe chcesz do≥±czyÊ URL? Sprawdzi≥e∂ jego dzia≥anie?");
-define("_SUBPREVIEW","Musisz przejrzeÊ przed wys≥aniem");
+define("_BADTITLES","z≈Çe tytu≈Çy:='Sprawd≈∫ to!' lub 'Artyku≈Ç'");
+define("_HTMLISFINE","HTML jest fajny, ale dwa razy sprawd≈∫ URL-e i tagi HTML!");
+define("_AREYOUSURE","Czy jeste≈õ pewien, ≈ºe chcesz do≈ÇƒÖczyƒá URL? Sprawdzi≈Çe≈õ jego dzia≈Çanie?");
+define("_SUBPREVIEW","Musisz przejrzeƒá przed wys≈Çaniem");
 define("_SELECTTOPIC","Wybierz temat");
-define("_NEWSUBPREVIEW","Podgl±d wysy≥anego newsa");
-define("_STORYLOOK","TwÛj news wygl±da mniej wiÍcej tak:");
-define("_CHECKSTORY","ProszÍ sprawdziÊ tekst, linki itp. przed wys≥aniem newsa!");
-define("_THANKSSUB","DziÍkujemy za Twego newsa!");
-define("_SUBSENT","TwÛj artyku≥ zosta≥ odebrany...");
-define("_SUBTEXT","Sprawdzimy TwÛj list w ci±gu nastÍpnych kilku godzin. Jeøeli bÍdzie interesuj±cy i na temat, to wkrÛtce go opublikujemy.");
+define("_NEWSUBPREVIEW","PodglƒÖd wysy≈Çanego newsa");
+define("_STORYLOOK","Tw√≥j news wyglƒÖda mniej wiƒôcej tak:");
+define("_CHECKSTORY","Proszƒô sprawdziƒá tekst, linki itp. przed wys≈Çaniem newsa!");
+define("_THANKSSUB","Dziƒôkujemy za Twego newsa!");
+define("_SUBSENT","Tw√≥j artyku≈Ç zosta≈Ç odebrany...");
+define("_SUBTEXT","Sprawdzimy Tw√≥j list w ciƒÖgu nastƒôpnych kilku godzin. Je≈ºeli bƒôdzie interesujƒÖcy i na temat, to wkr√≥tce go opublikujemy.");
 define("_WEHAVESUB","W tym momencie mamy");
-define("_WAITING","newsÛw oczekuj±cych na opublikowanie.");
-define("_PREVIEW","Podgl±d");
-define("_NEWUSER","Nowy uøytkownik");
+define("_WAITING","news√≥w oczekujƒÖcych na opublikowanie.");
+define("_PREVIEW","PodglƒÖd");
+define("_NEWUSER","Nowy u≈ºytkownik");
 define("_USCORE","Wynik");
 define("_DATE","Data");
-define("_STORYTEXT","Tekst artyku≥u");
+define("_STORYTEXT","Tekst artyku≈Çu");
 define("_EXTENDEDTEXT","Tekst rozszerzony");
-define("_LANGUAGE","JÍzyk");
-define("_SELECTMONTH2VIEW","ProszÍ wybraÊ miesi±c ktÛry chcesz przejrzeÊ:");
-define("_SHOWALLSTORIES","Pokaø WSZYSTKIE artyku≥y");
-define("_STORIESARCHIVE","Archiwum artyku≥Ûw");
+define("_LANGUAGE","Jƒôzyk");
+define("_SELECTMONTH2VIEW","Proszƒô wybraƒá miesiƒÖc kt√≥ry chcesz przejrzeƒá:");
+define("_SHOWALLSTORIES","Poka≈º WSZYSTKIE artyku≈Çy");
+define("_STORIESARCHIVE","Archiwum artyku≈Ç√≥w");
 define("_ACTIONS","Akcje");
-define("_ARCHIVESINDEX","Wykaz archiwum artyku≥Ûw");
-define("_ALLSTORIESARCH","Wszystkie artyku≥y");
-define("_NEXTPAGE","NastÍpna strona");
+define("_ARCHIVESINDEX","Wykaz archiwum artyku≈Ç√≥w");
+define("_ALLSTORIESARCH","Wszystkie artyku≈Çy");
+define("_NEXTPAGE","Nastƒôpna strona");
 define("_PREVIOUSPAGE","Poprzednia strona");
 
 ?>

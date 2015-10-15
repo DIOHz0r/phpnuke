@@ -18,13 +18,13 @@
 /**************************************************************************/
 
 define("_PRINTER","Kevyempi versio tulostusta varten");
-define("_FRIEND","L‰het‰ yst‰v‰lle");
+define("_FRIEND","L√§het√§ yst√§v√§lle");
 
 
  
 define("_ARTICLES","Artikkelit");
 define("_USCORE","Pisteet");
-define("_DATE","P‰iv‰");
+define("_DATE","P√§iv√§");
 
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");
 define("_SHOWALLSTORIES","Show ALL Stories");

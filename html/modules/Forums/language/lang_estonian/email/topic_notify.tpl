@@ -3,11 +3,11 @@ Charset: iso-8859-1
 
 Tere {USERNAME},
 
-Te saate selle teate, sest j‰lgite teemat: "{TOPIC_TITLE}" {SITENAME} foorumil. Sellele teemale on p‰rast teie viimast k¸lastust vastatud. Te saate vaadata uusi vastuseid vajutades j‰rgnevale lingile (selle teema kohta vahepeal rohkem teateid ei saadeta).
+Te saate selle teate, sest j√§lgite teemat: "{TOPIC_TITLE}" {SITENAME} foorumil. Sellele teemale on p√§rast teie viimast k√ºlastust vastatud. Te saate vaadata uusi vastuseid vajutades j√§rgnevale lingile (selle teema kohta vahepeal rohkem teateid ei saadeta).
 
 {U_TOPIC}
 
-Kui te ei soovi enam seda teemat j‰lgida, siis kas vajutage "Lıpeta selle teema j‰lgimine linki", mis asub foorumil antud teema lıpus, vıi vajutage j‰rgnevat linki:
+Kui te ei soovi enam seda teemat j√§lgida, siis kas vajutage "L√µpeta selle teema j√§lgimine linki", mis asub foorumil antud teema l√µpus, v√µi vajutage j√§rgnevat linki:
 
 {U_STOP_WATCHING_TOPIC}
 

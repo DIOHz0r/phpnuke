@@ -17,24 +17,24 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_HITS","Tr‰ffar");
-define("_BROWSERS","Webbl‰sare");
+define("_HITS","Tr√§ffar");
+define("_BROWSERS","Webbl√§sare");
 define("_OPERATINGSYS","Operativsystem");
-define("_UNKNOWN","Ok‰nt");
-define("_OTHER","Annat / Ok‰nt");
+define("_UNKNOWN","Ok√§nt");
+define("_OTHER","Annat / Ok√§nt");
 define("_MISCSTATS","Blandad Statistik");
 define("_REGUSERS","Medlemmar:");
 define("_ACTIVEAUTHORS","Skribenter:");
 define("_STORIESPUBLISHED","Artiklar publicerade:");
-define("_SACTIVETOPICS","ƒmnen:");
+define("_SACTIVETOPICS","√Ñmnen:");
 define("_COMMENTSPOSTED","Kommentarer skrivna:");
 define("_SSPECIALSECT","Specialavdelningar:");
 define("_ARTICLESSEC","Artiklar i Specialavdelningarna:");
-define("_LINKSINLINKS","L‰nkar i Webbl‰nkar:");
-define("_LINKSCAT","Kategorier i Webbl‰nkar:");
-define("_NEWSWAITING","Artiklar som v‰ntar pÂ att publiceras:");
+define("_LINKSINLINKS","L√§nkar i Webbl√§nkar:");
+define("_LINKSCAT","Kategorier i Webbl√§nkar:");
+define("_NEWSWAITING","Artiklar som v√§ntar p√• att publiceras:");
 define("_NUKEVERSION","PHP-Nuke Version:");
-define("_SEARCHENGINES","Sˆkmotorer");
+define("_SEARCHENGINES","S√∂kmotorer");
 define("_BOTS","Robotar/Spindlar");
 define("_STATS","Statistik");
 define("_RETURNBASICSTATS","Return to Basic Statistics");

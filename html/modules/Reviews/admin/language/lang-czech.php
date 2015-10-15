@@ -19,27 +19,27 @@
 
 
 define("_EMAIL","E-mail");
-define("_SAVECHANGES","Uloit zmìny");
-define("_SCORE","Skóre:");
-define("_PRODUCTTITLE","Název produktu");
-define("_RELATEDLINK","Související odkaz");
-define("_LINKTITLE","Název odkazu");
+define("_SAVECHANGES","UloÂit zmÄ›ny");
+define("_SCORE","SkÃ³re:");
+define("_PRODUCTTITLE","NÃ¡zev produktu");
+define("_RELATEDLINK","SouvisejÃ­cÃ­ odkaz");
+define("_LINKTITLE","NÃ¡zev odkazu");
 define("_REVIEWER","Recenzent:");
 define("_REVIEWID","ID recenze");
 define("_REVIEWS","Recenze");
 define("_DATE","Datum");
-define("_REVADMIN","Administrace recenzí");
-define("_REVTITLE","Nadpis stránky recenzí");
-define("_REVDESC","Popis stránky recenzí");
-define("_REVWAITING","Recenze èekající na ovìøení");
-define("_REVIMGINFO","Ulote váš obrázek o velikosti 150*150 do adresáøe images/reviews");
+define("_REVADMIN","Administrace recenzÃ­");
+define("_REVTITLE","Nadpis strÃ¡nky recenzÃ­");
+define("_REVDESC","Popis strÃ¡nky recenzÃ­");
+define("_REVWAITING","Recenze ÄekajÃ­cÃ­ na ovÄ›Å™enÃ­");
+define("_REVIMGINFO","UloÂte vÃ¡Âš obrÃ¡zek o velikosti 150*150 do adresÃ¡Å™e images/reviews");
 define("_TEXT","Text");
-define("_IMAGE","Obrázek");
-define("_NOREVIEW2ADD","Nejsou recenze k pøidání");
-define("_ADDREVIEW","Pøidat recenzi");
-define("_CLICK2ADDREVIEW","Kliknìte a napište recenzi");
+define("_IMAGE","ObrÃ¡zek");
+define("_NOREVIEW2ADD","Nejsou recenze k pÅ™idÃ¡nÃ­");
+define("_ADDREVIEW","PÅ™idat recenzi");
+define("_CLICK2ADDREVIEW","KliknÄ›te a napiÂšte recenzi");
 define("_DELMODREVIEW","Smazat / Upravit recenzi");
-define("_MODREVINFO","Mùete jednoduše mazat/upravovat recenze pøi prohlíení stránky <a href=\"modules.php?name=Reviews\">Reviews</a> jako administrátor.");
+define("_MODREVINFO","MÅ¯Âete jednoduÂše mazat/upravovat recenze pÅ™i prohlÃ­ÂenÃ­ strÃ¡nky <a href=\"modules.php?name=Reviews\">Reviews</a> jako administrÃ¡tor.");
 define("_LANGUAGE","Language");
 
 

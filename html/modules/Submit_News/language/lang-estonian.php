@@ -17,8 +17,8 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Printerisıbralik leht");
-define("_FRIEND","Saada see jutt sıbrale");
+define("_PRINTER","Printeris√µbralik leht");
+define("_FRIEND","Saada see jutt s√µbrale");
 define("_YOURNAME","Sinu nimi");
 define("_OK","Olgu!");
 define("_ALLOWEDHTML","Lubatud HTML:");
@@ -27,37 +27,37 @@ define("_HTMLFORMATED","Vormindatud HTML");
 define("_PLAINTEXT","Lihtne vana tekst");
 define("_ARTICLES","Artiklid");
 define("_SUBMITNEWS","Saada uudiseid");
-define("_SUBMITADVICE","Palun kirjuta oma artikkel/jutt t‰ielikult allj‰rgneval kujul ja kontrolli topelt oma saadetist.<br>Sind  on teavitatud, et kıiki sinu sisse antud postitusi ei edastata.<br>Need kontrollitakse grammatiliselt ja neid vıidakse korrigeerida meie personali poolt.");
+define("_SUBMITADVICE","Palun kirjuta oma artikkel/jutt t√§ielikult allj√§rgneval kujul ja kontrolli topelt oma saadetist.<br>Sind  on teavitatud, et k√µiki sinu sisse antud postitusi ei edastata.<br>Need kontrollitakse grammatiliselt ja neid v√µidakse korrigeerida meie personali poolt.");
 define("_SUBTITLE","Pealkiri");
 define("_BEDESCRIPTIVE","Ole kirjeldav, lihtne ja puhas");
-define("_BADTITLES","ƒra <b>kasuta</b> pealkirju n‰iteks 'Vaata seda!' vıi 'Artikkel'");
+define("_BADTITLES","√Ñra <b>kasuta</b> pealkirju n√§iteks 'Vaata seda!' v√µi 'Artikkel'");
 define("_HTMLISFINE","HTML sobib ka, aga kontrolli topelt URL-le ja HTML tage!");
 define("_AREYOUSURE","Oled sa kindel, et sisestasid URL'i? Kas sa kontrollisid selle kirjavigu?");
-define("_SUBPREVIEW","Kontrolli oma teksti v‰hemalt ¸ks kord enne saatmist");
+define("_SUBPREVIEW","Kontrolli oma teksti v√§hemalt √ºks kord enne saatmist");
 define("_SELECTTOPIC","Vali teema");
 define("_NEWSUBPREVIEW","Uudiste saadetise eelvaade");
-define("_STORYLOOK","Sinu jutt n‰eb v‰lja umbes nii:");
+define("_STORYLOOK","Sinu jutt n√§eb v√§lja umbes nii:");
 define("_CHECKSTORY","Palun kontrolli teksti, linke, jne. ennem kui sa saadad jutu!");
-define("_THANKSSUB","T‰nan saadetise eest!");
+define("_THANKSSUB","T√§nan saadetise eest!");
 define("_SUBSENT","Sinu artikkel on saadetud...");
-define("_SUBTEXT","Me kontrollime sinu saadetist niipea kui vıimalik ja avaldame kui vajalik.");
+define("_SUBTEXT","Me kontrollime sinu saadetist niipea kui v√µimalik ja avaldame kui vajalik.");
 define("_WEHAVESUB","Praegusel hetkel meil on");
 define("_WAITING","saadetis(t), mis ootab avalikustamist.");
 define("_PREVIEW","Eelvaade");
 define("_NEWUSER","Uus kasutaja");
 define("_USCORE","Punktid");
-define("_DATE","Kuup‰ev");
+define("_DATE","Kuup√§ev");
 define("_STORYTEXT","Jutu tekst");
 define("_EXTENDEDTEXT","Laiendatud tekst");
 define("_LANGUAGE","Keel");
 
-define("_SELECTMONTH2VIEW","Palun vali kuu, mida sa n‰ha tahad:");
-define("_SHOWALLSTORIES","N‰ita K’IKI jutte");
+define("_SELECTMONTH2VIEW","Palun vali kuu, mida sa n√§ha tahad:");
+define("_SHOWALLSTORIES","N√§ita K√ïIKI jutte");
 define("_STORIESARCHIVE","Juttude arhiiv");
 define("_ACTIONS","Tegevus");
 define("_ARCHIVESINDEX","Juttude arhiivi esilehele");
-define("_ALLSTORIESARCH","Kıik jutud");
-define("_NEXTPAGE","J‰rgmine leht");
+define("_ALLSTORIESARCH","K√µik jutud");
+define("_NEXTPAGE","J√§rgmine leht");
 define("_PREVIOUSPAGE","Eelmine leht");
 
 ?>

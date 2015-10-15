@@ -21,15 +21,15 @@ define("_SEND","Saada");
 define("_YOURNAME","Sinu nimi");
 define("_MESSAGE","Teade");
 define("_YOUREMAIL","Sinu Email");
-define("_FEEDBACKNOTE","Kõik kommentarid ja ettepanekud selle veebilehe kohta on teretulnud, see on väärtuslik informatsioon meile. Tänan!");
-define("_FEEDBACKTITLE","Tagaside väljad");
+define("_FEEDBACKNOTE","KÃµik kommentarid ja ettepanekud selle veebilehe kohta on teretulnud, see on vÃ¤Ã¤rtuslik informatsioon meile. TÃ¤nan!");
+define("_FEEDBACKTITLE","Tagaside vÃ¤ljad");
 define("_FEEDBACK","Tagasiside");
 define("_FBENTERNAME","VIGA: Palun sisesta oma nimi!");
 define("_FBENTEREMAIL","VIGA: Palun sisesta oma E-maili address!");
-define("_FBENTERMESSAGE","VIGA: Palun täida kõik väljad!");
+define("_FBENTERMESSAGE","VIGA: Palun tÃ¤ida kÃµik vÃ¤ljad!");
 define("_SENDEREMAIL","Saatja Email");
 define("_SENDERNAME","Saatja nimi");
 define("_FBMAILSENT","Mail on saatetud!");
-define("_FBTHANKSFORCONTACT","Tänan, et võtsid meiega ühendust");
+define("_FBTHANKSFORCONTACT","TÃ¤nan, et vÃµtsid meiega Ã¼hendust");
 
 ?>

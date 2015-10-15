@@ -19,25 +19,25 @@
 
 
 define("_FUNCTIONS","Funciones");
-define("_YES","Sí");
+define("_YES","SÃ­");
 define("_NO","No");
 define("_SAVE","Guardar");
 define("_ID","ID");
-define("_CATEGORIES","Categorías");
+define("_CATEGORIES","CategorÃ­as");
 define("_ALL","Todo");
 define("_FAQ","FAQ");
 define("_CONTENT","Contenido");
-define("_FAQADMIN","Administración del FAQ");
+define("_FAQADMIN","AdministraciÃ³n del FAQ");
 define("_ACTIVEFAQS","FAQ Activos");
-define("_ADDCATEGORY","Agregar Categoría");
+define("_ADDCATEGORY","Agregar CategorÃ­a");
 define("_QUESTIONS","Preguntas y Respuestas");
 define("_ADDQUESTION","Agregar Pregunta");
 define("_QUESTION","Pregunta");
 define("_ANSWER","Respuesta");
-define("_EDITCATEGORY","Editar Categoría");
+define("_EDITCATEGORY","Editar CategorÃ­a");
 define("_EDITQUESTIONS","Editar Preguntas y Respuestas");
-define("_FAQDELWARNING","CUIDADO: ¿Estás seguro de borrar este FAQ y todo su contenido?");
-define("_QUESTIONDEL","CUIDADO: ¿Estás seguro de querer borrar esta pregunta?");
+define("_FAQDELWARNING","CUIDADO: Â¿EstÃ¡s seguro de borrar este FAQ y todo su contenido?");
+define("_QUESTIONDEL","CUIDADO: Â¿EstÃ¡s seguro de querer borrar esta pregunta?");
 define("_LANGUAGE","Lenguaje");
 
 

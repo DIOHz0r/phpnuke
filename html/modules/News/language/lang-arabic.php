@@ -17,100 +17,100 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","รัำแ");
-define("_URL","ัวศุ");
-define("_PRINTER","ีÝอษ แแุศวฺษ");
-define("_FRIEND","รัำแ ๅะว วแใÞวแ แีฯํÞ");
-define("_YOURNAME","วำใ฿");
-define("_OK","ใๆวÝÞ!");
-define("_RELATED","ัๆวศุ ะวส ีแษ");
-define("_MOREABOUT","าํวฯษ อๆแ");
-define("_NEWSBY","วแรฮศวั ศๆวำุษ");
-define("_MOSTREAD","ร฿หั ใÞวแ Þัวมษ ฺไ");
-define("_READMORE","รÞัร วแใาํฯ ...");
-define("_BYTESMORE","อัÝว าํวฯษ");
-define("_COMMENTSQ","สฺแํÞวส?");
-define("_COMMENT","สฺแํÞ");
-define("_CONFIGURE","สฺฯํแ");
-define("_LOGINCREATE","ฯฮๆแ/สำฬํแ ฺึๆ");
-define("_THRESHOLD","วแอฯ");
-define("_NOCOMMENTS","แว ํๆฬฯ สฺแํÞวส");
-define("_NESTED","ิศ฿ํ");
-define("_FLAT","ำัฯ");
-define("_THREAD","ใๆึๆฺ ๆัฯ");
-define("_OLDEST","วแÞฯํใ รๆแว");
-define("_NEWEST","วแฬฯํฯ รๆแว");
-define("_HIGHEST","วแรฺแ์ สÞํํใ รๆแว");
-define("_COMMENTSWARNING","วแสฺแํÞวส ใใแๆ฿ษ แรีอวศๅว. ไอไ Ûํั ใำฤแๆไ ฺไ ใอสๆวๅว.");
-define("_SCORE","วแสÞํํใ:");
-define("_USERINFO","ใฺแๆใวส วแใำสฮฯใ");
-define("_READREST","รÞัร ศวÞํ วแสฺแํÞ...");
-define("_REPLY","วแัฯ ฺแ์ ๅะว วแสฺแํÞ");
-define("_REPLYMAIN","รัำแ สฺแํÞ");
-define("_NOSUBJECT","แว ํๆฬฯ ใๆึๆฺ");
-define("_NOANONCOMMENTS","วแสฺแํÞ Ûํั ใำใๆอ แแึํๆÝ, วแัฬวม <a href=\"modules.php?name=Your_Account\">วแสำฬํแ</a>");
-define("_PARENT","วแรีแ");
-define("_ROOT","วแรีแ");
-define("_UCOMMENT","สฺแํÞ");
-define("_ALLOWEDHTML","HTML ใำใๆอ:");
-define("_POSTANON","วัำวแ วแใๆึๆฺ ศวำใ าวฦั");
+define("_SEND","ุฃุฑุณู");
+define("_URL","ุฑุงุจุท");
+define("_PRINTER","ุตูุญุฉ ููุทุจุงุนุฉ");
+define("_FRIEND","ุฃุฑุณู ูุฐุง ุงูู…ูุงู ูุตุฏูู");
+define("_YOURNAME","ุงุณู…ู");
+define("_OK","ู…ูุงูู!");
+define("_RELATED","ุฑูุงุจุท ุฐุงุช ุตูุฉ");
+define("_MOREABOUT","ุฒูุงุฏุฉ ุญูู");
+define("_NEWSBY","ุงูุฃุฎุจุงุฑ ุจูุงุณุทุฉ");
+define("_MOSTREAD","ุฃูุซุฑ ู…ูุงู ูุฑุงุกุฉ ุนู");
+define("_READMORE","ุฃูุฑุฃ ุงูู…ุฒูุฏ ...");
+define("_BYTESMORE","ุญุฑูุง ุฒูุงุฏุฉ");
+define("_COMMENTSQ","ุชุนูููุงุช?");
+define("_COMMENT","ุชุนููู");
+define("_CONFIGURE","ุชุนุฏูู");
+define("_LOGINCREATE","ุฏุฎูู/ุชุณุฌูู ุนุถู");
+define("_THRESHOLD","ุงูุญุฏ");
+define("_NOCOMMENTS","ูุง ููุฌุฏ ุชุนูููุงุช");
+define("_NESTED","ุดุจูู");
+define("_FLAT","ุณุฑุฏ");
+define("_THREAD","ู…ูุถูุน ูุฑุฏ");
+define("_OLDEST","ุงููุฏูู… ุฃููุง");
+define("_NEWEST","ุงูุฌุฏูุฏ ุฃููุง");
+define("_HIGHEST","ุงูุฃุนูู ุชูููู… ุฃููุง");
+define("_COMMENTSWARNING","ุงูุชุนูููุงุช ู…ู…ูููุฉ ูุฃุตุญุงุจูุง. ูุญู ุบูุฑ ู…ุณุคููู ุนู ู…ุญุชูุงูุง.");
+define("_SCORE","ุงูุชูููู…:");
+define("_USERINFO","ู…ุนููู…ุงุช ุงูู…ุณุชุฎุฏู…");
+define("_READREST","ุฃูุฑุฃ ุจุงูู ุงูุชุนููู...");
+define("_REPLY","ุงูุฑุฏ ุนูู ูุฐุง ุงูุชุนููู");
+define("_REPLYMAIN","ุฃุฑุณู ุชุนููู");
+define("_NOSUBJECT","ูุง ููุฌุฏ ู…ูุถูุน");
+define("_NOANONCOMMENTS","ุงูุชุนููู ุบูุฑ ู…ุณู…ูุญ ููุถููู, ุงูุฑุฌุงุก <a href=\"modules.php?name=Your_Account\">ุงูุชุณุฌูู</a>");
+define("_PARENT","ุงูุฃุตู");
+define("_ROOT","ุงูุฃุตู");
+define("_UCOMMENT","ุชุนููู");
+define("_ALLOWEDHTML","HTML ู…ุณู…ูุญ:");
+define("_POSTANON","ุงุฑุณุงู ุงูู…ูุถูุน ุจุงุณู… ุฒุงุฆุฑ");
 define("_EXTRANS","Extrans (html tags to text)");
-define("_HTMLFORMATED","ฺัึ ศวำสฮฯวใ HTML");
-define("_PLAINTEXT","ฺัึ ไี ฺวฯํ");
-define("_ONN","ใสวอ...");
-define("_SUBJECT","วแใๆึๆฺ");
-define("_COMMENTREPLY","วัำวแ สฺแํÞ");
-define("_COMREPLYPRE","วำสฺัวึ วแสฺแํÞ");
-define("_NOTRIGHT","ๅไว฿ ฮุร ใว Ýํ สใัํั รอฯ วแใสÛํัวส วแ์ วแฯวแษ.");
-define("_SENDAMSG","รัำแ ัำวแษ");
-define("_YOUSENDSTORY","ำๆÝ สัำแ วแใÞวแ");
-define("_TOAFRIEND","วแ์ ีฯํÞ ใอฯฯ:");
-define("_FYOURNAME","วำใ฿:");
-define("_FYOUREMAIL","ศัํฯ฿ วแลแ฿สัๆไํ:");
-define("_FFRIENDNAME","วำใ ีฯํÞ฿:");
-define("_FFRIENDEMAIL","ศัํฯ ีฯํÞ฿:");
-define("_INTERESTING","ใÞวแ ใÝํฯ Ýํ");
-define("_HELLO","ใัอศว");
-define("_YOURFRIEND","ีฯํÞ฿");
-define("_CONSIDERED","ํฺสÞฯ รไ ๅะว วแใÞวแ ใÝํฯ ๆรอศ วไ ํัำแๅ แ฿.");
-define("_FDATE","วแสวัํฮ:");
-define("_FTOPIC","วแใๆึๆฺ:");
-define("_YOUCANREAD","สำสุํฺ Þัวมษ ใÞวแวส ิํÞษ Ýํ");
-define("_FSTORY","ใÞวแ");
-define("_HASSENT","รัำแส วแ์");
-define("_THANKS","ิ฿ัว!");
-define("_RECOMMEND","วัำแ ๅะว วแใๆÞฺ วแ์ ีฯํÞ");
-define("_PDATE","วแสวัํฮ:");
-define("_PTOPIC","วแใๆึๆฺ:");
-define("_COMESFROM","รส์ ๅะว วแใÞวแ ใไ");
-define("_THEURL","ฺไๆวไ วแัวศุ แๅะว วแใÞวแ ๅๆ:");
-define("_PREVIEW","วำสฺัวึ");
-define("_NEWUSER","ฺึๆ ฬฯํฯ");
-define("_OPTIONS","ฮํวัวส");
-define("_REFRESH","สอฯํห");
-define("_ADD","รึÝ");
-define("_NOCOMMENTSACT","ฺÝๆวก วแสฺแํÞวส Ûํั ใใ฿ไๅ แๅะว วแใÞวแ.");
-define("_ARTICLEPOLL","วำสÝสวม ฮวี ศวแใÞวแ");
-define("_RATEARTICLE","สÞํํใ วแใÞวแ");
-define("_RATETHISARTICLE","วแัฬวม สÞํํใ ๅะว วแใÞวแ:");
-define("_CASTMYVOTE","Þํใ วแใÞวแ!");
-define("_AVERAGESCORE","วแใฺฯแ");
-define("_BAD","ัฯํฦ");
-define("_REGULAR","ฺวฯํ");
-define("_GOOD","ฬํฯ");
-define("_VERYGOOD","ฬํฯ ฬฯว");
-define("_EXCELLENT","ใใสวา");
-define("_ARTICLERATING","สÞำำใ วแใÞวแ");
-define("_THANKSVOTEARTICLE","ไิ฿ แ฿ สÞํํใ฿ แๅะว วแใÞวแ!");
-define("_ALREADYVOTEDARTICLE","ฺÝๆว ก ํศฯๆว รไ฿ Þใส ศสÞํํใ วแใÞวแ ใฤฮัว!");
-define("_BACKTOARTICLEPAGE","ฺๆฯษ วแ์ วแใÞวแ");
-define("_DIDNTRATE","แใ สÞใ ศวฮสํวั สÞํํใ แแใÞวแ!");
-define("_NOINFO4TOPIC","ฺÝๆว ก แว ํๆฬฯ ใÞวแววส แๅะว วแใๆึๆฺ.");
-define("_GOTONEWSINDEX","วแะๅวศ วแ์ Þวฦใษ วแรฮศวั");
-define("_SELECTNEWTOPIC","วฮสั ใๆึๆฺว ฬฯํฯว");
-define("_GOTOHOME","วแะๅวศ แแีÝอษ วแรๆแ์");
-define("_SEARCHONTOPIC","ศอห Ýํ ๅะว วแใๆึๆฺ");
-define("_SEARCHDIS","วแศอห Ýํ วแไÞวิวส");
+define("_HTMLFORMATED","ุนุฑุถ ุจุงุณุชุฎุฏุงู… HTML");
+define("_PLAINTEXT","ุนุฑุถ ูุต ุนุงุฏู");
+define("_ONN","ู…ุชุงุญ...");
+define("_SUBJECT","ุงูู…ูุถูุน");
+define("_COMMENTREPLY","ุงุฑุณุงู ุชุนููู");
+define("_COMREPLYPRE","ุงุณุชุนุฑุงุถ ุงูุชุนููู");
+define("_NOTRIGHT","ููุงู ุฎุทุฃ ู…ุง ูู ุชู…ุฑูุฑ ุฃุญุฏ ุงูู…ุชุบูุฑุงุช ุงูู ุงูุฏุงูุฉ.");
+define("_SENDAMSG","ุฃุฑุณู ุฑุณุงูุฉ");
+define("_YOUSENDSTORY","ุณูู ุชุฑุณู ุงูู…ูุงู");
+define("_TOAFRIEND","ุงูู ุตุฏูู ู…ุญุฏุฏ:");
+define("_FYOURNAME","ุงุณู…ู:");
+define("_FYOUREMAIL","ุจุฑูุฏู ุงูุฅููุชุฑููู:");
+define("_FFRIENDNAME","ุงุณู… ุตุฏููู:");
+define("_FFRIENDEMAIL","ุจุฑูุฏ ุตุฏููู:");
+define("_INTERESTING","ู…ูุงู ู…ููุฏ ูู");
+define("_HELLO","ู…ุฑุญุจุง");
+define("_YOURFRIEND","ุตุฏููู");
+define("_CONSIDERED","ูุนุชูุฏ ุฃู ูุฐุง ุงูู…ูุงู ู…ููุฏ ูุฃุญุจ ุงู ูุฑุณูู ูู.");
+define("_FDATE","ุงูุชุงุฑูุฎ:");
+define("_FTOPIC","ุงูู…ูุถูุน:");
+define("_YOUCANREAD","ุชุณุชุทูุน ูุฑุงุกุฉ ู…ูุงูุงุช ุดููุฉ ูู");
+define("_FSTORY","ู…ูุงู");
+define("_HASSENT","ุฃุฑุณูุช ุงูู");
+define("_THANKS","ุดูุฑุง!");
+define("_RECOMMEND","ุงุฑุณู ูุฐุง ุงูู…ููุน ุงูู ุตุฏูู");
+define("_PDATE","ุงูุชุงุฑูุฎ:");
+define("_PTOPIC","ุงูู…ูุถูุน:");
+define("_COMESFROM","ุฃุชู ูุฐุง ุงูู…ูุงู ู…ู");
+define("_THEURL","ุนููุงู ุงูุฑุงุจุท ููุฐุง ุงูู…ูุงู ูู:");
+define("_PREVIEW","ุงุณุชุนุฑุงุถ");
+define("_NEWUSER","ุนุถู ุฌุฏูุฏ");
+define("_OPTIONS","ุฎูุงุฑุงุช");
+define("_REFRESH","ุชุญุฏูุซ");
+define("_ADD","ุฃุถู");
+define("_NOCOMMENTSACT","ุนููุงุ ุงูุชุนูููุงุช ุบูุฑ ู…ู…ููู ููุฐุง ุงูู…ูุงู.");
+define("_ARTICLEPOLL","ุงุณุชูุชุงุก ุฎุงุต ุจุงูู…ูุงู");
+define("_RATEARTICLE","ุชูููู… ุงูู…ูุงู");
+define("_RATETHISARTICLE","ุงูุฑุฌุงุก ุชูููู… ูุฐุง ุงูู…ูุงู:");
+define("_CASTMYVOTE","ููู… ุงูู…ูุงู!");
+define("_AVERAGESCORE","ุงูู…ุนุฏู");
+define("_BAD","ุฑุฏูุฆ");
+define("_REGULAR","ุนุงุฏู");
+define("_GOOD","ุฌูุฏ");
+define("_VERYGOOD","ุฌูุฏ ุฌุฏุง");
+define("_EXCELLENT","ู…ู…ุชุงุฒ");
+define("_ARTICLERATING","ุชูุณุณู… ุงูู…ูุงู");
+define("_THANKSVOTEARTICLE","ูุดู ูู ุชูููู…ู ููุฐุง ุงูู…ูุงู!");
+define("_ALREADYVOTEDARTICLE","ุนููุง ุ ูุจุฏูุง ุฃูู ูู…ุช ุจุชูููู… ุงูู…ูุงู ู…ุคุฎุฑุง!");
+define("_BACKTOARTICLEPAGE","ุนูุฏุฉ ุงูู ุงูู…ูุงู");
+define("_DIDNTRATE","ูู… ุชูู… ุจุงุฎุชูุงุฑ ุชูููู… ููู…ูุงู!");
+define("_NOINFO4TOPIC","ุนููุง ุ ูุง ููุฌุฏ ู…ูุงูุงุงุช ููุฐุง ุงูู…ูุถูุน.");
+define("_GOTONEWSINDEX","ุงูุฐูุงุจ ุงูู ูุงุฆู…ุฉ ุงูุฃุฎุจุงุฑ");
+define("_SELECTNEWTOPIC","ุงุฎุชุฑ ู…ูุถูุนุง ุฌุฏูุฏุง");
+define("_GOTOHOME","ุงูุฐูุงุจ ููุตูุญุฉ ุงูุฃููู");
+define("_SEARCHONTOPIC","ุจุญุซ ูู ูุฐุง ุงูู…ูุถูุน");
+define("_SEARCHDIS","ุงูุจุญุซ ูู ุงูููุงุดุงุช");
 define("_READPDF","Read as PDF");
 define("_READWITHCOMMENTS", "You can read the complete story with its comments from");
 define("_TOFINISHRATING","To finish the rating process and to let the system count your vote, please complete the requested information:");

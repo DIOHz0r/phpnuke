@@ -18,29 +18,29 @@
 /**************************************************************************/
 
 
-define("_YES","Kyll‰");
+define("_YES","Kyll√§");
 define("_NO","Ei");
 define("_CATEGORY","Kategoria");
 define("_SAVECHANGES","Tallenna muutokset");
 define("_ARTICLES","Artikkelit");
 define("_SELECTTOPIC","Valitse oikea kanava");
 define("_OPTION","Vaihtoehdot");
-define("_ADMPOLLS","ƒ‰nestykset/Kyselyt");
+define("_ADMPOLLS","√Ñ√§nestykset/Kyselyt");
 define("_TITLE","Otsikko");
 define("_STORYTEXT","Ingressi etusivulle");
-define("_EXTENDEDTEXT","Loput tekstist‰");
+define("_EXTENDEDTEXT","Loput tekstist√§");
 define("_PUBLISHINHOME","Julkaistaanko etusivulla?");
-define("_ONLYIFCATSELECTED","Toimii kyll‰kin vain jos <i>Articles</i> -kategoria ei ole valittuna!");
-define("_ADD","Lis‰‰");
-define("_POLLSADMIN","Kyselyiden yll‰pito");
+define("_ONLYIFCATSELECTED","Toimii kyll√§kin vain jos <i>Articles</i> -kategoria ei ole valittuna!");
+define("_ADD","Lis√§√§");
+define("_POLLSADMIN","Kyselyiden yll√§pito");
 define("_CREATEPOLL","Luo uusi kysely");
 define("_DELETEPOLLS","Tuhoa kysely");
 define("_POLLTITLE","Otsikko");
 define("_POLLEACHFIELD","Kirjoita jokainen vaihtoehto omalle rivilleen");
 define("_CREATEPOLLBUT","Luo uusi");
 define("_REMOVEEXISTING","Tuhoa olemassa oleva kysely");
-define("_POLLDELWARNING","Varoitus: Valittu kysely poistetaan v‰littˆm‰sti tietokannasta!");
-define("_CHOOSEPOLL","Ole hyv‰ ja valitse kysely alla olevasta listasta:");
+define("_POLLDELWARNING","Varoitus: Valittu kysely poistetaan v√§litt√∂m√§sti tietokannasta!");
+define("_CHOOSEPOLL","Ole hyv√§ ja valitse kysely alla olevasta listasta:");
 define("_EDITPOLL","Edit Polls");
 define("_CHOOSEPOLLEDIT","Choose the Poll you want to edit:");
 define("_ACTIVATECOMMENTS","Activate Comments for this Story?");

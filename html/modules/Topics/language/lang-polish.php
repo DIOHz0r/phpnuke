@@ -16,11 +16,11 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by Nordavind®(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by NordavindÅ½(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
 define("_ACTIVETOPICS","Aktualnie aktywne tematy");
-define("_CLICK2LIST","Kliknij, aby przejrzeæ wszystkie artyku³y na ten temat");
+define("_CLICK2LIST","Kliknij, aby przejrzeÄ‡ wszystkie artykuÅ‚y na ten temat");
 
 ?>

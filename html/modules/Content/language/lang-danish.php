@@ -12,18 +12,18 @@
 /* ICQ:	155265588                                                     */
 /* Webside:	www.Sjove-Film.dk - HitsMaskinen.dk - FilmCentralen.dk        */
 /*                                                                        */
-/* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
+/* Hvis de finder fejl mÃ¥ og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
 define("_PREVIOUS","Forrige side");
-define("_NEXT","Næste side");
+define("_NEXT","NÃ¦ste side");
 define("_PAGE","Side");
 define("_DEACTIVATE","Deaktiver");
 define("_ACTIVATE","Aktiver");
 define("_PUBLISHEDON","Udsendt den");
 define("_PAGESLIST","Side liste");
 define("_LISTOFCONTENT","Liste med muligt indhold i");
-define("_YOURADMINLIST","De er administrator: følgende er listen over deaktiverede sider:");
+define("_YOURADMINLIST","De er administrator: fÃ¸lgende er listen over deaktiverede sider:");
 define("_COPYRIGHT","Copyright &copy; by");
 define("_COPYRIGHT2","All Right Reserved.");
 define("_CONTENTCATEGORIES","Leddige kategorier");

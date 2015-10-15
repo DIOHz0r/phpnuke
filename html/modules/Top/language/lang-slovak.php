@@ -31,25 +31,25 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_CATEGORY","Kategória");
+define("_CATEGORY","KategÃ³ria");
 define("_LVOTES","hlasovalo");
-define("_HITS"," krát èítané");
-define("_TOPWELCOME","Vitajte na stránke TOP na");
-define("_READSTORIES","najèítanejších èlánkov:");
-define("_COMMENTEDSTORIES","najkomentovanejších èlánkov:");
-define("_ACTIVECAT","najaktívnejších kategórií:");
-define("_READSECTION","najèítanejších èlánkov v iných oblastiach:");
-define("_NEWSSUBMITTERS","najaktívnejších prispievate¾ov:");
-define("_NEWSSENT","poslaných noviniek:");
-define("_VOTEDPOLLS","Najnavštevovanejších ankiet");
-define("_MOSTACTIVEAUTHORS","najaktívnejších autorov");
-define("_NEWSPUBLISHED","publikovaných èlánkov:");
-define("_READREVIEWS","najèítanejších recenzií:");
-define("_DOWNLOADEDFILES","najsahovanejších súborov:");
+define("_HITS"," krÃ¡t ÄÃ­tanÃ©");
+define("_TOPWELCOME","Vitajte na strÃ¡nke TOP na");
+define("_READSTORIES","najÄÃ­tanejÅ¡Ã­ch ÄlÃ¡nkov:");
+define("_COMMENTEDSTORIES","najkomentovanejÅ¡Ã­ch ÄlÃ¡nkov:");
+define("_ACTIVECAT","najaktÃ­vnejÅ¡Ã­ch kategÃ³riÃ­:");
+define("_READSECTION","najÄÃ­tanejÅ¡Ã­ch ÄlÃ¡nkov v inÃ½ch oblastiach:");
+define("_NEWSSUBMITTERS","najaktÃ­vnejÅ¡Ã­ch prispievateÄ¾ov:");
+define("_NEWSSENT","poslanÃ½ch noviniek:");
+define("_VOTEDPOLLS","NajnavÅ¡tevovanejÅ¡Ã­ch ankiet");
+define("_MOSTACTIVEAUTHORS","najaktÃ­vnejÅ¡Ã­ch autorov");
+define("_NEWSPUBLISHED","publikovanÃ½ch ÄlÃ¡nkov:");
+define("_READREVIEWS","najÄÃ­tanejÅ¡Ã­ch recenziÃ­:");
+define("_DOWNLOADEDFILES","najsÅ¥ahovanejÅ¡Ã­ch sÃºborov:");
 define("_LDOWNLOADS","downloads");
-define("_MOSTREADPAGES","Najèítanejšie strany");
-define("_MOSTVOTEDSTORIES","Najviac hodnotené èlánky");
+define("_MOSTREADPAGES","NajÄÃ­tanejÅ¡ie strany");
+define("_MOSTVOTEDSTORIES","Najviac hodnotenÃ© ÄlÃ¡nky");
 define("_POINTS","body");
-define("_BESTRATEDSTORIES","Najlepšie hodnotené èlánky ( minimálne 5 hlasov )");
+define("_BESTRATEDSTORIES","NajlepÅ¡ie hodnotenÃ© ÄlÃ¡nky ( minimÃ¡lne 5 hlasov )");
 
 ?>

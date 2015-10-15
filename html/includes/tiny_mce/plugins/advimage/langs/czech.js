@@ -1,6 +1,6 @@
 // UK lang variables
 
-tinyMCELang['lang_insert_image_alt2'] = 'Název obrázku';
-tinyMCELang['lang_insert_image_onmousemove'] = 'Alternativní obrázek'
-tinyMCELang['lang_insert_image_mouseover'] = 'pøi najetí myši';
-tinyMCELang['lang_insert_image_mouseout'] = 'pøi odjetí myši';
+tinyMCELang['lang_insert_image_alt2'] = 'NÃ¡zev obrÃ¡zku';
+tinyMCELang['lang_insert_image_onmousemove'] = 'AlternativnÃ­ obrÃ¡zek'
+tinyMCELang['lang_insert_image_mouseover'] = 'pÃ¸i najetÃ­ myÅ¡i';
+tinyMCELang['lang_insert_image_mouseout'] = 'pÃ¸i odjetÃ­ myÅ¡i';

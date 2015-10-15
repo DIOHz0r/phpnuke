@@ -16,7 +16,7 @@
 /* so your entry will look like: This is \"double quoted\" text.          */
 /* And, if you use HTML code, please double check it.                     */
 /*                                                                        */
-/* Polish translation by NordavindÆ(Bolo) (http://forum.phpnuke.org.pl)   */
+/* Polish translation by Nordavind≈Ω(Bolo) (http://forum.phpnuke.org.pl)   */
 /*                                                                        */
 /**************************************************************************/
 
@@ -24,43 +24,43 @@ define("_ALLTOPICS","Wszystkie tematy");
 define("_NOCOMMENTS","Bez komentarza");
 define("_UCOMMENT","Komentarz");
 define("_REVIEWS","Recenzje");
-define("_SEARCHUSERS","Szukaj w bazie uøytkownikÛw");
+define("_SEARCHUSERS","Szukaj w bazie u≈ºytkownik√≥w");
 define("_SEARCHSECTIONS","Szukaj w sekcjach specjalnych");
 define("_SEARCHREVIEWS","Szukaj w recenzjach");
 define("_SEARCHIN","Szukaj w");
-define("_ARTICLES","Artyku≥y");
+define("_ARTICLES","Artyku≈Çy");
 define("_ALLAUTHORS","Wszyscy autorzy");
 define("_ALL","Wszystko");
-define("_WEEK","tydzieÒ");
+define("_WEEK","tydzie≈Ñ");
 define("_WEEKS","tygodnie");
-define("_MONTH","miesi±c");
-define("_MONTHS","miesi±ce");
+define("_MONTH","miesiƒÖc");
+define("_MONTHS","miesiƒÖce");
 define("_SEARCHON","Szukaj na:");
-define("_SSTORIES","Artyku≥y");
+define("_SSTORIES","Artyku≈Çy");
 define("_SSECTIONS","Sekcje");
-define("_SUSERS","Uøytkownicy");
-define("_NOMATCHES","Brak rezultatÛw wyszukiwania");
+define("_SUSERS","U≈ºytkownicy");
+define("_NOMATCHES","Brak rezultat√≥w wyszukiwania");
 define("_PREVMATCHES","poprzednie wyniki");
-define("_NEXTMATCHES","nastÍpne wyniki");
-define("_INSECTION","Artyku≥ w sekcji");
+define("_NEXTMATCHES","nastƒôpne wyniki");
+define("_INSECTION","Artyku≈Ç w sekcji");
 define("_NONAME","Nie wpisano nazwy");
 define("_SCOMMENTS","Komentarze");
 define("_SEARCHRESULTS","Wyniki wyszukiwania");
-define("_CONTRIBUTEDBY","WspÛ≥praca");
+define("_CONTRIBUTEDBY","Wsp√≥≈Çpraca");
 define("_UCOMMENTS","Komentarze");
-define("_MATCHTITLE","Szukaj wed≥ug tytu≥u artyku≥u");
-define("_MATCHTEXT","Szukaj wed≥ug tekstu");
-define("_MATCHBOTH","Szukaj wed≥ug tytu≥u i tekstu");
+define("_MATCHTITLE","Szukaj wed≈Çug tytu≈Çu artyku≈Çu");
+define("_MATCHTEXT","Szukaj wed≈Çug tekstu");
+define("_MATCHBOTH","Szukaj wed≈Çug tytu≈Çu i tekstu");
 define("_SREPLY","Odpowiedz");
 define("_SREPLIES","Odpowiedzi");
-define("_ATTACHART","Do≥±czony do artyku≥u");
+define("_ATTACHART","Do≈ÇƒÖczony do artyku≈Çu");
 define("_PAGES","Strony");
 define("_REVIEWSCORE","Wynik dla tej recenzji");
 define("_PAGE","Strona");
 define("_DOWNLOADS","Pliki");
 define("_WEBLINKS","Linki");
-define("_FINDMORE","... wiÍcej");
-define("_DIDNOTFIND","Nie znalaz≥e∂(a∂) tego czego szuka≥e∂(a∂)?");
+define("_FINDMORE","... wiƒôcej");
+define("_DIDNOTFIND","Nie znalaz≈Çe≈õ(a≈õ) tego czego szuka≈Çe≈õ(a≈õ)?");
 define("_ENCYCLOPEDIA","Encyklopedia");
 define("_SEARCHINSTORY","Przeszukaj wszystkie komentarze:");
 define("_SEARCHCHARACTERS","<center><b>Search System Error</b><br><br>Your query should be at least 3 characters long to be processed.<br>Please, fix the problem and try again...</center>");

@@ -18,29 +18,29 @@
 /**************************************************************************/
 
 
-define("_EMAIL","¹q¤l¶l¥ó");
-define("_SAVECHANGES","Àx¦s§ó§ï");
-define("_SCORE","¤À¼Æ¡G");
-define("_PRODUCTTITLE","§@«~¦WºÙ");
-define("_RELATEDLINK","¬ÛÃöªºÃìµ²");
-define("_LINKTITLE","Ãìµ²ªº¼ÐÃD");
-define("_REVIEWER","§@«~µû½×ªÌ¡G");
-define("_REVIEWID","§@«~µû½× ÃÑ§O½X");
-define("_REVIEWS","§@«~µû½×");
-define("_DATE","¤é´Á");
-define("_REVADMIN","§@«~µû½×ºÞ²z");
-define("_REVTITLE","§@«~µû½×­¶¼ÐÃD");
-define("_REVDESC","§@«~µû½×­¶´y­z");
-define("_REVWAITING","«Ý®Ö¥iªº§@«~µû½×");
-define("_REVIMGINFO","Àx¦s±zªº 150*150 ¼v¹³©óimages/reviews");
-define("_TEXT","¥»¤å");
-define("_IMAGE","¼v¹³");
-define("_NOREVIEW2ADD","¨S¦³¥i¼W¥[§@«~µû½×");
-define("_ADDREVIEW","·s¼W §@«~µû½×");
-define("_CLICK2ADDREVIEW","¼g¤@­Ó§@«~µû½×¡H");
-define("_DELMODREVIEW","§R°£/­×§ï§@«~µû½×");
-define("_MODREVINFO","±z¥i¥H»´ÃP¦a¥HºÞ²z­ûªº¨­¤À¡A©ó<a href=\"modules.php?name=Reviews\">Reviews</a>§R°£/­×§ï§@«~µû½×");
-define("_LANGUAGE","»y¨¥");
+define("_EMAIL","é›»å­éƒµä»¶");
+define("_SAVECHANGES","å„²å­˜æ›´æ”¹");
+define("_SCORE","åˆ†æ•¸ï¼š");
+define("_PRODUCTTITLE","ä½œå“åç¨±");
+define("_RELATEDLINK","ç›¸é—œçš„éˆçµ");
+define("_LINKTITLE","éˆçµçš„æ¨™é¡Œ");
+define("_REVIEWER","ä½œå“è©•è«–è€…ï¼š");
+define("_REVIEWID","ä½œå“è©•è«– è­˜åˆ¥ç¢¼");
+define("_REVIEWS","ä½œå“è©•è«–");
+define("_DATE","æ—¥æœŸ");
+define("_REVADMIN","ä½œå“è©•è«–ç®¡ç†");
+define("_REVTITLE","ä½œå“è©•è«–é æ¨™é¡Œ");
+define("_REVDESC","ä½œå“è©•è«–é æè¿°");
+define("_REVWAITING","å¾…æ ¸å¯çš„ä½œå“è©•è«–");
+define("_REVIMGINFO","å„²å­˜æ‚¨çš„ 150*150 å½±åƒæ–¼images/reviews");
+define("_TEXT","æœ¬æ–‡");
+define("_IMAGE","å½±åƒ");
+define("_NOREVIEW2ADD","æ²’æœ‰å¯å¢žåŠ ä½œå“è©•è«–");
+define("_ADDREVIEW","æ–°å¢ž ä½œå“è©•è«–");
+define("_CLICK2ADDREVIEW","å¯«ä¸€å€‹ä½œå“è©•è«–ï¼Ÿ");
+define("_DELMODREVIEW","åˆªé™¤/ä¿®æ”¹ä½œå“è©•è«–");
+define("_MODREVINFO","æ‚¨å¯ä»¥è¼•é¬†åœ°ä»¥ç®¡ç†å“¡çš„èº«åˆ†ï¼Œæ–¼<a href=\"modules.php?name=Reviews\">Reviews</a>åˆªé™¤/ä¿®æ”¹ä½œå“è©•è«–");
+define("_LANGUAGE","èªžè¨€");
 
 
 ?>

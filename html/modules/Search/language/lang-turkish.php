@@ -4,62 +4,62 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_ALLTOPICS","Tüm Konular");
+define("_ALLTOPICS","TÃ¼m Konular");
 define("_NOCOMMENTS","Yorum Yok");
 define("_UCOMMENT","Yorum");
-define("_REVIEWS","Ýzlenimler");
-define("_SEARCHUSERS","Kullanýcý Veritabanýnda Ara");
-define("_SEARCHSECTIONS","Özel Bölümlerde Ara");
-define("_SEARCHREVIEWS","Ýzlenimlerde Ara");
+define("_REVIEWS","Ä°zlenimler");
+define("_SEARCHUSERS","KullanÄ±cÄ± VeritabanÄ±nda Ara");
+define("_SEARCHSECTIONS","Ã–zel BÃ¶lÃ¼mlerde Ara");
+define("_SEARCHREVIEWS","Ä°zlenimlerde Ara");
 define("_SEARCHIN","Ara:");
 define("_ARTICLES","Haber");
-define("_ALLAUTHORS","Tüm Yazarlar");
-define("_ALL","Tümü");
+define("_ALLAUTHORS","TÃ¼m Yazarlar");
+define("_ALL","TÃ¼mÃ¼");
 define("_WEEK","hafta");
 define("_WEEKS","hafta");
 define("_MONTH","ay");
 define("_MONTHS","ay");
 define("_SEARCHON","Ara:");
 define("_SSTORIES","Haber");
-define("_SSECTIONS","Bölümler");
-define("_SUSERS","Kullanýcýlar");
-define("_NOMATCHES","Uygun sonuç bulunamadý");
-define("_PREVMATCHES","önceki sonuçlar");
-define("_NEXTMATCHES","sonraki sonuçlar");
+define("_SSECTIONS","BÃ¶lÃ¼mler");
+define("_SUSERS","KullanÄ±cÄ±lar");
+define("_NOMATCHES","Uygun sonuÃ§ bulunamadÄ±");
+define("_PREVMATCHES","Ã¶nceki sonuÃ§lar");
+define("_NEXTMATCHES","sonraki sonuÃ§lar");
 define("_INSECTION","Makale Bulunuyor");
-define("_NONAME","Ýsim girilmemiþ");
+define("_NONAME","Ä°sim girilmemiÅŸ");
 define("_SCOMMENTS","Yorum");
-define("_SEARCHRESULTS","Arama Sonuçlarý");
-define("_CONTRIBUTEDBY","Katkýda bulunan");
+define("_SEARCHRESULTS","Arama SonuÃ§larÄ±");
+define("_CONTRIBUTEDBY","KatkÄ±da bulunan");
 define("_UCOMMENTS","Yorum");
-define("_MATCHTITLE","Baþlýk");
+define("_MATCHTITLE","BaÅŸlÄ±k");
 define("_MATCHTEXT","Haber Metni");
-define("_MATCHBOTH","Baþlýk ve Haber Metni");
+define("_MATCHBOTH","BaÅŸlÄ±k ve Haber Metni");
 define("_SREPLY","Cevap");
 define("_SREPLIES","Cevap");
-define("_ATTACHART","Habere Eklenmiþ");
+define("_ATTACHART","Habere EklenmiÅŸ");
 define("_PAGES","Sayfa");
-define("_REVIEWSCORE","Ýzlenim Puaný");
+define("_REVIEWSCORE","Ä°zlenim PuanÄ±");
 define("_PAGE","Sayfa");
 define("_DOWNLOADS","Dosyalar");
-define("_WEBLINKS","Web Baðlantýlarý");
-define("_FINDMORE","... devamý");
-define("_DIDNOTFIND","Aradýðýnýzý bulamadýnýz mý?");
-define("_ENCYCLOPEDIA","Ansikloðedi");
-define("_SEARCHINSTORY","Bu haberdeki tüm yorumlarý ara:");
+define("_WEBLINKS","Web BaÄŸlantÄ±larÄ±");
+define("_FINDMORE","... devamÄ±");
+define("_DIDNOTFIND","AradÄ±ÄŸÄ±nÄ±zÄ± bulamadÄ±nÄ±z mÄ±?");
+define("_ENCYCLOPEDIA","AnsikloÄŸedi");
+define("_SEARCHINSTORY","Bu haberdeki tÃ¼m yorumlarÄ± ara:");
 define("_SEARCHCHARACTERS","<center><b>Search System Error</b><br><br>Your query should be at least 3 characters long to be processed.<br>Please, fix the problem and try again...</center>");
 
 ?>

@@ -22,25 +22,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","÷èâåøéä");
-define("_LVOTES","äöáòåú");
-define("_HITS","ëðéñåú");
-define("_TOPWELCOME","áøåê äáà ìçì÷ äòìéåï ùì äòîåã");
-define("_READSTORIES","äñéôåøéí äð÷øàéí áéåúø");
-define("_COMMENTEDSTORIES","äñéôåøéí òí äëé äøáä äòøåú");
-define("_ACTIVECAT","ä÷èâåøéåú äëé ôòéìéåú");
-define("_READSECTION","äîàîø äð÷øà áéåúø áàæåøéí");
-define("_NEWSSUBMITTERS","äëúáéí äôòéìéí áéåúø");
-define("_NEWSSENT","ùìéçú çãùåú");
-define("_VOTEDPOLLS","äñ÷øéí òí äëé äøáä äöáòåú");
-define("_MOSTACTIVEAUTHORS","äëúáéí äëé ôòéì");
-define("_NEWSPUBLISHED","çãùåú ùôåøñîå");
-define("_READREVIEWS","äñé÷åøéí äð÷øàéí áéåúø");
-define("_DOWNLOADEDFILES","ääåøãåú äîåáéìåú");
-define("_LDOWNLOADS","äåøãåú");
-define("_MOSTREADPAGES","äãôéí äð÷øàéí áéåúø");
-define("_MOSTVOTEDSTORIES","äñéôåøéí òí äëé äøáä äöáòåú");
-define("_POINTS","ð÷åãåú");
-define("_BESTRATEDSTORIES","äñéôåøéí äëé îãåøâéí (äãéøåâ äëé ðîåê äåà 5)");
+define("_CATEGORY","Ã·Ã¨Ã¢Ã¥Ã¸Ã©Ã¤");
+define("_LVOTES","Ã¤Ã¶Ã¡Ã²Ã¥Ãº");
+define("_HITS","Ã«Ã°Ã©Ã±Ã¥Ãº");
+define("_TOPWELCOME","Ã¡Ã¸Ã¥Ãª Ã¤Ã¡Ã  Ã¬Ã§Ã¬Ã· Ã¤Ã²Ã¬Ã©Ã¥Ã¯ Ã¹Ã¬ Ã¤Ã²Ã®Ã¥Ã£");
+define("_READSTORIES","Ã¤Ã±Ã©Ã´Ã¥Ã¸Ã©Ã­ Ã¤Ã°Ã·Ã¸Ã Ã©Ã­ Ã¡Ã©Ã¥ÃºÃ¸");
+define("_COMMENTEDSTORIES","Ã¤Ã±Ã©Ã´Ã¥Ã¸Ã©Ã­ Ã²Ã­ Ã¤Ã«Ã© Ã¤Ã¸Ã¡Ã¤ Ã¤Ã²Ã¸Ã¥Ãº");
+define("_ACTIVECAT","Ã¤Ã·Ã¨Ã¢Ã¥Ã¸Ã©Ã¥Ãº Ã¤Ã«Ã© Ã´Ã²Ã©Ã¬Ã©Ã¥Ãº");
+define("_READSECTION","Ã¤Ã®Ã Ã®Ã¸ Ã¤Ã°Ã·Ã¸Ã  Ã¡Ã©Ã¥ÃºÃ¸ Ã¡Ã Ã¦Ã¥Ã¸Ã©Ã­");
+define("_NEWSSUBMITTERS","Ã¤Ã«ÃºÃ¡Ã©Ã­ Ã¤Ã´Ã²Ã©Ã¬Ã©Ã­ Ã¡Ã©Ã¥ÃºÃ¸");
+define("_NEWSSENT","Ã¹Ã¬Ã©Ã§Ãº Ã§Ã£Ã¹Ã¥Ãº");
+define("_VOTEDPOLLS","Ã¤Ã±Ã·Ã¸Ã©Ã­ Ã²Ã­ Ã¤Ã«Ã© Ã¤Ã¸Ã¡Ã¤ Ã¤Ã¶Ã¡Ã²Ã¥Ãº");
+define("_MOSTACTIVEAUTHORS","Ã¤Ã«ÃºÃ¡Ã©Ã­ Ã¤Ã«Ã© Ã´Ã²Ã©Ã¬");
+define("_NEWSPUBLISHED","Ã§Ã£Ã¹Ã¥Ãº Ã¹Ã´Ã¥Ã¸Ã±Ã®Ã¥");
+define("_READREVIEWS","Ã¤Ã±Ã©Ã·Ã¥Ã¸Ã©Ã­ Ã¤Ã°Ã·Ã¸Ã Ã©Ã­ Ã¡Ã©Ã¥ÃºÃ¸");
+define("_DOWNLOADEDFILES","Ã¤Ã¤Ã¥Ã¸Ã£Ã¥Ãº Ã¤Ã®Ã¥Ã¡Ã©Ã¬Ã¥Ãº");
+define("_LDOWNLOADS","Ã¤Ã¥Ã¸Ã£Ã¥Ãº");
+define("_MOSTREADPAGES","Ã¤Ã£Ã´Ã©Ã­ Ã¤Ã°Ã·Ã¸Ã Ã©Ã­ Ã¡Ã©Ã¥ÃºÃ¸");
+define("_MOSTVOTEDSTORIES","Ã¤Ã±Ã©Ã´Ã¥Ã¸Ã©Ã­ Ã²Ã­ Ã¤Ã«Ã© Ã¤Ã¸Ã¡Ã¤ Ã¤Ã¶Ã¡Ã²Ã¥Ãº");
+define("_POINTS","Ã°Ã·Ã¥Ã£Ã¥Ãº");
+define("_BESTRATEDSTORIES","Ã¤Ã±Ã©Ã´Ã¥Ã¸Ã©Ã­ Ã¤Ã«Ã© Ã®Ã£Ã¥Ã¸Ã¢Ã©Ã­ (Ã¤Ã£Ã©Ã¸Ã¥Ã¢ Ã¤Ã«Ã© Ã°Ã®Ã¥Ãª Ã¤Ã¥Ã  5)");
 
 ?>

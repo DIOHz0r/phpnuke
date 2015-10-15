@@ -4,67 +4,67 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_YOURNAME","Ýsminiz");
+define("_YOURNAME","Ä°sminiz");
 define("_OK","Tamam!");
 define("_COMMENT","yorum");
-define("_CONFIGURE","Düzenle");
-define("_LOGINCREATE","Hesap Aç/Yarat");
-define("_THRESHOLD","Baþlangýç");
+define("_CONFIGURE","DÃ¼zenle");
+define("_LOGINCREATE","Hesap AÃ§/Yarat");
+define("_THRESHOLD","BaÅŸlangÄ±Ã§");
 define("_NOCOMMENTS","Yorum Yok");
-define("_NESTED","Ýç-içe");
-define("_FLAT","Düz");
-define("_THREAD","Sýralý");
-define("_OLDEST","Eski Baþa");
-define("_NEWEST","Yeni Baþa");
-define("_HIGHEST","Yüksek Skorlar Baþa");
-define("_COMMENTSWARNING","Yorumlar yazarlarýna aittir. Ýçeriklerinden biz sorumlu tutulamayýz.");
+define("_NESTED","Ä°Ã§-iÃ§e");
+define("_FLAT","DÃ¼z");
+define("_THREAD","SÄ±ralÄ±");
+define("_OLDEST","Eski BaÅŸa");
+define("_NEWEST","Yeni BaÅŸa");
+define("_HIGHEST","YÃ¼ksek Skorlar BaÅŸa");
+define("_COMMENTSWARNING","Yorumlar yazarlarÄ±na aittir. Ä°Ã§eriklerinden biz sorumlu tutulamayÄ±z.");
 define("_SCORE","Skor:");
-define("_USERINFO","Kullanýcý Bilgisi");
-define("_READREST","Bu yorumun devamýný oku...");
+define("_USERINFO","KullanÄ±cÄ± Bilgisi");
+define("_READREST","Bu yorumun devamÄ±nÄ± oku...");
 define("_REPLY","Cevap Ver");
 define("_REPLYMAIN","Yorum Ekle");
 define("_NOSUBJECT","Konu Yok");
-define("_NOANONCOMMENTS","Anonim kullanýcý yorum yazamaz, lütfen <a href=\"modules.php?name=Your_Account&amp;op=new_user&op=new_user\">kayýt olun</a>");
-define("_PARENT","Yukarý");
-define("_ROOT","Kök");
+define("_NOANONCOMMENTS","Anonim kullanÄ±cÄ± yorum yazamaz, lÃ¼tfen <a href=\"modules.php?name=Your_Account&amp;op=new_user&op=new_user\">kayÄ±t olun</a>");
+define("_PARENT","YukarÄ±");
+define("_ROOT","KÃ¶k");
 define("_UCOMMENT","Yorum");
-define("_ALLOWEDHTML","Ýzin Verilen HTML:");
-define("_POSTANON","Anonim Olarak Gönder");
+define("_ALLOWEDHTML","Ä°zin Verilen HTML:");
+define("_POSTANON","Anonim Olarak GÃ¶nder");
 define("_EXTRANS","HTML tag'leri metne");
-define("_HTMLFORMATED","HTML Biçimli");
-define("_PLAINTEXT","Metin Biçimli");
-define("_ONN","üstünde...");
+define("_HTMLFORMATED","HTML BiÃ§imli");
+define("_PLAINTEXT","Metin BiÃ§imli");
+define("_ONN","Ã¼stÃ¼nde...");
 define("_SUBJECT","Konu");
 define("_SURVEYCOM","Ankete Yorum Ekle");
-define("_SURVEYCOMPRE","Anket Yorumu Önizleme");
-define("_NOTRIGHT","Bu fonksiyona deðer geçirilirken sorun oluþtu. Bu mesaj sadece iþlerin yoldan çýkmasýný engellemek içindir");
+define("_SURVEYCOMPRE","Anket Yorumu Ã–nizleme");
+define("_NOTRIGHT","Bu fonksiyona deÄŸer geÃ§irilirken sorun oluÅŸtu. Bu mesaj sadece iÅŸlerin yoldan Ã§Ä±kmasÄ±nÄ± engellemek iÃ§indir");
 define("_DIRECTCOM","Direkt Anket Yorumu...");
-define("_SENDAMSG","Mesaj Gönder");
+define("_SENDAMSG","Mesaj GÃ¶nder");
 define("_PASTSURVEYS","Eski Anketler");
 define("_LVOTES","oy");
 define("_TOTALVOTES","Toplam Oy:");
 define("_VOTING","Oylama");
-define("_OTHERPOLLS","Diðer Anketler");
+define("_OTHERPOLLS","DiÄŸer Anketler");
 define("_CURRENTSURVEY","Aktif Anket");
-define("_CURRENTPOLLRESULTS","Aktif Anket Sonuçlarý");
-define("_PREVIEW","Önizleme");
+define("_CURRENTPOLLRESULTS","Aktif Anket SonuÃ§larÄ±");
+define("_PREVIEW","Ã–nizleme");
 define("_REFRESH","Yenile");
 define("_SURVEYS","Anketler");
-define("_ATTACHEDTOARTICLE","- Eklendiði haber:");
-define("_SURVEYSATTACHED","Haberlere Baðlý Anketler");
+define("_ATTACHEDTOARTICLE","- EklendiÄŸi haber:");
+define("_SURVEYSATTACHED","Haberlere BaÄŸlÄ± Anketler");
 define("_LAST5POLLS", "Son 5 Anket:");
 define("_MOREPOLLS", "...daha fazla anket");
 define("_COMMENTSMODERATION","Comments Moderation System");

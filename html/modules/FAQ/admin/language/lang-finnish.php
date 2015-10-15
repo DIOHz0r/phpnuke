@@ -18,26 +18,26 @@
 /**************************************************************************/
 
 
-define("_FUNCTIONS","Teht‰v‰t");
-define("_YES","Kyll‰");
+define("_FUNCTIONS","Teht√§v√§t");
+define("_YES","Kyll√§");
 define("_NO","Ei");
 define("_SAVE","Tallenna");
 define("_ID","ID");
 define("_CATEGORIES","Aihepiirit");
 define("_ALL","Kaikki");
 define("_FAQ","UKK");
-define("_CONTENT","Sis‰ltˆ");
-define("_FAQADMIN","UKK yll‰pito");
+define("_CONTENT","Sis√§lt√∂");
+define("_FAQADMIN","UKK yll√§pito");
 define("_ACTIVEFAQS","Aktiiviset Kysymykset");
-define("_ADDCATEGORY","Lis‰‰ kategoria");
+define("_ADDCATEGORY","Lis√§√§ kategoria");
 define("_QUESTIONS","Kysymykset ja vastaukset");
-define("_ADDQUESTION","Lis‰‰ kysymys");
+define("_ADDQUESTION","Lis√§√§ kysymys");
 define("_QUESTION","Kysymys");
 define("_ANSWER","Vastaus");
 define("_EDITCATEGORY","Muokkaa kategoriaa");
-define("_EDITQUESTIONS","Muokkaa kysymyksi‰ ja vastauksia");
-define("_FAQDELWARNING","VAROITUS: Oletteko varma, ett‰ tahdotte poistaa UKKn ja kaiken sen sis‰llˆn?");
-define("_QUESTIONDEL","VAROITUS: Oletteko varma, ett‰ tahdotte poistaa t‰m‰n kysymyksen sen vastauksen?");
+define("_EDITQUESTIONS","Muokkaa kysymyksi√§ ja vastauksia");
+define("_FAQDELWARNING","VAROITUS: Oletteko varma, ett√§ tahdotte poistaa UKKn ja kaiken sen sis√§ll√∂n?");
+define("_QUESTIONDEL","VAROITUS: Oletteko varma, ett√§ tahdotte poistaa t√§m√§n kysymyksen sen vastauksen?");
 define("_LANGUAGE","Language");
 
 

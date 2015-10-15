@@ -4,34 +4,34 @@
 /* PHP-NUKE: Advanced Content Management System                           */
 /* ============================================                           */
 /*                                                                        */
-/* Php-Nuke'nin sürekli geliþmesine baðlý olarak eski Türkçe dil dosyalarý*/
-/* güncelliðini yitirdiði için "HighLAndeR" tarafýndan "MaXCoDeR"in       */
-/* yapmýþ olduðu çeviriler güncelleþtirilip yeni çeviriler eklenmiþtir... */
+/* Php-Nuke'nin sÃ¼rekli geliÅŸmesine baÄŸlÄ± olarak eski TÃ¼rkÃ§e dil dosyalarÄ±*/
+/* gÃ¼ncelliÄŸini yitirdiÄŸi iÃ§in "HighLAndeR" tarafÄ±ndan "MaXCoDeR"in       */
+/* yapmÄ±ÅŸ olduÄŸu Ã§eviriler gÃ¼ncelleÅŸtirilip yeni Ã§eviriler eklenmiÅŸtir... */
 /*                                                                        */
-/* NOT: Yardýmlarý için Gurol400(gurol400@propc.org)'e teþekkürler.       */
+/* NOT: YardÄ±mlarÄ± iÃ§in Gurol400(gurol400@propc.org)'e teÅŸekkÃ¼rler.       */
 /*                                                                        */
-/* Türkçe Çevirmeni: HighLAndeR                                           */
+/* TÃ¼rkÃ§e Ã‡evirmeni: HighLAndeR                                           */
 /* Email: highlander@propc.org ICQ#: 110930777 	URL: http://www.propc.org */
 /*                                                                        */
-/* Türkçe Çevirmeni: Selim "MaXCoDeR" Þumlu                               */
+/* TÃ¼rkÃ§e Ã‡evirmeni: Selim "MaXCoDeR" Åžumlu                               */
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_SEND","Gönder");
-define("_FYOURNAME","Ýsminiz:");
+define("_SEND","GÃ¶nder");
+define("_FYOURNAME","Ä°sminiz:");
 define("_FYOUREMAIL","E-mail Adresiniz:");
-define("_FFRIENDNAME","Arkadaþýnýzýn Ýsmi:");
-define("_FFRIENDEMAIL","Arkadaþýnýzýn E-mail'i:");
+define("_FFRIENDNAME","ArkadaÅŸÄ±nÄ±zÄ±n Ä°smi:");
+define("_FFRIENDEMAIL","ArkadaÅŸÄ±nÄ±zÄ±n E-mail'i:");
 define("_HELLO","Merhaba");
 define("_YOURFRIEND","Arkadasiniz");
-define("_RECOMMEND","Bu Siteyi Arkadaþýna Öner");
+define("_RECOMMEND","Bu Siteyi ArkadaÅŸÄ±na Ã–ner");
 define("_INTSITE","ilginc bir site:");
 define("_OURSITE","sitemiz olan");
 define("_INTSENT","adli siteyi ilginc buldu ve size gondermek istedi.");
-define("_FSITENAME","Site Ýsmi:");
+define("_FSITENAME","Site Ä°smi:");
 define("_FSITEURL","Site Adresi:");
-define("_FREFERENCE","Referansýmýzýn gönerildiði kiþi:");
-define("_THANKSREC","Bizi önerdiðiniz için teþekkürler!");
+define("_FREFERENCE","ReferansÄ±mÄ±zÄ±n gÃ¶nerildiÄŸi kiÅŸi:");
+define("_THANKSREC","Bizi Ã¶nerdiÄŸiniz iÃ§in teÅŸekkÃ¼rler!");
 define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
 define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
 

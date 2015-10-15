@@ -17,14 +17,14 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Сторінка для друку");
-define("_FRIEND","Відправити цю статтю товаришу");
+define("_PRINTER","РЎС‚РѕСЂС–РЅРєР° РґР»СЏ РґСЂСѓРєСѓ");
+define("_FRIEND","Р’С–РґРїСЂР°РІРёС‚Рё С†СЋ СЃС‚Р°С‚С‚СЋ С‚РѕРІР°СЂРёС€Сѓ");
 
 
 
-define("_ARTICLES","Нотатки");
-define("_USCORE","Оцінка");
-define("_DATE","Дата");
+define("_ARTICLES","РќРѕС‚Р°С‚РєРё");
+define("_USCORE","РћС†С–РЅРєР°");
+define("_DATE","Р”Р°С‚Р°");
 
 define("_SELECTMONTH2VIEW","Please select the month you want to view:");
 define("_SHOWALLSTORIES","Show ALL Stories");

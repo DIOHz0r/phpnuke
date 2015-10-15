@@ -39,7 +39,7 @@ define("_YES","Ja");
 define("_NO","Nej");
 define("_TOPICSMANAGER","Administration af emner");
 define("_DELETETOPIC","Slet emne");
-define("_TOPICDELSURE","Er du sikker på, at du vil slette emnet");
+define("_TOPICDELSURE","Er du sikker pÃ¥, at du vil slette emnet");
 define("_TOPICDELSURE1","Det vil slette ALLE dets artikler og kommentarer!");
 
 

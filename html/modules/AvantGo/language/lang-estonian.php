@@ -17,11 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Kuupäev:");
+define("_PDATE","KuupÃ¤ev:");
 define("_PTOPIC","Teema:");
 define("_COMESFROM","See artikkel tuleb");
 define("_THEURL","URL sellele jutule:");
-define("_DATE","Kuupäev");
+define("_DATE","KuupÃ¤ev");
 define("_TITLE","Pealkiri");
 
 ?>
