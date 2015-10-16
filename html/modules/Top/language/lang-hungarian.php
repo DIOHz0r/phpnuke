@@ -17,24 +17,22 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Kategória");
-define("_LVOTES","szavazat");
-define("_HITS","találat");
-define("_TOPWELCOME","Ez a");
-define("_READSTORIES","legolvasottabb cikkek toplistája");
-define("_COMMENTEDSTORIES","legtöbb hozzászólással rendelkező cikkek toplistája");
-define("_ACTIVECAT","legaktívabb kategóriák toplistája");
-define("_READSECTION","a különleges témák legolvasottabb cikkeinek toplistája");
-define("_NEWSSUBMITTERS","a legaktívabb szerzők toplistája");
-define("_NEWSSENT","beküldött hír");
-define("_VOTEDPOLLS","a legtöbb szavazatot kapott szavazások toplistája");
-define("_MOSTACTIVEAUTHORS","Aktív szerzők:");
-define("_NEWSPUBLISHED","közzétett cikk");
-define("_READREVIEWS","legolvasottabb ismeretetők topllistája");
-define("_DOWNLOADEDFILES","legtöbbször letöltött fájlok toplistája");
-define("_MOSTREADPAGES","most read pages");
-define("_MOSTVOTEDSTORIES","most voted stories");
-define("_POINTS","points");
-define("_BESTRATEDSTORIES","best rated stories (based on 5 maximun points)");
-
-?>
+define('_CATEGORY', 'Kategória');
+define('_LVOTES', 'szavazat');
+define('_HITS', 'találat');
+define('_TOPWELCOME', 'Ez a');
+define('_READSTORIES', 'legolvasottabb cikkek toplistája');
+define('_COMMENTEDSTORIES', 'legtöbb hozzászólással rendelkező cikkek toplistája');
+define('_ACTIVECAT', 'legaktívabb kategóriák toplistája');
+define('_READSECTION', 'a különleges témák legolvasottabb cikkeinek toplistája');
+define('_NEWSSUBMITTERS', 'a legaktívabb szerzők toplistája');
+define('_NEWSSENT', 'beküldött hír');
+define('_VOTEDPOLLS', 'a legtöbb szavazatot kapott szavazások toplistája');
+define('_MOSTACTIVEAUTHORS', 'Aktív szerzők:');
+define('_NEWSPUBLISHED', 'közzétett cikk');
+define('_READREVIEWS', 'legolvasottabb ismeretetők topllistája');
+define('_DOWNLOADEDFILES', 'legtöbbször letöltött fájlok toplistája');
+define('_MOSTREADPAGES', 'most read pages');
+define('_MOSTVOTEDSTORIES', 'most voted stories');
+define('_POINTS', 'points');
+define('_BESTRATEDSTORIES', 'best rated stories (based on 5 maximun points)');

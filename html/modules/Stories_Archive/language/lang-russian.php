@@ -27,18 +27,16 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_PRINTER","Страница, готовая для печати");
-define("_FRIEND","Отправить эту статью другу");
-define("_ARTICLES","Статьи");
-define("_USCORE","Баллы");
-define("_DATE","Дата");
-define("_SELECTMONTH2VIEW","Пожалуйста, выберите месяц для просмотра:");
-define("_SHOWALLSTORIES","Показать все статьи");
-define("_STORIESARCHIVE","Архив статей");
-define("_ACTIONS","Действия");
-define("_ARCHIVESINDEX","Индекс архива статей");
-define("_ALLSTORIESARCH","Все статьи");
-define("_NEXTPAGE","Следующая страница");
-define("_PREVIOUSPAGE","Предыдущая страница");
-
-?>
+define('_PRINTER', 'Страница, готовая для печати');
+define('_FRIEND', 'Отправить эту статью другу');
+define('_ARTICLES', 'Статьи');
+define('_USCORE', 'Баллы');
+define('_DATE', 'Дата');
+define('_SELECTMONTH2VIEW', 'Пожалуйста, выберите месяц для просмотра:');
+define('_SHOWALLSTORIES', 'Показать все статьи');
+define('_STORIESARCHIVE', 'Архив статей');
+define('_ACTIONS', 'Действия');
+define('_ARCHIVESINDEX', 'Индекс архива статей');
+define('_ALLSTORIESARCH', 'Все статьи');
+define('_NEXTPAGE', 'Следующая страница');
+define('_PREVIOUSPAGE', 'Предыдущая страница');

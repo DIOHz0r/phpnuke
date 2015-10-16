@@ -4,10 +4,10 @@
 # After use this file, you can safely delete it
 # Change the parameters to fit your info:
 
-$host 		= "localhost";
-$database 	= "nuke";
-$username 	= "root";
-$password 	= "";
+$host = 'localhost';
+$database = 'nuke';
+$username = 'root';
+$password = '';
 
 mysql_connect($host, $username, $password);
 @mysql_select_db($database);
@@ -32,7 +32,7 @@ $result = mysql_query("CREATE TABLE catagories (cat_id int(10) DEFAULT '0' NOT N
 
 // Config table creation
 
-$result = mysql_query("CREATE TABLE config (allow_html int(2), allow_bbcode int(2), allow_sig int(2), posts_per_page int(10), hot_threshold int(10), topics_per_page int(10))");
+$result = mysql_query('CREATE TABLE config (allow_html int(2), allow_bbcode int(2), allow_sig int(2), posts_per_page int(10), hot_threshold int(10), topics_per_page int(10))');
 $result = mysql_query("INSERT INTO config VALUES ( '1', '1', '1', '10', '10', '10')");
 
 // Downloads table creation
@@ -60,19 +60,19 @@ $result = mysql_query("insert into users values (NULL, '$name', '$uname', '$emai
 $result = mysql_query("select name, uname, email, femail, url, pass, storynum, umode, uorder, thold, noscore, bio, ublock, theme, commentmax, counter from users where uid='1'");
 list($name, $uname, $email, $femail, $url, $pass, $storynum, $umode, $uorder, $thold, $noscore, $bio, $ublock, $theme, $commentmax, $counter) = mysql_fetch_row($result);
 $result = mysql_query("update users set name='$name', uname='$uname', email='$email', femail='$femail', url='$url', pass='$pass', storynum='$storynum', umode='$umode', uorder='$uorder', thold='$thold', noscore='$noscore', bio='$bio', ublockon='$ublockon', ublock='$ublock', theme='$theme', commentmax='$commentmax', counter='$counter' where uid='2'");
-$result = mysql_query("ALTER TABLE users ADD user_avatar varchar(30) AFTER url, ADD user_regdate varchar(20) NOT NULL AFTER user_avatar, ADD user_icq varchar(15) AFTER user_regdate, ADD user_occ varchar(100) AFTER user_icq, ADD user_from varchar(100) AFTER user_occ, ADD user_intrest varchar(150) AFTER user_from, ADD user_sig varchar(255) AFTER user_intrest, ADD user_viewemail tinyint(2) AFTER user_sig, ADD user_theme int(3) AFTER user_viewemail, ADD user_aim varchar(18) AFTER user_theme, ADD user_yim varchar(25) AFTER user_aim, ADD user_msnm varchar(25) AFTER user_yim");
+$result = mysql_query('ALTER TABLE users ADD user_avatar varchar(30) AFTER url, ADD user_regdate varchar(20) NOT NULL AFTER user_avatar, ADD user_icq varchar(15) AFTER user_regdate, ADD user_occ varchar(100) AFTER user_icq, ADD user_from varchar(100) AFTER user_occ, ADD user_intrest varchar(150) AFTER user_from, ADD user_sig varchar(255) AFTER user_intrest, ADD user_viewemail tinyint(2) AFTER user_sig, ADD user_theme int(3) AFTER user_viewemail, ADD user_aim varchar(18) AFTER user_theme, ADD user_yim varchar(25) AFTER user_aim, ADD user_msnm varchar(25) AFTER user_yim');
 $result = mysql_query("update users set name='', uname='Anonymous', email='', femail='', url='', user_avatar='', user_regdate='---', user_icq='', user_occ='', user_from='', user_intrest='', user_sig='', user_viewemail='0', user_theme='0', user_aim='', user_yim='', user_msnm='', pass='', storynum='10', umode='', uorder='0', thold='0', noscore='0', bio='', ublockon='0', ublock='', theme='', commentmax='4096', counter='0' where uid='1'");
 
-$result = mysql_query("select uid from users");
-while(list($uid) = mysql_fetch_row($result)) {
+$result = mysql_query('select uid from users');
+while (list($uid) = mysql_fetch_row($result)) {
     $result2 = mysql_query("update users set user_avatar='blank.gif', user_regdate='Nov 10, 2000' where uid=$uid");
 }
 
 // Users Status table creation
 
 $result = mysql_query("CREATE TABLE users_status (uid int(11) DEFAULT '0' NOT NULL auto_increment, posts int(10) DEFAULT '0', attachsig int(2) DEFAULT '0', rank int(10) DEFAULT '0', level int(10) DEFAULT '1', PRIMARY KEY (uid))");
-$result = mysql_query("select uid from users");
-while(list($uid) = mysql_fetch_row($result)) {
+$result = mysql_query('select uid from users');
+while (list($uid) = mysql_fetch_row($result)) {
     $result2 = mysql_query("insert into users_status values ('$uid', '0', '0', '0', '1')");
 }
 $result = mysql_query("update users_status set level='0' where uid='1'");
@@ -84,7 +84,7 @@ mysql_query("ALTER TABLE pollcomments CHANGE subject subject VARCHAR (85) DEFAUL
 
 // Reviews table creation
 
-mysql_query("CREATE TABLE reviews_main (title varchar(100), description text)");
+mysql_query('CREATE TABLE reviews_main (title varchar(100), description text)');
 mysql_query("INSERT INTO reviews_main VALUES ('Reviews Section Title', 'Reviews Section Long Description')");
 mysql_query("CREATE TABLE reviews_comments (cid int(10) DEFAULT '0' NOT NULL auto_increment, rid int(10) DEFAULT '0' NOT NULL, userid varchar(25) NOT NULL, date datetime, comments text, score int(10) DEFAULT '0' NOT NULL, PRIMARY KEY (cid))");
 mysql_query("CREATE TABLE reviews (id int(10) NOT NULL auto_increment, date date DEFAULT '0000-00-00' NOT NULL, title varchar(150) DEFAULT '' NOT NULL, text text DEFAULT '' NOT NULL, reviewer varchar(20), email varchar(30), score int(10) DEFAULT '0' NOT NULL, cover varchar(100) DEFAULT '' NOT NULL, url varchar(100) DEFAULT '' NOT NULL, url_title varchar(50) DEFAULT '' NOT NULL, hits int(10) DEFAULT '0' NOT NULL, PRIMARY KEY (id))");
@@ -98,6 +98,4 @@ mysql_query("ALTER TABLE stories ADD ihome INT (1) DEFAULT '0' not null");
 mysql_query("ALTER TABLE autonews ADD catid INT (11) DEFAULT '0' not null AFTER anid");
 mysql_query("ALTER TABLE autonews ADD ihome INT (1) DEFAULT '0' not null");
 
-echo "PHP-Nuke 4.4 update finished";
-
-?>
+echo 'PHP-Nuke 4.4 update finished';

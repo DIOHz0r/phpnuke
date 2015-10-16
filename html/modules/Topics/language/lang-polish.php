@@ -20,7 +20,5 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Aktualnie aktywne tematy");
-define("_CLICK2LIST","Kliknij, aby przejrzeć wszystkie artykuły na ten temat");
-
-?>
+define('_ACTIVETOPICS', 'Aktualnie aktywne tematy');
+define('_CLICK2LIST', 'Kliknij, aby przejrzeć wszystkie artykuły na ten temat');

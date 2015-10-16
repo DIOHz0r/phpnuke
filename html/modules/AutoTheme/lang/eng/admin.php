@@ -157,5 +157,3 @@ define('_AT_ADDEXCLUDEMODULE', 'Add a '._AT_MODULE);
 define('_AT_EXPIREONDB', 'Expire cache on DB update');
 define('_AT_RESETTODEFAULTS', 'Reset to defaults');
 define('_AT_CLEARCACHE', 'Clear cached pages');
-
-?>

@@ -13,10 +13,10 @@
 # another forum system or search for an addon. Yes! this sucks, sorry...    #
 #############################################################################
 
-$host 		= "localhost";
-$database 	= "nuke";
-$username 	= "root";
-$password 	= "";
+$host = 'localhost';
+$database = 'nuke';
+$username = 'root';
+$password = '';
 
 mysql_connect($host, $username, $password);
 @mysql_select_db($database);
@@ -26,7 +26,7 @@ mysql_connect($host, $username, $password);
 
 // Poll Check table creation
 
-$result = mysql_query("CREATE TABLE poll_check (ip VARCHAR (20) not null , time VARCHAR (14) not null )");
+$result = mysql_query('CREATE TABLE poll_check (ip VARCHAR (20) not null , time VARCHAR (14) not null )');
 
 // New Blocks table creation
 
@@ -34,7 +34,7 @@ $result = mysql_query("CREATE TABLE blocks (bid INT (10) DEFAULT '0' not null AU
 
 // Main Block data migration
 
-$result = mysql_query("select title, content from mainblock");
+$result = mysql_query('select title, content from mainblock');
 list($title, $content) = mysql_fetch_row($result);
 $result = mysql_query("insert into blocks values (NULL, 'main', '$title', '$content', '', 'l', '1', '1', '', '')");
 
@@ -44,10 +44,10 @@ $result = mysql_query("insert into blocks values (NULL, 'online', 'Who\'s Online
 
 // Admin Block data migration
 
-$result = mysql_query("select title, content from adminblock");
+$result = mysql_query('select title, content from adminblock');
 list($title, $content) = mysql_fetch_row($result);
 $result = mysql_query("insert into blocks values (NULL, 'admin', '$title', '$content', '', 'l', '3', '1', '', '')");
-mysql_query("DROP TABLE adminblock");
+mysql_query('DROP TABLE adminblock');
 
 // Blocks data creation
 
@@ -57,11 +57,11 @@ $result = mysql_query("insert into blocks values (NULL, 'thelang', 'Languages', 
 
 // Left Blocks data migration
 
-$result = mysql_query("select title, content from lblocks");
+$result = mysql_query('select title, content from lblocks');
 $count = 7;
-while(list($title, $content) = mysql_fetch_row($result)) {
+while (list($title, $content) = mysql_fetch_row($result)) {
     mysql_query("insert into blocks values (NULL, '', '$title', '$content', '', 'l', '$count', '1', '', '')");
-    $count++;
+    ++$count;
 }
 
 // Blocks data creation
@@ -76,25 +76,25 @@ mysql_query("insert into blocks values (NULL, 'past', 'Past Articles', '', '', '
 
 // Right Blocks data migration
 
-$result = mysql_query("select title, content from rblocks");
+$result = mysql_query('select title, content from rblocks');
 $count = 8;
-while(list($title, $content) = mysql_fetch_row($result)) {
+while (list($title, $content) = mysql_fetch_row($result)) {
     mysql_query("insert into blocks values (NULL, '', '$title', '$content', '', 'r', '$count', '1', '', '')");
-    $count++;
+    ++$count;
 }
 
 // Authors table alteration
 
-mysql_query("ALTER TABLE authors DROP radminleft");
-mysql_query("ALTER TABLE authors DROP radminright");
-mysql_query("ALTER TABLE authors DROP radminmain");
-mysql_query("ALTER TABLE authors DROP radminhead");
-mysql_query("ALTER TABLE authors DROP radminforum");
+mysql_query('ALTER TABLE authors DROP radminleft');
+mysql_query('ALTER TABLE authors DROP radminright');
+mysql_query('ALTER TABLE authors DROP radminmain');
+mysql_query('ALTER TABLE authors DROP radminhead');
+mysql_query('ALTER TABLE authors DROP radminforum');
 
 // Headlines table alteration
 
-mysql_query("ALTER TABLE headlines DROP url");
-mysql_query("ALTER TABLE headlines DROP status");
+mysql_query('ALTER TABLE headlines DROP url');
+mysql_query('ALTER TABLE headlines DROP status');
 
 // Home Messages table creation
 
@@ -102,12 +102,12 @@ mysql_query("CREATE TABLE message (title VARCHAR (100) not null , content TEXT n
 
 // Reviews table alteration
 
-mysql_query("ALTER TABLE reviews CHANGE email email VARCHAR (60)");
-mysql_query("ALTER TABLE reviews_add CHANGE email email VARCHAR (60)");
+mysql_query('ALTER TABLE reviews CHANGE email email VARCHAR (60)');
+mysql_query('ALTER TABLE reviews_add CHANGE email email VARCHAR (60)');
 
 // Download table alteration and new tables creation
 
-mysql_query("ALTER TABLE downloads DROP privs"); /* Does this make any sense? nahhh */
+mysql_query('ALTER TABLE downloads DROP privs'); /* Does this make any sense? nahhh */
 
 $result = mysql_query("CREATE TABLE nuke_downloads_categories (
   cid int(11) NOT NULL auto_increment,
@@ -201,57 +201,57 @@ $result = mysql_query("CREATE TABLE nuke_downloads_votedata (
 
 // All tables renaming to nuke_*
 
-mysql_query("ALTER TABLE authors RENAME nuke_authors");
-mysql_query("ALTER TABLE autonews RENAME nuke_autonews");
-mysql_query("ALTER TABLE banner RENAME nuke_banner");
-mysql_query("ALTER TABLE bannerclient RENAME nuke_bannerclient");
-mysql_query("ALTER TABLE bannerfinish RENAME nuke_bannerfinish");
-mysql_query("ALTER TABLE comments RENAME nuke_comments");
-mysql_query("ALTER TABLE counter RENAME nuke_counter");
-mysql_query("ALTER TABLE ephem RENAME nuke_ephem");
-mysql_query("ALTER TABLE faqAnswer RENAME nuke_faqAnswer");
-mysql_query("ALTER TABLE faqCategories RENAME nuke_faqCategories");
-mysql_query("ALTER TABLE headlines RENAME nuke_headlines");
-mysql_query("ALTER TABLE links_categories RENAME nuke_links_categories");
-mysql_query("ALTER TABLE links_subcategories RENAME nuke_links_subcategories");
-mysql_query("ALTER TABLE links_editorials RENAME nuke_links_editorials");
-mysql_query("ALTER TABLE links_links RENAME nuke_links_links");
-mysql_query("ALTER TABLE links_modrequest RENAME nuke_links_modrequest");
-mysql_query("ALTER TABLE links_newlink RENAME nuke_links_newlink");
-mysql_query("ALTER TABLE links_votedata RENAME nuke_links_votedata");
-mysql_query("ALTER TABLE message RENAME nuke_message");
-mysql_query("ALTER TABLE blocks RENAME nuke_blocks");
-mysql_query("ALTER TABLE poll_check RENAME nuke_poll_check");
-mysql_query("ALTER TABLE poll_data RENAME nuke_poll_data");
-mysql_query("ALTER TABLE poll_desc RENAME nuke_poll_desc");
-mysql_query("ALTER TABLE pollcomments RENAME nuke_pollcomments");
-mysql_query("ALTER TABLE priv_msgs RENAME nuke_priv_msgs");
-mysql_query("ALTER TABLE queue RENAME nuke_queue");
-mysql_query("ALTER TABLE quotes RENAME nuke_quotes");
-mysql_query("ALTER TABLE referer RENAME nuke_referer");
-mysql_query("ALTER TABLE related RENAME nuke_related");
-mysql_query("ALTER TABLE reviews RENAME nuke_reviews");
-mysql_query("ALTER TABLE reviews_add RENAME nuke_reviews_add");
-mysql_query("ALTER TABLE reviews_comments RENAME nuke_reviews_comments");
-mysql_query("ALTER TABLE reviews_main RENAME nuke_reviews_main");
-mysql_query("ALTER TABLE seccont RENAME nuke_seccont");
-mysql_query("ALTER TABLE sections RENAME nuke_sections");
-mysql_query("ALTER TABLE session RENAME nuke_session");
-mysql_query("ALTER TABLE stories RENAME nuke_stories");
-mysql_query("ALTER TABLE stories_cat RENAME nuke_stories_cat");
-mysql_query("ALTER TABLE topics RENAME nuke_topics");
-mysql_query("ALTER TABLE users RENAME nuke_users");
+mysql_query('ALTER TABLE authors RENAME nuke_authors');
+mysql_query('ALTER TABLE autonews RENAME nuke_autonews');
+mysql_query('ALTER TABLE banner RENAME nuke_banner');
+mysql_query('ALTER TABLE bannerclient RENAME nuke_bannerclient');
+mysql_query('ALTER TABLE bannerfinish RENAME nuke_bannerfinish');
+mysql_query('ALTER TABLE comments RENAME nuke_comments');
+mysql_query('ALTER TABLE counter RENAME nuke_counter');
+mysql_query('ALTER TABLE ephem RENAME nuke_ephem');
+mysql_query('ALTER TABLE faqAnswer RENAME nuke_faqAnswer');
+mysql_query('ALTER TABLE faqCategories RENAME nuke_faqCategories');
+mysql_query('ALTER TABLE headlines RENAME nuke_headlines');
+mysql_query('ALTER TABLE links_categories RENAME nuke_links_categories');
+mysql_query('ALTER TABLE links_subcategories RENAME nuke_links_subcategories');
+mysql_query('ALTER TABLE links_editorials RENAME nuke_links_editorials');
+mysql_query('ALTER TABLE links_links RENAME nuke_links_links');
+mysql_query('ALTER TABLE links_modrequest RENAME nuke_links_modrequest');
+mysql_query('ALTER TABLE links_newlink RENAME nuke_links_newlink');
+mysql_query('ALTER TABLE links_votedata RENAME nuke_links_votedata');
+mysql_query('ALTER TABLE message RENAME nuke_message');
+mysql_query('ALTER TABLE blocks RENAME nuke_blocks');
+mysql_query('ALTER TABLE poll_check RENAME nuke_poll_check');
+mysql_query('ALTER TABLE poll_data RENAME nuke_poll_data');
+mysql_query('ALTER TABLE poll_desc RENAME nuke_poll_desc');
+mysql_query('ALTER TABLE pollcomments RENAME nuke_pollcomments');
+mysql_query('ALTER TABLE priv_msgs RENAME nuke_priv_msgs');
+mysql_query('ALTER TABLE queue RENAME nuke_queue');
+mysql_query('ALTER TABLE quotes RENAME nuke_quotes');
+mysql_query('ALTER TABLE referer RENAME nuke_referer');
+mysql_query('ALTER TABLE related RENAME nuke_related');
+mysql_query('ALTER TABLE reviews RENAME nuke_reviews');
+mysql_query('ALTER TABLE reviews_add RENAME nuke_reviews_add');
+mysql_query('ALTER TABLE reviews_comments RENAME nuke_reviews_comments');
+mysql_query('ALTER TABLE reviews_main RENAME nuke_reviews_main');
+mysql_query('ALTER TABLE seccont RENAME nuke_seccont');
+mysql_query('ALTER TABLE sections RENAME nuke_sections');
+mysql_query('ALTER TABLE session RENAME nuke_session');
+mysql_query('ALTER TABLE stories RENAME nuke_stories');
+mysql_query('ALTER TABLE stories_cat RENAME nuke_stories_cat');
+mysql_query('ALTER TABLE topics RENAME nuke_topics');
+mysql_query('ALTER TABLE users RENAME nuke_users');
 
 // Links table alteration
 
-mysql_query("ALTER TABLE nuke_links_links CHANGE email email VARCHAR (100) not null");
-mysql_query("ALTER TABLE nuke_links_links CHANGE name name VARCHAR (100) not null");
-mysql_query("ALTER TABLE nuke_links_newlink CHANGE email email VARCHAR (100) not null");
-mysql_query("ALTER TABLE nuke_links_newlink CHANGE name name VARCHAR (100) not null");
+mysql_query('ALTER TABLE nuke_links_links CHANGE email email VARCHAR (100) not null');
+mysql_query('ALTER TABLE nuke_links_links CHANGE name name VARCHAR (100) not null');
+mysql_query('ALTER TABLE nuke_links_newlink CHANGE email email VARCHAR (100) not null');
+mysql_query('ALTER TABLE nuke_links_newlink CHANGE name name VARCHAR (100) not null');
 
 // Reviews table alteration
 
-mysql_query("ALTER TABLE nuke_reviews CHANGE reviewer reviewer VARCHAR (40)");
+mysql_query('ALTER TABLE nuke_reviews CHANGE reviewer reviewer VARCHAR (40)');
 
 // Stats table alteration
 
@@ -259,7 +259,7 @@ mysql_query("DELETE FROM nuke_counter WHERE type = 'browser' AND var = 'WebTV'")
 
 // Warning about forums
 
-echo "PHP-Nuke 5.0 update finished<br><br>";
+echo 'PHP-Nuke 5.0 update finished<br><br>';
 echo "We're sorry, but from this version we will not include Forums system anymore...<br>";
 echo "But for many reasons we don't touched your forum's related tables in the database.<br><br>";
 echo "FYI, Those tables are:<br><br>
@@ -276,5 +276,3 @@ echo "FYI, Those tables are:<br><br>
 <br>
 So, you can delete those tables if you don't want to use forums.<br>
 Forums are now available as an Addon from <a href=http://nukeaddon.com>NukeAddon.com</a>";
-
-?>

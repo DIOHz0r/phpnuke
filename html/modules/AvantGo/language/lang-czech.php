@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Datum:");
-define("_PTOPIC","Téma:");
-define("_COMESFROM","Tento článek najdete na");
-define("_THEURL","Adresa tohoto článku je:");
-define("_DATE","Datum");
-define("_TITLE","Název");
-
-?>
+define('_PDATE', 'Datum:');
+define('_PTOPIC', 'Téma:');
+define('_COMESFROM', 'Tento článek najdete na');
+define('_THEURL', 'Adresa tohoto článku je:');
+define('_DATE', 'Datum');
+define('_TITLE', 'Název');

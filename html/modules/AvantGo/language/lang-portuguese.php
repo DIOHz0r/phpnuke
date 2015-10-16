@@ -23,12 +23,9 @@
 /* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
-
-define("_PDATE","Data:");
-define("_PTOPIC","Tema:");
-define("_COMESFROM","Este artigo veio de");
-define("_THEURL","O link deste artigo é:");
-define("_DATE","Data");
-define("_TITLE","Título");
-
-?>
+define('_PDATE', 'Data:');
+define('_PTOPIC', 'Tema:');
+define('_COMESFROM', 'Este artigo veio de');
+define('_THEURL', 'O link deste artigo é:');
+define('_DATE', 'Data');
+define('_TITLE', 'Título');

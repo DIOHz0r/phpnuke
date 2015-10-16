@@ -17,27 +17,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","URL");
-define("_EMAIL","Sähköposti");
-define("_REALNAME","Oikea nimesi");
-define("_FUNCTIONS","Tehtävät");
-define("_PREVIOUS","Edellinen sivu");
-define("_MEMBERSLIST","Rekisteröityneet käyttäjät");
-define("_GREETINGS","Tervehtikäämme yhdessä meidän uusinta käyttäjää:");
-define("_SORTBY","Lajittele:");
-define("_MNICKNAME","Nick");
-define("_MREALNAME","Nimi");
-define("_MEMAIL","Sähköposti");
-define("_MURL","URL");
-define("_ONLINEREG","Online rekisteröityneet käyttäjät:");
-define("_WEHAVE","Meillä on");
-define("_MREGISTERED","rekisteröitynyttä käyttäjää ja");
-define("_MREGONLINE","käyttäjää on Online.");
-define("_REGSOFAR","rekisteröitynyttä käyttäjää.");
-define("_USERSFOUND","Löytyi käyttäjää");
-define("_USERSSHOWN","näytetään käyttäjää");
-define("_NOMEMBERS","ei löytynyt");
-define("_PAGES","Sivut");
-define("_HOMEPAGE","Kotisivut");
-
-?>
+define('_URL', 'URL');
+define('_EMAIL', 'Sähköposti');
+define('_REALNAME', 'Oikea nimesi');
+define('_FUNCTIONS', 'Tehtävät');
+define('_PREVIOUS', 'Edellinen sivu');
+define('_MEMBERSLIST', 'Rekisteröityneet käyttäjät');
+define('_GREETINGS', 'Tervehtikäämme yhdessä meidän uusinta käyttäjää:');
+define('_SORTBY', 'Lajittele:');
+define('_MNICKNAME', 'Nick');
+define('_MREALNAME', 'Nimi');
+define('_MEMAIL', 'Sähköposti');
+define('_MURL', 'URL');
+define('_ONLINEREG', 'Online rekisteröityneet käyttäjät:');
+define('_WEHAVE', 'Meillä on');
+define('_MREGISTERED', 'rekisteröitynyttä käyttäjää ja');
+define('_MREGONLINE', 'käyttäjää on Online.');
+define('_REGSOFAR', 'rekisteröitynyttä käyttäjää.');
+define('_USERSFOUND', 'Löytyi käyttäjää');
+define('_USERSSHOWN', 'näytetään käyttäjää');
+define('_NOMEMBERS', 'ei löytynyt');
+define('_PAGES', 'Sivut');
+define('_HOMEPAGE', 'Kotisivut');

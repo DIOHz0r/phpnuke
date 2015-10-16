@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Dátum:");
-define("_PTOPIC","Téma:");
-define("_COMESFROM","A cikk tulajdonosa:");
-define("_THEURL","A cikk webcíme:");
-define("_DATE","Dátum");
-define("_TITLE","Cím");
-
-?>
+define('_PDATE', 'Dátum:');
+define('_PTOPIC', 'Téma:');
+define('_COMESFROM', 'A cikk tulajdonosa:');
+define('_THEURL', 'A cikk webcíme:');
+define('_DATE', 'Dátum');
+define('_TITLE', 'Cím');

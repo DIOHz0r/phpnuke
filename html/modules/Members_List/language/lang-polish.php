@@ -20,27 +20,25 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_URL","URL");
-define("_EMAIL","E-mail");
-define("_REALNAME","Prawdziwa nazwa");
-define("_FUNCTIONS","Funkcje");
-define("_PREVIOUS","Poprzednia strona");
-define("_MEMBERSLIST","Lista zarejestrowanych użytkowników");
-define("_GREETINGS","Pozdrowienia dla ostatnio zarejestrowanego użytkownika:");
-define("_SORTBY","Sortowane według:");
-define("_MNICKNAME","Pseudonim");
-define("_MREALNAME","Prawdziwe imię");
-define("_MEMAIL","E-mail");
-define("_MURL","Adres");
-define("_ONLINEREG","Aktualnie zarejestrowanych użytkowników online:");
-define("_WEHAVE","Mamy");
-define("_MREGISTERED","dotychczas zarejestrowanych użytkowników. Teraz jest");
-define("_MREGONLINE","zarejestrowanych użytkowników online.");
-define("_REGSOFAR","dotychczas zarejestrowanych użytkowników.");
-define("_USERSFOUND","znalezionych użytkowników dla");
-define("_USERSSHOWN","pokazanych użytkowników");
-define("_NOMEMBERS","Brak zarejestrowanych użytkowników dla");
-define("_PAGES","Strony");
-define("_HOMEPAGE","Strona WWW");
-
-?>
+define('_URL', 'URL');
+define('_EMAIL', 'E-mail');
+define('_REALNAME', 'Prawdziwa nazwa');
+define('_FUNCTIONS', 'Funkcje');
+define('_PREVIOUS', 'Poprzednia strona');
+define('_MEMBERSLIST', 'Lista zarejestrowanych użytkowników');
+define('_GREETINGS', 'Pozdrowienia dla ostatnio zarejestrowanego użytkownika:');
+define('_SORTBY', 'Sortowane według:');
+define('_MNICKNAME', 'Pseudonim');
+define('_MREALNAME', 'Prawdziwe imię');
+define('_MEMAIL', 'E-mail');
+define('_MURL', 'Adres');
+define('_ONLINEREG', 'Aktualnie zarejestrowanych użytkowników online:');
+define('_WEHAVE', 'Mamy');
+define('_MREGISTERED', 'dotychczas zarejestrowanych użytkowników. Teraz jest');
+define('_MREGONLINE', 'zarejestrowanych użytkowników online.');
+define('_REGSOFAR', 'dotychczas zarejestrowanych użytkowników.');
+define('_USERSFOUND', 'znalezionych użytkowników dla');
+define('_USERSSHOWN', 'pokazanych użytkowników');
+define('_NOMEMBERS', 'Brak zarejestrowanych użytkowników dla');
+define('_PAGES', 'Strony');
+define('_HOMEPAGE', 'Strona WWW');

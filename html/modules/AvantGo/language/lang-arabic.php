@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","التاريخ:");
-define("_PTOPIC","الموضوع:");
-define("_COMESFROM","أتى هذا المقال من");
-define("_THEURL","عنوان الرابط لهذا المقال هو:");
-define("_DATE","التاريخ");
-define("_TITLE","العنوان");
-
-?>
+define('_PDATE', 'التاريخ:');
+define('_PTOPIC', 'الموضوع:');
+define('_COMESFROM', 'أتى هذا المقال من');
+define('_THEURL', 'عنوان الرابط لهذا المقال هو:');
+define('_DATE', 'التاريخ');
+define('_TITLE', 'العنوان');

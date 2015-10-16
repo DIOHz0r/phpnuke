@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Датум:");
-define("_PTOPIC","Тема:");
-define("_COMESFROM","Оваа тема доаѓа од");
-define("_THEURL","Адресата за оваа вест е:");
-define("_DATE","Дата");
-define("_TITLE","Наслов");
-
-?>
+define('_PDATE', 'Датум:');
+define('_PTOPIC', 'Тема:');
+define('_COMESFROM', 'Оваа тема доаѓа од');
+define('_THEURL', 'Адресата за оваа вест е:');
+define('_DATE', 'Дата');
+define('_TITLE', 'Наслов');

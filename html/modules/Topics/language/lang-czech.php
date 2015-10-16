@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Současná aktivní témata");
-define("_CLICK2LIST","Pro zobrazení článků, klikněte na obrázek pro dané téma.");
-define("_TOTNEWS","Total News");
-define("_TOTREADS","Total Reads");
-define("_MORE","More");
-define("_NONEWSYET","...There aren't any news yet for this topic...");
-
-?>
+define('_ACTIVETOPICS', 'Současná aktivní témata');
+define('_CLICK2LIST', 'Pro zobrazení článků, klikněte na obrázek pro dané téma.');
+define('_TOTNEWS', 'Total News');
+define('_TOTREADS', 'Total Reads');
+define('_MORE', 'More');
+define('_NONEWSYET', "...There aren't any news yet for this topic...");

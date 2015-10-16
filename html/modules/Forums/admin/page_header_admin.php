@@ -20,9 +20,8 @@
  *
  ***************************************************************************/
 
-if ( !defined('IN_PHPBB') )
-{
-        die("Hacking attempt");
+if (!defined('IN_PHPBB')) {
+    die('Hacking attempt');
 }
 
 define('HEADER_INC', true);
@@ -30,43 +29,36 @@ define('HEADER_INC', true);
 //
 // gzip_compression
 //
-$do_gzip_compress = FALSE;
-if ( $board_config['gzip_compress'] )
-{
-        $phpver = phpversion();
+$do_gzip_compress = false;
+if ($board_config['gzip_compress']) {
+    $phpver = phpversion();
 
-	$useragent = (isset($HTTP_SERVER_VARS['HTTP_USER_AGENT'])) ? $HTTP_SERVER_VARS['HTTP_USER_AGENT'] : getenv('HTTP_USER_AGENT');
+    $useragent = (isset($HTTP_SERVER_VARS['HTTP_USER_AGENT'])) ? $HTTP_SERVER_VARS['HTTP_USER_AGENT'] : getenv('HTTP_USER_AGENT');
 
-        if ( $phpver >= '4.0.4pl1' && ( strstr($useragent,'compatible') || strstr($useragent,'Gecko') ) )
-        {
-                if ( extension_loaded('zlib') )
-                {
-                        ob_start('ob_gzhandler');
-                }
+    if ($phpver >= '4.0.4pl1' && (strstr($useragent, 'compatible') || strstr($useragent, 'Gecko'))) {
+        if (extension_loaded('zlib')) {
+            ob_start('ob_gzhandler');
         }
-        else if ( $phpver > '4.0' )
-        {
-                if ( strstr($HTTP_SERVER_VARS['HTTP_ACCEPT_ENCODING'], 'gzip') )
-                {
-                        if ( extension_loaded('zlib') )
-                        {
-                                $do_gzip_compress = TRUE;
-                                ob_start();
-                                ob_implicit_flush(0);
+    } elseif ($phpver > '4.0') {
+        if (strstr($HTTP_SERVER_VARS['HTTP_ACCEPT_ENCODING'], 'gzip')) {
+            if (extension_loaded('zlib')) {
+                $do_gzip_compress = true;
+                ob_start();
+                ob_implicit_flush(0);
 
-                                header('Content-Encoding: gzip');
-                        }
-                }
+                header('Content-Encoding: gzip');
+            }
         }
+    }
 }
 
 $template->set_filenames(array(
-        'header' => 'admin/page_header.tpl')
+        'header' => 'admin/page_header.tpl', )
 );
 
 // Format Timezone. We are unable to use array_pop here, because of PHP3 compatibility
 $l_timezone = explode('.', $board_config['board_timezone']);
-$l_timezone = (count($l_timezone) > 1 && $l_timezone[count($l_timezone)-1] != 0) ? $lang[sprintf('%.1f', $board_config['board_timezone'])] : $lang[number_format($board_config['board_timezone'])];
+$l_timezone = (count($l_timezone) > 1 && $l_timezone[count($l_timezone) - 1] != 0) ? $lang[sprintf('%.1f', $board_config['board_timezone'])] : $lang[number_format($board_config['board_timezone'])];
 
 //
 // The following assigns all _common_ variables that may be used at any point
@@ -130,22 +122,17 @@ $template->assign_vars(array(
         'T_FONTCOLOR3' => '#'.$theme['fontcolor3'],
         'T_SPAN_CLASS1' => $theme['span_class1'],
         'T_SPAN_CLASS2' => $theme['span_class2'],
-        'T_SPAN_CLASS3' => $theme['span_class3'])
+        'T_SPAN_CLASS3' => $theme['span_class3'], )
 );
 
 // Work around for "current" Apache 2 + PHP module which seems to not
 // cope with private cache control setting
-if (!empty($HTTP_SERVER_VARS['SERVER_SOFTWARE']) && strstr($HTTP_SERVER_VARS['SERVER_SOFTWARE'], 'Apache/2'))
-{
-	header ('Cache-Control: no-cache, pre-check=0, post-check=0');
+if (!empty($HTTP_SERVER_VARS['SERVER_SOFTWARE']) && strstr($HTTP_SERVER_VARS['SERVER_SOFTWARE'], 'Apache/2')) {
+    header('Cache-Control: no-cache, pre-check=0, post-check=0');
+} else {
+    header('Cache-Control: private, pre-check=0, post-check=0, max-age=0');
 }
-else
-{
-	header ('Cache-Control: private, pre-check=0, post-check=0, max-age=0');
-}
-header ('Expires: 0');
-header ('Pragma: no-cache');
+header('Expires: 0');
+header('Pragma: no-cache');
 
 $template->pparse('header');
-
-?>

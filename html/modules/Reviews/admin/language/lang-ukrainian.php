@@ -17,30 +17,26 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_EMAIL","Email");          //
-define("_SAVECHANGES","Зберегти зміни");
-define("_SCORE","Оцінка:");
-define("_PRODUCTTITLE","Назв");
-define("_RELATEDLINK","Схожі ресурси");
-define("_LINKTITLE","Назва ресурсу");
-define("_REVIEWER","Оглядач:");
-define("_REVIEWID","ID огляду");
-define("_REVIEWS","Огляди");
-define("_DATE","Дата");
-define("_REVADMIN","Адміністрування оглядів");
-define("_REVTITLE","Назва оглядів");
-define("_REVDESC","Опис оглядів");
-define("_REVWAITING","Огляди, що очікують підтвердження");
-define("_REVIMGINFO","Збережіть малюнок 150*150 в images/reviews");
-define("_TEXT","Текст");
-define("_IMAGE","Малюнок");
-define("_NOREVIEW2ADD","Немає нових оглядів");
-define("_ADDREVIEW","Додати огляд");
-define("_CLICK2ADDREVIEW","Напишіть огляд");
-define("_DELMODREVIEW","Витерти/Змінити огляд");
-define("_MODREVINFO","Ви можете витирати/редагувати <a href=\"reviews.php\">огляди</a> переглядаючи їх як адмін..");
-define("_LANGUAGE","Language");
-
-
-?>
+define('_EMAIL', 'Email');          //
+define('_SAVECHANGES', 'Зберегти зміни');
+define('_SCORE', 'Оцінка:');
+define('_PRODUCTTITLE', 'Назв');
+define('_RELATEDLINK', 'Схожі ресурси');
+define('_LINKTITLE', 'Назва ресурсу');
+define('_REVIEWER', 'Оглядач:');
+define('_REVIEWID', 'ID огляду');
+define('_REVIEWS', 'Огляди');
+define('_DATE', 'Дата');
+define('_REVADMIN', 'Адміністрування оглядів');
+define('_REVTITLE', 'Назва оглядів');
+define('_REVDESC', 'Опис оглядів');
+define('_REVWAITING', 'Огляди, що очікують підтвердження');
+define('_REVIMGINFO', 'Збережіть малюнок 150*150 в images/reviews');
+define('_TEXT', 'Текст');
+define('_IMAGE', 'Малюнок');
+define('_NOREVIEW2ADD', 'Немає нових оглядів');
+define('_ADDREVIEW', 'Додати огляд');
+define('_CLICK2ADDREVIEW', 'Напишіть огляд');
+define('_DELMODREVIEW', 'Витерти/Змінити огляд');
+define('_MODREVINFO', 'Ви можете витирати/редагувати <a href="reviews.php">огляди</a> переглядаючи їх як адмін..');
+define('_LANGUAGE', 'Language');

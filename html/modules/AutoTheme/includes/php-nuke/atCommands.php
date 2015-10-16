@@ -22,7 +22,7 @@
 //
 // ----------------------------------------------------------------------
 
-$platformcmd['anonymous'] = array (
+$platformcmd['anonymous'] = array(
 'user-links' => 'echo "<a href=\"modules.php?name=Your_Account&amp;op=new_user\">"._AT_NEWACCOUNT."</a> | '
   .'<a href=\"modules.php?name=Your_Account\">"._LOGIN."</a>";',
 'user-login' => 'echo "<form action=\"modules.php?name=Your_Account\" method=\"post\">"'
@@ -40,16 +40,16 @@ $platformcmd['anonymous'] = array (
   .'echo "</form>\n";',
 );
 
-$platformcmd['loggedin'] = array (
+$platformcmd['loggedin'] = array(
 'user-links' => 'echo "<a href=\"modules.php?name=Your_Account\">"._AT_MYACCOUNT."</a> | '
   .'<a href=\"modules.php?name=Your_Account&amp;op=logout\">"._LOGOUT."</a>"; ',
 );
 
-$platformcmd['admin'] = array (
+$platformcmd['admin'] = array(
   'article-edit-del' => 'echo "[ <a href=admin.php?op=EditStory&amp;sid=$sid>Edit</a> | <a href=admin.php?op=RemoveStory&amp;sid=$sid>Delete</a> ]";',
 );
 
-$platformcmd['all'] = array (
+$platformcmd['all'] = array(
 'search' => 'echo "<form action=\"modules.php?name=Search\" method=\"post\">'
   .'<input type=\"text\" name=\"query\" size=\"15\" />&nbsp;";'
   .'$btn = "<input type=\"submit\" value=\"Search\" />\n";'
@@ -61,7 +61,7 @@ $platformcmd['all'] = array (
   .'   $btn = "<input type=\"image\" src=\"".$imagepath."search.png\" value=\"Search\" />\n";}'
   .'echo $btn;'
   .'echo "</form>\n";',
-  
+
 'banners' => 'if($GLOBALS["banners"]) { include_once("banners.php"); }',
 'site-slogan' => 'echo $GLOBALS["slogan"];',
 'site-name' => 'echo $GLOBALS["sitename"];',
@@ -103,5 +103,3 @@ $platformcmd['all']['config:sitename'] = 'echo $GLOBALS["sitename"];';
 $platformcmd['all']['page:title'] = 'echo $GLOBALS["sitename"]." ".$GLOBALS["pagetitle"];';
 $platformcmd['all']['page:description'] = 'echo $GLOBALS["pagetitle"];';
 $platformcmd['all']['page:keywords'] = 'echo "PHP-Nuke, AutoTheme";';
-
-?>

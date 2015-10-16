@@ -31,11 +31,9 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PDATE","Dátum:");
-define("_PTOPIC","Vec:");
-define("_COMESFROM","Tento článok je z");
-define("_THEURL","URL tohoto článku je:");
-define("_DATE","Dátum");
-define("_TITLE","Názov");
-
-?>
+define('_PDATE', 'Dátum:');
+define('_PTOPIC', 'Vec:');
+define('_COMESFROM', 'Tento článok je z');
+define('_THEURL', 'URL tohoto článku je:');
+define('_DATE', 'Dátum');
+define('_TITLE', 'Názov');

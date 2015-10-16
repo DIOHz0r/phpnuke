@@ -12,16 +12,15 @@
 # it from your browser.
 ######################################################
 
-include("mainfile.php");
+include 'mainfile.php';
 
 // PHP-Nuke Version Number Update
-$db->sql_query("UPDATE ".$prefix."_config SET Version_Num='6.9'");
+$db->sql_query('UPDATE '.$prefix."_config SET Version_Num='6.9'");
 
-echo "PHP-Nuke Step 1 Update finished!<br><br>"
-    ."You should now delete this upgrade file from your server.<br><br>"
-    ."<b>IMPORTANT ANNOUNCE:</b><br>"
-    ."Is VERY IMPORTANT that you now upgrade the FORUMS Module by clicking <a href=\"modules.php?name=Forums&file=update_to_205\">HERE</a>, "
-    ."this process is now separated from the core upgrade. After the update you can safely delete the file "
-    ."<i>/modules/Forums/update_to_205.php</i><br><br>"
-    ."That file will upgrade Forums, Private Messages and Members List modules...";
-?>
+echo 'PHP-Nuke Step 1 Update finished!<br><br>'
+    .'You should now delete this upgrade file from your server.<br><br>'
+    .'<b>IMPORTANT ANNOUNCE:</b><br>'
+    .'Is VERY IMPORTANT that you now upgrade the FORUMS Module by clicking <a href="modules.php?name=Forums&file=update_to_205">HERE</a>, '
+    .'this process is now separated from the core upgrade. After the update you can safely delete the file '
+    .'<i>/modules/Forums/update_to_205.php</i><br><br>'
+    .'That file will upgrade Forums, Private Messages and Members List modules...';

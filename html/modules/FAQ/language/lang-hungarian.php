@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Kategória");
-define("_CATEGORIES","kategória");
-define("_FAQ2","FAQ (GYIK, Gyakran Ismételt Kérdések)");
-define("_BACKTOTOP","Vissza a lap tetejére");
-define("_BACKTOFAQINDEX","Vissza a FAQ kezdőoldalra");
-define("_MAIN","Főoldal");
-define("_QUESTION","Kérdés");
-define("_ANSWER","Válasz");
-
-?>
+define('_CATEGORY', 'Kategória');
+define('_CATEGORIES', 'kategória');
+define('_FAQ2', 'FAQ (GYIK, Gyakran Ismételt Kérdések)');
+define('_BACKTOTOP', 'Vissza a lap tetejére');
+define('_BACKTOFAQINDEX', 'Vissza a FAQ kezdőoldalra');
+define('_MAIN', 'Főoldal');
+define('_QUESTION', 'Kérdés');
+define('_ANSWER', 'Válasz');

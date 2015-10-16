@@ -17,7 +17,5 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","المواضيع النشطة حاليا");
-define("_CLICK2LIST","اضغط على الموضوع لإستعراض مقالاته");
-
-?>
+define('_ACTIVETOPICS', 'المواضيع النشطة حاليا');
+define('_CLICK2LIST', 'اضغط على الموضوع لإستعراض مقالاته');

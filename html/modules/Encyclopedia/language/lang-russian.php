@@ -27,26 +27,24 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Предыдущая страница");
-define("_NEXT","Следующая страница");
-define("_SEARCHRESULTS","Результаты поиска");
-define("_PAGE","Страница");
-define("_RETURNTO","Вернуться к");
-define("_DEACTIVATE","Деактивизировать");
-define("_ACTIVATE","Активизировать");
-define("_ENCYCLOPEDIA","Энциклопедия");
-define("_NOCONTENTFORLETTER","Извините, нет никакого контента на эту букву");
-define("_ENCYSELECTLETTER","Пожалуйста, выберите букву из следующего списка для получения определения термина:");
-define("_COPYRIGHT","Права на копирование");
-define("_YOURADMINENCY","Вы администратор, эта энциклопедия не активна!");
-define("_ENCYNOTACTIVE","Извините, эта энциклопедия сейчас не активна.");
-define("_AVAILABLEENCYLIST","Список доступных энциклопедий в");
-define("_YOURADMININACTIVELIST","Вы администратор: далее следует список неактивных энциклопедий:");
-define("_NORESULTSTEXT","Нет результатов поиска по тексту термина...");
-define("_NORESULTSTITLE","Нет результатов поиска по названию термина...");
-define("_SEARCHRESULTSFOR","Результаты поиска для:");
-define("_SEARCHNOTCOMPLETE","Опции поиска не были заданы полностью. Пожалуйста, повторите снова.");
-define("_RESULTSINTERMTITLE","Результаты по названию термина:");
-define("_RESULTSINTERMTEXT","Результаты по тексту термина:");
-
-?>
+define('_PREVIOUS', 'Предыдущая страница');
+define('_NEXT', 'Следующая страница');
+define('_SEARCHRESULTS', 'Результаты поиска');
+define('_PAGE', 'Страница');
+define('_RETURNTO', 'Вернуться к');
+define('_DEACTIVATE', 'Деактивизировать');
+define('_ACTIVATE', 'Активизировать');
+define('_ENCYCLOPEDIA', 'Энциклопедия');
+define('_NOCONTENTFORLETTER', 'Извините, нет никакого контента на эту букву');
+define('_ENCYSELECTLETTER', 'Пожалуйста, выберите букву из следующего списка для получения определения термина:');
+define('_COPYRIGHT', 'Права на копирование');
+define('_YOURADMINENCY', 'Вы администратор, эта энциклопедия не активна!');
+define('_ENCYNOTACTIVE', 'Извините, эта энциклопедия сейчас не активна.');
+define('_AVAILABLEENCYLIST', 'Список доступных энциклопедий в');
+define('_YOURADMININACTIVELIST', 'Вы администратор: далее следует список неактивных энциклопедий:');
+define('_NORESULTSTEXT', 'Нет результатов поиска по тексту термина...');
+define('_NORESULTSTITLE', 'Нет результатов поиска по названию термина...');
+define('_SEARCHRESULTSFOR', 'Результаты поиска для:');
+define('_SEARCHNOTCOMPLETE', 'Опции поиска не были заданы полностью. Пожалуйста, повторите снова.');
+define('_RESULTSINTERMTITLE', 'Результаты по названию термина:');
+define('_RESULTSINTERMTEXT', 'Результаты по тексту термина:');

@@ -17,18 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","الصفحة السابقة");
-define("_NEXT","الصفحة التالية");
-define("_PAGE","صفحة");
-define("_DEACTIVATE","تعطيل");
-define("_ACTIVATE","تنشيط");
-define("_PUBLISHEDON","نشرت بتاريخ");
-define("_PAGESLIST","قائمة الصفحات");
-define("_LISTOFCONTENT","قائمة المحتويات المتاحة في");
-define("_YOURADMINLIST","أنت المشرف: قائمة الصفحات المعطلة كالتالي:");
-define("_COPYRIGHT","حقوق النسخ &copy; بواسطة $sitename. جميع الحقوق محفوظة.");
-define("_COPYRIGHT2","جميع الحقوق محفوظة.");
-define("_CONTENTCATEGORIES","أقسام المحتويات الحالية");
-define("_NONCLASSCONT","لا يوجد محتويات مقسمة");
-
-?>
+define('_PREVIOUS', 'الصفحة السابقة');
+define('_NEXT', 'الصفحة التالية');
+define('_PAGE', 'صفحة');
+define('_DEACTIVATE', 'تعطيل');
+define('_ACTIVATE', 'تنشيط');
+define('_PUBLISHEDON', 'نشرت بتاريخ');
+define('_PAGESLIST', 'قائمة الصفحات');
+define('_LISTOFCONTENT', 'قائمة المحتويات المتاحة في');
+define('_YOURADMINLIST', 'أنت المشرف: قائمة الصفحات المعطلة كالتالي:');
+define('_COPYRIGHT', "حقوق النسخ &copy; بواسطة $sitename. جميع الحقوق محفوظة.");
+define('_COPYRIGHT2', 'جميع الحقوق محفوظة.');
+define('_CONTENTCATEGORIES', 'أقسام المحتويات الحالية');
+define('_NONCLASSCONT', 'لا يوجد محتويات مقسمة');

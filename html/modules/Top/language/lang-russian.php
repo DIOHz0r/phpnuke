@@ -27,25 +27,23 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_CATEGORY","Категория");
-define("_LVOTES","голоса");
-define("_HITS","Хиты");
-define("_TOPWELCOME","Добро пожаловать в топ-лист группы");
-define("_READSTORIES","самых читаемых статей");
-define("_COMMENTEDSTORIES","самых комментируемых статей");
-define("_ACTIVECAT","наиболее активных категорий");
-define("_READSECTION","самых читаемых статей в специальных секциях");
-define("_NEWSSUBMITTERS","самых активных авторов новостей");
-define("_NEWSSENT","статей отправлено");
-define("_VOTEDPOLLS","самых голосуемых опросов");
-define("_MOSTACTIVEAUTHORS","самых активных авторов");
-define("_NEWSPUBLISHED","новостей опубликовано");
-define("_READREVIEWS","самых читаемых рецензий");
-define("_DOWNLOADEDFILES","самые загружаемые файлы");
-define("_LDOWNLOADS","закачки");
-define("_MOSTREADPAGES","самые читаемые страницы");
-define("_MOSTVOTEDSTORIES","наиболее голосуемые статьи");
-define("_POINTS","оценки");
-define("_BESTRATEDSTORIES","наиболее рейтинговые статьи (рейтинг основан на 5 максимальных оценках)");
-
-?>
+define('_CATEGORY', 'Категория');
+define('_LVOTES', 'голоса');
+define('_HITS', 'Хиты');
+define('_TOPWELCOME', 'Добро пожаловать в топ-лист группы');
+define('_READSTORIES', 'самых читаемых статей');
+define('_COMMENTEDSTORIES', 'самых комментируемых статей');
+define('_ACTIVECAT', 'наиболее активных категорий');
+define('_READSECTION', 'самых читаемых статей в специальных секциях');
+define('_NEWSSUBMITTERS', 'самых активных авторов новостей');
+define('_NEWSSENT', 'статей отправлено');
+define('_VOTEDPOLLS', 'самых голосуемых опросов');
+define('_MOSTACTIVEAUTHORS', 'самых активных авторов');
+define('_NEWSPUBLISHED', 'новостей опубликовано');
+define('_READREVIEWS', 'самых читаемых рецензий');
+define('_DOWNLOADEDFILES', 'самые загружаемые файлы');
+define('_LDOWNLOADS', 'закачки');
+define('_MOSTREADPAGES', 'самые читаемые страницы');
+define('_MOSTVOTEDSTORIES', 'наиболее голосуемые статьи');
+define('_POINTS', 'оценки');
+define('_BESTRATEDSTORIES', 'наиболее рейтинговые статьи (рейтинг основан на 5 максимальных оценках)');

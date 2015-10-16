@@ -17,9 +17,5 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_ACTIVETOPICS","Активні теми");
-define("_CLICK2LIST","Виберіть з списку потрібну тему:");
-
-
-?>
+define('_ACTIVETOPICS', 'Активні теми');
+define('_CLICK2LIST', 'Виберіть з списку потрібну тему:');

@@ -17,39 +17,35 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_SEND","أرسل");
-define("_FUNCTIONS","الدوال");
-define("_YES","نعم");
-define("_NO","لا");
-define("_CATEGORY","تصنيف");
-define("_SAVECHANGES","حفظ التغييرات");
-define("_PAGEBREAK","اذا أردت صفحات متعددة فإنك تستطيع أن تكتب  <b>[--pagebreak--]</b> في مكان الفصل.");
-define("_SIGNATURE","التوقيع");
-define("_DESCRIPTION","الوصف");
-define("_TITLE","العنوان");
-define("_ACTIVE","نشيط");
-define("_DEACTIVATE","تعطيل");
-define("_INACTIVE","معطل");
-define("_ACTIVATE","تنشيط");
-define("_CONTENT","المحتوى");
-define("_ADDCATEGORY","أضف تصنيف جديدا");
-define("_EDITCATEGORY","تعديل التصنيف");
-define("_ADD","أضف");
-define("_LANGUAGE","اللغة");
-define("_CONTENTMANAGER","الصفحات الإضافية");
-define("_DELCONTWARNING","هل أنت متأكّد أنّك تريد أن تحذف الصفحة؟");
-define("_DELCONTENT","حذف صفحة");
-define("_CURRENTSTATUS","الوضع الحالي");
-define("_ADDANEWPAGE","أضف صفحة جديدة");
-define("_CSUBTITLE","عنوان فرعي");
-define("_HEADERTEXT","نص الترويسة");
-define("_PAGETEXT","نص الصفحة");
-define("_FOOTERTEXT","نص التذييل");
-define("_ACTIVATEPAGE","تنشيط هذه الصفحة؟");
-define("_EDITPAGECONTENT","تعديل محتويات الصفحة");
-define("_DELCONTENTCAT","WARNING: هل تريد حذف هذا القسم بالتأكيد؟ الصفحات تحت هذا القسم لن تحذف ولكنها سوف تكون معلقة بدون قسم.");
-define("_DELCATEGORY","حذف القسم");
-
-
-?>
+define('_SEND', 'أرسل');
+define('_FUNCTIONS', 'الدوال');
+define('_YES', 'نعم');
+define('_NO', 'لا');
+define('_CATEGORY', 'تصنيف');
+define('_SAVECHANGES', 'حفظ التغييرات');
+define('_PAGEBREAK', 'اذا أردت صفحات متعددة فإنك تستطيع أن تكتب  <b>[--pagebreak--]</b> في مكان الفصل.');
+define('_SIGNATURE', 'التوقيع');
+define('_DESCRIPTION', 'الوصف');
+define('_TITLE', 'العنوان');
+define('_ACTIVE', 'نشيط');
+define('_DEACTIVATE', 'تعطيل');
+define('_INACTIVE', 'معطل');
+define('_ACTIVATE', 'تنشيط');
+define('_CONTENT', 'المحتوى');
+define('_ADDCATEGORY', 'أضف تصنيف جديدا');
+define('_EDITCATEGORY', 'تعديل التصنيف');
+define('_ADD', 'أضف');
+define('_LANGUAGE', 'اللغة');
+define('_CONTENTMANAGER', 'الصفحات الإضافية');
+define('_DELCONTWARNING', 'هل أنت متأكّد أنّك تريد أن تحذف الصفحة؟');
+define('_DELCONTENT', 'حذف صفحة');
+define('_CURRENTSTATUS', 'الوضع الحالي');
+define('_ADDANEWPAGE', 'أضف صفحة جديدة');
+define('_CSUBTITLE', 'عنوان فرعي');
+define('_HEADERTEXT', 'نص الترويسة');
+define('_PAGETEXT', 'نص الصفحة');
+define('_FOOTERTEXT', 'نص التذييل');
+define('_ACTIVATEPAGE', 'تنشيط هذه الصفحة؟');
+define('_EDITPAGECONTENT', 'تعديل محتويات الصفحة');
+define('_DELCONTENTCAT', 'WARNING: هل تريد حذف هذا القسم بالتأكيد؟ الصفحات تحت هذا القسم لن تحذف ولكنها سوف تكون معلقة بدون قسم.');
+define('_DELCATEGORY', 'حذف القسم');

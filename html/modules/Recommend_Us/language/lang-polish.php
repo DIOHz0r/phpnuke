@@ -20,22 +20,20 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_SEND","Wyślij");
-define("_FYOURNAME","Twoje imię:");
-define("_FYOUREMAIL","Twój e-mail:");
-define("_FFRIENDNAME","Imię Twego znajomego:");
-define("_FFRIENDEMAIL","E-mail Twego znajomego:");
-define("_HELLO","Witaj");
-define("_YOURFRIEND","Twój znajomy");
-define("_RECOMMEND","Zarekomenduj tę stronę znajomym");
-define("_INTSITE","Interesująca strona:");
-define("_OURSITE","uważa, że ta strona jest");
-define("_INTSENT","interesująca i warta poinformowania Ciebie o jej istnieniu.");
-define("_FSITENAME","Nazwa strony:");
-define("_FSITEURL","Adres strony:");
-define("_FREFERENCE","Referencje na temat naszej strony zostały wysłane do");
-define("_THANKSREC","Dziękujemy za zarekomendowanie nas!");
-define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
-define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
-
-?>
+define('_SEND', 'Wyślij');
+define('_FYOURNAME', 'Twoje imię:');
+define('_FYOUREMAIL', 'Twój e-mail:');
+define('_FFRIENDNAME', 'Imię Twego znajomego:');
+define('_FFRIENDEMAIL', 'E-mail Twego znajomego:');
+define('_HELLO', 'Witaj');
+define('_YOURFRIEND', 'Twój znajomy');
+define('_RECOMMEND', 'Zarekomenduj tę stronę znajomym');
+define('_INTSITE', 'Interesująca strona:');
+define('_OURSITE', 'uważa, że ta strona jest');
+define('_INTSENT', 'interesująca i warta poinformowania Ciebie o jej istnieniu.');
+define('_FSITENAME', 'Nazwa strony:');
+define('_FSITEURL', 'Adres strony:');
+define('_FREFERENCE', 'Referencje na temat naszej strony zostały wysłane do');
+define('_THANKSREC', 'Dziękujemy za zarekomendowanie nas!');
+define('_SECURITYCODEERROR', '<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:');
+define('_SENDSITEERROR', '<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.');

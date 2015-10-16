@@ -17,26 +17,24 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Претходна страна");
-define("_NEXT","Следна страна");
-define("_SEARCHRESULTS","Резултати од потрагата");
-define("_PAGE","Страна");
-define("_RETURNTO","Назад кон");
-define("_DEACTIVATE","Деактивирај");
-define("_ACTIVATE","Активирај");
-define("_ENCYCLOPEDIA","Енциклопедија");
-define("_NOCONTENTFORLETTER","Жалиме, нема содржина за оваа буква");
-define("_ENCYSELECTLETTER","Молиме изберете буква од следната листа:");
-define("_COPYRIGHT","Copyright &copy; од");
-define("_YOURADMINENCY","Ти си администратор, оваа енциклопедија не е активна!");
-define("_ENCYNOTACTIVE","Жалиме, енциклопедијава не е активна.");
-define("_AVAILABLEENCYLIST","Листа од достапни енциклопедии во");
-define("_YOURADMININACTIVELIST","Ти си администратор: следи листа на неактивни енциклопедии:");
-define("_NORESULTSTEXT","Нема резултати во текстот...");
-define("_NORESULTSTITLE","Нема резултати во насловот...");
-define("_SEARCHRESULTSFOR","Резултати од барањето:");
-define("_SEARCHNOTCOMPLETE","Опциите за барање не се комплетни. Обиди се повторно.");
-define("_RESULTSINTERMTITLE","Резултати во насловот:");
-define("_RESULTSINTERMTEXT","Резултати во текстот:");
-
-?>
+define('_PREVIOUS', 'Претходна страна');
+define('_NEXT', 'Следна страна');
+define('_SEARCHRESULTS', 'Резултати од потрагата');
+define('_PAGE', 'Страна');
+define('_RETURNTO', 'Назад кон');
+define('_DEACTIVATE', 'Деактивирај');
+define('_ACTIVATE', 'Активирај');
+define('_ENCYCLOPEDIA', 'Енциклопедија');
+define('_NOCONTENTFORLETTER', 'Жалиме, нема содржина за оваа буква');
+define('_ENCYSELECTLETTER', 'Молиме изберете буква од следната листа:');
+define('_COPYRIGHT', 'Copyright &copy; од');
+define('_YOURADMINENCY', 'Ти си администратор, оваа енциклопедија не е активна!');
+define('_ENCYNOTACTIVE', 'Жалиме, енциклопедијава не е активна.');
+define('_AVAILABLEENCYLIST', 'Листа од достапни енциклопедии во');
+define('_YOURADMININACTIVELIST', 'Ти си администратор: следи листа на неактивни енциклопедии:');
+define('_NORESULTSTEXT', 'Нема резултати во текстот...');
+define('_NORESULTSTITLE', 'Нема резултати во насловот...');
+define('_SEARCHRESULTSFOR', 'Резултати од барањето:');
+define('_SEARCHNOTCOMPLETE', 'Опциите за барање не се комплетни. Обиди се повторно.');
+define('_RESULTSINTERMTITLE', 'Резултати во насловот:');
+define('_RESULTSINTERMTEXT', 'Резултати во текстот:');

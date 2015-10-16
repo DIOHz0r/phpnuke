@@ -23,14 +23,11 @@
 /* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
-
-define("_CATEGORY","Categoria");
-define("_CATEGORIES","Categorias");
-define("_FAQ2","FAQ (Perguntas mais frequentes)");
-define("_BACKTOTOP","Voltar Acima");
-define("_BACKTOFAQINDEX","Voltar ao índice das FAQ");
-define("_MAIN","Índice");
-define("_QUESTION","Pergunta");
-define("_ANSWER","Resposta");
-
-?>
+define('_CATEGORY', 'Categoria');
+define('_CATEGORIES', 'Categorias');
+define('_FAQ2', 'FAQ (Perguntas mais frequentes)');
+define('_BACKTOTOP', 'Voltar Acima');
+define('_BACKTOFAQINDEX', 'Voltar ao índice das FAQ');
+define('_MAIN', 'Índice');
+define('_QUESTION', 'Pergunta');
+define('_ANSWER', 'Resposta');

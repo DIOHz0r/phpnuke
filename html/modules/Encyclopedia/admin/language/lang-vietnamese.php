@@ -17,41 +17,37 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_SEND","G&#7917;i");
-define("_FUNCTIONS","Ch&#7913;c n&#259;ng");
-define("_YES","CĂ³");
-define("_NO","KhĂ´ng");
-define("_SAVECHANGES","L&#432;u tr&#7919; s&#7921; thay &#273;&#7893;i");
-define("_PAGEBREAK","N&#7871;u b&#7841;n mu&#7889;n cĂ³ nhi&#7873;u trang, b&#7841;n cĂ³ th&#7875; vi&#7871;t <b>[--pagebreak--]</b> &#7903; ch&#7895; mĂ  b&#7841;n mu&#7889;n c&#7855;t.");
-define("_DESCRIPTION","Description");
-define("_TO","To");
-define("_TITLE","TiĂªu &#273;&#7873;");
-define("_ACTIVE","Ho&#7841;t &#273;&#7897;ng");
-define("_DEACTIVATE","Ng&#7915;ng ho&#7841;t &#273;&#7897;ng");
-define("_INACTIVE","KhĂ´ng ho&#7841;t &#273;&#7897;ng");
-define("_ACTIVATE","KĂ­ch ho&#7841;t");
-define("_ADD","ThĂªm");
-define("_LANGUAGE","NgĂ´n ng&#7919;");
-define("_ENCYCLOPEDIA","Encyclopedia");
-define("_ENCYCLOPEDIAMANAGER","Encyclopedia Manager");
-define("_DELENCYCLOPEDIA","Delete Encyclopedia");
-define("_DELENCYCONTWARNING","Are you sure you want to delete this Encyclopedia and ALL its content?");
-define("_DELENCYCLOPEDIATEXT","Delete Encyclopedia Terms");
-define("_DELENCYTEXTWARNING","Are you sure you want to delete this Term?");
-define("_CURRENTSTATUS","Current Status");
-define("_ACTIVATEPAGE","KĂ­ch ho&#7841;t trang nĂ y?");
-define("_TERMS","Terms");
-define("_ADDNEWENCYCLOPEDIA","Add a New Encyclopedia");
-define("_ADDNEWENCYTERM","Add a New Encyclopedia Term");
-define("_TERMTEXT","Term Text");
-define("_MOVETERMS","Move Terms");
-define("_MOVEALLTERMSFROM","Move ALL Terms From");
-define("_EDITENCYCLOPEDIA","Edit Encyclopedia");
-define("_ENCYTERMSEDIT","Encyclopedia Terms Edit");
-define("_SELECTONETERM","Please select one term from the following list:");
-define("_NOCONTENTFORLETTER","Sorry, there isn't any content for the letter");
-define("_CHANGETOENCY","Change to Encyclopedia");
-
-
-?>
+define('_SEND', 'G&#7917;i');
+define('_FUNCTIONS', 'Ch&#7913;c n&#259;ng');
+define('_YES', 'CĂ³');
+define('_NO', 'KhĂ´ng');
+define('_SAVECHANGES', 'L&#432;u tr&#7919; s&#7921; thay &#273;&#7893;i');
+define('_PAGEBREAK', 'N&#7871;u b&#7841;n mu&#7889;n cĂ³ nhi&#7873;u trang, b&#7841;n cĂ³ th&#7875; vi&#7871;t <b>[--pagebreak--]</b> &#7903; ch&#7895; mĂ  b&#7841;n mu&#7889;n c&#7855;t.');
+define('_DESCRIPTION', 'Description');
+define('_TO', 'To');
+define('_TITLE', 'TiĂªu &#273;&#7873;');
+define('_ACTIVE', 'Ho&#7841;t &#273;&#7897;ng');
+define('_DEACTIVATE', 'Ng&#7915;ng ho&#7841;t &#273;&#7897;ng');
+define('_INACTIVE', 'KhĂ´ng ho&#7841;t &#273;&#7897;ng');
+define('_ACTIVATE', 'KĂ­ch ho&#7841;t');
+define('_ADD', 'ThĂªm');
+define('_LANGUAGE', 'NgĂ´n ng&#7919;');
+define('_ENCYCLOPEDIA', 'Encyclopedia');
+define('_ENCYCLOPEDIAMANAGER', 'Encyclopedia Manager');
+define('_DELENCYCLOPEDIA', 'Delete Encyclopedia');
+define('_DELENCYCONTWARNING', 'Are you sure you want to delete this Encyclopedia and ALL its content?');
+define('_DELENCYCLOPEDIATEXT', 'Delete Encyclopedia Terms');
+define('_DELENCYTEXTWARNING', 'Are you sure you want to delete this Term?');
+define('_CURRENTSTATUS', 'Current Status');
+define('_ACTIVATEPAGE', 'KĂ­ch ho&#7841;t trang nĂ y?');
+define('_TERMS', 'Terms');
+define('_ADDNEWENCYCLOPEDIA', 'Add a New Encyclopedia');
+define('_ADDNEWENCYTERM', 'Add a New Encyclopedia Term');
+define('_TERMTEXT', 'Term Text');
+define('_MOVETERMS', 'Move Terms');
+define('_MOVEALLTERMSFROM', 'Move ALL Terms From');
+define('_EDITENCYCLOPEDIA', 'Edit Encyclopedia');
+define('_ENCYTERMSEDIT', 'Encyclopedia Terms Edit');
+define('_SELECTONETERM', 'Please select one term from the following list:');
+define('_NOCONTENTFORLETTER', "Sorry, there isn't any content for the letter");
+define('_CHANGETOENCY', 'Change to Encyclopedia');

@@ -17,18 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Fyrri síða");
-define("_NEXT","Næsta síða");
-define("_PAGE","Síða");
-define("_DEACTIVATE","Gera óvirkan");
-define("_ACTIVATE","Gera virkan");
-define("_PUBLISHEDON","Birt þann");
-define("_PAGESLIST","Listi yfir síður");
-define("_LISTOFCONTENT","Listi yfir tiltækt efni í");
-define("_YOURADMINLIST","Kerfisstjórinn þinn: eftirfarandi er listi yfir síður sem eru ekki virkar:");
-define("_COPYRIGHT","Höfundarétt &copy; á");
-define("_COPYRIGHT2","Öll réttindi áskilin.");
-define("_CONTENTCATEGORIES","Tiltækir efnisflokkar");
-define("_NONCLASSCONT","Óflokkað efni");
-
-?>
+define('_PREVIOUS', 'Fyrri síða');
+define('_NEXT', 'Næsta síða');
+define('_PAGE', 'Síða');
+define('_DEACTIVATE', 'Gera óvirkan');
+define('_ACTIVATE', 'Gera virkan');
+define('_PUBLISHEDON', 'Birt þann');
+define('_PAGESLIST', 'Listi yfir síður');
+define('_LISTOFCONTENT', 'Listi yfir tiltækt efni í');
+define('_YOURADMINLIST', 'Kerfisstjórinn þinn: eftirfarandi er listi yfir síður sem eru ekki virkar:');
+define('_COPYRIGHT', 'Höfundarétt &copy; á');
+define('_COPYRIGHT2', 'Öll réttindi áskilin.');
+define('_CONTENTCATEGORIES', 'Tiltækir efnisflokkar');
+define('_NONCLASSCONT', 'Óflokkað efni');

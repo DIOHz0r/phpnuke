@@ -15,13 +15,11 @@
 /* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
-define("_CATEGORY","Kategori");
-define("_CATEGORIES","Kategorier");
-define("_FAQ2","FAQ (Frequently Asked Questions)");
-define("_BACKTOTOP","Til toppen");
-define("_BACKTOFAQINDEX","Tilbage til oversigt over FAQ");
-define("_MAIN","Hovedkategori");
-define("_QUESTION","Spørgsmål");
-define("_ANSWER","Svar");
-
-?>
+define('_CATEGORY', 'Kategori');
+define('_CATEGORIES', 'Kategorier');
+define('_FAQ2', 'FAQ (Frequently Asked Questions)');
+define('_BACKTOTOP', 'Til toppen');
+define('_BACKTOFAQINDEX', 'Tilbage til oversigt over FAQ');
+define('_MAIN', 'Hovedkategori');
+define('_QUESTION', 'Spørgsmål');
+define('_ANSWER', 'Svar');

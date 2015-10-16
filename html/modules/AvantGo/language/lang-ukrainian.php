@@ -17,12 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Дата:");
-define("_PTOPIC","Тема:");
-define("_COMESFROM","Ця стаття відправлена з");
-define("_THEURL","URL цієї статті - :");
-define("_DATE","Дата");
-define("_TITLE","Назва");
-
-
-?>
+define('_PDATE', 'Дата:');
+define('_PTOPIC', 'Тема:');
+define('_COMESFROM', 'Ця стаття відправлена з');
+define('_THEURL', 'URL цієї статті - :');
+define('_DATE', 'Дата');
+define('_TITLE', 'Назва');

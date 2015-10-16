@@ -13,27 +13,25 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-$module_name = "FAQ";
-include_secure("modules/$module_name/admin/language/lang-".$currentlang.".php");
+$module_name = 'FAQ';
+include_secure("modules/$module_name/admin/language/lang-".$currentlang.'.php');
 
-switch($op) {
+switch ($op) {
 
-    case "FaqCatSave":
-    case "FaqCatGoSave":
-    case "FaqCatAdd":
-    case "FaqCatGoAdd":
-    case "FaqCatEdit":
-    case "FaqCatGoEdit":
-    case "FaqCatDel":
-    case "FaqCatGoDel":
-    case "FaqAdmin":
-    case "FaqCatGo":
-    include ("modules/$module_name/admin/index.php");
+    case 'FaqCatSave':
+    case 'FaqCatGoSave':
+    case 'FaqCatAdd':
+    case 'FaqCatGoAdd':
+    case 'FaqCatEdit':
+    case 'FaqCatGoEdit':
+    case 'FaqCatDel':
+    case 'FaqCatGoDel':
+    case 'FaqAdmin':
+    case 'FaqCatGo':
+    include "modules/$module_name/admin/index.php";
     break;
 
 }
-
-?>

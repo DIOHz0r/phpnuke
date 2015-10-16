@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Jelenleg aktív témák");
-define("_CLICK2LIST","Kattins egy-egy téma ikonjára a hozzá tartozó cikkek listájához");
-define("_TOTNEWS","Total News");
-define("_TOTREADS","Total Reads");
-define("_MORE","More");
-define("_NONEWSYET","...There aren't any news yet for this topic...");
-
-?>
+define('_ACTIVETOPICS', 'Jelenleg aktív témák');
+define('_CLICK2LIST', 'Kattins egy-egy téma ikonjára a hozzá tartozó cikkek listájához');
+define('_TOTNEWS', 'Total News');
+define('_TOTREADS', 'Total Reads');
+define('_MORE', 'More');
+define('_NONEWSYET', "...There aren't any news yet for this topic...");

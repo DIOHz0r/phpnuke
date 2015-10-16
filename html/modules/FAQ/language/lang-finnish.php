@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Kategoria");
-define("_CATEGORIES","Aihepiirit");
-define("_FAQ2","UKK (Usein kysytyt kysymykset)");
-define("_BACKTOTOP","Ylös");
-define("_BACKTOFAQINDEX","UKK pääsivulle");
-define("_MAIN","Etusivu");
-define("_QUESTION","Kysymys");
-define("_ANSWER","Vastaus");
-
-?>
+define('_CATEGORY', 'Kategoria');
+define('_CATEGORIES', 'Aihepiirit');
+define('_FAQ2', 'UKK (Usein kysytyt kysymykset)');
+define('_BACKTOTOP', 'Ylös');
+define('_BACKTOFAQINDEX', 'UKK pääsivulle');
+define('_MAIN', 'Etusivu');
+define('_QUESTION', 'Kysymys');
+define('_ANSWER', 'Vastaus');

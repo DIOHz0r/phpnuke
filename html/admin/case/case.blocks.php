@@ -13,28 +13,26 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-switch($op) {
+switch ($op) {
 
-    case "BlocksAdmin":
-    case "BlocksAdd":
-    case "BlocksEdit":
-    case "BlocksEditSave":
-    case "ChangeStatus":
-    case "BlocksDelete":
-    case "BlockOrder":    
-    case "HeadlinesDel":
-    case "HeadlinesAdd":
-    case "HeadlinesSave":
-    case "HeadlinesAdmin":
-    case "HeadlinesEdit":
-    case "fixweight":
-    case "block_show":
-    include("admin/modules/blocks.php");
+    case 'BlocksAdmin':
+    case 'BlocksAdd':
+    case 'BlocksEdit':
+    case 'BlocksEditSave':
+    case 'ChangeStatus':
+    case 'BlocksDelete':
+    case 'BlockOrder':
+    case 'HeadlinesDel':
+    case 'HeadlinesAdd':
+    case 'HeadlinesSave':
+    case 'HeadlinesAdmin':
+    case 'HeadlinesEdit':
+    case 'fixweight':
+    case 'block_show':
+    include 'admin/modules/blocks.php';
     break;
 
 }
-
-?>

@@ -31,18 +31,16 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PRINTER","Stránka vhodná na tlač");
-define("_FRIEND","Poslať tento článok priateľovi, známemu");
-define("_ARTICLES","Články");
-define("_USCORE","Skóre");
-define("_DATE","Dátum");
-define("_SELECTMONTH2VIEW","Vyberte mesiac, ktory chcete prezrieť:");
-define("_SHOWALLSTORIES","Zobraziť všetky články");
-define("_STORIESARCHIVE","Archív článkov");
-define("_ACTIONS","Možnosti");
-define("_ARCHIVESINDEX","Index archívu článkov");
-define("_ALLSTORIESARCH","Všetky články");
-define("_NEXTPAGE","Ďalšia strana");
-define("_PREVIOUSPAGE","Predchádzajúca strana");
-
-?>
+define('_PRINTER', 'Stránka vhodná na tlač');
+define('_FRIEND', 'Poslať tento článok priateľovi, známemu');
+define('_ARTICLES', 'Články');
+define('_USCORE', 'Skóre');
+define('_DATE', 'Dátum');
+define('_SELECTMONTH2VIEW', 'Vyberte mesiac, ktory chcete prezrieť:');
+define('_SHOWALLSTORIES', 'Zobraziť všetky články');
+define('_STORIESARCHIVE', 'Archív článkov');
+define('_ACTIONS', 'Možnosti');
+define('_ARCHIVESINDEX', 'Index archívu článkov');
+define('_ALLSTORIESARCH', 'Všetky články');
+define('_NEXTPAGE', 'Ďalšia strana');
+define('_PREVIOUSPAGE', 'Predchádzajúca strana');

@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Aktiva Ämnen");
-define("_CLICK2LIST","Klicka på respektive ämne för att se en lista på alla artiklar inom detta ämne");
-define("_TOTNEWS","Total News");
-define("_TOTREADS","Total Reads");
-define("_MORE","More");
-define("_NONEWSYET","...There aren't any news yet for this topic...");
-
-?>
+define('_ACTIVETOPICS', 'Aktiva Ämnen');
+define('_CLICK2LIST', 'Klicka på respektive ämne för att se en lista på alla artiklar inom detta ämne');
+define('_TOTNEWS', 'Total News');
+define('_TOTREADS', 'Total Reads');
+define('_MORE', 'More');
+define('_NONEWSYET', "...There aren't any news yet for this topic...");

@@ -31,26 +31,24 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PREVIOUS","Predchádzajúca strana");
-define("_NEXT","Nasledujúca strana");
-define("_SEARCHRESULTS","Výsledky vyhľadávania");
-define("_PAGE","Strana");
-define("_RETURNTO","Návrat na");
-define("_DEACTIVATE","Deaktivovať");
-define("_ACTIVATE","Aktivovať");
-define("_ENCYCLOPEDIA","Encyklopédia");
-define("_NOCONTENTFORLETTER","Encyklopédia neobsahuje žiadny termín pre zadané písmeno..");
-define("_ENCYSELECTLETTER","Aby sa zobrazili heslá, vyberte zodpovedajúce písmeno zo zoznamu");
-define("_COPYRIGHT","Copyleft:$sitename.");
-define("_YOURADMINENCY","Ste Administrátor. Táto encyklopédia nie je aktivovaná!");
-define("_ENCYNOTACTIVE","Táto encyklopédia nie je práve aktivovaná");
-define("_AVAILABLEENCYLIST","Zoznam dostupných encyklopédií v");
-define("_YOURADMININACTIVELIST","Ste Administrátor. Toto je zoznam neaktivovaných encyklopédií :");
-define("_NORESULTSTEXT","Žiadny výsledok vo vysvetleniach...");
-define("_NORESULTSTITLE","Žiadny výsledok medzi termínmy...");
-define("_SEARCHRESULTSFOR","Výsledky vyhľadávania pre:");
-define("_SEARCHNOTCOMPLETE","Voľby vyhľadávania nie sú úplné. Skúste znova.");
-define("_RESULTSINTERMTITLE","Výsledky medzi termínmy:");
-define("_RESULTSINTERMTEXT","Výsledky vo vysvetleniach:");
-
-?>
+define('_PREVIOUS', 'Predchádzajúca strana');
+define('_NEXT', 'Nasledujúca strana');
+define('_SEARCHRESULTS', 'Výsledky vyhľadávania');
+define('_PAGE', 'Strana');
+define('_RETURNTO', 'Návrat na');
+define('_DEACTIVATE', 'Deaktivovať');
+define('_ACTIVATE', 'Aktivovať');
+define('_ENCYCLOPEDIA', 'Encyklopédia');
+define('_NOCONTENTFORLETTER', 'Encyklopédia neobsahuje žiadny termín pre zadané písmeno..');
+define('_ENCYSELECTLETTER', 'Aby sa zobrazili heslá, vyberte zodpovedajúce písmeno zo zoznamu');
+define('_COPYRIGHT', "Copyleft:$sitename.");
+define('_YOURADMINENCY', 'Ste Administrátor. Táto encyklopédia nie je aktivovaná!');
+define('_ENCYNOTACTIVE', 'Táto encyklopédia nie je práve aktivovaná');
+define('_AVAILABLEENCYLIST', 'Zoznam dostupných encyklopédií v');
+define('_YOURADMININACTIVELIST', 'Ste Administrátor. Toto je zoznam neaktivovaných encyklopédií :');
+define('_NORESULTSTEXT', 'Žiadny výsledok vo vysvetleniach...');
+define('_NORESULTSTITLE', 'Žiadny výsledok medzi termínmy...');
+define('_SEARCHRESULTSFOR', 'Výsledky vyhľadávania pre:');
+define('_SEARCHNOTCOMPLETE', 'Voľby vyhľadávania nie sú úplné. Skúste znova.');
+define('_RESULTSINTERMTITLE', 'Výsledky medzi termínmy:');
+define('_RESULTSINTERMTEXT', 'Výsledky vo vysvetleniach:');

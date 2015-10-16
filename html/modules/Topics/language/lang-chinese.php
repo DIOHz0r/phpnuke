@@ -17,12 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_ACTIVETOPICS","目前的新聞主題");
-define("_CLICK2LIST","請點選新聞主題，直接一覽文章");
-define("_TOTNEWS","總文章數");
-define("_TOTREADS","總閱讀數");
-define("_MORE","察看更多");
-define("_NONEWSYET","...目前本主題中尚無任何文章...");
-
-?>
+define('_ACTIVETOPICS', '目前的新聞主題');
+define('_CLICK2LIST', '請點選新聞主題，直接一覽文章');
+define('_TOTNEWS', '總文章數');
+define('_TOTREADS', '總閱讀數');
+define('_MORE', '察看更多');
+define('_NONEWSYET', '...目前本主題中尚無任何文章...');

@@ -31,7 +31,5 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Aktuálne aktívne témy");
-define("_CLICK2LIST","Kliknite na obrázok a zobrazia sa články k danej téme.");
-
-?>
+define('_ACTIVETOPICS', 'Aktuálne aktívne témy');
+define('_CLICK2LIST', 'Kliknite na obrázok a zobrazia sa články k danej téme.');

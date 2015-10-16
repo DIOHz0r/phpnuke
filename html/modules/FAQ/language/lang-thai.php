@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","หมวด");
-define("_CATEGORIES","จำแนกประเภท");
-define("_FAQ2","FAQ (ถาม/ตอบ)");
-define("_BACKTOTOP","กลับไปข้างบน");
-define("_BACKTOFAQINDEX","กลับไปที่หน้าถาม/ตอบหลัก");
-define("_MAIN","หน้าแรก");
-define("_QUESTION","คำถาม");
-define("_ANSWER","คำตอบ");
-
-?>
+define('_CATEGORY', 'หมวด');
+define('_CATEGORIES', 'จำแนกประเภท');
+define('_FAQ2', 'FAQ (ถาม/ตอบ)');
+define('_BACKTOTOP', 'กลับไปข้างบน');
+define('_BACKTOFAQINDEX', 'กลับไปที่หน้าถาม/ตอบหลัก');
+define('_MAIN', 'หน้าแรก');
+define('_QUESTION', 'คำถาม');
+define('_ANSWER', 'คำตอบ');

@@ -17,19 +17,17 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","أرسل");
-define("_YOURNAME","اسمك");
-define("_MESSAGE","الرسالة");
-define("_YOUREMAIL","بريدك الإلكتروني");
-define("_FEEDBACKNOTE","نرحب بجميع المقترحات والتعليقات حول الموقع!");
-define("_FEEDBACKTITLE","نموذج لمراسلتنا");
-define("_FEEDBACK","مراسلتنا");
-define("_FBENTERNAME","خطأ: الرجاء ادخال اسمك!");
-define("_FBENTEREMAIL","خطأ: الرجاء ادخال عنوانك البريدي!");
-define("_FBENTERMESSAGE","خطأ: لم تكتب رسالتك!");
-define("_SENDEREMAIL","بريد المرسل");
-define("_SENDERNAME","اسم المرسل");
-define("_FBMAILSENT","تم ارسال رسالتك!");
-define("_FBTHANKSFORCONTACT","نشكرك لمراسلتنا");
-
-?>
+define('_SEND', 'أرسل');
+define('_YOURNAME', 'اسمك');
+define('_MESSAGE', 'الرسالة');
+define('_YOUREMAIL', 'بريدك الإلكتروني');
+define('_FEEDBACKNOTE', 'نرحب بجميع المقترحات والتعليقات حول الموقع!');
+define('_FEEDBACKTITLE', 'نموذج لمراسلتنا');
+define('_FEEDBACK', 'مراسلتنا');
+define('_FBENTERNAME', 'خطأ: الرجاء ادخال اسمك!');
+define('_FBENTEREMAIL', 'خطأ: الرجاء ادخال عنوانك البريدي!');
+define('_FBENTERMESSAGE', 'خطأ: لم تكتب رسالتك!');
+define('_SENDEREMAIL', 'بريد المرسل');
+define('_SENDERNAME', 'اسم المرسل');
+define('_FBMAILSENT', 'تم ارسال رسالتك!');
+define('_FBTHANKSFORCONTACT', 'نشكرك لمراسلتنا');

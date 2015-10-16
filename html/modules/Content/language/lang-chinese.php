@@ -17,21 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
+define('_PREVIOUS', '上一頁');
+define('_NEXT', '下一頁');
 
-
-define("_PREVIOUS","上一頁");
-define("_NEXT","下一頁");
-
-
-define("_PAGE","頁");
-define("_DEACTIVATE","隱藏");
-define("_ACTIVATE","顯示");
-define("_PUBLISHEDON","發表於");
-define("_PAGESLIST","網頁內容列表");
-define("_LISTOFCONTENT","可獲得的網頁內容在 ");
-define("_YOURADMINLIST","您是管理者: 底下是尚未開放的網頁內容:");
-define("_COPYRIGHT","Copyright &copy; by $sitename. All Right Reserved.");
-define("_CONTENTCATEGORIES","所有內容類別");
-define("_NONCLASSCONT","Non Categorized Content");
-
-?>
+define('_PAGE', '頁');
+define('_DEACTIVATE', '隱藏');
+define('_ACTIVATE', '顯示');
+define('_PUBLISHEDON', '發表於');
+define('_PAGESLIST', '網頁內容列表');
+define('_LISTOFCONTENT', '可獲得的網頁內容在 ');
+define('_YOURADMINLIST', '您是管理者: 底下是尚未開放的網頁內容:');
+define('_COPYRIGHT', "Copyright &copy; by $sitename. All Right Reserved.");
+define('_CONTENTCATEGORIES', '所有內容類別');
+define('_NONCLASSCONT', 'Non Categorized Content');

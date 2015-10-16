@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORIES","Κατηγορίες");
-define("_CATEGORY","Κατηγορίες");
-define("_MAIN","Κεντρική Σελίδα Συνδέσμων");
-define("_FAQ2","Συχνές Ερωτήσεις");
-define("_QUESTION","Ερώτηση");
-define("_ANSWER","Απάντηση");
-define("_BACKTOTOP","Επιστροφή ");
-define("_BACKTOFAQINDEX","Επιστροφή στον κατάλογο συχνών ερωτήσεων");
-
-?>
+define('_CATEGORIES', 'Κατηγορίες');
+define('_CATEGORY', 'Κατηγορίες');
+define('_MAIN', 'Κεντρική Σελίδα Συνδέσμων');
+define('_FAQ2', 'Συχνές Ερωτήσεις');
+define('_QUESTION', 'Ερώτηση');
+define('_ANSWER', 'Απάντηση');
+define('_BACKTOTOP', 'Επιστροφή ');
+define('_BACKTOFAQINDEX', 'Επιστροφή στον κατάλογο συχνών ερωτήσεων');

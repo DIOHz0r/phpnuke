@@ -17,12 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_DATE","Ημερομηνία");
-define("_TITLE","Τίτλος");
-define("_COMESFROM","Το άρθρο αυτό προέρχεται από");
-define("_THEURL","Το URL της ιστορίας αυτής είναι ο εξής");
-define("_PDATE","Ημερομηνία ");
-define("_PTOPIC","Θέμα");
-
-?>
+define('_DATE', 'Ημερομηνία');
+define('_TITLE', 'Τίτλος');
+define('_COMESFROM', 'Το άρθρο αυτό προέρχεται από');
+define('_THEURL', 'Το URL της ιστορίας αυτής είναι ο εξής');
+define('_PDATE', 'Ημερομηνία ');
+define('_PTOPIC', 'Θέμα');

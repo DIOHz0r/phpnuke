@@ -24,27 +24,25 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_URL","URL");
-define("_EMAIL","E-mail");
-define("_REALNAME","Настоящее Имя");
-define("_FUNCTIONS","Функции");
-define("_PREVIOUS","Предыдущая страница");
-define("_MEMBERSLIST","Список членов");
-define("_GREETINGS","Приветствия нашему последнему зарегистрировавшемуся:");
-define("_SORTBY","Сортировать по:");
-define("_MNICKNAME","ник");
-define("_MREALNAME","настоящее имя");
-define("_MEMAIL","E-mail");
-define("_MURL","URL");
-define("_ONLINEREG","Сейчас в онлайне зарегистрированные пользователи:");
-define("_WEHAVE","У нас");
-define("_MREGISTERED","зарегистрированных пользователя(лей). Сейчас");
-define("_MREGONLINE","зарегистрированных пользователи в онлайне.");
-define("_REGSOFAR","зарегистрированных пользователей.");
-define("_USERSFOUND","найдено пользователей на букву");
-define("_USERSSHOWN","пользователей отображено");
-define("_NOMEMBERS","не найдено членов на букву");
-define("_PAGES","Страницы");
-define("_HOMEPAGE","Домашняя страница");
-
-?>
+define('_URL', 'URL');
+define('_EMAIL', 'E-mail');
+define('_REALNAME', 'Настоящее Имя');
+define('_FUNCTIONS', 'Функции');
+define('_PREVIOUS', 'Предыдущая страница');
+define('_MEMBERSLIST', 'Список членов');
+define('_GREETINGS', 'Приветствия нашему последнему зарегистрировавшемуся:');
+define('_SORTBY', 'Сортировать по:');
+define('_MNICKNAME', 'ник');
+define('_MREALNAME', 'настоящее имя');
+define('_MEMAIL', 'E-mail');
+define('_MURL', 'URL');
+define('_ONLINEREG', 'Сейчас в онлайне зарегистрированные пользователи:');
+define('_WEHAVE', 'У нас');
+define('_MREGISTERED', 'зарегистрированных пользователя(лей). Сейчас');
+define('_MREGONLINE', 'зарегистрированных пользователи в онлайне.');
+define('_REGSOFAR', 'зарегистрированных пользователей.');
+define('_USERSFOUND', 'найдено пользователей на букву');
+define('_USERSSHOWN', 'пользователей отображено');
+define('_NOMEMBERS', 'не найдено членов на букву');
+define('_PAGES', 'Страницы');
+define('_HOMEPAGE', 'Домашняя страница');

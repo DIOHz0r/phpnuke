@@ -21,19 +21,16 @@
 /* Comments/suggestions: aleagi@terra.com.br - aleagi@phpnuke.org.br      */
 /**************************************************************************/
 
-
-define("_PRINTER","Imprimir");
-define("_FRIEND","Envie esta notícia a uma pessoa");
-define("_ARTICLES","Notícias");
-define("_USCORE","Pontuação");
-define("_DATE","Data");
-define("_SELECTMONTH2VIEW","Por favor selecione o mês a ser visualizado:");
-define("_SHOWALLSTORIES","Visualizar TODAS as notícias");
-define("_STORIESARCHIVE","Arquivo de Notícias");
-define("_ACTIONS","Ações");
-define("_ARCHIVESINDEX","Índice do Arquivo de Notícias");
-define("_ALLSTORIESARCH","TODA as Notícias");
-define("_NEXTPAGE","Próxima página");
-define("_PREVIOUSPAGE","Página anterior");
-
-?>
+define('_PRINTER', 'Imprimir');
+define('_FRIEND', 'Envie esta notícia a uma pessoa');
+define('_ARTICLES', 'Notícias');
+define('_USCORE', 'Pontuação');
+define('_DATE', 'Data');
+define('_SELECTMONTH2VIEW', 'Por favor selecione o mês a ser visualizado:');
+define('_SHOWALLSTORIES', 'Visualizar TODAS as notícias');
+define('_STORIESARCHIVE', 'Arquivo de Notícias');
+define('_ACTIONS', 'Ações');
+define('_ARCHIVESINDEX', 'Índice do Arquivo de Notícias');
+define('_ALLSTORIESARCH', 'TODA as Notícias');
+define('_NEXTPAGE', 'Próxima página');
+define('_PREVIOUSPAGE', 'Página anterior');

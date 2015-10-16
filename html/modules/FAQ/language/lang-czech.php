@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Kategorie");
-define("_CATEGORIES","Kategorie");
-define("_FAQ2","FAQ (Nejčastějí dotazy)");
-define("_BACKTOTOP","Zpět nahoru");
-define("_BACKTOFAQINDEX","Zpět na FAQ Index");
-define("_MAIN","Hlavní");
-define("_QUESTION","Otázka");
-define("_ANSWER","Odpověď");
-
-?>
+define('_CATEGORY', 'Kategorie');
+define('_CATEGORIES', 'Kategorie');
+define('_FAQ2', 'FAQ (Nejčastějí dotazy)');
+define('_BACKTOTOP', 'Zpět nahoru');
+define('_BACKTOFAQINDEX', 'Zpět na FAQ Index');
+define('_MAIN', 'Hlavní');
+define('_QUESTION', 'Otázka');
+define('_ANSWER', 'Odpověď');

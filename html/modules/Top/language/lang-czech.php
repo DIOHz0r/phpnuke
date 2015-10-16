@@ -17,24 +17,22 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Kategorie");
-define("_LVOTES","hlasovalo");
-define("_HITS","Klinkutí");
-define("_TOPWELCOME","Stránka TOP na");
-define("_READSTORIES","nejčtenějích článků");
-define("_COMMENTEDSTORIES","článků s nejvíce komentáři");
-define("_ACTIVECAT","nejvyhledávanějích kategorií");
-define("_READSECTION","nejčtenějích článků ve speciální sekci");
-define("_NEWSSUBMITTERS","nejaktivnějích dopisovatelů");
-define("_NEWSSENT","poslaných zpráv");
-define("_VOTEDPOLLS","anket s nejvíce hlasy");
-define("_MOSTACTIVEAUTHORS","nejaktivnějích autorů");
-define("_NEWSPUBLISHED","články(ů)");
-define("_READREVIEWS","nejčtenějích recenzí");
-define("_DOWNLOADEDFILES","nejstahovanějích souborů");
-define("_MOSTREADPAGES","most read pages");
-define("_MOSTVOTEDSTORIES","most voted stories");
-define("_POINTS","points");
-define("_BESTRATEDSTORIES","best rated stories (based on 5 maximun points)");
-
-?>
+define('_CATEGORY', 'Kategorie');
+define('_LVOTES', 'hlasovalo');
+define('_HITS', 'Klinkutí');
+define('_TOPWELCOME', 'Stránka TOP na');
+define('_READSTORIES', 'nejčtenějích článků');
+define('_COMMENTEDSTORIES', 'článků s nejvíce komentáři');
+define('_ACTIVECAT', 'nejvyhledávanějích kategorií');
+define('_READSECTION', 'nejčtenějích článků ve speciální sekci');
+define('_NEWSSUBMITTERS', 'nejaktivnějích dopisovatelů');
+define('_NEWSSENT', 'poslaných zpráv');
+define('_VOTEDPOLLS', 'anket s nejvíce hlasy');
+define('_MOSTACTIVEAUTHORS', 'nejaktivnějích autorů');
+define('_NEWSPUBLISHED', 'články(ů)');
+define('_READREVIEWS', 'nejčtenějích recenzí');
+define('_DOWNLOADEDFILES', 'nejstahovanějích souborů');
+define('_MOSTREADPAGES', 'most read pages');
+define('_MOSTVOTEDSTORIES', 'most voted stories');
+define('_POINTS', 'points');
+define('_BESTRATEDSTORIES', 'best rated stories (based on 5 maximun points)');

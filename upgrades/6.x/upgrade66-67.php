@@ -12,16 +12,14 @@
 # it from your browser.
 ######################################################
 
-include("mainfile.php");
+include 'mainfile.php';
 
 // PHP-Nuke Forums Update
-$db->sql_query("UPDATE ".$prefix."_bbconfig SET config_value='.0.4' where config_name='version'");
-$db->sql_query("UPDATE ".$prefix."_bbconfig SET config_value='3600' where config_name='session_length'");
+$db->sql_query('UPDATE '.$prefix."_bbconfig SET config_value='.0.4' where config_name='version'");
+$db->sql_query('UPDATE '.$prefix."_bbconfig SET config_value='3600' where config_name='session_length'");
 
 // PHP-Nuke Version Number Update
-$db->sql_query("UPDATE ".$prefix."_config SET Version_Num='6.7'");
+$db->sql_query('UPDATE '.$prefix."_config SET Version_Num='6.7'");
 
-echo "PHP-Nuke Update finished!<br><br>"
-    ."You should now delete this upgrade file from your server.";
-
-?>
+echo 'PHP-Nuke Update finished!<br><br>'
+    .'You should now delete this upgrade file from your server.';

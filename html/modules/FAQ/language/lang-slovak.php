@@ -31,13 +31,11 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_CATEGORY","Kategória");
-define("_CATEGORIES","Kategórie");
-define("_FAQ2","FAQ (často kladené otázky)");
-define("_BACKTOTOP","Nahor");
-define("_BACKTOFAQINDEX","FAQ Index");
-define("_MAIN","Hlavné");
-define("_QUESTION","Otázka");
-define("_ANSWER","Odpoveď");
-
-?>
+define('_CATEGORY', 'Kategória');
+define('_CATEGORIES', 'Kategórie');
+define('_FAQ2', 'FAQ (často kladené otázky)');
+define('_BACKTOTOP', 'Nahor');
+define('_BACKTOFAQINDEX', 'FAQ Index');
+define('_MAIN', 'Hlavné');
+define('_QUESTION', 'Otázka');
+define('_ANSWER', 'Odpoveď');

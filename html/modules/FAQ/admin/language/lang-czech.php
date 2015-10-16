@@ -17,28 +17,24 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_FUNCTIONS","Funkce");
-define("_YES","Ano");
-define("_NO","Ne");
-define("_SAVE","Uloit");
-define("_ID","ID");
-define("_CATEGORIES","Kategorie");
-define("_ALL","Ve");
-define("_FAQ","FAQ");
-define("_CONTENT","Obsah");
-define("_FAQADMIN","FAQ administrace");
-define("_ACTIVEFAQS","Aktivní FAQy");
-define("_ADDCATEGORY","Přidat novou kategorii");
-define("_QUESTIONS","Otázky a odpovědi");
-define("_ADDQUESTION","Přidat novou otázku");
-define("_QUESTION","Otázka");
-define("_ANSWER","Odpověď");
-define("_EDITCATEGORY","Upravit kategorii");
-define("_EDITQUESTIONS","Upravit otázky a odpovědi");
-define("_FAQDELWARNING","POZOR: Opravdu chcete smazat tento FAQ a celý jeho obsah?");
-define("_QUESTIONDEL","POZOR: Opravdu chcete smazat tuto otázku?");
-define("_LANGUAGE","Language");
-
-
-?>
+define('_FUNCTIONS', 'Funkce');
+define('_YES', 'Ano');
+define('_NO', 'Ne');
+define('_SAVE', 'Uloit');
+define('_ID', 'ID');
+define('_CATEGORIES', 'Kategorie');
+define('_ALL', 'Ve');
+define('_FAQ', 'FAQ');
+define('_CONTENT', 'Obsah');
+define('_FAQADMIN', 'FAQ administrace');
+define('_ACTIVEFAQS', 'Aktivní FAQy');
+define('_ADDCATEGORY', 'Přidat novou kategorii');
+define('_QUESTIONS', 'Otázky a odpovědi');
+define('_ADDQUESTION', 'Přidat novou otázku');
+define('_QUESTION', 'Otázka');
+define('_ANSWER', 'Odpověď');
+define('_EDITCATEGORY', 'Upravit kategorii');
+define('_EDITQUESTIONS', 'Upravit otázky a odpovědi');
+define('_FAQDELWARNING', 'POZOR: Opravdu chcete smazat tento FAQ a celý jeho obsah?');
+define('_QUESTIONDEL', 'POZOR: Opravdu chcete smazat tuto otázku?');
+define('_LANGUAGE', 'Language');

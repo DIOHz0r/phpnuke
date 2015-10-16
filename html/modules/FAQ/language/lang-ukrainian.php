@@ -17,14 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Категорія");
-define("_CATEGORIES","Категорії");
-define("_FAQ2","FAQ (Основні питання)");
-define("_BACKTOTOP","Повернутись на початок");
-define("_BACKTOFAQINDEX","Показати всі питання");
-define("_MAIN","Головна");
-define("_QUESTION","Питання");
-define("_ANSWER","Відповідь");
-
-
-?>
+define('_CATEGORY', 'Категорія');
+define('_CATEGORIES', 'Категорії');
+define('_FAQ2', 'FAQ (Основні питання)');
+define('_BACKTOTOP', 'Повернутись на початок');
+define('_BACKTOFAQINDEX', 'Показати всі питання');
+define('_MAIN', 'Головна');
+define('_QUESTION', 'Питання');
+define('_ANSWER', 'Відповідь');

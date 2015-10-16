@@ -22,17 +22,17 @@
 //
 // ----------------------------------------------------------------------
 
-require_once("modules/AutoTheme/includes/atAPI.php");
+require_once 'modules/AutoTheme/includes/atAPI.php';
 $runningconfig = atThemeInit($thename);
 
-$bgcolor1 = atRunningGetVar("bgcolor1");
-$bgcolor2 = atRunningGetVar("bgcolor2");
-$bgcolor3 = atRunningGetVar("bgcolor3");
-$bgcolor4 = atRunningGetVar("bgcolor4");
-$textcolor1 = atRunningGetVar("textcolor1");
-$textcolor2 = atRunningGetVar("textcolor2");
+$bgcolor1 = atRunningGetVar('bgcolor1');
+$bgcolor2 = atRunningGetVar('bgcolor2');
+$bgcolor3 = atRunningGetVar('bgcolor3');
+$bgcolor4 = atRunningGetVar('bgcolor4');
+$textcolor1 = atRunningGetVar('textcolor1');
+$textcolor2 = atRunningGetVar('textcolor2');
 
-if (!function_exists("OpenTable")) {
+if (!function_exists('OpenTable')) {
     function OpenTable()
     {
         $runningconfig = atGetRunningConfig();
@@ -40,19 +40,18 @@ if (!function_exists("OpenTable")) {
 
         if ($template['table1']) {
             $file = $template['table1'];
-			
+
             $template = atTemplateCompile($themepath.$file);
-            list($output, $close) = atTemplateSplit($template, "table-content");
+            list($output, $close) = atTemplateSplit($template, 'table-content');
             atTemplateDisplay($output);
-        }
-        else {
+        } else {
             echo "<table width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"0\" bgcolor=\"$tblcolor1\"><tr><td>\n";
             echo "<table width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"4\" bgcolor=\"$tblcolor2\"><tr><td>\n";
         }
     }
 }
 
-if (!function_exists("CloseTable")) {
+if (!function_exists('CloseTable')) {
     function CloseTable()
     {
         $runningconfig = atGetRunningConfig();
@@ -62,16 +61,15 @@ if (!function_exists("CloseTable")) {
             $file = $template['table1'];
 
             $template = atTemplateCompile($themepath.$file);
-            list($open, $output) = atTemplateSplit($template, "table-content");
+            list($open, $output) = atTemplateSplit($template, 'table-content');
             atTemplateDisplay($output);
-        }
-        else {
+        } else {
             echo "</td></tr></table></td></tr></table>\n";
         }
     }
 }
 
-if (!function_exists("OpenTable2")) {
+if (!function_exists('OpenTable2')) {
     function OpenTable2()
     {
         $runningconfig = atGetRunningConfig();
@@ -81,17 +79,16 @@ if (!function_exists("OpenTable2")) {
             $file = $template['table2'];
 
             $template = atTemplateCompile($themepath.$file);
-            list($output, $close) = atTemplateSplit($template, "table-content");
+            list($output, $close) = atTemplateSplit($template, 'table-content');
             atTemplateDisplay($output);
-        }
-        else {
+        } else {
             echo "<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" bgcolor=\"$tblcolor3\" align=\"center\"><tr><td>\n";
             echo "<table border=\"0\" cellspacing=\"1\" cellpadding=\"4\" bgcolor=\"$tblcolor4\"><tr><td>\n";
         }
     }
 }
 
-if (!function_exists("CloseTable2")) {
+if (!function_exists('CloseTable2')) {
     function CloseTable2()
     {
         $runningconfig = atGetRunningConfig();
@@ -101,13 +98,10 @@ if (!function_exists("CloseTable2")) {
             $file = $template['table2'];
 
             $template = atTemplateCompile($themepath.$file);
-            list($open, $output) = atTemplateSplit($template, "table-content");
+            list($open, $output) = atTemplateSplit($template, 'table-content');
             atTemplateDisplay($output);
-        }
-        else {
+        } else {
             echo "</td></tr></table></td></tr></table>\n";
         }
     }
 }
-
-?>

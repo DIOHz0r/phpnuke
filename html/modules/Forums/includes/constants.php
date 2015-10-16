@@ -20,9 +20,8 @@
  *
  ***************************************************************************/
 
-if ( !defined('IN_PHPBB') )
-{
-        die("Hacking attempt");
+if (!defined('IN_PHPBB')) {
+    die('Hacking attempt');
 }
 
 // Debug Level
@@ -62,8 +61,8 @@ define('POST_ANNOUNCE', 2);
 define('POST_GLOBAL_ANNOUNCE', 3);
 // SQL codes
 define('BEGIN_TRANSACTION', 1);
-if(!defined('END_TRANSACTION')) {
-define('END_TRANSACTION', 2);
+if (!defined('END_TRANSACTION')) {
+    define('END_TRANSACTION', 2);
 }
 // Error codes
 define('GENERAL_MESSAGE', 200);
@@ -149,5 +148,3 @@ define('WORDS_TABLE', $prefix.'_bbwords');
 define('VOTE_DESC_TABLE', $prefix.'_bbvote_desc');
 define('VOTE_RESULTS_TABLE', $prefix.'_bbvote_results');
 define('VOTE_USERS_TABLE', $prefix.'_bbvote_voters');
-
-?>

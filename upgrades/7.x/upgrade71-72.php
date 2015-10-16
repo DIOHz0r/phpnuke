@@ -18,14 +18,14 @@
 # queries lines bellow (WebMail Table Remove).
 ######################################################
 
-include("mainfile.php");
+include 'mainfile.php';
 
 // Forums Table Modification
-$db->sql_query("UPDATE ".$prefix."_bbconfig SET config_value='.0.7' WHERE config_name='version'");
+$db->sql_query('UPDATE '.$prefix."_bbconfig SET config_value='.0.7' WHERE config_name='version'");
 
 // FAQ Tables Alteration
-$db->sql_query("ALTER TABLE ".$prefix."_faqAnswer RENAME ".$prefix."_faqanswer");
-$db->sql_query("ALTER TABLE ".$prefix."_faqCategories RENAME ".$prefix."_faqcategories");
+$db->sql_query('ALTER TABLE '.$prefix.'_faqAnswer RENAME '.$prefix.'_faqanswer');
+$db->sql_query('ALTER TABLE '.$prefix.'_faqCategories RENAME '.$prefix.'_faqcategories');
 
 // WebMail Table Remove
 // IMPORTANT: UNCOMMENT THE FOLLOWING LINES TO REMOVE WEBMAIL MODULE TABLES
@@ -33,8 +33,7 @@ $db->sql_query("ALTER TABLE ".$prefix."_faqCategories RENAME ".$prefix."_faqcate
 //$db->sql_query("ALTER TABLE nuke_config DROP footermsgtxt, DROP email_send, DROP attachmentdir, DROP attachments, DROP attachments_view, DROP download_dir, DROP defaultpopserver, DROP singleaccount, DROP singleaccountname, DROP numaccounts, DROP imgpath, DROP filter_forward");
 
 // PHP-Nuke Version Number Update
-$db->sql_query("UPDATE ".$prefix."_config SET Version_Num='7.2'");
+$db->sql_query('UPDATE '.$prefix."_config SET Version_Num='7.2'");
 
-echo "PHP-Nuke Update finished!<br><br>"
-    ."You should now delete this upgrade file from your server.<br><br>";
-?>
+echo 'PHP-Nuke Update finished!<br><br>'
+    .'You should now delete this upgrade file from your server.<br><br>';

@@ -24,11 +24,9 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_PDATE","Дата:");
-define("_PTOPIC","Тема:");
-define("_COMESFROM","Это статья из");
-define("_THEURL","URL Этой статьи:");
-define("_DATE","Дата");
-define("_TITLE","Название");
-
-?>
+define('_PDATE', 'Дата:');
+define('_PTOPIC', 'Тема:');
+define('_COMESFROM', 'Это статья из');
+define('_THEURL', 'URL Этой статьи:');
+define('_DATE', 'Дата');
+define('_TITLE', 'Название');

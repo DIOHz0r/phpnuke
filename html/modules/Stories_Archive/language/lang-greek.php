@@ -17,18 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Εκτύπωση αρχικής σελίδας");
-define("_FRIEND","Προωθήστε την ιστορία αυτή σ'ένα φίλο ");
-define("_ARTICLES","Αρθρα");
-define("_USCORE","Βαθμολόγηση (βαθμολογία)");
-define("_DATE","Ημερομηνία");
-define("_SELECTMONTH2VIEW","Please select the month you want to view:");
-define("_SHOWALLSTORIES","Show ALL Stories");
-define("_STORIESARCHIVE","Stories Archive");
-define("_ACTIONS","Actions");
-define("_ARCHIVESINDEX","Stories Archive Index");
-define("_ALLSTORIESARCH","All Stories");
-define("_NEXTPAGE","Next Page");
-define("_PREVIOUSPAGE","Previous Page");
-
-?>
+define('_PRINTER', 'Εκτύπωση αρχικής σελίδας');
+define('_FRIEND', "Προωθήστε την ιστορία αυτή σ'ένα φίλο ");
+define('_ARTICLES', 'Αρθρα');
+define('_USCORE', 'Βαθμολόγηση (βαθμολογία)');
+define('_DATE', 'Ημερομηνία');
+define('_SELECTMONTH2VIEW', 'Please select the month you want to view:');
+define('_SHOWALLSTORIES', 'Show ALL Stories');
+define('_STORIESARCHIVE', 'Stories Archive');
+define('_ACTIONS', 'Actions');
+define('_ARCHIVESINDEX', 'Stories Archive Index');
+define('_ALLSTORIESARCH', 'All Stories');
+define('_NEXTPAGE', 'Next Page');
+define('_PREVIOUSPAGE', 'Previous Page');

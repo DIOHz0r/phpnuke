@@ -23,28 +23,25 @@
 /* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
-
-define("_URL","Link");
-define("_EMAIL","Email");
-define("_REALNAME","Nome verdadeiro");
-define("_FUNCTIONS","Funções");
-define("_PREVIOUS","Página Anterior");
-define("_MEMBERSLIST","Lista de utilizadores");
-define("_GREETINGS","Saudações ao nosso recente membro:");
-define("_SORTBY","Seleccionar por:");
-define("_MNICKNAME","Apelido");
-define("_MREALNAME","Nome verdadeiro");
-define("_MEMAIL","Email");
-define("_MURL","Homepage");
-define("_ONLINEREG","Utilizadores registados e ligados neste momento:");
-define("_WEHAVE","Nós temos");
-define("_MREGISTERED","alguns utilizadores registados. E destes");
-define("_MREGONLINE","os seguinte(s) estão ligados agora.");
-define("_REGSOFAR","utilizadores registados até agora.");
-define("_USERSFOUND","utilizadores encontrados por");
-define("_USERSSHOWN","mostrar utilizadores");
-define("_NOMEMBERS","Nenhum utilizador encontrado por");
-define("_PAGES","Páginas");
-define("_HOMEPAGE","Homepage");
-
-?>
+define('_URL', 'Link');
+define('_EMAIL', 'Email');
+define('_REALNAME', 'Nome verdadeiro');
+define('_FUNCTIONS', 'Funções');
+define('_PREVIOUS', 'Página Anterior');
+define('_MEMBERSLIST', 'Lista de utilizadores');
+define('_GREETINGS', 'Saudações ao nosso recente membro:');
+define('_SORTBY', 'Seleccionar por:');
+define('_MNICKNAME', 'Apelido');
+define('_MREALNAME', 'Nome verdadeiro');
+define('_MEMAIL', 'Email');
+define('_MURL', 'Homepage');
+define('_ONLINEREG', 'Utilizadores registados e ligados neste momento:');
+define('_WEHAVE', 'Nós temos');
+define('_MREGISTERED', 'alguns utilizadores registados. E destes');
+define('_MREGONLINE', 'os seguinte(s) estão ligados agora.');
+define('_REGSOFAR', 'utilizadores registados até agora.');
+define('_USERSFOUND', 'utilizadores encontrados por');
+define('_USERSSHOWN', 'mostrar utilizadores');
+define('_NOMEMBERS', 'Nenhum utilizador encontrado por');
+define('_PAGES', 'Páginas');
+define('_HOMEPAGE', 'Homepage');

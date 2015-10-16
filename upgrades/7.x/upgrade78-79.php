@@ -12,40 +12,39 @@
 # it from your browser.
 ######################################################
 
-include("mainfile.php");
+include 'mainfile.php';
 
 // Content pagebreak fix
-$result = $db->sql_query("SELECT pid, text FROM ".$prefix."_pages");
+$result = $db->sql_query('SELECT pid, text FROM '.$prefix.'_pages');
 while ($row = $db->sql_fetchrow($result)) {
-	$row[text] = eregi_replace("<!--pagebreak-->", "[--pagebreak--]", $row[text]);
-	$db->sql_query("UPDATE ".$prefix."_pages SET text='$row[text]' WHERE pid='$row[pid]'");
+    $row[text] = eregi_replace('<!--pagebreak-->', '[--pagebreak--]', $row[text]);
+    $db->sql_query('UPDATE '.$prefix."_pages SET text='$row[text]' WHERE pid='$row[pid]'");
 }
 
 // Reviews pagebreak fix
-$result = $db->sql_query("SELECT id, text FROM ".$prefix."_reviews");
+$result = $db->sql_query('SELECT id, text FROM '.$prefix.'_reviews');
 while ($row = $db->sql_fetchrow($result)) {
-	$row[text] = eregi_replace("<!--pagebreak-->", "[--pagebreak--]", $row[text]);
-	$db->sql_query("UPDATE ".$prefix."_reviews SET text='$row[text]' WHERE id='$row[id]'");
+    $row[text] = eregi_replace('<!--pagebreak-->', '[--pagebreak--]', $row[text]);
+    $db->sql_query('UPDATE '.$prefix."_reviews SET text='$row[text]' WHERE id='$row[id]'");
 }
 
 // Encyclopedia pagebreak fix
-$result = $db->sql_query("SELECT tid, text FROM ".$prefix."_encyclopedia_text");
+$result = $db->sql_query('SELECT tid, text FROM '.$prefix.'_encyclopedia_text');
 while ($row = $db->sql_fetchrow($result)) {
-	$row[text] = eregi_replace("<!--pagebreak-->", "[--pagebreak--]", $row[text]);
-	$db->sql_query("UPDATE ".$prefix."_encyclopedia_text SET text='$row[text]' WHERE tid='$row[tid]'");
+    $row[text] = eregi_replace('<!--pagebreak-->', '[--pagebreak--]', $row[text]);
+    $db->sql_query('UPDATE '.$prefix."_encyclopedia_text SET text='$row[text]' WHERE tid='$row[tid]'");
 }
 
 // Some fixes in the headlines sites
-$fmurl = "http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global";
-$db->sql_query("UPDATE ".$prefix."_headlines SET headlinesurl='$fmurl' WHERE sitename='Freshmeat'");
+$fmurl = 'http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global';
+$db->sql_query('UPDATE '.$prefix."_headlines SET headlinesurl='$fmurl' WHERE sitename='Freshmeat'");
 
 // Forums Table update
-$db->sql_query("ALTER TABLE ".$prefix."_bbsessions ADD session_admin tinyint(2) NOT NULL default '0'");
-$db->sql_query("UPDATE ".$prefix."_bbconfig SET config_value='.0.17' where config_name='version'");
+$db->sql_query('ALTER TABLE '.$prefix."_bbsessions ADD session_admin tinyint(2) NOT NULL default '0'");
+$db->sql_query('UPDATE '.$prefix."_bbconfig SET config_value='.0.17' where config_name='version'");
 
 // PHP-Nuke Version Number Update
-$db->sql_query("UPDATE ".$prefix."_config SET Version_Num='7.9'");
+$db->sql_query('UPDATE '.$prefix."_config SET Version_Num='7.9'");
 
-echo "PHP-Nuke Update finished!<br><br>"
-    ."You should now delete this upgrade file from your server.<br><br>";
-?>
+echo 'PHP-Nuke Update finished!<br><br>'
+    .'You should now delete this upgrade file from your server.<br><br>';

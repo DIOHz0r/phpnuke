@@ -33,29 +33,31 @@
     /* by sixonetonoffun -- http://www.netflake.com --                      */
     /* Images Created by GanjaUK -- http://www.GanjaUK.com                  */
     /************************************************************************/
-if ( !defined('MODULE_FILE') )
-{
-	die("You can't access this file directly...");
+if (!defined('MODULE_FILE')) {
+    die("You can't access this file directly...");
 }
-    require_once("mainfile.php");
+    require_once 'mainfile.php';
     $module_name = basename(dirname(__FILE__));
     get_lang($module_name);
-    $pagetitle = "- "._USERSJOURNAL."";
-include("header.php");
-include("modules/$module_name/functions.php");
-    include("modules/$module_name/kses.php");
+    $pagetitle = '- '._USERSJOURNAL.'';
+include 'header.php';
+include "modules/$module_name/functions.php";
+    include "modules/$module_name/kses.php";
     if (is_user($user)) {
-cookiedecode($user);
-$username = $cookie[1];
+        cookiedecode($user);
+        $username = $cookie[1];
     }
-    $user = filter($user, "nohtml");
-    $username = filter($username, "nohtml");
-    $sitename = filter($sitename, "nohtml");
-    if (isset($jbodytext)) { $jbodytext = kses(ADVT_stripslashes($jbodytext), $allowed); }
-	else { $jbodytext = ""; }
-    $debug = filter($debug, "nohtml");
-    if ($debug == "true") :
-    echo ("UserName:$username<br>SiteName: $sitename");
+    $user = filter($user, 'nohtml');
+    $username = filter($username, 'nohtml');
+    $sitename = filter($sitename, 'nohtml');
+    if (isset($jbodytext)) {
+        $jbodytext = kses(ADVT_stripslashes($jbodytext), $allowed);
+    } else {
+        $jbodytext = '';
+    }
+    $debug = filter($debug, 'nohtml');
+    if ($debug == 'true') :
+    echo("UserName:$username<br>SiteName: $sitename");
     endif;
     startjournal($sitename, $user);
 #####################################################
@@ -65,9 +67,9 @@ $username = $cookie[1];
 #####################################################
 
     if (!is_user($user)) :
-    echo ("<br>");
+    echo('<br>');
     openTable();
-    echo ("<div align=center>"._YOUMUSTBEMEMBER."<br></div>");
+    echo('<div align=center>'._YOUMUSTBEMEMBER.'<br></div>');
     closeTable();
     journalfoot();
     die();
@@ -81,27 +83,27 @@ endif;
 # modules/Journal/Images/moods directory.	    #
 #####################################################
     if (is_user($user)) {
-echo "<br>";
-OpenTable();
-echo ("<div align=center class=title>"._ADDJOURNAL."</div><br>");
-echo ("<div align=center> [ <a href=\"modules.php?name=$module_name&file=add\">"._ADDENTRY."</a> | <a href=\"modules.php?name=$module_name&file=edit&op=last\">"._YOURLAST20."</a> | <a href=\"modules.php?name=$module_name&file=edit&op=all\">"._LISTALLENTRIES."</a> ]</div>");
-CloseTable();
-echo "<br>";
-OpenTable();
-print  ("<form action='modules.php?name=$module_name&file=savenew' method='post'>");
-print  ("<table align=center border=0>");
-print  ("<tr>");
-print  ("<td align=right valign=top><strong>"._TITLE.": </strong></td>");
-print  ("<td valign=top><input type=\"text\" value=\"\" size=50 maxlength=80 name=\"title\"></td>");
-print  ("</tr>");
-print  ("<tr>");
-print  ("<td align=right valign=top><strong>"._BODY.": </strong></td>");
-print  ("<td valign=top><textarea name=\"jbodytext\" cols=\"70\" rows=\"15\"></textarea><br>"._HTMLNOTALLOWED."<br></td>");
-print  ("</tr>");
-print  ("<tr>");
-print  ("<td align=right valign=top><strong>"._LITTLEGRAPH.": </strong><br>"._OPTIONAL."</td>");
-echo "<td valign=top><table cellpadding=3><tr>";
-$tempcount = 0;
+        echo '<br>';
+        OpenTable();
+        echo('<div align=center class=title>'._ADDJOURNAL.'</div><br>');
+        echo("<div align=center> [ <a href=\"modules.php?name=$module_name&file=add\">"._ADDENTRY."</a> | <a href=\"modules.php?name=$module_name&file=edit&op=last\">"._YOURLAST20."</a> | <a href=\"modules.php?name=$module_name&file=edit&op=all\">"._LISTALLENTRIES.'</a> ]</div>');
+        CloseTable();
+        echo '<br>';
+        OpenTable();
+        print("<form action='modules.php?name=$module_name&file=savenew' method='post'>");
+        print('<table align=center border=0>');
+        print('<tr>');
+        print('<td align=right valign=top><strong>'._TITLE.': </strong></td>');
+        print('<td valign=top><input type="text" value="" size=50 maxlength=80 name="title"></td>');
+        print('</tr>');
+        print('<tr>');
+        print('<td align=right valign=top><strong>'._BODY.': </strong></td>');
+        print('<td valign=top><textarea name="jbodytext" cols="70" rows="15"></textarea><br>'._HTMLNOTALLOWED.'<br></td>');
+        print('</tr>');
+        print('<tr>');
+        print('<td align=right valign=top><strong>'._LITTLEGRAPH.': </strong><br>'._OPTIONAL.'</td>');
+        echo '<td valign=top><table cellpadding=3><tr>';
+        $tempcount = 0;
         $tempcount = intval($tempcount);
         $direktori = "$jsmiles";
         $handle = opendir($direktori);
@@ -110,54 +112,51 @@ $tempcount = 0;
                 $filelist[] = $file;
             } else {
                 OpenTable();
-                echo "<center><b>"._ANERROR."</b></center>";
+                echo '<center><b>'._ANERROR.'</b></center>';
                 CloseTable();
                 exit;
             }
-}
-asort($filelist);
-while (list ($key, $file) = each ($filelist)) {
-    if (!ereg(".gif|.jpg",$file)) { }
-    elseif ($file == "." || $file == "..") {
-        $a=1;
-    } else {
-	if ($tempcount == 6):
-	    echo "</tr><tr>";
+        }
+        asort($filelist);
+        while (list($key, $file) = each($filelist)) {
+            if (!ereg('.gif|.jpg', $file)) {
+            } elseif ($file == '.' || $file == '..') {
+                $a = 1;
+            } else {
+                if ($tempcount == 6):
+        echo '</tr><tr>';
                 echo "<td><input type='radio' name='mood' value='$file'></td><td><img src=\"$jsmiles/$file\" alt=\"$file\" title=\"$file\"></td>";
-	    $tempcount = 0;
-	else :
+                $tempcount = 0; else :
                 echo "<td><input type='radio' name='mood' value='$file'></td><td><img src=\"$jsmiles/$file\" alt=\"$file\" title=\"$file\"></td>";
-	endif;
-	$tempcount = $tempcount + 1;
-    }
-}
-echo "</tr></table>";
-print  ("</td>");
-print  ("</tr>");
-print  ("<tr>");
-print  ("<tr>");
-print  ("<td align=right valign=top><strong>"._PUBLIC.": </strong></td>");
-print  ("<td align=left valign=top>");
-print  ("<select name='status'>");
-print  ("<option value=\"yes\" SELECTED>"._YES."</option>");
-print  ("<option value=\"no\">"._NO."</option>");
-print  ("</select>");
-print  ("</td>");
-print  ("</tr>");
-print  ("<td colspan=2 align=center><input type='submit' name='submit' value='"._ADDENTRY."'><br><br>"._TYPOS."</td>");
-print  ("</tr>");
-print  ("</table>");
-print  ("</form>");
-closeTable();
-echo ("<br>");
-journalfoot();
+                endif;
+                $tempcount = $tempcount + 1;
+            }
+        }
+        echo '</tr></table>';
+        print('</td>');
+        print('</tr>');
+        print('<tr>');
+        print('<tr>');
+        print('<td align=right valign=top><strong>'._PUBLIC.': </strong></td>');
+        print('<td align=left valign=top>');
+        print("<select name='status'>");
+        print('<option value="yes" SELECTED>'._YES.'</option>');
+        print('<option value="no">'._NO.'</option>');
+        print('</select>');
+        print('</td>');
+        print('</tr>');
+        print("<td colspan=2 align=center><input type='submit' name='submit' value='"._ADDENTRY."'><br><br>"._TYPOS.'</td>');
+        print('</tr>');
+        print('</table>');
+        print('</form>');
+        closeTable();
+        echo('<br>');
+        journalfoot();
     } else {
-        echo ("<br>");
+        echo('<br>');
         openTable();
-        echo ("<div align=center>"._YOUMUSTBEMEMBER."<br></div>");
+        echo('<div align=center>'._YOUMUSTBEMEMBER.'<br></div>');
         closeTable();
         journalfoot();
         die();
     }
-
-?>

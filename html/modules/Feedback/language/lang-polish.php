@@ -20,19 +20,17 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_SEND","Wyślij");
-define("_YOURNAME","Twoje imię i nazwisko");
-define("_MESSAGE","Wiadomość");
-define("_YOUREMAIL","Twój adres e-mail");
-define("_FEEDBACKNOTE","Wszystkie sugestie i komentarze dotyczące tej strony są mile widziane i są cennym źródłem informacji dla nas!");
-define("_FEEDBACKTITLE","Formularz kontaktowy");
-define("_FEEDBACK","Kontakt");
-define("_FBENTERNAME","BŁĄD: Wpisz swój nick!");
-define("_FBENTEREMAIL","BŁĄD: Podaj swój adres e-mail!");
-define("_FBENTERMESSAGE","BŁĄD: Wpisz wiadomość!");
-define("_SENDEREMAIL","Imię nadawcy");
-define("_SENDERNAME","Nick nadawcy");
-define("_FBMAILSENT","E-mail został wysłany!");
-define("_FBTHANKSFORCONTACT","Dziękujemy za poświęcenie czasu i wysłanie formularza");
-
-?>
+define('_SEND', 'Wyślij');
+define('_YOURNAME', 'Twoje imię i nazwisko');
+define('_MESSAGE', 'Wiadomość');
+define('_YOUREMAIL', 'Twój adres e-mail');
+define('_FEEDBACKNOTE', 'Wszystkie sugestie i komentarze dotyczące tej strony są mile widziane i są cennym źródłem informacji dla nas!');
+define('_FEEDBACKTITLE', 'Formularz kontaktowy');
+define('_FEEDBACK', 'Kontakt');
+define('_FBENTERNAME', 'BŁĄD: Wpisz swój nick!');
+define('_FBENTEREMAIL', 'BŁĄD: Podaj swój adres e-mail!');
+define('_FBENTERMESSAGE', 'BŁĄD: Wpisz wiadomość!');
+define('_SENDEREMAIL', 'Imię nadawcy');
+define('_SENDERNAME', 'Nick nadawcy');
+define('_FBMAILSENT', 'E-mail został wysłany!');
+define('_FBTHANKSFORCONTACT', 'Dziękujemy za poświęcenie czasu i wysłanie formularza');

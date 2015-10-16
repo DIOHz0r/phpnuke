@@ -12,14 +12,12 @@
 /* the Free Software Foundation; either version 2 of the License.       */
 /************************************************************************/
 
-if ( !defined('BLOCK_FILE') ) {
-    Header("Location: ../index.php");
+if (!defined('BLOCK_FILE')) {
+    Header('Location: ../index.php');
     die();
 }
 
 // Position "1" by default is for block advertising. You can change this from your admin panel
-$content = "<br>";
+$content = '<br>';
 $content .= ads(1);
-$content .= "<br>";
-
-?>
+$content .= '<br>';

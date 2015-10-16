@@ -20,18 +20,16 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_PREVIOUS","Poprzednia strona");
-define("_NEXT","Następna strona");
-define("_PAGE","Strona");
-define("_DEACTIVATE","Deaktywuj");
-define("_ACTIVATE","Aktywuj");
-define("_PUBLISHEDON","Opublikowane");
-define("_PAGESLIST","Lista stron");
-define("_LISTOFCONTENT","Lista dostępnej zawartości");
-define("_YOURADMINLIST","Jesteś Administratorem: oto lista nieaktywnych stron:");
-define("_COPYRIGHT","Prawa autorskie &copy; ");
-define("_COPYRIGHT2","Wszystkie prawa zastrzeżone.");
-define("_CONTENTCATEGORIES","Dostępne kategorie");
-define("_NONCLASSCONT","Bez kategorii");
-
-?>
+define('_PREVIOUS', 'Poprzednia strona');
+define('_NEXT', 'Następna strona');
+define('_PAGE', 'Strona');
+define('_DEACTIVATE', 'Deaktywuj');
+define('_ACTIVATE', 'Aktywuj');
+define('_PUBLISHEDON', 'Opublikowane');
+define('_PAGESLIST', 'Lista stron');
+define('_LISTOFCONTENT', 'Lista dostępnej zawartości');
+define('_YOURADMINLIST', 'Jesteś Administratorem: oto lista nieaktywnych stron:');
+define('_COPYRIGHT', 'Prawa autorskie &copy; ');
+define('_COPYRIGHT2', 'Wszystkie prawa zastrzeżone.');
+define('_CONTENTCATEGORIES', 'Dostępne kategorie');
+define('_NONCLASSCONT', 'Bez kategorii');

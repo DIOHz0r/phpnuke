@@ -13,40 +13,38 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-$module_name = "News";
-include_secure("modules/$module_name/admin/language/lang-".$currentlang.".php");
+$module_name = 'News';
+include_secure("modules/$module_name/admin/language/lang-".$currentlang.'.php');
 
-switch($op) {
+switch ($op) {
 
-    case "YesDelCategory":
-    case "subdelete":
-    case "DelCategory":
-    case "NoMoveCategory":
-    case "EditCategory":
-    case "SaveEditCategory":
-    case "AddCategory":
-    case "SaveCategory":
-    case "DisplayStory":
-    case "PreviewAgain":
-    case "PostStory":
-    case "EditStory":
-    case "RemoveStory":
-    case "ChangeStory":
-    case "DeleteStory":
-    case "adminStory":
-    case "PreviewAdminStory":
-    case "PostAdminStory":
-    case "autoDelete":
-    case "autoEdit":
-    case "autoSaveEdit":
-    case "submissions":
-    case "publish_now":
-    include("modules/$module_name/admin/index.php");
+    case 'YesDelCategory':
+    case 'subdelete':
+    case 'DelCategory':
+    case 'NoMoveCategory':
+    case 'EditCategory':
+    case 'SaveEditCategory':
+    case 'AddCategory':
+    case 'SaveCategory':
+    case 'DisplayStory':
+    case 'PreviewAgain':
+    case 'PostStory':
+    case 'EditStory':
+    case 'RemoveStory':
+    case 'ChangeStory':
+    case 'DeleteStory':
+    case 'adminStory':
+    case 'PreviewAdminStory':
+    case 'PostAdminStory':
+    case 'autoDelete':
+    case 'autoEdit':
+    case 'autoSaveEdit':
+    case 'submissions':
+    case 'publish_now':
+    include "modules/$module_name/admin/index.php";
     break;
 
 }
-
-?>

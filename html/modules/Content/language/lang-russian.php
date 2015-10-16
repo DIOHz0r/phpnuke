@@ -27,18 +27,16 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Предыдущая страница");
-define("_NEXT","Следующая страница");
-define("_PAGE","Страница");
-define("_DEACTIVATE","Деактивизировать");
-define("_ACTIVATE","Активизировать");
-define("_PUBLISHEDON","Опубликовано на");
-define("_PAGESLIST","Список страниц");
-define("_LISTOFCONTENT","Список доступного контента в");
-define("_YOURADMINLIST","Вы администратор: далее следует список неактивных страниц:");
-define("_COPYRIGHT","Права на копирование &copy; ");
-define("_COPYRIGHT2","Все права защищены.");
-define("_CONTENTCATEGORIES","Доступные категории контента");
-define("_NONCLASSCONT","Контент без категорий");
-
-?>
+define('_PREVIOUS', 'Предыдущая страница');
+define('_NEXT', 'Следующая страница');
+define('_PAGE', 'Страница');
+define('_DEACTIVATE', 'Деактивизировать');
+define('_ACTIVATE', 'Активизировать');
+define('_PUBLISHEDON', 'Опубликовано на');
+define('_PAGESLIST', 'Список страниц');
+define('_LISTOFCONTENT', 'Список доступного контента в');
+define('_YOURADMINLIST', 'Вы администратор: далее следует список неактивных страниц:');
+define('_COPYRIGHT', 'Права на копирование &copy; ');
+define('_COPYRIGHT2', 'Все права защищены.');
+define('_CONTENTCATEGORIES', 'Доступные категории контента');
+define('_NONCLASSCONT', 'Контент без категорий');

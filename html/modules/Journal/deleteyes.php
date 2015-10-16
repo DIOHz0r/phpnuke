@@ -36,24 +36,25 @@
     /* by sixonetonoffun -- http://www.netflake.com --                      */
     /* Images Created by GanjaUK -- http://www.GanjaUK.com                  */
     /************************************************************************/
-if ( !defined('MODULE_FILE') )
-{
-	die("You can't access this file directly...");
+if (!defined('MODULE_FILE')) {
+    die("You can't access this file directly...");
 }
 
-require_once("mainfile.php");
+require_once 'mainfile.php';
 $module_name = basename(dirname(__FILE__));
 get_lang($module_name);
 
-if (!isset($jid) OR !is_numeric($jid)) { die("No journal specified."); }
-$pagetitle = "- "._USERSJOURNAL;
-include("header.php");
-include("modules/$module_name/functions.php");
+if (!isset($jid) or !is_numeric($jid)) {
+    die('No journal specified.');
+}
+$pagetitle = '- '._USERSJOURNAL;
+include 'header.php';
+include "modules/$module_name/functions.php";
     if (is_user($user)) {
-cookiedecode($user);
-$username = $cookie[1];
+        cookiedecode($user);
+        $username = $cookie[1];
     }
-startjournal($sitename,$user);
+startjournal($sitename, $user);
 
 #####################################################
 # Check to see if the current username matches the  #
@@ -62,50 +63,48 @@ startjournal($sitename,$user);
 # to check their current username.		    #
 #####################################################
     if (is_user($user)) {
-$jid = intval($jid);
-$sql = "SELECT * FROM ".$prefix."_journal WHERE jid = '$jid'";
-$result = $db->sql_query($sql);
-while ($row = $db->sql_fetchrow($result)) {
-    $owner = $row['aid'];
-    if ($owner != $username):
-	openTable();
-	echo ("<div align=center>"._YOUWRONG."</div>");
-	closeTable();
-	echo ("<br>");
-	journalfoot();
-	die();
-    endif;
-	$sql = "DELETE FROM ".$prefix."_journal WHERE jid = '$jid'";
-    $db->sql_query($sql);
-	$sql = "DELETE FROM ".$prefix."_journal_comments WHERE rid = '$jid'";
-    $db->sql_query($sql);
-    echo ("<br>");
+        $jid = intval($jid);
+        $sql = 'SELECT * FROM '.$prefix."_journal WHERE jid = '$jid'";
+        $result = $db->sql_query($sql);
+        while ($row = $db->sql_fetchrow($result)) {
+            $owner = $row['aid'];
+            if ($owner != $username):
     openTable();
-    echo ("<div align=center>"._ENTRYREMOVED."<br><br>");
-    echo ("<a href=\"modules.php?name=$module_name&file=edit\">"._RETURNJOURNAL."</a></div>");
-    closeTable();
-}
+            echo('<div align=center>'._YOUWRONG.'</div>');
+            closeTable();
+            echo('<br>');
+            journalfoot();
+            die();
+            endif;
+            $sql = 'DELETE FROM '.$prefix."_journal WHERE jid = '$jid'";
+            $db->sql_query($sql);
+            $sql = 'DELETE FROM '.$prefix."_journal_comments WHERE rid = '$jid'";
+            $db->sql_query($sql);
+            echo('<br>');
+            openTable();
+            echo('<div align=center>'._ENTRYREMOVED.'<br><br>');
+            echo("<a href=\"modules.php?name=$module_name&file=edit\">"._RETURNJOURNAL.'</a></div>');
+            closeTable();
+        }
         journalfoot();
     } else {
         if (is_admin($admin)) {
-            $sql = "DELETE FROM ".$prefix."_journal WHERE jid = '$jid'";
+            $sql = 'DELETE FROM '.$prefix."_journal WHERE jid = '$jid'";
             $db->sql_query($sql);
-            $sql = "DELETE FROM ".$prefix."_journal_comments WHERE rid = '$jid'";
+            $sql = 'DELETE FROM '.$prefix."_journal_comments WHERE rid = '$jid'";
             $db->sql_query($sql);
-            echo ("<br>");
+            echo('<br>');
             openTable();
-            echo ("<div align=center>"._ENTRYREMOVED."<br><br>");
-            echo ("<a href=\"modules.php?name=$module_name&file=edit\">"._RETURNJOURNAL."</a></div>");
+            echo('<div align=center>'._ENTRYREMOVED.'<br><br>');
+            echo("<a href=\"modules.php?name=$module_name&file=edit\">"._RETURNJOURNAL.'</a></div>');
             closeTable();
         }
         journalfoot();
     }
-    $pagetitle = "- "._YOUMUSTBEMEMBER."";
-    $pagetitle = filter($pagetitle, "nohtml");
+    $pagetitle = '- '._YOUMUSTBEMEMBER.'';
+    $pagetitle = filter($pagetitle, 'nohtml');
     OpenTable();
-    echo "<center><b>"._YOUMUSTBEMEMBER."</b></center>";
+    echo '<center><b>'._YOUMUSTBEMEMBER.'</b></center>';
     CloseTable();
-    include("footer.php");
+    include 'footer.php';
     die();
-
-?>

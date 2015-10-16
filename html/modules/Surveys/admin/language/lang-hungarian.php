@@ -17,37 +17,33 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_YES","Igen");
-define("_NO","Nem");
-define("_CATEGORY","Kategória");
-define("_SAVECHANGES","Változások mentése");
-define("_ARTICLES","cikk");
-define("_SELECTTOPIC","Válassz témát");
-define("_OPTION","Beállítások");
-define("_ADMPOLLS","Szavazások");
-define("_TITLE","Cím");
-define("_STORYTEXT","Bevezető szöveg");
-define("_EXTENDEDTEXT","Bővített szöveg");
-define("_PUBLISHINHOME","Megjelenjen a főoldalon?");
-define("_ONLYIFCATSELECTED","Csak akkor működik, ha nem a <i>Cikkek</i> kategória van kijelölve");
-define("_ADD","Hozzáadás");
-define("_POLLSADMIN","Szavazások adminisztrálása");
-define("_CREATEPOLL","Új szavazás");
-define("_DELETEPOLLS","Szavazás törlése");
-define("_POLLTITLE","Szavazás címe");
-define("_POLLEACHFIELD","Add meg külön mezőben az összes elérhető opciót");
-define("_CREATEPOLLBUT","Új szavazás");
-define("_REMOVEEXISTING","Létező szavazás törlése");
-define("_POLLDELWARNING","FIGYELMEZTETÉS: a kiválasztott szavazás AZONNAL törlődik az adatbázisból!");
-define("_CHOOSEPOLL","Válassz egy szavazást az alábbiakból:");
-define("_EDITPOLL","Edit Polls");
-define("_CHOOSEPOLLEDIT","Choose the Poll you want to edit:");
-define("_ACTIVATECOMMENTS","Activate Comments for this Story?");
-define("_LANGUAGE","Language");
-define("_ANNOUNCEPOLL","Announce this new Survey in your site");
-define("_LEAVEBLANK","(Leave blank to create a new survey without announce it)");
-define("_POLLEDIT","Edit Poll:");
-
-
-?>
+define('_YES', 'Igen');
+define('_NO', 'Nem');
+define('_CATEGORY', 'Kategória');
+define('_SAVECHANGES', 'Változások mentése');
+define('_ARTICLES', 'cikk');
+define('_SELECTTOPIC', 'Válassz témát');
+define('_OPTION', 'Beállítások');
+define('_ADMPOLLS', 'Szavazások');
+define('_TITLE', 'Cím');
+define('_STORYTEXT', 'Bevezető szöveg');
+define('_EXTENDEDTEXT', 'Bővített szöveg');
+define('_PUBLISHINHOME', 'Megjelenjen a főoldalon?');
+define('_ONLYIFCATSELECTED', 'Csak akkor működik, ha nem a <i>Cikkek</i> kategória van kijelölve');
+define('_ADD', 'Hozzáadás');
+define('_POLLSADMIN', 'Szavazások adminisztrálása');
+define('_CREATEPOLL', 'Új szavazás');
+define('_DELETEPOLLS', 'Szavazás törlése');
+define('_POLLTITLE', 'Szavazás címe');
+define('_POLLEACHFIELD', 'Add meg külön mezőben az összes elérhető opciót');
+define('_CREATEPOLLBUT', 'Új szavazás');
+define('_REMOVEEXISTING', 'Létező szavazás törlése');
+define('_POLLDELWARNING', 'FIGYELMEZTETÉS: a kiválasztott szavazás AZONNAL törlődik az adatbázisból!');
+define('_CHOOSEPOLL', 'Válassz egy szavazást az alábbiakból:');
+define('_EDITPOLL', 'Edit Polls');
+define('_CHOOSEPOLLEDIT', 'Choose the Poll you want to edit:');
+define('_ACTIVATECOMMENTS', 'Activate Comments for this Story?');
+define('_LANGUAGE', 'Language');
+define('_ANNOUNCEPOLL', 'Announce this new Survey in your site');
+define('_LEAVEBLANK', '(Leave blank to create a new survey without announce it)');
+define('_POLLEDIT', 'Edit Poll:');

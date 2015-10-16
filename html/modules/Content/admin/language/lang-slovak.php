@@ -17,39 +17,35 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_SEND","Posla?");
-define("_FUNCTIONS","Funkcie");
-define("_YES","Áno");
-define("_NO","Nie");
-define("_CATEGORY","Kategória");
-define("_SAVECHANGES","Uloži? zmeny");
-define("_PAGEBREAK","Ak chcete písa? viac strán, môžete napísa? <b>[--pagebreak--]</b> tam, kde chcete text zalomi?.");
-define("_SIGNATURE","Podpis");
-define("_DESCRIPTION","Popis");
-define("_TITLE","Názov");
-define("_ACTIVE","Aktívny");
-define("_DEACTIVATE","Deaktivova?");
-define("_INACTIVE","Neaktívny");
-define("_ACTIVATE","Aktivova?");
-define("_CONTENT","Obsah");
-define("_ADDCATEGORY","Prida? novú kategóriu");
-define("_EDITCATEGORY","Upravi? kategóriu");
-define("_ADD","Prida?");
-define("_LANGUAGE","Jazyk");
-define("_CONTENTMANAGER","Manažér obsahu");
-define("_DELCONTWARNING","Určite chcete vymaza? túto stránku?");
-define("_DELCONTENT","Vymaza? stránku");
-define("_CURRENTSTATUS","Aktuálny stav");
-define("_ADDANEWPAGE","Prida? stránku");
-define("_CSUBTITLE","Podnadpis");
-define("_HEADERTEXT","Text hlavičky");
-define("_PAGETEXT","Text stránky");
-define("_FOOTERTEXT","Text pätičky");
-define("_ACTIVATEPAGE","Aktivova? túto stránku?");
-define("_EDITPAGECONTENT","Upravi? obsah stránky");
-define("_DELCONTENTCAT","UPOZORNENIE: Určite chcete vymaza? túto kategóriu? Stránky zatriedené v tejto kategótii síce nebudú vymazané, ale dočasne nebudú priradené k žiadnej kategórii!");
-define("_DELCATEGORY","Vymaza? kategóriu");
-
-
-?>
+define('_SEND', 'Posla?');
+define('_FUNCTIONS', 'Funkcie');
+define('_YES', 'Áno');
+define('_NO', 'Nie');
+define('_CATEGORY', 'Kategória');
+define('_SAVECHANGES', 'Uloži? zmeny');
+define('_PAGEBREAK', 'Ak chcete písa? viac strán, môžete napísa? <b>[--pagebreak--]</b> tam, kde chcete text zalomi?.');
+define('_SIGNATURE', 'Podpis');
+define('_DESCRIPTION', 'Popis');
+define('_TITLE', 'Názov');
+define('_ACTIVE', 'Aktívny');
+define('_DEACTIVATE', 'Deaktivova?');
+define('_INACTIVE', 'Neaktívny');
+define('_ACTIVATE', 'Aktivova?');
+define('_CONTENT', 'Obsah');
+define('_ADDCATEGORY', 'Prida? novú kategóriu');
+define('_EDITCATEGORY', 'Upravi? kategóriu');
+define('_ADD', 'Prida?');
+define('_LANGUAGE', 'Jazyk');
+define('_CONTENTMANAGER', 'Manažér obsahu');
+define('_DELCONTWARNING', 'Určite chcete vymaza? túto stránku?');
+define('_DELCONTENT', 'Vymaza? stránku');
+define('_CURRENTSTATUS', 'Aktuálny stav');
+define('_ADDANEWPAGE', 'Prida? stránku');
+define('_CSUBTITLE', 'Podnadpis');
+define('_HEADERTEXT', 'Text hlavičky');
+define('_PAGETEXT', 'Text stránky');
+define('_FOOTERTEXT', 'Text pätičky');
+define('_ACTIVATEPAGE', 'Aktivova? túto stránku?');
+define('_EDITPAGECONTENT', 'Upravi? obsah stránky');
+define('_DELCONTENTCAT', 'UPOZORNENIE: Určite chcete vymaza? túto kategóriu? Stránky zatriedené v tejto kategótii síce nebudú vymazané, ale dočasne nebudú priradené k žiadnej kategórii!');
+define('_DELCATEGORY', 'Vymaza? kategóriu');

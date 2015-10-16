@@ -17,27 +17,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","URL");
-define("_EMAIL","Email");
-define("_REALNAME","Вистинско име");
-define("_FUNCTIONS","Функции");
-define("_PREVIOUS","Претходна страна");
-define("_MEMBERSLIST","Листа на членови");
-define("_GREETINGS","Поздрав до нашиот последен регистриран корисник:");
-define("_SORTBY","Сортирај по:");
-define("_MNICKNAME","прекар (ник)");
-define("_MREALNAME","вистинско име");
-define("_MEMAIL","e-mail");
-define("_MURL","адреса");
-define("_ONLINEREG","Мометално се присутни вкупно членови:");
-define("_WEHAVE","Имаме");
-define("_MREGISTERED","регистрирани членови до сега. Присутни се");
-define("_MREGONLINE","регистрирани членови.");
-define("_REGSOFAR","регистрирани членови до сега.");
-define("_USERSFOUND","пронајдени членови за");
-define("_USERSSHOWN","прикажани корисници");
-define("_NOMEMBERS","Не се најдени членови за");
-define("_PAGES","Страни");
-define("_HOMEPAGE","Домашна страна");
-
-?>
+define('_URL', 'URL');
+define('_EMAIL', 'Email');
+define('_REALNAME', 'Вистинско име');
+define('_FUNCTIONS', 'Функции');
+define('_PREVIOUS', 'Претходна страна');
+define('_MEMBERSLIST', 'Листа на членови');
+define('_GREETINGS', 'Поздрав до нашиот последен регистриран корисник:');
+define('_SORTBY', 'Сортирај по:');
+define('_MNICKNAME', 'прекар (ник)');
+define('_MREALNAME', 'вистинско име');
+define('_MEMAIL', 'e-mail');
+define('_MURL', 'адреса');
+define('_ONLINEREG', 'Мометално се присутни вкупно членови:');
+define('_WEHAVE', 'Имаме');
+define('_MREGISTERED', 'регистрирани членови до сега. Присутни се');
+define('_MREGONLINE', 'регистрирани членови.');
+define('_REGSOFAR', 'регистрирани членови до сега.');
+define('_USERSFOUND', 'пронајдени членови за');
+define('_USERSSHOWN', 'прикажани корисници');
+define('_NOMEMBERS', 'Не се најдени членови за');
+define('_PAGES', 'Страни');
+define('_HOMEPAGE', 'Домашна страна');

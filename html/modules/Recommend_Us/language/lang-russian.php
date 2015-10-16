@@ -24,22 +24,20 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_SEND","Отправить");
-define("_FYOURNAME","Ваше имя:");
-define("_FYOUREMAIL","Ваш E-mail:");
-define("_FFRIENDNAME","Имя Вашего друга:");
-define("_FFRIENDEMAIL","E-mail Вашего друга:");
-define("_HELLO","Привет!");
-define("_YOURFRIEND","Ваш друг");
-define("_RECOMMEND","Рекомендовать этот сайт другу");
-define("_INTSITE","Интересный сайт:");
-define("_OURSITE","мнение о нашем сайте");
-define("_INTSENT","Посчитал интересным и решил отправить его Вам.");
-define("_FSITENAME","Название сайта:");
-define("_FSITEURL","URL сайта:");
-define("_FREFERENCE","Ссылка на наш сайт была отправлена");
-define("_THANKSREC","Спасибо за нашу рекомендацию!");
-define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
-define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
-
-?>
+define('_SEND', 'Отправить');
+define('_FYOURNAME', 'Ваше имя:');
+define('_FYOUREMAIL', 'Ваш E-mail:');
+define('_FFRIENDNAME', 'Имя Вашего друга:');
+define('_FFRIENDEMAIL', 'E-mail Вашего друга:');
+define('_HELLO', 'Привет!');
+define('_YOURFRIEND', 'Ваш друг');
+define('_RECOMMEND', 'Рекомендовать этот сайт другу');
+define('_INTSITE', 'Интересный сайт:');
+define('_OURSITE', 'мнение о нашем сайте');
+define('_INTSENT', 'Посчитал интересным и решил отправить его Вам.');
+define('_FSITENAME', 'Название сайта:');
+define('_FSITEURL', 'URL сайта:');
+define('_FREFERENCE', 'Ссылка на наш сайт была отправлена');
+define('_THANKSREC', 'Спасибо за нашу рекомендацию!');
+define('_SECURITYCODEERROR', '<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:');
+define('_SENDSITEERROR', '<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.');

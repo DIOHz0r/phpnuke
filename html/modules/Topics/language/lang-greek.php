@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_ACTIVETOPICS","Τρέχοντα Ενεργά Θέματα");
-define("_CLICK2LIST","Κάντε κλικ για να εμφανίσετε την λίστα όλων των άρθρων που σχετίζονται με το θέμα αυτό");
-define("_TOTNEWS","Total News");
-define("_TOTREADS","Total Reads");
-define("_MORE","More");
-define("_NONEWSYET","...There aren't any news yet for this topic...");
-
-?>
+define('_ACTIVETOPICS', 'Τρέχοντα Ενεργά Θέματα');
+define('_CLICK2LIST', 'Κάντε κλικ για να εμφανίσετε την λίστα όλων των άρθρων που σχετίζονται με το θέμα αυτό');
+define('_TOTNEWS', 'Total News');
+define('_TOTREADS', 'Total Reads');
+define('_MORE', 'More');
+define('_NONEWSYET', "...There aren't any news yet for this topic...");

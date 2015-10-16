@@ -17,18 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","Претходна страна");
-define("_NEXT","Следна страна");
-define("_PAGE","Страна");
-define("_DEACTIVATE","Деактивирај");
-define("_ACTIVATE","Активирај");
-define("_PUBLISHEDON","Објавено на");
-define("_PAGESLIST","Листа на страници");
-define("_LISTOFCONTENT","Листа на достапни содржини на");
-define("_YOURADMINLIST","Ти си администратор: следува листа на неактивни страни:");
-define("_COPYRIGHT","Copyright &copy; од");
-define("_COPYRIGHT2","Сите права задржани.");
-define("_CONTENTCATEGORIES","Достапни категории");
-define("_NONCLASSCONT","Некласифицирана содржина");
-
-?>
+define('_PREVIOUS', 'Претходна страна');
+define('_NEXT', 'Следна страна');
+define('_PAGE', 'Страна');
+define('_DEACTIVATE', 'Деактивирај');
+define('_ACTIVATE', 'Активирај');
+define('_PUBLISHEDON', 'Објавено на');
+define('_PAGESLIST', 'Листа на страници');
+define('_LISTOFCONTENT', 'Листа на достапни содржини на');
+define('_YOURADMINLIST', 'Ти си администратор: следува листа на неактивни страни:');
+define('_COPYRIGHT', 'Copyright &copy; од');
+define('_COPYRIGHT2', 'Сите права задржани.');
+define('_CONTENTCATEGORIES', 'Достапни категории');
+define('_NONCLASSCONT', 'Некласифицирана содржина');

@@ -24,19 +24,17 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_SEND","Отправить");
-define("_YOURNAME","Ваше имя");
-define("_MESSAGE","Сообщение");
-define("_YOUREMAIL","Ваш E-mail");
-define("_FEEDBACKNOTE","Мы с удовольствием учтем все Ваши замечания и предложения касательно данного сайта. Спасибо!");
-define("_FEEDBACKTITLE","Форма обратной связи");
-define("_FEEDBACK","Обратная связь");
-define("_FBENTERNAME","ОШИБКА: Пожалуйста, введите Ваше имя!");
-define("_FBENTEREMAIL","ОШИБКА: Пожалуйста, введите Ваш E-mail!");
-define("_FBENTERMESSAGE","ОШИБКА: Пожалуйста, введите сообщение!");
-define("_SENDEREMAIL","E-mail Отправителя");
-define("_SENDERNAME","Имя отправителя");
-define("_FBMAILSENT","Сообщение было отправлено!");
-define("_FBTHANKSFORCONTACT","Спасибо за контакт с нами");
-
-?>
+define('_SEND', 'Отправить');
+define('_YOURNAME', 'Ваше имя');
+define('_MESSAGE', 'Сообщение');
+define('_YOUREMAIL', 'Ваш E-mail');
+define('_FEEDBACKNOTE', 'Мы с удовольствием учтем все Ваши замечания и предложения касательно данного сайта. Спасибо!');
+define('_FEEDBACKTITLE', 'Форма обратной связи');
+define('_FEEDBACK', 'Обратная связь');
+define('_FBENTERNAME', 'ОШИБКА: Пожалуйста, введите Ваше имя!');
+define('_FBENTEREMAIL', 'ОШИБКА: Пожалуйста, введите Ваш E-mail!');
+define('_FBENTERMESSAGE', 'ОШИБКА: Пожалуйста, введите сообщение!');
+define('_SENDEREMAIL', 'E-mail Отправителя');
+define('_SENDERNAME', 'Имя отправителя');
+define('_FBMAILSENT', 'Сообщение было отправлено!');
+define('_FBTHANKSFORCONTACT', 'Спасибо за контакт с нами');

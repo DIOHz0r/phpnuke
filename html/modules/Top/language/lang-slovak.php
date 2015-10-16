@@ -31,25 +31,23 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_CATEGORY","Kategória");
-define("_LVOTES","hlasovalo");
-define("_HITS"," krát čítané");
-define("_TOPWELCOME","Vitajte na stránke TOP na");
-define("_READSTORIES","najčítanejších článkov:");
-define("_COMMENTEDSTORIES","najkomentovanejších článkov:");
-define("_ACTIVECAT","najaktívnejších kategórií:");
-define("_READSECTION","najčítanejších článkov v iných oblastiach:");
-define("_NEWSSUBMITTERS","najaktívnejších prispievateľov:");
-define("_NEWSSENT","poslaných noviniek:");
-define("_VOTEDPOLLS","Najnavštevovanejších ankiet");
-define("_MOSTACTIVEAUTHORS","najaktívnejších autorov");
-define("_NEWSPUBLISHED","publikovaných článkov:");
-define("_READREVIEWS","najčítanejších recenzií:");
-define("_DOWNLOADEDFILES","najsťahovanejších súborov:");
-define("_LDOWNLOADS","downloads");
-define("_MOSTREADPAGES","Najčítanejšie strany");
-define("_MOSTVOTEDSTORIES","Najviac hodnotené články");
-define("_POINTS","body");
-define("_BESTRATEDSTORIES","Najlepšie hodnotené články ( minimálne 5 hlasov )");
-
-?>
+define('_CATEGORY', 'Kategória');
+define('_LVOTES', 'hlasovalo');
+define('_HITS', ' krát čítané');
+define('_TOPWELCOME', 'Vitajte na stránke TOP na');
+define('_READSTORIES', 'najčítanejších článkov:');
+define('_COMMENTEDSTORIES', 'najkomentovanejších článkov:');
+define('_ACTIVECAT', 'najaktívnejších kategórií:');
+define('_READSECTION', 'najčítanejších článkov v iných oblastiach:');
+define('_NEWSSUBMITTERS', 'najaktívnejších prispievateľov:');
+define('_NEWSSENT', 'poslaných noviniek:');
+define('_VOTEDPOLLS', 'Najnavštevovanejších ankiet');
+define('_MOSTACTIVEAUTHORS', 'najaktívnejších autorov');
+define('_NEWSPUBLISHED', 'publikovaných článkov:');
+define('_READREVIEWS', 'najčítanejších recenzií:');
+define('_DOWNLOADEDFILES', 'najsťahovanejších súborov:');
+define('_LDOWNLOADS', 'downloads');
+define('_MOSTREADPAGES', 'Najčítanejšie strany');
+define('_MOSTVOTEDSTORIES', 'Najviac hodnotené články');
+define('_POINTS', 'body');
+define('_BESTRATEDSTORIES', 'Najlepšie hodnotené články ( minimálne 5 hlasov )');

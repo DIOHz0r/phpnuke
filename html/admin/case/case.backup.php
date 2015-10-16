@@ -13,15 +13,13 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-switch($op) {
+switch ($op) {
 
-    case "backup":
-    include("admin/modules/backup.php");
+    case 'backup':
+    include 'admin/modules/backup.php';
     break;
- 
-}
 
-?>
+}

@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Dags:");
-define("_PTOPIC","Efnisflokkur:");
-define("_COMESFROM","Þessi grein kemur frá");
-define("_THEURL","Vefslóð þessarar greinar er:");
-define("_DATE","Dags");
-define("_TITLE","Titill");
-
-?>
+define('_PDATE', 'Dags:');
+define('_PTOPIC', 'Efnisflokkur:');
+define('_COMESFROM', 'Þessi grein kemur frá');
+define('_THEURL', 'Vefslóð þessarar greinar er:');
+define('_DATE', 'Dags');
+define('_TITLE', 'Titill');

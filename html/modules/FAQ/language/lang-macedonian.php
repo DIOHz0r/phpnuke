@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Категорија");
-define("_CATEGORIES","Категории");
-define("_FAQ2","ЧПП (Често Поставувани Прашања)");
-define("_BACKTOTOP","На почеток");
-define("_BACKTOFAQINDEX","Назад кон индексот на ЧПП");
-define("_MAIN","Главна");
-define("_QUESTION","Прашање");
-define("_ANSWER","Одговор");
-
-?>
+define('_CATEGORY', 'Категорија');
+define('_CATEGORIES', 'Категории');
+define('_FAQ2', 'ЧПП (Често Поставувани Прашања)');
+define('_BACKTOTOP', 'На почеток');
+define('_BACKTOFAQINDEX', 'Назад кон индексот на ЧПП');
+define('_MAIN', 'Главна');
+define('_QUESTION', 'Прашање');
+define('_ANSWER', 'Одговор');

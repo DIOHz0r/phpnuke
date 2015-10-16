@@ -17,18 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","صفحة للطباعة");
-define("_FRIEND","أرسل هذا المقال لصديق");
-define("_ARTICLES","المقالات");
-define("_USCORE","التقييم");
-define("_DATE","التاريخ");
-define("_SELECTMONTH2VIEW","اختر الشهر للعرض:");
-define("_SHOWALLSTORIES","عرض جميع المقالات");
-define("_STORIESARCHIVE","أرشيف المقالات");
-define("_ACTIONS","العمل");
-define("_ARCHIVESINDEX","محتويات أرشيف المقالات");
-define("_ALLSTORIESARCH","جميع المقالات");
-define("_NEXTPAGE","الصفحة التالية");
-define("_PREVIOUSPAGE","الصفحة السابقة");
-
-?>
+define('_PRINTER', 'صفحة للطباعة');
+define('_FRIEND', 'أرسل هذا المقال لصديق');
+define('_ARTICLES', 'المقالات');
+define('_USCORE', 'التقييم');
+define('_DATE', 'التاريخ');
+define('_SELECTMONTH2VIEW', 'اختر الشهر للعرض:');
+define('_SHOWALLSTORIES', 'عرض جميع المقالات');
+define('_STORIESARCHIVE', 'أرشيف المقالات');
+define('_ACTIONS', 'العمل');
+define('_ARCHIVESINDEX', 'محتويات أرشيف المقالات');
+define('_ALLSTORIESARCH', 'جميع المقالات');
+define('_NEXTPAGE', 'الصفحة التالية');
+define('_PREVIOUSPAGE', 'الصفحة السابقة');

@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","Kategorija");
-define("_CATEGORIES","Kategorije");
-define("_FAQ2","FAQ (Često postavljena vpraanja)");
-define("_BACKTOTOP","Na vrh");
-define("_BACKTOFAQINDEX","Nazaj na FAQ kazalo");
-define("_MAIN","Gl. kazalo");
-define("_QUESTION","Vpraanje");
-define("_ANSWER","Odgovor");
-
-?>
+define('_CATEGORY', 'Kategorija');
+define('_CATEGORIES', 'Kategorije');
+define('_FAQ2', 'FAQ (Često postavljena vpraanja)');
+define('_BACKTOTOP', 'Na vrh');
+define('_BACKTOFAQINDEX', 'Nazaj na FAQ kazalo');
+define('_MAIN', 'Gl. kazalo');
+define('_QUESTION', 'Vpraanje');
+define('_ANSWER', 'Odgovor');

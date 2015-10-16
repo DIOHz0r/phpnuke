@@ -17,18 +17,16 @@
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define("_PREVIOUS","Önceki Sayfa");
-define("_NEXT","Sonraki Sayfa");
-define("_PAGE","Sayfa");
-define("_DEACTIVATE","Pasifleştir");
-define("_ACTIVATE","Etkinleştir");
-define("_PUBLISHEDON","Yayınlanma:");
-define("_PAGESLIST","Sayfa Listesi");
-define("_LISTOFCONTENT","İçerik Listesi:");
-define("_YOURADMINLIST","Yöneticisiniz: Pasif sayfaların listesi aşağıdadır:");
-define("_COPYRIGHT","Copyright &copy;");
-define("_COPYRIGHT2","Tüm hakları saklıdır.");
-define("_CONTENTCATEGORIES","İçerik Kategorileri");
-define("_NONCLASSCONT","Kategorize Edilmemiş İçerik");
-
-?>
+define('_PREVIOUS', 'Önceki Sayfa');
+define('_NEXT', 'Sonraki Sayfa');
+define('_PAGE', 'Sayfa');
+define('_DEACTIVATE', 'Pasifleştir');
+define('_ACTIVATE', 'Etkinleştir');
+define('_PUBLISHEDON', 'Yayınlanma:');
+define('_PAGESLIST', 'Sayfa Listesi');
+define('_LISTOFCONTENT', 'İçerik Listesi:');
+define('_YOURADMINLIST', 'Yöneticisiniz: Pasif sayfaların listesi aşağıdadır:');
+define('_COPYRIGHT', 'Copyright &copy;');
+define('_COPYRIGHT2', 'Tüm hakları saklıdır.');
+define('_CONTENTCATEGORIES', 'İçerik Kategorileri');
+define('_NONCLASSCONT', 'Kategorize Edilmemiş İçerik');

@@ -33,19 +33,18 @@
     /* by sixonetonoffun -- http://www.netflake.com --                      */
     /* Images Created by GanjaUK -- http://www.GanjaUK.com                  */
     /************************************************************************/
-if ( !defined('MODULE_FILE') )
-{
-	die("You can't access this file directly...");
+if (!defined('MODULE_FILE')) {
+    die("You can't access this file directly...");
 }
-    require_once("mainfile.php");
+    require_once 'mainfile.php';
     $module_name = basename(dirname(__FILE__));
     get_lang($module_name);
 
     /* User Settings */
-    $debug = "false";
+    $debug = 'false';
 
     /* Change Smiles Path Here */
-    $jsmiles = "./modules/Journal/images/moods";
+    $jsmiles = './modules/Journal/images/moods';
 
     /* KSES array see KSES readme to tweak settings */
     $allowed_protocols = array('http', 'https', 'ftp', 'news', 'nntp', 'telnet', 'gopher', 'mailto');
@@ -63,49 +62,51 @@ if ( !defined('MODULE_FILE') )
         'li' => array(),
         'ol' => array(),
         'a' => array('href' => 1, 'target' => 1,
-        'title' => array('minlen' => 4, 'maxlen' => 120)),
+        'title' => array('minlen' => 4, 'maxlen' => 120), ),
         'font' => array('face' => 1, 'style' => 1, 'color' => 1,
-        'size' => array('minval' => 1, 'maxval' => 7)),
+        'size' => array('minval' => 1, 'maxval' => 7), ),
         'p' => array('align' => 1),
         'b' => array(),
         'i' => array(),
         'u' => array(),
         'em' => array(),
-        'br' => array());
+        'br' => array(), );
     // End KSES Options
-    function ADVT_stripslashes($text ) {
-        if (get_magic_quotes_gpc() == 1 ) {
-            return(filter($text, "nohtml"));
+    function ADVT_stripslashes($text)
+    {
+        if (get_magic_quotes_gpc() == 1) {
+            return(filter($text, 'nohtml'));
         }
-        return($text );
+
+        return($text);
     }
-    function journalfoot() {
-        include("footer.php");
+    function journalfoot()
+    {
+        include 'footer.php';
     }
-    function startjournal($sitename, $user) {
+    function startjournal($sitename, $user)
+    {
         global $module_name;
-        $user = filter($user, "nohtml");
-        $sitename = filter($sitename, "nohtml");
+        $user = filter($user, 'nohtml');
+        $sitename = filter($sitename, 'nohtml');
         if (is_user($user)) {
-            $j_user1 = "<center>[ <a href=\"modules.php?name=$module_name\">"._JOURNALDIR."</a> | <a href=\"modules.php?name=$module_name&file=edit\">"._YOURJOURNAL."</a> ]</center>";
-            $j_user2 = "";
+            $j_user1 = "<center>[ <a href=\"modules.php?name=$module_name\">"._JOURNALDIR."</a> | <a href=\"modules.php?name=$module_name&file=edit\">"._YOURJOURNAL.'</a> ]</center>';
+            $j_user2 = '';
         } else {
-            $j_user1 = "<center>[ <a href=\"modules.php?name=$module_name\">"._JOURNALDIR."</a> | <a href=\"modules.php?name=Your_Account&op=new_user\">"._CREATEACCOUNT."</a> ]</center>";
-            $j_user2 = "<br><center><font class=\"tiny\">"._MEMBERSCAN."</font></center>";
+            $j_user1 = "<center>[ <a href=\"modules.php?name=$module_name\">"._JOURNALDIR.'</a> | <a href="modules.php?name=Your_Account&op=new_user">'._CREATEACCOUNT.'</a> ]</center>';
+            $j_user2 = '<br><center><font class="tiny">'._MEMBERSCAN.'</font></center>';
         }
-        title("$sitename: "._USERSJOURNAL."");
+        title("$sitename: "._USERSJOURNAL.'');
         if (is_user($user)) {
-            include("modules/Your_Account/navbar.php");
+            include 'modules/Your_Account/navbar.php';
             OpenTable();
             nav();
             CloseTable();
-            echo "<br>";
+            echo '<br>';
         }
         OpenTable();
-        echo "<center><img src=modules/$module_name/images/bgimage.gif><br><font class=title><b>"._USERSJOURNAL."</b></font></center>";
+        echo "<center><img src=modules/$module_name/images/bgimage.gif><br><font class=title><b>"._USERSJOURNAL.'</b></font></center>';
         echo "$j_user1";
         echo "$j_user2";
         CloseTable();
     }
-
-?>

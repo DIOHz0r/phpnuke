@@ -24,13 +24,11 @@
 /*         15.03.2004                                                     */
 /**************************************************************************/
 
-define("_CATEGORY","Категория");
-define("_CATEGORIES","Категории");
-define("_FAQ2","ЧаВо (Часто задаваемые Вопросы)");
-define("_BACKTOTOP","Вернуться наверх");
-define("_BACKTOFAQINDEX","Вернуться к индексу ЧаВо");
-define("_MAIN","Главная");
-define("_QUESTION","Вопрос");
-define("_ANSWER","Ответ");
-
-?>
+define('_CATEGORY', 'Категория');
+define('_CATEGORIES', 'Категории');
+define('_FAQ2', 'ЧаВо (Часто задаваемые Вопросы)');
+define('_BACKTOTOP', 'Вернуться наверх');
+define('_BACKTOFAQINDEX', 'Вернуться к индексу ЧаВо');
+define('_MAIN', 'Главная');
+define('_QUESTION', 'Вопрос');
+define('_ANSWER', 'Ответ');

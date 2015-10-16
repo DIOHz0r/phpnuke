@@ -13,23 +13,21 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-$module_name = "Your_Account";
-include_secure("modules/$module_name/admin/language/lang-".$currentlang.".php");
+$module_name = 'Your_Account';
+include_secure("modules/$module_name/admin/language/lang-".$currentlang.'.php');
 
-switch($op) {
+switch ($op) {
 
-    case "mod_users":
-    case "modifyUser":
-    case "updateUser":
-    case "delUser":
-    case "delUserConf":
-    case "addUser":
-    include("modules/$module_name/admin/index.php");
+    case 'mod_users':
+    case 'modifyUser':
+    case 'updateUser':
+    case 'delUser':
+    case 'delUserConf':
+    case 'addUser':
+    include "modules/$module_name/admin/index.php";
     break;
 
 }
-
-?>

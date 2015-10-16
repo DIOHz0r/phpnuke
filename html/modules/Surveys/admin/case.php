@@ -13,25 +13,23 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-$module_name = "Surveys";
-include_secure("modules/$module_name/admin/language/lang-".$currentlang.".php");
+$module_name = 'Surveys';
+include_secure("modules/$module_name/admin/language/lang-".$currentlang.'.php');
 
-switch($op) {
+switch ($op) {
 
-    case "create":
-    case "createPosted":
-    case "ChangePoll":
-    case "remove":
-    case "removePosted":
-    case "polledit":
-    case "savepoll":
-    case "polledit_select":
-    include("modules/$module_name/admin/index.php");
+    case 'create':
+    case 'createPosted':
+    case 'ChangePoll':
+    case 'remove':
+    case 'removePosted':
+    case 'polledit':
+    case 'savepoll':
+    case 'polledit_select':
+    include "modules/$module_name/admin/index.php";
     break;
 
 }
-
-?>

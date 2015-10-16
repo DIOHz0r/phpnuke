@@ -13,20 +13,18 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-switch($op) {
+switch ($op) {
 
-    case "newsletter":
-    case "newsletter_send":
-    case "newsletter_sent":
-    case "massmail_send":
-    case "massmail_sent":
-    case "check_type":
-    include("admin/modules/newsletter.php");
+    case 'newsletter':
+    case 'newsletter_send':
+    case 'newsletter_sent':
+    case 'massmail_send':
+    case 'massmail_sent':
+    case 'check_type':
+    include 'admin/modules/newsletter.php';
     break;
 
 }
-
-?>

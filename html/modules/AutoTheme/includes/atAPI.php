@@ -22,55 +22,55 @@
 //
 // ----------------------------------------------------------------------
 
-define('AUTOTHEME_DEBUG_ENABLED', FALSE);
+define('AUTOTHEME_DEBUG_ENABLED', false);
 
-define('AUTOTHEME_API_LOADED', TRUE);
+define('AUTOTHEME_API_LOADED', true);
 define('STARTPHP', str_replace('&lt;', '<', '&lt;?php'));
 define('ENDPHP', str_replace('&gt;', '>', '?&gt;'));
 
 function atInit($atdir, $thename)
 {
-	atThemeInit($thename);
+    atThemeInit($thename);
 }
 
-function atAPIInit($force=FALSE)
+function atAPIInit($force = false)
 {
-	atErrorCheck();
+    atErrorCheck();
 
-	if (defined('AUTOTHEME_API_INITIALIZED') && !$force) {
+    if (defined('AUTOTHEME_API_INITIALIZED') && !$force) {
         return atGetGlobalConfig();
     }
-    define('AUTOTHEME_API_INITIALIZED', TRUE);
+    define('AUTOTHEME_API_INITIALIZED', true);
 
     unset($GLOBALS['AT_AUTO']);
     unset($GLOBALS['AT_THEME']);
     unset($GLOBALS['AT_RUNNING']);
 
-    define ('_ATDIR', dirname(dirname(__FILE__))."/");
+    define('_ATDIR', dirname(dirname(__FILE__)).'/');
     $atdir = _ATDIR;
-    $incdir = $atdir."includes/";
-    $extradir = $atdir."extras/";
-    $compiledir = $atdir."_compile/";
-    $cachedir = $atdir."_cache/";
+    $incdir = $atdir.'includes/';
+    $extradir = $atdir.'extras/';
+    $compiledir = $atdir.'_compile/';
+    $cachedir = $atdir.'_cache/';
     $platform = atGetPlatform();
     $platformdir = $incdir."$platform/";
-    $atpath = "modules/AutoTheme/";
+    $atpath = 'modules/AutoTheme/';
 
-    include_secure($platformdir."atAPI.php");
+    include_secure($platformdir.'atAPI.php');
 
     $platformconfig = atPlatformAPIInit($atdir);
     extract($platformconfig);
 
     atLoadAutoConfig($atdir);
 
-    atAutoSetVar("atdir", $atdir);
-    atAutoSetVar("incdir", $incdir);
-    atAutoSetVar("extradir", $extradir);
-    atAutoSetVar("compiledir", $compiledir);
-    atAutoSetVar("cachedir", $cachedir);
-    atAutoSetVar("platform", $platform);
-    atAutoSetVar("platformdir", $platformdir);
-    atAutoSetVar("atpath", $atpath);
+    atAutoSetVar('atdir', $atdir);
+    atAutoSetVar('incdir', $incdir);
+    atAutoSetVar('extradir', $extradir);
+    atAutoSetVar('compiledir', $compiledir);
+    atAutoSetVar('cachedir', $cachedir);
+    atAutoSetVar('platform', $platform);
+    atAutoSetVar('platformdir', $platformdir);
+    atAutoSetVar('atpath', $atpath);
 
     atModLangLoad('user');
 
@@ -79,14 +79,14 @@ function atAPIInit($force=FALSE)
     return atGetGlobalConfig();
 }
 
-function atThemeInit($thename, $force=FALSE)
+function atThemeInit($thename, $force = false)
 {
-	atErrorCheck();
+    atErrorCheck();
 
     if (defined('AUTOTHEME_THEME_INITIALIZED') && !$force) {
         return atGetRunningConfig();
     }
-    define('AUTOTHEME_THEME_INITIALIZED', TRUE);
+    define('AUTOTHEME_THEME_INITIALIZED', true);
 
     $globalconfig = atAPIInit();
     extract($globalconfig);
@@ -96,17 +96,17 @@ function atThemeInit($thename, $force=FALSE)
 
     $lang = atGetLang();
     $themepath = $multipath."themes/$thename/";
-    $imagepath = $themepath."images/";
+    $imagepath = $themepath.'images/';
     $imagelangpath = $imagepath."$lang/";
 
-    atThemeSetVar("lang", $lang);
-    atThemeSetVar("thename", $thename);
-    atThemeSetVar("themepath", $themepath);
-    atThemeSetVar("imagepath", $imagepath);
-    atThemeSetVar("imagelangpath", $imagelangpath);
-    atThemeSetVar("multipath", $multipath);
+    atThemeSetVar('lang', $lang);
+    atThemeSetVar('thename', $thename);
+    atThemeSetVar('themepath', $themepath);
+    atThemeSetVar('imagepath', $imagepath);
+    atThemeSetVar('imagelangpath', $imagelangpath);
+    atThemeSetVar('multipath', $multipath);
 
-    include_secure($platformdir."atFuncs.php");
+    include_secure($platformdir.'atFuncs.php');
 
     atLoadThemeConfig($themepath);
     atThemeLangLoad($themepath);
@@ -116,18 +116,18 @@ function atThemeInit($thename, $force=FALSE)
     $extra = $runningconfig['extra'];
 
     if (isset($extra)) {
-    	ob_start();
-    	foreach ($extra as $name) {
-    		if (isset($name['themeinit'])) {
-    			$func = $name['themeinit'];
-    			if (function_exists("$func")) {
-    				$func($runningconfig);
-    			}
-    		}
-    	}
-    	ob_end_clean();
+        ob_start();
+        foreach ($extra as $name) {
+            if (isset($name['themeinit'])) {
+                $func = $name['themeinit'];
+                if (function_exists("$func")) {
+                    $func($runningconfig);
+                }
+            }
+        }
+        ob_end_clean();
     }
-    include_secure($incdir."atExtended.php");
+    include_secure($incdir.'atExtended.php');
 
     atExtendedInit();
 
@@ -141,12 +141,12 @@ function atAdminInit()
     if (defined('AUTOTHEME_ADMIN_INITIALIZED')) {
         return atGetGlobalConfig();
     }
-    define('AUTOTHEME_ADMIN_INITIALIZED', TRUE);
+    define('AUTOTHEME_ADMIN_INITIALIZED', true);
 
     $globalconfig = atAPIInit();
     extract($globalconfig);
 
-    include_secure($platformdir."atAdmin.php");
+    include_secure($platformdir.'atAdmin.php');
 
     $platformconfig = atPlatformAdminInit();
     extract($platformconfig);
@@ -159,7 +159,7 @@ function atAdminInit()
 
 function atLoadRunningConfig()
 {
-	$globalconfig = atGetGlobalConfig();
+    $globalconfig = atGetGlobalConfig();
     extract($globalconfig);
 
     atRunningMultiSetVars($globalconfig);
@@ -168,32 +168,32 @@ function atLoadRunningConfig()
     $modtemplate = atTemplateGetType($template);
 
     atLoadCommands();
-    atRunningSetVar("command", atGetCommands());
+    atRunningSetVar('command', atGetCommands());
 
-    atRunningSetVar("atdir", $atdir);
-    atRunningSetVar("incdir", $incdir);
-    atRunningSetVar("extradir", $extradir);
-    atRunningSetVar("compiledir", $compiledir);
-    atRunningSetVar("platform", $platform);
-    atRunningSetVar("platformdir", $platformdir);
-    atRunningSetVar("thename", $thename);
-    atRunningSetVar("themepath", $themepath);
-    atRunningSetVar("imagepath", $imagepath);
-    atRunningSetVar("imagelangpath", $imagelangpath);
-    atRunningSetVar("imgpath", $imagepath);
-    atRunningSetVar("multipath", $multipath);
-    atRunningSetVar("modname", $modname);
-    atRunningSetVar("modtemplate", $modtemplate);
-    atRunningSetVar("language", atGetLang());
-    atRunningSetVar("modtype", atGetModType());
-    atRunningSetVar("username", atGetUserName());
-    atRunningSetVar("is_loggedin", atIsLoggedIn());
-    atRunningSetVar("is_admin", atIsAdminUser());
-    atRunningSetVar("is_home", atIsHomePage());
+    atRunningSetVar('atdir', $atdir);
+    atRunningSetVar('incdir', $incdir);
+    atRunningSetVar('extradir', $extradir);
+    atRunningSetVar('compiledir', $compiledir);
+    atRunningSetVar('platform', $platform);
+    atRunningSetVar('platformdir', $platformdir);
+    atRunningSetVar('thename', $thename);
+    atRunningSetVar('themepath', $themepath);
+    atRunningSetVar('imagepath', $imagepath);
+    atRunningSetVar('imagelangpath', $imagelangpath);
+    atRunningSetVar('imgpath', $imagepath);
+    atRunningSetVar('multipath', $multipath);
+    atRunningSetVar('modname', $modname);
+    atRunningSetVar('modtemplate', $modtemplate);
+    atRunningSetVar('language', atGetLang());
+    atRunningSetVar('modtype', atGetModType());
+    atRunningSetVar('username', atGetUserName());
+    atRunningSetVar('is_loggedin', atIsLoggedIn());
+    atRunningSetVar('is_admin', atIsAdminUser());
+    atRunningSetVar('is_home', atIsHomePage());
 
     /* 1.7 cfg */
     if (isset($template[$modtemplate]['default'])) {
-        $modops = "default";
+        $modops = 'default';
         $matchlen = 0;
         if ($_SERVER['QUERY_STRING']) {
             foreach ($template[$modtemplate] as $ops => $vals) {
@@ -203,17 +203,17 @@ function atLoadRunningConfig()
                 }
             }
         }
-        $template = array_merge((array)$template['default'], (array)$template[$modtemplate][$modops]);
-        $blockdisplay = array_merge((array)$blockdisplay['default'], (array)$blockdisplay[$modtemplate][$modops]);
-        $style = array_merge((array)$style['default'], (array)$style[$modtemplate][$modops]);
-       	$blocktemplate = array_merge((array)$blocktemplate['default'], (array)$blocktemplate[$modtemplate][$modops]);
-       	$blockcontrol = array_merge((array)$blockcontrol['default'], (array)$blockcontrol[$modtemplate][$modops]);
+        $template = array_merge((array) $template['default'], (array) $template[$modtemplate][$modops]);
+        $blockdisplay = array_merge((array) $blockdisplay['default'], (array) $blockdisplay[$modtemplate][$modops]);
+        $style = array_merge((array) $style['default'], (array) $style[$modtemplate][$modops]);
+        $blocktemplate = array_merge((array) $blocktemplate['default'], (array) $blocktemplate[$modtemplate][$modops]);
+        $blockcontrol = array_merge((array) $blockcontrol['default'], (array) $blockcontrol[$modtemplate][$modops]);
     }
     /* 1.0 cfg */
     elseif (isset($template[$modtemplate])) {
-        $template = array_merge((array)$template['default'], (array)$template[$modtemplate]);
-        $blockdisplay = array_merge((array)$blockdisplay['default'], (array)$blockdisplay[$modtemplate]);
-        $style = array_merge((array)$style['default'], (array)$style[$modtemplate]);
+        $template = array_merge((array) $template['default'], (array) $template[$modtemplate]);
+        $blockdisplay = array_merge((array) $blockdisplay['default'], (array) $blockdisplay[$modtemplate]);
+        $style = array_merge((array) $style['default'], (array) $style[$modtemplate]);
     }
     /* No custom module */
     elseif (!isset($template[$modtemplate])) {
@@ -228,47 +228,46 @@ function atLoadRunningConfig()
         }
     }
     if (!$modops) {
-    	$modops = "default";
+        $modops = 'default';
     }
-    atRunningSetVar("modops", $modops);
+    atRunningSetVar('modops', $modops);
 
-    if (eregi("xhtml", $template['dtd'])) {
-		$xhtml = 1;
-	}
-	else {
-		$xhtml = 0;
-	}
-	atRunningSetVar("xhtml", $xhtml);
+    if (eregi('xhtml', $template['dtd'])) {
+        $xhtml = 1;
+    } else {
+        $xhtml = 0;
+    }
+    atRunningSetVar('xhtml', $xhtml);
 
     extract($style);
 
-    atRunningSetVar("logoimg", $logoimg);
-    atRunningSetVar("bgcolor1", $color1);
-    atRunningSetVar("bgcolor2", $color2);
-    atRunningSetVar("bgcolor3", $color3);
-    atRunningSetVar("bgcolor4", $color4);
-    atRunningSetVar("textcolor1", $color5);
-    atRunningSetVar("textcolor2", $color6);
-    atRunningSetVar("tblcolor1", $color7);
-    atRunningSetVar("tblcolor2", $color8);
-    atRunningSetVar("tblcolor3", $color9);
-    atRunningSetVar("tblcolor4", $color10);
-    atRunningSetVar("striphead", $striphead);
+    atRunningSetVar('logoimg', $logoimg);
+    atRunningSetVar('bgcolor1', $color1);
+    atRunningSetVar('bgcolor2', $color2);
+    atRunningSetVar('bgcolor3', $color3);
+    atRunningSetVar('bgcolor4', $color4);
+    atRunningSetVar('textcolor1', $color5);
+    atRunningSetVar('textcolor2', $color6);
+    atRunningSetVar('tblcolor1', $color7);
+    atRunningSetVar('tblcolor2', $color8);
+    atRunningSetVar('tblcolor3', $color9);
+    atRunningSetVar('tblcolor4', $color10);
+    atRunningSetVar('striphead', $striphead);
 
     $runningconfig = compact(
-        "template",
-        "blockdisplay",
-        "style",
-        "blocktemplate",
-        "blockcontrol",
-        "themeversion",
-        "autoblock",
-        "autolang"
+        'template',
+        'blockdisplay',
+        'style',
+        'blocktemplate',
+        'blockcontrol',
+        'themeversion',
+        'autoblock',
+        'autolang'
     );
 
     atRunningMultiSetVars($runningconfig);
     atRunningMultiSetVars(atGetLangVars());
-    atRunningSetVar("blocklist", atGetBlockConfig());
+    atRunningSetVar('blocklist', atGetBlockConfig());
 
     return atGetRunningConfig();
 }
@@ -278,10 +277,11 @@ function atGetLangVars()
     $const = get_defined_constants();
 
     foreach ($const as $k => $v) {
-        if ($k[0] == "_") {
+        if ($k[0] == '_') {
             $result["LANG$k"] = $v;
         }
     }
+
     return $result;
 }
 
@@ -289,42 +289,43 @@ function atTemplateGetType($template)
 {
     if (atIsHomePage()) {
         if (isset($template['pnHome'])) {
-            $type = "pnHome";
+            $type = 'pnHome';
         }
         if (isset($template['nukeHome'])) {
-            $type = "nukeHome";
+            $type = 'nukeHome';
         }
         if (isset($template['*HomePage'])) {
-            $type = "*HomePage";
+            $type = '*HomePage';
         }
     }
     $modtype = atGetModType();
 
-    if ($modtype == "admin") {
+    if ($modtype == 'admin') {
         if (isset($template['pnAdmin'])) {
-            $type = "pnAdmin";
+            $type = 'pnAdmin';
         }
         if (isset($template['nukeAdmin'])) {
-            $type = "nukeAdmin";
+            $type = 'nukeAdmin';
         }
         if (isset($template['*AdminPages'])) {
-            $type = "*AdminPages";
+            $type = '*AdminPages';
         }
     }
-    if ($modtype == "user") {
+    if ($modtype == 'user') {
         if (isset($template['pnUser'])) {
-            $type = "pnUser";
+            $type = 'pnUser';
         }
         if (isset($template['nukeUser'])) {
-            $type = "nukeUser";
+            $type = 'nukeUser';
         }
         if (isset($template['*UserPages'])) {
-            $type = "*UserPages";
+            $type = '*UserPages';
         }
     }
     if (!isset($type)) {
         $type = atGetModName();
     }
+
     return $type;
 }
 
@@ -335,14 +336,13 @@ function atGetCommands()
 
     if (atIsLoggedIn()) {
         $result = $command['loggedin'];
-    }
-    else {
+    } else {
         $result = $command['anonymous'];
     }
     if (atIsAdminUser()) {
-        $result = array_merge((array)$result, (array)$command['admin']);
+        $result = array_merge((array) $result, (array) $command['admin']);
     }
-    $result = array_merge((array)$command['all'], (array)$result);
+    $result = array_merge((array) $command['all'], (array) $result);
 
     return $result;
 }
@@ -352,40 +352,40 @@ function atLoadCommands()
     $globalconfig = atGetGlobalConfig();
     extract($globalconfig);
 
-    require($incdir."atCommands.php");
-    require($platformdir."atCommands.php");
+    require $incdir.'atCommands.php';
+    require $platformdir.'atCommands.php';
 
     $extracmd = atLoadExtraCommands($extradir);
 
     $result['admin'] = array_merge(
-            (array)$command['admin'],
-            (array)$platformcmd['admin'],
-            (array)$extracmd['admin'],
-            (array)$autocmd['admin'],
-            (array)$themecmd['admin']);
+            (array) $command['admin'],
+            (array) $platformcmd['admin'],
+            (array) $extracmd['admin'],
+            (array) $autocmd['admin'],
+            (array) $themecmd['admin']);
 
     $result['all'] = array_merge(
-            (array)$command['all'],
-            (array)$platformcmd['all'],
-            (array)$extracmd['all'],
-            (array)$autocmd['all'],
-            (array)$themecmd['all']);
+            (array) $command['all'],
+            (array) $platformcmd['all'],
+            (array) $extracmd['all'],
+            (array) $autocmd['all'],
+            (array) $themecmd['all']);
 
     $result['anonymous'] = array_merge(
-            (array)$command['anonymous'],
-            (array)$platformcmd['anonymous'],
-            (array)$extracmd['anonymous'],
-            (array)$autocmd['anonymous'],
-            (array)$themecmd['anonymous']);
+            (array) $command['anonymous'],
+            (array) $platformcmd['anonymous'],
+            (array) $extracmd['anonymous'],
+            (array) $autocmd['anonymous'],
+            (array) $themecmd['anonymous']);
 
     $result['loggedin'] = array_merge(
-            (array)$command['loggedin'],
-            (array)$platformcmd['loggedin'],
-            (array)$extracmd['loggedin'],
-            (array)$autocmd['loggedin'],
-            (array)$themecmd['loggedin']);
+            (array) $command['loggedin'],
+            (array) $platformcmd['loggedin'],
+            (array) $extracmd['loggedin'],
+            (array) $autocmd['loggedin'],
+            (array) $themecmd['loggedin']);
 
-    atAutoSetVar("command", $result);
+    atAutoSetVar('command', $result);
 
     return $result;
 }
@@ -395,7 +395,7 @@ function atCommandAdd($name, $command)
     $GLOBALS['AT_RUNNING']['command'][$name] = $command;
 }
 
-function atCommandMultiAdd($commands, $prefix="")
+function atCommandMultiAdd($commands, $prefix = '')
 {
     foreach ($commands as $key => $val) {
         /* atCommandAdd("$key", 'echo $'.$prefix.'["'.$key.'"];'); */
@@ -403,7 +403,7 @@ function atCommandMultiAdd($commands, $prefix="")
     }
 }
 
-function atCommandReturn($commands, $prefix="")
+function atCommandReturn($commands, $prefix = '')
 {
     if (!$prefix) {
         $prefix = strtolower(atGetModName());
@@ -413,16 +413,17 @@ function atCommandReturn($commands, $prefix="")
     foreach ($commands as $key => $val) {
         $cmd["$prefix:$key"] = 'echo $'.$prefix.'["'.$key.'"];';
     }
+
     return $cmd;
 }
 
-function atCommandBuild($commands, $prefix="")
+function atCommandBuild($commands, $prefix = '')
 {
     $cmd = atCommandReturn($commands, $prefix);
     atCommandMultiAdd($cmd, $prefix);
 }
 
-function atCommandReplace($tmpcontent, $commands=array())
+function atCommandReplace($tmpcontent, $commands = array())
 {
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
@@ -431,15 +432,15 @@ function atCommandReplace($tmpcontent, $commands=array())
     $replace = STARTPHP.' for(\$i=0; \$i<count(\$$1["$2"]); \$i++) { eval(\''.ENDPHP.'$3\'); } '.ENDPHP;
     $tmpcontent = preg_replace($search, $replace, $tmpcontent); */
 
-    $commands = array_merge((array)$command, (array)$commands);
+    $commands = array_merge((array) $command, (array) $commands);
 
     foreach ($commands as $cmd => $action) {
         $search = array(
             "<!-- [$cmd] -->",
             "<!--[$cmd]-->",
-            "<!-- {".$cmd."} -->",
-            "<!--{".$cmd."}-->",
-            "{".$cmd."}",
+            '<!-- {'.$cmd.'} -->',
+            '<!--{'.$cmd.'}-->',
+            '{'.$cmd.'}',
         );
 
         $replace = STARTPHP." $action ".ENDPHP;
@@ -449,14 +450,15 @@ function atCommandReplace($tmpcontent, $commands=array())
         $search = array(
             "<!-- [$cmd] -->",
             "<!--[$cmd]-->",
-            "<!-- {".$cmd."} -->",
-            "<!--{".$cmd."}-->",
-            "{".$cmd."}",
+            '<!-- {'.$cmd.'} -->',
+            '<!--{'.$cmd.'}-->',
+            '{'.$cmd.'}',
         );
         $replace = STARTPHP." echo \$$cmd; ".ENDPHP;
 
         $tmpcontent = str_replace($search, $replace, $tmpcontent);
     }
+
     return $tmpcontent;
 }
 
@@ -467,39 +469,36 @@ function atTemplateRead($file)
     return $HTML;
 }
 
-function atTemplatePrep($filename, $striphead=1, $complete=0)
+function atTemplatePrep($filename, $striphead = 1, $complete = 0)
 {
     if (defined('AUTOTHEME_DEBUG_ENABLED') && AUTOTHEME_DEBUG_ENABLED) {
         if (is_dir($filename)) {
             return _AT_TEMPLATENOTDEFINED;
-        }
-        elseif (!is_file($filename)) {
+        } elseif (!is_file($filename)) {
             return _AT_TEMPLATENOTFOUND.": $filename<br />";
         }
     }
     $HTML = atTemplateRead($filename);
 
     if (!$complete) {
-    	$parts = spliti('\<\/head\>', $HTML);
+        $parts = spliti('\<\/head\>', $HTML);
 
-    	if (isset($parts[1])) {
-	        $HTML = $parts[1];
-	        $head = $parts[0];
-	    }
-	    else {
-	        $HTML = $parts[0];
-	        $head = "";
-	    }
-    	if (!$striphead && $head) {
-    		$head = spliti('\<head\>', $head);
-    		$head = trim($head[1]);
-    		$HTML = "\n<!-- Head from template -->\n$head\n\n</head>\n$HTML\n";
-    	}
-    	elseif($head) {
-    	    $HTML = "</head>\n$HTML\n";
-    	}
-	    $HTML = spliti('\<\/body\>', $HTML);
-	    $HTML = $HTML[0];
+        if (isset($parts[1])) {
+            $HTML = $parts[1];
+            $head = $parts[0];
+        } else {
+            $HTML = $parts[0];
+            $head = '';
+        }
+        if (!$striphead && $head) {
+            $head = spliti('\<head\>', $head);
+            $head = trim($head[1]);
+            $HTML = "\n<!-- Head from template -->\n$head\n\n</head>\n$HTML\n";
+        } elseif ($head) {
+            $HTML = "</head>\n$HTML\n";
+        }
+        $HTML = spliti('\<\/body\>', $HTML);
+        $HTML = $HTML[0];
     }
     $HTML = trim($HTML);
 
@@ -526,10 +525,9 @@ function atModLangLoad($type)
     $lang = atGetLang();
 
     if (@file_exists(_ATDIR."/lang/$lang/$type.php")) {
-        @include(_ATDIR."lang/$lang/$type.php");
-    }
-    else {
-        @include(_ATDIR."lang/eng/$type.php");
+        @include _ATDIR."lang/$lang/$type.php";
+    } else {
+        @include _ATDIR."lang/eng/$type.php";
     }
 }
 
@@ -538,10 +536,9 @@ function atThemeLangLoad($themepath)
     $lang = atGetLang();
 
     if (@file_exists("$themepath/lang/$lang/global.php")) {
-        @include("$themepath/lang/$lang/global.php");
-    }
-    else {
-        @include("$themepath/lang/eng/global.php");
+        @include "$themepath/lang/$lang/global.php";
+    } else {
+        @include "$themepath/lang/eng/global.php";
     }
 }
 
@@ -551,11 +548,13 @@ function atExportVar($var)
         foreach ($var as $k => $v) {
             $result[atExportVar($k)] = atExportVar($v);
         }
+
         return $result;
     }
     if (get_magic_quotes_gpc()) {
         $var = stripslashes($var);
     }
+
     return $var;
 }
 
@@ -566,9 +565,9 @@ function atDisplayVar($var)
 
 function atLoadAutoConfig($path)
 {
-    @include($path."/autotheme.cfg");
+    @include $path.'/autotheme.cfg';
 
-    $autoconfig = compact("cmsoption", "cache", "cache_expire", "autotheme", "autoblock", "autolang", "autocmd", "autoextra");
+    $autoconfig = compact('cmsoption', 'cache', 'cache_expire', 'autotheme', 'autoblock', 'autolang', 'autocmd', 'autoextra');
 
     foreach ($autoextra as $k => $v) {
         if (isset($$k)) {
@@ -584,8 +583,7 @@ function atGetAutoConfig()
 {
     if (isset($GLOBALS['AT_AUTO'])) {
         return $GLOBALS['AT_AUTO'];
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -599,27 +597,26 @@ function atAutoMultiSetVars($vars)
 
 function atAutoSetVar($name, $val)
 {
-	$GLOBALS['AT_AUTO'][$name] = $val;
+    $GLOBALS['AT_AUTO'][$name] = $val;
 }
 
 function atAutoGetVar($var)
 {
     if (isset($GLOBALS['AT_AUTO'][$var])) {
         return $GLOBALS['AT_AUTO'][$var];
-    }
-    else {
+    } else {
         return false;
     }
 }
 
-function atLoadThemeConfig($path, $atdir="modules/AutoTheme")
+function atLoadThemeConfig($path, $atdir = 'modules/AutoTheme')
 {
-    @include($atdir."/autotheme.cfg");
-    @include("modules/Blocks/autoblock.cfg");
-    @include($path."/autoblock.cfg");
-	@include($path."/theme.cfg");
+    @include $atdir.'/autotheme.cfg';
+    @include 'modules/Blocks/autoblock.cfg';
+    @include $path.'/autoblock.cfg';
+    @include $path.'/theme.cfg';
 
-    $themeconfig = compact("template", "blockdisplay", "style", "blocktemplate", "autoblock", "themecmd", "themeversion", "oscbox", "blockcontrol");
+    $themeconfig = compact('template', 'blockdisplay', 'style', 'blocktemplate', 'autoblock', 'themecmd', 'themeversion', 'oscbox', 'blockcontrol');
 
     foreach ($autoextra as $k => $v) {
         if (isset($$k)) {
@@ -667,7 +664,7 @@ function atRunningMultiSetVars($vars)
 
 function atRunningSetVar($name, $val)
 {
-     $GLOBALS['AT_RUNNING'][$name] = $val;
+    $GLOBALS['AT_RUNNING'][$name] = $val;
 }
 
 function atRunningGetVar($var)
@@ -689,36 +686,35 @@ function atGetGlobalConfig()
     }
     if (!isset($auto) && !isset($theme)) {
         return false;
-    }
-    else {
-        return array_merge((array)$autoconfig, (array)$themeconfig);
+    } else {
+        return array_merge((array) $autoconfig, (array) $themeconfig);
     }
 }
 
 function atGetBaseDir()
 {
-    return $_SERVER['DOCUMENT_ROOT']."/";
+    return $_SERVER['DOCUMENT_ROOT'].'/';
 }
 
 function atGetPlatform()
 {
-    $platform = "AutoTheme";
+    $platform = 'AutoTheme';
 
-	if ((isset($GLOBALS['mainfile']) && $GLOBALS['mainfile'] == 1) || defined('NUKE_FILE')) {
-        $platform = "PHP-Nuke";
+    if ((isset($GLOBALS['mainfile']) && $GLOBALS['mainfile'] == 1) || defined('NUKE_FILE')) {
+        $platform = 'PHP-Nuke';
     }
     if (defined('CPG_NUKE')) {
-        $platform = "CPG-Nuke";
+        $platform = 'CPG-Nuke';
     }
     if (defined('PROJECT_VERSION')) {
-	    if (eregi('osCommerce', PROJECT_VERSION)) {
-	    	$platform = "osCommerce";
-	    }
-	    if (eregi('CRE', PROJECT_VERSION)) {
-	    	$platform = "CRE";
-	    }
+        if (eregi('osCommerce', PROJECT_VERSION)) {
+            $platform = 'osCommerce';
+        }
+        if (eregi('CRE', PROJECT_VERSION)) {
+            $platform = 'CRE';
+        }
     }
-    if (function_exists("pnConfigGetVar")) {
+    if (function_exists('pnConfigGetVar')) {
         $platform = pnConfigGetVar('Version_ID');
     }
     $platform = strtolower($platform);
@@ -726,13 +722,13 @@ function atGetPlatform()
     return $platform;
 }
 
-function atThemeOpen($preprocess=TRUE)
+function atThemeOpen($preprocess = true)
 {
-	ob_end_clean();
-	ob_start();
-	echo "\n<!-- [#AUTOTHEME_START#] -->\n";
+    ob_end_clean();
+    ob_start();
+    echo "\n<!-- [#AUTOTHEME_START#] -->\n";
 
-	$runningconfig = atGetRunningConfig();
+    $runningconfig = atGetRunningConfig();
 
     if (!isset($runningconfig['extra'])) {
         return;
@@ -740,29 +736,29 @@ function atThemeOpen($preprocess=TRUE)
     $extra = $runningconfig['extra'];
 
     foreach ($extra as $name) {
-		if ($preprocess && isset($name['themepreprocess'])) {
-			$themeprefuncs[] = $name['themepreprocess'];
-		}
-		if (isset($name['themeopen'])) {
+        if ($preprocess && isset($name['themepreprocess'])) {
+            $themeprefuncs[] = $name['themepreprocess'];
+        }
+        if (isset($name['themeopen'])) {
             $func = $name['themeopen'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($themeprefuncs)) {
-    	atThemePreProcess($themeprefuncs);
+        atThemePreProcess($themeprefuncs);
     }
 }
 
 function atThemePreProcess($funcs)
 {
-	$display = ob_get_contents();
+    $display = ob_get_contents();
     ob_end_clean();
     ob_start();
 
-	foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+    foreach ($funcs as $func) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
@@ -781,29 +777,29 @@ function atBodyOpen()
     $extra = $runningconfig['extra'];
 
     foreach ($extra as $name) {
-		if (isset($name['bodypreprocess'])) {
-			$bodyprefuncs[] = $name['bodypreprocess'];
-		}
-		if (isset($name['bodyopen'])) {
+        if (isset($name['bodypreprocess'])) {
+            $bodyprefuncs[] = $name['bodypreprocess'];
+        }
+        if (isset($name['bodyopen'])) {
             $func = $name['bodyopen'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($bodyprefuncs)) {
-    	atBodyPreProcess($bodyprefuncs);
+        atBodyPreProcess($bodyprefuncs);
     }
 }
 
 function atBodyPreProcess($funcs)
 {
-	$display = ob_get_contents();
+    $display = ob_get_contents();
     ob_end_clean();
     ob_start();
 
-	foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+    foreach ($funcs as $func) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
@@ -820,18 +816,18 @@ function atModOpen()
     $extra = $runningconfig['extra'];
 
     foreach ($extra as $name) {
-		if (isset($name['modpreprocess'])) {
-			$modprefuncs[] = $name['modpreprocess'];
-		}
-		if (isset($name['modopen'])) {
+        if (isset($name['modpreprocess'])) {
+            $modprefuncs[] = $name['modpreprocess'];
+        }
+        if (isset($name['modopen'])) {
             $func = $name['modopen'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($modprefuncs)) {
-    	atModPreProcess($modprefuncs);
+        atModPreProcess($modprefuncs);
     }
 }
 
@@ -841,8 +837,8 @@ function atModPreProcess($funcs)
     ob_end_clean();
     ob_start();
 
-	foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+    foreach ($funcs as $func) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
@@ -851,7 +847,7 @@ function atModPreProcess($funcs)
 
 function atModClose()
 {
-	$runningconfig = atGetRunningConfig();
+    $runningconfig = atGetRunningConfig();
 
     if (!isset($runningconfig['extra'])) {
         return;
@@ -859,18 +855,18 @@ function atModClose()
     $extra = $runningconfig['extra'];
 
     foreach ($extra as $name) {
-		if (isset($name['modpostprocess'])) {
-			$modpostfuncs[] = $name['modpostprocess'];
-		}
-		if (isset($name['modclose'])) {
+        if (isset($name['modpostprocess'])) {
+            $modpostfuncs[] = $name['modpostprocess'];
+        }
+        if (isset($name['modclose'])) {
             $func = $name['modclose'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($modpostfuncs)) {
-    	atModPostProcess($modpostfuncs);
+        atModPostProcess($modpostfuncs);
     }
 }
 
@@ -878,10 +874,10 @@ function atModPostProcess($funcs)
 {
     $display = ob_get_contents();
     ob_end_clean();
-   	ob_start();
+    ob_start();
 
-	foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+    foreach ($funcs as $func) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
@@ -897,19 +893,19 @@ function atBlockOpen()
     }
     $extra = $runningconfig['extra'];
 
-	foreach ($extra as $name) {
-		if (isset($name['blockpreprocess'])) {
-			$blockprefuncs[] = $name['blockpreprocess'];
-		}
-		if (isset($name['blockopen'])) {
+    foreach ($extra as $name) {
+        if (isset($name['blockpreprocess'])) {
+            $blockprefuncs[] = $name['blockpreprocess'];
+        }
+        if (isset($name['blockopen'])) {
             $func = $name['blockopen'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($blockprefuncs)) {
-    	atBlockPreProcess($blockprefuncs);
+        atBlockPreProcess($blockprefuncs);
     }
 }
 
@@ -919,8 +915,8 @@ function atBlockPreProcess($funcs)
     ob_end_clean();
     ob_start();
 
-	foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+    foreach ($funcs as $func) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
@@ -936,19 +932,19 @@ function atBlockClose()
     }
     $extra = $runningconfig['extra'];
 
-	foreach ($extra as $name) {
-		if (isset($name['blockpostprocess'])) {
-			$blockpostfuncs[] = $name['blockpostprocess'];
-		}
-		if (isset($name['blockclose'])) {
+    foreach ($extra as $name) {
+        if (isset($name['blockpostprocess'])) {
+            $blockpostfuncs[] = $name['blockpostprocess'];
+        }
+        if (isset($name['blockclose'])) {
             $func = $name['blockclose'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($blockpostfuncs)) {
-    	atBlockPostProcess($blockpostfuncs);
+        atBlockPostProcess($blockpostfuncs);
     }
 }
 
@@ -958,15 +954,15 @@ function atBlockPostProcess($funcs)
     ob_end_clean();
     ob_start();
 
-	foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+    foreach ($funcs as $func) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
     echo $display;
 }
 
-function atThemeClose($postprocess=TRUE)
+function atThemeClose($postprocess = true)
 {
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
@@ -977,29 +973,29 @@ function atThemeClose($postprocess=TRUE)
     $extra = $runningconfig['extra'];
 
     foreach ($extra as $name) {
-		if ($postprocess && isset($name['themepostprocess'])) {
-			$themepostfuncs[] = $name['themepostprocess'];
-		}
-		if (isset($name['themeclose'])) {
+        if ($postprocess && isset($name['themepostprocess'])) {
+            $themepostfuncs[] = $name['themepostprocess'];
+        }
+        if (isset($name['themeclose'])) {
             $func = $name['themeclose'];
             if (function_exists("$func")) {
-            	$func($runningconfig);
+                $func($runningconfig);
             }
         }
     }
     if (isset($themepostfuncs)) {
-    	atThemePostProcess($themepostfuncs);
+        atThemePostProcess($themepostfuncs);
     }
 }
 
 function atThemePostProcess($funcs)
 {
-	$display = ob_get_contents();
+    $display = ob_get_contents();
     ob_end_clean();
     ob_start();
 
     foreach ($funcs as $func) {
-		if (function_exists("$func")) {
+        if (function_exists("$func")) {
             $display = $func($display);
         }
     }
@@ -1008,45 +1004,46 @@ function atThemePostProcess($funcs)
 
 function atErrorCheck()
 {
-	if (defined('AUTOTHEME_DEBUG_ENABLED') && AUTOTHEME_DEBUG_ENABLED === TRUE) {
-	    error_reporting(E_ALL ^ E_NOTICE);
-		ini_set('display_errors', "1");
-		return TRUE;
-	}
-	else {
-		error_reporting(0);
-		ini_set('display_errors', "0");
-        return FALSE;
-	}
+    if (defined('AUTOTHEME_DEBUG_ENABLED') && AUTOTHEME_DEBUG_ENABLED === true) {
+        error_reporting(E_ALL ^ E_NOTICE);
+        ini_set('display_errors', '1');
+
+        return true;
+    } else {
+        error_reporting(0);
+        ini_set('display_errors', '0');
+
+        return false;
+    }
 }
 
-function atBufferControl($action='check')
+function atBufferControl($action = 'check')
 {
-/*
-	$display = ob_get_contents();
+    /*
+    $display = ob_get_contents();
 
-	switch ($action) {
-		case 'start':
-			ob_start();
-			echo "<!-- [#AUTOTHEME_BUFFER#] -->";
-		break;
+    switch ($action) {
+        case 'start':
+            ob_start();
+            echo "<!-- [#AUTOTHEME_BUFFER#] -->";
+        break;
 
-		case 'check':
-		default:
-			if (strpos($display, "#AUTOTHEME_BUFFER#") === FALSE) {
-				ob_end_flush();
-			}
-		break;
-	}
+        case 'check':
+        default:
+            if (strpos($display, "#AUTOTHEME_BUFFER#") === FALSE) {
+                ob_end_flush();
+            }
+        break;
+    }
 */
 }
 
 function atThemeHeader()
 {
-	atErrorCheck();
+    atErrorCheck();
 
-	atThemeOpen();
-	atBodyOpen();
+    atThemeOpen();
+    atBodyOpen();
 
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
@@ -1054,7 +1051,7 @@ function atThemeHeader()
     $file = $template['main'];
 
     $template = atTemplateCompile($themepath.$file, $striphead);
-    list($output, $footer) = atTemplateSplit($template, "modules");
+    list($output, $footer) = atTemplateSplit($template, 'modules');
 
     atTemplateDisplay($output);
 
@@ -1063,9 +1060,9 @@ function atThemeHeader()
 
 function atThemeFooter()
 {
-	atErrorCheck();
+    atErrorCheck();
 
-	atModClose();
+    atModClose();
 
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
@@ -1073,13 +1070,13 @@ function atThemeFooter()
     $file = $template['main'];
 
     $template = atTemplateCompile($themepath.$file, 1);
-    list($header, $output) = atTemplateSplit($template, "modules");
+    list($header, $output) = atTemplateSplit($template, 'modules');
 
     atTemplateDisplay($output);
 
     atThemeAddFooter();
-	atThemeClose();
-	atThemeExit();
+    atThemeClose();
+    atThemeExit();
 }
 
 function atNewsSummary($text, $url, $html)
@@ -1093,25 +1090,23 @@ function atNewsSummary($text, $url, $html)
     foreach ($html as $name => $val) {
         $news["html:$name"] = $val;
     }
-    atCommandBuild($news, "news");
+    atCommandBuild($news, 'news');
 
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
 
     if (!isset($summary_count)) {
-        static $summary_count = "";
+        static $summary_count = '';
     }
-    $summary_count ++;
+    ++$summary_count;
 
     if ($template['altsummary'] && $template['summary1'] && $template['summary2']) {
         if ($summary_count % 2 == 0) {
             $file = $template['summary1'];
-        }
-        else {
+        } else {
             $file = $template['summary2'];
         }
-    }
-    else {
+    } else {
         $file = $template['summary'];
     }
     $output = atTemplateCompile($themepath.$file);
@@ -1130,7 +1125,7 @@ function atNewsArticle($text, $url, $html)
     foreach ($html as $name => $val) {
         $news["html:$name"] = $val;
     }
-    atCommandBuild($news, "news");
+    atCommandBuild($news, 'news');
 
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
@@ -1144,22 +1139,22 @@ function atNewsArticle($text, $url, $html)
 
 function atThemeBlock($block)
 {
-    atCommandBuild($block, "block");
-	atBlockOpen();
+    atCommandBuild($block, 'block');
+    atBlockOpen();
 
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
 
     $location = $block['position'];
-    $blocktitle = trim(strip_tags($block['title'], ""));
+    $blocktitle = trim(strip_tags($block['title'], ''));
     $blockname = $block['name'];
 
-    if ($block['modname'] == "Admin_Messages" && $block['bkey'] == "messages") {
-    	$blocktitle = "Administration Messages";
+    if ($block['modname'] == 'Admin_Messages' && $block['bkey'] == 'messages') {
+        $blocktitle = 'Administration Messages';
     }
 
     switch ($location) {
-		case 'l':
+        case 'l':
             $file = $template['leftblock'];
             break;
 
@@ -1173,15 +1168,14 @@ function atThemeBlock($block)
 
         default:
             if (isset($autoblock[$location])) {
-        	   $file = $template["autoblock".$location];
+                $file = $template['autoblock'.$location];
             }
             break;
     }
     if (isset($blocktemplate[$blocktitle])) {
-		$file = $blocktemplate[$blocktitle];
-    }
-    elseif (isset($blocktemplate[$blockname])) {
-		$file = $blocktemplate[$blockname];
+        $file = $blocktemplate[$blocktitle];
+    } elseif (isset($blocktemplate[$blockname])) {
+        $file = $blocktemplate[$blockname];
     }
     $output = atTemplateCompile($themepath.$file);
 
@@ -1190,7 +1184,7 @@ function atThemeBlock($block)
     atBlockClose();
 }
 
-function atBlockDisplay($location="", $title="")
+function atBlockDisplay($location = '', $title = '')
 {
     $runningconfig = atGetRunningConfig();
     extract($runningconfig);
@@ -1207,7 +1201,7 @@ function atBlockDisplay($location="", $title="")
 
             case 'r':
                 if ($blockdisplay['right']) {
-        	       $display = 1;
+                    $display = 1;
                 }
                 break;
 
@@ -1224,7 +1218,7 @@ function atBlockDisplay($location="", $title="")
                 break;
 
             default:
-                if (isset($autoblock[$location]) && $blockdisplay["autoblock".$location]) {
+                if (isset($autoblock[$location]) && $blockdisplay['autoblock'.$location]) {
                     $display = 1;
                 }
                 break;
@@ -1232,24 +1226,23 @@ function atBlockDisplay($location="", $title="")
         if ($display) {
             atBlockLoad($location);
         }
-    }
-    elseif ($title) {
-        atBlockLoad("", $title);
+    } elseif ($title) {
+        atBlockLoad('', $title);
     }
 }
 
 function atLoadExtraCommands($dir)
 {
-    $atdir = atAutoGetVar("atdir");
+    $atdir = atAutoGetVar('atdir');
     $platform = atGetPlatform();
     $lang = atGetLang();
 
     if ($handle = @opendir($dir)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi(".cmd.php", $file)) {
+            if (eregi('.cmd.php', $file)) {
                 $extracmd = array();
 
-                $parts = explode(".", $file);
+                $parts = explode('.', $file);
                 $name = $parts[0];
                 @include_secure($atdir."lang/$lang/$name.php");
                 include_secure($dir.$file);
@@ -1265,10 +1258,10 @@ function atLoadExtraCommands($dir)
     }
     if ($handle = @opendir($dir.$platform)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi(".cmd.php", $file)) {
+            if (eregi('.cmd.php', $file)) {
                 $extracmd = array();
 
-                $parts = explode(".", $file);
+                $parts = explode('.', $file);
                 $name = $parts[0];
                 @include_secure($atdir."lang/$lang/$name.php");
                 @include_secure($dir.$platform."/$file");
@@ -1282,20 +1275,21 @@ function atLoadExtraCommands($dir)
         }
         closedir($handle);
     }
+
     return $cmdresult;
 }
 
 function atExtraScan($dir)
 {
-    $extra = atRunningGetVar("extra");
-    $atdir = atAutoGetVar("atdir");
+    $extra = atRunningGetVar('extra');
+    $atdir = atAutoGetVar('atdir');
     $platform = atGetPlatform();
     $lang = atGetLang();
 
     if ($handle = @opendir($dir.$platform)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi(".ext.php", $file)) {
-                $parts = explode(".", $file);
+            if (eregi('.ext.php', $file)) {
+                $parts = explode('.', $file);
                 $name = $parts[0];
                 $loaded[$name] = 1;
                 @include_secure($atdir."lang/$lang/$name.php");
@@ -1306,8 +1300,8 @@ function atExtraScan($dir)
     }
     if ($handle = @opendir($dir)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi(".ext.php", $file)) {
-                $parts = explode(".", $file);
+            if (eregi('.ext.php', $file)) {
+                $parts = explode('.', $file);
                 $name = $parts[0];
                 if (!$loaded[$name]) {
                     @include_secure($atdir."lang/$lang/$name.php");
@@ -1317,7 +1311,7 @@ function atExtraScan($dir)
         }
         closedir($handle);
     }
-    atAutoSetVar("extra", $extra);
+    atAutoSetVar('extra', $extra);
 
     return $extra;
 }
@@ -1336,6 +1330,7 @@ function atExtraLoadAll()
             array_push($result, $extra);
         }
     }
+
     return $result;
 }
 
@@ -1344,134 +1339,130 @@ function atExtraLoad($name)
     $globalconfig = atGetGlobalConfig();
     extract($globalconfig);
 
-    $extra = atRunningGetVar("extra");
+    $extra = atRunningGetVar('extra');
     $platform = atGetPlatform();
     $lang = atGetLang();
 
     if (@file_exists($atdir."lang/$lang/$name.php")) {
         @include_secure($atdir."lang/$lang/$name.php");
-    }
-    else {
+    } else {
         @include_secure($atdir."lang/eng/$name.php");
     }
     if (@file_exists($extradir.$platform."/$name.ext.php")) {
         @include_secure($extradir.$platform."/$name.ext.php");
-    }
-    else {
+    } else {
         @include_secure($extradir."$name.ext.php");
     }
-    atRunningSetVar("extra", $extra);
+    atRunningSetVar('extra', $extra);
 
     return $extra[$name];
 }
 
 /* compile functions */
-function atCompileRead($filename, $modifier="")
+function atCompileRead($filename, $modifier = '')
 {
     $globalconfig = atGetGlobalConfig();
     extract($globalconfig);
 
     $oldmask = umask(0);
 
-    $filetime =  @filemtime($incdir."atCommands.php")
-				+@filemtime($platformdir."atCommands.php")
-               	+@filemtime($atdir."autotheme.cfg")
-               	+@filemtime($themepath."theme.cfg")
-               	+@filemtime($filename);
+    $filetime = @filemtime($incdir.'atCommands.php')
+                + @filemtime($platformdir.'atCommands.php')
+                   + @filemtime($atdir.'autotheme.cfg')
+                   + @filemtime($themepath.'theme.cfg')
+                   + @filemtime($filename);
 
     $filepre = atGetCompileFilename($filename, $modifier);
-    $filename = $filepre."_".$filetime;
+    $filename = $filepre.'_'.$filetime;
 
     if ($output = atTemplateRead($compiledir.$filename)) {
-    	return $output;
-    }
-    else {
+        return $output;
+    } else {
         return false;
     }
 }
 
-function atCompileWrite($filename, $content, $modifier="")
+function atCompileWrite($filename, $content, $modifier = '')
 {
     $globalconfig = atGetGlobalConfig();
     extract($globalconfig);
 
     $oldmask = umask(0);
 
-    $filetime =  @filemtime($incdir."atCommands.php")
-				+@filemtime($platformdir."atCommands.php")
-               	+@filemtime($atdir."autotheme.cfg")
-               	+@filemtime($themepath."theme.cfg")
-               	+@filemtime($filename);
+    $filetime = @filemtime($incdir.'atCommands.php')
+                + @filemtime($platformdir.'atCommands.php')
+                   + @filemtime($atdir.'autotheme.cfg')
+                   + @filemtime($themepath.'theme.cfg')
+                   + @filemtime($filename);
 
     $filepre = atGetCompileFilename($filename, $modifier);
-    $filename = $filepre."_".$filetime;
+    $filename = $filepre.'_'.$filetime;
 
     if ($handle = @opendir($compiledir)) {
-       while (false !== ($file = @readdir($handle))) {
+        while (false !== ($file = @readdir($handle))) {
             if (false !== strpos($file, $filepre)) {
                 @unlink($compiledir.$file);
 
                 if (function_exists('atcacheclear')) {
-    				atCacheClear();
-    			}
+                    atCacheClear();
+                }
                 break;
             }
         }
         closedir($handle);
     }
-    if ($handle = @fopen($compiledir.$filename, "w")) {
+    if ($handle = @fopen($compiledir.$filename, 'w')) {
         fwrite($handle, $content);
-	    fclose($handle);
+        fclose($handle);
     }
 }
 
 function atCompileClear()
 {
-	$compiledir = atAutoGetVar('compiledir');
+    $compiledir = atAutoGetVar('compiledir');
 
     if ($handle = @opendir($compiledir)) {
-            while (false !== ($file = @readdir($handle))) {
-                @unlink($compiledir.$file);
-            }
-            closedir($handle);
+        while (false !== ($file = @readdir($handle))) {
+            @unlink($compiledir.$file);
+        }
+        closedir($handle);
     }
     if (function_exists('atcacheclear')) {
-    	atCacheClear();
+        atCacheClear();
     }
 }
 
-function atGetCompileFilename($filename, $modifier="")
+function atGetCompileFilename($filename, $modifier = '')
 {
-	$thename = atRunningGetVar('thename');
+    $thename = atRunningGetVar('thename');
 
-	if (atIsLoggedIn()) {
+    if (atIsLoggedIn()) {
         $user = 1;
-    }
-    else {
+    } else {
         $user = 0;
     }
     if (atIsAdminUser()) {
         $admin = 1;
-    }
-    else {
+    } else {
         $admin = 0;
     }
     $temp = $user.$admin.$thename.$filename.$modifier;
-	$filepre = md5($temp);
+    $filepre = md5($temp);
 
-	return $filepre;
+    return $filepre;
 }
 
-function atTemplateCompile($file, $striphead=1)
+function atTemplateCompile($file, $striphead = 1)
 {
     $globalconfig = atGetGlobalConfig();
     extract($globalconfig);
 
     if (!$output = atCompileRead($file)) {
-            $HTML = atTemplatePrep($file, $striphead);
-            $output = atCommandReplace($HTML, $command);
-            atCompileWrite($file, $output);
+        $HTML = atTemplatePrep($file, $striphead);
+        $output = atCommandReplace($HTML, $command);
+        atCompileWrite($file, $output);
     }
+
     return $output;
 }
 
@@ -1480,13 +1471,12 @@ function atTemplateCompile($file, $striphead=1)
 /**********************************/
 function at_block_sort($a, $b)
 {
-	if ($a['position'] == $b['position']) {
-		//return strcmp($a['weight'], $b['weight']);
-		return ($a["weight"] > $b["weight"]) ? TRUE : FALSE;
-	}
-	else {
-	    return strcmp($a["position"], $b["position"]);
-	}
+    if ($a['position'] == $b['position']) {
+        //return strcmp($a['weight'], $b['weight']);
+        return ($a['weight'] > $b['weight']) ? true : false;
+    } else {
+        return strcmp($a['position'], $b['position']);
+    }
 }
 
 function at_array_display($var)
@@ -1497,65 +1487,65 @@ function at_array_display($var)
             at_array_display($v);
             continue;
         }
-        echo "<pre>". htmlentities("$k = $v") ."</pre>";
+        echo '<pre>'.htmlentities("$k = $v").'</pre>';
     }
 }
 
 /**********************************/
 /* Compatibility functions        */
 /**********************************/
-if (!function_exists("file_get_contents")) {
+if (!function_exists('file_get_contents')) {
     function file_get_contents($filename)
     {
         if (@is_file($filename)) {
-            $result = "";
-            $handle = @fopen($filename, "r");
+            $result = '';
+            $handle = @fopen($filename, 'r');
             if (!$handle) {
                 return false;
             }
             while (!feof($handle)) {
                 $result .= fread($handle, 4096);
             }
+
             return $result;
-        }
-        else {
+        } else {
             return false;
         }
     }
 }
 
-if (!function_exists("var_export")) {
+if (!function_exists('var_export')) {
     function var_export($var)
     {
-        $result = "";
+        $result = '';
 
         switch (gettype($var)) {
-            case "array":
+            case 'array':
                 reset($var);
                 $result = "array(\n";
                 foreach ($var as $k => $v) {
-                    $result .= "  " . var_export($k)." => " . var_export($v).",\n";
+                    $result .= '  '.var_export($k).' => '.var_export($v).",\n";
                 }
-                $result .= ")";
+                $result .= ')';
                 break;
 
-            case "string":
+            case 'string':
                 $result = "'$var'";
                 break;
 
-            case "boolean":
-                $result = ($var) ? "true" : "false";
+            case 'boolean':
+                $result = ($var) ? 'true' : 'false';
                 break;
 
             default:
                 if (empty($var)) {
                     $result = "''";
-                }
-                else {
+                } else {
                     $result = $var;
                 }
                 break;
         }
+
         return $result;
     }
 }
@@ -1563,35 +1553,36 @@ if (!function_exists("var_export")) {
 /**********************************/
 /* Administration functions       */
 /**********************************/
-function at_list_themes($dir="themes")
+function at_list_themes($dir = 'themes')
 {
     $themelist = at_listcore_themes($dir);
 
     if ($multibase = at_getmultisite_base()) {
         $multilist = at_listmultisite_themes($multibase);
-        $themelist = array_merge((array)$themelist, (array)$multilist);
+        $themelist = array_merge((array) $themelist, (array) $multilist);
     }
+
     return $themelist;
 }
 
-function at_listcore_themes($dir="themes")
+function at_listcore_themes($dir = 'themes')
 {
     if ($handle = @opendir($dir)) {
         while (false !== ($subdir = @readdir($handle))) {
             if (@is_dir("$dir/$subdir") &&
                 $subdir !== '.' &&
                 $subdir !== '..' &&
-                @file_exists("$dir/$subdir/theme.cfg"))
-            {
+                @file_exists("$dir/$subdir/theme.cfg")) {
                 $themelist[] = $subdir;
             }
         }
         closedir($handle);
     }
+
     return $themelist;
 }
 
-function at_listmultisite_themes($dir="parameters")
+function at_listmultisite_themes($dir = 'parameters')
 {
     $themelist = array();
 
@@ -1599,8 +1590,7 @@ function at_listmultisite_themes($dir="parameters")
         while (false !== ($subdir = @readdir($handle))) {
             if (@is_dir("$dir/$subdir/themes") &&
                 $subdir !== '.' &&
-                $subdir !== '..')
-            {
+                $subdir !== '..') {
                 $multilist[$subdir] = at_listcore_themes("$dir/$subdir/themes");
             }
         }
@@ -1611,40 +1601,40 @@ function at_listmultisite_themes($dir="parameters")
             $themelist[] = "$dir/$multidir/themes/$themedir";
         }
     }
+
     return $themelist;
 }
 
 function at_getmultisite_base()
 {
     if (defined('WHERE_IS_PERSO')) {
-        $pathparts = explode("/", WHERE_IS_PERSO);
+        $pathparts = explode('/', WHERE_IS_PERSO);
         array_pop($pathparts);
         array_pop($pathparts);
-        $multibase = implode("/", $pathparts);
+        $multibase = implode('/', $pathparts);
 
         return $multibase;
-    }
-    else {
+    } else {
         return false;
     }
 }
 
 function at_getmultisite_name($path)
 {
-    $pathparts = explode("/", $path);
+    $pathparts = explode('/', $path);
 
     if ($pathparts) {
-        $multisite = $pathparts[count($pathparts)- 3];
+        $multisite = $pathparts[count($pathparts) - 3];
+
         return $multisite;
-    }
-    else {
+    } else {
         return false;
     }
 }
 
 function at_gettheme_name($path)
 {
-    $pathparts = explode("/", $path);
+    $pathparts = explode('/', $path);
     $themename = array_pop($pathparts);
 
     return $themename;
@@ -1654,10 +1644,10 @@ function at_gettheme_path($themedir)
 {
     if (@file_exists(AT_DIRPREFIX."themes/$themedir")) {
         $thepath = AT_DIRPREFIX."themes/$themedir/";
-    }
-    elseif (@file_exists(AT_DIRPREFIX."$themedir")) {
+    } elseif (@file_exists(AT_DIRPREFIX."$themedir")) {
         $thepath = AT_DIRPREFIX."$themedir/";
     }
+
     return $thepath;
 }
 
@@ -1667,10 +1657,9 @@ function at_listfiles($dir, $ext)
 
     if ($handle = @opendir($dir)) {
         while (false !== ($item = @readdir($handle))) {
-            if (@!is_dir($dir . $item) && eregi(".$ext", $item)) {
+            if (@!is_dir($dir.$item) && eregi(".$ext", $item)) {
                 $filelist[] = $item;
-            }
-            elseif (@is_dir("$dir/$item") && $item !== '.' && $item !== '..') {
+            } elseif (@is_dir("$dir/$item") && $item !== '.' && $item !== '..') {
                 $sublist = at_listfiles("$dir/$item", $ext);
                 if (is_array($sublist)) {
                     foreach ($sublist as $file) {
@@ -1681,23 +1670,24 @@ function at_listfiles($dir, $ext)
         }
         closedir($handle);
 
-        $filelist = array_merge((array)$filelist, (array)$newlist);
+        $filelist = array_merge((array) $filelist, (array) $newlist);
 
         return $filelist;
-    }
-    else {
+    } else {
         return false;
     }
 }
 
-function at_file_select($themedir, $name, $val, $filelist, $create=1, $link=1)
+function at_file_select($themedir, $name, $val, $filelist, $create = 1, $link = 1)
 {
-	$output = "<td><select name=\"$name\">\n";
+    $output = "<td><select name=\"$name\">\n";
     $output .= "<option></option>\n";
 
     foreach ($filelist as $file) {
-        $sel = "";
-        if ($file == $val) { $sel = " selected"; }
+        $sel = '';
+        if ($file == $val) {
+            $sel = ' selected';
+        }
         $output .= "<option$sel>$file</option>\n";
     }
     $output .= "</select>\n";
@@ -1720,37 +1710,35 @@ function at_display_error($message)
 
 function at_inputfield($opt)
 {
-	$input .= "<input";
+    $input .= '<input';
 
-	unset($opt['label']);
+    unset($opt['label']);
 
-	foreach ($opt as $k => $v) {
-		$input .= " $k=\"$v\"";
-	}
-	$input .= ">";
+    foreach ($opt as $k => $v) {
+        $input .= " $k=\"$v\"";
+    }
+    $input .= '>';
 
-	return $input;
+    return $input;
 }
 
-function atGetBlockConfig($blockcontrol=null)
+function atGetBlockConfig($blockcontrol = null)
 {
     if (!$blockcontrol) {
-    	$blockcontrol = atRunningGetVar('blockcontrol');
+        $blockcontrol = atRunningGetVar('blockcontrol');
     }
     $blocks = atGetBlocks();
 
     if (is_array($blockcontrol)) {
-    	foreach ($blocks as $title => $block) {
-    		if (isset($blockcontrol[$title])) {
-    			$blocklist[$title] = array_merge((array)$block, (array)$blockcontrol[$title]);
-    		}
-    		else {
-    			$blocklist[$title] = $block;
-    		}
-    	}
-    }
-    else {
-    	$blocklist = $blocks;
+        foreach ($blocks as $title => $block) {
+            if (isset($blockcontrol[$title])) {
+                $blocklist[$title] = array_merge((array) $block, (array) $blockcontrol[$title]);
+            } else {
+                $blocklist[$title] = $block;
+            }
+        }
+    } else {
+        $blocklist = $blocks;
     }
     uasort($blocklist, 'at_block_sort');
 
@@ -1761,33 +1749,34 @@ function atGetBlockConfig($blockcontrol=null)
 /* Module functions               */
 /**********************************/
 
-function atImageSearch($path, $module=null)
+function atImageSearch($path, $module = null)
 {
-	$runningconfig = atGetRunningConfig();
-	extract($runningconfig);
+    $runningconfig = atGetRunningConfig();
+    extract($runningconfig);
 
-	$path = explode(".", $path);
+    $path = explode('.', $path);
 
-	$types = array("jpg", "gif", "png");
+    $types = array('jpg', 'gif', 'png');
 
-	if (isset($module)) {
-		$paths[] = $imagepath."modules/$module/".$path[0];
-	}
-	$paths = array(
-		$imagelangpath.$path[0],
-		$imagepath.$path[0],
-		$atpath."images/".$path[0]
-	);
+    if (isset($module)) {
+        $paths[] = $imagepath."modules/$module/".$path[0];
+    }
+    $paths = array(
+        $imagelangpath.$path[0],
+        $imagepath.$path[0],
+        $atpath.'images/'.$path[0],
+    );
 
-	foreach ($types as $type) {
-		foreach ($paths as $file) {
-			echo "$file.$type<br>";
-			if (file_exists("$file.$type")) {
-				return "$file.$type";
-			}
-		}
-	}
-	return FALSE;
+    foreach ($types as $type) {
+        foreach ($paths as $file) {
+            echo "$file.$type<br>";
+            if (file_exists("$file.$type")) {
+                return "$file.$type";
+            }
+        }
+    }
+
+    return false;
 }
 
 /* BETA (don't use) function to get output from pnHTML and build command from it */
@@ -1799,7 +1788,7 @@ function atModCommand($command, &$output)
 }
 
 /* BETA (don't use) function to build commands from module */
-function atCommandBuild2($name, $commands, $prefix="")
+function atCommandBuild2($name, $commands, $prefix = '')
 {
     if (!$prefix) {
         $prefix = strtolower(atGetModName());
@@ -1811,8 +1800,8 @@ function atCommandBuild2($name, $commands, $prefix="")
 
     foreach ($commands as $key => $val) {
         foreach ($val as $num => $cmd) {
-            foreach($cmd as $cname => $action) {
-            atCommandAdd("$prefix:$key:$cname", 'echo $'.$prefix.'["'.$key.'"][$i]["'.$cname.'"];');
+            foreach ($cmd as $cname => $action) {
+                atCommandAdd("$prefix:$key:$cname", 'echo $'.$prefix.'["'.$key.'"][$i]["'.$cname.'"];');
             }
         }
     }
@@ -1828,11 +1817,9 @@ function atModOutput($file)
 
     if (file_exists($themepath."modules/$modname/$file")) {
         $file = $themepath."modules/$modname/$file";
-    }
-    elseif (file_exists("modules/$modname/templates/$file")) {
+    } elseif (file_exists("modules/$modname/templates/$file")) {
         $file = "modules/$modname/templates/$file";
-    }
-    else {
+    } else {
         return false;
     }
     $output = atTemplateCompile($file);
@@ -1873,5 +1860,3 @@ function atCommandLoopAdd($function, $array)
         atTemplateDisplay($output);
     }');
 }
-
-?>

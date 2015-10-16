@@ -24,7 +24,7 @@
 
 function atPlatformHeader($xhtml)
 {
-	return false;
+    return false;
 }
 
 function atPlatformAPIInit($atdir)
@@ -42,7 +42,7 @@ function atPlatformThemeInit($thename)
         $thename = $_GET['theme'];
         $GLOBALS['oldtheme'] = $oldtheme;
     }
-    $vars = compact("thename");
+    $vars = compact('thename');
 
     return $vars;
 }
@@ -54,7 +54,7 @@ function atGetPlatformVersion()
 
 function atGetHomeMod()
 {
-        $module = $GLOBALS['main_module'];
+    $module = $GLOBALS['main_module'];
 
     return $module;
 }
@@ -63,8 +63,7 @@ function atIsHomePage()
 {
     if ($GLOBALS['home_page'] == 1 || empty($_SERVER['QUERY_STRING'])) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -73,8 +72,7 @@ function atIsAdminUser()
 {
     if (is_admin($GLOBALS['admin'])) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -83,8 +81,7 @@ function atIsLoggedIn()
 {
     if (is_user($GLOBALS['user'])) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -93,30 +90,30 @@ function atGetUserName()
 {
     if (!atIsLoggedIn()) {
         $username = _AT_GUEST;
-    }
-    else {
+    } else {
         $cookie = cookiedecode($GLOBALS['user']);
         $username = $cookie[1];
     }
+
     return $username;
 }
 
 function atGetModType()
 {
-    $type = "";
+    $type = '';
 
-    if (eregi("admin.php", $_SERVER['PHP_SELF'])) {
-        $type = "admin";
+    if (eregi('admin.php', $_SERVER['PHP_SELF'])) {
+        $type = 'admin';
+    } elseif (atGetModName() == 'Your_Account') {
+        $type = 'user';
     }
-    elseif (atGetModName() == "Your_Account") {
-        $type = "user";
-    }
+
     return $type;
 }
 
 function atGetModStyle()
 {
-    $style = "old";
+    $style = 'old';
 
     return $style;
 }
@@ -124,13 +121,11 @@ function atGetModStyle()
 function atGetModName()
 {
     if (!empty($GLOBALS['module_name'])) {
-    	return $GLOBALS['module_name'];
-    }
-    elseif (!empty($GLOBALS['module'])) {
-    	return $GLOBALS['module'];
-    }
-    elseif (!empty($_REQUEST['name'])) {
-    	return $_REQUEST['name'];
+        return $GLOBALS['module_name'];
+    } elseif (!empty($GLOBALS['module'])) {
+        return $GLOBALS['module'];
+    } elseif (!empty($_REQUEST['name'])) {
+        return $_REQUEST['name'];
     }
 }
 
@@ -138,76 +133,69 @@ function atGetLang()
 {
     $lang = $GLOBALS['currentlang'];
 
-    include_once("modules/AutoTheme/lang/lang.php");
+    include_once 'modules/AutoTheme/lang/lang.php';
 
     if (defined($lang)) {
         $lang = constant($lang);
     }
+
     return $lang;
 }
 
-function atBlockLoad($location="", $title="")
+function atBlockLoad($location = '', $title = '')
 {
-	if (!defined('BLOCK_FILE')) {
-		define('BLOCK_FILE', true);
-	}
+    if (!defined('BLOCK_FILE')) {
+        define('BLOCK_FILE', true);
+    }
     $runningconfig = atGetRunningConfig();
-	$blocklist = $runningconfig['blocklist'];
+    $blocklist = $runningconfig['blocklist'];
 
     if ($location) {
-    	foreach ($blocklist as $block) {
-    		if ($block['position'] == $location && $block['active'] == 1) {
-    			$blocks[] = $block;
-    		}
-    	}
-    }
-    elseif ($title) {
-    	if ($blocklist[$title]['active'] == 1) {
-    		$blocks[] = $blocklist[$title];
-    	}
+        foreach ($blocklist as $block) {
+            if ($block['position'] == $location && $block['active'] == 1) {
+                $blocks[] = $block;
+            }
+        }
+    } elseif ($title) {
+        if ($blocklist[$title]['active'] == 1) {
+            $blocks[] = $blocklist[$title];
+        }
     }
     if (is_array($blocks)) {
-    	foreach ($blocks as $theblock) {
-    		atRunningSetVar("block", $theblock);
+        foreach ($blocks as $theblock) {
+            atRunningSetVar('block', $theblock);
 
-    		extract($theblock);
+            extract($theblock);
 
-    		if ($bkey == "admin") {
-    			adminblock();
-    		}
-    		elseif ($bkey == "userbox") {
-    			userblock();
-    		}
-    		elseif ($bkey == "") {
-    			$displaythis = 0;
+            if ($bkey == 'admin') {
+                adminblock();
+            } elseif ($bkey == 'userbox') {
+                userblock();
+            } elseif ($bkey == '') {
+                $displaythis = 0;
 
-    			if ($view == 0) {
-    				$displaythis = 1;
-    			}
-    			elseif ($view == 1 && atIsLoggedIn() || atIsAdminUser()) {
-    				$displaythis = 1;
-    			}
-    			elseif ($view == 2 && atIsAdminUser()) {
-    				$displaythis = 1;
-    			}
-    			elseif ($view == 3 && !atIsLoggedIn() || atIsAdminUser()) {
-    				$displaythis = 1;
-    			}
-    			if ($displaythis) {
-    				if ($url == "") {
-    					if ($blockfile == "") {
-    						themesidebox($title, $content);
-    					}
-    					else {
-    						blockfileinc($title, $blockfile);
-    					}
-    				}
-    				else {
-    					headlines($bid);
-    				}
-    			}
-    		}
-    	}
+                if ($view == 0) {
+                    $displaythis = 1;
+                } elseif ($view == 1 && atIsLoggedIn() || atIsAdminUser()) {
+                    $displaythis = 1;
+                } elseif ($view == 2 && atIsAdminUser()) {
+                    $displaythis = 1;
+                } elseif ($view == 3 && !atIsLoggedIn() || atIsAdminUser()) {
+                    $displaythis = 1;
+                }
+                if ($displaythis) {
+                    if ($url == '') {
+                        if ($blockfile == '') {
+                            themesidebox($title, $content);
+                        } else {
+                            blockfileinc($title, $blockfile);
+                        }
+                    } else {
+                        headlines($bid);
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -219,18 +207,18 @@ function atGetBlocks()
     $ml = $GLOBALS['multilingual'];
 
     if (!defined('AUTOTHEME_ADMIN_LOADED') && $ml) {
-    	$querylang = "WHERE (blanguage='$language' OR blanguage='')";
-    }
-    else {
-    	$querylang = "";
+        $querylang = "WHERE (blanguage='$language' OR blanguage='')";
+    } else {
+        $querylang = '';
     }
 
-	$result = sql_query("SELECT bid, bkey, title, content, url, blockfile, view, bposition, weight, active FROM ".$prefix."_blocks $querylang ORDER BY weight ASC", $dbi);
+    $result = sql_query('SELECT bid, bkey, title, content, url, blockfile, view, bposition, weight, active FROM '.$prefix."_blocks $querylang ORDER BY weight ASC", $dbi);
 
     while (list($bid, $bkey, $title, $content, $url, $blockfile, $view, $position, $weight, $active) = sql_fetch_row($result, $dbi)) {
-        $blocklist[$title] = compact("bid", "bkey", "title", "content", "url", "blockfile", "view", "position", "weight", "active");
-        $blocklist[$title]['weight'] = (int)$blocklist[$title]['weight'];
+        $blocklist[$title] = compact('bid', 'bkey', 'title', 'content', 'url', 'blockfile', 'view', 'position', 'weight', 'active');
+        $blocklist[$title]['weight'] = (int) $blocklist[$title]['weight'];
     }
+
     return $blocklist;
 }
 
@@ -239,25 +227,25 @@ function atBlockList()
     $dbi = $GLOBALS['dbi'];
     $prefix = $GLOBALS['prefix'];
 
-    $result = sql_query("SELECT title FROM ".$prefix."_blocks ORDER BY title", $dbi);
+    $result = sql_query('SELECT title FROM '.$prefix.'_blocks ORDER BY title', $dbi);
 
     while (list($title) = sql_fetch_row($result, $dbi)) {
         $blocklist[] = $title;
     }
+
     return $blocklist;
 }
 
-function atThemeList($dir="themes")
+function atThemeList($dir = 'themes')
 {
-    $dir = AT_DIRPREFIX."themes";
+    $dir = AT_DIRPREFIX.'themes';
 
-	if ($handle = @opendir($dir)) {
+    if ($handle = @opendir($dir)) {
         while (false !== ($subdir = @readdir($handle))) {
             if (@is_dir("$dir/$subdir") &&
                 $subdir !== '.' &&
                 $subdir !== '..' &&
-                @file_exists("$dir/$subdir/theme.cfg"))
-            {
+                @file_exists("$dir/$subdir/theme.cfg")) {
                 $themelist[] = $subdir;
             }
         }
@@ -268,56 +256,53 @@ function atThemeList($dir="themes")
     return $themelist;
 }
 
-function atModList($dir="modules")
+function atModList($dir = 'modules')
 {
     $modlist = array(
-        "*AdminPages",
-        "*HomePage",
-        "*UserPages"
+        '*AdminPages',
+        '*HomePage',
+        '*UserPages',
     );
 
     if ($handle = @opendir($dir)) {
         while (false !== ($subdir = @readdir($handle))) {
             if (@is_dir("$dir/$subdir") &&
                 $subdir !== '.' &&
-                $subdir !== '..')
-            {
+                $subdir !== '..') {
                 $modlist[] = $subdir;
             }
         }
         closedir($handle);
     }
+
     return $modlist;
 }
 
-function atThemeSet($theme, $douser=0)
+function atThemeSet($theme, $douser = 0)
 {
-	$dbi = $GLOBALS['dbi'];
-	$prefix = $GLOBALS['prefix'];
-	$userprefix = $GLOBALS['user_prefix'];
-	$user = $GLOBALS['user'];
+    $dbi = $GLOBALS['dbi'];
+    $prefix = $GLOBALS['prefix'];
+    $userprefix = $GLOBALS['user_prefix'];
+    $user = $GLOBALS['user'];
 
-	if (isset($theme) && @file_exists("themes/$theme/theme.cfg")) {
-    	sql_query("UPDATE ".$prefix."_config SET Default_Theme='$theme'", $dbi);
+    if (isset($theme) && @file_exists("themes/$theme/theme.cfg")) {
+        sql_query('UPDATE '.$prefix."_config SET Default_Theme='$theme'", $dbi);
 
-	    if (atIsLoggedIn() && $douser) {
-			$username = atGetUserName();
-			sql_query("UPDATE ".$userprefix."_users SET theme='$theme' WHERE username='$username'", $dbi);
-			$userinfo = getusrinfo($user);
-			docookie($userinfo['user_id'], $userinfo['username'], $userinfo['user_password'], $userinfo['storynum'], $userinfo['umode'], $userinfo['uorder'], $userinfo['thold'], $userinfo['noscore'], $userinfo['ublockon'], $theme, $userinfo['commentmax']);
-
-		}
-	}
+        if (atIsLoggedIn() && $douser) {
+            $username = atGetUserName();
+            sql_query('UPDATE '.$userprefix."_users SET theme='$theme' WHERE username='$username'", $dbi);
+            $userinfo = getusrinfo($user);
+            docookie($userinfo['user_id'], $userinfo['username'], $userinfo['user_password'], $userinfo['storynum'], $userinfo['umode'], $userinfo['uorder'], $userinfo['thold'], $userinfo['noscore'], $userinfo['ublockon'], $theme, $userinfo['commentmax']);
+        }
+    }
 }
 
 function atGroupList()
 {
-	return array();
+    return array();
 }
 
 function atIsInGroup($group)
 {
-	return false;
+    return false;
 }
-
-?>

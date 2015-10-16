@@ -17,19 +17,17 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PRINTER","Versión para imprimir");
-define("_FRIEND","Enviar a un amigo");
-define("_ARTICLES","Artigos");
-define("_USCORE","Puntuación");
-define("_DATE","Fecha");
+define('_PRINTER', 'Versión para imprimir');
+define('_FRIEND', 'Enviar a un amigo');
+define('_ARTICLES', 'Artigos');
+define('_USCORE', 'Puntuación');
+define('_DATE', 'Fecha');
 
-define("_SELECTMONTH2VIEW","Seleccione o mes que quere ver:");
-define("_SHOWALLSTORIES","Mostar TÓDA-LAS Noticas");
-define("_STORIESARCHIVE","Arquivo de Noticias");
-define("_ACTIONS","Accións");
-define("_ARCHIVESINDEX","Índice do Arquivo de Noticias");
-define("_ALLSTORIESARCH","Tóda-las Noticias");
-define("_NEXTPAGE","Próxima Páxina");
-define("_PREVIOUSPAGE","Páxina Previa");
-
-?>
+define('_SELECTMONTH2VIEW', 'Seleccione o mes que quere ver:');
+define('_SHOWALLSTORIES', 'Mostar TÓDA-LAS Noticas');
+define('_STORIESARCHIVE', 'Arquivo de Noticias');
+define('_ACTIONS', 'Accións');
+define('_ARCHIVESINDEX', 'Índice do Arquivo de Noticias');
+define('_ALLSTORIESARCH', 'Tóda-las Noticias');
+define('_NEXTPAGE', 'Próxima Páxina');
+define('_PREVIOUSPAGE', 'Páxina Previa');

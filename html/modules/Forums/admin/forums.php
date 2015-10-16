@@ -29,38 +29,33 @@
 /* Forum admin files for PHP-Nuke 7.5 by chatserv                       */
 /************************************************************************/
 
-if ( !defined('ADMIN_FILE') )
-{
-	die("Illegal File Access");
+if (!defined('ADMIN_FILE')) {
+    die('Illegal File Access');
 }
 
 global $prefix, $db;
-$aid = substr("$aid", 0,25);
-$row = $db->sql_fetchrow($db->sql_query("SELECT title, admins FROM ".$prefix."_modules WHERE title='Forums'"));
-$row2 = $db->sql_fetchrow($db->sql_query("SELECT name, radminsuper FROM ".$prefix."_authors WHERE aid='$aid'"));
-$admins = explode(",", $row['admins']);
+$aid = substr("$aid", 0, 25);
+$row = $db->sql_fetchrow($db->sql_query('SELECT title, admins FROM '.$prefix."_modules WHERE title='Forums'"));
+$row2 = $db->sql_fetchrow($db->sql_query('SELECT name, radminsuper FROM '.$prefix."_authors WHERE aid='$aid'"));
+$admins = explode(',', $row['admins']);
 $auth_user = 0;
-for ($i=0; $i < sizeof($admins); $i++) {
-    if ($row2['name'] == "$admins[$i]" AND $row['admins'] != "") {
-        $auth_user = 1;	
+for ($i = 0; $i < sizeof($admins); ++$i) {
+    if ($row2['name'] == "$admins[$i]" and $row['admins'] != '') {
+        $auth_user = 1;
     }
 }
 
 if ($row2['radminsuper'] == 1 || $auth_user == 1) {
+    switch ($op) {
 
-	switch($op) {
-	
-		case "forums":
-		Header("Location: modules/Forums/admin/index.php");
-	}
-
-			
+        case 'forums':
+        Header('Location: modules/Forums/admin/index.php');
+    }
 } else {
-    echo "Access Denied";
+    echo 'Access Denied';
 }
 # $Log: forums.php,v $
 # Revision 1.1  2004/10/05 18:04:51  chatserv
 # Initial CVS Addition
 #
-
-?>
+;

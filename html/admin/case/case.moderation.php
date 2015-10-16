@@ -13,23 +13,21 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-switch($op) {
-    case "moderation":
-    case "moderation_news":
-    case "moderation_news_view":
-    case "moderation_surveys":
-    case "moderation_surveys_view":
-    case "moderation_reviews":
-    case "moderation_reviews_view":
-    case "moderation_users_list":
-	case "moderation_approval":
-	case "moderation_reject":
-    include("admin/modules/moderation.php");
+switch ($op) {
+    case 'moderation':
+    case 'moderation_news':
+    case 'moderation_news_view':
+    case 'moderation_surveys':
+    case 'moderation_surveys_view':
+    case 'moderation_reviews':
+    case 'moderation_reviews_view':
+    case 'moderation_users_list':
+    case 'moderation_approval':
+    case 'moderation_reject':
+    include 'admin/modules/moderation.php';
     break;
 
 }
-
-?>

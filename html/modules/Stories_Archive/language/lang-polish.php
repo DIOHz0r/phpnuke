@@ -20,17 +20,16 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_PRINTER","Strona gotowa do druku");
-define("_FRIEND","Wyślij ten artykuł do znajomych");
-define("_ARTICLES","Artykuły");
-define("_USCORE","Wynik");
-define("_DATE","Data");
-define("_SELECTMONTH2VIEW","Proszę wybrać miesiąc który chcesz przejrzeć:");
-define("_SHOWALLSTORIES","Pokaż WSZYSTKIE artykuły");
-define("_STORIESARCHIVE","Archiwum artykułów");
-define("_ACTIONS","Akcje");
-define("_ARCHIVESINDEX","Wykaz archiwum artykułów");
-define("_ALLSTORIESARCH","Wszystkie artykuły");
-define("_NEXTPAGE","Następna strona");
-define("_PREVIOUSPAGE","Poprzednia strona");
-
+define('_PRINTER', 'Strona gotowa do druku');
+define('_FRIEND', 'Wyślij ten artykuł do znajomych');
+define('_ARTICLES', 'Artykuły');
+define('_USCORE', 'Wynik');
+define('_DATE', 'Data');
+define('_SELECTMONTH2VIEW', 'Proszę wybrać miesiąc który chcesz przejrzeć:');
+define('_SHOWALLSTORIES', 'Pokaż WSZYSTKIE artykuły');
+define('_STORIESARCHIVE', 'Archiwum artykułów');
+define('_ACTIONS', 'Akcje');
+define('_ARCHIVESINDEX', 'Wykaz archiwum artykułów');
+define('_ALLSTORIESARCH', 'Wszystkie artykuły');
+define('_NEXTPAGE', 'Następna strona');
+define('_PREVIOUSPAGE', 'Poprzednia strona');

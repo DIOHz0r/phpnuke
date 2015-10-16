@@ -4,35 +4,36 @@
 # After use this file, you can safely delete it
 # Change the parameters to fit your info:
 
-$host 		= "localhost";
-$database 	= "nuke";
-$username 	= "root";
-$password 	= "";
+$host = 'localhost';
+$database = 'nuke';
+$username = 'root';
+$password = '';
 
 mysql_connect($host, $username, $password);
 @mysql_select_db($database);
 
 //************************************************************
 
-$result = mysql_query("ALTER TABLE users CHANGE pass pass varchar(40) NOT NULL");
-if (!$result) { 
-    echo "Alteration of stories table failed!<br>" .mysql_errno(). ": ".mysql_error(). "<br>"; 
-    return; 
+$result = mysql_query('ALTER TABLE users CHANGE pass pass varchar(40) NOT NULL');
+if (!$result) {
+    echo 'Alteration of stories table failed!<br>'.mysql_errno().': '.mysql_error().'<br>';
+
+    return;
 }
 
-$result = mysql_query("ALTER TABLE topics CHANGE topicid topicid int(3) NOT NULL");
-if (!$result) { 
-    echo "Alteration of topics table failed!<br>" .mysql_errno(). ": ".mysql_error(). "<br>"; 
-    return; 
-}
+$result = mysql_query('ALTER TABLE topics CHANGE topicid topicid int(3) NOT NULL');
+if (!$result) {
+    echo 'Alteration of topics table failed!<br>'.mysql_errno().': '.mysql_error().'<br>';
 
+    return;
+}
 
 $result = mysql_query("ALTER TABLE topics CHANGE topicid topicid INT (3) DEFAULT '0' not null AUTO_INCREMENT");
-if (!$result) { 
-    echo "Alteration of topics table failed!<br>" .mysql_errno(). ": ".mysql_error(). "<br>"; 
-    return; 
-}
+if (!$result) {
+    echo 'Alteration of topics table failed!<br>'.mysql_errno().': '.mysql_error().'<br>';
 
+    return;
+}
 
 $result = mysql_query("CREATE TABLE headlines (
   hid int(11) DEFAULT '0' NOT NULL auto_increment,
@@ -42,11 +43,11 @@ $result = mysql_query("CREATE TABLE headlines (
   status tinyint(1) DEFAULT '0' NOT NULL,
   PRIMARY KEY (hid)
 )");
-if (!$result) { 
-    echo "Creation of headlines table failed!<br>" .mysql_errno(). ": ".mysql_error(). "<br>"; 
-    return; 
-}
+if (!$result) {
+    echo 'Creation of headlines table failed!<br>'.mysql_errno().': '.mysql_error().'<br>';
 
+    return;
+}
 
 $result = mysql_query("INSERT INTO headlines VALUES (1,'PHP-Nuke','http://phpnuke.org','http://phpnuke.org/backend.php',0)");
 $result = mysql_query("INSERT INTO headlines VALUES (2,'LinuxPreview','http://linuxpreview.org','http://linuxpreview.org/backend.php3',0)");
@@ -101,7 +102,6 @@ $result = mysql_query("INSERT INTO headlines VALUES (51,'MaximumBSD','http://www
 $result = mysql_query("INSERT INTO headlines VALUES (52,'SolarisCentral','http://www.SolarisCentral.org','http://www.SolarisCentral.org/news/SolarisCentral.rdf',0)");
 $result = mysql_query("INSERT INTO headlines VALUES (53,'DigitalTheatre','http://www.dtheatre.com','http://www.dtheatre.com/backend.php3?xml=yes',0)");
 
-
 $result = mysql_query("CREATE TABLE related (
   rid int(11) DEFAULT '0' NOT NULL auto_increment,
   tid int(11) DEFAULT '0' NOT NULL,
@@ -109,12 +109,12 @@ $result = mysql_query("CREATE TABLE related (
   url varchar(200) DEFAULT '' NOT NULL,
   PRIMARY KEY (rid)
 )");
-if (!$result) { 
-    echo "Creation of related table failed!<br>" .mysql_errno(). ": ".mysql_error(). "<br>"; 
-    return; 
+if (!$result) {
+    echo 'Creation of related table failed!<br>'.mysql_errno().': '.mysql_error().'<br>';
+
+    return;
 }
 
-
-echo "PHP-Nuke Tables Updated, Ok...";
+echo 'PHP-Nuke Tables Updated, Ok...';
 ?>
 

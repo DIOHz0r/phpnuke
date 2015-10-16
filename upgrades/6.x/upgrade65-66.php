@@ -12,16 +12,14 @@
 # it from your browser.
 ######################################################
 
-include("mainfile.php");
+include 'mainfile.php';
 
 // Stories Table Alteration
-$db->sql_query("ALTER TABLE ".$prefix."_stories ADD associated TEXT NOT NULL");
-$db->sql_query("ALTER TABLE ".$prefix."_autonews ADD associated TEXT NOT NULL");
+$db->sql_query('ALTER TABLE '.$prefix.'_stories ADD associated TEXT NOT NULL');
+$db->sql_query('ALTER TABLE '.$prefix.'_autonews ADD associated TEXT NOT NULL');
 
 // PHP-Nuke Version Number Update
-$db->sql_query("UPDATE ".$prefix."_config SET Version_Num='6.6'");
+$db->sql_query('UPDATE '.$prefix."_config SET Version_Num='6.6'");
 
-echo "PHP-Nuke Update finished!<br><br>"
-    ."You should now delete this upgrade file from your server.";
-
-?>
+echo 'PHP-Nuke Update finished!<br><br>'
+    .'You should now delete this upgrade file from your server.';

@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Datum:");
-define("_PTOPIC","Ämne:");
-define("_COMESFROM","Den här artikeln kommer från");
-define("_THEURL","Adressen till denna artikel är:");
-define("_DATE","Datum");
-define("_TITLE","Titel");
-
-?>
+define('_PDATE', 'Datum:');
+define('_PTOPIC', 'Ämne:');
+define('_COMESFROM', 'Den här artikeln kommer från');
+define('_THEURL', 'Adressen till denna artikel är:');
+define('_DATE', 'Datum');
+define('_TITLE', 'Titel');

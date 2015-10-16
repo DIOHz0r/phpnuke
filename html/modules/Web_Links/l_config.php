@@ -61,5 +61,3 @@ $mostpoplinks = 25;
 $featurebox = 1;
 $linkvotemin = 5;
 $blockunregmodify = 1;
-
-?>

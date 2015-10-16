@@ -17,18 +17,16 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PREVIOUS","หน้าก่อน");
-define("_NEXT","หน้าถัดไป");
-define("_PAGE","หน้า");
-define("_DEACTIVATE","ไม่ทำงาน");
-define("_ACTIVATE","ทำงาน");
-define("_PUBLISHEDON","ติดประกาศ");
-define("_PAGESLIST","เนื้อหาสาระ");
-define("_LISTOFCONTENT","แสดงเนื้อหาสาระที่มีใน");
-define("_YOURADMINLIST","คุณคือ ผู้ดูแลระบบ: ข้างล่างนี้เป็นรายการของเนื้อหาสาระที่ยังไม่ใช้งาน:");
-define("_COPYRIGHT","สงวนลิขสิทธิ์โดย &copy; ");
-define("_COPYRIGHT2","All Right Reserved.");
-define("_CONTENTCATEGORIES","เนื้อหาสาระที่มีการจำแนกตามประเภทของเรื่อง");
-define("_NONCLASSCONT","เนื้อหาสาระที่ไม่มีการจำแนกประเภท");
-
-?>
+define('_PREVIOUS', 'หน้าก่อน');
+define('_NEXT', 'หน้าถัดไป');
+define('_PAGE', 'หน้า');
+define('_DEACTIVATE', 'ไม่ทำงาน');
+define('_ACTIVATE', 'ทำงาน');
+define('_PUBLISHEDON', 'ติดประกาศ');
+define('_PAGESLIST', 'เนื้อหาสาระ');
+define('_LISTOFCONTENT', 'แสดงเนื้อหาสาระที่มีใน');
+define('_YOURADMINLIST', 'คุณคือ ผู้ดูแลระบบ: ข้างล่างนี้เป็นรายการของเนื้อหาสาระที่ยังไม่ใช้งาน:');
+define('_COPYRIGHT', 'สงวนลิขสิทธิ์โดย &copy; ');
+define('_COPYRIGHT2', 'All Right Reserved.');
+define('_CONTENTCATEGORIES', 'เนื้อหาสาระที่มีการจำแนกตามประเภทของเรื่อง');
+define('_NONCLASSCONT', 'เนื้อหาสาระที่ไม่มีการจำแนกประเภท');

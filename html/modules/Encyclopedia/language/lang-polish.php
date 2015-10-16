@@ -20,26 +20,24 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_PREVIOUS","Poprzednia strona");
-define("_NEXT","Następna strona");
-define("_SEARCHRESULTS","Wyniki wyszukiwania");
-define("_PAGE","Strona");
-define("_RETURNTO","Powrót do");
-define("_DEACTIVATE","Deaktywuj");
-define("_ACTIVATE","Aktywuj");
-define("_ENCYCLOPEDIA","Encyklopedia");
-define("_NOCONTENTFORLETTER","Przepraszamy, nie ma żadnej zawartości dla tej litery");
-define("_ENCYSELECTLETTER","Proszę wybrać literę z poniższych:");
-define("_COPYRIGHT","Prawa autorskie");
-define("_YOURADMINENCY","Jesteś Administratorem, ta Encyklopedia nie jest aktywna!");
-define("_ENCYNOTACTIVE","Przepraszamy, ta Encyklopedia nie jest teraz aktywna.");
-define("_AVAILABLEENCYLIST","Lista dostępnych Encyklopedii w");
-define("_YOURADMININACTIVELIST","Jesteś Administratorem: oto lista nieaktywnych Encyklopedii:");
-define("_NORESULTSTEXT","Brak wyników w tekście haseł...");
-define("_NORESULTSTITLE","Brak wyników w nazwach haseł...");
-define("_SEARCHRESULTSFOR","Szukaj wyników dla:");
-define("_SEARCHNOTCOMPLETE","Opcje wyszukiwania nie są kompletne. Spróbuj ponownie.");
-define("_RESULTSINTERMTITLE","Wyniki w tekście opisu:");
-define("_RESULTSINTERMTEXT","Wyniki w temacie opisu:");
-
-?>
+define('_PREVIOUS', 'Poprzednia strona');
+define('_NEXT', 'Następna strona');
+define('_SEARCHRESULTS', 'Wyniki wyszukiwania');
+define('_PAGE', 'Strona');
+define('_RETURNTO', 'Powrót do');
+define('_DEACTIVATE', 'Deaktywuj');
+define('_ACTIVATE', 'Aktywuj');
+define('_ENCYCLOPEDIA', 'Encyklopedia');
+define('_NOCONTENTFORLETTER', 'Przepraszamy, nie ma żadnej zawartości dla tej litery');
+define('_ENCYSELECTLETTER', 'Proszę wybrać literę z poniższych:');
+define('_COPYRIGHT', 'Prawa autorskie');
+define('_YOURADMINENCY', 'Jesteś Administratorem, ta Encyklopedia nie jest aktywna!');
+define('_ENCYNOTACTIVE', 'Przepraszamy, ta Encyklopedia nie jest teraz aktywna.');
+define('_AVAILABLEENCYLIST', 'Lista dostępnych Encyklopedii w');
+define('_YOURADMININACTIVELIST', 'Jesteś Administratorem: oto lista nieaktywnych Encyklopedii:');
+define('_NORESULTSTEXT', 'Brak wyników w tekście haseł...');
+define('_NORESULTSTITLE', 'Brak wyników w nazwach haseł...');
+define('_SEARCHRESULTSFOR', 'Szukaj wyników dla:');
+define('_SEARCHNOTCOMPLETE', 'Opcje wyszukiwania nie są kompletne. Spróbuj ponownie.');
+define('_RESULTSINTERMTITLE', 'Wyniki w tekście opisu:');
+define('_RESULTSINTERMTEXT', 'Wyniki w temacie opisu:');

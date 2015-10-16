@@ -1,7 +1,8 @@
 <?php
-if(!strpos($_SERVER['PHP_SELF'], 'admin.php')) {
-	#show right panel:
-	define('INDEX_FILE', true);
+
+if (!strpos($_SERVER['PHP_SELF'], 'admin.php')) {
+    #show right panel:
+    define('INDEX_FILE', true);
 }
 
 /************************************************************************/
@@ -17,30 +18,31 @@ if(!strpos($_SERVER['PHP_SELF'], 'admin.php')) {
 /************************************************************************/
 
 if (!defined('MODULE_FILE')) {
-	die ("You can't access this file directly...");
+    die("You can't access this file directly...");
 }
-require_once("mainfile.php");
+require_once 'mainfile.php';
 $module_name = basename(dirname(__FILE__));
 get_lang($module_name);
 
-if(!isset($sid)) {
-	fdie();
+if (!isset($sid)) {
+    fdie();
 }
 
-function PrintPage($sid) {
-	global $site_logo, $nukeurl, $sitename, $datetime, $prefix, $db, $module_name;
-	$sid = intval($sid);
-	$row = $db->sql_fetchrow($db->sql_query("SELECT title, time, hometext, bodytext, topic, notes FROM ".$prefix."_stories WHERE sid='$sid'"));
-	$title = filter($row['title'], nohtml);
-	$time = $row['time'];
-	$hometext = filter($row['hometext']);
-	$bodytext = filter($row['bodytext']);
-	$topic = intval($row['topic']);
-	$notes = filter($row['notes']);
-	$row2 = $db->sql_fetchrow($db->sql_query("SELECT topictext FROM ".$prefix."_topics WHERE topicid='$topic'"));
-	$topictext = filter($row2['topictext'], nohtml);
-	formatTimestamp($time);
-	echo "<html>
+function PrintPage($sid)
+{
+    global $site_logo, $nukeurl, $sitename, $datetime, $prefix, $db, $module_name;
+    $sid = intval($sid);
+    $row = $db->sql_fetchrow($db->sql_query('SELECT title, time, hometext, bodytext, topic, notes FROM '.$prefix."_stories WHERE sid='$sid'"));
+    $title = filter($row['title'], nohtml);
+    $time = $row['time'];
+    $hometext = filter($row['hometext']);
+    $bodytext = filter($row['bodytext']);
+    $topic = intval($row['topic']);
+    $notes = filter($row['notes']);
+    $row2 = $db->sql_fetchrow($db->sql_query('SELECT topictext FROM '.$prefix."_topics WHERE topicid='$topic'"));
+    $topictext = filter($row2['topictext'], nohtml);
+    formatTimestamp($time);
+    echo "<html>
 	    <head><title>$sitename - $title</title></head>
 	    <body bgcolor=\"#ffffff\" text=\"#000000\">
 	    <table border=\"0\" align=\"center\"><tr><td>
@@ -69,9 +71,7 @@ function PrintPage($sid) {
 	    </td></tr></table>
 	    </body>
 	    </html>";
-	fdie();
+    fdie();
 }
 
 PrintPage($sid);
-
-?>

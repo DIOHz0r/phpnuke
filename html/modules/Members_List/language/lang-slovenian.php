@@ -17,27 +17,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","URL");
-define("_EMAIL","E-mail");
-define("_REALNAME","Pravo ime");
-define("_FUNCTIONS","Funkcije");
-define("_PREVIOUS","Prejnja stran");
-define("_MEMBERSLIST","Popis članov");
-define("_GREETINGS","elimo dobrodolico naemu najnovejemu članu:");
-define("_SORTBY","Sortiraj po:");
-define("_MNICKNAME","nadimku");
-define("_MREALNAME","pravem imenu");
-define("_MEMAIL","e-mailu");
-define("_MURL","URL-ju");
-define("_ONLINEREG","Člani ki so trenutno online:");
-define("_WEHAVE","Imamo");
-define("_MREGISTERED","registriranih članov dosedaj.");
-define("_MREGONLINE","registriranih članov je trenutno online.");
-define("_REGSOFAR","registriranih članov dosedaj.");
-define("_USERSFOUND","uporabnikov najdenih na");
-define("_USERSSHOWN","uporabnikov prikazanih");
-define("_NOMEMBERS","Noben član, ki ustreza kriteriju ni bil najden");
-define("_PAGES","Strani");
-define("_HOMEPAGE","Stran(HomePage)");
-
-?>
+define('_URL', 'URL');
+define('_EMAIL', 'E-mail');
+define('_REALNAME', 'Pravo ime');
+define('_FUNCTIONS', 'Funkcije');
+define('_PREVIOUS', 'Prejnja stran');
+define('_MEMBERSLIST', 'Popis članov');
+define('_GREETINGS', 'elimo dobrodolico naemu najnovejemu članu:');
+define('_SORTBY', 'Sortiraj po:');
+define('_MNICKNAME', 'nadimku');
+define('_MREALNAME', 'pravem imenu');
+define('_MEMAIL', 'e-mailu');
+define('_MURL', 'URL-ju');
+define('_ONLINEREG', 'Člani ki so trenutno online:');
+define('_WEHAVE', 'Imamo');
+define('_MREGISTERED', 'registriranih članov dosedaj.');
+define('_MREGONLINE', 'registriranih članov je trenutno online.');
+define('_REGSOFAR', 'registriranih članov dosedaj.');
+define('_USERSFOUND', 'uporabnikov najdenih na');
+define('_USERSSHOWN', 'uporabnikov prikazanih');
+define('_NOMEMBERS', 'Noben član, ki ustreza kriteriju ni bil najden');
+define('_PAGES', 'Strani');
+define('_HOMEPAGE', 'Stran(HomePage)');

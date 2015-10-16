@@ -12,8 +12,8 @@
 # the Free Software Foundation; either version 2 of the License.
 ######################################################################
 
-if (stristr(htmlentities($_SERVER['PHP_SELF']), "config.php")) {
-	   Header("Location: index.php");
+if (stristr(htmlentities($_SERVER['PHP_SELF']), 'config.php')) {
+    Header('Location: index.php');
     die();
 }
 
@@ -42,16 +42,16 @@ if (stristr(htmlentities($_SERVER['PHP_SELF']), "config.php")) {
 #              new filename (without the extension .php)
 ######################################################################
 
-$dbhost = "localhost";
-$dbuname = "root";
-$dbpass = "";
-$dbname = "";
-$prefix = "nuke";
-$user_prefix = "nuke";
-$dbtype = "MySQL";
-$sitekey = "cPEnq15ZPmejnuKtzZMUHFH1bee9KLT9i5FfZBmI";
-$subscription_url = "";
-$admin_file = "admin";
+$dbhost = 'localhost';
+$dbuname = 'root';
+$dbpass = '';
+$dbname = '';
+$prefix = 'nuke';
+$user_prefix = 'nuke';
+$dbtype = 'MySQL';
+$sitekey = 'cPEnq15ZPmejnuKtzZMUHFH1bee9KLT9i5FfZBmI';
+$subscription_url = '';
+$admin_file = 'admin';
 
 /**********************************************************************/
 /* You finished to configure the Database. Now you can change all     */
@@ -69,14 +69,14 @@ $admin_file = "admin";
 // DO NOT TOUCH ANYTHING BELOW THIS LINE UNTIL YOU KNOW WHAT YOU'RE DOING
 
 $prefix = empty($user_prefix) ? $prefix : $user_prefix;
-$reasons = array("As Is","Offtopic","Flamebait","Troll","Redundant","Insighful","Interesting","Informative","Funny","Overrated","Underrated");
+$reasons = array('As Is','Offtopic','Flamebait','Troll','Redundant','Insighful','Interesting','Informative','Funny','Overrated','Underrated');
 $badreasons = 4;
 /* If you want to use the IMG tag in your HTML code, to include images in News for example, you must use the following line and comment the old $AllowableHTML */
 /* $AllowableHTML = array("img"=>2,"b"=>1,"i"=>1,"strike"=>1,"div"=>2,"u"=>1,"a"=>2,"em"=>1,"br"=>1,"strong"=>1,"blockquote"=>1,"tt"=>1,"li"=>1,"ol"=>1,"ul"=>1); */
 /* or just include "img"=>2 in the $AllowableHTML array bellow. This feature isn't included by default due to possible security issues */
-$AllowableHTML = array("b"=>1,"i"=>1,"strike"=>1,"div"=>2,"u"=>1,"a"=>2,"em"=>1,"br"=>1,"strong"=>1,"blockquote"=>1,"tt"=>1,"li"=>1,"ol"=>1,"ul"=>1);
-$CensorList = array("fuck","cunt","fucker","fucking","pussy","cock","c0ck","cum","twat","clit","bitch","fuk","fuking","motherfucker");
-$tipath = "images/topics/";
+$AllowableHTML = array('b' => 1,'i' => 1,'strike' => 1,'div' => 2,'u' => 1,'a' => 2,'em' => 1,'br' => 1,'strong' => 1,'blockquote' => 1,'tt' => 1,'li' => 1,'ol' => 1,'ul' => 1);
+$CensorList = array('fuck','cunt','fucker','fucking','pussy','cock','c0ck','cum','twat','clit','bitch','fuk','fuking','motherfucker');
+$tipath = 'images/topics/';
 
 //***************************************************************
 // IF YOU WANT TO LEGALY REMOVE ANY COPYRIGHT NOTICES PLAY FAIR AND CHECK: http://phpnuke.org/modules.php?name=Commercial_License
@@ -88,5 +88,3 @@ $tipath = "images/topics/";
 //***************************************************************
 
 $commercial_license = 0;
-
-?>

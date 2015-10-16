@@ -17,36 +17,32 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_YES","Da");
-define("_NO","Ne");
-define("_CATEGORY","Kategorija");
-define("_SAVECHANGES","Shrani spremembe");
-define("_ARTICLES","Člankih");
-define("_SELECTTOPIC","Izberite temo");
-define("_OPTION","Opcija");
-define("_ADMPOLLS","Ankete");
-define("_TITLE","Naslov");
-define("_STORYTEXT","Tekst članka");
-define("_EXTENDEDTEXT","Razirjeni tekst");
-define("_PUBLISHINHOME","Objavi na začetni strani?");
-define("_ONLYIFCATSELECTED","Dela samo če <i>Članki</i> kategorija ni izbrana");
-define("_ADD","Dodaj");
-define("_POLLSADMIN","Administracija anket");
-define("_CREATEPOLL","Izdelaj novo anketo");
-define("_DELETEPOLLS","Izbrii ankete");
-define("_POLLTITLE","Naslov ankete");
-define("_POLLEACHFIELD","Vsako mono izbiro vnesite v posebno polje");
-define("_CREATEPOLLBUT","Izdelaj anketo");
-define("_POLLDELWARNING","OPOZORILO: Izbrana anketa bo TAKOJ izbrisana iz baze podatakov!");
-define("_CHOOSEPOLL","Izberite anketo s spodnjega popisa:");
-define("_EDITPOLL","Uredi ankete");
-define("_CHOOSEPOLLEDIT","Izberite anketo ki jo elite spremeniti:");
-define("_ACTIVATECOMMENTS","Aktiviraj komentarje za ta članek?");
-define("_LANGUAGE","Jezik");
-define("_ANNOUNCEPOLL","Najavi novo anketo na strani");
-define("_LEAVEBLANK","(Pustite prazno za izdelavo nove ankete brez najave)");
-define("_POLLEDIT","Uredi anketo:");
-
-
-?>
+define('_YES', 'Da');
+define('_NO', 'Ne');
+define('_CATEGORY', 'Kategorija');
+define('_SAVECHANGES', 'Shrani spremembe');
+define('_ARTICLES', 'Člankih');
+define('_SELECTTOPIC', 'Izberite temo');
+define('_OPTION', 'Opcija');
+define('_ADMPOLLS', 'Ankete');
+define('_TITLE', 'Naslov');
+define('_STORYTEXT', 'Tekst članka');
+define('_EXTENDEDTEXT', 'Razirjeni tekst');
+define('_PUBLISHINHOME', 'Objavi na začetni strani?');
+define('_ONLYIFCATSELECTED', 'Dela samo če <i>Članki</i> kategorija ni izbrana');
+define('_ADD', 'Dodaj');
+define('_POLLSADMIN', 'Administracija anket');
+define('_CREATEPOLL', 'Izdelaj novo anketo');
+define('_DELETEPOLLS', 'Izbrii ankete');
+define('_POLLTITLE', 'Naslov ankete');
+define('_POLLEACHFIELD', 'Vsako mono izbiro vnesite v posebno polje');
+define('_CREATEPOLLBUT', 'Izdelaj anketo');
+define('_POLLDELWARNING', 'OPOZORILO: Izbrana anketa bo TAKOJ izbrisana iz baze podatakov!');
+define('_CHOOSEPOLL', 'Izberite anketo s spodnjega popisa:');
+define('_EDITPOLL', 'Uredi ankete');
+define('_CHOOSEPOLLEDIT', 'Izberite anketo ki jo elite spremeniti:');
+define('_ACTIVATECOMMENTS', 'Aktiviraj komentarje za ta članek?');
+define('_LANGUAGE', 'Jezik');
+define('_ANNOUNCEPOLL', 'Najavi novo anketo na strani');
+define('_LEAVEBLANK', '(Pustite prazno za izdelavo nove ankete brez najave)');
+define('_POLLEDIT', 'Uredi anketo:');

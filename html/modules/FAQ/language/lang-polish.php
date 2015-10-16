@@ -20,13 +20,11 @@
 /*                                                                        */
 /**************************************************************************/
 
-define("_CATEGORY","Kategoria");
-define("_CATEGORIES","Kategorie");
-define("_FAQ2","FAQ (Często zadawane pytania)");
-define("_BACKTOTOP","Powrót na górę");
-define("_BACKTOFAQINDEX","Powrót do indeksu pytań");
-define("_MAIN","Główna");
-define("_QUESTION","Pytanie");
-define("_ANSWER","Odpowiedź");
-
-?>
+define('_CATEGORY', 'Kategoria');
+define('_CATEGORIES', 'Kategorie');
+define('_FAQ2', 'FAQ (Często zadawane pytania)');
+define('_BACKTOTOP', 'Powrót na górę');
+define('_BACKTOFAQINDEX', 'Powrót do indeksu pytań');
+define('_MAIN', 'Główna');
+define('_QUESTION', 'Pytanie');
+define('_ANSWER', 'Odpowiedź');

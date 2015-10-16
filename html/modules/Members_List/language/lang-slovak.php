@@ -31,27 +31,25 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_URL","URL");
-define("_EMAIL","E-mail");
-define("_REALNAME","Skutočné meno");
-define("_FUNCTIONS","Funkcie");
-define("_PREVIOUS","Predchádzajúca strana");
-define("_MEMBERSLIST","zozname členov");
-define("_GREETINGS","Pozdravujeme nášho naposledy zaregistrovaného užívateľa:");
-define("_SORTBY","Trieďiť podľa:");
-define("_MNICKNAME","uživateľského mena");
-define("_MREALNAME","skutočného mena");
-define("_MEMAIL","e-mailu");
-define("_MURL","URL");
-define("_ONLINEREG","Momentálne sú online títo registrovaní užívatelia:");
-define("_WEHAVE","Máme celkom");
-define("_MREGISTERED","doteraz zaregistrovaných užívateľov. Práve je tu");
-define("_MREGONLINE","z nich.");
-define("_REGSOFAR","registrovaných užívateľov.");
-define("_USERSFOUND","nájdených užívateľov pre");
-define("_USERSSHOWN","zobraziť užívateľov");
-define("_NOMEMBERS","Žiadny užívateľ s uživateľským menom začínajúcim na písmeno");
-define("_PAGES","Stránky");
-define("_HOMEPAGE","Domovská stránka");
-
-?>
+define('_URL', 'URL');
+define('_EMAIL', 'E-mail');
+define('_REALNAME', 'Skutočné meno');
+define('_FUNCTIONS', 'Funkcie');
+define('_PREVIOUS', 'Predchádzajúca strana');
+define('_MEMBERSLIST', 'zozname členov');
+define('_GREETINGS', 'Pozdravujeme nášho naposledy zaregistrovaného užívateľa:');
+define('_SORTBY', 'Trieďiť podľa:');
+define('_MNICKNAME', 'uživateľského mena');
+define('_MREALNAME', 'skutočného mena');
+define('_MEMAIL', 'e-mailu');
+define('_MURL', 'URL');
+define('_ONLINEREG', 'Momentálne sú online títo registrovaní užívatelia:');
+define('_WEHAVE', 'Máme celkom');
+define('_MREGISTERED', 'doteraz zaregistrovaných užívateľov. Práve je tu');
+define('_MREGONLINE', 'z nich.');
+define('_REGSOFAR', 'registrovaných užívateľov.');
+define('_USERSFOUND', 'nájdených užívateľov pre');
+define('_USERSSHOWN', 'zobraziť užívateľov');
+define('_NOMEMBERS', 'Žiadny užívateľ s uživateľským menom začínajúcim na písmeno');
+define('_PAGES', 'Stránky');
+define('_HOMEPAGE', 'Domovská stránka');

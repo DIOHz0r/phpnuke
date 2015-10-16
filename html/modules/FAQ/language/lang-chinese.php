@@ -17,14 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","類別");
-define("_CATEGORIES","類別");
-define("_FAQ2","FAQ (常見問答集)");
-define("_BACKTOTOP","回到頂端");
-define("_BACKTOFAQINDEX","回到 FAQ 索引");
-define("_MAIN","主要的");
-define("_QUESTION","問題");
-define("_ANSWER","解答");
-
-
-?>
+define('_CATEGORY', '類別');
+define('_CATEGORIES', '類別');
+define('_FAQ2', 'FAQ (常見問答集)');
+define('_BACKTOTOP', '回到頂端');
+define('_BACKTOFAQINDEX', '回到 FAQ 索引');
+define('_MAIN', '主要的');
+define('_QUESTION', '問題');
+define('_ANSWER', '解答');

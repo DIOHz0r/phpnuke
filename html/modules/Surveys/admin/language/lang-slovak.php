@@ -17,37 +17,33 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-
-define("_YES","Áno");
-define("_NO","Nie");
-define("_CATEGORY","Kategória");
-define("_SAVECHANGES","Uloži? zmeny");
-define("_ARTICLES","Články");
-define("_SELECTTOPIC","Výber témy");
-define("_OPTION","Nastavenie");
-define("_ADMPOLLS","Ankety");
-define("_TITLE","Názov");
-define("_STORYTEXT","Text článku");
-define("_EXTENDEDTEXT","Rozšírený text");
-define("_PUBLISHINHOME","Publikova? na úvodnú stránku?");
-define("_ONLYIFCATSELECTED","Funguje len keď nie je vybraná kategória <i>články</i>");
-define("_ADD","Prida?");
-define("_POLLSADMIN","Administrácia ankiet");
-define("_CREATEPOLL","Vytvori? novú anketu");
-define("_DELETEPOLLS","Zruši? anketu");
-define("_POLLTITLE","Názov ankety");
-define("_POLLEACHFIELD","Do políčok zadajte každú možnú odpoveď.");
-define("_CREATEPOLLBUT","Vytvori? anketu");
-define("_REMOVEEXISTING","Vymaza? existujúcu anketu");
-define("_POLLDELWARNING","UPOZORNENIE: Zvolená anketa bude okamžite vymazaná z databázy!");
-define("_CHOOSEPOLL","Prosím, vyberte anketu z nasledovného zoznamu:");
-define("_EDITPOLL","Upravi? Ankety");
-define("_CHOOSEPOLLEDIT","Vyberte anketu, ktorú chcete upravi?:");
-define("_ACTIVATECOMMENTS","Aktivova? komentáre k tomuto článku?");
-define("_LANGUAGE","Jazyk");
-define("_ANNOUNCEPOLL","Oznámi? túto novú anketu na titulnej stránke");
-define("_LEAVEBLANK","Nechajte prázdne, ak nechcete oznámi? novú anketu na titulnej stránke.%");
-define("_POLLEDIT","Upravi? anketu");
-
-
-?>
+define('_YES', 'Áno');
+define('_NO', 'Nie');
+define('_CATEGORY', 'Kategória');
+define('_SAVECHANGES', 'Uloži? zmeny');
+define('_ARTICLES', 'Články');
+define('_SELECTTOPIC', 'Výber témy');
+define('_OPTION', 'Nastavenie');
+define('_ADMPOLLS', 'Ankety');
+define('_TITLE', 'Názov');
+define('_STORYTEXT', 'Text článku');
+define('_EXTENDEDTEXT', 'Rozšírený text');
+define('_PUBLISHINHOME', 'Publikova? na úvodnú stránku?');
+define('_ONLYIFCATSELECTED', 'Funguje len keď nie je vybraná kategória <i>články</i>');
+define('_ADD', 'Prida?');
+define('_POLLSADMIN', 'Administrácia ankiet');
+define('_CREATEPOLL', 'Vytvori? novú anketu');
+define('_DELETEPOLLS', 'Zruši? anketu');
+define('_POLLTITLE', 'Názov ankety');
+define('_POLLEACHFIELD', 'Do políčok zadajte každú možnú odpoveď.');
+define('_CREATEPOLLBUT', 'Vytvori? anketu');
+define('_REMOVEEXISTING', 'Vymaza? existujúcu anketu');
+define('_POLLDELWARNING', 'UPOZORNENIE: Zvolená anketa bude okamžite vymazaná z databázy!');
+define('_CHOOSEPOLL', 'Prosím, vyberte anketu z nasledovného zoznamu:');
+define('_EDITPOLL', 'Upravi? Ankety');
+define('_CHOOSEPOLLEDIT', 'Vyberte anketu, ktorú chcete upravi?:');
+define('_ACTIVATECOMMENTS', 'Aktivova? komentáre k tomuto článku?');
+define('_LANGUAGE', 'Jazyk');
+define('_ANNOUNCEPOLL', 'Oznámi? túto novú anketu na titulnej stránke');
+define('_LEAVEBLANK', 'Nechajte prázdne, ak nechcete oznámi? novú anketu na titulnej stránke.%');
+define('_POLLEDIT', 'Upravi? anketu');

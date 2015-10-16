@@ -17,13 +17,11 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_CATEGORY","تصنيف");
-define("_CATEGORIES","التصنيفات");
-define("_FAQ2","س و ج (الأسئلة المتكررة)");
-define("_BACKTOTOP","أعلى الصفحة");
-define("_BACKTOFAQINDEX","عودة الى قائمة الأسئلة المتكررة");
-define("_MAIN","الرئيسي");
-define("_QUESTION","السؤال");
-define("_ANSWER","الجواب");
-
-?>
+define('_CATEGORY', 'تصنيف');
+define('_CATEGORIES', 'التصنيفات');
+define('_FAQ2', 'س و ج (الأسئلة المتكررة)');
+define('_BACKTOTOP', 'أعلى الصفحة');
+define('_BACKTOFAQINDEX', 'عودة الى قائمة الأسئلة المتكررة');
+define('_MAIN', 'الرئيسي');
+define('_QUESTION', 'السؤال');
+define('_ANSWER', 'الجواب');

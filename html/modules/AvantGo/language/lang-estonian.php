@@ -17,11 +17,9 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PDATE","Kuupäev:");
-define("_PTOPIC","Teema:");
-define("_COMESFROM","See artikkel tuleb");
-define("_THEURL","URL sellele jutule:");
-define("_DATE","Kuupäev");
-define("_TITLE","Pealkiri");
-
-?>
+define('_PDATE', 'Kuupäev:');
+define('_PTOPIC', 'Teema:');
+define('_COMESFROM', 'See artikkel tuleb');
+define('_THEURL', 'URL sellele jutule:');
+define('_DATE', 'Kuupäev');
+define('_TITLE', 'Pealkiri');

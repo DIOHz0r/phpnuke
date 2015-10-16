@@ -17,22 +17,20 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Відправити");
-define("_FYOURNAME","Ваше ім'я:");
-define("_FYOUREMAIL","Ваш Email:");
-define("_FFRIENDNAME","Ім'я вашого товариша:");
-define("_FFRIENDEMAIL","Email вашого товариша:");
-define("_HELLO","Привіт");
-define("_YOURFRIEND","Ваш товариш");
-define("_RECOMMEND","Відрекомендуйте цей сайт товаришу");
-define("_INTSITE","Цікавий сайт:");
-define("_OURSITE","вважає наш сайт");
-define("_INTSENT","і захотів відправити його адресу вам.");
-define("_FSITENAME","Назва сайту:");
-define("_FSITEURL","URL сайту:");
-define("_FREFERENCE","Запрошення відвідати наш сайт успішно відправлене ");
-define("_THANKSREC","Спасибі за рекомендацію!");
-define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
-define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
-
-?>
+define('_SEND', 'Відправити');
+define('_FYOURNAME', "Ваше ім'я:");
+define('_FYOUREMAIL', 'Ваш Email:');
+define('_FFRIENDNAME', "Ім'я вашого товариша:");
+define('_FFRIENDEMAIL', 'Email вашого товариша:');
+define('_HELLO', 'Привіт');
+define('_YOURFRIEND', 'Ваш товариш');
+define('_RECOMMEND', 'Відрекомендуйте цей сайт товаришу');
+define('_INTSITE', 'Цікавий сайт:');
+define('_OURSITE', 'вважає наш сайт');
+define('_INTSENT', 'і захотів відправити його адресу вам.');
+define('_FSITENAME', 'Назва сайту:');
+define('_FSITEURL', 'URL сайту:');
+define('_FREFERENCE', 'Запрошення відвідати наш сайт успішно відправлене ');
+define('_THANKSREC', 'Спасибі за рекомендацію!');
+define('_SECURITYCODEERROR', '<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:');
+define('_SENDSITEERROR', '<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.');

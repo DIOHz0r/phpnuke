@@ -17,22 +17,20 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","أرسل");
-define("_FYOURNAME","اسمك:");
-define("_FYOUREMAIL","بريدك الإلكتروني:");
-define("_FFRIENDNAME","اسم صديقك:");
-define("_FFRIENDEMAIL","بريد صديقك:");
-define("_HELLO","مرحبا");
-define("_YOURFRIEND","صديقك");
-define("_RECOMMEND","ارسل هذا الموقع الى صديق");
-define("_INTSITE","موقع ممتع:");
-define("_OURSITE","يعتقد أن موقعنا");
-define("_INTSENT","ممتع وأراد أن يرسله لك.");
-define("_FSITENAME","اسم الموقع:");
-define("_FSITEURL","عنوان الموقع:");
-define("_FREFERENCE","المرجع لموقعنا أرسل الى");
-define("_THANKSREC","شكرا لأخبار صديقك عنا!");
-define("_SECURITYCODEERROR","<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:");
-define("_SENDSITEERROR","<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.");
-
-?>
+define('_SEND', 'أرسل');
+define('_FYOURNAME', 'اسمك:');
+define('_FYOUREMAIL', 'بريدك الإلكتروني:');
+define('_FFRIENDNAME', 'اسم صديقك:');
+define('_FFRIENDEMAIL', 'بريد صديقك:');
+define('_HELLO', 'مرحبا');
+define('_YOURFRIEND', 'صديقك');
+define('_RECOMMEND', 'ارسل هذا الموقع الى صديق');
+define('_INTSITE', 'موقع ممتع:');
+define('_OURSITE', 'يعتقد أن موقعنا');
+define('_INTSENT', 'ممتع وأراد أن يرسله لك.');
+define('_FSITENAME', 'اسم الموقع:');
+define('_FSITEURL', 'عنوان الموقع:');
+define('_FREFERENCE', 'المرجع لموقعنا أرسل الى');
+define('_THANKSREC', 'شكرا لأخبار صديقك عنا!');
+define('_SECURITYCODEERROR', '<b>ERROR:</b> The security code you wrote is incorrect...<br>Please write it exactly as given bellow:');
+define('_SENDSITEERROR', '<b>Error sending the recommendation...</b><br><br><b>ERROR:</b> One or more required fields are empty.<br>Please go back and correct the problem, then try again.');

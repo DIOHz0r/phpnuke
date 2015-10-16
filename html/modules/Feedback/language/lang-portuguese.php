@@ -23,20 +23,17 @@
 /* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
-
-define("_SEND","Enviar");
-define("_YOURNAME","O seu nome");
-define("_MESSAGE","Mensagem");
-define("_YOUREMAIL","Seu Email");
-define("_FEEDBACKNOTE","Todos os comentários e sugestões sobre este web site são bem vindos sendo uma fonte valiosa de informação para nós. Obrigado!");
-define("_FEEDBACKTITLE","Formulário de Feedback");
-define("_FEEDBACK","Feedback");
-define("_FBENTERNAME","ERRO: Por favor escreva o seu nome!");
-define("_FBENTEREMAIL","ERRO: Por favor escreva o seu email!");
-define("_FBENTERMESSAGE","ERRO: Por favor esvreva uma mensagem!");
-define("_SENDEREMAIL","Email");
-define("_SENDERNAME","Nome");
-define("_FBMAILSENT","Mail enviado!");
-define("_FBTHANKSFORCONTACT","Obrigado por nos ter contactado.");
-
-?>
+define('_SEND', 'Enviar');
+define('_YOURNAME', 'O seu nome');
+define('_MESSAGE', 'Mensagem');
+define('_YOUREMAIL', 'Seu Email');
+define('_FEEDBACKNOTE', 'Todos os comentários e sugestões sobre este web site são bem vindos sendo uma fonte valiosa de informação para nós. Obrigado!');
+define('_FEEDBACKTITLE', 'Formulário de Feedback');
+define('_FEEDBACK', 'Feedback');
+define('_FBENTERNAME', 'ERRO: Por favor escreva o seu nome!');
+define('_FBENTEREMAIL', 'ERRO: Por favor escreva o seu email!');
+define('_FBENTERMESSAGE', 'ERRO: Por favor esvreva uma mensagem!');
+define('_SENDEREMAIL', 'Email');
+define('_SENDERNAME', 'Nome');
+define('_FBMAILSENT', 'Mail enviado!');
+define('_FBTHANKSFORCONTACT', 'Obrigado por nos ter contactado.');

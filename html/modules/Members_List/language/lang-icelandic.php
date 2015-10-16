@@ -17,27 +17,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","Slóð");
-define("_EMAIL","Netfang");
-define("_REALNAME","Fullt nafn");
-define("_FUNCTIONS","Aðgerðir");
-define("_PREVIOUS","Fyrri síða");
-define("_MEMBERSLIST","Meðlimalisti");
-define("_GREETINGS","Bestu kveðjur til nýjasta meðlimsins:");
-define("_SORTBY","Raða eftir:");
-define("_MNICKNAME","notandanafni");
-define("_MREALNAME","fullu nafni");
-define("_MEMAIL","netfangi");
-define("_MURL","vefslóð");
-define("_ONLINEREG","Þessir meðlimir eru tengdir núna:");
-define("_WEHAVE","Við erum með");
-define("_MREGISTERED","skráða notendur í dag.  Það eru");
-define("_MREGONLINE","skráðir notendur tengdir í augnablikinu.");
-define("_REGSOFAR","skráða notendur í dag.");
-define("_USERSFOUND","notendur fundust undir");
-define("_USERSSHOWN","notendur sýndir");
-define("_NOMEMBERS","Engir notendur undir");
-define("_PAGES","Síður");
-define("_HOMEPAGE","Heimasíða");
-
-?>
+define('_URL', 'Slóð');
+define('_EMAIL', 'Netfang');
+define('_REALNAME', 'Fullt nafn');
+define('_FUNCTIONS', 'Aðgerðir');
+define('_PREVIOUS', 'Fyrri síða');
+define('_MEMBERSLIST', 'Meðlimalisti');
+define('_GREETINGS', 'Bestu kveðjur til nýjasta meðlimsins:');
+define('_SORTBY', 'Raða eftir:');
+define('_MNICKNAME', 'notandanafni');
+define('_MREALNAME', 'fullu nafni');
+define('_MEMAIL', 'netfangi');
+define('_MURL', 'vefslóð');
+define('_ONLINEREG', 'Þessir meðlimir eru tengdir núna:');
+define('_WEHAVE', 'Við erum með');
+define('_MREGISTERED', 'skráða notendur í dag.  Það eru');
+define('_MREGONLINE', 'skráðir notendur tengdir í augnablikinu.');
+define('_REGSOFAR', 'skráða notendur í dag.');
+define('_USERSFOUND', 'notendur fundust undir');
+define('_USERSSHOWN', 'notendur sýndir');
+define('_NOMEMBERS', 'Engir notendur undir');
+define('_PAGES', 'Síður');
+define('_HOMEPAGE', 'Heimasíða');

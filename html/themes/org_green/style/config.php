@@ -12,8 +12,8 @@
 # the Free Software Foundation; either version 2 of the License.
 ######################################################################
 
-if (stristr(htmlentities($_SERVER['PHP_SELF']), "config.php")) {
-	   Header("Location: index.php");
+if (stristr(htmlentities($_SERVER['PHP_SELF']), 'config.php')) {
+    Header('Location: index.php');
     die();
 }
 
@@ -59,17 +59,17 @@ if (stristr(htmlentities($_SERVER['PHP_SELF']), "config.php")) {
 #                   true: See all errors ( No notices )
 ######################################################################
 
-$dbhost = "localhost";
-$dbuname = "sapdesig_pabloap";
-$dbpass = "sabe1319";
-$dbname = "sapdesig_phpnuke";
-$prefix = "nuke";
-$user_prefix = "nuke";
-$dbtype = "MySQL";
-$sitekey = "hjOl1edK88ScEKIIhYDXFg0lrM3CQA93RZvXi0Or";
+$dbhost = 'localhost';
+$dbuname = 'sapdesig_pabloap';
+$dbpass = 'sabe1319';
+$dbname = 'sapdesig_phpnuke';
+$prefix = 'nuke';
+$user_prefix = 'nuke';
+$dbtype = 'MySQL';
+$sitekey = 'hjOl1edK88ScEKIIhYDXFg0lrM3CQA93RZvXi0Or';
 $gfx_chk = 0;
-$subscription_url = "";
-$admin_file = "admin";
+$subscription_url = '';
+$admin_file = 'admin';
 $nuke_editor = 1;
 $display_errors = false;
 
@@ -89,11 +89,11 @@ $display_errors = false;
 // DO NOT TOUCH ANYTHING BELOW THIS LINE UNTIL YOU KNOW WHAT YOU'RE DOING
 
 $prefix = empty($user_prefix) ? $prefix : $user_prefix;
-$reasons = array("As Is","Offtopic","Flamebait","Troll","Redundant","Insighful","Interesting","Informative","Funny","Overrated","Underrated");
+$reasons = array('As Is','Offtopic','Flamebait','Troll','Redundant','Insighful','Interesting','Informative','Funny','Overrated','Underrated');
 $badreasons = 4;
-$AllowableHTML = array("table"=>2,"thead"=>1,"tr"=>1,"tbody"=>1,"th"=>2,"td"=>2,"tfoot"=>1,"img"=>2,"object"=>2,"embed"=>2,"param"=>2,"span"=>2,"font"=>2,"p"=>2,"hr"=>1,"b"=>1,"i"=>1,"strike"=>1,"u"=>1,"div"=>2,"a"=>2,"em"=>1,"br"=>1,"strong"=>1,"blockquote"=>1,"tt"=>1,"li"=>1,"ol"=>1,"ul"=>1,"padding"=>1);
-$CensorList = array("fuck","cunt","fucker","fucking","pussy","cock","c0ck","cum","twat","clit","bitch","fuk","fuking","motherfucker");
-$tipath = "images/topics/";
+$AllowableHTML = array('table' => 2,'thead' => 1,'tr' => 1,'tbody' => 1,'th' => 2,'td' => 2,'tfoot' => 1,'img' => 2,'object' => 2,'embed' => 2,'param' => 2,'span' => 2,'font' => 2,'p' => 2,'hr' => 1,'b' => 1,'i' => 1,'strike' => 1,'u' => 1,'div' => 2,'a' => 2,'em' => 1,'br' => 1,'strong' => 1,'blockquote' => 1,'tt' => 1,'li' => 1,'ol' => 1,'ul' => 1,'padding' => 1);
+$CensorList = array('fuck','cunt','fucker','fucking','pussy','cock','c0ck','cum','twat','clit','bitch','fuk','fuking','motherfucker');
+$tipath = 'images/topics/';
 
 //***************************************************************
 // IF YOU WANT TO LEGALY REMOVE ANY COPYRIGHT NOTICES PLAY FAIR AND CHECK: http://phpnuke.org/modules.php?name=Commercial_License
@@ -105,5 +105,3 @@ $tipath = "images/topics/";
 //***************************************************************
 
 $commercial_license = 0;
-
-?>

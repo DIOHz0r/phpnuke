@@ -31,18 +31,16 @@
 /*************************************************************************/
 /**************************************************************************/
 
-define("_PREVIOUS","Predchádzajúca strana");
-define("_NEXT","Nasledujúca strana");
-define("_PAGE","Strana");
-define("_DEACTIVATE","Deaktivovať");
-define("_ACTIVATE","Aktivovať");
-define("_PUBLISHEDON","Publikované ");
-define("_PAGESLIST","Zoznam stránok");
-define("_LISTOFCONTENT","Dostupný obsah v ");
-define("_YOURADMINLIST","Ste Administrátor. Nasleduje zoznam neaktivovaných stránok");
-define("_COPYRIGHT","Copyleft:$sitename.");
-define("_COPYRIGHT2","Všetky práva vyhradené");
-define("_CONTENTCATEGORIES","Dostupné kategórie");
-define("_NONCLASSCONT","Nekategorizovaný obsah");
-
-?>
+define('_PREVIOUS', 'Predchádzajúca strana');
+define('_NEXT', 'Nasledujúca strana');
+define('_PAGE', 'Strana');
+define('_DEACTIVATE', 'Deaktivovať');
+define('_ACTIVATE', 'Aktivovať');
+define('_PUBLISHEDON', 'Publikované ');
+define('_PAGESLIST', 'Zoznam stránok');
+define('_LISTOFCONTENT', 'Dostupný obsah v ');
+define('_YOURADMINLIST', 'Ste Administrátor. Nasleduje zoznam neaktivovaných stránok');
+define('_COPYRIGHT', "Copyleft:$sitename.");
+define('_COPYRIGHT2', 'Všetky práva vyhradené');
+define('_CONTENTCATEGORIES', 'Dostupné kategórie');
+define('_NONCLASSCONT', 'Nekategorizovaný obsah');

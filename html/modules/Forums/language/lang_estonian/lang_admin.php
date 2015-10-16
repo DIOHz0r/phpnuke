@@ -49,7 +49,6 @@ $lang['Add_new'] = 'Lisa';
 $lang['Backup_DB'] = 'Andmebaasi Varukoopia';
 $lang['Restore_DB'] = 'Taasta Andmebaas';
 
-
 //
 // Index
 //
@@ -75,12 +74,11 @@ $lang['Users_per_day'] = 'Kasutajaid päevas';
 $lang['Board_started'] = 'Foorum avati';
 $lang['Avatar_dir_size'] = 'Avataride mälumaht';
 $lang['Database_size'] = 'Andmebaasi suurus';
-$lang['Gzip_compression'] ='Gzip kompresioon';
+$lang['Gzip_compression'] = 'Gzip kompresioon';
 $lang['Not_available'] = 'Pole saadaval';
 
 $lang['ON'] = 'SEES'; // This is for GZip compression
 $lang['OFF'] = 'VÄLJAS';
-
 
 //
 // DB Utils
@@ -110,7 +108,6 @@ $lang['Restore_Error_uploading'] = 'Tekkis viga faili üleslaadimisel.';
 $lang['Restore_Error_filename'] = 'Faili nimega on probleem, palun proovi muud faili või nime.';
 $lang['Restore_Error_decompress'] = 'Ei saa lahti pakkida Gzip formaati, palun lae ülesse puhas tekst fail-';
 $lang['Restore_Error_no_file'] = 'Ühtegi faili ei laetud üles!';
-
 
 //
 // Auth pages
@@ -151,7 +148,6 @@ $lang['Registered'] = 'Registreerunutele';
 $lang['Administrators'] = 'Administraatoritele';
 $lang['Hidden'] = 'Peidetud';
 
-
 // These are displayed in the drop down boxes for advanced
 // mode forum auth, try and keep them short!
 $lang['Forum_ALL'] = 'KÕIK';
@@ -189,7 +185,6 @@ $lang['Click_return_userauth'] = 'Vajuta %ssiia%s et minna tagasi kasutajate õi
 $lang['Click_return_groupauth'] = 'Vajuta %ssiia%s et minna tagasi grupi õiguste lehele.';
 $lang['Click_return_forumauth'] = 'Vajuta %ssiia%s et minna tagasi foorumi õiguste lehele.';
 
-
 //
 // Banning
 //
@@ -226,8 +221,6 @@ $lang['No_banned_email'] = 'Ei ole ühtegi bannitud e-maili';
 
 $lang['Ban_update_sucessful'] = 'Bannitute listi uuendati edukalt!';
 $lang['Click_return_banadmin'] = 'Vajuta %ssiia%s et minna tagasi bannide juhtimisele';
-
-
 
 //
 // Configuration
@@ -322,7 +315,6 @@ $lang['Cookie_secure'] = 'Küpsiste turvalisus';
 $lang['Cookie_secure_explain'] = 'Kui su server jookseb SSL kaudu, siis vali see valik, muul juhul jäta valimata.';
 $lang['Session_length'] = 'Sessiooni pikkus [ sekundites ]';
 
-
 //
 // Forum Management
 //
@@ -365,7 +357,6 @@ $lang['Forums_updated'] = 'Foorumi ja kategooria uuendati edukalt.';
 $lang['Must_delete_forums'] = 'Sa pead enne kustutama kõik foorumid, kui saad kustutada seda kategooriat';
 $lang['Click_return_forumadmin'] = 'Vajuta %ssiia%s et minna tagasi foorumi seadistuste lehele';
 
-
 //
 // Smiley Management
 //
@@ -395,7 +386,6 @@ $lang['smiley_edit_success'] = 'Emotsioonid uuendati edukalt.';
 $lang['smiley_import_success'] = 'Emot. pakk importiti edukalt.';
 $lang['smiley_del_success'] = 'Emotsioon kustutati edukalt.';
 $lang['Click_return_smileadmin'] = 'Vajuta %ssiia%s, et minna tagasi emotsioonide juhtimis lehele.';
-
 
 //
 // User Management
@@ -448,8 +438,6 @@ $lang['Click_return_groupsadmin'] = 'Vajuta %ssiia%s, et minna tagasi grupi juht
 $lang['Select_group'] = 'Vali grupp';
 $lang['Look_up_group'] = 'Otsi grupp üles';
 
-
-
 //
 // Prune Administration
 //
@@ -461,7 +449,6 @@ $lang['Prune_topics_not_posted'] = 'Puhasta teemad, kuhu pole vastatud viimasel 
 $lang['Topics_pruned'] = 'Teemad puhastatud';
 $lang['Posts_pruned'] = 'Postitused puhastatud';
 $lang['Prune_success'] = 'Kõik foorumid puhastati edukalt.';
-
 
 //
 // Word censor
@@ -483,7 +470,6 @@ $lang['Word_removed'] = 'Tsenseeritav sõna eemaldatud';
 
 $lang['Click_return_wordadmin'] = 'Vajuta %ssiia%s et minna tagasi Tsensuuri algusesse';
 
-
 //
 // Mass E-mail
 //
@@ -495,7 +481,6 @@ $lang['All_users'] = 'Kõik kasutajad';
 
 $lang['Email_successfull'] = 'Sinu teade on saadetud';
 $lang['Click_return_massemail'] = 'Vajuta %ssiia%s et minna Mass e-maili algusesse';
-
 
 //
 // Ranks admin
@@ -522,7 +507,6 @@ $lang['No_update_ranks'] = 'Tase kustutati edukalt, kuid ei uuendatud kasutajako
 
 $lang['Click_return_rankadmin'] = 'Vajuta %ssiia%s, et minna tagasi Tasemete Administratsiooni';
 
-
 //
 // Disallow Username Admin
 //
@@ -544,7 +528,6 @@ $lang['Disallow_successful'] = 'Keelatud kasutajanimi lisatud';
 $lang['Disallowed_already'] = 'Sisestatud nime ei ole võimalik keelata. See on kas juba keelatud, esineb tsenseeritud sõnades, või on olemas sellenimeline kasutaja';
 
 $lang['Click_return_disallowadmin'] = 'Vajuta %ssiia%s et minna Kasutajanimede keelamise algusesse';
-
 
 //
 // Styles Admin
@@ -694,4 +677,4 @@ $lang['Install_No_PCRE'] = 'phpBB2 nõuab Perliga sobivat Tavaliste Laiendite Mo
 //
 // That's all Folks!
 // -------------------------------------------------
-?>
+;

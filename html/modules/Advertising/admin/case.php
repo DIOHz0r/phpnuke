@@ -13,41 +13,39 @@
 /************************************************************************/
 
 if (!defined('ADMIN_FILE')) {
-	die ("Access Denied");
+    die('Access Denied');
 }
 
-$module_name = "Advertising";
-include_secure("modules/$module_name/admin/language/lang-".$currentlang.".php");
+$module_name = 'Advertising';
+include_secure("modules/$module_name/admin/language/lang-".$currentlang.'.php');
 
-switch($op) {
+switch ($op) {
 
-    case "BannersAdmin":
-    case "BannersAdd":
-    case "BannerAddClient":
-    case "BannerDelete":
-    case "BannerEdit":
-    case "BannerChange":
-    case "BannerClientDelete":
-    case "BannerClientEdit":
-    case "BannerClientChange":
-    case "BannerStatus":
-    case "add_banner":
-    case "add_client":
-    case "ad_positions":
-    case "position_add":
-    case "position_save":
-    case "position_edit":
-    case "position_delete":
-    case "ad_terms":
-	case "ad_plans":
-	case "ad_plans_add":
-	case "ad_plans_edit":
-	case "ad_plans_save":
-	case "ad_plans_delete":
-	case "ad_plans_status":
-    include("modules/$module_name/admin/index.php");
+    case 'BannersAdmin':
+    case 'BannersAdd':
+    case 'BannerAddClient':
+    case 'BannerDelete':
+    case 'BannerEdit':
+    case 'BannerChange':
+    case 'BannerClientDelete':
+    case 'BannerClientEdit':
+    case 'BannerClientChange':
+    case 'BannerStatus':
+    case 'add_banner':
+    case 'add_client':
+    case 'ad_positions':
+    case 'position_add':
+    case 'position_save':
+    case 'position_edit':
+    case 'position_delete':
+    case 'ad_terms':
+    case 'ad_plans':
+    case 'ad_plans_add':
+    case 'ad_plans_edit':
+    case 'ad_plans_save':
+    case 'ad_plans_delete':
+    case 'ad_plans_status':
+    include "modules/$module_name/admin/index.php";
     break;
 
 }
-
-?>

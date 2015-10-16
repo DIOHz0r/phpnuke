@@ -17,32 +17,27 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_URL","URL");
+define('_URL', 'URL');
 
+define('_EMAIL', 'Email');          //
+define('_REALNAME', "Справжнє ім'я");
+define('_FUNCTIONS', 'Функції');
 
-define("_EMAIL","Email");          //
-define("_REALNAME","Справжнє ім'я");
-define("_FUNCTIONS","Функції");
-
-
-define("_PREVIOUS","Попережня сторінка");
-define("_MEMBERSLIST","Список користувачів");
-define("_GREETINGS","Останній зареєстрований користувач:");
-define("_SORTBY","Відсортовано по:");
-define("_MNICKNAME","нік");
-define("_MREALNAME","справжнє ім'я");
-define("_MEMAIL","Email");
-define("_MURL","url");
-define("_ONLINEREG","Зараз в Online зареєстрованих користувачів:");
-define("_WEHAVE","Всього зареєстрованих користувачів:");
-define("_MREGISTERED","");                          //зареєстрованих користувачів
-define("_MREGONLINE","Зареєстрованих користувачів в online:");
-define("_REGSOFAR","");        //зареєстрованих користувачів
-define("_USERSFOUND","користувачів знайдено: ");
-define("_USERSSHOWN","показаних користувачів");
-define("_NOMEMBERS","Не зареєстрованих знайдено");
-define("_PAGES","Сторінок");
-define("_HOMEPAGE","Домашня сторінка");
-
-
-?>
+define('_PREVIOUS', 'Попережня сторінка');
+define('_MEMBERSLIST', 'Список користувачів');
+define('_GREETINGS', 'Останній зареєстрований користувач:');
+define('_SORTBY', 'Відсортовано по:');
+define('_MNICKNAME', 'нік');
+define('_MREALNAME', "справжнє ім'я");
+define('_MEMAIL', 'Email');
+define('_MURL', 'url');
+define('_ONLINEREG', 'Зараз в Online зареєстрованих користувачів:');
+define('_WEHAVE', 'Всього зареєстрованих користувачів:');
+define('_MREGISTERED', '');                          //зареєстрованих користувачів
+define('_MREGONLINE', 'Зареєстрованих користувачів в online:');
+define('_REGSOFAR', '');        //зареєстрованих користувачів
+define('_USERSFOUND', 'користувачів знайдено: ');
+define('_USERSSHOWN', 'показаних користувачів');
+define('_NOMEMBERS', 'Не зареєстрованих знайдено');
+define('_PAGES', 'Сторінок');
+define('_HOMEPAGE', 'Домашня сторінка');

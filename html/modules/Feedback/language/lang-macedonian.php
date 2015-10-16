@@ -17,19 +17,17 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_SEND","Испрати");
-define("_YOURNAME","Твоето име");
-define("_MESSAGE","Порака");
-define("_YOUREMAIL","Твојот e-mail");
-define("_FEEDBACKNOTE","Сите коментари и предлози во врска со оваа вебстрана се добредојдени, и се вреден извор на информации за нас. Благодариме!");
-define("_FEEDBACKTITLE","Формулар за повратни информации");
-define("_FEEDBACK","Повратни информации");
-define("_FBENTERNAME","ГРЕШКА: Молиме внеси го твоето име!");
-define("_FBENTEREMAIL","ГРЕШКА: Молиме внеси ја твојата email адреса!");
-define("_FBENTERMESSAGE","ГРЕШКА: Молиме внеси порака!");
-define("_SENDEREMAIL","Email на испраќачот");
-define("_SENDERNAME","Име на испраќачот");
-define("_FBMAILSENT","Пораката е пратена!");
-define("_FBTHANKSFORCONTACT","Благодариме што не контактира");
-
-?>
+define('_SEND', 'Испрати');
+define('_YOURNAME', 'Твоето име');
+define('_MESSAGE', 'Порака');
+define('_YOUREMAIL', 'Твојот e-mail');
+define('_FEEDBACKNOTE', 'Сите коментари и предлози во врска со оваа вебстрана се добредојдени, и се вреден извор на информации за нас. Благодариме!');
+define('_FEEDBACKTITLE', 'Формулар за повратни информации');
+define('_FEEDBACK', 'Повратни информации');
+define('_FBENTERNAME', 'ГРЕШКА: Молиме внеси го твоето име!');
+define('_FBENTEREMAIL', 'ГРЕШКА: Молиме внеси ја твојата email адреса!');
+define('_FBENTERMESSAGE', 'ГРЕШКА: Молиме внеси порака!');
+define('_SENDEREMAIL', 'Email на испраќачот');
+define('_SENDERNAME', 'Име на испраќачот');
+define('_FBMAILSENT', 'Пораката е пратена!');
+define('_FBTHANKSFORCONTACT', 'Благодариме што не контактира');
