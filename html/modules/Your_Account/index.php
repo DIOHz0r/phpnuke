@@ -287,9 +287,7 @@ function userinfo($username, $bypass = 0, $hid = 0, $url = 0)
     }
     if ($userinfo['user_avatar_type'] == 1) {
         $userinfo['user_avatar'] = $board_config['avatar_path'].'/'.$userinfo['user_avatar'];
-    } elseif ($userinfo['user_avatar_type'] == 2) {
-        $userinfo['user_avatar'] = $userinfo['user_avatar'];
-    } else {
+    } elseif ($userinfo['user_avatar_type'] != 2) {
         $userinfo['user_avatar'] = $board_config['avatar_gallery_path'].'/'.$userinfo['user_avatar'];
     }
     if (($num == 1) && ($userinfo['user_website'] || $userinfo['femail'] || $userinfo['bio'] || $userinfo['user_avatar'] || $userinfo['user_icq'] || $userinfo['user_aim'] || $userinfo['user_yim'] || $userinfo['user_msnm'] || $userinfo['user_location'] || $userinfo['user_occ'] || $userinfo['user_interests'] || $userinfo['user_sig'])) {
@@ -1197,9 +1195,7 @@ function edituser()
         }
         if ($userinfo['user_avatar_type'] == 1) {
             $userinfo['user_avatar'] = $board_config['avatar_path'].'/'.$userinfo['user_avatar'];
-        } elseif ($userinfo['user_avatar_type'] == 2) {
-            $userinfo['user_avatar'] = $userinfo['user_avatar'];
-        } else {
+        } elseif ($userinfo['user_avatar_type'] != 2) {
             $userinfo['user_avatar'] = $board_config['avatar_gallery_path'].'/'.$userinfo['user_avatar'];
         }
         echo "<tr><td bgcolor='$bgcolor3' colspan='2' align='center'>"
