@@ -510,30 +510,30 @@ function session_reset_keys($user_id, $user_ip)
 function append_sid($url, $non_html_amp = false)
 {
     global $SID, $admin, $userdata;
-    if (ereg('modules.php', $url)) {
+    if (preg_match('/modules.php/', $url)) {
         // We've already Nuke'd it, don't do anything
-    } elseif (ereg('admin=1', $url) || ereg('admin_', $url) || ereg('pane=', $url)) {
+    } elseif (preg_match('/admin=1/', $url) || preg_match('/admin_/', $url) || preg_match('/pane=/', $url)) {
         //  The format is fine, don't change a thing.
-    } elseif (ereg('Your_Account', $url)) {
+    } elseif (preg_match('/Your_Account/', $url)) {
         $url = str_replace('.php', '', $url);        //  Strip the .php from all the files,
             $url = str_replace('modules', 'modules.php', $url); //  and put it back for the modules.php
-    } elseif (ereg('redirect', $url)) {
+    } elseif (preg_match('/redirect/', $url)) {
         $url = str_replace('login.php', 'modules.php?name=Your_Account', $url);        //  Strip the .php from all the files,
             $url = str_replace('.php', '', $url);        //  Strip the .php from all the files,
             $url = str_replace('?redirect', '&redirect', $url);        //  Strip the .php from all the files,
             $url = str_replace('modules', 'modules.php', $url); //  and put it back for the modules.php
-    } elseif (ereg('menu=1', $url)) {
+    } elseif (preg_match('/menu=1/', $url)) {
         $url = str_replace('?', '&', $url); // As we are already in nuke, change the ? to &
             $url = str_replace('.php', '', $url);        //  Strip the .php from all the files,
         $url = "../../../modules.php?name=Forums&file=$url";
-    } elseif ((ereg('privmsg', $url)) && (!ereg('highlight=privmsg', $url))) {
+    } elseif ((preg_match('/privmsg/', $url)) && (!preg_match('/highlight=privmsg/', $url))) {
         $url = str_replace('?', '&', $url); // As we are already in nuke, change the ? to &
             $url = str_replace('privmsg.php', 'modules.php?name=Private_Messages&file=index', $url); //  and put it back for the modules.php
-    } elseif ((ereg('profile', $url)) && (!ereg('highlight', $url) && !ereg('profile', $url))) {
+    } elseif ((preg_match('/profile/', $url)) && (!preg_match('/highlight/', $url) && !preg_match('/profile/', $url))) {
         $url = str_replace('?', '&', $url); // As we are already in nuke, change the ? to &
             $url = str_replace('profile.php', 'modules.php?name=Forums&file=profile', $url); //  and put it back for the modules.php
         $dummy = 1;
-    } elseif ((ereg('memberlist', $url)) && (!ereg('highlight=memberlist', $url))) {
+    } elseif ((preg_match('/memberlist/', $url)) && (!preg_match('/highlight=memberlist/', $url))) {
         $url = str_replace('?', '&', $url); // As we are already in nuke, change the ? to &
             $url = str_replace('memberlist.php', 'modules.php?name=Members_List&file=index', $url); //  and put it back for the modules.php
     } else {
@@ -543,8 +543,8 @@ function append_sid($url, $non_html_amp = false)
     }
 
     if ($userdata['user_level'] > 1) {
-        if (!empty($SID) && !eregi('sid=', $url)) {
-            if (!empty($SID) && !eregi('sid=', $url)) {
+        if (!empty($SID) && !preg_match('/sid=/i', $url)) {
+            if (!empty($SID) && !preg_match('/sid=/i', $url)) {
                 $url .= ((strpos($url, '?') != false) ?  (($non_html_amp) ? '&' : '&amp;') : '?').$SID;
             }
         }

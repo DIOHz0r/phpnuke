@@ -83,7 +83,7 @@ if ($foot1 == '') {
     $foot1 = '<a href="http://phpnuke.org" target="blank"><img src="images/powered/nuke.gif" border="0" Alt="Web site powered by PHP-Nuke" hspace="10"></a>';
 }
 if ($foot2 == '') {
-    $foot2 = "All logos and trademarks in this site are property of their respective owner. The comments are property of their posters, all the rest © 2002 by $sitename";
+    $foot2 = "All logos and trademarks in this site are property of their respective owner. The comments are property of their posters, all the rest ï¿½ 2002 by $sitename";
 }
 if ($foot3 == '') {
     $foot3 = 'You can syndicate our news using the file <a href="backend.php">backend.php</a> or <a href="ultramode.txt">ultramode.txt</a>';
@@ -185,7 +185,7 @@ $singleaccountname = 'Your account';
 $numaccounts = -1;
 $imgpath = 'modules/WebMail/images';
 $filter_forward = 1;
-$domain = eregi_replace('http://', '', $nukeurl);
+$domain = preg_replace('#http://#i', '', $nukeurl);
 $copyright = addslashes($copyright);
 $sitename = addslashes($sitename);
 $site_logo = addslashes($site_logo);

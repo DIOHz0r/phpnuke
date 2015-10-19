@@ -43,7 +43,7 @@ if (!is_user($user)) {
         $thmcount = 0;
         $handle = opendir('themes');
         while ($file = readdir($handle)) {
-            if ((!ereg('[.]', $file))) {
+            if ((!preg_match('/[.]/', $file))) {
                 ++$thmcount;
             }
         }

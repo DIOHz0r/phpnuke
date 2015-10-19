@@ -48,8 +48,8 @@ if (!defined('SQL_LAYER')) {
         }
 
         if ($sqlserver) {
-            if (ereg(':', $sqlserver)) {
-                list($sqlserver, $sqlport) = split(':', $sqlserver);
+            if (preg_match('/:/', $sqlserver)) {
+                list($sqlserver, $sqlport) = preg_split('/:/', $sqlserver);
                 $this->connect_string .= "host=$sqlserver port=$sqlport ";
             } else {
                 if ($sqlserver != 'localhost') {

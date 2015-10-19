@@ -32,7 +32,7 @@ function select_month()
     $thismonth = '';
     while ($row = $db->sql_fetchrow($result)) {
         $time = $row['time'];
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $getdate);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $getdate);
         if ($getdate[2] == '01') {
             $month = _JANUARY;
         } elseif ($getdate[2] == '02') {
@@ -171,7 +171,7 @@ function show_month($year, $month, $month_l)
     $thismonth = '';
     while ($row2 = $db->sql_fetchrow($result2)) {
         $time = $row2['time'];
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $getdate);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $getdate);
         if ($getdate[2] == '01') {
             $month = _JANUARY;
         } elseif ($getdate[2] == '02') {
@@ -315,7 +315,7 @@ function show_all($min)
     $thismonth = '';
     while ($row2 = $db->sql_fetchrow($result2)) {
         $time = $row2['time'];
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $getdate);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $getdate);
         if ($getdate[2] == '01') {
             $month = _JANUARY;
         } elseif ($getdate[2] == '02') {

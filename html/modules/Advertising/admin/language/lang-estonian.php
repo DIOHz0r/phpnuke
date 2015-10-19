@@ -63,7 +63,8 @@ define('_WARNING', 'Hoiatus');
 define('_INACTIVEBANNERS', 'Deaktiivseid bannerid');
 define('_BANNERS', 'Bannerid');
 define('_ALTTEXT', 'Asendustekst');
-define('_CLASS', 'Class');
+
+define('_CLASS', 'Class');
 define('_CLASSNOTE', 'If your Ad Class is Javascript/HTML Code the next 4 fields will be ignored and will count only the Code area below. If your Ad Class is Flash you must put the .SWF complete URL in the next field and set width and height of the Flash movie (Click URL and Alternate Text fields will be ignored).');
 define('_ADCLASS', 'Ad Class');
 define('_ADIMAGE', 'Image');
@@ -100,10 +101,8 @@ define('_POSEXAMPLE', 'You can have a look at the file <i>/blocks/block-Advertis
 define('_ADDEDDATE', 'Added Date');
 define('_DELETEALLADS', 'Delete All Banners');
 define('_ADSNOCLIENT', "<b>Error:</b> There isn't any Advertising Client.<br>Please create a new client before add banners.");
-define('_INACTIVEBANNERS', 'Inactive Banners');
-define('_EXTRAINFO', 'Extra Info');
-define('_EDITCLIENT', 'Edit Advertising Client');
-define('_ALTTEXT', 'Alternate Text');
+
+
 define('_IMAGESWFURL', 'Image or Flash file URL');
 define('_TERMS', 'Terms');
 define('_PLANSPRICES', 'Plans & Prices');
@@ -137,4 +136,4 @@ define('_BANNERNAME', 'Banner Name');
 define('_CLIENT', 'Client');
 define('_YEARS', 'Years');
 define('_MONTHS', 'Months');
-define('_WARNING', 'Warning');
+

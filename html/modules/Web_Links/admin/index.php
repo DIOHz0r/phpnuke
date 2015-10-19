@@ -401,7 +401,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
                     $editorialtimestamp = $row3['editorialtimestamp'];
                     $editorialtext = filter($row3['editorialtext']);
                     $editorialtitle = filter($row3['editorialtitle'], 'nohtml');
-                    ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $editorialtimestamp, $editorialtime);
+                    preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $editorialtimestamp, $editorialtime);
                     $editorialtime = strftime('%F', mktime($editorialtime[4], $editorialtime[5], $editorialtime[6], $editorialtime[2], $editorialtime[3], $editorialtime[1]));
                     $date_array = explode('-', $editorialtime);
                     $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -435,7 +435,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
                 $ratinguser = $row4['ratinguser'];
                 $ratingcomments = filter($row4['ratingcomments']);
                 $ratingtimestamp = $row4['ratingtimestamp'];
-                ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $ratingtimestamp, $ratingtime);
+                preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $ratingtimestamp, $ratingtime);
                 $ratingtime = strftime('%F', mktime($ratingtime[4], $ratingtime[5], $ratingtime[6], $ratingtime[2], $ratingtime[3], $ratingtime[1]));
                 $date_array = explode('-', $ratingtime);
                 $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -465,7 +465,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
                 $rating = intval($row5['rating']);
                 $ratinghostname = filter($row5['ratinghostname'], 'nohtml');
                 $ratingtimestamp = $row5['ratingtimestamp'];
-                ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $ratingtimestamp, $ratingtime);
+                preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $ratingtimestamp, $ratingtime);
                 $ratingtime = strftime('%F', mktime($ratingtime[4], $ratingtime[5], $ratingtime[6], $ratingtime[2], $ratingtime[3], $ratingtime[1]));
                 $date_array = explode('-', $ratingtime);
                 $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -504,7 +504,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
                 $rating = intval($row7['rating']);
                 $ratinghostname = filter($row7['ratinghostname'], 'nohtml');
                 $ratingtimestamp = $row7['ratingtimestamp'];
-                ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $ratingtimestamp, $ratingtime);
+                preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $ratingtimestamp, $ratingtime);
                 $ratingtime = strftime('%F', mktime($ratingtime[4], $ratingtime[5], $ratingtime[6], $ratingtime[2], $ratingtime[3], $ratingtime[1]));
                 $date_array = explode('-', $ratingtime);
                 $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -533,7 +533,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
                 $rating = intval($row8['rating']);
                 $ratinghostname = filter($row8['ratinghostname'], 'nohtml');
                 $ratingtimestamp = $row8['ratingtimestamp'];
-                ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $ratingtimestamp, $ratingtime);
+                preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $ratingtimestamp, $ratingtime);
                 $ratingtime = strftime('%F', mktime($ratingtime[4], $ratingtime[5], $ratingtime[6], $ratingtime[2], $ratingtime[3], $ratingtime[1]));
                 $date_array = explode('-', $ratingtime);
                 $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -748,7 +748,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
             $url = filter($row['url'], 'nohtml');
             $url = urlencode($url);
             $description = filter($row['description']);
-            $xdescription = eregi_replace('<a href="http://', '<a href="index.php?url=http://', $description);
+            $xdescription = preg_replace('#<a href="http://#i', '<a href="index.php?url=http://', $description);
             $modifysubmitter = filter($row['modifysubmitter'], 'nohtml');
             $row2 = $db->sql_fetchrow($db->sql_query('SELECT cid, sid, title, url, description, submitter from '.$prefix."_links_links where lid='$lid'"));
             $origcid = intval($row2['cid']);
@@ -757,7 +757,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
             $origurl = filter($row2['url'], 'nohtml');
             $origurl = urlencode($origurl);
             $origdescription = filter($row2['description']);
-            $xorigdescription = eregi_replace('<a href="http://', '<a href="index.php?url=http://', $xorigdescription);
+            $xorigdescription = preg_replace('#<a href="http://#i', '<a href="index.php?url=http://', $xorigdescription);
             $owner = filter($row2['submitter'], 'nohtml');
             $result3 = $db->sql_query('SELECT title from '.$prefix."_links_categories where cid='$cid'");
             $result5 = $db->sql_query('SELECT title from '.$prefix."_links_categories where cid='$origcid'");

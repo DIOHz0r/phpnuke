@@ -23,7 +23,7 @@ $userpage = 1;
 if (isset($_GET['redirect'])) {
     $redirect = substr($_SERVER['QUERY_STRING'], strpos($_SERVER['QUERY_STRING'], 'redirect=') + strlen('redirect='), strlen($_SERVER['QUERY_STRING']));
 }
-if (isset($username) && (ereg('[^a-zA-Z0-9_-]', $username))) {
+if (isset($username) && (preg_match('/[^a-zA-Z0-9_-]/', $username))) {
     die('Illegal username...');
 }
 
@@ -36,19 +36,19 @@ function userCheck($username, $user_email)
     $username = filter($username, 'nohtml', 1);
     $user_email = filter($user_email, 'nohtml', 1);
     global $stop, $user_prefix, $db;
-    if ((!$user_email) || (empty($user_email)) || (!eregi("^[_\.0-9a-z-]+@([0-9a-z][0-9a-z-]+\.)+[a-z]{2,6}$", $user_email))) {
+    if ((!$user_email) || (empty($user_email)) || (!preg_match('/^[_\.0-9a-z-]+@([0-9a-z][0-9a-z-]+\.)+[a-z]{2,6}$/i', $user_email))) {
         $stop = '<center>'._ERRORINVEMAIL.'</center><br>';
     }
     if (strrpos($user_email, ' ') > 0) {
         $stop = '<center>'._ERROREMAILSPACES.'</center>';
     }
-    if ((!$username) || (empty($username)) || (ereg('[^a-zA-Z0-9_-]', $username))) {
+    if ((!$username) || (empty($username)) || (preg_match('/[^a-zA-Z0-9_-]/', $username))) {
         $stop = '<center>'._ERRORINVNICK.'</center><br>';
     }
     if (strlen($username) > 25) {
         $stop = '<center>'._NICK2LONG.'</center>';
     }
-    if (eregi('^((root)|(adm)|(linux)|(webmaster)|(admin)|(god)|(administrator)|(administrador)|(nobody)|(anonymous)|(anonimo)|(anónimo)|(operator)|(JackFromWales4u2))$', $username)) {
+    if (preg_match('/^((root)|(adm)|(linux)|(webmaster)|(admin)|(god)|(administrator)|(administrador)|(nobody)|(anonymous)|(anonimo)|(anónimo)|(operator)|(JackFromWales4u2))$/i', $username)) {
         $stop = '<center>'._NAMERESERVED.'</center>';
     }
     if (strrpos($username, ' ') > 0) {
@@ -523,13 +523,13 @@ function userinfo($username, $bypass = 0, $hid = 0, $url = 0)
                 $nsitename = filter($row5[sitename], 'nohtml');
                 $url = filter($row5[headlinesurl], 'nohtml');
                 $title = filter($nsitename, 'nohtml');
-                $siteurl = eregi_replace('http://', '', $url);
+                $siteurl = preg_replace('#http://#i', '', $url);
                 $siteurl = explode('/', $siteurl);
             } else {
-                if (!ereg('http://', $url)) {
+                if (!preg_match('#http://#', $url)) {
                     $url = "http://$url";
                 }
-                $siteurl = eregi_replace('http://', '', $url);
+                $siteurl = preg_replace('#http://#i', '', $url);
                 $siteurl = explode('/', $siteurl);
                 $title = "http://$siteurl[0]";
             }
@@ -551,11 +551,11 @@ function userinfo($username, $bypass = 0, $hid = 0, $url = 0)
                 $items = explode('</item>', $string);
                 $content = '<font class="content">';
                 for ($i = 0;$i < 10;++$i) {
-                    $link = ereg_replace('.*<link>', '', $items[$i]);
-                    $link = ereg_replace('</link>.*', '', $link);
+                    $link = preg_replace('/.*<link>/', '', $items[$i]);
+                    $link = preg_replace('#</link>.*#', '', $link);
                     $link = stripslashes(check_html($link, 'nohtml'));
-                    $title2 = ereg_replace('.*<title>', '', $items[$i]);
-                    $title2 = ereg_replace('</title>.*', '', $title2);
+                    $title2 = preg_replace('/.*<title>/', '', $items[$i]);
+                    $title2 = preg_replace('#</title>.*#', '', $title2);
                     $title2 = stripslashes(check_html($title2, 'nohtml'));
                     if (empty($items[$i]) and $cont != 1) {
                         $content = '<center>'._RSSPROBLEM.'</center>';
@@ -744,7 +744,7 @@ function new_user()
         $handle = opendir('themes');
         $thmcount = 0;
         while ($file = readdir($handle)) {
-            if ((!ereg('[.]', $file) and file_exists("themes/$file/theme.php"))) {
+            if ((!preg_match('/[.]/', $file) and file_exists("themes/$file/theme.php"))) {
                 ++$thmcount;
             }
         }
@@ -918,8 +918,8 @@ function login($username, $user_password, $redirect, $mode, $f, $t, $random_num,
     $sql = 'SELECT user_password, user_id, storynum, umode, uorder, thold, noscore, ublockon, theme, commentmax FROM '.$user_prefix."_users WHERE username='$username'";
     $result = $db->sql_query($sql);
     $setinfo = $db->sql_fetchrow($result);
-    $forward = ereg_replace('redirect=', '', "$redirect");
-    if (ereg('privmsg', $forward)) {
+    $forward = preg_replace('/redirect=/', '', "$redirect");
+    if (preg_match('/privmsg/', $forward)) {
         $pm_login = 'active';
     }
     if (($db->sql_numrows($result) == 1) and ($setinfo['user_id'] != 1) and (!empty($setinfo['user_password']))) {
@@ -1125,7 +1125,7 @@ function edituser()
             if ($i == 0) {
                 $dummy = 'GMT';
             } else {
-                if (!ereg('-', $i)) {
+                if (!preg_match('/-/', $i)) {
                     $i = "+$i";
                 }
                 $dummy = "GMT $i "._HOURS.'';
@@ -1410,7 +1410,7 @@ function chgtheme()
         .'<select name="theme">';
         $handle = opendir('themes');
         while ($file = readdir($handle)) {
-            if ((!ereg('[.]', $file) and file_exists('themes/'.$file.'/theme.php'))) {
+            if ((!preg_match('/[.]/', $file) and file_exists('themes/'.$file.'/theme.php'))) {
                 $themelist .= "$file ";
             }
         }
@@ -1643,7 +1643,7 @@ function avatarlist($avatarcategory)
     getusrinfo($user);
     include 'header.php';
     if ((is_user($user)) and (strtolower($userinfo['username']) == strtolower($cookie[1])) and ($userinfo['user_password'] == $cookie[2])) { // SecurityReason Fix 2005 - sp3x -> check if we are user if not then Access Denied
-    $avatarcatname = ereg_replace('_', '&nbsp;', $avatarcategory);
+    $avatarcatname = preg_replace('/_/', '&nbsp;', $avatarcategory);
         $avatarcategory = htmlspecialchars($avatarcategory); //SecurityReason Fix 2005 - sp3x 
     title(''.$avatarcategory.' Avatar Gallery');
         Opentable();
@@ -1722,7 +1722,7 @@ function avatarsave($avatar, $category)
             $newavatar = $category.'/'.$avatar;
             $db->sql_query('UPDATE '.$user_prefix."_users SET user_avatar='$newavatar', user_avatar_type='3' WHERE user_id = '".intval($cookie[0])."'");
             echo '<center><font class="content">Avatar for '.$cookie[1].' Saved!</center></font><br><br>';
-            if (ereg('(http)', $newavatar)) {
+            if (preg_match('/(http)/', $newavatar)) {
                 echo "<center>Your New Avatar:<br><br><IMG alt=\"\" src=\"$newavatar\"><br><br> [ <a href=\"modules.php?name=$module_name&amp;op=edituser\">Back to Profile</a> | <a href=\"modules.php?name=$module_name\">Done</a> ]<br><br></center>";
             } elseif ($newavatar) {
                 echo "<center>Your New Avatar:<br><br><IMG alt=\"\" src=\"modules/Forums/images/avatars/$newavatar\"><br><br>[ <a href=\"modules.php?name=$module_name&amp;op=edituser\">Back to Profile</a> | <a href=\"modules.php?name=$module_name\">Done</a> ]<br><br></center>";
@@ -1757,10 +1757,10 @@ function avatarlinksave($avatar)
         if (!preg_match("#^http:\/\/#i", $avatar)) {
             $avatar = 'http://'.$avatar;
         }
-        if (preg_match("#^(http:\/\/[a-z0-9\-]+?\.([a-z0-9\-]+\.)*[a-z]+\/.*?\.(gif|jpg|png)$)#is", $avatar) && !eregi('.php', $avatar) && !eregi('.js', $avatar) && !eregi('.cgi', $avatar)) {
+        if (preg_match("#^(http:\/\/[a-z0-9\-]+?\.([a-z0-9\-]+\.)*[a-z]+\/.*?\.(gif|jpg|png)$)#is", $avatar) && !preg_match('/.php/i', $avatar) && !preg_match('/.js/i', $avatar) && !preg_match('/.cgi/i', $avatar)) {
             $db->sql_query('UPDATE '.$user_prefix."_users SET user_avatar='$avatar', user_avatar_type='2' WHERE user_id = '".intval($cookie[0])."'");
             echo '<center><font class="content">Avatar for '.$cookie[1].' Saved!</center></font><br><br>';
-            if (ereg('(http)', $avatar)) {
+            if (preg_match('/(http)/', $avatar)) {
                 echo "<center>Your New Avatar:<br><br><IMG alt=\"\" src=\"$avatar\"><br><br>[ <a href=\"modules.php?name=$module_name&amp;op=edituser\">Back to Profile</a> | <a href=\"modules.php?name=$module_name\">Done</a> ]<br><br></center>";
             } elseif ($avatar) {
                 echo "<center>Your New Avatar:<br><br><IMG alt=\"\" src=\"modules/Forums/images/avatars/$avatar\"><br><br>[ <a href=\"modules.php?name=$module_name&amp;op=edituser\">Back to Profile</a> | <a href=\"modules.php?name=$module_name\">Done</a> ]<br><br></center>";
@@ -1839,10 +1839,10 @@ function my_headlines($hid, $url = 0)
         $items = explode('</item>', $string);
         $content = '<font class="content">';
         for ($i = 0;$i < 10;++$i) {
-            $link = ereg_replace('.*<link>', '', $items[$i]);
-            $link = ereg_replace('</link>.*', '', $link);
-            $title2 = ereg_replace('.*<title>', '', $items[$i]);
-            $title2 = ereg_replace('</title>.*', '', $title2);
+            $link = preg_replace('/.*<link>/', '', $items[$i]);
+            $link = preg_replace('#</link>.*#', '', $link);
+            $title2 = preg_replace('/.*<title>/', '', $items[$i]);
+            $title2 = preg_replace('#</title>.*#', '', $title2);
             if (empty($items[$i])) {
                 $content = '';
 

@@ -187,10 +187,9 @@ define('_IFYOUWEREREG', '已登記者可評註此網站');
 define('_TITLE', '標題');
 define('_MODIFY', '修改');
 
-define('_AUTHORNAME', '作者名稱');
-define('_AUTHOREMAIL', '作者電子信箱');
+
 define('_DOWNLOADNAME', '資源名稱');
-define('_ADDTHISFILE', '增加這個檔案');
+
 
 define('_COMPLETEVOTE1', '感謝您！您的投票對其他使用者很有價值喔！');
 define('_COMPLETEVOTE2', "您在過去的 $anonwaitdays 天之內, 已經對這個資源投票過了。");

@@ -195,12 +195,8 @@ define('_RETURNACCOUNT', 'Kthehu tek faqja juaj e hyrjes');
 define('_ACCESSTO', 'Hyrje në');
 define('_CREATEJOURNAL', 'Krijo ditarin tënd');
 define('_READHEADLINES', 'Lexo titujt e zgjedhur');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

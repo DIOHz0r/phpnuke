@@ -26,7 +26,7 @@ function at_maintenance($vars)
     $maintenance = atAutoGetVar('maintenance');
     $template = $maintenance['template'];
 
-    if (atISAdminUser() || eregi($GLOBALS['admin_file'], $_SERVER['PHP_SELF'])) {
+    if (atISAdminUser() || preg_match('/'.$GLOBALS['admin_file'].'/i', $_SERVER['PHP_SELF'])) {
         return;
     }
     if (!$template) {

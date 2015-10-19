@@ -89,7 +89,7 @@ if ($the_first == 0) {
     die();
 }
 
-if (isset($aid) && (ereg('[^a-zA-Z0-9_-]', trim($aid)))) {
+if (isset($aid) && (preg_match('[^a-zA-Z0-9_-]', trim($aid)))) {
     die('Begone');
 }
 if (isset($aid)) {
@@ -270,7 +270,7 @@ if (isset($admin) && !empty($admin)) {
                         $handle = opendir('modules');
                         $modlist = '';
                         while ($file = readdir($handle)) {
-                            if ((!ereg('[.]', $file))) {
+                            if ((!preg_match('[.]', $file))) {
                                 $modlist .= "$file ";
                             }
                         }

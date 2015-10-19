@@ -744,7 +744,7 @@ define('_TYPESECCODE', 'Güvenlik kodunu yazın');
 define('_USERPROFILE', 'Kullanıcı Profili');
 define('_EMAILUSER', 'Kullanıcı Emaili');
 define('_SENDPM', 'Özel Mesaj Gönder');
-define('_LINKAPPROVEDMSG', 'Tebrikler! Göndermiş olduğunuz bağlantı veritabanımız tarafından şimdi onaylanmıştır');
+
 define('_UGROUPS', 'Kullanıcı Grupları');
 define('_POINTS', 'Puanlar');
 define('_USERSCOUNT', 'Kullanıcı Count');

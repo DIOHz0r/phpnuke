@@ -72,10 +72,10 @@ define('_POSEXAMPLE', 'You can have a look at the file <i>/blocks/block-Advertis
 define('_ADDEDDATE', 'Added Date');
 define('_DELETEALLADS', 'Delete All Banners');
 define('_ADSNOCLIENT', "<b>Error:</b> There isn't any Advertising Client.<br>Please create a new client before add banners.");
-define('_INACTIVEBANNERS', 'Inactive Banners');
-define('_EXTRAINFO', 'Extra Info');
+
+
 define('_EDITCLIENT', 'Edit Advertising Client');
-define('_ALTTEXT', 'Alternate Text');
+
 define('_IMAGESWFURL', 'Image or Flash file URL');
 define('_TERMS', 'Terms');
 define('_PLANSPRICES', 'Plans & Prices');
@@ -109,4 +109,4 @@ define('_BANNERNAME', 'Banner Name');
 define('_CLIENT', 'Client');
 define('_YEARS', 'Years');
 define('_MONTHS', 'Months');
-define('_WARNING', 'Warning');
+

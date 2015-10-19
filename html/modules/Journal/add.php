@@ -119,7 +119,7 @@ endif;
         }
         asort($filelist);
         while (list($key, $file) = each($filelist)) {
-            if (!ereg('.gif|.jpg', $file)) {
+            if (!preg_match('/.gif|.jpg/', $file)) {
             } elseif ($file == '.' || $file == '..') {
                 $a = 1;
             } else {

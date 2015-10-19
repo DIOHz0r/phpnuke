@@ -1,6 +1,6 @@
 <?php
 
-if (!eregi('modules.php', $_SERVER['PHP_SELF'])) {
+if (!preg_match('/modules.php/i', $_SERVER['PHP_SELF'])) {
     die("You can't access this file directly...");
 }
 

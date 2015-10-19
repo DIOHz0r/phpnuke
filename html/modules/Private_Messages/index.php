@@ -42,7 +42,7 @@ $result_title = $db->sql_query($sql_title);
 $row_title = $db->sql_fetchrow($result_title);
 
 if ($row_title['custom_title'] == '') {
-    $mod_name = ereg_replace('_', ' ', $name);
+    $mod_name = preg_replace('/_/', ' ', $name);
 } else {
     $mod_name = $row_title['custom_title'];
 }

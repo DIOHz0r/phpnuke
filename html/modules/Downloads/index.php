@@ -325,8 +325,8 @@ function Add($title, $url, $auth_name, $cat, $description, $email, $filesize, $v
         if (!empty($email)) {
             $email = validate_mail(filter($email, 'nohtml', 1));
         }
-        $filesize = ereg_replace("\.", '', $filesize);
-        $filesize = ereg_replace("\,", '', $filesize);
+        $filesize = preg_replace("/\./", '', $filesize);
+        $filesize = preg_replace("/\,/", '', $filesize);
         $cat[0] = intval($cat[0]);
         $cat[1] = intval($cat[1]);
         $num_new = $db->sql_numrows($db->sql_query('SELECT * FROM '.$prefix."_downloads_newdownload WHERE title='$title' OR url='$url' OR description='$description'"));
@@ -443,7 +443,7 @@ function NewDownloadsDate($selectdate)
         echo '<br><b>'._DESCRIPTION.":</b> $description<br>";
         setlocale(LC_TIME, $locale);
     /* INSERT code for *editor review* here */
-    ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+    preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo '<b>'._VERSION.":</b> $version <b>"._FILESIZE.':</b> '.CoolSize($filesize).'<br>';
@@ -552,7 +552,7 @@ function TopRated($ratenum, $ratetype)
         echo '<br>';
         echo '<b>'._DESCRIPTION.":</b> $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo '<b>'._VERSION.":</b> $version <b>"._FILESIZE.':</b> '.CoolSize($filesize).'<br>';
@@ -655,7 +655,7 @@ function MostPopular($ratenum, $ratetype)
         echo '<br>';
         echo '<b>'._DESCRIPTION.":</b> $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo '<b>'._VERSION.":</b> $version <b>"._FILESIZE.':</b> '.CoolSize($filesize).'<br>';
@@ -811,7 +811,7 @@ function viewdownload($cid, $min, $orderby, $show)
         echo '<br>';
         echo '<b>'._DESCRIPTION.":</b> $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo '<b>'._VERSION.":</b> $version <b>"._FILESIZE.':</b> '.CoolSize($filesize).'<br>';
@@ -1000,7 +1000,7 @@ function viewsdownload($sid, $min, $orderby, $show)
     detecteditorial($lid, $transfertitle, 1);
         echo '<br><b>'._DESCRIPTION.":</b> $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo '<b>'._VERSION.":</b> $version <b>"._FILESIZE.':</b> '.CoolSize($filesize).'<br>';
@@ -1082,7 +1082,7 @@ function newdownloadgraphic($datetime, $time)
     global $module_name, $locale;
     echo '&nbsp;';
     setlocale(LC_TIME, $locale);
-    ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+    preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
     $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
     $datetime = ucfirst($datetime);
     $startdate = time();
@@ -1113,7 +1113,7 @@ function categorynewdownloadgraphic($cat)
     list($time) = $db->sql_fetchrow($newresult);
     echo '&nbsp;';
     setlocale(LC_TIME, $locale);
-    ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+    preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
     $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
     $datetime = ucfirst($datetime);
     $startdate = time();
@@ -1312,7 +1312,7 @@ function search($query, $min, $orderby, $show)
                 if ($parentid3 > 0) {
                     $title3 = getparent($parentid3, $title3);
                 }
-                $title3 = ereg_replace($query, "<b>$query</b>", $title3);
+                $title3 = preg_replace('/'.preg_quote($query, '/').'/', "<b>$query</b>", $title3);
                 echo "<strong><big>&middot;</big></strong>&nbsp;<a href=\"modules.php?name=$module_name&amp;d_op=viewdownload&amp;cid=$cid\">$title3</a> ($numrows)<br>";
             }
             echo "<br><table width=\"100%\" bgcolor=\"$bgcolor2\"><tr><td><font class=\"option\"><b>"._UDOWNLOADS.'</b></font></td></tr></table>';
@@ -1335,7 +1335,7 @@ function search($query, $min, $orderby, $show)
                 $url = filter($url, 'nohtml');
                 $description = filter($description);
                 $transfertitle = str_replace(' ', '_', $title);
-                $title = ereg_replace($query1, "<b>$query1</b>", $title);
+                $title = preg_replace('/'.preg_quote($query1, '/').'/', "<b>$query1</b>", $title);
                 global $prefix, $db, $admin;
                 if (is_admin($admin)) {
                     echo '<a href="'.$admin_file.".php?op=DownloadsModDownload&amp;lid=$lid\"><img src=\"modules/$module_name/images/lwin.gif\" border=\"0\" alt=\""._EDIT.'"></a>&nbsp;&nbsp;';
@@ -1347,10 +1347,10 @@ function search($query, $min, $orderby, $show)
                 popgraphic($hits);
                 detecteditorial($lid, $transfertitle, 1);
                 echo '<br>';
-                $description = ereg_replace($the_query, "<b>$the_query</b>", $description);
+                $description = preg_replace('/'.preg_quote($the_query, '/').'/', "<b>$the_query</b>", $description);
                 echo '<b>'._DESCRIPTION.":</b> $description<br>";
                 setlocale(LC_TIME, $locale);
-                ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+                preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
                 $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
                 $datetime = ucfirst($datetime);
                 echo '<b>'._VERSION.":</b> $version <b>"._FILESIZE.':</b> '.CoolSize($filesize).'<br>';
@@ -1455,7 +1455,7 @@ function viewdownloadeditorial($lid)
     $result = $db->sql_query('SELECT adminid, editorialtimestamp, editorialtext, editorialtitle FROM '.$prefix."_downloads_editorials WHERE downloadid = '$lid'");
     $recordexist = $db->sql_numrows($result);
     $ttitle = htmlentities($ttitle);
-    $transfertitle = ereg_replace('_', ' ', $ttitle);
+    $transfertitle = preg_replace('/_/', ' ', $ttitle);
     $displaytitle = stripslashes($transfertitle);
     echo '<br>';
     OpenTable();
@@ -1465,7 +1465,7 @@ function viewdownloadeditorial($lid)
         while (list($adminid, $editorialtimestamp, $editorialtext, $editorialtitle) = $db->sql_fetchrow($result)) {
             $editorialtitle = filter($editorialtitle, 'nohtml');
             $editorialtext = filter($editorialtext);
-            ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $editorialtimestamp, $editorialtime);
+            preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $editorialtimestamp, $editorialtime);
             $editorialtime = strftime('%F', mktime($editorialtime[4], $editorialtime[5], $editorialtime[6], $editorialtime[2], $editorialtime[3], $editorialtime[1]));
             $date_array = explode('-', $editorialtime);
             $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -1515,7 +1515,7 @@ function viewdownloadcomments($lid)
     $result = $db->sql_query('SELECT ratinguser, rating, ratingcomments, ratingtimestamp FROM '.$prefix."_downloads_votedata WHERE ratinglid = '$lid' AND ratingcomments != '' ORDER BY ratingtimestamp DESC");
     $totalcomments = $db->sql_numrows($result);
     $ttitle = htmlentities($ttitle);
-    $transfertitle = ereg_replace('_', ' ', $ttitle);
+    $transfertitle = preg_replace('/_/', ' ', $ttitle);
     $displaytitle = stripslashes($transfertitle);
     OpenTable();
     echo '<center><font class="option"><b>'._DOWNLOADPROFILE.": $displaytitle</b></font><br><br>";
@@ -1526,7 +1526,7 @@ function viewdownloadcomments($lid)
     while (list($ratinguser, $rating, $ratingcomments, $ratingtimestamp) = $db->sql_fetchrow($result)) {
         $rating = intval($rating);
         $ratingcomments = filter($ratingcomments);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $ratingtimestamp, $ratingtime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $ratingtimestamp, $ratingtime);
         $ratingtime = strftime('%F', mktime($ratingtime[4], $ratingtime[5], $ratingtime[6], $ratingtime[2], $ratingtime[3], $ratingtime[1]));
         $date_array = explode('-', $ratingtime);
         $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -1819,7 +1819,7 @@ function viewdownloaddetails($lid)
         }
     }
     $ttitle = htmlentities($ttitle);
-    $transfertitle = ereg_replace('_', ' ', $ttitle);
+    $transfertitle = preg_replace('/_/', ' ', $ttitle);
     $displaytitle = stripslashes($transfertitle);
     $res = $db->sql_query('SELECT title, name, email, description, filesize, version, homepage FROM '.$prefix."_downloads_downloads WHERE lid='$lid'");
     list($title, $auth_name, $email, $description, $filesize, $version, $homepage) = $db->sql_fetchrow($res);
@@ -1843,8 +1843,8 @@ function viewdownloaddetails($lid)
         if (empty($email)) {
             $auth_name = "$auth_name";
         } else {
-            $email = ereg_replace('@', ' <i>at</i> ', $email);
-            $email = ereg_replace("\.", ' <i>dot</i> ', $email);
+            $email = preg_replace('/@/', ' <i>at</i> ', $email);
+            $email = preg_replace("/\./", ' <i>dot</i> ', $email);
             $auth_name = "$auth_name ($email)";
         }
     }
@@ -2450,7 +2450,7 @@ function completevotefooter($lid, $ratinguser)
         echo '<center><font class="content">'.WEAPPREACIATE." $sitename!<br><a href=\"$url\">"._RETURNTO." $ttitle</a></font><center><br><br>";
         $result = $db->sql_query('SELECT title FROM '.$prefix."_downloads_downloads WHERE lid='$lid'");
         list($title) = $db->sql_fetchrow($result);
-        $ttitle = ereg_replace(' ', '_', $title);
+        $ttitle = preg_replace('/ /', '_', $title);
     }
     echo '<center>';
     downloadinfomenu($lid);

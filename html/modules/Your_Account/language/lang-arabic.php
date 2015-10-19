@@ -195,9 +195,8 @@ define('_RETURNACCOUNT', 'العودة الى ملفك الشخصي');
 define('_ACCESSTO', 'الوصول الى');
 define('_CREATEJOURNAL', 'انشاء مجلتك الخاصة');
 define('_READHEADLINES', 'قراءة عناويين الأخبار');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

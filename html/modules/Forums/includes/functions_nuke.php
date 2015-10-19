@@ -66,7 +66,7 @@ function nuke_sql($query)
 {
     //echo "before = $query<br>";
         $nuke_sql = str_replace(' username', ' username', $query);
-    if (ereg('privmsgs_text', $nuke_sql)) {
+    if (preg_match('/privmsgs_text/', $nuke_sql)) {
         $nuke_sql = str_replace('uname_', 'username_', $query);
     }
     $nuke_sql = str_replace('u.username', 'u.username', $nuke_sql);

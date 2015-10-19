@@ -254,14 +254,14 @@ switch ($op) {
                             $informant = "<a href=\"modules.php?name=Your_Account&amp;op=userinfo&amp;username=$informant\">$informant</a>";
                         }
                         if (!empty($query) and $query != '*') {
-                            if (eregi(quotemeta($query), $title)) {
+                            if (preg_match('/' . preg_quote(quotemeta($query), '/') . '/i', $title)) {
                                 $a = 1;
                             }
                             $text = "$hometext$bodytext";
-                            if (eregi(quotemeta($query), $text)) {
+                            if (preg_match('/' . preg_quote(quotemeta($query), '/') . '/i', $text)) {
                                 $a = 2;
                             }
-                            if (eregi(quotemeta($query), $text) and eregi(quotemeta($query), $title)) {
+                            if (preg_match('/' . preg_quote(quotemeta($query), '/') . '/i', $text) and preg_match('/' . preg_quote(quotemeta($query), '/') . '/i', $title)) {
                                 $a = 3;
                             }
                             if ($a == 1) {

@@ -25,21 +25,21 @@ global $prefix, $db;
 
 /* Get the Browser data */
 
-if ((ereg('Nav', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Gold', $_SERVER['HTTP_USER_AGENT'])) || (ereg('X11', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Mozilla', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Netscape', $_SERVER['HTTP_USER_AGENT'])) and (!ereg('MSIE', $_SERVER['HTTP_USER_AGENT'])) and (!ereg('Konqueror', $_SERVER['HTTP_USER_AGENT'])) and (!ereg('Yahoo', $_SERVER['HTTP_USER_AGENT'])) and (!ereg('Firefox', $_SERVER['HTTP_USER_AGENT']))) {
+if ((preg_match('/Nav/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Gold/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/X11/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Mozilla/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Netscape/', $_SERVER['HTTP_USER_AGENT'])) and (!preg_match('/MSIE/', $_SERVER['HTTP_USER_AGENT'])) and (!preg_match('/Konqueror/', $_SERVER['HTTP_USER_AGENT'])) and (!preg_match('/Yahoo/', $_SERVER['HTTP_USER_AGENT'])) and (!preg_match('/Firefox/', $_SERVER['HTTP_USER_AGENT']))) {
     $browser = 'Netscape';
-} elseif (ereg('Firefox', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/Firefox/', $_SERVER['HTTP_USER_AGENT'])) {
     $browser = 'FireFox';
-} elseif (ereg('MSIE', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/MSIE/', $_SERVER['HTTP_USER_AGENT'])) {
     $browser = 'MSIE';
-} elseif (ereg('Lynx', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/Lynx/', $_SERVER['HTTP_USER_AGENT'])) {
     $browser = 'Lynx';
-} elseif (ereg('Opera', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/Opera/', $_SERVER['HTTP_USER_AGENT'])) {
     $browser = 'Opera';
-} elseif (ereg('WebTV', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/WebTV/', $_SERVER['HTTP_USER_AGENT'])) {
     $browser = 'WebTV';
-} elseif (ereg('Konqueror', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/Konqueror/', $_SERVER['HTTP_USER_AGENT'])) {
     $browser = 'Konqueror';
-} elseif ((eregi('bot', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Google', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Slurp', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Scooter', $_SERVER['HTTP_USER_AGENT'])) || (eregi('Spider', $_SERVER['HTTP_USER_AGENT'])) || (eregi('Infoseek', $_SERVER['HTTP_USER_AGENT']))) {
+} elseif ((preg_match('/bot/i', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Google/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Slurp/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Scooter/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Spider/i', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/Infoseek/i', $_SERVER['HTTP_USER_AGENT']))) {
     $browser = 'Bot';
 } else {
     $browser = 'Other';
@@ -47,23 +47,23 @@ if ((ereg('Nav', $_SERVER['HTTP_USER_AGENT'])) || (ereg('Gold', $_SERVER['HTTP_U
 
 /* Get the Operating System data */
 
-if (ereg('Win', $_SERVER['HTTP_USER_AGENT'])) {
+if (preg_match('/Win/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'Windows';
-} elseif ((ereg('Mac', $_SERVER['HTTP_USER_AGENT'])) || (ereg('PPC', $_SERVER['HTTP_USER_AGENT']))) {
+} elseif ((preg_match('/Mac/', $_SERVER['HTTP_USER_AGENT'])) || (preg_match('/PPC/', $_SERVER['HTTP_USER_AGENT']))) {
     $os = 'Mac';
-} elseif (ereg('Linux', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/Linux/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'Linux';
-} elseif (ereg('FreeBSD', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/FreeBSD/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'FreeBSD';
-} elseif (ereg('SunOS', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/SunOS/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'SunOS';
-} elseif (ereg('IRIX', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/IRIX/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'IRIX';
-} elseif (ereg('BeOS', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/BeOS/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'BeOS';
-} elseif (ereg('OS/2', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/OS\/2/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'OS/2';
-} elseif (ereg('AIX', $_SERVER['HTTP_USER_AGENT'])) {
+} elseif (preg_match('/AIX/', $_SERVER['HTTP_USER_AGENT'])) {
     $os = 'AIX';
 } else {
     $os = 'Other';

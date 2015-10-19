@@ -160,7 +160,7 @@ define('_BROKENDOWN', 'Downloads quebrados');
 define('_PAGEGENERATION', 'Tempo para gerar esta página:');
 define('_SECONDS', 'segundos');
 define('_YOUHAVEONEMSG', 'Você tem uma nova Mensagem Privada!');
-define('_YOUHAVE', 'Você tem');
+
 define('_NEWPMSG', 'Novas Mensagens Privadas!');
 define('_CONTRIBUTEDBY', 'Enviado por');
 define('_CHAT', 'Chat');

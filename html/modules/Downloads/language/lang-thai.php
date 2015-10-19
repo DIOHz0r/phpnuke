@@ -45,7 +45,7 @@ define('_ADDDOWNLOAD', 'เพิ่มดาวน์โหลด');
 define('_DOWNLOADSMAIN', 'หน้าดาวน์โหลดหลัก');
 define('_DOWNLOADCOMMENTS', 'ข้อเสนอแนะดาวน์โหลด');
 define('_DOWNLOADSMAINCAT', 'ดาวน์โหลด');
-define('_ADDDOWNLOAD', 'เพิ่มดาวน์โหลด');
+
 define('_DSUBMITONCE', 'ดาวน์โหลดต้องไม่ซ้ำกัน');
 define('_DPOSTPENDING', 'ดาวน์โหลดทั้งหมดที่ส่งมาต้องได้รับการตรวจสอบก่อน');
 define('_RESSORTED', 'เรียงตาม');

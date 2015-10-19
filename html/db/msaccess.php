@@ -134,7 +134,7 @@ if (!defined('SQL_LAYER')) {
 
                     odbc_free_result($this->result);
                 }
-            } elseif (eregi('^INSERT ', $query)) {
+            } elseif (preg_match('/^INSERT /i', $query)) {
                 $this->result = odbc_exec($this->db_connect_id, $query);
 
                 if ($this->result) {

@@ -74,7 +74,7 @@ function language_select($default, $select_name = 'language', $dirname = 'module
 
     $lang = array();
     while ($file = @readdir($dir)) {
-        if (ereg('^lang_', $file) && !is_file($dirname.'/'.$file) && !is_link($dirname.'/'.$file)) {
+        if (preg_match('/^lang_/', $file) && !is_file($dirname.'/'.$file) && !is_link($dirname.'/'.$file)) {
             $filename = trim(str_replace('lang_', '', $file));
             $displayname = preg_replace('/^(.*?)_(.*)$/', '\\1 [ \\2 ]', $filename);
             $displayname = preg_replace("/\[(.*?)_(.*)\]/", '[ \\1 - \\2 ]', $displayname);
@@ -130,7 +130,7 @@ function tz_select($default, $select_name = 'timezone')
     global $sys_timezone, $lang;
 
     if (!isset($default)) {
-        $default == $sys_timezone;
+        $default = $sys_timezone;
     }
     $tz_select = '<select name="'.$select_name.'">';
 

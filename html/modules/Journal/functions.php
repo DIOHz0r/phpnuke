@@ -74,10 +74,6 @@ if (!defined('MODULE_FILE')) {
     // End KSES Options
     function ADVT_stripslashes($text)
     {
-        if (get_magic_quotes_gpc() == 1) {
-            return(filter($text, 'nohtml'));
-        }
-
         return($text);
     }
     function journalfoot()

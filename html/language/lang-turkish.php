@@ -156,7 +156,7 @@ define('_BROKENDOWN', 'Kırık Dosyalar');
 define('_PAGEGENERATION', 'Sayfa Üretimi:');
 define('_SECONDS', 'Saniye');
 define('_YOUHAVEONEMSG', 'Yeni 1 Özel Mesajınız Var');
-define('_YOUHAVE', 'Senin');
+
 define('_NEWPMSG', 'NYeni Özel Mesajın Var');
 define('_CONTRIBUTEDBY', 'Katkıda Bulundu');
 define('_CHAT', 'Chat');

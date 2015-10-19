@@ -195,9 +195,8 @@ define('_RETURNACCOUNT', 'Hesabınız Sayfasına Geri Dön');
 define('_ACCESSTO', 'Erişim:');
 define('_CREATEJOURNAL', 'Günlüğünü Yarat');
 define('_READHEADLINES', 'Özel başlıkları oku');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Kendi Günlüğünü Yarat');
-define('_READHEADLINES', 'Başlıkları Oku');
+
+
 define('_POPMSGACTIVE', 'Özel Mesajlarda PopUp Etkinleştirilsin mi?');
 define('_READMYJOURNAL', 'Günlüğümü Oku');
 define('_AVATARNOTE', 'Kayıtlı kullanıcı olarak kendi avatarınızı seçebilirsiniz.');

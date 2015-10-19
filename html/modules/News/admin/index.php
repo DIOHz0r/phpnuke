@@ -429,7 +429,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
             $informant = substr("$informant", 0, 25);
             $ihome = intval($ihome);
             $acomm = intval($acomm);
-            ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+            preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
             GraphicAdmin();
             OpenTable();
             echo '<center><font class="title"><b>'._ARTICLEADMIN.'</b></font></center>';

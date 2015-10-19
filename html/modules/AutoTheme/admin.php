@@ -743,9 +743,9 @@ function AutoTheme_admin_import($var)
                     foreach ($thememod as $name => $value) {
                         $key = str_replace('area', 'Area', $name);
 
-                        if (eregi('block', $key)) {
+                        if (preg_match('/block/i', $key)) {
                             $temp[$key] = $value;
-                        } elseif (eregi('Area', $key)) {
+                        } elseif (preg_match('/Area/i', $key)) {
                             $block[$key] = (string) (int) $value;
                         }
                     }

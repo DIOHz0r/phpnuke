@@ -78,7 +78,7 @@ define('_DCATLAST3DAYS', 'Novos Downloads nesta categoria adicionados nos últim
 define('_DCATTHISWEEK', 'Novos Downloads nesta categoria adicionados esta semana');
 define('_DDATE1', 'Data (Downloads antigos listados primeiro)');
 define('_DDATE2', 'Data (Downloads ovos listados primeiro)');
-define('_DOWNLOADS', 'Downloads');
+
 define('_DOWNLOADPROFILE', 'Perfil do Download');
 define('_DOWNLOADRATINGDET', 'Detalhes das Taxas de Download');
 define('_EDITTHISDOWNLOAD', 'Editar este Download');

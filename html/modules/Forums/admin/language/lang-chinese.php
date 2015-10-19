@@ -203,7 +203,7 @@ define("_AUTHORSADMIN","作者管理");
 define("_MODIFYINFO","修改資訊");
 define("_DELAUTHOR","刪除作者");
 define("_ADDAUTHOR","新增管理員");
-define("_PERMISSIONS","允許\");
+define("_PERMISSIONS","允許\\");
 define("_TOPICS","新聞主題");
 define("_USERS","使用者");
 define("_SURVEYS","調查");
@@ -698,7 +698,7 @@ define("_EZTRANSFERDOWNLOADS","轉移所有的下載資源由類別");
 define("_DELEZDOWNLOADSCATWARNING","注意：您確定您要刪除這個類別嗎？您將會一併刪除其中所有的子類別及下載資源項目！");
 define("_DELCONTENTCAT","注意：您確定您要刪除這個類別嗎？在這個類別下所有存在的頁面並不會被刪除，但是將不再屬於任何一個類別。");
 define("_DELCATEGORY","刪除類別");
-define("_DOWNLOADTITLE","下載主題");
+
 define("_CENTER","中央");
 define("_CENTERBLOCK","中央區塊");
 define("_ADMINISTRATION","管理者");

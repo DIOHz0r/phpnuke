@@ -198,9 +198,8 @@ define('_RETURNACCOUNT', 'Wróć do zarządzania Twoim kontem');
 define('_ACCESSTO', 'Dostęp dla');
 define('_CREATEJOURNAL', 'Stwórz swój własny dziennik');
 define('_READHEADLINES', 'Czytaj wybrane nagłówki');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

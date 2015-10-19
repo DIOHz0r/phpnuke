@@ -123,7 +123,7 @@ if (!defined('MODULE_FILE')) {
             closedir($handle);
             asort($filelist);
             while (list($key, $file) = each($filelist)) {
-                if (!ereg('.gif|.jpg', $file)) {
+                if (!preg_match('/.gif|.jpg/', $file)) {
                 } elseif ($file == '.' || $file == '..') {
                     $a = 1;
                 } else {
@@ -231,7 +231,7 @@ if (!defined('MODULE_FILE')) {
             closedir($handle);
             asort($filelist);
             while (list($key, $file) = each($filelist)) {
-                if (!ereg('.gif|.jpg', $file)) {
+                if (!preg_match('/.gif|.jpg/', $file)) {
                 } elseif ($file == '.' || $file == '..') {
                     $a = 1;
                 } else {

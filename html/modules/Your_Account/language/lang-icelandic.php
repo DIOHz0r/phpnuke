@@ -195,9 +195,8 @@ define('_RETURNACCOUNT', 'Fara til baka á vefpóst síðuna þína');
 define('_ACCESSTO', 'Aðgangur að');
 define('_CREATEJOURNAL', 'Búa til þína eigin dagbók');
 define('_READHEADLINES', 'Lesa aðlagaðar fyrirsagnir');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

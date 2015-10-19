@@ -173,9 +173,9 @@ define("_COMPLETEVOTE3","Vote for a resource only once.<br>All votes are logged 
 define("_COMPLETEVOTE4","You cannot vote on a link you submitted.<br>All votes are logged and reviewed.");
 define("_COMPLETEVOTE5","No rating selected - no vote tallied");
 define("_COMPLETEVOTE6","Only one vote per IP address allowed every $outsidewaitdays day(s).");
-A-# define("_FILESIZE","Μέγεθος αρχείου");
-A-# define("_VERSION","Έκδοση");
-K-# define("_UDOWNLOADS","Ανακτήσεις");
-A-# define("_HOMEPAGE","Κεντρική Σελίδα ");
+# define("_FILESIZE","Μέγεθος αρχείου");
+# define("_VERSION","Έκδοση");
+# define("_UDOWNLOADS","Ανακτήσεις");
+# define("_HOMEPAGE","Κεντρική Σελίδα ");
 
 ?>

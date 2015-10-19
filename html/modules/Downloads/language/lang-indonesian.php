@@ -56,7 +56,7 @@ define("_DOWNLOADSNOTUSER4","Kami membutuhkan pendaftaran pada beberapa bagian d
 define("_DOWNLOADSNOTUSER5","supaya kami bisa memberikan informasi yang bermutu bagi pengunjung kami,");
 define("_DOWNLOADSNOTUSER6","setiap item akan diperiksa dan disetujui oleh staf kami.");
 define("_DOWNLOADSNOTUSER7","Kami berharap pengunjung kami untuk mendapatkan yang terbaik dari kami.");
-define("_DOWNLOADSNOTUSER8","<a href=\"modules.php?name=Your_Account&">Daftar di sini</a>");
+define("_DOWNLOADSNOTUSER8","<a href=\"modules.php?name=Your_Account&\">Daftar di sini</a>");
 define("_DOWNLOADALREADYEXT","ERROR: Alamat URL sudah ada dalam database!");
 define("_DOWNLOADNOTITLE","ERROR: Anda haruf mengisi JUDUL dari URL anda!");
 define("_DOWNLOADNOURL","ERROR: Anda harus mengisi ALAMAT URL dari file download yang anda inginkan!");
@@ -79,7 +79,7 @@ define("_DOWNLOADRATINGDET","Detil Nilai");
 define("_EDITTHISDOWNLOAD","Edit");
 define("_DOWNLOADRATING","Nilai");
 define("_DOWNLOADVOTE","Beri Nilai!");
-define("_ONLYREGUSERSMODIFY","Hanya memberyang bisa mengajukan permintaan modifikasi file. Silakan daftar atau login <a href=\"modules.php?name=Your_Account&">di sini</a>.");
+define("_ONLYREGUSERSMODIFY","Hanya memberyang bisa mengajukan permintaan modifikasi file. Silakan daftar atau login <a href=\"modules.php?name=Your_Account&\">di sini</a>.");
 define("_REQUESTDOWNLOADMOD","Permintaan Modifikasi File Download");
 define("_DOWNLOADID","ID");
 define("_DLETSDECIDE","Masukkan dari member seperti anda sangat membantu pengunjung lainnya untuk memutuskan apa yang harus mereka download.");

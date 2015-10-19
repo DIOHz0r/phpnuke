@@ -195,12 +195,8 @@ define('_RETURNACCOUNT', 'Kembali ke halaman anda');
 define('_ACCESSTO', 'Akses ke');
 define('_CREATEJOURNAL', 'Bikin jurnal anda');
 define('_READHEADLINES', 'Baca headline yang ada');
-define('_ACCESSTO', 'Akses ke');
-define('_CREATEJOURNAL', 'Bikin jurnal anda');
-define('_READHEADLINES', 'Baca headline yang ada');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

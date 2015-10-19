@@ -80,7 +80,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
         $path = "$path1[0]/$path1[1]";
         $handle = opendir($path);
         while ($file = readdir($handle)) {
-            if ((ereg('^([_0-9a-zA-Z]+)([.]{1})([_0-9a-zA-Z]{3})$', $file)) and $file != 'AllTopics.gif') {
+            if ((preg_match('/^([_0-9a-zA-Z]+)([.]{1})([_0-9a-zA-Z]{3})$/', $file)) and $file != 'AllTopics.gif') {
                 $tlist .= "$file ";
             }
         }
@@ -132,7 +132,7 @@ if ($row2['radminsuper'] == 1 || $auth_user == 1) {
         $path = "$path1[0]/$path1[1]";
         $handle = opendir($path);
         while ($file = readdir($handle)) {
-            if ((ereg('^([_0-9a-zA-Z]+)([.]{1})([_0-9a-zA-Z]{3})$', $file)) and $file != 'AllTopics.gif') {
+            if ((preg_match('/^([_0-9a-zA-Z]+)([.]{1})([_0-9a-zA-Z]{3})$/', $file)) and $file != 'AllTopics.gif') {
                 $tlist .= "$file ";
             }
         }

@@ -48,7 +48,7 @@ define('_DAYS', 'Days');
 define('_ADSNOCONTENT', "Sorry at this time we don't have any advertising plans available.");
 define('_TERMSCONDITIONS', 'Terms and Conditions');
 define('_ADSYSTEM', 'Advertising System');
-define('_CLIENTLOGIN', 'Client Login');
+
 define('_ENTER', 'Enter');
 define('_LOGININCORRECT', 'Login Incorrect!!!');
 define('_ACTIVEADSFOR', 'Current Active Banners for');

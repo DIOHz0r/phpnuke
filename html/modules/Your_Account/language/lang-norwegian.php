@@ -195,9 +195,8 @@ define('_RETURNACCOUNT', 'Tilbake til din konto-side');
 define('_ACCESSTO', 'Tilgang til');
 define('_CREATEJOURNAL', 'Lag din egen journal');
 define('_READHEADLINES', 'Les egendefinerte overskrifter');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

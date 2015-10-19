@@ -108,10 +108,7 @@ function populate_db(&$database, $sqlfile = 'nuke.sql')
 {
     global $errors;
 
-    $mqr = @get_magic_quotes_runtime();
-    @set_magic_quotes_runtime(0);
     $query = fread(fopen('sql/'.$sqlfile, 'r'), filesize('sql/'.$sqlfile));
-    @set_magic_quotes_runtime($mqr);
     $pieces = split_sql($query);
 
     for ($i = 0; $i < count($pieces); ++$i) {
@@ -131,7 +128,7 @@ function populate_db(&$database, $sqlfile = 'nuke.sql')
 function split_sql($sql)
 {
     $sql = trim($sql);
-    $sql = ereg_replace("\n#[^\n]*\n", "\n", $sql);
+    $sql = preg_replace("/\n#[^\n]*\n/", "\n", $sql);
 
     $buffer = array();
     $ret = array();

@@ -17,21 +17,21 @@ include 'mainfile.php';
 // Content pagebreak fix
 $result = $db->sql_query('SELECT pid, text FROM '.$prefix.'_pages');
 while ($row = $db->sql_fetchrow($result)) {
-    $row[text] = eregi_replace('<!--pagebreak-->', '[--pagebreak--]', $row[text]);
+    $row[text] = preg_replace('/<!--pagebreak-->/i', '[--pagebreak--]', $row[text]);
     $db->sql_query('UPDATE '.$prefix."_pages SET text='$row[text]' WHERE pid='$row[pid]'");
 }
 
 // Reviews pagebreak fix
 $result = $db->sql_query('SELECT id, text FROM '.$prefix.'_reviews');
 while ($row = $db->sql_fetchrow($result)) {
-    $row[text] = eregi_replace('<!--pagebreak-->', '[--pagebreak--]', $row[text]);
+    $row[text] = preg_replace('/<!--pagebreak-->/i', '[--pagebreak--]', $row[text]);
     $db->sql_query('UPDATE '.$prefix."_reviews SET text='$row[text]' WHERE id='$row[id]'");
 }
 
 // Encyclopedia pagebreak fix
 $result = $db->sql_query('SELECT tid, text FROM '.$prefix.'_encyclopedia_text');
 while ($row = $db->sql_fetchrow($result)) {
-    $row[text] = eregi_replace('<!--pagebreak-->', '[--pagebreak--]', $row[text]);
+    $row[text] = preg_replace('/<!--pagebreak-->/i', '[--pagebreak--]', $row[text]);
     $db->sql_query('UPDATE '.$prefix."_encyclopedia_text SET text='$row[text]' WHERE tid='$row[tid]'");
 }
 

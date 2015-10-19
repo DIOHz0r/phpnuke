@@ -46,7 +46,7 @@ function format_url($comment)
             $pos = $endpos + 1;
         } else {
             if (!strcasecmp(strtok($tag, ' '), 'A')) {
-                if (eregi("HREF[ \t\n\r\v]*=[ \t\n\r\v]*\"([^\"]*)\"", $tag, $regs)); elseif (eregi("HREF[ \t\n\r\v]*=[ \t\n\r\v]*([^ \t\n\r\v]*)", $tag, $regs)); else {
+                if (preg_match('/HREF[ \t\n\r\v]*=[ \t\n\r\v]*\"([^\"]*)\"/i', $tag, $regs)); elseif (preg_match('/HREF[ \t\n\r\v]*=[ \t\n\r\v]*([^ \t\n\r\v]*)/i', $tag, $regs)); else {
      $regs[1] = '';
  }
                 if ($regs[1]) {
@@ -293,10 +293,10 @@ function DisplayKids($tid, $mode, $order = 0, $thold = 0, $level = 0, $dummy = 0
                     }
                 }
                 ++$comments;
-                if (!eregi('[a-z0-9]', $r_name)) {
+                if (!preg_match('/[a-z0-9]/i', $r_name)) {
                     $r_name = $anonymous;
                 }
-                if (!eregi('[a-z0-9]', $r_subject)) {
+                if (!preg_match('/[a-z0-9]/i', $r_subject)) {
                     $r_subject = '['._NOSUBJECT.']';
                 }
                 // HIJO enter hex color between first two appostrophe for second alt bgcolor
@@ -374,10 +374,10 @@ function DisplayKids($tid, $mode, $order = 0, $thold = 0, $level = 0, $dummy = 0
             $r_score = intval($row['score']);
             $r_reason = intval($row['reason']);
             if ($r_score >= $thold) {
-                if (!eregi('[a-z0-9]', $r_name)) {
+                if (!preg_match('/[a-z0-9]/i', $r_name)) {
                     $r_name = $anonymous;
                 }
-                if (!eregi('[a-z0-9]', $r_subject)) {
+                if (!preg_match('/[a-z0-9]/i', $r_subject)) {
                     $r_subject = '['._NOSUBJECT.']';
                 }
                 echo "<a name=\"$r_tid\">";
@@ -456,10 +456,10 @@ function DisplayKids($tid, $mode, $order = 0, $thold = 0, $level = 0, $dummy = 0
                     }
                 }
                 ++$comments;
-                if (!eregi('[a-z0-9]', $r_name)) {
+                if (!preg_match('/[a-z0-9]/i', $r_name)) {
                     $r_name = $anonymous;
                 }
-                if (!eregi('[a-z0-9]', $r_subject)) {
+                if (!preg_match('/[a-z0-9]/i', $r_subject)) {
                     $r_subject = '['._NOSUBJECT.']';
                 }
                 formatTimestamp($r_date);
@@ -501,10 +501,10 @@ function DisplayBabies($tid, $level = 0, $dummy = 0)
             echo '<ul>';
         }
         ++$comments;
-        if (!eregi('[a-z0-9]', $r_name)) {
+        if (!preg_match('/[a-z0-9]/i', $r_name)) {
             $r_name = $anonymous;
         }
-        if (!eregi('[a-z0-9]', $r_subject)) {
+        if (!preg_match('/[a-z0-9]/i', $r_subject)) {
             $r_subject = '['._NOSUBJECT.']';
         }
         formatTimestamp($r_date);

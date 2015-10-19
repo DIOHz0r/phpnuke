@@ -371,7 +371,7 @@ if ($mode == 'edit' || $mode == 'save' && (isset($HTTP_POST_VARS['username']) ||
                         }
 
             if ($user_avatar_loc != '') {
-                if (file_exists(@phpbb_realpath($user_avatar_loc)) && ereg('.jpg$|.gif$|.png$', $user_avatar_name)) {
+                if (file_exists(@phpbb_realpath($user_avatar_loc)) && preg_match('/.jpg$|.gif$|.png$/', $user_avatar_name)) {
                     if ($user_avatar_size <= $board_config['avatar_filesize'] && $user_avatar_size > 0) {
                         $error_type = false;
 

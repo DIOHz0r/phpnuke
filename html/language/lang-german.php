@@ -157,7 +157,7 @@ define('_BROKENDOWN', 'tote Downloads');
 define('_PAGEGENERATION', 'Erstellung der Seite:');
 define('_SECONDS', 'Sekunden');
 define('_YOUHAVEONEMSG', 'Sie haben eine neue private Nachricht');
-define('_YOUHAVE', 'Sie haben');
+
 define('_NEWPMSG', 'neue private Nachrichten');
 define('_CONTRIBUTEDBY', 'Unterst&uuml;tzt durch');
 define('_CHAT', 'Chat');

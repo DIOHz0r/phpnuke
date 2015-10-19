@@ -167,7 +167,7 @@ define("_STAFF","Staf");
 define("_THANKSBROKEN","Terima kasih atas bantuan anda menjaga integritas direktori kami.");
 define("_THANKSFORINFO","Terima kasih atas informasi anda.");
 define("_LOOKTOREQUEST","Kami akan memeriksa laporan anda.");
-define("_ONLYREGUSERSMODIFY","Hanya member yang bisa meminta modifikasi link. Silakan daftar atau login <a href=\"/modules.php?name=Your_Account&">di sini</a>.");
+define("_ONLYREGUSERSMODIFY","Hanya member yang bisa meminta modifikasi link. Silakan daftar atau login <a href=\"/modules.php?name=Your_Account&\">di sini</a>.");
 define("_REQUESTLINKMOD","Permohonan Modifikasi Link Situs");
 define("_LINKID","ID Situs");
 define("_SENDREQUEST","Kirim");

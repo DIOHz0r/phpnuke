@@ -421,7 +421,7 @@ function NewLinksDate($selectdate)
         echo '<br>'._DESCRIPTION.": $description<br>";
         setlocale(LC_TIME, $locale);
         /* INSERT code for *editor review* here */
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo ''._ADDEDON.": <b>$datetime</b> "._HITS.": $hits";
@@ -524,7 +524,7 @@ function TopRated($ratenum, $ratetype)
         echo '<br>';
         echo ''._DESCRIPTION.": $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo ''._ADDEDON.": $datetime "._HITS.": $hits";
@@ -632,7 +632,7 @@ function MostPopular($ratenum, $ratetype)
         echo '<br>';
         echo ''._DESCRIPTION.": $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo ''._ADDEDON.": $datetime "._HITS.": <b>$hits</b>";
@@ -817,7 +817,7 @@ function viewlink($cid, $min, $orderby, $show)
         echo '<br>';
         echo ''._DESCRIPTION.": $description<br>";
         setlocale(LC_TIME, $locale);
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
         $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
         $datetime = ucfirst($datetime);
         echo ''._ADDEDON.": $datetime "._HITS.": $hits";
@@ -899,7 +899,7 @@ function newlinkgraphic($datetime, $time)
     global $module_name, $locale;
     echo '&nbsp;';
     setlocale(LC_TIME, $locale);
-    ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+    preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
     $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
     $datetime = ucfirst($datetime);
     $startdate = time();
@@ -930,7 +930,7 @@ function categorynewlinkgraphic($cat)
     $time = $row['date'];
     echo '&nbsp;';
     setlocale(LC_TIME, $locale);
-    ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+    preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
     $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
     $datetime = ucfirst($datetime);
     $startdate = time();
@@ -1128,7 +1128,7 @@ function search($query, $min, $orderby, $show)
                 if ($parentid3 > 0) {
                     $title3 = getparent($parentid3, $title3);
                 }
-                $title3 = ereg_replace($query1, "<b>$query1</b>", $title3);
+                $title3 = preg_replace('/'.preg_quote($query1, '/').'/', "<b>$query1</b>", $title3);
                 echo "<strong><big>&middot;</big></strong>&nbsp;<a href=\"modules.php?name=$module_name&amp;l_op=viewlink&amp;cid=$cid\">$title3</a> ($numrows)<br>";
             }
             echo "<br><table width=\"100%\" bgcolor=\"$bgcolor2\"><tr><td><font class=\"option\"><b>"._LINKS.'</b></font></td></tr></table>';
@@ -1153,7 +1153,7 @@ function search($query, $min, $orderby, $show)
                 $totalcomments = intval($row['totalcomments']);
                 $linkratingsummary = number_format($linkratingsummary, $mainvotedecimal);
                 $transfertitle = str_replace(' ', '_', $title);
-                $title = ereg_replace($query1, "<b>$query1</b>", $title);
+                $title = preg_replace('/'.preg_quote($query1, '/').'/', "<b>$query1</b>", $title);
                 if (is_admin($admin)) {
                     echo '<a href="'.$admin_file.".php?op=LinksModLink&amp;lid=$lid\"><img src=\"modules/$module_name/images/lwin.gif\" border=\"0\" alt=\""._EDIT.'"></a>&nbsp;&nbsp;';
                 } else {
@@ -1163,10 +1163,10 @@ function search($query, $min, $orderby, $show)
                 newlinkgraphic($datetime, $time);
                 popgraphic($hits);
                 echo '<br>';
-                $description = ereg_replace($the_query, "<b>$the_query</b>", $description);
+                $description = preg_replace('/'.preg_quote($the_query, '/').'/', "<b>$the_query</b>", $description);
                 echo ''._DESCRIPTION.": $description<br>";
                 setlocale(LC_TIME, $locale);
-                ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $time, $datetime);
+                preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $time, $datetime);
                 $datetime = strftime(''._LINKSDATESTRING.'', mktime($datetime[4], $datetime[5], $datetime[6], $datetime[2], $datetime[3], $datetime[1]));
                 $datetime = ucfirst($datetime);
                 echo ''._ADDEDON.": $datetime "._HITS.": $hits";
@@ -1265,7 +1265,7 @@ function viewlinkeditorial($lid)
     $lid = intval(trim($lid));
     $result = $db->sql_query('SELECT adminid, editorialtimestamp, editorialtext, editorialtitle FROM '.$prefix."_links_editorials WHERE linkid = '$lid'");
     $recordexist = $db->sql_numrows($result);
-    $transfertitle = ereg_replace('_', ' ', $ttitle);
+    $transfertitle = preg_replace('/_/', ' ', $ttitle);
     $displaytitle = $transfertitle;
     echo '<br>';
     OpenTable();
@@ -1277,7 +1277,7 @@ function viewlinkeditorial($lid)
             $editorialtimestamp = $row['editorialtimestamp'];
             $editorialtext = filter($row['editorialtext']);
             $editorialtitle = filter($row['editorialtitle'], 'nohtml');
-            ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $editorialtimestamp, $editorialtime);
+            preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $editorialtimestamp, $editorialtime);
             $editorialtime = strftime('%F', mktime($editorialtime[4], $editorialtime[5], $editorialtime[6], $editorialtime[2], $editorialtime[3], $editorialtime[1]));
             $date_array = explode('-', $editorialtime);
             $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -1322,7 +1322,7 @@ function viewlinkcomments($lid)
     echo '<br>';
     $result = $db->sql_query('SELECT ratinguser, rating, ratingcomments, ratingtimestamp FROM '.$prefix."_links_votedata WHERE ratinglid = '$lid' AND ratingcomments != '' ORDER BY ratingtimestamp DESC");
     $totalcomments = $db->sql_numrows($result);
-    $transfertitle = ereg_replace('_', ' ', $ttitle);
+    $transfertitle = preg_replace('/_/', ' ', $ttitle);
     $displaytitle = $transfertitle;
     OpenTable();
     echo '<center><font class="option"><b>'._LINKPROFILE.': '.htmlentities($displaytitle).'</b></font><br><br>';
@@ -1335,7 +1335,7 @@ function viewlinkcomments($lid)
         $rating = intval($row['rating']);
         $ratingcomments = $row['ratingcomments'];
         $ratingtimestamp = $row['ratingtimestamp'];
-        ereg('([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})', $ratingtimestamp, $ratingtime);
+        preg_match('/([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/', $ratingtimestamp, $ratingtime);
         $ratingtime = strftime('%F', mktime($ratingtime[4], $ratingtime[5], $ratingtime[6], $ratingtime[2], $ratingtime[3], $ratingtime[1]));
         $date_array = explode('-', $ratingtime);
         $timestamp = mktime(0, 0, 0, $date_array['1'], $date_array['2'], $date_array['0']);
@@ -2242,7 +2242,7 @@ function completevotefooter($lid, $ratinguser)
         echo '<center><font class="content">'.WEAPPREACIATE." $sitename!<br><a href=\"$url\">"._RETURNTO." $ttitle</a></font><center><br><br>";
         $row2 = $db->sql_fetchrow($db->sql_query('SELECT title FROM '.$prefix."_links_links where lid='$lid'"));
         $title = filter($row2['title'], 'nohtml');
-        $ttitle = ereg_replace(' ', '_', $title);
+        $ttitle = preg_replace('/ /', '_', $title);
     }
     echo '<center>';
     linkinfomenu($lid);

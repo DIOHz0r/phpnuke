@@ -77,10 +77,10 @@ if ($row['radminsuper'] == 1) {
 
         // doing some DOS-CRLF magic...
         $client = $_SERVER['HTTP_USER_AGENT'];
-        if (ereg('[^(]*\((.*)\)[^)]*', $client, $regs)) {
+        if (preg_match('[^(]*\((.*)\)[^)]*', $client, $regs)) {
             $os = $regs[1];
             // this looks better under WinX
-            if (eregi('Win', $os)) {
+            if (preg_match('/Win/i', $os)) {
                 $crlf = "\r\n";
             }
         }
@@ -124,7 +124,7 @@ if ($row['radminsuper'] == 1) {
                         $schema_insert .= " '',";
                     }
                 }
-                $schema_insert = ereg_replace(',$', '', $schema_insert);
+                $schema_insert = preg_replace('/,$/', '', $schema_insert);
                 $schema_insert .= ')';
                 $handler(trim($schema_insert));
                 ++$i;
@@ -156,7 +156,7 @@ if ($row['radminsuper'] == 1) {
                 }
                 $schema_create .= ",$crlf";
             }
-            $schema_create = ereg_replace(','.$crlf.'$', '', $schema_create);
+            $schema_create = preg_replace('/,'.$crlf.'$/', '', $schema_create);
             $result = mysql_db_query($db, "SHOW KEYS FROM $table") or mysql_die();
             while ($row = mysql_fetch_array($result)) {
                 $kname = $row['Key_name'];

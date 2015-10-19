@@ -197,7 +197,7 @@ function atLoadRunningConfig()
         $matchlen = 0;
         if ($_SERVER['QUERY_STRING']) {
             foreach ($template[$modtemplate] as $ops => $vals) {
-                if ((strlen($ops) > $matchlen) && eregi($ops, $_SERVER['QUERY_STRING'])) {
+                if ((strlen($ops) > $matchlen) && preg_match('/'.preg_quote($ops,'/').'/i', $_SERVER['QUERY_STRING'])) {
                     $modops = $ops;
                     $matchlen = strlen($modops);
                 }
@@ -232,7 +232,7 @@ function atLoadRunningConfig()
     }
     atRunningSetVar('modops', $modops);
 
-    if (eregi('xhtml', $template['dtd'])) {
+    if (preg_match('/xhtml/i', $template['dtd'])) {
         $xhtml = 1;
     } else {
         $xhtml = 0;
@@ -481,7 +481,7 @@ function atTemplatePrep($filename, $striphead = 1, $complete = 0)
     $HTML = atTemplateRead($filename);
 
     if (!$complete) {
-        $parts = spliti('\<\/head\>', $HTML);
+        $parts = preg_split('#\<\/head\>#i', $HTML);
 
         if (isset($parts[1])) {
             $HTML = $parts[1];
@@ -491,13 +491,13 @@ function atTemplatePrep($filename, $striphead = 1, $complete = 0)
             $head = '';
         }
         if (!$striphead && $head) {
-            $head = spliti('\<head\>', $head);
+            $head = preg_split('#\<head\>#i', $head);
             $head = trim($head[1]);
             $HTML = "\n<!-- Head from template -->\n$head\n\n</head>\n$HTML\n";
         } elseif ($head) {
             $HTML = "</head>\n$HTML\n";
         }
-        $HTML = spliti('\<\/body\>', $HTML);
+        $HTML = preg_split('#\<\/body\>#i', $HTML);
         $HTML = $HTML[0];
     }
     $HTML = trim($HTML);
@@ -525,9 +525,9 @@ function atModLangLoad($type)
     $lang = atGetLang();
 
     if (@file_exists(_ATDIR."/lang/$lang/$type.php")) {
-        @include _ATDIR."lang/$lang/$type.php";
+        include _ATDIR."lang/$lang/$type.php";
     } else {
-        @include _ATDIR."lang/eng/$type.php";
+        include _ATDIR."lang/eng/$type.php";
     }
 }
 
@@ -536,9 +536,9 @@ function atThemeLangLoad($themepath)
     $lang = atGetLang();
 
     if (@file_exists("$themepath/lang/$lang/global.php")) {
-        @include "$themepath/lang/$lang/global.php";
+        include "$themepath/lang/$lang/global.php";
     } else {
-        @include "$themepath/lang/eng/global.php";
+        include "$themepath/lang/eng/global.php";
     }
 }
 
@@ -551,9 +551,6 @@ function atExportVar($var)
 
         return $result;
     }
-    if (get_magic_quotes_gpc()) {
-        $var = stripslashes($var);
-    }
 
     return $var;
 }
@@ -565,7 +562,7 @@ function atDisplayVar($var)
 
 function atLoadAutoConfig($path)
 {
-    @include $path.'/autotheme.cfg';
+    include $path.'/autotheme.cfg';
 
     $autoconfig = compact('cmsoption', 'cache', 'cache_expire', 'autotheme', 'autoblock', 'autolang', 'autocmd', 'autoextra');
 
@@ -584,7 +581,7 @@ function atGetAutoConfig()
     if (isset($GLOBALS['AT_AUTO'])) {
         return $GLOBALS['AT_AUTO'];
     } else {
-        return false;
+        return array();
     }
 }
 
@@ -611,10 +608,10 @@ function atAutoGetVar($var)
 
 function atLoadThemeConfig($path, $atdir = 'modules/AutoTheme')
 {
-    @include $atdir.'/autotheme.cfg';
-    @include 'modules/Blocks/autoblock.cfg';
-    @include $path.'/autoblock.cfg';
-    @include $path.'/theme.cfg';
+    include $atdir.'/autotheme.cfg';
+    include 'modules/Blocks/autoblock.cfg';
+    include $path.'/autoblock.cfg';
+    include $path.'/theme.cfg';
 
     $themeconfig = compact('template', 'blockdisplay', 'style', 'blocktemplate', 'autoblock', 'themecmd', 'themeversion', 'oscbox', 'blockcontrol');
 
@@ -707,10 +704,10 @@ function atGetPlatform()
         $platform = 'CPG-Nuke';
     }
     if (defined('PROJECT_VERSION')) {
-        if (eregi('osCommerce', PROJECT_VERSION)) {
+        if (preg_match('/osCommerce/i', PROJECT_VERSION)) {
             $platform = 'osCommerce';
         }
-        if (eregi('CRE', PROJECT_VERSION)) {
+        if (preg_match('/CRE/i', PROJECT_VERSION)) {
             $platform = 'CRE';
         }
     }
@@ -1239,12 +1236,12 @@ function atLoadExtraCommands($dir)
 
     if ($handle = @opendir($dir)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi('.cmd.php', $file)) {
+            if (preg_match('/.cmd.php/i', $file)) {
                 $extracmd = array();
 
                 $parts = explode('.', $file);
                 $name = $parts[0];
-                @include_secure($atdir."lang/$lang/$name.php");
+                include_secure($atdir."lang/$lang/$name.php");
                 include_secure($dir.$file);
 
                 foreach ($extracmd as $type => $cmds) {
@@ -1258,13 +1255,13 @@ function atLoadExtraCommands($dir)
     }
     if ($handle = @opendir($dir.$platform)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi('.cmd.php', $file)) {
+            if (preg_match('/.cmd.php/i', $file)) {
                 $extracmd = array();
 
                 $parts = explode('.', $file);
                 $name = $parts[0];
-                @include_secure($atdir."lang/$lang/$name.php");
-                @include_secure($dir.$platform."/$file");
+                include_secure($atdir."lang/$lang/$name.php");
+                include_secure($dir.$platform."/$file");
 
                 foreach ($extracmd as $type => $cmds) {
                     foreach ($cmds as $cmd => $action) {
@@ -1288,24 +1285,24 @@ function atExtraScan($dir)
 
     if ($handle = @opendir($dir.$platform)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi('.ext.php', $file)) {
+            if (preg_match('/.ext.php/i', $file)) {
                 $parts = explode('.', $file);
                 $name = $parts[0];
                 $loaded[$name] = 1;
-                @include_secure($atdir."lang/$lang/$name.php");
-                @include_secure($dir.$platform."/$file");
+                include_secure($atdir."lang/$lang/$name.php");
+                include_secure($dir.$platform."/$file");
             }
         }
         closedir($handle);
     }
     if ($handle = @opendir($dir)) {
         while (false !== ($file = @readdir($handle))) {
-            if (eregi('.ext.php', $file)) {
+            if (preg_match('/.ext.php/i', $file)) {
                 $parts = explode('.', $file);
                 $name = $parts[0];
                 if (!$loaded[$name]) {
-                    @include_secure($atdir."lang/$lang/$name.php");
-                    @include_secure($dir.$file);
+                    include_secure($atdir."lang/$lang/$name.php");
+                    include_secure($dir.$file);
                 }
             }
         }
@@ -1344,14 +1341,14 @@ function atExtraLoad($name)
     $lang = atGetLang();
 
     if (@file_exists($atdir."lang/$lang/$name.php")) {
-        @include_secure($atdir."lang/$lang/$name.php");
+        include_secure($atdir."lang/$lang/$name.php");
     } else {
-        @include_secure($atdir."lang/eng/$name.php");
+        include_secure($atdir."lang/eng/$name.php");
     }
     if (@file_exists($extradir.$platform."/$name.ext.php")) {
-        @include_secure($extradir.$platform."/$name.ext.php");
+        include_secure($extradir.$platform."/$name.ext.php");
     } else {
-        @include_secure($extradir."$name.ext.php");
+        include_secure($extradir."$name.ext.php");
     }
     atRunningSetVar('extra', $extra);
 
@@ -1657,7 +1654,7 @@ function at_listfiles($dir, $ext)
 
     if ($handle = @opendir($dir)) {
         while (false !== ($item = @readdir($handle))) {
-            if (@!is_dir($dir.$item) && eregi(".$ext", $item)) {
+            if (@!is_dir($dir.$item) && preg_match('/.$ext/i', $item)) {
                 $filelist[] = $item;
             } elseif (@is_dir("$dir/$item") && $item !== '.' && $item !== '..') {
                 $sublist = at_listfiles("$dir/$item", $ext);

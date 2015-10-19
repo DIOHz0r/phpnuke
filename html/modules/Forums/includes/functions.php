@@ -430,7 +430,7 @@ function setup_style($style)
         if (file_exists("themes/$ThemeSel/$template_name/index_body.tpl")) {
             include $template_path.$template_name.'/'.$template_name.'.cfg';
         } else {
-            @include $phpbb_root_path.$template_path.$template_name.'/'.$template_name.'.cfg';
+            include $phpbb_root_path.$template_path.$template_name.'/'.$template_name.'.cfg';
         }
         if (!defined('TEMPLATE_CONFIG')) {
             message_die(CRITICAL_ERROR, "Could not open $template_name template config file", '', __LINE__, __FILE__);

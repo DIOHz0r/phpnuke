@@ -223,7 +223,7 @@ define('_ALLREQUIRED', 'All fields are required');
 define('_YOUWILLRECEIVE', 'You will receive a confirmation email with a link to a page you should visit to activate your account in the next 24 hours.');
 define('_BLANKFORAUTO', 'Leave blank for auto-generate your password');
 define('_TOFINISHUSER', 'To finish the registration process you should visit the following link in the next 24 hours to activate your user account, otherwise the information will be automaticaly deleted by the system and you should apply again:');
-define('_YOUPASSMUSTBE', 'Your Password must be');
+
 define('_FINISHUSERCONF', "Your request for a new account has been processed. You'll receive an email in the next few seconds with a activation link that should be visited in the next 24 hours to be able to activate your account.");
 define('_ACTIVATIONERROR', 'New User Activation Error');
 define('_ACTIVATIONYES', 'New User Activation');

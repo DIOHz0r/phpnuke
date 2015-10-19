@@ -170,9 +170,9 @@ if ($row['radminsuper'] == 1) {
         sort($blockslist);
         for ($i = 0; $i < sizeof($blockslist); ++$i) {
             if (!empty($blockslist[$i])) {
-                $bl = ereg_replace('block-', '', $blockslist[$i]);
-                $bl = ereg_replace('.php', '', $bl);
-                $bl = ereg_replace('_', ' ', $bl);
+                $bl = preg_replace('/block-/', '', $blockslist[$i]);
+                $bl = preg_replace('/.php/', '', $bl);
+                $bl = preg_replace('/_/', ' ', $bl);
                 $result2 = $db->sql_query('select * from '.$prefix."_blocks where blockfile='$blockslist[$i]'");
                 $numrows = $db->sql_numrows($result2);
                 if ($numrows == 0) {
@@ -381,14 +381,14 @@ if ($row['radminsuper'] == 1) {
         if (!empty($blockfile)) {
             $url = '';
             if (empty($title)) {
-                $title = ereg_replace('block-', '', $blockfile);
-                $title = ereg_replace('.php', '', $title);
-                $title = ereg_replace('_', ' ', $title);
+                $title = preg_replace('/block-/', '', $blockfile);
+                $title = preg_replace('/.php/', '', $title);
+                $title = preg_replace('/_/', ' ', $title);
             }
         }
         if (!empty($url)) {
             $btime = time();
-            if (!ereg('http://', $url)) {
+            if (!preg_match('#http://#', $url)) {
                 $url = "http://$url";
             }
             $rdf = parse_url($url);
@@ -410,10 +410,10 @@ if ($row['radminsuper'] == 1) {
                 $items = explode('</item>', $string);
                 $content = '<font class="content">';
                 for ($i = 0;$i < 10;++$i) {
-                    $link = ereg_replace('.*<link>', '', $items[$i]);
-                    $link = ereg_replace('</link>.*', '', $link);
-                    $title2 = ereg_replace('.*<title>', '', $items[$i]);
-                    $title2 = ereg_replace('</title>.*', '', $title2);
+                    $link = preg_replace('/.*<link>/', '', $items[$i]);
+                    $link = preg_replace('#</link>.*#', '', $link);
+                    $title2 = preg_replace('/.*<title>/', '', $items[$i]);
+                    $title2 = preg_replace('#</title>.*#', '', $title2);
                     if ($items[$i] == '' and $cont != 1) {
                         $content = '';
                     } else {
@@ -489,9 +489,9 @@ if ($row['radminsuper'] == 1) {
             sort($blockslist);
             for ($i = 0; $i < sizeof($blockslist); ++$i) {
                 if ($blockslist[$i] != '') {
-                    $bl = ereg_replace('block-', '', $blockslist[$i]);
-                    $bl = ereg_replace('.php', '', $bl);
-                    $bl = ereg_replace('_', ' ', $bl);
+                    $bl = preg_replace('/block-/', '', $blockslist[$i]);
+                    $bl = preg_replace('/.php/', '', $bl);
+                    $bl = preg_replace('/_/', ' ', $bl);
                     echo "<option value=\"$blockslist[$i]\" ";
                     if ($blockfile == $blockslist[$i]) {
                         echo 'selected';
@@ -674,7 +674,7 @@ if ($row['radminsuper'] == 1) {
         if (!empty($url)) {
             $bkey = '';
             $btime = time();
-            if (!ereg('http://', $url)) {
+            if (!preg_match('#http://#', $url)) {
                 $url = "http://$url";
             }
             $rdf = parse_url($url);
@@ -696,10 +696,10 @@ if ($row['radminsuper'] == 1) {
                 $items = explode('</item>', $string);
                 $content = '<font class="content">';
                 for ($i = 0;$i < 10;++$i) {
-                    $link = ereg_replace('.*<link>', '', $items[$i]);
-                    $link = ereg_replace('</link>.*', '', $link);
-                    $title2 = ereg_replace('.*<title>', '', $items[$i]);
-                    $title2 = ereg_replace('</title>.*', '', $title2);
+                    $link = preg_replace('/.*<link>/', '', $items[$i]);
+                    $link = preg_replace('#</link>.*#', '', $link);
+                    $title2 = preg_replace('/.*<title>/', '', $items[$i]);
+                    $title2 = preg_replace('#</title>.*#', '', $title2);
                     if ($items[$i] == '' and $cont != 1) {
                         $content = '';
                     } else {
@@ -924,7 +924,7 @@ if ($row['radminsuper'] == 1) {
         $hid = intval($hid);
         $xsitename = filter($xsitename, 'nohtml', 1);
         $headlinesurl = filter($headlinesurl, 'nohtml', 1);
-        $xsitename = ereg_replace(' ', '', $xsitename);
+        $xsitename = preg_replace('/ /', '', $xsitename);
         $db->sql_query('update '.$prefix."_headlines set sitename='$xsitename', headlinesurl='$headlinesurl' where hid='$hid'");
         Header('Location: '.$admin_file.'.php?op=HeadlinesAdmin');
     }
@@ -934,7 +934,7 @@ if ($row['radminsuper'] == 1) {
         global $prefix, $db, $admin_file;
         $xsitename = filter($xsitename, 'nohtml', 1);
         $headlinesurl = filter($headlinesurl, 'nohtml', 1);
-        $xsitename = ereg_replace(' ', '', $xsitename);
+        $xsitename = preg_replace('/ /', '', $xsitename);
         $db->sql_query('insert into '.$prefix."_headlines values (NULL, '$xsitename', '$headlinesurl')");
         Header('Location: '.$admin_file.'.php?op=HeadlinesAdmin');
     }

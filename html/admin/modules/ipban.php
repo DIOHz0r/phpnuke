@@ -76,13 +76,13 @@ if ($row['radminsuper'] == 1) {
         echo '<br>';
         OpenTable();
         if (substr($ip2, 0, 2) == 00) {
-            $ip2 = ereg_replace('00', '', $ip2);
+            $ip2 = preg_replace('/00/', '', $ip2);
         }
         if (substr($ip3, 0, 2) == 00) {
-            $ip3 = ereg_replace('00', '', $ip3);
+            $ip3 = preg_replace('/00/', '', $ip3);
         }
         if (substr($ip4, 0, 2) == 00) {
-            $ip4 = ereg_replace('00', '', $ip4);
+            $ip4 = preg_replace('/00/', '', $ip4);
         }
         $ip = "$ip1.$ip2.$ip3.$ip4";
         if (empty($ip1) or empty($ip2) or empty($ip3) or empty($ip4)) {
@@ -188,13 +188,13 @@ if ($row['radminsuper'] == 1) {
         echo '<br>';
         OpenTable();
         if (substr($ip2, 0, 2) == 00) {
-            $ip2 = ereg_replace('00', '', $ip2);
+            $ip2 = preg_replace('/00/', '', $ip2);
         }
         if (substr($ip3, 0, 2) == 00) {
-            $ip3 = ereg_replace('00', '', $ip3);
+            $ip3 = preg_replace('/00/', '', $ip3);
         }
         if (substr($ip4, 0, 2) == 00) {
-            $ip4 = ereg_replace('00', '', $ip4);
+            $ip4 = preg_replace('/00/', '', $ip4);
         }
         $ip = "$ip1.$ip2.$ip3.$ip4";
         if ($ip1 == '' or $ip2 == '' or $ip3 == '' or $ip4 == '') {

@@ -210,7 +210,7 @@ if (empty($forum_id)) {
             $adv = 1;
         }
 
-    $s_column_span == 0;
+    $s_column_span = 0;
 
     if (empty($adv)) {
         $simple_auth = '<select name="simpleauth">';

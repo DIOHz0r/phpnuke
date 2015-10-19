@@ -36,7 +36,7 @@ if ($row['radminsuper'] == 1) {
         $handle = opendir('modules');
         $modlist = '';
         while ($file = readdir($handle)) {
-            if ((!ereg('[.]', $file))) {
+            if ((!preg_match('/[.]/', $file))) {
                 $modlist .= "$file ";
             }
         }
@@ -87,7 +87,7 @@ if ($row['radminsuper'] == 1) {
             $inmenu = intval($row3['inmenu']);
             $mod_group = intval($row3['mod_group']);
             if (empty($custom_title)) {
-                $custom_title = ereg_replace('_', ' ', $title);
+                $custom_title = preg_replace('/_/', ' ', $title);
                 $db->sql_query('update '.$prefix."_modules set custom_title='$custom_title' where mid='$mid'");
             }
             if ($active == 1) {
@@ -100,7 +100,7 @@ if ($row['radminsuper'] == 1) {
                 $act = 1;
             }
             if (empty($custom_title)) {
-                $custom_title = ereg_replace('_', ' ', $title);
+                $custom_title = preg_replace('/_/', ' ', $title);
             }
             if ($view == 0) {
                 $who_view = _MVALL;

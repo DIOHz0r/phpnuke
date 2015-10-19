@@ -129,7 +129,7 @@ if (!defined('SQL_LAYER')) {
 
                     $this->num_rows[$this->result] = count($this->result_rowset[$this->result]);
                 }
-            } elseif (eregi('^INSERT ', $query)) {
+            } elseif (preg_match('/^INSERT /i', $query)) {
                 $this->result = odbc_exec($this->db_connect_id, $query);
 
                 if ($this->result) {

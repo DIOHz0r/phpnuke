@@ -112,7 +112,7 @@ function theindex($catid)
     }
     if ($httpref == 1) {
         $referer = $_SERVER['HTTP_REFERER'];
-        if ($referer == '' or ereg('unknown', $referer) or eregi($nukeurl, $referer)) {
+        if ($referer == '' or preg_match('/unknown/', $referer) or preg_match('/' . preg_quote($nukeurl, '/') . '/i', $referer)) {
         } else {
             $db->sql_query('insert into '.$prefix."_referer values (NULL, '$referer')");
         }

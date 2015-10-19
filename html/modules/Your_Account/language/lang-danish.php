@@ -193,9 +193,8 @@ define('_RETURNACCOUNT', 'Vend tilbage til din konto');
 define('_ACCESSTO', 'Adgang til');
 define('_CREATEJOURNAL', 'Opret deres egen dagbog');
 define('_READHEADLINES', 'Læs nyheder');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

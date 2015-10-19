@@ -135,7 +135,7 @@ define('_FOPT', 'Options');
 define('_FDELP', 'Cancel This Message');
 define('_FATTACT', 'Currently Active');
 define('_DISCTOT', 'Üldine arutelu');
-define('_FMESS', 'Messaggi!');
+
 define('_FLEGEN', 'Legend');
 define('_CLICONSMI', 'Click to add <a href="bb_smilies.php">Smilies</a> into your Message:<br>');
 define('_CLIONBOT', 'Click to add <a href="bbcode_ref.php">BBCode</a> to your Message:<br><br>');
@@ -143,7 +143,7 @@ define('_FRICAV', 'Advanced Search');
 define('_FRESET', 'Tühista');
 define('_FCANC', 'Katkesta');
 define('_FPMESS', 'Private Message');
-define('_FFROM', 'Da');
+
 define('_FNOPMSG', 'You have not recieved any private messages.');
 define('_FPROF', 'Profile');
 define('_FPREVMSG', 'Previous Message');

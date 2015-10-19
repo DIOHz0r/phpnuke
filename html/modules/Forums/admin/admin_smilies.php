@@ -79,7 +79,7 @@ while ($file = @readdir($dir)) {
 
         if ($img_size[0] && $img_size[1]) {
             $smiley_images[] = $file;
-        } elseif (eregi('.pak$', $file)) {
+        } elseif (preg_match('/.pak$/i', $file)) {
             $smiley_paks[] = $file;
         }
     }

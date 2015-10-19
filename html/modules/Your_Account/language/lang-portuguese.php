@@ -201,9 +201,8 @@ define('_RETURNACCOUNT', 'Regressar à sua página da sua conta');
 define('_ACCESSTO', 'Aceda a');
 define('_CREATEJOURNAL', 'Crie o seu Diário');
 define('_READHEADLINES', 'Ler os cabeçalhos escolhidos');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

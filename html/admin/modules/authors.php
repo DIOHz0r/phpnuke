@@ -108,7 +108,7 @@ if (($row['radminsuper'] == 1) && ($row['name'] == 'God')) {
             $a = 0;
             while ($row = $db->sql_fetchrow($result)) {
                 $title = filter($title, 'nohtml');
-                $title = ereg_replace('_', ' ', $row['title']);
+                $title = preg_replace('/_/', ' ', $row['title']);
                 if (file_exists('modules/'.$row['title'].'/admin/index.php') and file_exists('modules/'.$row['title'].'/admin/links.php') and file_exists('modules/'.$row['title'].'/admin/case.php')) {
                     echo '<td><input type="checkbox" name="auth_modules[]" value="'.intval($row['mid'])."\"> $title</td>";
                     if ($a == 2) {
@@ -218,7 +218,7 @@ if (($row['radminsuper'] == 1) && ($row['name'] == 'God')) {
                 $a = 0;
                 $result = $db->sql_query('SELECT mid, title, admins FROM '.$prefix.'_modules ORDER BY title ASC');
                 while ($row = $db->sql_fetchrow($result)) {
-                    $title = ereg_replace('_', ' ', $row['title']);
+                    $title = preg_replace('/_/', ' ', $row['title']);
                     if (file_exists('modules/'.$row['title'].'/admin/index.php') and file_exists('modules/'.$row['title'].'/admin/links.php') and file_exists('modules/'.$row['title'].'/admin/case.php')) {
                         $admins = explode(',', $row['admins']);
                         $sel = '';

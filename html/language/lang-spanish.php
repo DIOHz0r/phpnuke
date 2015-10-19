@@ -154,7 +154,7 @@ define('_BROKENDOWN', 'Downloads Rotos');
 define('_PAGEGENERATION', 'Página Generada en:');
 define('_SECONDS', 'Segundos');
 define('_YOUHAVEONEMSG', 'Tienes 1 Mensaje Privado Nuevo');
-define('_YOUHAVE', 'Tienes');
+
 define('_NEWPMSG', 'Mensajes Privados Nuevos');
 define('_CONTRIBUTEDBY', 'Contribución de');
 define('_CHAT', 'Chat');

@@ -156,7 +156,7 @@ define('_BROKENDOWN', '失效下載資源');
 define('_PAGEGENERATION', '本頁產生時間:');
 define('_SECONDS', '秒');
 define('_YOUHAVEONEMSG', '您有一個新私人訊息');
-define('_YOUHAVE', '您有');
+
 define('_NEWPMSG', '個新私人訊息');
 define('_CONTRIBUTEDBY', '由誰提供:');
 define('_CHAT', '聊天');

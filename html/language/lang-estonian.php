@@ -156,7 +156,7 @@ define('_BROKENDOWN', 'Vigased failid');
 define('_PAGEGENERATION', 'Lehe genereerimine:');
 define('_SECONDS', 'Sekundit');
 define('_YOUHAVEONEMSG', 'Sulle on 1 uus privaatsõnum');
-define('_YOUHAVE', 'Sulle on');
+
 define('_NEWPMSG', 'Uut privaatsõnumit');
 define('_CONTRIBUTEDBY', 'Kaasa aitas');
 define('_CHAT', 'Jututuba');
@@ -221,5 +221,6 @@ function translate($phrase)
 
     return $tmp;
 }
-define('_HTMLNOTALLOWED2', "HTML code isn't allowed here.");
+
+define('_HTMLNOTALLOWED2', "HTML code isn't allowed here.");
 define('_ERRORINVEMAIL', 'ERROR: Invalid Email');

@@ -232,7 +232,7 @@ if ($row['radminsuper'] == 1) {
             .'<tr><td>'._DEFAULTTHEME.":</td><td><select name='xDefault_Theme'>";
         $handle = opendir('themes');
         while ($file = readdir($handle)) {
-            if ((!ereg('[.]', $file))) {
+            if ((!preg_match('/[.]/', $file))) {
                 $themelist .= "$file ";
             }
         }
@@ -458,7 +458,7 @@ if ($row['radminsuper'] == 1) {
             ."<select name='xlanguage'>";
         $handle = opendir('language');
         while ($file = readdir($handle)) {
-            if (ereg("^lang\-(.+)\.php", $file, $matches)) {
+            if (preg_replace("/^lang\-(.+)\.php/", $file, $matches)) {
                 $langFound = $matches[1];
                 $languageslist .= "$langFound ";
             }

@@ -92,7 +92,7 @@ function terms($eid, $ltr)
     global $module_name, $prefix, $sitename, $db, $admin;
     $eid = intval($eid);
     $ltr = substr($ltr, 0, 1);
-    if (ereg('[^a-zA-Z0-9]', $ltr)) {
+    if (preg_match('/[^a-zA-Z0-9]/', $ltr)) {
         die('Invalid letter/digit specified!');
     }
     $row = $db->sql_fetchrow($db->sql_query('SELECT active FROM '.$prefix."_encyclopedia WHERE eid='$eid'"));
@@ -162,7 +162,7 @@ function content($tid, $ltr, $page = 0, $query = '')
         }
         if (!empty($query)) {
             $query = htmlentities($query);
-            $contentpages[$arrayelement] = eregi_replace($query, "<b>$query</b>", $contentpages[$arrayelement]);
+            $contentpages[$arrayelement] = preg_replace('/'.preg_quote($query,'/').'/i', "<b>$query</b>", $contentpages[$arrayelement]);
             $fromsearch = "&query=$query";
         } else {
             $fromsearch = '';

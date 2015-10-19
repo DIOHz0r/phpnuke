@@ -711,7 +711,7 @@ define('_TYPESECCODE', 'Type Security Code Here');
 define('_USERPROFILE', 'User Profile');
 define('_EMAILUSER', 'Email User');
 define('_SENDPM', 'Send Private Message');
-define('_LINKAPPROVEDMSG', 'Congratulations! The web link you submitted to our links database has been approved right now.');
+
 define('_UGROUPS', 'Users Groups');
 define('_POINTS', 'Points');
 define('_USERSCOUNT', 'Users Count');

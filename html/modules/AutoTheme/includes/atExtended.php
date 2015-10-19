@@ -54,7 +54,7 @@ function atThemeExit()
         $file = $atdir.'templates/HTML.html';
     }
     $HTML = atTemplateRead($file);
-    $HTML = eregi_replace('\<\/head\>', '', $HTML);
+    $HTML = preg_replace('/\<\/head\>/i', '', $HTML);
     $HTML = preg_replace('/(\<\!--[ ]*\[|{)display(}|\][ ]*--\>)/', $display, $HTML);
     $output = atCommandReplace($HTML);
 

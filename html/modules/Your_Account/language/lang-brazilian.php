@@ -199,9 +199,8 @@ define('_RETURNACCOUNT', 'Retornar para sua Página Pessoal');
 define('_ACCESSTO', 'Accesso para');
 define('_CREATEJOURNAL', 'Criar seu prórpio Jornal');
 define('_READHEADLINES', 'Ler notícias de outros portais (aleatório)');
-define('_ACCESSTO', 'Acesso a');
-define('_CREATEJOURNAL', 'Crie seu próprio jornal');
-define('_READHEADLINES', 'Ler notícias customizadas por você');
+
+
 define('_POPMSGACTIVE', 'Deseja ativar o alert de Mensagem Privada (Pop-Up)?');
 define('_READMYJOURNAL', 'Ler meu jornal');
 define('_AVATARNOTE', 'Você pode selecionar seu avatar após ter efetuado o login.');

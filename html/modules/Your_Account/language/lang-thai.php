@@ -195,9 +195,8 @@ define('_RETURNACCOUNT', 'กลับไปที่หน้าส่วนต
 define('_ACCESSTO', 'เข้าไปที่');
 define('_CREATEJOURNAL', 'สร้างวรสารของคุณ');
 define('_READHEADLINES', 'อ่านหัวข้อข่าวที่ทำเอง');
-define('_ACCESSTO', 'Access to');
-define('_CREATEJOURNAL', 'Create your own Journal');
-define('_READHEADLINES', 'Read custom headlines');
+
+
 define('_POPMSGACTIVE', 'Activate Private Message PopUp?');
 define('_READMYJOURNAL', 'Read My Journal');
 define('_AVATARNOTE', 'You can select your avatar once you have been registered');

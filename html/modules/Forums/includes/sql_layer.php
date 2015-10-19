@@ -14,7 +14,7 @@
 /* the Free Software Foundation; either version 2 of the License.       */
 /************************************************************************/
 
-if (eregi('sql_layer.php', $_SERVER['PHP_SELF'])) {
+if (preg_match('/sql_layer.php/i', $_SERVER['PHP_SELF'])) {
     Header('Location: ../index.php');
     die();
 }

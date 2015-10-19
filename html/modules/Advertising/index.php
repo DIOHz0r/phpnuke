@@ -218,8 +218,8 @@ function terms()
     include 'header.php';
     title("$sitename: "._TERMSCONDITIONS.'');
     $row = $db->sql_fetchrow($db->sql_query('SELECT * FROM '.$prefix.'_banner_terms'));
-    $terms = eregi_replace("\[sitename\]", $sitename, $row['terms_body']);
-    $terms = eregi_replace("\[country\]", $row['country'], $terms);
+    $terms = preg_replace("/\[sitename\]/i", $sitename, $row['terms_body']);
+    $terms = preg_replace("/\[country\]/i", $row['country'], $terms);
     OpenTable();
     echo "<center><font class='title'><b>$sitename: "._TERMSCONDITIONS.'</b></font></center><br><br>'
         ."$terms"
