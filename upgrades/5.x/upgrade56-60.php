@@ -169,7 +169,7 @@ if ($CensorMode == '') {
 if ($CensorReplace == '') {
     $CensorReplace = '*****';
 }
-$copyright = "Web site engine\'s code is Copyright &copy; 2002 by <a href=\"http://phpnuke.org\"><font class=\"footmsg_l\">PHP-Nuke</font></a>. All Rights Reserved. PHP-Nuke is Free Software released under the <a href=\"http://www.gnu.org\"><font class=\"footmsg_l\">GNU/GPL license</font></a>.";
+$copyright = "Web site engine\'s code is Copyright &copy; 2002 by <a href=\"http://phpnuke.org\"><span class=\"footmsg_l\">PHP-Nuke</span></a>. All Rights Reserved. PHP-Nuke is Free Software released under the <a href=\"http://www.gnu.org\"><span class=\"footmsg_l\">GNU/GPL license</span></a>.";
 $broadcast_msg = 1;
 $my_headlines = 1;
 $user_news = 1;

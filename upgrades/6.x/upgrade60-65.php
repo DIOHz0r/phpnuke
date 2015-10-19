@@ -212,12 +212,12 @@ $db->sql_query('CREATE TABLE '.$prefix."_bbwords (word_id mediumint(8) unsigned 
 $sql = 'SELECT * FROM '.$prefix.'_priv_msgs';
 $result = $db->sql_query($sql);
 while ($row = $db->sql_fetchrow($result)) {
-    if ($row[read_msg] == '0') {
+    if ($row['read_msg'] == '0') {
         $type = 5;
-    } elseif ($row[read_msg] == '1') {
+    } elseif ($row['read_msg'] == '1') {
         $type = 0;
     }
-    $time = $row[msg_time];
+    $time = $row['msg_time'];
     $both = explode(' ', $time);
     $date = explode('-', $both[0]);
     $time = explode(':', $both[1]);

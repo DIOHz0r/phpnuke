@@ -116,5 +116,3 @@ if (!$result) {
 }
 
 echo 'PHP-Nuke Tables Updated, Ok...';
-?>
-

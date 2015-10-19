@@ -33,10 +33,10 @@ while ($row = $db->sql_fetchrow($result)) {
 }
 $result = $db->sql_query('SELECT * FROM '.$prefix.'_seccont');
 while ($row = $db->sql_fetchrow($result)) {
-    $sec_cont = addslashes(FixQuotes($row[content]));
+    $sec_cont = addslashes(FixQuotes($row['content']));
     $row2 = $db->sql_fetchrow($db->sql_query('SELECT secname FROM '.$prefix."_sections WHERE secid='$row[secid]'"));
     $row3 = $db->sql_fetchrow($db->sql_query('SELECT cid FROM '.$prefix."_pages_categories WHERE title='$row2[secname]'"));
-    $row[content] = preg_replace('/\'/', "\'", $row[content]);  // by Marcus Maciel marcus@underlinux.com.br
+    $row[content] = preg_replace('/\'/', "\'", $row['content']);  // by Marcus Maciel marcus@underlinux.com.br
     $db->sql_query('INSERT INTO '.$prefix."_pages VALUES (NULL, '$row3[cid]', '$row[title]', '', '1', '', '$row[content]', '', '', now(), '$row[counter]', '$row[slanguage]')");
 }
 $db->sql_query('DROP TABLE '.$prefix.'_sections');
