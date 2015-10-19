@@ -73,7 +73,7 @@ class database
             }
         }
         if (phpversion() < '4.2.0') {
-            if (!($this->_resource = @mysql_connect($host, $user, $pass))) {
+            if (!($this->_resource = mysql_connect($host, $user, $pass))) {
                 $mosSystemError = 2;
                 if ($goOffline) {
                     $basePath = dirname(__FILE__);
@@ -83,7 +83,7 @@ class database
                 }
             }
         } else {
-            if (!($this->_resource = @mysql_connect($host, $user, $pass, true))) {
+            if (!($this->_resource = mysql_connect($host, $user, $pass, true))) {
                 $mosSystemError = 2;
                 if ($goOffline) {
                     $basePath = dirname(__FILE__);
@@ -103,7 +103,7 @@ class database
             }
         }
         $this->_table_prefix = $table_prefix;
-        //@mysql_query("SET NAMES 'utf8'", $this->_resource);
+        //mysql_query("SET NAMES 'utf8'", $this->_resource);
         $this->_ticker = 0;
         $this->_log = array();
     }

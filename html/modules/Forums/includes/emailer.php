@@ -141,15 +141,15 @@ class emailer
         if (empty($this->tpl_msg[$template_lang.$template_file])) {
             $tpl_file = $phpbb_root_path.'language/lang_'.$template_lang.'/email/'.$template_file.'.tpl';
 
-            if (!@file_exists(@phpbb_realpath($tpl_file))) {
+            if (!file_exists(phpbb_realpath($tpl_file))) {
                 $tpl_file = $phpbb_root_path.'language/lang_'.$board_config['default_lang'].'/email/'.$template_file.'.tpl';
 
-                if (!@file_exists(@phpbb_realpath($tpl_file))) {
+                if (!file_exists(phpbb_realpath($tpl_file))) {
                     message_die(GENERAL_ERROR, 'Could not find email template file :: '.$template_file, '', __LINE__, __FILE__);
                 }
             }
 
-            if (!($fd = @fopen($tpl_file, 'r'))) {
+            if (!($fd = fopen($tpl_file, 'r'))) {
                 message_die(GENERAL_ERROR, 'Failed opening template file :: '.$tpl_file, '', __LINE__, __FILE__);
             }
 
@@ -231,7 +231,7 @@ class emailer
                 } else {
                     $empty_to_header = ($to == '') ? true : false;
                     $to = ($to == '') ? (($board_config['sendmail_fix']) ? ' ' : 'Undisclosed-recipients:;') : $to;
-                    $result = @mail($to, $this->subject, preg_replace("#(?<!\r)\n#s", "\n", $this->msg), $this->extra_headers);
+                    $result = mail($to, $this->subject, preg_replace("#(?<!\r)\n#s", "\n", $this->msg), $this->extra_headers);
 
                     if (!$result && !$board_config['sendmail_fix'] && $empty_to_header) {
                         $to = ' ';
@@ -244,7 +244,7 @@ class emailer
                         }
 
                         $board_config['sendmail_fix'] = 1;
-                        $result = @mail($to, $this->subject, preg_replace("#(?<!\r)\n#s", "\n", $this->msg), $this->extra_headers);
+                        $result = mail($to, $this->subject, preg_replace("#(?<!\r)\n#s", "\n", $this->msg), $this->extra_headers);
                     }
                 }
 

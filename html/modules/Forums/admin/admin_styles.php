@@ -52,7 +52,7 @@ $confirm = (isset($HTTP_POST_VARS['confirm'])) ? true : false;
 $cancel = (isset($HTTP_POST_VARS['cancel'])) ? true : false;
 
 if ($cancel) {
-    $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+    $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
     header($header_location.append_sid("admin_styles.$phpEx"));
     exit;
 }
@@ -113,10 +113,10 @@ switch ($mode) {
         } else {
             $installable_themes = array();
 
-            if ($dir = @opendir($phpbb_root_path.'templates/')) {
-                while ($sub_dir = @readdir($dir)) {
+            if ($dir = opendir($phpbb_root_path.'templates/')) {
+                while ($sub_dir = readdir($dir)) {
                     if (!is_file(phpbb_realpath($phpbb_root_path.'templates/'.$sub_dir)) && !is_link(phpbb_realpath($phpbb_root_path.'templates/'.$sub_dir)) && $sub_dir != '.' && $sub_dir != '..' && $sub_dir != 'CVS') {
-                        if (@file_exists(@phpbb_realpath($phpbb_root_path.'templates/'.$sub_dir.'/theme_info.cfg'))) {
+                        if (file_exists(phpbb_realpath($phpbb_root_path.'templates/'.$sub_dir.'/theme_info.cfg'))) {
                             include $phpbb_root_path.'templates/'.$sub_dir.'/theme_info.cfg';
 
                             for ($i = 0; $i < count($$sub_dir); ++$i) {
@@ -441,7 +441,7 @@ switch ($mode) {
                 }
 
                 if ($selected_values = $db->sql_fetchrow($result)) {
-                    while (list($key, $val) = @each($selected_values)) {
+                    while (list($key, $val) = each($selected_values)) {
                         $selected[$key] = $val;
                     }
                 }
@@ -457,7 +457,7 @@ switch ($mode) {
                 }
 
                 if ($selected_names = $db->sql_fetchrow($result)) {
-                    while (list($key, $val) = @each($selected_names)) {
+                    while (list($key, $val) = each($selected_names)) {
                         $selected[$key] = $val;
                     }
                 }
@@ -472,9 +472,9 @@ switch ($mode) {
                 'body' => 'admin/styles_edit_body.tpl', )
             );
 
-            if ($dir = @opendir($phpbb_root_path.'templates/')) {
+            if ($dir = opendir($phpbb_root_path.'templates/')) {
                 $s_template_select = '<select name="template_name">';
-                while ($file = @readdir($dir)) {
+                while ($file = readdir($dir)) {
                     if (!is_file(phpbb_realpath($phpbb_root_path.'templates/'.$file)) && !is_link(phpbb_realpath($phpbb_root_path.'templates/'.$file)) && $file != '.' && $file != '..' && $file != 'CVS') {
                         if ($file == $selected['template_name']) {
                             $s_template_select .= '<option value="'.$file.'" selected="selected">'.$file."</option>\n";
@@ -650,9 +650,9 @@ switch ($mode) {
 
             $theme_data .= '?'.'>'; // Done this to prevent highlighting editors getting confused!
 
-            @umask(0111);
+            umask(0111);
 
-            $fp = @fopen($phpbb_root_path.'templates/'.basename($template_name).'/theme_info.cfg', 'w');
+            $fp = fopen($phpbb_root_path.'templates/'.basename($template_name).'/theme_info.cfg', 'w');
 
             if (!$fp) {
                 //
@@ -677,7 +677,7 @@ switch ($mode) {
                 exit();
             }
 
-            $result = @fputs($fp, $theme_data, strlen($theme_data));
+            $result = fputs($fp, $theme_data, strlen($theme_data));
             fclose($fp);
 
             $message = $lang['Theme_info_saved'].'<br /><br />'.sprintf($lang['Click_return_styleadmin'], '<a href="'.append_sid("admin_styles.$phpEx").'">', '</a>').'<br /><br />'.sprintf($lang['Click_return_admin_index'], '<a href="'.append_sid("index.$phpEx?pane=right").'">', '</a>');
@@ -693,9 +693,9 @@ switch ($mode) {
                 'body' => 'admin/styles_exporter.tpl', )
             );
 
-            if ($dir = @opendir($phpbb_root_path.'templates/')) {
+            if ($dir = opendir($phpbb_root_path.'templates/')) {
                 $s_template_select = '<select name="export_template">';
-                while ($file = @readdir($dir)) {
+                while ($file = readdir($dir)) {
                     if (!is_file(phpbb_realpath($phpbb_root_path.'templates/'.$file)) && !is_link(phpbb_realpath($phpbb_root_path.'templates/'.$file)) && $file != '.' && $file != '..' && $file != 'CVS') {
                         $s_template_select .= '<option value="'.$file.'">'.$file."</option>\n";
                     }

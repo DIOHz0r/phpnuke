@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'windows-874');
 define('_SEARCH', 'ค้นหา');
 define('_LOGIN', 'เข้าสู่ระบบ');
 define('_WRITES', 'บันทึก');

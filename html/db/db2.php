@@ -53,7 +53,7 @@ if (!defined('SQL_LAYER')) {
         }
 
         if ($this->db_connect_id) {
-            @odbc_autocommit($this->db_connect_id, off);
+            odbc_autocommit($this->db_connect_id, off);
 
             return $this->db_connect_id;
         } else {
@@ -67,9 +67,9 @@ if (!defined('SQL_LAYER')) {
     {
         if ($this->db_connect_id) {
             if ($this->query_result) {
-                @odbc_free_result($this->query_result);
+                odbc_free_result($this->query_result);
             }
-            $result = @odbc_close($this->db_connect_id);
+            $result = odbc_close($this->db_connect_id);
 
             return $result;
         } else {
@@ -135,7 +135,7 @@ if (!defined('SQL_LAYER')) {
                     $this->result_numrows[$result_id] = $k;
                     $this->row_index[$result_id] = 0;
                 } else {
-                    $this->result_numrows[$result_id] = @odbc_num_rows($result_id);
+                    $this->result_numrows[$result_id] = odbc_num_rows($result_id);
                     $this->row_index[$result_id] = 0;
                 }
             } else {
@@ -226,7 +226,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
             if ($query_id) {
-                $result = @odbc_field_type($query_id, $offset);
+                $result = odbc_field_type($query_id, $offset);
 
                 return $result;
             } else {
@@ -315,7 +315,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
             if ($query_id) {
-                $result = @odbc_free_result($query_id);
+                $result = odbc_free_result($query_id);
 
                 return $result;
             } else {
@@ -324,8 +324,8 @@ if (!defined('SQL_LAYER')) {
         }
         public function sql_error($query_id = 0)
         {
-            //		$result['code'] = @odbc_error($this->db_connect_id);
-//		$result['message'] = @odbc_errormsg($this->db_connect_id);
+            //		$result['code'] = odbc_error($this->db_connect_id);
+//		$result['message'] = odbc_errormsg($this->db_connect_id);
 
         return '';
         }

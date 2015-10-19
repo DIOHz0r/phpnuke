@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'windows-1256');
 define('_SEARCH', 'بحث');
 define('_LOGIN', 'دخول');
 define('_WRITES', 'كتب');

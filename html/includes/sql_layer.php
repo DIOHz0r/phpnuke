@@ -81,7 +81,7 @@ function sql_connect($host, $user, $password, $db)
     switch ($dbtype) {
 
     case 'MySQL':
-        $dbi = @mysql_connect($host, $user, $password);
+        $dbi = mysql_connect($host, $user, $password);
     mysql_select_db($db);
 
         return $dbi;
@@ -95,37 +95,37 @@ function sql_connect($host, $user, $password, $db)
     break;
 
     case 'postgres':
-         $dbi = @pg_connect("host=$host user=$user password=$password port=5432 dbname=$db");
+         $dbi = pg_connect("host=$host user=$user password=$password port=5432 dbname=$db");
 
          return $dbi;
     break;
 
     case 'postgres_local':
-         $dbi = @pg_connect("user=$user password=$password dbname=$db");
+         $dbi = pg_connect("user=$user password=$password dbname=$db");
 
          return $dbi;
     break;
 
     case 'ODBC':
-         $dbi = @odbc_connect($db, $user, $password);
+         $dbi = odbc_connect($db, $user, $password);
 
          return $dbi;
     break;
 
     case 'ODBC_Adabas':
-         $dbi = @odbc_connect($host.':'.$db, $user, $password);
+         $dbi = odbc_connect($host.':'.$db, $user, $password);
 
      return $dbi;
     break;
 
     case 'Interbase':
-         $dbi = @ibase_connect($host.':'.$db, $user, $password);
+         $dbi = ibase_connect($host.':'.$db, $user, $password);
 
          return $dbi;
     break;
 
     case 'Sybase':
-        $dbi = @sybase_connect($host, $user, $password);
+        $dbi = sybase_connect($host, $user, $password);
         sybase_select_db($db, $dbi);
 
     return $dbi;
@@ -142,39 +142,39 @@ function sql_logout($id)
     switch ($dbtype) {
 
     case 'MySQL':
-        $dbi = @mysql_close($id);
+        $dbi = mysql_close($id);
 
         return $dbi;
     break;
 
     case 'mSQL':
-         $dbi = @msql_close($id);
+         $dbi = msql_close($id);
 
          return $dbi;
     break;
 
     case 'postgres':
     case 'postgres_local':
-         $dbi = @pg_close($id);
+         $dbi = pg_close($id);
 
          return $dbi;
     break;
 
     case 'ODBC':
     case 'ODBC_Adabas':
-         $dbi = @odbc_close($id);
+         $dbi = odbc_close($id);
 
          return $dbi;
     break;
 
     case 'Interbase':
-         $dbi = @ibase_close($id);
+         $dbi = ibase_close($id);
 
          return $dbi;
     break;
 
     case 'Sybase':
-        $dbi = @sybase_close($id);
+        $dbi = sybase_close($id);
 
         return $dbi;
     break;
@@ -199,13 +199,13 @@ function sql_query($query, $id)
     switch ($dbtype) {
 
     case 'MySQL':
-        $res = @mysql_query($query, $id);
+        $res = mysql_query($query, $id);
 
         return $res;
     break;
 
     case 'mSQL':
-        $res = @msql_query($query, $id);
+        $res = msql_query($query, $id);
 
         return $res;
     break;
@@ -223,19 +223,19 @@ function sql_query($query, $id)
 
     case 'ODBC':
     case 'ODBC_Adabas':
-        $res = @odbc_exec($id, $query);
+        $res = odbc_exec($id, $query);
 
         return $res;
     break;
 
     case 'Interbase':
-        $res = @ibase_query($id, $query);
+        $res = ibase_query($id, $query);
 
         return $res;
     break;
 
     case 'Sybase':
-        $res = @sybase_query($query, $id);
+        $res = sybase_query($query, $id);
 
         return $res;
     break;

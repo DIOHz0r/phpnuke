@@ -85,7 +85,7 @@ if (isset($HTTP_GET_VARS['mode']) || isset($HTTP_POST_VARS['mode'])) {
         exit;
     } elseif ($mode == 'editprofile' || $mode == 'register') {
         if (!$userdata['session_logged_in'] && $mode == 'editprofile') {
-            $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+            $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
             header($header_location.append_sid("login.$phpEx?redirect=profile.$phpEx&mode=editprofile", true));
             exit;
         }
@@ -112,6 +112,6 @@ if (isset($HTTP_GET_VARS['mode']) || isset($HTTP_POST_VARS['mode'])) {
     }
 }
 
-        $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+        $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
         header($header_location.append_sid("index.$phpEx", true));
         exit;

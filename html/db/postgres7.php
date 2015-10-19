@@ -80,14 +80,14 @@ if (!defined('SQL_LAYER')) {
             // Commit any remaining transactions
             //
             if ($this->in_transaction) {
-                @pg_exec($this->db_connect_id, 'COMMIT');
+                pg_exec($this->db_connect_id, 'COMMIT');
             }
 
             if ($this->query_result) {
-                @pg_freeresult($this->query_result);
+                pg_freeresult($this->query_result);
             }
 
-            return @pg_close($this->db_connect_id);
+            return pg_close($this->db_connect_id);
         } else {
             return false;
         }
@@ -110,18 +110,18 @@ if (!defined('SQL_LAYER')) {
             if ($transaction == BEGIN_TRANSACTION && !$this->in_transaction) {
                 $this->in_transaction = true;
 
-                if (!@pg_exec($this->db_connect_id, 'BEGIN')) {
+                if (!pg_exec($this->db_connect_id, 'BEGIN')) {
                     return false;
                 }
             }
 
-            $this->query_result = @pg_exec($this->db_connect_id, $query);
+            $this->query_result = pg_exec($this->db_connect_id, $query);
             if ($this->query_result) {
                 if ($transaction == END_TRANSACTION) {
                     $this->in_transaction = false;
 
-                    if (!@pg_exec($this->db_connect_id, 'COMMIT')) {
-                        @pg_exec($this->db_connect_id, 'ROLLBACK');
+                    if (!pg_exec($this->db_connect_id, 'COMMIT')) {
+                        pg_exec($this->db_connect_id, 'ROLLBACK');
 
                         return false;
                     }
@@ -136,7 +136,7 @@ if (!defined('SQL_LAYER')) {
                 return $this->query_result;
             } else {
                 if ($this->in_transaction) {
-                    @pg_exec($this->db_connect_id, 'ROLLBACK');
+                    pg_exec($this->db_connect_id, 'ROLLBACK');
                 }
                 $this->in_transaction = false;
 
@@ -146,8 +146,8 @@ if (!defined('SQL_LAYER')) {
             if ($transaction == END_TRANSACTION && $this->in_transaction) {
                 $this->in_transaction = false;
 
-                if (!@pg_exec($this->db_connect_id, 'COMMIT')) {
-                    @pg_exec($this->db_connect_id, 'ROLLBACK');
+                if (!pg_exec($this->db_connect_id, 'COMMIT')) {
+                    pg_exec($this->db_connect_id, 'ROLLBACK');
 
                     return false;
                 }
@@ -166,7 +166,7 @@ if (!defined('SQL_LAYER')) {
             $query_id = $this->query_result;
         }
 
-        return ($query_id) ? @pg_numrows($query_id) : false;
+        return ($query_id) ? pg_numrows($query_id) : false;
     }
 
         public function sql_numfields($query_id = 0)
@@ -175,7 +175,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @pg_numfields($query_id) : false;
+            return ($query_id) ? pg_numfields($query_id) : false;
         }
 
         public function sql_fieldname($offset, $query_id = 0)
@@ -184,7 +184,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @pg_fieldname($query_id, $offset) : false;
+            return ($query_id) ? pg_fieldname($query_id, $offset) : false;
         }
 
         public function sql_fieldtype($offset, $query_id = 0)
@@ -193,7 +193,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @pg_fieldtype($query_id, $offset) : false;
+            return ($query_id) ? pg_fieldtype($query_id, $offset) : false;
         }
 
         public function sql_fetchrow($query_id = 0)
@@ -203,7 +203,7 @@ if (!defined('SQL_LAYER')) {
             }
 
             if ($query_id) {
-                $this->row = @pg_fetch_array($query_id, $this->rownum[$query_id]);
+                $this->row = pg_fetch_array($query_id, $this->rownum[$query_id]);
 
                 if ($this->row) {
                     ++$this->rownum[$query_id];
@@ -226,7 +226,7 @@ if (!defined('SQL_LAYER')) {
                 unset($this->row[$query_id]);
                 $this->rownum[$query_id] = 0;
 
-                while ($this->rowset = @pg_fetch_array($query_id, $this->rownum[$query_id], PGSQL_ASSOC)) {
+                while ($this->rowset = pg_fetch_array($query_id, $this->rownum[$query_id], PGSQL_ASSOC)) {
                     $result[] = $this->rowset;
                     ++$this->rownum[$query_id];
                 }
@@ -245,12 +245,12 @@ if (!defined('SQL_LAYER')) {
 
             if ($query_id) {
                 if ($row_offset != -1) {
-                    $this->row = @pg_fetch_array($query_id, $row_offset, PGSQL_ASSOC);
+                    $this->row = pg_fetch_array($query_id, $row_offset, PGSQL_ASSOC);
                 } else {
                     if ($this->rownum[$query_id]) {
-                        $this->row = @pg_fetch_array($query_id, $this->rownum[$query_id] - 1, PGSQL_ASSOC);
+                        $this->row = pg_fetch_array($query_id, $this->rownum[$query_id] - 1, PGSQL_ASSOC);
                     } else {
-                        $this->row = @pg_fetch_array($query_id, $this->rownum[$query_id], PGSQL_ASSOC);
+                        $this->row = pg_fetch_array($query_id, $this->rownum[$query_id], PGSQL_ASSOC);
 
                         if ($this->row) {
                             ++$this->rownum[$query_id];
@@ -290,12 +290,12 @@ if (!defined('SQL_LAYER')) {
             if ($query_id && $this->last_query_text[$query_id] != '') {
                 if (preg_match("/^INSERT[\t\n ]+INTO[\t\n ]+([a-z0-9\_\-]+)/is", $this->last_query_text[$query_id], $tablename)) {
                     $query = "SELECT currval('".$tablename[1]."_id_seq') AS last_value";
-                    $temp_q_id = @pg_exec($this->db_connect_id, $query);
+                    $temp_q_id = pg_exec($this->db_connect_id, $query);
                     if (!$temp_q_id) {
                         return false;
                     }
 
-                    $temp_result = @pg_fetch_array($temp_q_id, 0, PGSQL_ASSOC);
+                    $temp_result = pg_fetch_array($temp_q_id, 0, PGSQL_ASSOC);
 
                     return ($temp_result) ? $temp_result['last_value'] : false;
                 }
@@ -310,7 +310,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @pg_cmdtuples($query_id) : false;
+            return ($query_id) ? pg_cmdtuples($query_id) : false;
         }
 
         public function sql_freeresult($query_id = 0)
@@ -319,7 +319,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @pg_freeresult($query_id) : false;
+            return ($query_id) ? pg_freeresult($query_id) : false;
         }
 
         public function sql_error($query_id = 0)
@@ -328,7 +328,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            $result['message'] = @pg_errormessage($this->db_connect_id);
+            $result['message'] = pg_errormessage($this->db_connect_id);
             $result['code'] = -1;
 
             return $result;

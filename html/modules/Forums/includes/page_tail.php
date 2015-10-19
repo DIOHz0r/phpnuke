@@ -41,7 +41,7 @@ $template->assign_vars(array(
 );
 
 $template->pparse('overall_footer');
-@CloseTable();
+CloseTable();
 //
 // Close our DB connection.
 //

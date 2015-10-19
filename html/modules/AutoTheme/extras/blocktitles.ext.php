@@ -32,17 +32,17 @@ function at_block_titles()
     // Look for image in themes/thename/images/lang/ then themes/thename/images/
     $titleimage = strtolower(preg_replace("^\W|_^", '', $blocktitle));
 
-    if (@file_exists($imagepath."$language/$titleimage.gif")) {
+    if (file_exists($imagepath."$language/$titleimage.gif")) {
         $block['title'] = "<img src=\"$imagepath"."$language/$titleimage.gif\" border=\"0\" alt=\"$blocktitle\" />";
-    } elseif (@file_exists($imagepath."$titleimage.gif")) {
+    } elseif (file_exists($imagepath."$titleimage.gif")) {
         $block['title'] = "<img src=\"$imagepath"."$titleimage.gif\" border=\"0\" alt=\"$blocktitle\" />";
-    } elseif (@file_exists($imagepath."$language/$titleimage.jpg")) {
+    } elseif (file_exists($imagepath."$language/$titleimage.jpg")) {
         $block['title'] = "<img src=\"$imagepath"."$language/$titleimage.jpg\" border=\"0\" alt=\"$blocktitle\" />";
-    } elseif (@file_exists($imagepath."$titleimage.jpg")) {
+    } elseif (file_exists($imagepath."$titleimage.jpg")) {
         $block['title'] = "<img src=\"$imagepath"."$titleimage.jpg\" border=\"0\" alt=\"$blocktitle\" />";
-    } elseif (@file_exists($imagepath."$language/$titleimage.png")) {
+    } elseif (file_exists($imagepath."$language/$titleimage.png")) {
         $block['title'] = "<img src=\"$imagepath"."$language/$titleimage.png\" border=\"0\" alt=\"$blocktitle\" />";
-    } elseif (@file_exists($imagepath."$titleimage.png")) {
+    } elseif (file_exists($imagepath."$titleimage.png")) {
         $block['title'] = "<img src=\"$imagepath"."$titleimage.png\" border=\"0\" alt=\"$blocktitle\" />";
     }
     atCommandBuild($block, 'block');

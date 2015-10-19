@@ -322,7 +322,7 @@ if (($total_categories = count($category_rows))) {
                                     if (!empty($new_topic_data[$forum_id])) {
                                         $forum_last_post_time = 0;
 
-                                        while (list($check_topic_id, $check_post_time) = @each($new_topic_data[$forum_id])) {
+                                        while (list($check_topic_id, $check_post_time) = each($new_topic_data[$forum_id])) {
                                             if (empty($tracking_topics[$check_topic_id])) {
                                                 $unread_topics = true;
                                                 $forum_last_post_time = max($check_post_time, $forum_last_post_time);

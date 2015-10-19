@@ -17,7 +17,6 @@
 /* Mail:webmaster@pcnet.com.tr ICQ:19648424 URL: http://www.turknuke.com  */
 /**************************************************************************/
 
-define('_CHARSET', 'windows-1254');
 define('_SEARCH', 'Ara');
 define('_LOGIN', 'Giriş');
 define('_WRITES', 'bildirdi:');

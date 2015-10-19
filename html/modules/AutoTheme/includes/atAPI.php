@@ -464,7 +464,7 @@ function atCommandReplace($tmpcontent, $commands = array())
 
 function atTemplateRead($file)
 {
-    $HTML = @file_get_contents($file);
+    $HTML = file_get_contents($file);
 
     return $HTML;
 }
@@ -524,7 +524,7 @@ function atModLangLoad($type)
 {
     $lang = atGetLang();
 
-    if (@file_exists(_ATDIR."/lang/$lang/$type.php")) {
+    if (file_exists(_ATDIR."/lang/$lang/$type.php")) {
         include _ATDIR."lang/$lang/$type.php";
     } else {
         include _ATDIR."lang/eng/$type.php";
@@ -535,7 +535,7 @@ function atThemeLangLoad($themepath)
 {
     $lang = atGetLang();
 
-    if (@file_exists("$themepath/lang/$lang/global.php")) {
+    if (file_exists("$themepath/lang/$lang/global.php")) {
         include "$themepath/lang/$lang/global.php";
     } else {
         include "$themepath/lang/eng/global.php";
@@ -1234,8 +1234,8 @@ function atLoadExtraCommands($dir)
     $platform = atGetPlatform();
     $lang = atGetLang();
 
-    if ($handle = @opendir($dir)) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir($dir)) {
+        while (false !== ($file = readdir($handle))) {
             if (preg_match('/.cmd.php/i', $file)) {
                 $extracmd = array();
 
@@ -1253,8 +1253,8 @@ function atLoadExtraCommands($dir)
         }
         closedir($handle);
     }
-    if ($handle = @opendir($dir.$platform)) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir($dir.$platform)) {
+        while (false !== ($file = readdir($handle))) {
             if (preg_match('/.cmd.php/i', $file)) {
                 $extracmd = array();
 
@@ -1283,8 +1283,8 @@ function atExtraScan($dir)
     $platform = atGetPlatform();
     $lang = atGetLang();
 
-    if ($handle = @opendir($dir.$platform)) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir($dir.$platform)) {
+        while (false !== ($file = readdir($handle))) {
             if (preg_match('/.ext.php/i', $file)) {
                 $parts = explode('.', $file);
                 $name = $parts[0];
@@ -1295,8 +1295,8 @@ function atExtraScan($dir)
         }
         closedir($handle);
     }
-    if ($handle = @opendir($dir)) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir($dir)) {
+        while (false !== ($file = readdir($handle))) {
             if (preg_match('/.ext.php/i', $file)) {
                 $parts = explode('.', $file);
                 $name = $parts[0];
@@ -1340,12 +1340,12 @@ function atExtraLoad($name)
     $platform = atGetPlatform();
     $lang = atGetLang();
 
-    if (@file_exists($atdir."lang/$lang/$name.php")) {
+    if (file_exists($atdir."lang/$lang/$name.php")) {
         include_secure($atdir."lang/$lang/$name.php");
     } else {
         include_secure($atdir."lang/eng/$name.php");
     }
-    if (@file_exists($extradir.$platform."/$name.ext.php")) {
+    if (file_exists($extradir.$platform."/$name.ext.php")) {
         include_secure($extradir.$platform."/$name.ext.php");
     } else {
         include_secure($extradir."$name.ext.php");
@@ -1363,11 +1363,11 @@ function atCompileRead($filename, $modifier = '')
 
     $oldmask = umask(0);
 
-    $filetime = @filemtime($incdir.'atCommands.php')
-                + @filemtime($platformdir.'atCommands.php')
-                   + @filemtime($atdir.'autotheme.cfg')
-                   + @filemtime($themepath.'theme.cfg')
-                   + @filemtime($filename);
+    $filetime = filemtime($incdir.'atCommands.php')
+                + filemtime($platformdir.'atCommands.php')
+                   + filemtime($atdir.'autotheme.cfg')
+                   + filemtime($themepath.'theme.cfg')
+                   + filemtime($filename);
 
     $filepre = atGetCompileFilename($filename, $modifier);
     $filename = $filepre.'_'.$filetime;
@@ -1386,17 +1386,17 @@ function atCompileWrite($filename, $content, $modifier = '')
 
     $oldmask = umask(0);
 
-    $filetime = @filemtime($incdir.'atCommands.php')
-                + @filemtime($platformdir.'atCommands.php')
-                   + @filemtime($atdir.'autotheme.cfg')
-                   + @filemtime($themepath.'theme.cfg')
-                   + @filemtime($filename);
+    $filetime = filemtime($incdir.'atCommands.php')
+                + filemtime($platformdir.'atCommands.php')
+                   + filemtime($atdir.'autotheme.cfg')
+                   + filemtime($themepath.'theme.cfg')
+                   + filemtime($filename);
 
     $filepre = atGetCompileFilename($filename, $modifier);
     $filename = $filepre.'_'.$filetime;
 
-    if ($handle = @opendir($compiledir)) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir($compiledir)) {
+        while (false !== ($file = readdir($handle))) {
             if (false !== strpos($file, $filepre)) {
                 @unlink($compiledir.$file);
 
@@ -1408,7 +1408,7 @@ function atCompileWrite($filename, $content, $modifier = '')
         }
         closedir($handle);
     }
-    if ($handle = @fopen($compiledir.$filename, 'w')) {
+    if ($handle = fopen($compiledir.$filename, 'w')) {
         fwrite($handle, $content);
         fclose($handle);
     }
@@ -1418,8 +1418,8 @@ function atCompileClear()
 {
     $compiledir = atAutoGetVar('compiledir');
 
-    if ($handle = @opendir($compiledir)) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir($compiledir)) {
+        while (false !== ($file = readdir($handle))) {
             @unlink($compiledir.$file);
         }
         closedir($handle);
@@ -1494,9 +1494,9 @@ function at_array_display($var)
 if (!function_exists('file_get_contents')) {
     function file_get_contents($filename)
     {
-        if (@is_file($filename)) {
+        if (is_file($filename)) {
             $result = '';
-            $handle = @fopen($filename, 'r');
+            $handle = fopen($filename, 'r');
             if (!$handle) {
                 return false;
             }
@@ -1564,12 +1564,12 @@ function at_list_themes($dir = 'themes')
 
 function at_listcore_themes($dir = 'themes')
 {
-    if ($handle = @opendir($dir)) {
-        while (false !== ($subdir = @readdir($handle))) {
-            if (@is_dir("$dir/$subdir") &&
+    if ($handle = opendir($dir)) {
+        while (false !== ($subdir = readdir($handle))) {
+            if (is_dir("$dir/$subdir") &&
                 $subdir !== '.' &&
                 $subdir !== '..' &&
-                @file_exists("$dir/$subdir/theme.cfg")) {
+                file_exists("$dir/$subdir/theme.cfg")) {
                 $themelist[] = $subdir;
             }
         }
@@ -1583,9 +1583,9 @@ function at_listmultisite_themes($dir = 'parameters')
 {
     $themelist = array();
 
-    if ($handle = @opendir($dir)) {
-        while (false !== ($subdir = @readdir($handle))) {
-            if (@is_dir("$dir/$subdir/themes") &&
+    if ($handle = opendir($dir)) {
+        while (false !== ($subdir = readdir($handle))) {
+            if (is_dir("$dir/$subdir/themes") &&
                 $subdir !== '.' &&
                 $subdir !== '..') {
                 $multilist[$subdir] = at_listcore_themes("$dir/$subdir/themes");
@@ -1639,9 +1639,9 @@ function at_gettheme_name($path)
 
 function at_gettheme_path($themedir)
 {
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir")) {
         $thepath = AT_DIRPREFIX."themes/$themedir/";
-    } elseif (@file_exists(AT_DIRPREFIX."$themedir")) {
+    } elseif (file_exists(AT_DIRPREFIX."$themedir")) {
         $thepath = AT_DIRPREFIX."$themedir/";
     }
 
@@ -1652,11 +1652,11 @@ function at_listfiles($dir, $ext)
 {
     $filelist = $newlist = array();
 
-    if ($handle = @opendir($dir)) {
-        while (false !== ($item = @readdir($handle))) {
+    if ($handle = opendir($dir)) {
+        while (false !== ($item = readdir($handle))) {
             if (@!is_dir($dir.$item) && preg_match('/.$ext/i', $item)) {
                 $filelist[] = $item;
-            } elseif (@is_dir("$dir/$item") && $item !== '.' && $item !== '..') {
+            } elseif (is_dir("$dir/$item") && $item !== '.' && $item !== '..') {
                 $sublist = at_listfiles("$dir/$item", $ext);
                 if (is_array($sublist)) {
                     foreach ($sublist as $file) {

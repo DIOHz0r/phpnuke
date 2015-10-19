@@ -38,7 +38,7 @@ if (!defined('SQL_LAYER')) {
         $this->persistency = $persistency;
         $this->server = $sqlserver;
 
-        $this->db_connect_id = ($this->persistency) ? @sqlite_popen($this->server, 0666, $sqliteerror) : @sqlite_open($this->server, 0666, $sqliteerror);
+        $this->db_connect_id = ($this->persistency) ? sqlite_popen($this->server, 0666, $sqliteerror) : sqlite_open($this->server, 0666, $sqliteerror);
 
         return ($this->db_connect_id) ? $this->db_connect_id : false;
     }
@@ -48,7 +48,7 @@ if (!defined('SQL_LAYER')) {
     //
     public function sql_close()
     {
-        return ($this->db_connect_id) ? @sqlite_close($this->db_connect_id) : false;
+        return ($this->db_connect_id) ? sqlite_close($this->db_connect_id) : false;
     }
 
     //
@@ -62,7 +62,7 @@ if (!defined('SQL_LAYER')) {
         if ($query != '') {
             ++$this->num_queries;
 
-            $this->query_result = @sqlite_query($query, $this->db_connect_id);
+            $this->query_result = sqlite_query($query, $this->db_connect_id);
         }
 
         if ($this->query_result) {
@@ -85,7 +85,7 @@ if (!defined('SQL_LAYER')) {
         }
 
         if ($query_id) {
-            return @sqlite_num_rows($query_id);
+            return sqlite_num_rows($query_id);
         } else {
             return false;
         }
@@ -93,7 +93,7 @@ if (!defined('SQL_LAYER')) {
 
         public function sql_affectedrows()
         {
-            return ($this->db_connect_id) ? @sqlite_changes($this->db_connect_id) : false;
+            return ($this->db_connect_id) ? sqlite_changes($this->db_connect_id) : false;
         }
 
         public function sql_numfields($query_id = 0)
@@ -102,7 +102,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @sqlite_num_fields($query_id) : false;
+            return ($query_id) ? sqlite_num_fields($query_id) : false;
         }
 
         public function sql_fieldname($offset, $query_id = 0)
@@ -111,7 +111,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @sqlite_field_name($query_id, $offset) : false;
+            return ($query_id) ? sqlite_field_name($query_id, $offset) : false;
         }
 
         public function sql_fieldtype($offset, $query_id = 0)
@@ -122,7 +122,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-        // return ($query_id) ? @mysql_field_type($query_id, $offset) : false;
+        // return ($query_id) ? mysql_field_type($query_id, $offset) : false;
         return ($query_id) ? 'varchar' : false;
         }
 
@@ -133,7 +133,7 @@ if (!defined('SQL_LAYER')) {
             }
 
             if ($query_id) {
-                //$this->row[$query_id] = @sqlite_fetch_array($query_id);
+                //$this->row[$query_id] = sqlite_fetch_array($query_id);
             //return $this->row[$query_id];
 
 
@@ -169,7 +169,7 @@ if (!defined('SQL_LAYER')) {
                 $this->row[$query_id]
                 );
 
-                while ($this->rowset[$query_id] = @sqlite_fetch_array($query_id)) {
+                while ($this->rowset[$query_id] = sqlite_fetch_array($query_id)) {
                     foreach ($this->rowset[$query_id] as $key => $value) {
                         if ($pos = strpos($key, '.')) {
                             $key = substr($key, $pos + 1);
@@ -224,12 +224,12 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->query_result;
             }
 
-            return ($query_id) ? @sqlite_seek($query_id, $rownum) : false;
+            return ($query_id) ? sqlite_seek($query_id, $rownum) : false;
         }
 
         public function sql_nextid()
         {
-            return ($this->db_connect_id) ? @sqlite_last_insert_rowid($this->db_connect_id) : false;
+            return ($this->db_connect_id) ? sqlite_last_insert_rowid($this->db_connect_id) : false;
         }
 
         public function sql_freeresult($query_id = 0)
@@ -244,7 +244,7 @@ if (!defined('SQL_LAYER')) {
                 $this->rowset[$query_id]
                 );
 
-            //@mysql_free_result($query_id);
+            //mysql_free_result($query_id);
 
             return true;
             } else {

@@ -24,7 +24,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'windows-1250');
 define('_SEARCH', 'Vyhľada?');
 define('_LOGIN', 'Prihlásenie');
 define('_WRITES', 'napísal:');

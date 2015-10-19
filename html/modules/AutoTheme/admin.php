@@ -554,8 +554,8 @@ function AutoTheme_admin_addatheme($var)
     if ($action == _AT_EXAMPLE) {
         $fromdir = AT_DIRPREFIX.'modules/AutoTheme/tools/themes/AT-Example';
     }
-    if ($handle = @opendir("$fromdir/images/")) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir("$fromdir/images/")) {
+        while (false !== ($file = readdir($handle))) {
             if (is_dir("$fromdir/$file")) {
                 continue;
             }
@@ -563,8 +563,8 @@ function AutoTheme_admin_addatheme($var)
         }
         closedir($handle);
     }
-    if ($handle = @opendir("$fromdir/style/")) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir("$fromdir/style/")) {
+        while (false !== ($file = readdir($handle))) {
             if (is_dir("$fromdir/$file")) {
                 continue;
             }
@@ -572,8 +572,8 @@ function AutoTheme_admin_addatheme($var)
         }
         closedir($handle);
     }
-    if ($handle = @opendir("$fromdir/")) {
-        while (false !== ($file = @readdir($handle))) {
+    if ($handle = opendir("$fromdir/")) {
+        while (false !== ($file = readdir($handle))) {
             if (is_dir("$fromdir/$file")) {
                 continue;
             }
@@ -590,9 +590,9 @@ function AutoTheme_admin_atmain($var)
     $var = atExportVar($var);
     extract($var);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
     }
     if (isset($import)) {
@@ -678,12 +678,12 @@ function AutoTheme_admin_import($var)
     $var = atExportVar($var);
     extract($var);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-        @copy(AT_DIRPREFIX."themes/$themedir/theme.cfg", AT_DIRPREFIX."themes/$themedir/theme.cfg.bak");
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+        copy(AT_DIRPREFIX."themes/$themedir/theme.cfg", AT_DIRPREFIX."themes/$themedir/theme.cfg.bak");
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
-        @copy("$themedir/theme.cfg", "$themedir/theme.cfg.bak");
+        copy("$themedir/theme.cfg", "$themedir/theme.cfg.bak");
     }
     if ($import == '1_0') {
         $temp['default'] = $template['default'];
@@ -786,9 +786,9 @@ function AutoTheme_admin_general($var)
 
     atAdminThemeLinks($themedir, _AT_THEMEDEF, $var, 1);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
     }
     $config = array_merge((array) $template['default'], (array) $blockdisplay['default'], (array) $style['default']);
@@ -805,9 +805,9 @@ function AutoTheme_admin_updategeneral($var)
     $var = atExportVar($var);
     extract($var);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
     }
     $template['default'] = compact('dtd', 'main', 'summary', 'summary1', 'summary2',
@@ -838,9 +838,9 @@ function AutoTheme_admin_modmain($var)
     natcasesort($modlist);
 
     atAdminThemeLinks($themedir, _AT_CUSTMODULES, $var);
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
     }
     atAdminOpenTable();
@@ -900,9 +900,9 @@ function AutoTheme_admin_addmod($var)
     $var = atExportVar($var);
     extract($var);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
     }
     if (!$modops) {
@@ -954,9 +954,9 @@ function AutoTheme_admin_delmod($var)
     extract($confirmed);
 
     if ($del == _AT_YES) {
-        if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+        if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
             include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-        } elseif (@file_exists("$themedir/theme.cfg")) {
+        } elseif (file_exists("$themedir/theme.cfg")) {
             include "$themedir/theme.cfg";
         }
         if ($modops == 'default' && !isset($template[$thememod][$modops])) {
@@ -993,9 +993,9 @@ function AutoTheme_admin_modgeneral($var)
 
     atAdminThemeLinks($themedir, '', $var, 1);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
     }
     if (isset($template[$thememod][$modops])) {
@@ -1629,7 +1629,7 @@ function AutoTheme_admin_generalform($var, $formvars)
     $var = atExportVar($var);
     extract($var);
 
-    if (@file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
+    if (file_exists(AT_DIRPREFIX."themes/$themedir/theme.cfg")) {
         include AT_DIRPREFIX."themes/$themedir/theme.cfg";
         $filelist = at_listfiles(AT_DIRPREFIX."themes/$themedir", 'htm');
         $csslist = at_listfiles(AT_DIRPREFIX."themes/$themedir", 'css');
@@ -1638,7 +1638,7 @@ function AutoTheme_admin_generalform($var, $formvars)
         (array) at_listfiles(AT_DIRPREFIX."themes/$themedir", 'jpg'),
         (array) at_listfiles(AT_DIRPREFIX."themes/$themedir", 'png')
         );
-    } elseif (@file_exists("$themedir/theme.cfg")) {
+    } elseif (file_exists("$themedir/theme.cfg")) {
         include "$themedir/theme.cfg";
         $filelist = at_listfiles($themedir, 'htm');
         $csslist = at_listfiles($themedir, 'css');

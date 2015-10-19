@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-1');//utf-8
 define('_SEARCH', 'Tìm ki&#7871;m');
 define('_LOGIN', '&#272;&#259;ng nh&#7853;p');
 define('_WRITES', 'vi&#7871;t');

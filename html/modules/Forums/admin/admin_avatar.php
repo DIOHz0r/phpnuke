@@ -148,8 +148,8 @@ switch ($mode) {
 
         // This is where we go through the avatar directory and report whether they are not
         // used or if they are used, by who.
-        if ($avatar_dir = @opendir($real_avatar_dir)) {
-            while ($file = @readdir($avatar_dir)) {
+        if ($avatar_dir = opendir($real_avatar_dir)) {
+            while ($file = readdir($avatar_dir)) {
                 // This is where the script will filter out any file that doesn't match the patterns
                 if ($file != '.' && $file != '..' && preg_match("/\.(gif|jpg|jpeg|png)$/", $file)) {
                     $stats = stat($real_avatar_dir.'/'.$file);

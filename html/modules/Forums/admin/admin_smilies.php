@@ -71,11 +71,11 @@ $delimeter = '=+:';
 //
 // Read a listing of uploaded smilies for use in the add or edit smliey code...
 //
-$dir = @opendir($phpbb_root_path.$board_config['smilies_path']);
+$dir = opendir($phpbb_root_path.$board_config['smilies_path']);
 
-while ($file = @readdir($dir)) {
-    if (!@is_dir(phpbb_realpath($phpbb_root_path.$board_config['smilies_path'].'/'.$file))) {
-        $img_size = @getimagesize($phpbb_root_path.$board_config['smilies_path'].'/'.$file);
+while ($file = readdir($dir)) {
+    if (!is_dir(phpbb_realpath($phpbb_root_path.$board_config['smilies_path'].'/'.$file))) {
+        $img_size = getimagesize($phpbb_root_path.$board_config['smilies_path'].'/'.$file);
 
         if ($img_size[0] && $img_size[1]) {
             $smiley_images[] = $file;
@@ -85,7 +85,7 @@ while ($file = @readdir($dir)) {
     }
 }
 
-@closedir($dir);
+closedir($dir);
 
 //
 // Select main mode
@@ -123,7 +123,7 @@ if (isset($HTTP_GET_VARS['import_pack']) || isset($HTTP_POST_VARS['import_pack']
             }
         }
 
-        $fcontents = @file($phpbb_root_path.$board_config['smilies_path'].'/'.$smile_pak);
+        $fcontents = file($phpbb_root_path.$board_config['smilies_path'].'/'.$smile_pak);
 
         if (empty($fcontents)) {
             message_die(GENERAL_ERROR, "Couldn't read smiley pak file", '', __LINE__, __FILE__, $sql);
@@ -170,7 +170,7 @@ if (isset($HTTP_GET_VARS['import_pack']) || isset($HTTP_POST_VARS['import_pack']
         // Display the script to get the smile_pak cfg file...
         //
         $smile_paks_select = "<select name='smile_pak'><option value=''>".$lang['Select_pak'].'</option>';
-        while (list($key, $value) = @each($smiley_paks)) {
+        while (list($key, $value) = each($smiley_paks)) {
             if (!empty($value)) {
                 $smile_paks_select .= '<option>'.$value.'</option>';
             }

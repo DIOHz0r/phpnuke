@@ -2,7 +2,7 @@
 
 $thename = basename(dirname(__FILE__));
 
-if (@file_exists('modules/AutoTheme/autotheme.php')) {
+if (file_exists('modules/AutoTheme/autotheme.php')) {
     include_once 'modules/AutoTheme/autotheme.php';
 } else {
     ?>

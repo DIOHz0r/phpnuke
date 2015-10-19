@@ -240,12 +240,12 @@ function atThemeList($dir = 'themes')
 {
     $dir = AT_DIRPREFIX.'themes';
 
-    if ($handle = @opendir($dir)) {
-        while (false !== ($subdir = @readdir($handle))) {
-            if (@is_dir("$dir/$subdir") &&
+    if ($handle = opendir($dir)) {
+        while (false !== ($subdir = readdir($handle))) {
+            if (is_dir("$dir/$subdir") &&
                 $subdir !== '.' &&
                 $subdir !== '..' &&
-                @file_exists("$dir/$subdir/theme.cfg")) {
+                file_exists("$dir/$subdir/theme.cfg")) {
                 $themelist[] = $subdir;
             }
         }
@@ -264,9 +264,9 @@ function atModList($dir = 'modules')
         '*UserPages',
     );
 
-    if ($handle = @opendir($dir)) {
-        while (false !== ($subdir = @readdir($handle))) {
-            if (@is_dir("$dir/$subdir") &&
+    if ($handle = opendir($dir)) {
+        while (false !== ($subdir = readdir($handle))) {
+            if (is_dir("$dir/$subdir") &&
                 $subdir !== '.' &&
                 $subdir !== '..') {
                 $modlist[] = $subdir;
@@ -285,7 +285,7 @@ function atThemeSet($theme, $douser = 0)
     $userprefix = $GLOBALS['user_prefix'];
     $user = $GLOBALS['user'];
 
-    if (isset($theme) && @file_exists("themes/$theme/theme.cfg")) {
+    if (isset($theme) && file_exists("themes/$theme/theme.cfg")) {
         sql_query('UPDATE '.$prefix."_config SET Default_Theme='$theme'", $dbi);
 
         if (atIsLoggedIn() && $douser) {

@@ -22,7 +22,7 @@ global $commercial_license, $sitename, $slogan;
 # Include for Meta Tags generation               #
 ##################################################
 
-$metastring = '<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset='._CHARSET."\">\n";
+$metastring = "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=utf-8\">\n";
 $metastring .= "<META HTTP-EQUIV=\"EXPIRES\" CONTENT=\"0\">\n";
 $metastring .= "<META NAME=\"RESOURCE-TYPE\" CONTENT=\"DOCUMENT\">\n";
 $metastring .= "<META NAME=\"DISTRIBUTION\" CONTENT=\"GLOBAL\">\n";

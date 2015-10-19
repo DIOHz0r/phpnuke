@@ -32,9 +32,9 @@ function at_maintenance($vars)
     if (!$template) {
         $template = 'maintenance.html';
     }
-    if (@file_exists($themepath."extras/$template")) {
+    if (file_exists($themepath."extras/$template")) {
         $file = $themepath."extras/$template";
-    } elseif (@file_exists($atdir."templates/$template")) {
+    } elseif (file_exists($atdir."templates/$template")) {
         $file = $atdir."templates/$template";
     } else {
         return;

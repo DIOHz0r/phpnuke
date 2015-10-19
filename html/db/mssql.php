@@ -48,7 +48,7 @@ if (!defined('SQL_LAYER')) {
         $this->server = $sqlserver;
         $this->dbname = $database;
 
-        $this->db_connect_id = ($this->persistency) ? @mssql_pconnect($this->server, $this->user, $this->password) : @mssql_connect($this->server, $this->user, $this->password);
+        $this->db_connect_id = ($this->persistency) ? mssql_pconnect($this->server, $this->user, $this->password) : mssql_connect($this->server, $this->user, $this->password);
 
         if ($this->db_connect_id && $this->dbname != '') {
             if (!mssql_select_db($this->dbname, $this->db_connect_id)) {
@@ -71,10 +71,10 @@ if (!defined('SQL_LAYER')) {
             // Commit any remaining transactions
             //
             if ($this->in_transaction) {
-                @mssql_query('COMMIT', $this->db_connect_id);
+                mssql_query('COMMIT', $this->db_connect_id);
             }
 
-            return @mssql_close($this->db_connect_id);
+            return mssql_close($this->db_connect_id);
         } else {
             return false;
         }
@@ -95,7 +95,7 @@ if (!defined('SQL_LAYER')) {
             ++$this->num_queries;
 
             if ($transaction == BEGIN_TRANSACTION && !$this->in_transaction) {
-                if (!@mssql_query('BEGIN TRANSACTION', $this->db_connect_id)) {
+                if (!mssql_query('BEGIN TRANSACTION', $this->db_connect_id)) {
                     return false;
                 }
                 $this->in_transaction = true;
@@ -123,34 +123,34 @@ if (!defined('SQL_LAYER')) {
                     $query = 'TOP '.($row_offset + $num_rows).$query;
                 }
 
-                $this->result = @mssql_query("SELECT $query", $this->db_connect_id);
+                $this->result = mssql_query("SELECT $query", $this->db_connect_id);
 
                 if ($this->result) {
                     $this->limit_offset[$this->result] = (!empty($row_offset)) ? $row_offset : 0;
 
                     if ($row_offset > 0) {
-                        @mssql_data_seek($this->result, $row_offset);
+                        mssql_data_seek($this->result, $row_offset);
                     }
                 }
             } elseif (preg_match('#^INSERT #i', $query)) {
-                if (@mssql_query($query, $this->db_connect_id)) {
+                if (mssql_query($query, $this->db_connect_id)) {
                     $this->result = time() + microtime();
 
-                    $result_id = @mssql_query('SELECT @@IDENTITY AS id, @@ROWCOUNT as affected', $this->db_connect_id);
+                    $result_id = mssql_query('SELECT @@IDENTITY AS id, @@ROWCOUNT as affected', $this->db_connect_id);
                     if ($result_id) {
-                        if ($row = @mssql_fetch_array($result_id)) {
+                        if ($row = mssql_fetch_array($result_id)) {
                             $this->next_id[$this->db_connect_id] = $row['id'];
                             $this->affected_rows[$this->db_connect_id] = $row['affected'];
                         }
                     }
                 }
             } else {
-                if (@mssql_query($query, $this->db_connect_id)) {
+                if (mssql_query($query, $this->db_connect_id)) {
                     $this->result = time() + microtime();
 
-                    $result_id = @mssql_query('SELECT @@ROWCOUNT as affected', $this->db_connect_id);
+                    $result_id = mssql_query('SELECT @@ROWCOUNT as affected', $this->db_connect_id);
                     if ($result_id) {
-                        if ($row = @mssql_fetch_array($result_id)) {
+                        if ($row = mssql_fetch_array($result_id)) {
                             $this->affected_rows[$this->db_connect_id] = $row['affected'];
                         }
                     }
@@ -159,7 +159,7 @@ if (!defined('SQL_LAYER')) {
 
             if (!$this->result) {
                 if ($this->in_transaction) {
-                    @mssql_query('ROLLBACK', $this->db_connect_id);
+                    mssql_query('ROLLBACK', $this->db_connect_id);
                     $this->in_transaction = false;
                 }
 
@@ -169,8 +169,8 @@ if (!defined('SQL_LAYER')) {
             if ($transaction == END_TRANSACTION && $this->in_transaction) {
                 $this->in_transaction = false;
 
-                if (!@mssql_query('COMMIT', $this->db_connect_id)) {
-                    @mssql_query('ROLLBACK', $this->db_connect_id);
+                if (!mssql_query('COMMIT', $this->db_connect_id)) {
+                    mssql_query('ROLLBACK', $this->db_connect_id);
 
                     return false;
                 }
@@ -181,8 +181,8 @@ if (!defined('SQL_LAYER')) {
             if ($transaction == END_TRANSACTION && $this->in_transaction) {
                 $this->in_transaction = false;
 
-                if (!@mssql_query('COMMIT', $this->db_connect_id)) {
-                    @mssql_query('ROLLBACK', $this->db_connect_id);
+                if (!mssql_query('COMMIT', $this->db_connect_id)) {
+                    mssql_query('ROLLBACK', $this->db_connect_id);
 
                     return false;
                 }
@@ -202,7 +202,7 @@ if (!defined('SQL_LAYER')) {
         }
 
         if ($query_id) {
-            return (!empty($this->limit_offset[$query_id])) ? @mssql_num_rows($query_id) - $this->limit_offset[$query_id] : @mssql_num_rows($query_id);
+            return (!empty($this->limit_offset[$query_id])) ? mssql_num_rows($query_id) - $this->limit_offset[$query_id] : mssql_num_rows($query_id);
         } else {
             return false;
         }
@@ -214,7 +214,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->result;
             }
 
-            return ($query_id) ? @mssql_num_fields($query_id) : false;
+            return ($query_id) ? mssql_num_fields($query_id) : false;
         }
 
         public function sql_fieldname($offset, $query_id = 0)
@@ -223,7 +223,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->result;
             }
 
-            return ($query_id) ? @mssql_field_name($query_id, $offset) : false;
+            return ($query_id) ? mssql_field_name($query_id, $offset) : false;
         }
 
         public function sql_fieldtype($offset, $query_id = 0)
@@ -232,7 +232,7 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->result;
             }
 
-            return ($query_id) ? @mssql_field_type($query_id, $offset) : false;
+            return ($query_id) ? mssql_field_type($query_id, $offset) : false;
         }
 
         public function sql_fetchrow($query_id = 0)
@@ -244,12 +244,12 @@ if (!defined('SQL_LAYER')) {
             if ($query_id) {
                 empty($row);
 
-                $row = @mssql_fetch_array($query_id);
+                $row = mssql_fetch_array($query_id);
 
-                while (list($key, $value) = @each($row)) {
+                while (list($key, $value) = each($row)) {
                     $row[$key] = ($value === ' ') ? '' : stripslashes($value);
                 }
-                @reset($row);
+                reset($row);
 
                 return $row;
             } else {
@@ -267,13 +267,13 @@ if (!defined('SQL_LAYER')) {
                 $i = 0;
                 empty($rowset);
 
-                while ($row = @mssql_fetch_array($query_id)) {
-                    while (list($key, $value) = @each($row)) {
+                while ($row = mssql_fetch_array($query_id)) {
+                    while (list($key, $value) = each($row)) {
                         $rowset[$i][$key] = ($value === ' ') ? '' : stripslashes($value);
                     }
                     ++$i;
                 }
-                @reset($rowset);
+                reset($rowset);
 
                 return $rowset;
             } else {
@@ -290,13 +290,13 @@ if (!defined('SQL_LAYER')) {
             if ($query_id) {
                 if ($row != -1) {
                     if ($this->limit_offset[$query_id] > 0) {
-                        $result = (!empty($this->limit_offset[$query_id])) ? @mssql_result($this->result, ($this->limit_offset[$query_id] + $row), $field) : false;
+                        $result = (!empty($this->limit_offset[$query_id])) ? mssql_result($this->result, ($this->limit_offset[$query_id] + $row), $field) : false;
                     } else {
-                        $result = @mssql_result($this->result, $row, $field);
+                        $result = mssql_result($this->result, $row, $field);
                     }
                 } else {
                     if (empty($this->row[$query_id])) {
-                        $this->row[$query_id] = @mssql_fetch_array($query_id);
+                        $this->row[$query_id] = mssql_fetch_array($query_id);
                         $result = ($this->row[$query_id][$field] === ' ') ? '' : stripslashes($this->row[$query_id][$field]);
                     }
                 }
@@ -314,7 +314,7 @@ if (!defined('SQL_LAYER')) {
             }
 
             if ($query_id) {
-                return (!empty($this->limit_offset[$query_id])) ? @mssql_data_seek($query_id, ($this->limit_offset[$query_id] + $rownum)) : @mssql_data_seek($query_id, $rownum);
+                return (!empty($this->limit_offset[$query_id])) ? mssql_data_seek($query_id, ($this->limit_offset[$query_id] + $rownum)) : mssql_data_seek($query_id, $rownum);
             } else {
                 return false;
             }
@@ -336,12 +336,12 @@ if (!defined('SQL_LAYER')) {
                 $query_id = $this->result;
             }
 
-            return ($query_id) ? @mssql_free_result($query_id) : false;
+            return ($query_id) ? mssql_free_result($query_id) : false;
         }
 
         public function sql_error($query_id = 0)
         {
-            $result['message'] = @mssql_get_last_message();
+            $result['message'] = mssql_get_last_message();
 
             return $result;
         }

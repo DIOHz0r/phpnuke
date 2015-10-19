@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-2');
 define('_SEARCH', 'Iskanje');
 define('_LOGIN', 'Vstop');
 define('_WRITES', 'napisal');

@@ -41,9 +41,9 @@ function at_logoutpage($vars)
     if (!$template) {
         $template = 'logoutpage.html';
     }
-    if (@file_exists($themepath.$template)) {
+    if (file_exists($themepath.$template)) {
         $file = $themepath.$template;
-    } elseif (@file_exists($atdir."templates/$template")) {
+    } elseif (file_exists($atdir."templates/$template")) {
         $file = $atdir."templates/$template";
     } else {
         return;

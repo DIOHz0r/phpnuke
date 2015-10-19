@@ -21,7 +21,6 @@
 /* Comments/suggestions: aleagi@terra.com.br - aleagi@phpnuke.org.br      */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-1');
 define('_SEARCH', 'Busca');
 define('_LOGIN', 'Login');
 define('_WRITES', 'enviou');

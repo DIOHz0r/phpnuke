@@ -34,9 +34,9 @@ if (!empty($setmodules)) {
     $filename = basename(__FILE__);
     $module['General']['Backup_DB'] = $filename.'?perform=backup';
 
-    $file_uploads = (@phpversion() >= '4.0.0') ? @ini_get('file_uploads') : @get_cfg_var('file_uploads');
+    $file_uploads = (phpversion() >= '4.0.0') ? ini_get('file_uploads') : get_cfg_var('file_uploads');
 
-    if ((empty($file_uploads) || $file_uploads != 0) && (strtolower($file_uploads) != 'off') && (@phpversion() != '4.0.4pl1')) {
+    if ((empty($file_uploads) || $file_uploads != 0) && (strtolower($file_uploads) != 'off') && (phpversion() != '4.0.4pl1')) {
         $module['General']['Restore_DB'] = $filename.'?perform=restore';
     }
 
@@ -62,7 +62,7 @@ define('VERBOSE', 0);
 // Increase maximum execution time, but don't complain about it if it isn't
 // allowed.
 //
-@set_time_limit(1200);
+set_time_limit(1200);
 
 // -----------------------
 // The following functions are adapted from phpMyAdmin and upgrade_20.php
@@ -176,7 +176,7 @@ function get_table_def_postgresql($table, $crlf)
         if (!$def_res) {
             unset($row['rowdefault']);
         } else {
-            $row['rowdefault'] = @pg_result($def_res, 0, 'rowdefault');
+            $row['rowdefault'] = pg_result($def_res, 0, 'rowdefault');
         }
 
         if ($row['type'] == 'bpchar') {
@@ -374,7 +374,7 @@ function get_table_def_mysql($table, $crlf)
         $index[$kname][] = $row['Column_name'];
     }
 
-    while (list($x, $columns) = @each($index)) {
+    while (list($x, $columns) = each($index)) {
         $schema_create .= ", $crlf";
 
         if ($x == 'PRIMARY') {
@@ -677,8 +677,8 @@ if (isset($HTTP_GET_VARS['perform']) || isset($HTTP_POST_VARS['perform'])) {
                             }
                         }
                         if ($do_gzip_compress) {
-                            @ob_start();
-                            @ob_implicit_flush(0);
+                            ob_start();
+                            ob_implicit_flush(0);
                             header('Content-Type: application/x-gzip; name="phpbb_db_backup.sql.gz"');
                             header('Content-disposition: attachment; filename=phpbb_db_backup.sql.gz');
                         } else {

@@ -20,7 +20,6 @@
 /*                                                                        */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-2');
 define('_SEARCH', 'Szukaj');
 define('_LOGIN', 'Login');
 define('_WRITES', 'napisał');

@@ -17,8 +17,8 @@ CREATE TABLE nuke_antiflood (
   ip_addr varchar(48) NOT NULL,
   time varchar(14) NOT NULL,
   KEY (ip_addr),
-  KEY (time) 
-);
+  KEY (time)
+) CHARACTER SET=utf8;
 
 #
 # Volcar la base de datos para la tabla `nuke_antiflood`
@@ -41,8 +41,7 @@ CREATE TABLE nuke_authors (
   admlanguage varchar(30) NOT NULL default '',
   PRIMARY KEY  (aid),
   KEY aid (aid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_authors`
 #
@@ -70,8 +69,7 @@ CREATE TABLE nuke_autonews (
   associated text NOT NULL,
   PRIMARY KEY  (anid),
   KEY anid (anid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_autonews`
 #
@@ -89,8 +87,7 @@ CREATE TABLE nuke_banned_ip (
   `date` date NOT NULL default '0000-00-00',
   PRIMARY KEY  (id),
   KEY id (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_banned_ip`
 #
@@ -122,8 +119,7 @@ CREATE TABLE nuke_banner (
   PRIMARY KEY  (bid),
   KEY bid (bid),
   KEY cid (cid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_banner`
 #
@@ -144,8 +140,7 @@ CREATE TABLE nuke_banner_plans (
   price varchar(25) NOT NULL default '0',
   buy_links text NOT NULL,
   PRIMARY KEY  (pid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_banner_plans`
 #
@@ -162,8 +157,7 @@ CREATE TABLE nuke_banner_positions (
   position_name varchar(255) NOT NULL default '',
   PRIMARY KEY  (apid),
   KEY position_number (position_number)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_banner_positions`
 #
@@ -180,8 +174,7 @@ INSERT INTO nuke_banner_positions VALUES (2, 1, 'Left Block');
 CREATE TABLE nuke_banner_terms (
   terms_body text NOT NULL,
   country varchar(255) NOT NULL default ''
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_banner_terms`
 #
@@ -202,8 +195,7 @@ CREATE TABLE nuke_banner_clients (
   extrainfo text NOT NULL,
   PRIMARY KEY  (cid),
   KEY cid (cid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_banner_clients`
 #
@@ -231,8 +223,7 @@ CREATE TABLE nuke_bbauth_access (
   auth_mod tinyint(1) NOT NULL default '0',
   KEY group_id (group_id),
   KEY forum_id (forum_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbauth_access`
 #
@@ -256,8 +247,7 @@ CREATE TABLE nuke_bbbanlist (
   ban_pub_reason text,
   PRIMARY KEY  (ban_id),
   KEY ban_ip_user_id (ban_ip,ban_userid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbbanlist`
 #
@@ -274,8 +264,7 @@ CREATE TABLE nuke_bbcategories (
   cat_order mediumint(8) unsigned NOT NULL default '0',
   PRIMARY KEY  (cat_id),
   KEY cat_order (cat_order)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbcategories`
 #
@@ -290,8 +279,7 @@ CREATE TABLE nuke_bbconfig (
   config_name varchar(255) NOT NULL default '',
   config_value varchar(255) NOT NULL default '',
   PRIMARY KEY  (config_name)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbconfig`
 #
@@ -370,8 +358,7 @@ CREATE TABLE nuke_bbdisallow (
   disallow_id mediumint(8) unsigned NOT NULL auto_increment,
   disallow_username varchar(25) default NULL,
   PRIMARY KEY  (disallow_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbdisallow`
 #
@@ -389,8 +376,7 @@ CREATE TABLE nuke_bbforum_prune (
   prune_freq tinyint(4) unsigned NOT NULL default '0',
   PRIMARY KEY  (prune_id),
   KEY forum_id (forum_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbforum_prune`
 #
@@ -428,8 +414,7 @@ CREATE TABLE nuke_bbforums (
   KEY forums_order (forum_order),
   KEY cat_id (cat_id),
   KEY forum_last_post_id (forum_last_post_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbforums`
 #
@@ -449,8 +434,7 @@ CREATE TABLE nuke_bbgroups (
   group_single_user tinyint(1) NOT NULL default '1',
   PRIMARY KEY  (group_id),
   KEY group_single_user (group_single_user)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbgroups`
 #
@@ -482,8 +466,7 @@ CREATE TABLE nuke_bbposts (
   KEY topic_id (topic_id),
   KEY poster_id (poster_id),
   KEY post_time (post_time)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbposts`
 #
@@ -500,8 +483,7 @@ CREATE TABLE nuke_bbposts_text (
   post_subject varchar(60) default NULL,
   post_text text,
   PRIMARY KEY  (post_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbposts_text`
 #
@@ -527,8 +509,7 @@ CREATE TABLE nuke_bbprivmsgs (
   PRIMARY KEY  (privmsgs_id),
   KEY privmsgs_from_userid (privmsgs_from_userid),
   KEY privmsgs_to_userid (privmsgs_to_userid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbprivmsgs`
 #
@@ -544,8 +525,7 @@ CREATE TABLE nuke_bbprivmsgs_text (
   privmsgs_bbcode_uid varchar(10) NOT NULL default '0',
   privmsgs_text text,
   PRIMARY KEY  (privmsgs_text_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbprivmsgs_text`
 #
@@ -564,8 +544,7 @@ CREATE TABLE nuke_bbranks (
   rank_special tinyint(1) default '0',
   rank_image varchar(255) default NULL,
   PRIMARY KEY  (rank_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbranks`
 #
@@ -585,8 +564,7 @@ CREATE TABLE nuke_bbsearch_results (
   search_time int(11) DEFAULT '0' NOT NULL,
   PRIMARY KEY  (search_id),
   KEY session_id (session_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbsearch_results`
 #
@@ -603,8 +581,7 @@ CREATE TABLE nuke_bbsearch_wordlist (
   word_common tinyint(1) unsigned NOT NULL default '0',
   PRIMARY KEY  (word_text),
   KEY word_id (word_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbsearch_wordlist`
 #
@@ -620,8 +597,7 @@ CREATE TABLE nuke_bbsearch_wordmatch (
   word_id mediumint(8) unsigned NOT NULL default '0',
   title_match tinyint(1) NOT NULL default '0',
   KEY word_id (word_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbsearch_wordmatch`
 #
@@ -644,8 +620,7 @@ CREATE TABLE nuke_bbsessions (
   PRIMARY KEY  (session_id),
   KEY session_user_id (session_user_id),
   KEY session_id_ip_user_id (session_id,session_ip,session_user_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbsessions`
 #
@@ -662,8 +637,7 @@ CREATE TABLE nuke_bbsmilies (
   smile_url varchar(100) default NULL,
   emoticon varchar(75) default NULL,
   PRIMARY KEY  (smilies_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbsmilies`
 #
@@ -763,8 +737,7 @@ CREATE TABLE nuke_bbthemes (
   img_size_poll smallint(5) unsigned default NULL,
   img_size_privmsg smallint(5) unsigned default NULL,
   PRIMARY KEY  (themes_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbthemes`
 #
@@ -809,8 +782,7 @@ CREATE TABLE nuke_bbthemes_name (
   span_class2_name char(50) default NULL,
   span_class3_name char(50) default NULL,
   PRIMARY KEY  (themes_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbthemes_name`
 #
@@ -841,8 +813,7 @@ CREATE TABLE nuke_bbtopics (
   KEY topic_moved_id (topic_moved_id),
   KEY topic_status (topic_status),
   KEY topic_type (topic_type)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbtopics`
 #
@@ -860,8 +831,7 @@ CREATE TABLE nuke_bbtopics_watch (
   KEY topic_id (topic_id),
   KEY user_id (user_id),
   KEY notify_status (notify_status)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbtopics_watch`
 #
@@ -878,8 +848,7 @@ CREATE TABLE nuke_bbuser_group (
   user_pending tinyint(1) default NULL,
   KEY group_id (group_id),
   KEY user_id (user_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbuser_group`
 #
@@ -900,8 +869,7 @@ CREATE TABLE nuke_bbvote_desc (
   vote_length int(11) NOT NULL default '0',
   PRIMARY KEY  (vote_id),
   KEY topic_id (topic_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbvote_desc`
 #
@@ -919,8 +887,7 @@ CREATE TABLE nuke_bbvote_results (
   vote_result int(11) NOT NULL default '0',
   KEY vote_option_id (vote_option_id),
   KEY vote_id (vote_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbvote_results`
 #
@@ -938,8 +905,7 @@ CREATE TABLE nuke_bbvote_voters (
   KEY vote_id (vote_id),
   KEY vote_user_id (vote_user_id),
   KEY vote_user_ip (vote_user_ip)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbvote_voters`
 #
@@ -955,8 +921,7 @@ CREATE TABLE nuke_bbwords (
   word char(100) NOT NULL default '',
   replacement char(100) NOT NULL default '',
   PRIMARY KEY  (word_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_bbwords`
 #
@@ -987,8 +952,7 @@ CREATE TABLE nuke_blocks (
   PRIMARY KEY  (bid),
   KEY bid (bid),
   KEY title (title)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_blocks`
 #
@@ -1020,8 +984,7 @@ CREATE TABLE nuke_cities (
   cc char(2) NOT NULL default '',
   country varchar(35) NOT NULL default '',
   PRIMARY KEY  (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_cities`
 #
@@ -7991,8 +7954,7 @@ CREATE TABLE nuke_comments (
   KEY tid (tid),
   KEY pid (pid),
   KEY sid (sid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_comments`
 #
@@ -8021,8 +7983,7 @@ CREATE TABLE nuke_comments_moderated (
   KEY tid (tid),
   KEY pid (pid),
   KEY sid (sid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_comments_moderated`
 #
@@ -8083,8 +8044,7 @@ CREATE TABLE nuke_config (
   nuke_editor tinyint(1) NOT NULL default '1',
   display_errors tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (sitename)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_config`
 #
@@ -8101,8 +8061,7 @@ CREATE TABLE nuke_confirm (
   session_id char(32) NOT NULL default '',
   code char(6) NOT NULL default '',
   PRIMARY KEY  (session_id,confirm_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_confirm`
 #
@@ -8117,8 +8076,7 @@ CREATE TABLE nuke_counter (
   `type` varchar(80) NOT NULL default '',
   var varchar(80) NOT NULL default '',
   count int(10) unsigned NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_counter`
 #
@@ -8157,8 +8115,7 @@ CREATE TABLE nuke_downloads_categories (
   PRIMARY KEY  (cid),
   KEY cid (cid),
   KEY title (title)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_downloads_categories`
 #
@@ -8192,8 +8149,7 @@ CREATE TABLE nuke_downloads_downloads (
   KEY cid (cid),
   KEY sid (sid),
   KEY title (title)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_downloads_downloads`
 #
@@ -8212,8 +8168,7 @@ CREATE TABLE nuke_downloads_editorials (
   editorialtitle varchar(100) NOT NULL default '',
   PRIMARY KEY  (downloadid),
   KEY downloadid (downloadid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_downloads_editorials`
 #
@@ -8241,8 +8196,7 @@ CREATE TABLE nuke_downloads_modrequest (
   homepage varchar(200) NOT NULL default '',
   PRIMARY KEY  (requestid),
   UNIQUE KEY requestid (requestid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_downloads_modrequest`
 #
@@ -8271,8 +8225,7 @@ CREATE TABLE nuke_downloads_newdownload (
   KEY cid (cid),
   KEY sid (sid),
   KEY title (title)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_downloads_newdownload`
 #
@@ -8293,8 +8246,7 @@ CREATE TABLE nuke_downloads_votedata (
   ratingtimestamp datetime NOT NULL default '0000-00-00 00:00:00',
   PRIMARY KEY  (ratingdbid),
   KEY ratingdbid (ratingdbid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_downloads_votedata`
 #
@@ -8313,8 +8265,7 @@ CREATE TABLE nuke_encyclopedia (
   active int(1) NOT NULL default '0',
   PRIMARY KEY  (eid),
   KEY eid (eid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_encyclopedia`
 #
@@ -8335,8 +8286,7 @@ CREATE TABLE nuke_encyclopedia_text (
   KEY tid (tid),
   KEY eid (eid),
   KEY title (title)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_encyclopedia_text`
 #
@@ -8355,8 +8305,7 @@ CREATE TABLE nuke_faqanswer (
   PRIMARY KEY  (id),
   KEY id (id),
   KEY id_cat (id_cat)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_faqanswer`
 #
@@ -8373,8 +8322,7 @@ CREATE TABLE nuke_faqcategories (
   flanguage varchar(30) NOT NULL default '',
   PRIMARY KEY  (id_cat),
   KEY id_cat (id_cat)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_faqcategories`
 #
@@ -8391,8 +8339,7 @@ CREATE TABLE nuke_groups (
   description text NOT NULL,
   points int(10) NOT NULL default '0',
   KEY id (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_groups`
 #
@@ -8407,8 +8354,7 @@ CREATE TABLE nuke_groups_points (
   id int(10) NOT NULL auto_increment,
   points int(10) NOT NULL default '0',
   KEY id (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_groups_points`
 #
@@ -8446,8 +8392,7 @@ CREATE TABLE nuke_headlines (
   headlinesurl varchar(200) NOT NULL default '',
   PRIMARY KEY  (hid),
   KEY hid (hid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_headlines`
 #
@@ -8498,8 +8443,7 @@ CREATE TABLE nuke_journal (
   PRIMARY KEY  (jid),
   KEY jid (jid),
   KEY aid (aid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_journal`
 #
@@ -8521,8 +8465,7 @@ CREATE TABLE nuke_journal_comments (
   KEY cid (cid),
   KEY rid (rid),
   KEY aid (aid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_journal_comments`
 #
@@ -8542,8 +8485,7 @@ CREATE TABLE nuke_journal_stats (
   micro varchar(128) NOT NULL default '',
   PRIMARY KEY  (id),
   KEY id (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_journal_stats`
 #
@@ -8561,8 +8503,7 @@ CREATE TABLE nuke_links_categories (
   parentid int(11) NOT NULL default '0',
   PRIMARY KEY  (cid),
   KEY cid (cid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_links_categories`
 #
@@ -8581,8 +8522,7 @@ CREATE TABLE nuke_links_editorials (
   editorialtitle varchar(100) NOT NULL default '',
   PRIMARY KEY  (linkid),
   KEY linkid (linkid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_links_editorials`
 #
@@ -8612,8 +8552,7 @@ CREATE TABLE nuke_links_links (
   KEY lid (lid),
   KEY cid (cid),
   KEY sid (sid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_links_links`
 #
@@ -8636,8 +8575,7 @@ CREATE TABLE nuke_links_modrequest (
   brokenlink int(3) NOT NULL default '0',
   PRIMARY KEY  (requestid),
   UNIQUE KEY requestid (requestid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_links_modrequest`
 #
@@ -8662,8 +8600,7 @@ CREATE TABLE nuke_links_newlink (
   KEY lid (lid),
   KEY cid (cid),
   KEY sid (sid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_links_newlink`
 #
@@ -8684,8 +8621,7 @@ CREATE TABLE nuke_links_votedata (
   ratingtimestamp datetime NOT NULL default '0000-00-00 00:00:00',
   PRIMARY KEY  (ratingdbid),
   KEY ratingdbid (ratingdbid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_links_votedata`
 #
@@ -8698,8 +8634,7 @@ CREATE TABLE nuke_links_votedata (
 
 CREATE TABLE nuke_main (
   main_module varchar(255) NOT NULL default ''
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_main`
 #
@@ -8722,8 +8657,7 @@ CREATE TABLE nuke_message (
   mlanguage varchar(30) NOT NULL default '',
   PRIMARY KEY  (mid),
   UNIQUE KEY mid (mid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_message`
 #
@@ -8748,8 +8682,7 @@ CREATE TABLE nuke_modules (
   KEY mid (mid),
   KEY title (title),
   KEY custom_title (custom_title)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_modules`
 #
@@ -8801,8 +8734,7 @@ CREATE TABLE nuke_pages (
   PRIMARY KEY  (pid),
   KEY pid (pid),
   KEY cid (cid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_pages`
 #
@@ -8819,8 +8751,7 @@ CREATE TABLE nuke_pages_categories (
   description text NOT NULL,
   PRIMARY KEY  (cid),
   KEY cid (cid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_pages_categories`
 #
@@ -8835,8 +8766,7 @@ CREATE TABLE nuke_poll_check (
   ip varchar(20) NOT NULL default '',
   `time` varchar(14) NOT NULL default '',
   pollID int(10) NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_poll_check`
 #
@@ -8852,8 +8782,7 @@ CREATE TABLE nuke_poll_data (
   optionText char(50) NOT NULL default '',
   optionCount int(11) NOT NULL default '0',
   voteID int(11) NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_poll_data`
 #
@@ -8886,8 +8815,7 @@ CREATE TABLE nuke_poll_desc (
   comments int(11) default '0',
   PRIMARY KEY  (pollID),
   KEY pollID (pollID)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_poll_desc`
 #
@@ -8917,8 +8845,7 @@ CREATE TABLE nuke_pollcomments (
   KEY tid (tid),
   KEY pid (pid),
   KEY pollID (pollID)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_pollcomments`
 #
@@ -8947,8 +8874,7 @@ CREATE TABLE nuke_pollcomments_moderated (
   KEY tid (tid),
   KEY pid (pid),
   KEY pollID (pollID)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_pollcomments_moderated`
 #
@@ -8966,8 +8892,7 @@ CREATE TABLE nuke_public_messages (
   who varchar(25) NOT NULL default '',
   PRIMARY KEY  (mid),
   KEY mid (mid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_public_messages`
 #
@@ -8992,8 +8917,7 @@ CREATE TABLE nuke_queue (
   KEY qid (qid),
   KEY uid (uid),
   KEY uname (uname)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_queue`
 #
@@ -9009,8 +8933,7 @@ CREATE TABLE nuke_referer (
   url varchar(100) NOT NULL default '',
   PRIMARY KEY  (rid),
   KEY rid (rid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_referer`
 #
@@ -9029,8 +8952,7 @@ CREATE TABLE nuke_related (
   PRIMARY KEY  (rid),
   KEY rid (rid),
   KEY tid (tid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_related`
 #
@@ -9056,8 +8978,7 @@ CREATE TABLE nuke_reviews (
   rlanguage varchar(30) NOT NULL default '',
   PRIMARY KEY  (id),
   KEY id (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_reviews`
 #
@@ -9081,8 +9002,7 @@ CREATE TABLE nuke_reviews_add (
   rlanguage varchar(30) NOT NULL default '',
   PRIMARY KEY  (id),
   KEY id (id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_reviews_add`
 #
@@ -9104,8 +9024,7 @@ CREATE TABLE nuke_reviews_comments (
   KEY cid (cid),
   KEY rid (rid),
   KEY userid (userid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_reviews_comments`
 #
@@ -9127,8 +9046,7 @@ CREATE TABLE nuke_reviews_comments_moderated (
   KEY cid (cid),
   KEY rid (rid),
   KEY userid (userid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_reviews_comments_moderated`
 #
@@ -9142,8 +9060,7 @@ CREATE TABLE nuke_reviews_comments_moderated (
 CREATE TABLE nuke_reviews_main (
   title varchar(100) default NULL,
   description text
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_reviews_main`
 #
@@ -9162,8 +9079,7 @@ CREATE TABLE nuke_session (
   guest int(1) NOT NULL default '0',
   KEY `time` (`time`),
   KEY guest (guest)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_session`
 #
@@ -9179,8 +9095,7 @@ CREATE TABLE nuke_stats_date (
   `month` tinyint(4) NOT NULL default '0',
   `date` tinyint(4) NOT NULL default '0',
   hits bigint(20) NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_stats_date`
 #
@@ -9197,8 +9112,7 @@ CREATE TABLE nuke_stats_hour (
   `date` tinyint(4) NOT NULL default '0',
   `hour` tinyint(4) NOT NULL default '0',
   hits int(11) NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_stats_hour`
 #
@@ -9213,8 +9127,7 @@ CREATE TABLE nuke_stats_month (
   `year` smallint(6) NOT NULL default '0',
   `month` tinyint(4) NOT NULL default '0',
   hits bigint(20) NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_stats_month`
 #
@@ -9228,8 +9141,7 @@ CREATE TABLE nuke_stats_month (
 CREATE TABLE nuke_stats_year (
   `year` smallint(6) NOT NULL default '0',
   hits bigint(20) NOT NULL default '0'
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_stats_year`
 #
@@ -9267,8 +9179,7 @@ CREATE TABLE nuke_stories (
   KEY catid (catid),
   KEY counter (counter),
   KEY topic (topic)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_stories`
 #
@@ -9285,8 +9196,7 @@ CREATE TABLE nuke_stories_cat (
   counter int(11) NOT NULL default '0',
   PRIMARY KEY  (catid),
   KEY catid (catid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_stories_cat`
 #
@@ -9302,8 +9212,7 @@ CREATE TABLE nuke_subscriptions (
   userid int(10) default '0',
   subscription_expire varchar(50) NOT NULL default '',
   KEY id (id,userid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_subscriptions`
 #
@@ -9322,8 +9231,7 @@ CREATE TABLE nuke_topics (
   counter int(11) NOT NULL default '0',
   PRIMARY KEY  (topicid),
   KEY topicid (topicid)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_topics`
 #
@@ -9406,8 +9314,7 @@ CREATE TABLE nuke_users (
   KEY uname (username),
   KEY user_session_time (user_session_time),
   KEY karma (karma)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_users`
 #
@@ -9428,8 +9335,7 @@ CREATE TABLE nuke_users_temp (
   check_num varchar(50) NOT NULL default '',
   `time` varchar(14) NOT NULL default '',
   PRIMARY KEY  (user_id)
-);
-
+) CHARACTER SET=utf8;
 #
 # Volcar la base de datos para la tabla `nuke_users_temp`
 #

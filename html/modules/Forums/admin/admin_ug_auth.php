@@ -41,7 +41,7 @@ require './pagestart.'.$phpEx;
 
 $params = array('mode' => 'mode', 'user_id' => POST_USERS_URL, 'group_id' => POST_GROUPS_URL, 'adv' => 'adv');
 
-while (list($var, $param) = @each($params)) {
+while (list($var, $param) = each($params)) {
     if (!empty($HTTP_POST_VARS[$param]) || !empty($HTTP_GET_VARS[$param])) {
         $$var = (!empty($HTTP_POST_VARS[$param])) ? $HTTP_POST_VARS[$param] : $HTTP_GET_VARS[$param];
     } else {
@@ -212,7 +212,7 @@ if (isset($HTTP_POST_VARS['submit']) && (($mode == 'user' && $user_id) || ($mode
                     for ($j = 0; $j < count($forum_auth_fields); ++$j) {
                         $auth_field = $forum_auth_fields[$j];
 
-                        while (list($forum_id, $value) = @each($HTTP_POST_VARS['private_'.$auth_field])) {
+                        while (list($forum_id, $value) = each($HTTP_POST_VARS['private_'.$auth_field])) {
                             $change_acl_list[$forum_id][$auth_field] = $value;
                         }
                     }
@@ -294,14 +294,14 @@ if (isset($HTTP_POST_VARS['submit']) && (($mode == 'user' && $user_id) || ($mode
                         // Checks complete, make updates to DB
                         //
                         $delete_sql = '';
-                while (list($forum_id, $action) = @each($forum_auth_action)) {
+                while (list($forum_id, $action) = each($forum_auth_action)) {
                     if ($action == 'delete') {
                         $delete_sql .= (($delete_sql != '') ? ', ' : '').$forum_id;
                     } else {
                         if ($action == 'insert') {
                             $sql_field = '';
                             $sql_value = '';
-                            while (list($auth_type, $value) = @each($update_acl_status[$forum_id])) {
+                            while (list($auth_type, $value) = each($update_acl_status[$forum_id])) {
                                 $sql_field .= (($sql_field != '') ? ', ' : '').$auth_type;
                                 $sql_value .= (($sql_value != '') ? ', ' : '').$value;
                             }
@@ -312,7 +312,7 @@ if (isset($HTTP_POST_VARS['submit']) && (($mode == 'user' && $user_id) || ($mode
                                                         VALUES ($forum_id, $group_id, $sql_value)";
                         } else {
                             $sql_values = '';
-                            while (list($auth_type, $value) = @each($update_acl_status[$forum_id])) {
+                            while (list($auth_type, $value) = each($update_acl_status[$forum_id])) {
                                 $sql_values .= (($sql_values != '') ? ', ' : '').$auth_type.' = '.$value;
                             }
                             $sql_values .= (($sql_values != '') ? ', ' : '').'auth_mod = '.((!isset($update_mod_status[$forum_id])) ? 0 : $update_mod_status[$forum_id]);
@@ -619,8 +619,8 @@ if (isset($HTTP_POST_VARS['submit']) && (($mode == 'user' && $user_id) || ($mode
     }
 
     $i = 0;
-    @reset($auth_ug);
-    while (list($forum_id, $user_ary) = @each($auth_ug)) {
+    reset($auth_ug);
+    while (list($forum_id, $user_ary) = each($auth_ug)) {
         if (empty($adv)) {
             if ($forum_auth_level[$forum_id] == AUTH_ACL) {
                 $allowed = 1;

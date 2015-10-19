@@ -15,7 +15,6 @@
 /* Hvis de finder fejl må og skal de sende en e-mail eller icq til mig!   */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-1');
 define('_SEARCH', 'Søg');
 define('_LOGIN', ' Log ind ');
 define('_WRITES', 'skriver');

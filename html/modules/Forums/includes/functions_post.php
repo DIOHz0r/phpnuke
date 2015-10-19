@@ -131,7 +131,7 @@ function prepare_post(&$mode, &$post_data, &$bbcode_on, &$html_on, &$smilies_on,
 
             if (!empty($poll_options)) {
                 $temp_option_text = array();
-                while (list($option_id, $option_text) = @each($poll_options)) {
+                while (list($option_id, $option_text) = each($poll_options)) {
                     $option_text = trim($option_text);
                     if (!empty($option_text)) {
                         $temp_option_text[intval($option_id)] = htmlspecialchars($option_text);
@@ -249,7 +249,7 @@ function submit_post($mode, &$post_data, &$message, &$meta, &$forum_id, &$topic_
                 $poll_id = $db->sql_nextid();
             }
 
-            @reset($poll_options);
+            reset($poll_options);
 
             $poll_option_id = 1;
             while (list($option_id, $option_text) = each($poll_options)) {
@@ -494,7 +494,7 @@ function user_notification($mode, &$post_data, &$topic_title, &$forum_id, &$topi
 
             if ($row = $db->sql_fetchrow($result)) {
                 // Sixty second limit
-                                @set_time_limit(60);
+                                set_time_limit(60);
 
                 do {
                     if ($row['user_email'] != '') {
@@ -508,7 +508,7 @@ function user_notification($mode, &$post_data, &$topic_title, &$forum_id, &$topi
                                 // are working in win32 versions of php.
                                 //
                                 if (preg_match('/[c-z]:\\\.*/i', getenv('PATH')) && !$board_config['smtp_delivery']) {
-                                    $ini_val = (@phpversion() >= '4.0.0') ? 'ini_get' : 'get_cfg_var';
+                                    $ini_val = (phpversion() >= '4.0.0') ? 'ini_get' : 'get_cfg_var';
 
                                         // We are running on windows, force delivery to use our smtp functions
                                         // since php's are broken by default
@@ -535,7 +535,7 @@ function user_notification($mode, &$post_data, &$topic_title, &$forum_id, &$topi
 
                     $topic_title = (count($orig_word)) ? preg_replace($orig_word, $replacement_word, unprepare_message($topic_title)) : unprepare_message($topic_title);
 
-                    @reset($bcc_list_ary);
+                    reset($bcc_list_ary);
                     while (list($user_lang, $bcc_list) = each($bcc_list_ary)) {
                         $emailer->use_template('topic_notify', $user_lang);
 
@@ -658,7 +658,7 @@ function generate_smilies($mode, $page_id)
             $row = 0;
             $col = 0;
 
-            while (list($smile_url, $data) = @each($rowset)) {
+            while (list($smile_url, $data) = each($rowset)) {
                 if (!$col) {
                     $template->assign_block_vars('smilies_row', array());
                 }

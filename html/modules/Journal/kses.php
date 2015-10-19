@@ -78,7 +78,7 @@ function kses_split($string, $allowed_html, $allowed_protocols)
 # matches stray ">" characters.
 ###############################################################################
 {
-    return @preg_replace('%(<'.# EITHER: <
+    return preg_replace('%(<'.# EITHER: <
                       '[^>]*'.# things that aren't >
                       '(>|$)'.# > or end of string
                       '|>)%e', # OR: just a >
@@ -185,7 +185,7 @@ function kses_attr($element, $attr, $allowed_html, $allowed_protocols)
 
 # Remove any "<" or ">" characters
 
-  $attr2 = @preg_replace('/[<>]/', '', $attr2);
+  $attr2 = preg_replace('/[<>]/', '', $attr2);
 
     return "<$element$attr2$xhtml_slash>";
 } # function kses_attr
@@ -216,7 +216,7 @@ function kses_hair($attr, $allowed_protocols)
         if (preg_match('/^([-a-zA-Z]+)/', $attr, $match)) {
             $attrname = $match[1];
             $working = $mode = 1;
-            $attr = @preg_replace('/^[-a-zA-Z]+/', '', $attr);
+            $attr = preg_replace('/^[-a-zA-Z]+/', '', $attr);
         }
 
         break;
@@ -228,7 +228,7 @@ function kses_hair($attr, $allowed_protocols)
 
           $working = 1;
             $mode = 2;
-            $attr = @preg_replace('/^\s*=\s*/', '', $attr);
+            $attr = preg_replace('/^\s*=\s*/', '', $attr);
             break;
         }
 
@@ -241,7 +241,7 @@ function kses_hair($attr, $allowed_protocols)
                          'value' => '',
                          'whole' => $attrname,
                          'vless' => 'y', );
-            $attr = @preg_replace('/^\s+/', '', $attr);
+            $attr = preg_replace('/^\s+/', '', $attr);
         }
 
         break;
@@ -259,7 +259,7 @@ function kses_hair($attr, $allowed_protocols)
                          'vless' => 'n', );
             $working = 1;
             $mode = 0;
-            $attr = @preg_replace('/^"[^"]*"(\s+|$)/', '', $attr);
+            $attr = preg_replace('/^"[^"]*"(\s+|$)/', '', $attr);
             break;
         }
 
@@ -274,7 +274,7 @@ function kses_hair($attr, $allowed_protocols)
                          'vless' => 'n', );
             $working = 1;
             $mode = 0;
-            $attr = @preg_replace("/^'[^']*'(\s+|$)/", '', $attr);
+            $attr = preg_replace("/^'[^']*'(\s+|$)/", '', $attr);
             break;
         }
 
@@ -290,7 +290,7 @@ function kses_hair($attr, $allowed_protocols)
                          # We add quotes to conform to W3C's HTML spec.
           $working = 1;
             $mode = 0;
-            $attr = @preg_replace("%^[^\s\"']+(\s+|$)%", '', $attr);
+            $attr = preg_replace("%^[^\s\"']+(\s+|$)%", '', $attr);
         }
 
         break;
@@ -414,10 +414,10 @@ function kses_no_null($string)
 # This function removes any NULL or chr(173) characters in $string.
 ###############################################################################
 {
-    $string = @preg_replace('/\0+/', '', $string);
-    $string = @preg_replace('/(\\\\0)+/', '', $string);
+    $string = preg_replace('/\0+/', '', $string);
+    $string = preg_replace('/(\\\\0)+/', '', $string);
 
-    $string = @preg_replace('/\xad+/', '', $string); # deals with Opera "feature"
+    $string = preg_replace('/\xad+/', '', $string); # deals with Opera "feature"
 
   return $string;
 } # function kses_no_null
@@ -430,7 +430,7 @@ function kses_stripslashes($string)
 # preg_replace(//e) seems to require this.
 ###############################################################################
 {
-    return @preg_replace('%\\\\"%', '"', $string);
+    return preg_replace('%\\\\"%', '"', $string);
 } # function kses_stripslashes
 
 
@@ -461,7 +461,7 @@ function kses_js_entities($string)
 # Netscape 4.
 ###############################################################################
 {
-    return @preg_replace('%&\s*\{[^}]*(\}\s*;?|$)%', '', $string);
+    return preg_replace('%&\s*\{[^}]*(\}\s*;?|$)%', '', $string);
 } # function kses_js_entities
 
 
@@ -472,7 +472,7 @@ function kses_html_error($string)
 # quotes and apostrophes as well.
 ###############################################################################
 {
-    return @preg_replace('/^("[^"]*("|$)|\'[^\']*(\'|$)|\S)*\s*/', '', $string);
+    return preg_replace('/^("[^"]*("|$)|\'[^\']*(\'|$)|\S)*\s*/', '', $string);
 } # function kses_html_error
 
 
@@ -482,7 +482,7 @@ function kses_bad_protocol_once($string, $allowed_protocols)
 # handling whitespace and HTML entities.
 ###############################################################################
 {
-    return @preg_replace('/^((&[^;]*;|[\sA-Za-z0-9])*)'.
+    return preg_replace('/^((&[^;]*;|[\sA-Za-z0-9])*)'.
                       '(:|&#58;|&#[Xx]3[Aa];)\s*/e',
                       'kses_bad_protocol_once2("\\1", $allowed_protocols)',
                       $string);
@@ -496,7 +496,7 @@ function kses_bad_protocol_once2($string, $allowed_protocols)
 ###############################################################################
 {
     $string2 = kses_decode_entities($string);
-    $string2 = @preg_replace('/\s/', '', $string2);
+    $string2 = preg_replace('/\s/', '', $string2);
     $string2 = kses_no_null($string2);
     $string2 = strtolower($string2);
 
@@ -528,11 +528,11 @@ function kses_normalize_entities($string)
 
 # Change back the allowed entities in our entity whitelist
 
-  $string = @preg_replace('/&amp;([A-Za-z][A-Za-z0-9]{0,19});/',
+  $string = preg_replace('/&amp;([A-Za-z][A-Za-z0-9]{0,19});/',
                          '&\\1;', $string);
-    $string = @preg_replace('/&amp;#0*([0-9]{1,5});/e',
+    $string = preg_replace('/&amp;#0*([0-9]{1,5});/e',
                          'kses_normalize_entities2("\\1")', $string);
-    $string = @preg_replace('/&amp;#([Xx])0*(([0-9A-Fa-f]{2}){1,2});/',
+    $string = preg_replace('/&amp;#([Xx])0*(([0-9A-Fa-f]{2}){1,2});/',
                          '&#\\1\\2;', $string);
 
     return $string;
@@ -556,8 +556,8 @@ function kses_decode_entities($string)
 # URL protocol whitelisting system anyway.
 ###############################################################################
 {
-    $string = @preg_replace('/&#([0-9]+);/e', 'chr("\\1")', $string);
-    $string = @preg_replace('/&#[Xx]([0-9A-Fa-f]+);/e', 'chr(hexdec("\\1"))',
+    $string = preg_replace('/&#([0-9]+);/e', 'chr("\\1")', $string);
+    $string = preg_replace('/&#[Xx]([0-9A-Fa-f]+);/e', 'chr(hexdec("\\1"))',
                          $string);
 
     return $string;

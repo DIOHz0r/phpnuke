@@ -108,6 +108,7 @@ function populate_db(&$database, $sqlfile = 'nuke.sql')
 {
     global $errors;
 
+    set_time_limit(0);
     $query = fread(fopen('sql/'.$sqlfile, 'r'), filesize('sql/'.$sqlfile));
     $pieces = split_sql($query);
 

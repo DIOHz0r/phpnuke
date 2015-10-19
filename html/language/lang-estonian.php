@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-15');
 define('_SEARCH', 'Otsi');
 define('_LOGIN', 'Logi sisse');
 define('_WRITES', 'kirjutab');

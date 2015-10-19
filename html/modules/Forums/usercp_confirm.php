@@ -196,7 +196,7 @@ function create_png($raw_image, $width, $height)
     $raw .= pack('C5', 8, 0, 0, 0, 0);
     $image .= png_chunk(13, 'IHDR', $raw);
 
-    if (@extension_loaded('zlib')) {
+    if (extension_loaded('zlib')) {
         $raw_image = gzcompress($raw_image);
         $length = strlen($raw_image);
     } else {

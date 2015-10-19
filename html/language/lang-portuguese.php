@@ -22,7 +22,6 @@
 /* Rui Cristovão (ord'hor) ordhor@hotmail.com				  */
 /**************************************************************************/
 
-define('_CHARSET', 'ISO-8859-1');
 define('_SEARCH', 'Localizar');
 define('_LOGIN', 'Login');
 define('_WRITES', 'escrever');

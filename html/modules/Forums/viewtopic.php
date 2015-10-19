@@ -60,7 +60,7 @@ if (!$topic_id && !$post_id) {
 //
 if (isset($HTTP_GET_VARS['view']) && empty($HTTP_GET_VARS[POST_POST_URL])) {
     if ($HTTP_GET_VARS['view'] == 'newest') {
-        $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+        $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
 
         if (isset($HTTP_COOKIE_VARS[$board_config['cookie_name'].'_sid']) || isset($HTTP_GET_VARS['sid'])) {
             $session_id = isset($HTTP_COOKIE_VARS[$board_config['cookie_name'].'_sid']) ? $HTTP_COOKIE_VARS[$board_config['cookie_name'].'_sid'] : $HTTP_GET_VARS['sid'];
@@ -163,7 +163,7 @@ if (!$is_auth['auth_view'] || !$is_auth['auth_read']) {
     if (!$userdata['session_logged_in']) {
         $redirect = ($post_id) ? POST_POST_URL."=$post_id" : POST_TOPIC_URL."=$topic_id";
         $redirect .= ($start) ? "&start=$start" : '';
-        $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+        $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
         header($header_location.append_sid("login.$phpEx?redirect=viewtopic.$phpEx&$redirect", true));
         exit;
     }
@@ -259,7 +259,7 @@ if ($userdata['session_logged_in']) {
 } else {
     if (isset($HTTP_GET_VARS['unwatch'])) {
         if ($HTTP_GET_VARS['unwatch'] == 'topic') {
-            $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+            $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
             header($header_location.append_sid("login.$phpEx?redirect=viewtopic.$phpEx&".POST_TOPIC_URL."=$topic_id&unwatch=topic", true));
             exit;
         }
@@ -989,10 +989,10 @@ for ($i = 0; $i < $total_posts; ++$i) {
             $post_subject = preg_replace($orig_word, $replacement_word, $post_subject);
 
             if ($user_sig != '') {
-                $user_sig = str_replace('\"', '"', substr(@preg_replace('#(\>(((?>([^><]+|(?R)))*)\<))#se', "@preg_replace(\$orig_word, \$replacement_word, '\\0')", '>'.$user_sig.'<'), 1, -1));
+                $user_sig = str_replace('\"', '"', substr(preg_replace('#(\>(((?>([^><]+|(?R)))*)\<))#se', "preg_replace(\$orig_word, \$replacement_word, '\\0')", '>'.$user_sig.'<'), 1, -1));
             }
 
-            $message = str_replace('\"', '"', substr(@preg_replace('#(\>(((?>([^><]+|(?R)))*)\<))#se', "@preg_replace(\$orig_word, \$replacement_word, '\\0')", '>'.$message.'<'), 1, -1));
+            $message = str_replace('\"', '"', substr(preg_replace('#(\>(((?>([^><]+|(?R)))*)\<))#se', "preg_replace(\$orig_word, \$replacement_word, '\\0')", '>'.$message.'<'), 1, -1));
         }
 
         //

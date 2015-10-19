@@ -70,7 +70,6 @@ define('_PRIVATEMSG', 'Προσωπικά Μηνύματα ');
 define('_YOUAREANON', 'Είσαστε ανώνυμος χρήστης. Μπορείτε να εγγραφείτε πατώντας <a href="modules.php?name=Your_Account">εδώ</a>');
 define('_NOBIGSTORY', 'Δεν υπάρχει σημαντικότερη είδηση μέχρι στιγμής');
 define('_BIGSTORY', 'Η πιο δημοφιλής είδηση της ημέρας είναι');
-define('_CHARSET', 'ISO-8859-7');
 define('_COMMENTS', 'Παρατηρήσεις');
 define('_LOGOUT', 'Αποσύνδεση');
 define('_GOBACK', '[ <a href="javascript:history.go(-1)">Προηγούμενο</a> ]');

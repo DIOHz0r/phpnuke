@@ -66,7 +66,7 @@ if (!defined('IN_PHPBB')) {
 
 // Is send through board enabled? No, return to index
 if (!$board_config['board_email_form']) {
-    $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+    $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
     header($header_location.append_sid("index.$phpEx", true));
     exit;
 }

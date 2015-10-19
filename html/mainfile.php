@@ -77,7 +77,7 @@ if (!function_exists('floatval')) {
 }
 if ($phpver >= '4.0.4pl1' && isset($_SERVER['HTTP_USER_AGENT']) && strstr($_SERVER['HTTP_USER_AGENT'], 'compatible')) {
     if (extension_loaded('zlib')) {
-        @ob_end_clean();
+        ob_end_clean();
         ob_start('ob_gzhandler');
     }
 } elseif ($phpver > '4.0' && isset($_SERVER['HTTP_ACCEPT_ENCODING']) && !empty($_SERVER['HTTP_ACCEPT_ENCODING'])) {
@@ -273,9 +273,9 @@ $pagetitle = '';
 // Error reporting, to be set in config.php
 error_reporting(E_ALL ^ E_NOTICE);
 if ($display_errors == 1) {
-    @ini_set('display_errors', 1);
+    ini_set('display_errors', 1);
 } else {
-    @ini_set('display_errors', 0);
+    ini_set('display_errors', 0);
 }
 
 if (!defined('FORUM_ADMIN')) {

@@ -141,7 +141,7 @@ $start = (isset($HTTP_GET_VARS['start'])) ? intval($HTTP_GET_VARS['start']) : 0;
 //
 // Default var values
 //
-$header_location = (@preg_match('/Microsoft|WebSTAR/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+$header_location = (preg_match('/Microsoft|WebSTAR/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
 $is_moderator = false;
 
 if (isset($HTTP_POST_VARS['groupstatus']) && $group_id) {
@@ -567,7 +567,7 @@ if (isset($HTTP_POST_VARS['groupstatus']) && $group_id) {
                                             $group_check[$row['user_id']][] = $row['group_id'];
                                         } while ($row = $db->sql_fetchrow($result));
 
-                                        while (list($user_id, $group_list) = @each($group_check)) {
+                                        while (list($user_id, $group_list) = each($group_check)) {
                                             if (count($group_list) == 1) {
                                                 $remove_mod_sql .= (($remove_mod_sql != '') ? ', ' : '').$user_id;
                                             }

@@ -55,9 +55,9 @@ function at_entrypage($vars)
     if (!$template) {
         $template = 'entrypage.html';
     }
-    if (@file_exists($themepath.$template)) {
+    if (file_exists($themepath.$template)) {
         $file = $themepath.$template;
-    } elseif (@file_exists($atdir."templates/$template")) {
+    } elseif (file_exists($atdir."templates/$template")) {
         $file = $atdir."templates/$template";
     } else {
         return;

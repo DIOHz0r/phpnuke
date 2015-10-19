@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'BIG5');
 define('_SEARCH', '站內搜尋');
 define('_LOGIN', '登入');
 define('_WRITES', '寫道');

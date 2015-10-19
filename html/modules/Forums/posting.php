@@ -39,7 +39,7 @@ include 'modules/Forums/includes/functions_post.php';
 // Check and set various parameters
 //
 $params = array('submit' => 'post', 'preview' => 'preview', 'delete' => 'delete', 'poll_delete' => 'poll_delete', 'poll_add' => 'add_poll_option', 'poll_edit' => 'edit_poll_option', 'mode' => 'mode');
-while (list($var, $param) = @each($params)) {
+while (list($var, $param) = each($params)) {
     if (!empty($HTTP_POST_VARS[$param]) || !empty($HTTP_GET_VARS[$param])) {
         $$var = (!empty($HTTP_POST_VARS[$param])) ? htmlspecialchars($HTTP_POST_VARS[$param]) : htmlspecialchars($HTTP_GET_VARS[$param]);
     } else {
@@ -50,7 +50,7 @@ while (list($var, $param) = @each($params)) {
 $confirm = isset($HTTP_POST_VARS['confirm']) ? true : false;
 
 $params = array('forum_id' => POST_FORUM_URL, 'topic_id' => POST_TOPIC_URL, 'post_id' => POST_POST_URL);
-while (list($var, $param) = @each($params)) {
+while (list($var, $param) = each($params)) {
     if (!empty($HTTP_POST_VARS[$param]) || !empty($HTTP_GET_VARS[$param])) {
         $$var = (!empty($HTTP_POST_VARS[$param])) ? intval($HTTP_POST_VARS[$param]) : intval($HTTP_GET_VARS[$param]);
     } else {
@@ -528,7 +528,7 @@ if ($refresh || isset($HTTP_POST_VARS['del_poll_option']) || $error_msg != '') {
 
     $poll_options = array();
     if (!empty($HTTP_POST_VARS['poll_option_text'])) {
-        while (list($option_id, $option_text) = @each($HTTP_POST_VARS['poll_option_text'])) {
+        while (list($option_id, $option_text) = each($HTTP_POST_VARS['poll_option_text'])) {
             if (isset($HTTP_POST_VARS['del_poll_option'][$option_id])) {
                 unset($poll_options[$option_id]);
             } elseif (!empty($option_text)) {

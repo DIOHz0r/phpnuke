@@ -51,16 +51,16 @@ function inarray($needle, $haystack)
 // Generate relevant output
 //
 if (isset($HTTP_GET_VARS['pane']) && $HTTP_GET_VARS['pane'] == 'left') {
-    $dir = @opendir('.');
+    $dir = opendir('.');
 
     $setmodules = 1;
-    while ($file = @readdir($dir)) {
+    while ($file = readdir($dir)) {
         if (preg_match("/^admin_.*?\.".$phpEx.'$/', $file)) {
             include $file;
         }
     }
 
-    @closedir($dir);
+    closedir($dir);
 
     unset($setmodules);
 
@@ -161,13 +161,13 @@ if (isset($HTTP_GET_VARS['pane']) && $HTTP_GET_VARS['pane'] == 'left') {
 
     $avatar_dir_size = 0;
 
-    if ($avatar_dir = @opendir($phpbb_root_path.$board_config['avatar_path'])) {
-        while ($file = @readdir($avatar_dir)) {
+    if ($avatar_dir = opendir($phpbb_root_path.$board_config['avatar_path'])) {
+        while ($file = readdir($avatar_dir)) {
             if ($file != '.' && $file != '..') {
-                $avatar_dir_size += @filesize($phpbb_root_path.$board_config['avatar_path'].'/'.$file);
+                $avatar_dir_size += filesize($phpbb_root_path.$board_config['avatar_path'].'/'.$file);
             }
         }
-        @closedir($avatar_dir);
+        closedir($avatar_dir);
 
                 //
                 // This bit of code translates the avatar directory size into human readable format
@@ -489,22 +489,22 @@ if (isset($HTTP_GET_VARS['pane']) && $HTTP_GET_VARS['pane'] == 'left') {
     $errno = 0;
     $errstr = $version_info = '';
 
-    if ($fsock = @fsockopen('www.phpbb.com', 80, $errno, $errstr)) {
-        @fputs($fsock, "GET /updatecheck/20x.txt HTTP/1.1\r\n");
-        @fputs($fsock, "HOST: www.phpbb.com\r\n");
-        @fputs($fsock, "Connection: close\r\n\r\n");
+    if ($fsock = fsockopen('www.phpbb.com', 80, $errno, $errstr)) {
+        fputs($fsock, "GET /updatecheck/20x.txt HTTP/1.1\r\n");
+        fputs($fsock, "HOST: www.phpbb.com\r\n");
+        fputs($fsock, "Connection: close\r\n\r\n");
 
         $get_info = false;
-        while (!@feof($fsock)) {
+        while (!feof($fsock)) {
             if ($get_info) {
-                $version_info .= @fread($fsock, 1024);
+                $version_info .= fread($fsock, 1024);
             } else {
-                if (@fgets($fsock, 1024) == "\r\n") {
+                if (fgets($fsock, 1024) == "\r\n") {
                     $get_info = true;
                 }
             }
         }
-        @fclose($fsock);
+        fclose($fsock);
 
         $version_info = explode("\n", $version_info);
         $latest_head_revision = (int) $version_info[0];

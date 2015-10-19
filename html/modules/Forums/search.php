@@ -224,8 +224,8 @@ if ($mode == 'searchuser') {
 
             $total_match_count = count($search_ids);
         } elseif ($search_keywords != '') {
-            $stopword_array = @file($phpbb_root_path.'language/lang_'.$board_config['default_lang'].'/search_stopwords.txt');
-            $synonym_array = @file($phpbb_root_path.'language/lang_'.$board_config['default_lang'].'/search_synonyms.txt');
+            $stopword_array = file($phpbb_root_path.'language/lang_'.$board_config['default_lang'].'/search_stopwords.txt');
+            $synonym_array = file($phpbb_root_path.'language/lang_'.$board_config['default_lang'].'/search_synonyms.txt');
 
             $split_search = array();
             $stripped_keywords = stripslashes($search_keywords);
@@ -298,8 +298,8 @@ if ($mode == 'searchuser') {
                         }
 
                         if ($current_match_type == 'and' && $word_count) {
-                            @reset($result_list);
-                            while (list($post_id, $match_count) = @each($result_list)) {
+                            reset($result_list);
+                            while (list($post_id, $match_count) = each($result_list)) {
                                 if (!$row[$post_id]) {
                                     $result_list[$post_id] = 0;
                                 }
@@ -312,7 +312,7 @@ if ($mode == 'searchuser') {
                     }
             }
 
-            @reset($result_list);
+            reset($result_list);
 
             $search_ids = array();
             while (list($post_id, $matches) = each($result_list)) {
@@ -1098,7 +1098,7 @@ if ($s_forums != '') {
     // Category to search
     //
     $s_categories = '<option value="-1">'.$lang['All_available'].'</option>';
-    while (list($cat_id, $cat_title) = @each($list_cat)) {
+    while (list($cat_id, $cat_title) = each($list_cat)) {
         $s_categories .= '<option value="'.$cat_id.'">'.$cat_title.'</option>';
     }
 } else {

@@ -17,7 +17,6 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define('_CHARSET', 'Windows-1251');
 define('_SEARCH', 'Барај');
 define('_LOGIN', 'Логин');
 define('_WRITES', 'пишува');

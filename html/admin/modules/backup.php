@@ -27,7 +27,7 @@ if ($row['radminsuper'] == 1) {
     switch ($op) {
 
         case 'backup':
-        @set_time_limit(600);
+        set_time_limit(600);
         $crlf = "\n";
 
         switch ($lang) {
@@ -169,7 +169,7 @@ if ($row['radminsuper'] == 1) {
                 $index[$kname][] = $row['Column_name'];
             }
 
-            while (list($x, $columns) = @each($index)) {
+            while (list($x, $columns) = each($index)) {
                 $schema_create .= ",$crlf";
                 if ($x == 'PRIMARY') {
                     $schema_create .= '   PRIMARY KEY ('.implode($columns, ', ').')';
@@ -202,11 +202,11 @@ if ($row['radminsuper'] == 1) {
 
         global $dbhost, $dbuname, $dbpass, $dbname;
         mysql_pconnect($dbhost, $dbuname, $dbpass);
-        @mysql_select_db("$dbname") or die('Unable to select database');
+        mysql_select_db("$dbname") or die('Unable to select database');
 
         $tables = mysql_list_tables($dbname);
 
-        $num_tables = @mysql_numrows($tables);
+        $num_tables = mysql_numrows($tables);
         if ($num_tables == 0) {
             echo $strNoTablesFound;
         } else {

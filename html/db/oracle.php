@@ -48,11 +48,11 @@ class sql_db
 
 		if($this->persistency)
 		{
-			$this->db_connect_id = @OCIPLogon($this->user, $this->password, $this->server);
+			$this->db_connect_id = OCIPLogon($this->user, $this->password, $this->server);
 		}
 		else
 		{
-			$this->db_connect_id = @OCINLogon($this->user, $this->password, $this->server);
+			$this->db_connect_id = OCINLogon($this->user, $this->password, $this->server);
 		}
 		if($this->db_connect_id)
 		{
@@ -79,9 +79,9 @@ class sql_db
 
 			if($this->query_result)
 			{
-				@OCIFreeStatement($this->query_result);
+				OCIFreeStatement($this->query_result);
 			}
-			$result = @OCILogoff($this->db_connect_id);
+			$result = OCILogoff($this->db_connect_id);
 			return $result;
 		}
 		else
@@ -128,8 +128,8 @@ class sql_db
 				$query = preg_replace("/\\\'/s", "''", $query);
 			}
 
-			$this->query_result = @OCIParse($this->db_connect_id, $query);
-			$success = @OCIExecute($this->query_result, OCI_DEFAULT);
+			$this->query_result = OCIParse($this->db_connect_id, $query);
+			$success = OCIExecute($this->query_result, OCI_DEFAULT);
 		}
 		if($success)
 		{
@@ -166,10 +166,10 @@ class sql_db
 		}
 		if($query_id)
 		{
-			$result = @OCIFetchStatement($query_id, $this->rowset);
+			$result = OCIFetchStatement($query_id, $this->rowset);
 			// OCIFetchStatment kills our query result so we have to execute the statment again
 			// if we ever want to use the query_id again.
-			@OCIExecute($query_id, OCI_DEFAULT);
+			OCIExecute($query_id, OCI_DEFAULT);
 			return $result;
 		}
 		else
@@ -185,7 +185,7 @@ class sql_db
 		}
 		if($query_id)
 		{
-			$result = @OCIRowCount($query_id);
+			$result = OCIRowCount($query_id);
 			return $result;
 		}
 		else
@@ -201,7 +201,7 @@ class sql_db
 		}
 		if($query_id)
 		{
-			$result = @OCINumCols($query_id);
+			$result = OCINumCols($query_id);
 			return $result;
 		}
 		else
@@ -220,7 +220,7 @@ class sql_db
 		}
 		if($query_id)
 		{
-			$result = strtolower(@OCIColumnName($query_id, $offset));
+			$result = strtolower(OCIColumnName($query_id, $offset));
 			return $result;
 		}
 		else
@@ -238,7 +238,7 @@ class sql_db
 		}
 		if($query_id)
 		{
-			$result = @OCIColumnType($query_id, $offset);
+			$result = OCIColumnType($query_id, $offset);
 			return $result;
 		}
 		else
@@ -255,7 +255,7 @@ class sql_db
 		if($query_id)
 		{
 			$result_row = "";
-			$result = @OCIFetchInto($query_id, $result_row, OCI_ASSOC+OCI_RETURN_NULLS);
+			$result = OCIFetchInto($query_id, $result_row, OCI_ASSOC+OCI_RETURN_NULLS);
 			if($debug)
 			{
 				echo "Query was: ".$this->last_query . "<br>";
@@ -294,11 +294,11 @@ class sql_db
 		}
 		if($query_id)
 		{
-			$rows = @OCIFetchStatement($query_id, $results);
-			@OCIExecute($query_id, OCI_DEFAULT);
+			$rows = OCIFetchStatement($query_id, $results);
+			OCIExecute($query_id, OCI_DEFAULT);
 			for($i = 0; $i <= $rows; $i++)
 			{
-				@OCIFetchInto($query_id, $tmp_result, OCI_ASSOC+OCI_RETURN_NULLS);
+				OCIFetchInto($query_id, $tmp_result, OCI_ASSOC+OCI_RETURN_NULLS);
 
 				for($j = 0; $j < count($tmp_result); $j++)
 				{
@@ -325,20 +325,20 @@ class sql_db
 			if($rownum > -1)
 			{
 				// Reset the internal rownum pointer.
-				@OCIExecute($query_id, OCI_DEFAULT);
+				OCIExecute($query_id, OCI_DEFAULT);
 				for($i = 0; $i < $rownum; $i++)
 				  {
 						// Move the interal pointer to the row we want
-						@OCIFetch($query_id);
+						OCIFetch($query_id);
 				  }
 				// Get the field data.
-				$result = @OCIResult($query_id, strtoupper($field));
+				$result = OCIResult($query_id, strtoupper($field));
 			}
 			else
 			{
 				// The internal pointer should be where we want it
 				// so we just grab the field out of the current row.
-				$result = @OCIResult($query_id, strtoupper($field));
+				$result = OCIResult($query_id, strtoupper($field));
 			}
 			return $result;
 		}
@@ -355,12 +355,12 @@ class sql_db
 		}
 		if($query_id)
 		{
-				@OCIExecute($query_id, OCI_DEFAULT);
+				OCIExecute($query_id, OCI_DEFAULT);
 			for($i = 0; $i < $rownum; $i++)
 				{
-					@OCIFetch($query_id);
+					OCIFetch($query_id);
 				}
-			$result = @OCIFetch($query_id);
+			$result = OCIFetch($query_id);
 			return $result;
 		}
 		else
@@ -379,9 +379,9 @@ class sql_db
 			if( preg_match('/^(INSERT{1}|^INSERT INTO{1})[[:space:]][\"]?([a-zA-Z0-9\_\-]+)[\"]?/i', $this->last_query_text[$query_id], $tablename))
 			{
 				$query = "SELECT ".$tablename[2]."_id_seq.currval FROM DUAL";
-				$stmt = @OCIParse($this->db_connect_id, $query);
-				@OCIExecute($stmt,OCI_DEFAULT );
-				$temp_result = @OCIFetchInto($stmt, $temp_result, OCI_ASSOC+OCI_RETURN_NULLS);
+				$stmt = OCIParse($this->db_connect_id, $query);
+				OCIExecute($stmt,OCI_DEFAULT );
+				$temp_result = OCIFetchInto($stmt, $temp_result, OCI_ASSOC+OCI_RETURN_NULLS);
 				if($temp_result)
 				{
 					return $temp_result['CURRVAL'];
@@ -413,9 +413,9 @@ class sql_db
 			if( preg_match('/^(INSERT{1}|^INSERT INTO{1})[[:space:]][\"]?([a-zA-Z0-9\_\-]+)[\"]?/i', $this->last_query_text[$query_id], $tablename))
 			{
 				$query = "SELECT ".$tablename[2]."_id_seq.CURRVAL FROM DUAL";
-				$temp_q_id =  @OCIParse($this->db_connect_id, $query);
-				@OCIExecute($temp_q_id, OCI_DEFAULT);
-				@OCIFetchInto($temp_q_id, $temp_result, OCI_ASSOC+OCI_RETURN_NULLS);
+				$temp_q_id =  OCIParse($this->db_connect_id, $query);
+				OCIExecute($temp_q_id, OCI_DEFAULT);
+				OCIFetchInto($temp_q_id, $temp_result, OCI_ASSOC+OCI_RETURN_NULLS);
 
 				if($temp_result)
 				{
@@ -447,7 +447,7 @@ class sql_db
 		}
 		if($query_id)
 		{
-				$result = @OCIFreeStatement($query_id);
+				$result = OCIFreeStatement($query_id);
 				return $result;
 		}
 		else
@@ -461,7 +461,7 @@ class sql_db
 		{
 			$query_id = $this->query_result;
 		}
-		$result  = @OCIError($query_id);
+		$result  = OCIError($query_id);
 		return $result;
 	}
 

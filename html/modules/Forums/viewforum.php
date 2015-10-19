@@ -136,7 +136,7 @@ $is_auth = auth(AUTH_ALL, $forum_id, $userdata, $forum_row);
 if (!$is_auth['auth_read'] || !$is_auth['auth_view']) {
     if (!$userdata['session_logged_in']) {
         $redirect = POST_FORUM_URL."=$forum_id".((isset($start)) ? "&start=$start" : '');
-        $header_location = (@preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
+        $header_location = (preg_match('/Microsoft|WebSTAR|Xitami/', $_SERVER['SERVER_SOFTWARE'])) ? 'Refresh: 0; URL=' : 'Location: ';
         header($header_location.append_sid("login.$phpEx?redirect=viewforum.$phpEx&$redirect", true));
         exit;
     }

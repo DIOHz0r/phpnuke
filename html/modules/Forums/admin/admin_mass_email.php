@@ -40,7 +40,7 @@ require './pagestart.'.$phpEx;
 // Increase maximum execution time in case of a lot of users, but don't complain about it if it isn't
 // allowed.
 //
-@set_time_limit(1200);
+set_time_limit(1200);
 
 $message = '';
 $subject = '';
@@ -94,7 +94,7 @@ if (isset($HTTP_POST_VARS['submit'])) {
                 // are working in win32 versions of php.
                 //
                 if (preg_match('/[c-z]:\\\.*/i', getenv('PATH')) && !$board_config['smtp_delivery']) {
-                    $ini_val = (@phpversion() >= '4.0.0') ? 'ini_get' : 'get_cfg_var';
+                    $ini_val = (phpversion() >= '4.0.0') ? 'ini_get' : 'get_cfg_var';
 
                         // We are running on windows, force delivery to use our smtp functions
                         // since php's are broken by default

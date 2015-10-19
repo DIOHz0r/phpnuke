@@ -107,7 +107,7 @@ if (
         // Strip all tags from data ... may p**s some people off, bah, strip_tags is
         // doing the job but can still break HTML output ... have no choice, have
         // to use htmlspecialchars ... be prepared to be moaned at.
-        while (list($var, $param) = @each($strip_var_list)) {
+        while (list($var, $param) = each($strip_var_list)) {
             if (!empty($HTTP_POST_VARS[$param])) {
                 $$var = trim(htmlspecialchars($HTTP_POST_VARS[$param]));
             }
@@ -117,7 +117,7 @@ if (
 
     $trim_var_list = array('cur_password' => 'cur_password', 'new_password' => 'new_password', 'password_confirm' => 'password_confirm', 'signature' => 'signature');
 
-    while (list($var, $param) = @each($trim_var_list)) {
+    while (list($var, $param) = each($trim_var_list)) {
         if (!empty($HTTP_POST_VARS[$param])) {
             $$var = trim($HTTP_POST_VARS[$param]);
         }
@@ -855,7 +855,7 @@ if (isset($HTTP_POST_VARS['avatargallery']) && !$error) {
 
         unset($code);
 
-        $confirm_image = (@extension_loaded('zlib')) ? '<img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id").'" alt="" title="" />' : '<img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=1").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=2").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=3").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=4").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=5").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=6").'" alt="" title="" />';
+        $confirm_image = (extension_loaded('zlib')) ? '<img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id").'" alt="" title="" />' : '<img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=1").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=2").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=3").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=4").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=5").'" alt="" title="" /><img src="'.append_sid("profile.$phpEx?mode=confirm&amp;id=$confirm_id&amp;c=6").'" alt="" title="" />';
         $s_hidden_fields .= '<input type="hidden" name="confirm_id" value="'.$confirm_id.'" />';
 
         $template->assign_block_vars('switch_confirm', array());
@@ -990,7 +990,7 @@ if (isset($HTTP_POST_VARS['avatargallery']) && !$error) {
             if ($userdata['user_allowavatar'] && ($board_config['allow_avatar_upload'] || $board_config['allow_avatar_local'] || $board_config['allow_avatar_remote'])) {
                 $template->assign_block_vars('switch_avatar_block', array());
 
-                if ($board_config['allow_avatar_upload'] && file_exists(@phpbb_realpath('./'.$board_config['avatar_path']))) {
+                if ($board_config['allow_avatar_upload'] && file_exists(phpbb_realpath('./'.$board_config['avatar_path']))) {
                     if ($form_enctype != '') {
                         $template->assign_block_vars('switch_avatar_block.switch_avatar_local_upload', array());
                     }
@@ -1001,7 +1001,7 @@ if (isset($HTTP_POST_VARS['avatargallery']) && !$error) {
                     $template->assign_block_vars('switch_avatar_block.switch_avatar_remote_link', array());
                 }
 
-                if ($board_config['allow_avatar_local'] && file_exists(@phpbb_realpath('./'.$board_config['avatar_gallery_path']))) {
+                if ($board_config['allow_avatar_local'] && file_exists(phpbb_realpath('./'.$board_config['avatar_gallery_path']))) {
                     $template->assign_block_vars('switch_avatar_block.switch_avatar_local_gallery', array());
                 }
             }

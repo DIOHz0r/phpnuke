@@ -70,10 +70,10 @@ function language_select($default, $select_name = 'language', $dirname = 'module
 {
     global $phpEx;
 
-    $dir = @opendir($dirname);
+    $dir = opendir($dirname);
 
     $lang = array();
-    while ($file = @readdir($dir)) {
+    while ($file = readdir($dir)) {
         if (preg_match('/^lang_/', $file) && !is_file($dirname.'/'.$file) && !is_link($dirname.'/'.$file)) {
             $filename = trim(str_replace('lang_', '', $file));
             $displayname = preg_replace('/^(.*?)_(.*)$/', '\\1 [ \\2 ]', $filename);
@@ -82,13 +82,13 @@ function language_select($default, $select_name = 'language', $dirname = 'module
         }
     }
 
-    @closedir($dir);
+    closedir($dir);
 
-    @asort($lang);
-    @reset($lang);
+    asort($lang);
+    reset($lang);
 
     $lang_select = '<select name="'.$select_name.'">';
-    while (list($displayname, $filename) = @each($lang)) {
+    while (list($displayname, $filename) = each($lang)) {
         $selected = (strtolower($default) == strtolower($filename)) ? ' selected="selected"' : '';
         $lang_select .= '<option value="'.$filename.'"'.$selected.'>'.ucwords($displayname).'</option>';
     }
@@ -134,7 +134,7 @@ function tz_select($default, $select_name = 'timezone')
     }
     $tz_select = '<select name="'.$select_name.'">';
 
-    while (list($offset, $zone) = @each($lang['tz'])) {
+    while (list($offset, $zone) = each($lang['tz'])) {
         $selected = ($offset == $default) ? ' selected="selected"' : '';
         $tz_select .= '<option value="'.$offset.'"'.$selected.'>'.$zone.'</option>';
     }

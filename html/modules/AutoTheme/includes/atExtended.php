@@ -46,9 +46,9 @@ function atThemeExit()
     if (!$template) {
         $template = 'HTML401_Transitional.html';
     }
-    if (@file_exists($themepath.$template)) {
+    if (file_exists($themepath.$template)) {
         $file = $themepath.$template;
-    } elseif (@file_exists($atdir."templates/$platform/$template")) {
+    } elseif (file_exists($atdir."templates/$platform/$template")) {
         $file = $atdir."templates/$platform/$template";
     } else {
         $file = $atdir.'templates/HTML.html';
@@ -81,7 +81,7 @@ function atThemeAddHeader()
                 ."</script>\n";
     }
     if (isset($stylesheet)) {
-        if (@file_exists($themepath.$stylesheet) && !@is_dir($themepath.$stylesheet)) {
+        if (file_exists($themepath.$stylesheet) && !is_dir($themepath.$stylesheet)) {
             $head .= "\n<!-- Custom Page stylesheet -->\n";
             $head .= '<link rel="stylesheet" href="'.$themepath.$stylesheet.'" type="text/css"'
             .($xhtml ? ' />' : '>')."\n";

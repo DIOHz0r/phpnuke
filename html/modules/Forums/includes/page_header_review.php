@@ -245,7 +245,7 @@ if ($userdata['session_logged_in']) {
 //
 $nav_links_html = '';
 $nav_link_proto = '<link rel="%s" href="%s" title="%s" />'."\n";
-while (list($nav_item, $nav_array) = @each($nav_links)) {
+while (list($nav_item, $nav_array) = each($nav_links)) {
     if (!empty($nav_array['url'])) {
         $nav_links_html .= sprintf($nav_link_proto, $nav_item, $nav_array['url'], $nav_array['title']);
     } else {

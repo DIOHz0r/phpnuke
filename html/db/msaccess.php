@@ -60,7 +60,7 @@ if (!defined('SQL_LAYER')) {
     {
         if ($this->db_connect_id) {
             if ($this->in_transaction) {
-                @odbc_commit($this->db_connect_id);
+                odbc_commit($this->db_connect_id);
             }
 
             if (count($this->result_rowset)) {
@@ -71,7 +71,7 @@ if (!defined('SQL_LAYER')) {
                 unset($this->current_row);
             }
 
-            return @odbc_close($this->db_connect_id);
+            return odbc_close($this->db_connect_id);
         } else {
             return false;
         }
@@ -167,7 +167,7 @@ if (!defined('SQL_LAYER')) {
             if ($transaction == END_TRANSACTION && $this->in_transaction) {
                 $this->in_transaction = false;
 
-                if (!@odbc_commit($this->db_connect_id)) {
+                if (!odbc_commit($this->db_connect_id)) {
                     odbc_rollback($this->db_connect_id);
                     odbc_autocommit($this->db_connect_id, true);
 
@@ -181,7 +181,7 @@ if (!defined('SQL_LAYER')) {
             if ($transaction == END_TRANSACTION && $this->in_transaction) {
                 $this->in_transaction = false;
 
-                if (!@odbc_commit($this->db_connect_id)) {
+                if (!odbc_commit($this->db_connect_id)) {
                     odbc_rollback($this->db_connect_id);
                     odbc_autocommit($this->db_connect_id, true);
 
