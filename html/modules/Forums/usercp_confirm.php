@@ -42,7 +42,7 @@ init_userprefs($userdata);
 // Note to potential users of this code ...
 //
 // Remember this is released under the _GPL_ and is subject
-// to that licence. Do not incorporate this within software 
+// to that licence. Do not incorporate this within software
 // released or distributed in any way under a licence other
 // than the GPL. We will be watching ... ;)
 
@@ -75,7 +75,7 @@ if ($row = $db->sql_fetchrow($result)) {
     exit;
 }
 
-// We can we will generate a single filtered png 
+// We can we will generate a single filtered png
 // Thanks to DavidMJ for emulating zlib within the code :)
     $_png = define_filtered_pngs();
 

@@ -31,7 +31,7 @@ if ($row['radminsuper'] == 1) {
         $crlf = "\n";
 
         switch ($lang) {
-            case french :
+            case french:
             // French Text
             $strNoTablesFound = "Aucune table n'a été trouvée dans cette base.";
             $strHost = 'Serveur';
@@ -50,7 +50,7 @@ if ($row['radminsuper'] == 1) {
             $date_jour = date('d-m-Y');
             break;
 
-            default :
+            default:
             // English Text
             $strNoTablesFound = 'No tables found in database.';
             $strHost = 'Host';

@@ -1,7 +1,7 @@
 <?php
 // ----------------------------------------------------------------------
-// Google Tap Beta 0.5.0 - 09 Feb 2003                                  
-// Copyright (c) 2002 by Nuke Cops                                      
+// Google Tap Beta 0.5.0 - 09 Feb 2003
+// Copyright (c) 2002 by Nuke Cops
 // http://nukecops.com
 // ----------------------------------------------------------------------
 // LICENSE and CREDITS

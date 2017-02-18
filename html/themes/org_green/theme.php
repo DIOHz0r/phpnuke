@@ -50,8 +50,7 @@ function themeheader()
     $username = $cookie[1];
     if (empty($username)) {
         $username = $anonymous;
-    }
-    ?>
+    } ?>
     
     <!-- contenido arriba body -->
     

@@ -197,7 +197,7 @@ function atLoadRunningConfig()
         $matchlen = 0;
         if ($_SERVER['QUERY_STRING']) {
             foreach ($template[$modtemplate] as $ops => $vals) {
-                if ((strlen($ops) > $matchlen) && preg_match('/'.preg_quote($ops,'/').'/i', $_SERVER['QUERY_STRING'])) {
+                if ((strlen($ops) > $matchlen) && preg_match('/'.preg_quote($ops, '/').'/i', $_SERVER['QUERY_STRING'])) {
                     $modops = $ops;
                     $matchlen = strlen($modops);
                 }

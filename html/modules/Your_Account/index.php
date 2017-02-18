@@ -265,7 +265,7 @@ function userinfo($username, $bypass = 0, $hid = 0, $url = 0)
     include 'header.php';
     OpenTable();
     echo '<center>';
-    if ($username != '') { // SecurityReason.com Fix 2005 [sp3x] 
+    if ($username != '') { // SecurityReason.com Fix 2005 [sp3x]
     if ((isset($cookie[1])) and (strtolower($username) == strtolower($cookie[1])) and ($userinfo['user_password'] == $cookie[2])) {
         echo '<font class="option">'.htmlentities($username).', '._WELCOMETO." $sitename!</font><br><br>";
         echo '<font class="content">'._THISISYOURPAGE.'</font></center><br><br>';
@@ -1514,88 +1514,70 @@ function editcomm()
         echo '<table cellpadding="8" border="0"><tr><td>'
         ."<form action=\"modules.php?name=$module_name\" method=\"post\">"
         .'<b>'._DISPLAYMODE.'</b>'
-        .'<select name="umode">';
-        ?>
+        .'<select name="umode">'; ?>
     <option value="nocomments" <?php if ($userinfo['umode'] == 'nocomments') {
-    echo 'selected';
-}
-        ?>><?php echo _NOCOMMENTS ?>
+            echo 'selected';
+        } ?>><?php echo _NOCOMMENTS ?>
     <option value="nested" <?php if ($userinfo['umode'] == 'nested') {
-    echo 'selected';
-}
-        ?>><?php echo _NESTED ?>
+            echo 'selected';
+        } ?>><?php echo _NESTED ?>
     <option value="flat" <?php if ($userinfo['umode'] == 'flat') {
-    echo 'selected';
-}
-        ?>><?php echo _FLAT ?>
+            echo 'selected';
+        } ?>><?php echo _FLAT ?>
     <option value="thread" <?php if (!isset($userinfo['umode']) || (empty($userinfo['umode'])) || $userinfo['umode'] == 'thread') {
-    echo 'selected';
-}
-        ?>><?php echo _THREAD ?>
+            echo 'selected';
+        } ?>><?php echo _THREAD ?>
     </select>
     <br><br>
     <b><?php echo _SORTORDER ?></b>
     <select name="uorder">
     <option value="0" <?php if (!$userinfo['uorder']) {
-    echo 'selected';
-}
-        ?>><?php echo _OLDEST ?>
+            echo 'selected';
+        } ?>><?php echo _OLDEST ?>
     <option value="1" <?php if ($userinfo['uorder'] == 1) {
-    echo 'selected';
-}
-        ?>><?php echo _NEWEST ?>
+            echo 'selected';
+        } ?>><?php echo _NEWEST ?>
     <option value="2" <?php if ($userinfo['uorder'] == 2) {
-    echo 'selected';
-}
-        ?>><?php echo _HIGHEST ?>
+            echo 'selected';
+        } ?>><?php echo _HIGHEST ?>
     </select>
     <br><br>
     <b><?php echo _THRESHOLD ?></b>
     <?php echo _COMMENTSWILLIGNORED ?><br>
     <select name="thold">
     <option value="-1" <?php if ($userinfo['thold'] == -1) {
-    echo 'selected';
-}
-        ?>>-1: <?php echo _UNCUT ?>
+            echo 'selected';
+        } ?>>-1: <?php echo _UNCUT ?>
     <option value="0" <?php if ($userinfo['thold'] == 0) {
-    echo 'selected';
-}
-        ?>>0: <?php echo _EVERYTHING ?>
+            echo 'selected';
+        } ?>>0: <?php echo _EVERYTHING ?>
     <option value="1" <?php if ($userinfo['thold'] == 1) {
-    echo 'selected';
-}
-        ?>>1: <?php echo _FILTERMOSTANON ?>
+            echo 'selected';
+        } ?>>1: <?php echo _FILTERMOSTANON ?>
     <option value="2" <?php if ($userinfo['thold'] == 2) {
-    echo 'selected';
-}
-        ?>>2: <?php echo _USCORE ?> +2
+            echo 'selected';
+        } ?>>2: <?php echo _USCORE ?> +2
     <option value="3" <?php if ($userinfo['thold'] == 3) {
-    echo 'selected';
-}
-        ?>>3: <?php echo _USCORE ?> +3
+            echo 'selected';
+        } ?>>3: <?php echo _USCORE ?> +3
     <option value="4" <?php if ($userinfo['thold'] == 4) {
-    echo 'selected';
-}
-        ?>>4: <?php echo _USCORE ?> +4
+            echo 'selected';
+        } ?>>4: <?php echo _USCORE ?> +4
     <option value="5" <?php if ($userinfo['thold'] == 5) {
-    echo 'selected';
-}
-        ?>>5: <?php echo _USCORE ?> +5
+            echo 'selected';
+        } ?>>5: <?php echo _USCORE ?> +5
     </select><br>
     <i><?php echo _SCORENOTE ?></i>
     <br><br>
     <INPUT type="checkbox" name="noscore" <?php if ($userinfo['noscore'] == 1) {
-    echo 'checked';
-}
-        ?>><b> <?php echo _NOSCORES ?></b> <?php echo _HIDDESCORES ?>
+            echo 'checked';
+        } ?>><b> <?php echo _NOSCORES ?></b> <?php echo _HIDDESCORES ?>
     <br><br>
     <b><?php echo _MAXCOMMENT ?></b> <?php echo _TRUNCATES ?><br>
     <input type="text" name="commentmax" value="<?php echo ''.intval($userinfo['commentmax']).'' ?>" size=11 maxlength=11> <?php echo _BYTESNOTE ?>
     <br><br>
-    <input type="hidden" name="username" value="<?php echo''.$userinfo['username'].'';
-        ?>">
-    <input type="hidden" name="user_id" value="<?php echo''.intval($userinfo['user_id']).'';
-        ?>">
+    <input type="hidden" name="username" value="<?php echo''.$userinfo['username'].''; ?>">
+    <input type="hidden" name="user_id" value="<?php echo''.intval($userinfo['user_id']).''; ?>">
     <input type="hidden" name="op" value="savecomm">
     <input type="submit" value="<?php echo _SAVECHANGES ?>">
     </form></td></tr></table>
@@ -1640,7 +1622,7 @@ function avatarlist($avatarcategory)
     include 'header.php';
     if ((is_user($user)) and (strtolower($userinfo['username']) == strtolower($cookie[1])) and ($userinfo['user_password'] == $cookie[2])) { // SecurityReason Fix 2005 - sp3x -> check if we are user if not then Access Denied
     $avatarcatname = preg_replace('/_/', '&nbsp;', $avatarcategory);
-        $avatarcategory = htmlspecialchars($avatarcategory); //SecurityReason Fix 2005 - sp3x 
+        $avatarcategory = htmlspecialchars($avatarcategory); //SecurityReason Fix 2005 - sp3x
     title(''.$avatarcategory.' Avatar Gallery');
         Opentable();
         nav();

@@ -26,8 +26,8 @@ if (!isset($popup) or ($popup != '1')) {
     $module_name = basename(dirname(__FILE__));
     require 'modules/Forums/nukebb.php';
 } else {
-        $phpbb_root_path = 'modules/Forums/';
-    }
+    $phpbb_root_path = 'modules/Forums/';
+}
 
 define('IN_PHPBB', true);
 include $phpbb_root_path.'extension.inc';

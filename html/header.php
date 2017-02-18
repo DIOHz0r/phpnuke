@@ -34,9 +34,7 @@ function head()
     echo '<html xmlns="http://www.w3.org/1999/xhtml">';
     echo "<head>\n";
     echo "<title>$sitename $pagetitle</title>\n";
-    echo '<meta name="google-site-verification" content="3y3xJYDHSYUitn7cbfFfI6C2BiK_q66dtRfykpzHW5w" />';
-
-    ?>
+    echo '<meta name="google-site-verification" content="3y3xJYDHSYUitn7cbfFfI6C2BiK_q66dtRfykpzHW5w" />'; ?>
 
     
     

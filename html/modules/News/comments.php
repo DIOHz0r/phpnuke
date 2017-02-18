@@ -47,8 +47,8 @@ function format_url($comment)
         } else {
             if (!strcasecmp(strtok($tag, ' '), 'A')) {
                 if (preg_match('/HREF[ \t\n\r\v]*=[ \t\n\r\v]*\"([^\"]*)\"/i', $tag, $regs)); elseif (preg_match('/HREF[ \t\n\r\v]*=[ \t\n\r\v]*([^ \t\n\r\v]*)/i', $tag, $regs)); else {
-     $regs[1] = '';
- }
+                    $regs[1] = '';
+                }
                 if ($regs[1]) {
                     $location = $regs[1];
                 }

@@ -899,7 +899,7 @@ if ($total_categories = $db->sql_numrows($q_categories)) {
             $forum_id = $forum_rows[$j]['forum_id'];
 
             if ($forum_rows[$j]['cat_id'] == $cat_id) {
-                $template->assign_block_vars('catrow.forumrow',        array(
+                $template->assign_block_vars('catrow.forumrow', array(
                                         'FORUM_NAME' => $forum_rows[$j]['forum_name'],
                                         'FORUM_DESC' => $forum_rows[$j]['forum_desc'],
                                         'ROW_COLOR' => $row_color,

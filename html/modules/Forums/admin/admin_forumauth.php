@@ -130,7 +130,7 @@ if (isset($HTTP_POST_VARS['submit'])) {
     $template->assign_vars(array(
                 'META' => '<meta http-equiv="refresh" content="3;url='.append_sid("admin_forumauth.$phpEx?".POST_FORUM_URL."=$forum_id").'">', )
         );
-    $message = $lang['Forum_auth_updated'].'<br /><br />'.sprintf($lang['Click_return_forumauth'],  '<a href="'.append_sid("admin_forumauth.$phpEx").'">', '</a>');
+    $message = $lang['Forum_auth_updated'].'<br /><br />'.sprintf($lang['Click_return_forumauth'], '<a href="'.append_sid("admin_forumauth.$phpEx").'">', '</a>');
     message_die(GENERAL_MESSAGE, $message);
 } // End of submit
 

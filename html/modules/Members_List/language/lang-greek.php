@@ -17,27 +17,25 @@
 /* And, if you use HTML code, please double check it.                     */
 /**************************************************************************/
 
-define("_PAGES","Σελίδες");
-define("_EMAIL","Email");
-define("_PREVIOUS","Προηγούμενη Σελίδα");
-define("_URL","URL");
-define("_SORTBY","Ταξινόμηση κατά");
-define("_MNICKNAME","παρωνύμιο");
-define("_MREALNAME","πραγματικό όνομα");
-define("_MEMAIL","email ");
-define("_MURL","url");
-define("_MEMBERSLIST","Λίστα Εγγεγραμμένων");
-define("_GREETINGS","Καλοσωρίζουμε τον πιο πρόσφατα εγγεγραμμένο χρήστη");
-define("_ONLINEREG","Συνδεδεμένοι Εγγεγραμμένοι Χρήστες");
-define("_WEHAVE","Υπάρχουν");
-define("_MREGISTERED","εγγεγραμμένα μέλη επί του παρόντος. Αυτή τη χρονική στιγμή υπάρχουν");
-define("_MREGONLINE","συνδεδεμένα εγγεγραμμένα μέλη.");
-define("_REGSOFAR","εγγεγραμμένα μέλη επί του παρόντος ");
-define("_REALNAME","Πραγματικό Ονομα");
-define("_FUNCTIONS","Λειτουργίες");
-define("_USERSFOUND","ενεργοί χρήστες για");
-define("_USERSSHOWN","εμφανιζόμενοι χρήστες");
-define("_NOMEMBERS","Δεν βρέθηκαν μέλη για");
+define("_PAGES", "Σελίδες");
+define("_EMAIL", "Email");
+define("_PREVIOUS", "Προηγούμενη Σελίδα");
+define("_URL", "URL");
+define("_SORTBY", "Ταξινόμηση κατά");
+define("_MNICKNAME", "παρωνύμιο");
+define("_MREALNAME", "πραγματικό όνομα");
+define("_MEMAIL", "email ");
+define("_MURL", "url");
+define("_MEMBERSLIST", "Λίστα Εγγεγραμμένων");
+define("_GREETINGS", "Καλοσωρίζουμε τον πιο πρόσφατα εγγεγραμμένο χρήστη");
+define("_ONLINEREG", "Συνδεδεμένοι Εγγεγραμμένοι Χρήστες");
+define("_WEHAVE", "Υπάρχουν");
+define("_MREGISTERED", "εγγεγραμμένα μέλη επί του παρόντος. Αυτή τη χρονική στιγμή υπάρχουν");
+define("_MREGONLINE", "συνδεδεμένα εγγεγραμμένα μέλη.");
+define("_REGSOFAR", "εγγεγραμμένα μέλη επί του παρόντος ");
+define("_REALNAME", "Πραγματικό Ονομα");
+define("_FUNCTIONS", "Λειτουργίες");
+define("_USERSFOUND", "ενεργοί χρήστες για");
+define("_USERSSHOWN", "εμφανιζόμενοι χρήστες");
+define("_NOMEMBERS", "Δεν βρέθηκαν μέλη για");
 # define("_HOMEPAGE","Κεντρική Σελίδα ");
-
-?>

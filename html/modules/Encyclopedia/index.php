@@ -162,7 +162,7 @@ function content($tid, $ltr, $page = 0, $query = '')
         }
         if (!empty($query)) {
             $query = htmlentities($query);
-            $contentpages[$arrayelement] = preg_replace('/'.preg_quote($query,'/').'/i', "<b>$query</b>", $contentpages[$arrayelement]);
+            $contentpages[$arrayelement] = preg_replace('/'.preg_quote($query, '/').'/i', "<b>$query</b>", $contentpages[$arrayelement]);
             $fromsearch = "&query=$query";
         } else {
             $fromsearch = '';

@@ -596,7 +596,7 @@ class database
             $fields[] = $this->NameQuote($k);
             $values[] = $this->Quote($v);
         }
-        $this->setQuery(sprintf($fmtsql, implode(',', $fields),  implode(',', $values)));
+        $this->setQuery(sprintf($fmtsql, implode(',', $fields), implode(',', $values)));
         ($verbose) && print "$sql<br />\n";
         if (!$this->query()) {
             return false;

@@ -259,7 +259,7 @@ function bbencode_first_pass($text, $uid)
     $open_tag[1] = '[list=a]';
 
     // ordered.
-    $text = bbencode_first_pass_pda($text, $uid, $open_tag, '[/list]', '[/list:o]',  false, 'replace_listitems');
+    $text = bbencode_first_pass_pda($text, $uid, $open_tag, '[/list]', '[/list:o]', false, 'replace_listitems');
 
     // [color] and [/color] for setting text color
     $text = preg_replace("#\[color=(\#[0-9A-F]{6}|[a-z\-]+)\](.*?)\[/color\]#si", "[color=\\1:$uid]\\2[/color:$uid]", $text);
@@ -575,7 +575,7 @@ function make_clickable($text)
 
     // matches a "www|ftp.xxxx.yyyy[/zzzz]" kinda lazy URL thing
     // Must contain at least 2 dots. xxxx contains either alphanum, or "-"
-    // zzzz is optional.. will contain everything up to the first space, newline, 
+    // zzzz is optional.. will contain everything up to the first space, newline,
     // comma, double quote or <.
     $ret = preg_replace("#(^|[\n ])((www|ftp)\.[\w\#$%&~/.\-;:=,?@\[\]+]*)#is", '\\1<a href="http://\\2" target="_blank">\\2</a>', $ret);
 

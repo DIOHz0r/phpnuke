@@ -257,8 +257,7 @@ function check() {
                 ?>
   				<tr>
   					<td width="100">Site name</td>
-  					<td align="center"><input class="inputbox" type="text" name="sitename" size="50" value="<?php echo "{$configArray['sitename']}";
-                ?>" /></td>
+  					<td align="center"><input class="inputbox" type="text" name="sitename" size="50" value="<?php echo "{$configArray['sitename']}"; ?>" /></td>
   				</tr>
   				<tr>
   					<td width="100">&nbsp;</td>

@@ -619,7 +619,7 @@ switch ($mode) {
         }
         break;
 
-    case 'export';
+    case 'export':
         if ($HTTP_POST_VARS['export_template']) {
             $template_name = $HTTP_POST_VARS['export_template'];
 

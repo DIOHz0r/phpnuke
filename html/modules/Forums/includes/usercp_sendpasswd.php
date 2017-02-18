@@ -81,7 +81,7 @@ if (isset($HTTP_POST_VARS['submit'])) {
                 'META' => '<meta http-equiv="refresh" content="15;url='.append_sid("index.$phpEx").'">', )
             );
 
-            $message = $lang['Password_updated'].'<br /><br />'.sprintf($lang['Click_return_index'],  '<a href="'.append_sid("index.$phpEx").'">', '</a>');
+            $message = $lang['Password_updated'].'<br /><br />'.sprintf($lang['Click_return_index'], '<a href="'.append_sid("index.$phpEx").'">', '</a>');
 
             message_die(GENERAL_MESSAGE, $message);
         } else {

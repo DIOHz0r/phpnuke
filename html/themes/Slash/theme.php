@@ -106,8 +106,7 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 			<td><img src="themes/Slash/images/cl.gif" width="7" height="10" alt=""><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""></td>
 			<td width="100%">
 			<table width="100%" border="0" cellpadding="2" cellspacing="0"><tr><td>
-			<font class="option" color="#FFFFFF"><B><?php echo"$title";
-        ?></B></font>
+			<font class="option" color="#FFFFFF"><B><?php echo"$title"; ?></B></font>
 			</td></tr></table>
 			</td><td align="right"><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""><img src="themes/Slash/images/cr.gif" width="7" height="10" alt=""></td>
          	</tr></table>
@@ -115,9 +114,7 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 			<td background="themes/Slash/images/gl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%">
 				<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr>
-				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone";
-        ?> (<?php echo $counter;
-        ?> reads)</font></td>
+				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone"; ?> (<?php echo $counter; ?> reads)</font></td>
 				</tr></table>
 			</td>
 			<td background="themes/Slash/images/gr.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
@@ -127,13 +124,9 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 			<td background="themes/Slash/images/wl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%"><table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td>
 			
-			<a href="modules.php?name=News&amp;new_topic=<?php echo"$topic";
-        ?>&author="><img src=<?php echo"$t_image";
-        ?> border=0 Alt=<?php echo"\"$topictext\"";
-        ?> align=right hspace=10 vspace=10></a>
+			<a href="modules.php?name=News&amp;new_topic=<?php echo"$topic"; ?>&author="><img src=<?php echo"$t_image"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
 			
-			<?php echo "$thetext";
-        ?>
+			<?php echo "$thetext"; ?>
                  </td></tr></table></td>
                  <td background="themes/Slash/images/wr.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 		</tr>
@@ -143,8 +136,7 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 			<td background="themes/Slash/images/wl_cccccc.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%">
 			<table width="100%" border="0" cellpadding="5" cellspacing="0"> 
-			<tr><td bgcolor="#cccccc"><font class="content"><?php echo"$morelink";
-        ?></font></td></tr></table>
+			<tr><td bgcolor="#cccccc"><font class="content"><?php echo"$morelink"; ?></font></td></tr></table>
 			</td>
 			<td background="themes/Slash/images/wr_cccccc.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 		</tr>
@@ -157,12 +149,10 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
         } else {
             $boxstuff = "$anonymous ";
         }
-        $boxstuff .= "writes <i>\"$thetext\"</i> $notes";
-        ?>		<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#DDDDDD"><tr valign="top" bgcolor="#660000">
+        $boxstuff .= "writes <i>\"$thetext\"</i> $notes"; ?>		<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#DDDDDD"><tr valign="top" bgcolor="#660000">
 			<td><img src="themes/Slash/images/cl.gif" width="7" height="10" alt=""><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""></td>
 			<td width="100%"><table width="100%" border="0" cellpadding="2" cellspacing="0"><tr><td>
-			<font class="option" color="#FFFFFF"><B><?php echo"$title";
-        ?></B></font>
+			<font class="option" color="#FFFFFF"><B><?php echo"$title"; ?></B></font>
 			</td></tr></table></td>
                  	<td align="right"><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""><img src="themes/Slash/images/cr.gif" width="7" height="10" alt=""></td>
          	</tr></table>
@@ -170,9 +160,7 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 			<td background="themes/Slash/images/gl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%">
 				<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr>
-				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone";
-        ?> (<?php echo $counter;
-        ?> reads)</font></td>
+				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone"; ?> (<?php echo $counter; ?> reads)</font></td>
 				</tr></table>
 			</td>
 			<td background="themes/Slash/images/gr.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
@@ -181,12 +169,8 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 		<tr bgcolor="#ffffff">
 			<td background="themes/Slash/images/wl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%"><table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td>
-			<a href="modules.php?name=News&amp;new_topic=<?php echo"$topic";
-        ?>&author="><img src=<?php echo"$t_image";
-        ?> border=0 Alt=<?php echo"\"$topictext\"";
-        ?> align=right hspace=10 vspace=10></a>
-			<?php echo "$boxstuff";
-        ?>
+			<a href="modules.php?name=News&amp;new_topic=<?php echo"$topic"; ?>&author="><img src=<?php echo"$t_image"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
+			<?php echo "$boxstuff"; ?>
                  </td></tr></table></td>
                  <td background="themes/Slash/images/wr.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 		</tr>
@@ -195,8 +179,7 @@ function themeindex($aid, $informant, $datetime, $title, $counter, $topic, $thet
 		<tr bgcolor="#ffffff">
 			<td background="themes/Slash/images/wl_cccccc.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%">
-			<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#cccccc"><font class="content"><?php echo"$morelink";
-        ?></font></td></tr></table>
+			<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#cccccc"><font class="content"><?php echo"$morelink"; ?></font></td></tr></table>
 			</td>
 			<td background="themes/Slash/images/wr_cccccc.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 		</tr>
@@ -221,8 +204,7 @@ function themearticle($aid, $informant, $datetime, $title, $thetext, $topic, $to
 			<td><img src="themes/Slash/images/cl.gif" width="7" height="10" alt=""><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""></td>
 			<td width="100%">
 			<table width="100%" border="0" cellpadding="2" cellspacing="0"><tr><td>
-			<font class="option" color="#FFFFFF"><B><?php echo"$title";
-        ?></B></font>
+			<font class="option" color="#FFFFFF"><B><?php echo"$title"; ?></B></font>
 			</td></tr></table>
 			</td><td align="right"><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""><img src="themes/Slash/images/cr.gif" width="7" height="10" alt=""></td>
          	</tr></table>
@@ -230,14 +212,12 @@ function themearticle($aid, $informant, $datetime, $title, $thetext, $topic, $to
 			<td background="themes/Slash/images/gl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%">
 				<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr>
-				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone";
-        ?></font>
+				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone"; ?></font>
 
 <?php
 if ($admin) {
-    echo "&nbsp;&nbsp; $font2 [ <a href=".$admin_file.".php?op=EditStory&sid=$sid>Edit</a> | <a href=".$admin_file.".php?op=RemoveStory&sid=$sid>Delete</a> ]";
-}
-        ?>
+            echo "&nbsp;&nbsp; $font2 [ <a href=".$admin_file.".php?op=EditStory&sid=$sid>Edit</a> | <a href=".$admin_file.".php?op=RemoveStory&sid=$sid>Delete</a> ]";
+        } ?>
 				</td>
 				</tr></table>
 			</td>
@@ -247,10 +227,8 @@ if ($admin) {
 		<tr bgcolor="#ffffff">
 			<td background="themes/Slash/images/wl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%"><table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td>
-		<?php echo "<a href=modules.php?name=News&amp;new_topic=$topic><img src=$t_image border=0 Alt=\"$topictext\" align=right hspace=10 vspace=10></a>";
-        ?>
-			<?php echo "$thetext";
-        ?>
+		<?php echo "<a href=modules.php?name=News&amp;new_topic=$topic><img src=$t_image border=0 Alt=\"$topictext\" align=right hspace=10 vspace=10></a>"; ?>
+			<?php echo "$thetext"; ?>
                  </td></tr></table></td>
                  <td background="themes/Slash/images/wr.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 		</tr>
@@ -263,13 +241,11 @@ if ($admin) {
         } else {
             $boxstuff = "$anonymous ";
         }
-        $boxstuff .= "writes <i>\"$thetext\"</i> $notes";
-        ?>		<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#DDDDDD"><tr valign="top" bgcolor="#660000">
+        $boxstuff .= "writes <i>\"$thetext\"</i> $notes"; ?>		<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#DDDDDD"><tr valign="top" bgcolor="#660000">
 			<td><img src="themes/Slash/images/cl.gif" width="7" height="10" alt=""><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""></td>
 			<td width="100%">
 			<table width="100%" border="0" cellpadding="2" cellspacing="0"><tr><td>
-			<font class="option" color="#FFFFFF"><B><?php echo"$title";
-        ?></B></font>
+			<font class="option" color="#FFFFFF"><B><?php echo"$title"; ?></B></font>
 			</td></tr></table>
 			</td><td align="right"><img src="themes/Slash/images/pix.gif" width="4" height="4" alt=""><img src="themes/Slash/images/cr.gif" width="7" height="10" alt=""></td>
          	</tr></table>
@@ -277,18 +253,14 @@ if ($admin) {
 			<td background="themes/Slash/images/gl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%">
 				<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr>
-				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone";
-        ?></font>
+				<td><font class="tiny">Posted by <?php formatAidHeader($aid) ?> on <?php echo"$datetime $timezone"; ?></font>
 				
 <?php
 if ($admin) {
-    echo "&nbsp;&nbsp; $font2 [ <a href=".$admin_file.".php?op=EditStory&sid=$sid>Editar</a> | <a href=".$admin_file.".php?op=RemoveStory&sid=$sid>Borrar</a> ]";
-}
-        ?>
-<br><?php echo "$font1";
-        ?>
-<?php echo "Contributed by <a href=\"modules.php?name=Your_Account&amp;op=userinfo&username=$informant\">$informant</a>";
-        ?>
+            echo "&nbsp;&nbsp; $font2 [ <a href=".$admin_file.".php?op=EditStory&sid=$sid>Editar</a> | <a href=".$admin_file.".php?op=RemoveStory&sid=$sid>Borrar</a> ]";
+        } ?>
+<br><?php echo "$font1"; ?>
+<?php echo "Contributed by <a href=\"modules.php?name=Your_Account&amp;op=userinfo&username=$informant\">$informant</a>"; ?>
 				</td>
 				</tr></table>
 			</td>
@@ -298,10 +270,8 @@ if ($admin) {
 		<tr bgcolor="#ffffff">
 			<td background="themes/Slash/images/wl.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 			<td width="100%"><table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td>
-		<?php echo "<a href=modules.php?name=News&amp;new_topic=$topic><img src=$t_image border=0 Alt=\"$topictext\" align=right hspace=10 vspace=10></a>";
-        ?>
-			<?php echo "$thetext";
-        ?>
+		<?php echo "<a href=modules.php?name=News&amp;new_topic=$topic><img src=$t_image border=0 Alt=\"$topictext\" align=right hspace=10 vspace=10></a>"; ?>
+			<?php echo "$thetext"; ?>
                  </td></tr></table></td>
                  <td background="themes/Slash/images/wr.gif"><img src="themes/Slash/images/pix.gif" width="11" height="11" alt=""></td>
 		</tr>
@@ -318,8 +288,7 @@ function themesidebox($title, $content)
 	<tr valign="top" bgcolor="#660000">
 		<td bgcolor="#dddddd"><img src="themes/Slash/images/pix.gif" width="3" height="3" alt=""></td>
 		<td><img src="themes/Slash/images/cl.gif" width="7" height="10" alt=""></td>
-		<td><font class="tiny" color="#ffffff"><B><?php echo"$title";
-    ?></B></font></td>
+		<td><font class="tiny" color="#ffffff"><B><?php echo"$title"; ?></B></font></td>
 		<td align="right"><img src="themes/Slash/images/cr.gif" width="7" height="10" alt=""></td>
 		<td bgcolor="#dddddd" align="right"><img src="themes/Slash/images/pix.gif" width="3" height="3" alt=""></td>
 	</tr>
@@ -329,9 +298,7 @@ function themesidebox($title, $content)
 	<tr bgcolor="#ffffff">
 		<td background="themes/Slash/images/sl.gif"><img src="themes/Slash/images/pix.gif" width="3" height="3" alt=""></td>
 		<td width="100%">
-		<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td><?php echo"$font2";
-    ?><?php echo"$content";
-    ?>
+		<table width="100%" border="0" cellpadding="5" cellspacing="0"><tr><td><?php echo"$font2"; ?><?php echo"$content"; ?>
 		</td></tr></table></td>
 		<td background="themes/Slash/images/sr.gif" align="right"><img src="themes/Slash/images/pix.gif" width="3" height="3" alt=""></td>
 	</tr>

@@ -135,4 +135,3 @@ define('_BANNERNAME', 'Banner Name');
 define('_CLIENT', 'Client');
 define('_YEARS', 'Years');
 define('_MONTHS', 'Months');
-

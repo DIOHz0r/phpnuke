@@ -20,7 +20,7 @@
  *
  ***************************************************************************/
 
-// 
+//
 // To add an entry to your BBCode guide simply add a line to this file in this format:
 // $faq[] = array("question", "answer");
 // If you want to separate a section enter $faq[] = array("--","Block heading goes here if wanted");

@@ -180,10 +180,8 @@ array('Session auto start','session.auto_start','OFF'),
 foreach ($php_recommended_settings as $phprec) {
     ?>
 <tr>
-	<td class="item"><?php echo $phprec[0];
-    ?>:</td>
-	<td class="toggle"><?php echo $phprec[2];
-    ?>:</td>
+	<td class="item"><?php echo $phprec[0]; ?>:</td>
+	<td class="toggle"><?php echo $phprec[2]; ?>:</td>
 	<td>
 	<?php
     if (get_php_setting($phprec[1]) == $phprec[2]) {
@@ -197,8 +195,7 @@ foreach ($php_recommended_settings as $phprec) {
 	<?php
 
     }
-    echo get_php_setting($phprec[1]);
-    ?>
+    echo get_php_setting($phprec[1]); ?>
 	</b></font>
 	<td>
 </tr>

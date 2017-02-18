@@ -113,29 +113,21 @@ function themeindex($aid, $informant, $time, $title, $counter, $topic, $thetext,
 
 <table border=0 cellpadding=3 cellspacing=1 width=100%>
 	<tr>
-		<td bgcolor=CCCCCC><font class=title> <b><?php echo"$title";
-        ?></b><br></td>
+		<td bgcolor=CCCCCC><font class=title> <b><?php echo"$title"; ?></b><br></td>
 	</tr>
 	<tr>
 		<td bgcolor=FFFFFF><a
-			href="modules.php?name=News&amp;new_topic=<?php echo"$topic";
-        ?>&author="><img
-			src=<?php echo"$t_image";
-        ?> border=0
-			Alt=<?php echo"\"$topictext\"";
-        ?> align=right hspace=10 vspace=10></a>
+			href="modules.php?name=News&amp;new_topic=<?php echo"$topic"; ?>&author="><img
+			src=<?php echo"$t_image"; ?> border=0
+			Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
 		<font class=tiny> Posted by <b><?php formatAidHeader($aid);
-        echo "$aid";
-        ?></b>
-		on <?php echo"$time $timezone";
-        ?><br>
-		(<?php echo $counter;
-        ?> reads) </font><br>
+        echo "$aid"; ?></b>
+		on <?php echo"$time $timezone"; ?><br>
+		(<?php echo $counter; ?> reads) </font><br>
 		<br>
 		<font class=content> <?php echo"$thetext<br><br></font>
 </td></tr><tr><td align=left>
-<font class=content>$morelink";
-        ?></font></td>
+<font class=content>$morelink"; ?></font></td>
 	</tr>
 </table>
 <br>
@@ -148,33 +140,24 @@ function themeindex($aid, $informant, $time, $title, $counter, $topic, $thetext,
         } else {
             $boxstuff = "$anonymous ";
         }
-        $boxstuff .= "writes <i>\"$thetext\"</i> $notes";
-        ?>
+        $boxstuff .= "writes <i>\"$thetext\"</i> $notes"; ?>
 
 <table border=0 cellpadding=3 cellspacing=1 width=100%>
 	<tr>
-		<td bgcolor=CCCCCC><font class=title> <b><?php echo"$title";
-        ?></b><br>
+		<td bgcolor=CCCCCC><font class=title> <b><?php echo"$title"; ?></b><br>
 		<font class=option></td>
 	</tr>
 	<tr>
 		<td bgcolor=FFFFFF><a
-			href="modules.php?name=News&amp;new_topic=<?php echo"$topic";
-        ?>&author="><img
-			src=<?php echo"$t_image";
-        ?> border=0
-			Alt=<?php echo"\"$topictext\"";
-        ?> align=right hspace=10 vspace=10></a>
-		<font class=option> Posted by <?php formatAidHeader($aid);
-        ?> on <?php echo"$time $timezone";
-        ?><br>
-		(<?php echo $counter;
-        ?> reads) <br>
+			href="modules.php?name=News&amp;new_topic=<?php echo"$topic"; ?>&author="><img
+			src=<?php echo"$t_image"; ?> border=0
+			Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
+		<font class=option> Posted by <?php formatAidHeader($aid); ?> on <?php echo"$time $timezone"; ?><br>
+		(<?php echo $counter; ?> reads) <br>
 		<br>
 		</font> <font class=content> <?php echo"$boxstuff<br><br></font>
 </td></tr><tr><td align=left>
-<font class=option>$morelink";
-        ?></font></td>
+<font class=option>$morelink"; ?></font></td>
 	</tr>
 </table>
 <br>

@@ -222,17 +222,12 @@ if ($siteUrl) {
 } else {
     ?>
 	<form action="install3.php" method="post" name="stepBack3" id="stepBack3">
-	  <input type="hidden" name="DBhostname" value="<?php echo $DBhostname;
-    ?>" />
-	  <input type="hidden" name="DBusername" value="<?php echo $DBuserName;
-    ?>" />
-	  <input type="hidden" name="DBpassword" value="<?php echo $DBpassword;
-    ?>" />
-	  <input type="hidden" name="DBname" value="<?php echo $DBname;
-    ?>" />
+	  <input type="hidden" name="DBhostname" value="<?php echo $DBhostname; ?>" />
+	  <input type="hidden" name="DBusername" value="<?php echo $DBuserName; ?>" />
+	  <input type="hidden" name="DBpassword" value="<?php echo $DBpassword; ?>" />
+	  <input type="hidden" name="DBname" value="<?php echo $DBname; ?>" />
 	  <input type="hidden" name="DBcreated" value="1" />
-	  <input type="hidden" name="sitename" value="<?php echo $sitename;
-    ?>" />
+	  <input type="hidden" name="sitename" value="<?php echo $sitename; ?>" />
 	  <input type="hidden" name="adminEmail" value="$adminEmail" />
 	  <input type="hidden" name="siteUrl" value="$siteUrl" />
 	  <input type="hidden" name="absolutePath" value="$absolutePath" />
@@ -303,7 +298,7 @@ echo '<?xml version="1.0" encoding="iso-8859-1"?'.'>';
 						<tr><td>&nbsp;</td></tr>
 						<tr><td align="right">&nbsp;</td></tr>
 <?php	                    if (!$canWrite) {
-                        ?>
+    ?>
 						<tr>
 							<td class="small">
 							<font color="FF0000"><b>WARNING:</b></font> Your configuration file or directory is not writeable,
@@ -316,12 +311,11 @@ echo '<?xml version="1.0" encoding="iso-8859-1"?'.'>';
 						</tr>
 						<tr>
 							<td align="center">
-								<textarea rows="20" cols="60" name="configcode" onclick="javascript:this.form.configcode.focus();this.form.configcode.select();" ><?php echo htmlspecialchars($config);
-                        ?></textarea>
+								<textarea rows="20" cols="60" name="configcode" onclick="javascript:this.form.configcode.focus();this.form.configcode.select();" ><?php echo htmlspecialchars($config); ?></textarea>
 							</td>
 						</tr>
 <?php	
-                    } ?>
+} ?>
 						<tr><td class="small"><?php /*echo $chmod_report*/; ?></td></tr>
 					</table>
 				</div>

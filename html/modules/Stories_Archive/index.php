@@ -365,7 +365,7 @@ $month_l = isset($month_l) ? FixQuotes($month_l) : '';
 
 switch ($sa) {
 
-    case 'show_all' :
+    case 'show_all':
     show_all($min);
     break;
 

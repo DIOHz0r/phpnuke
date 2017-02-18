@@ -171,7 +171,7 @@ $lang['Posted_article_total'] = 'Our users have posted a total of <b>%d</b> arti
 $lang['Registered_users_zero_total'] = 'We have <b>0</b> registered users'; // # registered users
 $lang['Registered_users_total'] = 'We have <b>%d</b> registered users'; // # registered users
 $lang['Registered_user_total'] = 'We have <b>%d</b> registered user'; // # registered users
-$lang['Newest_user'] = 'The newest registered user is <b>%s%s%s</b>'; // a href, username, /a 
+$lang['Newest_user'] = 'The newest registered user is <b>%s%s%s</b>'; // a href, username, /a
 
 $lang['No_new_posts_last_visit'] = 'No new posts since your last visit';
 $lang['No_new_posts'] = 'No new posts';
@@ -239,7 +239,7 @@ $lang['Rules_delete_can'] = 'You <b>can</b> delete your posts in this forum';
 $lang['Rules_delete_cannot'] = 'You <b>cannot</b> delete your posts in this forum';
 $lang['Rules_vote_can'] = 'You <b>can</b> vote in polls in this forum';
 $lang['Rules_vote_cannot'] = 'You <b>cannot</b> vote in polls in this forum';
-$lang['Rules_moderate'] = 'You <b>can</b> %smoderate this forum%s'; // %s replaced by a href links, do not remove! 
+$lang['Rules_moderate'] = 'You <b>can</b> %smoderate this forum%s'; // %s replaced by a href links, do not remove!
 
 $lang['No_topics_post_one'] = 'There are no posts in this forum.<br />Click on the <b>Post New Topic</b> link on this page to post one.';
 
@@ -502,7 +502,7 @@ $lang['Click_view_privmsg'] = 'Click %sHere%s to visit your Inbox';
 //
 // Profiles/Registration
 //
-$lang['Viewing_user_profile'] = 'Viewing profile :: %s'; // %s is username 
+$lang['Viewing_user_profile'] = 'Viewing profile :: %s'; // %s is username
 $lang['About_user'] = 'All about %s'; // %s is username
 
 $lang['Preferences'] = 'Preferences';

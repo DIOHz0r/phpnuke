@@ -13,13 +13,13 @@
  * in a production environment.  If something goes wrong, you can always
  * backout and restore your backups.
  *
- * Installing and running this also means you agree to the terms of the AUP 
+ * Installing and running this also means you agree to the terms of the AUP
  * found at Nuke Cops.
  *
  * This is version 2.1 of the phpbb2 forum port for PHP-Nuke.  Work is based
  * on Tom Nitzschner's forum port version 2.0.6.  Tom's 2.0.6 port was based
  * on the phpbb2 standalone version 2.0.3.  Our version 2.1 from Nuke Cops is
- * now reflecting phpbb2 standalone 2.0.4 that fixes some major SQL 
+ * now reflecting phpbb2 standalone 2.0.4 that fixes some major SQL
  * injection exploits.
  ***************************************************************************/
 

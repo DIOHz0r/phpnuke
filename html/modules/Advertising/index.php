@@ -321,15 +321,15 @@ function GoogleCH($url, $length = null, $init = GOOGLE_MAGIC)
     switch ($len) {
         case 11: $c += ($url[$k + 10] << 24);
         case 10: $c += ($url[$k + 9] << 16);
-        case 9 : $c += ($url[$k + 8] << 8);
-        case 8 : $b += ($url[$k + 7] << 24);
-        case 7 : $b += ($url[$k + 6] << 16);
-        case 6 : $b += ($url[$k + 5] << 8);
-        case 5 : $b += ($url[$k + 4]);
-        case 4 : $a += ($url[$k + 3] << 24);
-        case 3 : $a += ($url[$k + 2] << 16);
-        case 2 : $a += ($url[$k + 1] << 8);
-        case 1 : $a += ($url[$k + 0]);
+        case 9: $c += ($url[$k + 8] << 8);
+        case 8: $b += ($url[$k + 7] << 24);
+        case 7: $b += ($url[$k + 6] << 16);
+        case 6: $b += ($url[$k + 5] << 8);
+        case 5: $b += ($url[$k + 4]);
+        case 4: $a += ($url[$k + 3] << 24);
+        case 3: $a += ($url[$k + 2] << 16);
+        case 2: $a += ($url[$k + 1] << 8);
+        case 1: $a += ($url[$k + 0]);
     }
     $mix = mix($a, $b, $c);
 

@@ -497,7 +497,7 @@ if (isset($admin) && !empty($admin)) {
                                                 include 'footer.php';
                                                 break;
 
-                                                case 'login';
+                                                case 'login':
                                                 unset($op);
 
                                                 default:

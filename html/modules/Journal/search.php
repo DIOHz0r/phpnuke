@@ -110,7 +110,7 @@ if (!defined('MODULE_FILE')) {
                 $editdel = 2;
             }
         }
-       
+
         if ($editdel == '1') {
             echo ("<td align=center width=\"5%\"><strong>"._EDIT."</strong></td>");
             echo ("<td align=center width=\"5%\"><strong>"._DELETE."</strong></td>");

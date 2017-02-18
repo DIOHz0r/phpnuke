@@ -167,7 +167,7 @@ if ($result = $db->sql_query($sql)) {
                                                 'META' => '<meta http-equiv="refresh" content="5;url='.append_sid("index.$phpEx").'">', )
                                         );
 
-                    $message = $lang['Email_sent'].'<br /><br />'.sprintf($lang['Click_return_index'],  '<a href="'.append_sid("index.$phpEx").'">', '</a>');
+                    $message = $lang['Email_sent'].'<br /><br />'.sprintf($lang['Click_return_index'], '<a href="'.append_sid("index.$phpEx").'">', '</a>');
 
                     message_die(GENERAL_MESSAGE, $message);
                 } else {

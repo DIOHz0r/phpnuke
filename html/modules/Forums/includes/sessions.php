@@ -63,7 +63,7 @@ function session_begin($user_id, $user_ip, $page_id, $auto_create = 0, $enable_a
         $enable_autologin = $sessiondata['autologinid'] = false;
     }
 
-    // 
+    //
     // First off attempt to join with the autologin value if we have one
     // If not, just use the user_id value
     //
@@ -255,7 +255,7 @@ function session_pagestart($user_ip, $thispage_id, $nukeuser)
         $sessionmethod = SESSION_METHOD_GET;
     }
 
-    // 
+    //
     if (!preg_match('/^[A-Za-z0-9]*$/', $session_id)) {
         $session_id = '';
     }

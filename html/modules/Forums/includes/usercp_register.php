@@ -24,10 +24,10 @@
 /*
 
     This code has been modified from its original form by psoTFX @ phpbb.com
-    Changes introduce the back-ported phpBB 2.2 visual confirmation code. 
+    Changes introduce the back-ported phpBB 2.2 visual confirmation code.
 
     NOTE: Anyone using the modified code contained within this script MUST include
-    a relevant message such as this in usercp_register.php ... failure to do so 
+    a relevant message such as this in usercp_register.php ... failure to do so
     will affect a breach of Section 2a of the GPL and our copyright
 
     png visual confirmation system : (c) phpBB Group, 2003 : All Rights Reserved
@@ -493,9 +493,9 @@ if (isset($HTTP_POST_VARS['submit'])) {
                     $db->sql_freeresult($result);
                 }
 
-                $message = $lang['Profile_updated_inactive'].'<br /><br />'.sprintf($lang['Click_return_index'],  '<a href="'.append_sid("index.$phpEx").'">', '</a>');
+                $message = $lang['Profile_updated_inactive'].'<br /><br />'.sprintf($lang['Click_return_index'], '<a href="'.append_sid("index.$phpEx").'">', '</a>');
             } else {
-                $message = $lang['Profile_updated'].'<br /><br />'.sprintf($lang['Click_return_index'],  '<a href="'.append_sid("index.$phpEx").'">', '</a>');
+                $message = $lang['Profile_updated'].'<br /><br />'.sprintf($lang['Click_return_index'], '<a href="'.append_sid("index.$phpEx").'">', '</a>');
             }
 
 //                            $template->assign_vars(array(
@@ -637,7 +637,7 @@ if (isset($HTTP_POST_VARS['submit'])) {
                 $db->sql_freeresult($result);
             }
 
-            $message = $message.'<br /><br />'.sprintf($lang['Click_return_index'],  '<a href="'.append_sid("index.$phpEx").'">', '</a>');
+            $message = $message.'<br /><br />'.sprintf($lang['Click_return_index'], '<a href="'.append_sid("index.$phpEx").'">', '</a>');
 
             message_die(GENERAL_MESSAGE, $message);
         } // if mode == register

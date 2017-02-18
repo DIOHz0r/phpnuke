@@ -27,8 +27,8 @@ if (!isset($popup) or ($popup != '1')) {
     $module_name = basename(dirname(__FILE__));
     require 'modules/'.$module_name.'/nukebb.php';
 } else {
-        $phpbb_root_path = 'modules/Forums/';
-    }
+    $phpbb_root_path = 'modules/Forums/';
+}
 define('IN_PHPBB', true);
 include $phpbb_root_path.'extension.inc';
 include $phpbb_root_path.'common.'.$phpEx;
@@ -378,7 +378,7 @@ if (($total_categories = count($category_rows))) {
                             $row_color = (!($i % 2)) ? $theme['td_color1'] : $theme['td_color2'];
                             $row_class = (!($i % 2)) ? $theme['td_class1'] : $theme['td_class2'];
 
-                            $template->assign_block_vars('catrow.forumrow',    array(
+                            $template->assign_block_vars('catrow.forumrow', array(
                                 'ROW_COLOR' => '#'.$row_color,
                                 'ROW_CLASS' => $row_class,
                                 'FORUM_FOLDER_IMG' => $folder_image,
